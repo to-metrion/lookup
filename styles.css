@@ -1,0 +1,737 @@
+/* General styles */
+body {
+    font-family: 'Helvetica', 'Arial', 'sans-serif';
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #444;
+    height: 80px;
+}
+
+button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+.main-content {
+    padding: 10px;
+}
+
+#facility-select + .select2-container,
+#language-select + .select2-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Header icons */
+.settings-icon,
+.reset-icon {
+    width: 48px; /* Adjust size as needed */
+}
+
+/* Containers */
+.trainer-select-container {
+    flex-grow: 1;
+    margin: 0 10px;
+    padding-left: 20px;
+}
+
+.quote-select-container {
+    margin: 10px 0; /* Reduce padding */
+    width: 100%;
+}
+
+/* Toggle switch */
+.switch {
+    position: absolute;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+/* Mode toggle */
+.mode-toggle-container {
+    display: flex;
+    flex-direction: column; /* Move label below switch */
+    align-items: center;
+}
+
+#mode-label {
+    margin-top: 30px; /* Adjust margin as needed */
+    font-size: 64px;
+    margin-left: 10px;
+}
+
+/* Pokemon menus */
+#pokemon-menus {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+
+.pokemon-menu-container {
+    width: 48%; /* Default for doubles mode */
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
+#pokemon-menu-container-1.single-mode {
+    width: 100%;
+}
+
+#pokemon-menu-container-2 {
+    display: none; /* Hide the second menu in singles mode */
+}
+
+.pokemon-menu-container.single {
+    width: 100%;
+}
+
+.pokemon-menu-container.double {
+    width: 50%;
+}
+
+/* Trainer menu styles */
+.select2-container--trainer .select2-selection--single {
+    background-color: #444 !important;
+    border: 1px solid #555 !important;
+    color: #fff !important;
+    height: 75px !important;
+    font-size: 56px !important;
+    display: flex !important;
+    align-items: center !important;
+    vertical-align: middle !important;
+    padding-left: 10px !important;
+    width: 100% !important;
+}
+
+.select2-container--trainer .select2-selection--single .select2-selection__rendered {
+    color: #fff !important;
+    font-family: 'Futura', sans-serif !important;
+    font-variant-caps: small-caps !important;
+    line-height: 70px !important;
+}
+
+/* Select2 arrow styles */
+.select2-container--open .select2-selection__arrow {
+    transform: rotate(180deg) !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 35px;
+    top: 50%;
+    right: 0px;
+    width: 35px;
+    margin-top: -15px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    background-image: url(https://cdn4.iconfinder.com/data/icons/user-interface-174/32/UIF-76-512.png);
+    background-color: transparent;
+    background-size: contain;
+    border: none !important;
+    height: 30px !important;
+    width: 30px !important;
+    margin: auto !important;
+    top: auto !important;
+    left: auto !important;
+}
+
+.trainer-sprite-select2 {
+    height: 60px !important;
+    width: auto;
+    margin-right: 10px !important;
+    vertical-align: middle !important;
+    padding-bottom: 5px !important;
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5)) !important;
+}
+
+.pokemon-sprite-select2 {
+    height: 30px; /* Adjust the height as needed */
+    width: auto; /* Maintain aspect ratio */
+    margin-right: 10px;
+    vertical-align: middle;
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5)) !important;
+}
+
+/* Other menus styles */
+.select2-container--default .select2-selection--single {
+    background-color: #444;
+    border: 1px solid #555;
+    color: #fff;
+    height: 40px; /* Original height */
+    font-size: 16px; /* Original text size */
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    width: 100%; /* Ensure the dropdowns take up the full width of the container */
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #fff;
+}
+
+.select2-dropdown {
+    background-color: #333;
+    border: 1px solid #555;
+}
+
+.select2-results__option {
+    padding: 8px 8px;
+}
+
+.select2-results__option--highlighted {
+    background-color: #555;
+    color: #fff;
+}
+
+.select2-container--default .select2-results>.select2-results__options {
+    max-height: 500px; /* Increase the height as needed */
+    overflow-y: auto; /* Ensure vertical scrolling if needed */
+}
+
+/* Miscellaneous styles */
+#quote-select,
+#pokemon-list,
+#pokemon-menus {
+    margin-top: 20px;
+}
+
+#reset-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #333;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Sets table */
+.sets-table {
+    width: 100%;
+    border-collapse: separate;
+    margin-top: 8px;
+    font-size: 0.8em; /* Make the text smaller */
+    border-spacing: 0 0.5em;
+}
+
+.sets-table th,
+.sets-table td {
+    border: none; /* Remove cell borders */
+    padding: 2px;
+    text-align: center;
+}
+
+.sets-table .even-row,
+.sets-table .odd-row {
+    margin-bottom: 5px; /* Add margin between rows */
+}
+
+.sets-table .even-row {
+    background-color: #444;
+}
+
+.sets-table .odd-row {
+    background-color: #555;
+}
+
+.sets-table img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.sets-table td img {
+    width: auto; /* Ensure item sprites display at full size */
+    height: 32px; /* Keep the height fixed for consistency */
+}
+
+.set-row {
+    cursor: pointer;
+    margin-bottom: 5px; /* Add margin between rows */
+    transition: background-color 0.2s ease, border 0.2s ease;
+    border-radius: 5px; /* Add border-radius */
+}
+
+.set-row:hover {
+    background-color: #666; /* Highlight row when hovered */
+}
+
+.set-row.selected {
+    background-color: #888; /* Highlight row when selected */
+    border: 1px solid yellow;
+    border-radius: 5px;
+    margin-bottom: 0.5em; /* Maintain spacing between rows */
+}
+
+.set-details {
+    margin-top: 10px;
+    background-color: #444;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row; /* Default to row */
+    flex-wrap: wrap; /* Allow wrapping */
+    align-content: center;
+    gap: 10px;
+}
+
+.left-column,
+.middle-column
+ {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.right-column
+ {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.left-column .large-sprite {
+    width: 125px; /* Fixed width */
+    height: auto; /* Maintain aspect ratio */
+    align-self: left;
+    margin-bottom: 5px;
+}
+
+.type-icons,
+.item,
+.nature,
+.moves,
+.speed,
+.abilities,
+.evs,
+.copy {
+    margin-bottom: 5px;
+}
+
+.set-name {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-variant-caps: small-caps;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+    font-size: 1.5em;
+}
+
+.type-icons {
+    display: flex;
+    justify-content: left;
+}
+
+.type-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.item-icon,
+.speed-icon {
+    width: 32px; /* Set the size of the item and speed icons */
+    height: 32px;
+    vertical-align: middle;
+}
+
+.nature {
+    font-variant-caps: small-caps;
+    font-size: 1.3em;
+}
+
+.nature-text {
+    font-size: 0.7em; /* Make the text smaller */
+    font-variant-caps: normal;
+}
+
+.moves {
+    font-size: 1.1em;
+    line-height: 1.3;
+}
+
+.speed {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.abilities {
+    font-size: 0.9em;
+}
+
+.abilities-list {
+    font-size: 0.9em;
+    line-height: 1.2;
+    font-variant-caps: normal;
+}
+
+.evs {
+    font-size: 1.2em;
+}
+
+.copy {
+    align-self: flex-end;
+}
+
+.copy-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.separator {
+    border-top: 1px dotted #888;
+    margin: 10px 0;
+}
+
+.mini-sprite {
+    transition: transform 0.2s ease;
+}
+
+.mini-sprite:hover {
+    transform: scale(1.1); /* Slightly enlarge the sprite */
+    cursor: pointer; /* Change the cursor to a pointer */
+}
+
+.mini-sprite.highlighted {
+    border: 2px solid yellow; /* Highlight the sprite with a yellow border */
+    border-radius: 5px;
+}
+
+.pokemon-sprite {
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pokemon-sprite:hover {
+    transform: scale(1.2);
+}
+
+.pokemon-sprite.selected {
+    border: 1px solid yellow;
+    border-radius: 5px;
+    transform: scale(1.2);
+}
+
+/* Flag icons */
+.flag-icon-select2,
+.flag-icon {
+    width: auto;
+    height: 16px;  /* Adjust size as needed */
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.flag-icon-select2 {
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
+}
+
+/* Media queries */
+@media only screen and (max-width: 768px) {
+    .mode-toggle-container {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        height: 60px; /* Adjust height for mobile */
+        flex-direction: row; /* Align elements in a row */
+        justify-content: space-between; /* Ensure spacing between elements */
+        align-items: center; /* Align items vertically in the center */
+        padding: 5px; /* Adjust padding */
+        position: relative; /* Ensure positioning context for settings button */
+    }
+
+    .trainer-select-container {
+        width: calc(100% - 40px); /* Adjust width to accommodate settings button */
+        padding-left: 5px; /* Adjust padding */
+        margin: 0; /* Remove margin */
+    }
+
+    #trainer-dropdown {
+        font-size: 24px; /* Adjust font size for mobile */
+        height: 40px; /* Adjust height for mobile */
+    }
+
+    .select2-container--trainer .select2-selection--single {
+        font-size: 24px !important; /* Adjust font size for mobile */
+        height: 40px !important; /* Adjust height for mobile */
+    }
+
+    .select2-container--trainer .select2-selection--single .select2-selection__rendered {
+        line-height: 40px !important; /* Adjust line height for mobile */
+    }
+
+    .trainer-sprite-select2 {
+        height: 30px !important; /* Adjust sprite size for mobile */
+        width: auto !important; /* Maintain aspect ratio */
+        margin-right: 5px !important; /* Adjust margin */
+    }
+
+    .quote-select-container {
+        margin: 5px 0; /* Adjust margin for mobile */
+    }
+
+    #mode-label {
+        font-size: 24px; /* Adjust font size for mobile */
+        margin-top: 0; /* Adjust margin for mobile */
+    }
+
+    .switch {
+        margin-top: 0; /* Adjust margin for mobile */
+    }
+
+    .settings-icon {
+        padding: 5px; /* Adjust padding for mobile */
+        width: 32px; /* Set width for mobile */
+        background-size: contain; /* Ensure background image fits */
+        background-repeat: no-repeat; /* Prevent repeating background image */
+    }
+
+    .singles-mode .set-details {
+        margin-top: 10px;
+        background-color: #444;
+        padding: 10px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row; /* Default to row */
+        flex-wrap: wrap; /* Allow wrapping */
+        align-content: center;
+        gap: 10px;
+    }
+
+    .singles-mode .left-column,
+    .middle-column,
+    .right-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px;
+        flex: 1;
+        min-width: 150px;
+    }
+
+    .singles-mode .left-column .large-sprite {
+        width: 75px; /* Fixed width */
+        height: auto; /* Maintain aspect ratio */
+        align-self: left;
+        margin-bottom: 5px;
+    }
+
+    .singles-mode .type-icons,
+    .item,
+    .nature,
+    .moves,
+    .speed,
+    .abilities,
+    .evs,
+    .copy {
+        margin-bottom: 5px;
+    }
+
+    .singles-mode .set-name {
+        margin-top: 0px;
+        margin-bottom: 10px;
+        font-variant-caps: small-caps;
+        font-weight: bold;
+        letter-spacing: 0.3px;
+        font-size: 1em;
+    }
+
+    .singles-mode .type-icons {
+        display: flex;
+        justify-content: left;
+    }
+
+    .singles-mode .type-icon {
+        width: 20px;
+        height: 20px;
+        margin-left: 5px;
+    }
+
+    .singles-mode .item-icon,
+    .singles-mode .speed-icon {
+        width: 24px; /* Set the size of the item and speed icons */
+        height: 24px;
+        vertical-align: middle;
+    }
+
+    .singles-mode .item {
+        font-size: 0.7em;
+    }
+
+    .singles-mode .nature {
+        font-variant-caps: small-caps;
+        font-size: 0.9em;
+    }
+
+    .singles-mode .nature-text {
+        font-size: 0.5em; /* Make the text smaller */
+        font-variant-caps: normal;
+    }
+
+    .singles-mode .moves {
+        font-size: 0.8em;
+        line-height: 1.4;
+    }
+
+    .singles-mode .speed {
+        font-weight: bold;
+        font-size: 1em;
+    }
+
+    .singles-mode .abilities {
+        font-size: 0.8em;
+    }
+
+    .singles-mode .abilities-list {
+        font-size: 0.8em;
+        line-height: 1.1;
+        font-variant-caps: normal;
+    }
+
+    .singles-mode .evs {
+        font-size: 0.9em;
+    }
+
+    .singles-mode .copy {
+        align-self: flex-end;
+    }
+
+    .singles-mode .copy-icon {
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+        vertical-align: middle;
+    }
+
+    .singles-mode .sets-table {
+        width: 100%;
+        border-collapse: separate;
+        margin-top: 8px;
+        font-size: 0.7em; /* Make the text smaller */
+        border-spacing: 0 0.5em;
+    }
+
+    #reset-btn {
+        visibility: hidden;
+    }
+
+    .flag-icon {
+        height: 16px;  /* Adjust size as needed */
+        width: auto;
+        margin-right: 5px;
+        vertical-align: middle;
+    }
+}

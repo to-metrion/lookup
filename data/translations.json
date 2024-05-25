@@ -1,0 +1,35 @@
+{
+    "trainerDropdownPlaceholder": {
+        "en": "Trainer",
+        "fr": "Dresseur",
+        "jp": "トレーナー",
+        "it": "Allenator",
+        "de": "Trainer",
+        "es": "Entrenador",
+        "ko": "트레이너",
+        "chs": "训练家",
+        "cht": "訓練家"
+    },
+    "quoteDropdownPlaceholder": {
+        "en": "Quote",
+        "fr": "Citation",
+        "jp": "引用",
+        "it": "Citazion",
+        "de": "Zitat",
+        "es": "Cita",
+        "ko": "따옴표",
+        "chs": "引号",
+        "cht": "引號"
+    },
+    "settings": {
+        "en": "Settings",
+        "fr": "Réglages",
+        "jp": "設定",
+        "it": "Impostazioni",
+        "de": "Einstellungen",
+        "es": "Ajustes",
+        "ko": "설정",
+        "chs": "设置",
+        "cht": "設定"
+    }
+}

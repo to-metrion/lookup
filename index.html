@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Battle Facility Tool</title>
+</head>
+<body>
+    <header>
+        <div class="mode-toggle-container">
+            <label class="switch">
+                <input type="checkbox" id="mode-toggle" onclick="toggleMode()">
+                <span class="slider round"></span>
+            </label>
+            <span id="mode-label">Mode</span>
+        </div>
+        <div class="trainer-select-container">
+            <select id="trainer-dropdown" style="width: 100%;"></select>
+        </div>
+        <button id="settings-btn" onclick="openSettings()">
+            <img src="assets/images/settings.png" alt="Settings" class="settings-icon">
+        </button>
+    </header>
+    <div class="main-content">
+        <div class="quote-select-container">
+            <select id="quote-dropdown" style="width: 100%;"></select>
+        </div>
+        <div id="pokemon-list"></div>
+        <div id="pokemon-menus">
+            <div class="pokemon-menu-container" id="pokemon-menu-container-1">
+                <select id="pokemon-menu-1"></select>
+                <div id="pokemon-sets-1"></div>
+            </div>
+            <div class="pokemon-menu-container" id="pokemon-menu-container-2">
+                <select id="pokemon-menu-2"></select>
+                <div id="pokemon-sets-2"></div>
+            </div>
+        </div>
+    </div>
+    <button id="reset-btn" onclick="resetSelections()">
+        <img src="assets/images/clear.png" alt="Clear" class="reset-icon">
+    </button>
+    <div id="settings-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeSettings()">&times;</span>
+            <h2>Settings</h2>
+            <select id="facility-select" onchange="loadFacilityData()"></select>
+            <select id="language-select" onchange="loadLanguageData()"></select>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/settings.js"></script>
+    <script src="scripts/dataFetcher.js"></script>
+</body>
+</html>
