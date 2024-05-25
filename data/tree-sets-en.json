@@ -1628,7 +1628,7 @@
         {
             "setName": "Electivire-2",
             "species": "Electivire",
-            "setNumber": 3,
+            "setNumber": 2,
             "nature": "Impish",
             "item": "Electric Seed",
             "move1": "Electric Terrain",
@@ -1641,7 +1641,7 @@
         {
             "setName": "Magmortar-2",
             "species": "Magmortar",
-            "setNumber": 3,
+            "setNumber": 2,
             "nature": "Naughty",
             "item": "Sitrus Berry",
             "move1": "Belly Drum",
@@ -1654,7 +1654,7 @@
         {
             "setName": "Probopass-2",
             "species": "Probopass",
-            "setNumber": 3,
+            "setNumber": 2,
             "nature": "Relaxed",
             "item": "Leftovers",
             "move1": "Thunder Wave",
@@ -1667,7 +1667,7 @@
         {
             "setName": "Lickilicky-2",
             "species": "Lickilicky",
-            "setNumber": 3,
+            "setNumber": 2,
             "nature": "Careful",
             "item": "Normalium Z",
             "move1": "Defense Curl",

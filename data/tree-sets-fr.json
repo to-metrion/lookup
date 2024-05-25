@@ -1628,7 +1628,7 @@
         {
             "setName": "\u00c9lekable-2",
             "species": "\u00c9lekable",
-            "setNumber": 3,
+            "setNumber": 2,
             "nature": "Malin",
             "item": "Graine \u00c9lectrik",
             "move1": "Champ \u00c9lectrifi\u00e9",
@@ -1641,7 +1641,7 @@
         {
             "setName": "Maganon-2",
             "species": "Maganon",
-            "setNumber": 3,
+            "setNumber": 2,
             "nature": "Mauvais",
             "item": "Baie Sitrus",
             "move1": "Cognobidon",
@@ -1654,7 +1654,7 @@
         {
             "setName": "Tarinorme-2",
             "species": "Tarinorme",
-            "setNumber": 3,
+            "setNumber": 2,
             "nature": "Relax",
             "item": "Restes",
             "move1": "Cage \u00c9clair",
@@ -1667,7 +1667,7 @@
         {
             "setName": "Coudlangue-2",
             "species": "Coudlangue",
-            "setNumber": 3,
+            "setNumber": 2,
             "nature": "Prudent",
             "item": "Normaz\u00e9lite",
             "move1": "Boul'Armure",
