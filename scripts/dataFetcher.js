@@ -417,6 +417,10 @@ function showPokemonSets(menu, species, setsContainerId) {
         move4Cell.textContent = set.move4;
         row.appendChild(move4Cell);
 
+        const speedCell = document.createElement('td');
+        speedCell.textContent = set.speed;
+        row.appendChild(speedCell);
+
         table.appendChild(row);
     });
 
