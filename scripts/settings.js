@@ -92,6 +92,7 @@ function loadLanguageData() {
 
 function getAvailableFacilities() {
     return [
+        { code: "eba", name: "EisenBerry Academy" },
         { code: "tree", name: "Battle Tree (USUM)" },
         { code: "subway", name: "Battle Subway" }
     ];
@@ -99,6 +100,9 @@ function getAvailableFacilities() {
 
 function getAvailableLanguages(facility) {
     const languageOptions = {
+        "eba": [
+            { code: "en", name: "English" }
+        ],
         "tree": [
             { code: "en", name: "English" },
             { code: "jp", name: "日本語" }
@@ -112,8 +116,9 @@ function getAvailableLanguages(facility) {
 
 function getPokedexFileUrl(facility) {
     const pokedexFiles = {
+        "eba": "data/pokedex-9.json",
         "tree": "data/pokedex-7.json",
-        "subway": "data/pokedex-5.json"
+        "subway": "data/pokedex-5.json",
     };
 
     return pokedexFiles[facility] || "data/pokedex.json"; // Default to a generic pokedex.json if no match
