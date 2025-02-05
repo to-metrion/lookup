@@ -12043,7 +12043,7 @@
         {
             "setName": "Ogerpon-Wellspring-1",
             "species": "Ogerpon-Wellspring",
-            "setNumber": 2,
+            "setNumber": 1,
             "nature": "Adamant",
             "item": "Wellspring Mask",
             "move1": "Ivy Cudgel",
@@ -12057,7 +12057,7 @@
         {
             "setName": "Ogerpon-Hearthflame-1",
             "species": "Ogerpon-Hearthflame",
-            "setNumber": 3,
+            "setNumber": 1,
             "nature": "Jolly",
             "item": "Heartflame Mask",
             "move1": "Ivy Cudgel",
@@ -12071,7 +12071,7 @@
         {
             "setName": "Ogerpon-Cornerstone-1",
             "species": "Ogerpon-Cornerstone",
-            "setNumber": 4,
+            "setNumber": 1,
             "nature": "Jolly",
             "item": "Cornerstone Mask",
             "move1": "Ivy Cudgel",
