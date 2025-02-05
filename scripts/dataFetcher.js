@@ -491,6 +491,7 @@ function showSetDetails(set, setsContainerId) {
     const englishSpeciesName = speciesData ? speciesData.en.toLowerCase() : set.species.toLowerCase();
     const type1Img = `assets/images/types/${speciesData.type1.toLowerCase()}.png`;
     const type2Img = speciesData.type2 ? `assets/images/types/${speciesData.type2.toLowerCase()}.png` : null;
+    const teraImg = set.tera ? `assets/images/types/tera/${set.tera.toLowerCase()}.png` : null;
     const abilities = speciesData[`abilities-${language}`].split(', ');
 
     let sprite = `assets/images/sprites/${englishSpeciesName}.png`;
@@ -515,7 +516,8 @@ function showSetDetails(set, setsContainerId) {
             <h3 class="set-name">${set.setName}</h3>
             <div class="type-icons">
                 <img src="${type1Img}" alt="${speciesData.type1}" class="type-icon" />
-                ${type2Img ? `<img src="${type2Img}" alt="${speciesData.type2}" class="type-icon" />` : ''}
+                ${type2Img ? `<img src="${type2Img}" alt="${speciesData.type2}" class="type-icon" />` : '' }
+                ${teraImg ? `<img src="${teraImg}" alt="${set.tera}" class="type-icon" />` : '' }
             </div>
             <img src="${sprite}" alt="${set.species}" class="large-sprite" />
             <div class="item">
