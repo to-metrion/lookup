@@ -1835,24 +1835,6 @@
             "late": "1",
             "quote": "Mes Pok\u00e9mon et moi, on va donner tout ce qu'on a\u202f!",
             "sprite": "assets/images/gen7trainers/kukui.png"
-        },
-        {
-            "name": "",
-            "class": "",
-            "roster": "",
-            "species": "",
-            "late": "",
-            "quote": "",
-            "sprite": ""
-        },
-        {
-            "name": "",
-            "class": "",
-            "roster": "",
-            "species": "",
-            "late": "",
-            "quote": "",
-            "sprite": ""
         }
     ]
 }
