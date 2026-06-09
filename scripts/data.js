@@ -19,6 +19,13 @@ export function loadTranslations() {
     return fetchJSON('data/translations.json');
 }
 
+// Loads the sets file for a facility in a given language (used by the
+// Showdown export, which always needs the English sets).
+export async function loadSets(facility, language) {
+    const data = await fetchJSON(`data/${facility.code}-sets-${language}.json`);
+    return data.sets;
+}
+
 // Loads everything needed for one facility + language combination, in parallel.
 export async function loadFacilityData(facility, language) {
     const [trainers, sets, pokedex, natures, items] = await Promise.all([

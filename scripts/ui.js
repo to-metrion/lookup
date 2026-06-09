@@ -1,6 +1,7 @@
 // All DOM rendering: dropdowns, species list, set tables and set details.
 
 import { state } from './state.js';
+import { loadSets } from './data.js';
 
 /* ---------- lookup helpers ---------- */
 
@@ -337,11 +338,14 @@ function showSetDetails(slot, set) {
     // Copy-to-Showdown button.
     const copyIcon = details.querySelector('.copy-icon');
     const feedback = details.querySelector('.copy-feedback');
-    copyIcon.addEventListener('click', () => {
-        navigator.clipboard.writeText(showdownFormat(set, abilities)).then(() => {
+    copyIcon.addEventListener('click', async () => {
+        try {
+            await navigator.clipboard.writeText(await showdownExport(set, speciesData));
             feedback.hidden = false;
             setTimeout(() => { feedback.hidden = true; }, 1500);
-        }).catch(error => console.error('Failed to copy:', error));
+        } catch (error) {
+            console.error('Failed to copy:', error);
+        }
     });
 
     container.appendChild(details);
@@ -350,6 +354,20 @@ function showSetDetails(slot, set) {
 function typeIconHtml(type, isTera = false) {
     const path = isTera ? `types/tera/${type.toLowerCase()}` : `types/${type.toLowerCase()}`;
     return `<img src="assets/images/${path}.png" alt="${type}" class="type-icon" onerror="this.remove()" />`;
+}
+
+// Showdown (and similar tools) only accept English, so the export always uses
+// the English sets file — every localized set has an English counterpart with
+// the same (English species name, set number) key.
+async function showdownExport(set, speciesData) {
+    const englishAbilities = (speciesData['abilities-en'] || '').split(', ');
+    let englishSet = set;
+    if (state.language !== 'en') {
+        const englishSets = await loadSets(state.facility, 'en');
+        englishSet = englishSets.find(s =>
+            s.species === speciesData.en && s.setNumber === set.setNumber) || set;
+    }
+    return showdownFormat(englishSet, englishAbilities);
 }
 
 function showdownFormat(set, abilities) {
