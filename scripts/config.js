@@ -36,7 +36,7 @@ export const GAMES = [
                 pokedex: 'data/pokedex-7.json',
                 gen: 7,
                 languages: ['en', 'fr', 'it', 'de', 'es', 'jp', 'ko', 'chs', 'cht'],
-                modes: ['singles', 'doubles'],
+                modes: ['singles', 'doubles', 'multis'],
                 hasTrainers: true,
                 showMinisprites: true,
                 lateCutoff: 40,
@@ -56,25 +56,38 @@ export const GAMES = [
                 pokedex: 'data/pokedex-5.json',
                 gen: 5,
                 languages: ['en', 'fr', 'it', 'de', 'es', 'jp', 'ko'],
-                modes: ['singles', 'doubles'],
+                modes: ['singles', 'doubles', 'multis'],
                 hasTrainers: true,
                 showMinisprites: true,
                 lateCutoff: 28,
             },
         ],
     },
-    // EisenBerry Academy ('eba') is hidden for now; its data files remain in /data.
 ];
 
-// Battle modes. `slots` = how many Pokémon are shown side by side.
+// Battle modes. `sides` = how many opposing trainers are shown at once
+// (multis = two independent trainers); `slots` = Pokémon shown per side.
+// Total slot containers = sides * slots; slots are numbered left to right,
+// so in multis slot 1 belongs to trainer 1 and slot 2 to trainer 2.
 export const MODES = {
-    singles:  { icon: '⚀', slots: 1 },
-    doubles:  { icon: '⚁', slots: 2 },
-    triples:  { icon: '⚂', slots: 3 },
-    rotation: { icon: '⟳', slots: 3 },
+    singles: { icon: '⚀', sides: 1, slots: 1 },
+    doubles: { icon: '⚁', sides: 1, slots: 2 },
+    triples: { icon: '⚂', sides: 1, slots: 3 },  // also covers rotation battles
+    multis:  { icon: '⚃', sides: 2, slots: 1 },
 };
 
 export const MAX_SLOTS = 3;
+export const MAX_SIDES = 2;
+
+// Total visible slots for a mode.
+export function modeSlots(mode) {
+    return MODES[mode].sides * MODES[mode].slots;
+}
+
+// Which side (trainer) a slot belongs to in a given mode.
+export function slotSide(mode, slot) {
+    return MODES[mode].sides === 1 ? 1 : Math.ceil(slot / MODES[mode].slots);
+}
 
 // Themes override the CSS variables defined in styles.css via
 // <html data-theme="...">. 'dark' is the default (:root).

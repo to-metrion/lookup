@@ -7,8 +7,9 @@ export const state = {
     mode: 'singles',   // key into MODES (config.js)
     theme: 'dark',
     lateOnly: false,   // "late trainers only" filter
+    spritesOn: true,   // minisprite lists toggle (settings)
     translations: {},
     data: null,        // { trainers, sets, pokedex, natures, items }
-    trainer: null,     // currently selected trainer object
+    trainers: { 1: null, 2: null },  // selected trainer per side (multis uses 2)
     activeSets: {},    // selected set per slot number
 };

@@ -26,7 +26,7 @@ Internal planning document — tracks goals and progress for the Battle Facility
 - [x] Visual settings: theme picker as dual-color swatches (8 themes), late filter as "40+"/"28+"
       button styled like the other settings rows (no text needed)
 - [x] Mode control: big accent-colored mode glyph with a small multi-position slider track under it
-      (alt accent color on 3rd/4th positions; glyph click cycles, notch click jumps)
+      (glyph click cycles, notch click jumps)
 - [x] Old-gen move names modernized in data ("SolarBeam" → "Solar Beam", "Faint Attack" → "Feint Attack", ...)
 - [x] Theme-tinted icons via CSS masks (settings cog, reset arrow, copy) — single PNGs, no recolored copies
 - [x] Move type icons in set details, gen-aware (`data/moves.json` via `tools/convert_moves.js`;
@@ -36,6 +36,14 @@ Internal planning document — tracks goals and progress for the Battle Facility
       gen 3/4 facilities; e.g. Curse is already handled)
 - [x] Data validator (`tools/validate.py`) — also checks gen-aware move coverage
 - [x] Game icons in the game select (`icons` list per game, one per flagship version)
+- [x] Multi Battles mode (⚃): "sides" model — every mode is sides × slots (multis = 2 trainers,
+      1 Pokémon each). Two trainer/quote menus side by side (stacked on mobile), per-trainer
+      species lists above each Pokémon column (suppressed on mobile), mobile gets a ⚃ settings
+      toggle instead of the header mode switch. Enabled for Tree and Subway.
+- [x] Per-slot minisprite lists in ALL modes (each slot's list fills exactly that slot —
+      replaces the old "sprites only fill the last slot" behavior users complained about),
+      with a Bulbasaur settings toggle to hide them (default on)
+- [x] Settings menu: no title, theme swatches at the top
 - [x] Localization pipeline (`tools/build_languages.py`): generates trainer/set files and fills
       dex/item/nature columns from the [poke-corpus](https://github.com/abcboy101/poke-corpus)
       game text dumps (clone locally, default path `/tmp/pokecorpus/corpus`)
@@ -55,7 +63,9 @@ Internal planning document — tracks goals and progress for the Battle Facility
 
 1. [ ] **SwSh Battle Tower** — basic format. Quirk: some trainers Dynamax specific Pokémon → per-trainer `maxed` field (e.g. `"Charizard-1, Duraludon-2"`), Dynamax icon on those set rows.
 2. [ ] **Restricted Sparring (SwSh)** — `hasTrainers: false` (one implicit trainer, dropdowns hidden), `showMinisprites: false`, singles only.
-3. [ ] **Battle Maison (XY/ORAS)** — modes: singles / doubles / triples / rotation. Triples & rotation show 3 slots (⚀ ⚁ ⚂ + circling-arrows icon). Foundation already supports this.
+3. [ ] **Battle Maison (XY/ORAS)** — modes: singles / doubles / triples / multis (rotation
+   battles use the same 3-Pokémon layout as triples — no separate mode needed). Foundation
+   already supports all of these.
 4. [ ] **Battle Frontier Gen IV (Pt/HGSS)** — multiple variants (Tower, Factory, Castle, Arcade, Hall). Level 50/100 toggle on the variant that supports it: affects displayed speed **and** the set pool → sets need per-level speed or availability flag (decide with data in hand).
 5. [ ] **Battle Frontier Gen III (Emerald)** — multiple variants, quirks TBD. "Open Level" (51–100 slider): speed must be **computed**, which requires:
    - [ ] Base stats added to pokedex files (all six stats, future-proof)
@@ -65,9 +75,8 @@ Internal planning document — tracks goals and progress for the Battle Facility
 
 ## Known data gaps
 
-- [ ] Sailor (EBA) roster references `Ogerpon-2` — set doesn't exist yet
-- [ ] `assets/images/sprites/murkrow.png` missing (minisprite exists)
-- [ ] EBA hidden from the site (data kept; re-enable in `config.js` when ready)
+- EBA removed entirely (data recoverable from git history if ever needed);
+  `pokedex-9.json` and the gen-9 assets are kept for future gen-9 facilities
 
 ## Maybes / later
 

@@ -31,7 +31,6 @@ IMAGES = ROOT / 'assets' / 'images'
 VARIANTS = [
     ('tree', 'pokedex-7.json', 7, ['en', 'fr', 'it', 'de', 'es', 'jp', 'ko', 'chs', 'cht']),
     ('subway', 'pokedex-5.json', 5, ['en', 'fr', 'it', 'de', 'es', 'jp', 'ko']),
-    ('eba', 'pokedex-9.json', 9, ['en']),  # hidden from the site, validate anyway
 ]
 
 ROSTER_RE = re.compile(r'(.+)-(\d+)$')

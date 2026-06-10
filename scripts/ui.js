@@ -1,8 +1,12 @@
-// All DOM rendering: dropdowns, species list, set tables and set details.
+// All DOM rendering: dropdowns, species lists, set tables and set details.
+//
+// "Sides" model: a mode shows 1 or 2 opposing trainers (multis = 2). Each side
+// owns a trainer dropdown, a quote dropdown, a species list and its Pokémon
+// slot(s). Slot ownership per mode comes from slotSide() in config.js.
 
 import { state } from './state.js';
 import { loadSets } from './data.js';
-import { MODES, MAX_SLOTS, variantMaxSlots } from './config.js';
+import { MODES, MAX_SLOTS, MAX_SIDES, modeSlots, slotSide, variantMaxSlots } from './config.js';
 
 /* ---------- lookup helpers ---------- */
 
@@ -38,6 +42,10 @@ export function trainerPool() {
         return state.data.trainers.filter(isLateTrainer);
     }
     return state.data.trainers;
+}
+
+function sides() {
+    return MODES[state.mode].sides;
 }
 
 /* ---------- move types (gen-aware) ---------- */
@@ -139,9 +147,9 @@ export function initSelect2(selector, { placeholder, template, containerClass, s
 
 /* ---------- Pokémon slot containers (generated, 1..MAX_SLOTS) ---------- */
 
-// Called once at startup; menus/sets for every possible slot exist up front
-// and are shown/hidden based on the current mode.
-export function buildSlotContainers(onMenuSelect) {
+// Called once at startup; menus/sets/species-lists for every possible slot
+// exist up front and are shown/hidden based on the current mode.
+export function buildSlotContainers() {
     const menus = document.getElementById('pokemon-menus');
     menus.innerHTML = '';
     for (let slot = 1; slot <= MAX_SLOTS; slot++) {
@@ -150,25 +158,27 @@ export function buildSlotContainers(onMenuSelect) {
         container.id = `pokemon-menu-container-${slot}`;
         container.style.display = 'none';
         container.innerHTML = `
+            <div class="slot-species" id="slot-species-${slot}"></div>
             <select id="pokemon-menu-${slot}"></select>
             <div id="pokemon-sets-${slot}"></div>
         `;
         menus.appendChild(container);
     }
     state.activeSets = {};
-    // Stash the selection callback for populatePokemonMenus.
-    buildSlotContainers.onMenuSelect = onMenuSelect;
 }
 
-/* ---------- trainer & quote dropdowns ---------- */
+/* ---------- trainer & quote dropdowns (per side) ---------- */
+
+function sideLabel(base, side) {
+    return sides() > 1 ? `${base} ${side}` : base;
+}
 
 // Dropdown option values are the trainer's INDEX in state.data.trainers, not
 // the name — names can legitimately collide (e.g. two Battle Tree trainers
 // share the same Japanese name).
 
-export function populateTrainerDropdown(onSelect) {
-    const $dropdown = $('#trainer-dropdown').empty();
-    const placeholder = t('trainerDropdownPlaceholder', 'Trainer');
+export function populateTrainerDropdown(side, onSelect) {
+    const $dropdown = $(`#trainer-dropdown-${side}`).empty();
     $dropdown.append(`<option value="" disabled selected></option>`);
 
     const trainers = [...trainerPool()].sort((a, b) => a.name.localeCompare(b.name));
@@ -179,20 +189,19 @@ export function populateTrainerDropdown(onSelect) {
         $dropdown.append(option);
     }
 
-    initSelect2('#trainer-dropdown', {
-        placeholder,
+    initSelect2(`#trainer-dropdown-${side}`, {
+        placeholder: sideLabel(t('trainerDropdownPlaceholder', 'Trainer'), side),
         template: trainerTemplate,
         containerClass: 'select2-container--trainer',
     });
 
     $dropdown.off('select2:select').on('select2:select', event => {
-        onSelect(state.data.trainers[Number(event.params.data.id)]);
+        onSelect(side, state.data.trainers[Number(event.params.data.id)]);
     });
 }
 
-export function populateQuoteDropdown(onSelect) {
-    const $dropdown = $('#quote-dropdown').empty();
-    const placeholder = t('quoteDropdownPlaceholder', 'Quote');
+export function populateQuoteDropdown(side, onSelect) {
+    const $dropdown = $(`#quote-dropdown-${side}`).empty();
     $dropdown.append(`<option value="" disabled selected></option>`);
 
     const trainers = [...trainerPool()].sort((a, b) => a.quote.localeCompare(b.quote));
@@ -201,70 +210,114 @@ export function populateQuoteDropdown(onSelect) {
         $dropdown.append(new Option(trainer.quote, String(index), false, false));
     }
 
-    initSelect2('#quote-dropdown', { placeholder, template: textTemplate });
+    initSelect2(`#quote-dropdown-${side}`, {
+        placeholder: sideLabel(t('quoteDropdownPlaceholder', 'Quote'), side),
+        template: textTemplate,
+    });
 
     $dropdown.off('select2:select').on('select2:select', event => {
-        onSelect(state.data.trainers[Number(event.params.data.id)]);
+        onSelect(side, state.data.trainers[Number(event.params.data.id)]);
     });
 }
 
-// Keep both dropdowns showing the selected trainer without re-firing events.
-export function syncTrainerDropdowns(trainer) {
-    const value = trainer ? String(state.data.trainers.indexOf(trainer)) : '';
-    $('#trainer-dropdown').val(value).trigger('change.select2');
-    $('#quote-dropdown').val(value).trigger('change.select2');
+// Refreshes placeholders (e.g. "Trainer" vs "Trainer 1/2") without losing the
+// current selections — select2 re-init keeps the underlying select's value.
+export function refreshSidePlaceholders() {
+    for (let side = 1; side <= sides(); side++) {
+        initSelect2(`#trainer-dropdown-${side}`, {
+            placeholder: sideLabel(t('trainerDropdownPlaceholder', 'Trainer'), side),
+            template: trainerTemplate,
+            containerClass: 'select2-container--trainer',
+        });
+        initSelect2(`#quote-dropdown-${side}`, {
+            placeholder: sideLabel(t('quoteDropdownPlaceholder', 'Quote'), side),
+            template: textTemplate,
+        });
+    }
 }
 
-/* ---------- species list & pokémon menus ---------- */
+// Keep a side's dropdowns showing its trainer without re-firing events.
+export function syncTrainerDropdowns(side, trainer) {
+    const value = trainer ? String(state.data.trainers.indexOf(trainer)) : '';
+    $(`#trainer-dropdown-${side}`).val(value).trigger('change.select2');
+    $(`#quote-dropdown-${side}`).val(value).trigger('change.select2');
+}
 
-export function renderSpeciesList(trainer, onPick) {
-    const list = document.getElementById('pokemon-list');
-    list.innerHTML = '';
-    if (!state.variant.showMinisprites) return;
+/* ---------- species lists ---------- */
 
+// Every visible slot gets its owning trainer's full roster above its menu;
+// clicking a sprite fills exactly that slot. (Users can hide the lists with
+// the settings toggle.)
+export function renderSpeciesLists(onPick) {
+    for (let slot = 1; slot <= MAX_SLOTS; slot++) {
+        document.getElementById(`slot-species-${slot}`).innerHTML = '';
+    }
+    if (!state.variant.showMinisprites || !state.spritesOn) return;
+
+    const total = sides() === 1
+        ? Math.min(variantMaxSlots(state.variant), MAX_SLOTS)
+        : modeSlots(state.mode);
+    for (let slot = 1; slot <= total; slot++) {
+        const side = sides() === 1 ? 1 : slotSide(state.mode, slot);
+        renderSpeciesListInto(slot, state.trainers[side], onPick);
+    }
+}
+
+function renderSpeciesListInto(slot, trainer, onPick) {
+    if (!trainer) return;
+    const container = document.getElementById(`slot-species-${slot}`);
     for (const species of trainer.species.split(', ')) {
         if (!dexEntry(species)) continue;
         const img = document.createElement('img');
         img.src = minispriteUrl(species);
         img.alt = species;
+        img.dataset.slot = slot;
         img.classList.add('pokemon-sprite');
         img.onerror = () => img.remove();
-        img.onclick = () => onPick(species);
-        list.appendChild(img);
+        img.onclick = () => onPick(slot, species);
+        container.appendChild(img);
     }
 }
 
-export function populatePokemonMenus(trainer, onSelect) {
-    const species = trainer.species.split(', ')
-        .filter(sp => dexEntry(sp))
-        .sort((a, b) => a.localeCompare(b));
+export function highlightSelectedSprites() {
+    document.querySelectorAll('.pokemon-sprite').forEach(img => {
+        img.classList.toggle('selected',
+            $(`#pokemon-menu-${img.dataset.slot}`).val() === img.alt);
+    });
+}
 
-    const slots = variantMaxSlots(state.variant);
-    for (let slot = 1; slot <= slots; slot++) {
-        const $menu = $(`#pokemon-menu-${slot}`).empty();
-        $menu.append(new Option('', '', true, true));
+/* ---------- pokémon menus ---------- */
+
+// (Re)populates every visible slot's menu from its owning trainer's species.
+export function populatePokemonMenus(onSelect) {
+    const total = sides() === 1
+        ? Math.min(variantMaxSlots(state.variant), MAX_SLOTS)
+        : modeSlots(state.mode);
+    for (let slot = 1; slot <= total; slot++) {
+        const side = sides() === 1 ? 1 : slotSide(state.mode, slot);
+        populateOneMenu(slot, state.trainers[side], onSelect);
+    }
+}
+
+function populateOneMenu(slot, trainer, onSelect) {
+    const $menu = $(`#pokemon-menu-${slot}`).empty();
+    $menu.append(new Option('', '', true, true));
+    if (trainer) {
+        const species = trainer.species.split(', ')
+            .filter(sp => dexEntry(sp))
+            .sort((a, b) => a.localeCompare(b));
         for (const sp of species) {
             const option = new Option(sp, sp, false, false);
             $(option).attr('data-icon', minispriteUrl(sp));
             $menu.append(option);
         }
-        initSelect2(`#pokemon-menu-${slot}`, {
-            placeholder: t('pokemonDropdownPlaceholder', 'Pokémon'),
-            template: spriteTemplate,
-        });
-        $menu.off('select2:select').on('select2:select', event => {
-            onSelect(slot, event.params.data.id);
-        });
     }
-}
-
-export function highlightSelectedSprites() {
-    const selected = [];
-    for (let slot = 1; slot <= MAX_SLOTS; slot++) {
-        selected.push($(`#pokemon-menu-${slot}`).val());
-    }
-    document.querySelectorAll('.pokemon-sprite').forEach(img => {
-        img.classList.toggle('selected', selected.includes(img.alt));
+    initSelect2(`#pokemon-menu-${slot}`, {
+        placeholder: t('pokemonDropdownPlaceholder', 'Pokémon'),
+        template: spriteTemplate,
+    });
+    $menu.off('select2:select').on('select2:select', event => {
+        onSelect(slot, event.params.data.id);
     });
 }
 
@@ -274,7 +327,7 @@ export function showPokemonSets(slot, species) {
     const container = document.getElementById(`pokemon-sets-${slot}`);
     container.innerHTML = '';
 
-    const trainer = state.trainer;
+    const trainer = state.trainers[slotSide(state.mode, slot)];
     if (!trainer) return;
 
     // Roster entries look like "Species-Name-3": split on the final "-<number>".
@@ -498,6 +551,20 @@ function showdownFormat(set, abilities) {
 
 /* ---------- resets & visibility ---------- */
 
+// Clears one side's slot selections and set panels (keeps the trainer).
+export function resetSlotsOfSide(side) {
+    for (let slot = 1; slot <= MAX_SLOTS; slot++) {
+        if (sides() > 1 && slotSide(state.mode, slot) !== side) continue;
+        state.activeSets[slot] = null;
+        const $menu = $(`#pokemon-menu-${slot}`);
+        if ($menu.hasClass('select2-hidden-accessible')) {
+            $menu.val('').trigger('change.select2');
+        }
+        document.getElementById(`pokemon-sets-${slot}`).innerHTML = '';
+    }
+    highlightSelectedSprites();
+}
+
 export function resetPokemonUI() {
     state.activeSets = {};
     for (let slot = 1; slot <= MAX_SLOTS; slot++) {
@@ -511,31 +578,38 @@ export function resetPokemonUI() {
 }
 
 export function resetSelections() {
-    state.trainer = null;
-    syncTrainerDropdowns(null);
+    state.trainers = { 1: null, 2: null };
+    for (let side = 1; side <= MAX_SIDES; side++) {
+        syncTrainerDropdowns(side, null);
+    }
     resetPokemonUI();
-    document.getElementById('pokemon-list').innerHTML = '';
-    updateMenuVisibility();
+    for (let slot = 1; slot <= MAX_SLOTS; slot++) {
+        document.getElementById(`slot-species-${slot}`).innerHTML = '';
+    }
+    updateLayout();
 }
 
-// Shows the slot containers for the current mode (when a trainer is selected)
-// and sizes them evenly.
-export function updateMenuVisibility() {
-    const hasTrainer = Boolean(state.trainer);
-    const slots = MODES[state.mode].slots;
+// Shows/hides the side-2 menus and the slot containers for the current mode.
+export function updateLayout() {
+    const multi = sides() > 1;
+    document.getElementById('trainer-side-2').style.display = multi ? '' : 'none';
+    document.getElementById('quote-side-2').style.display = multi ? '' : 'none';
 
+    const total = modeSlots(state.mode);
     for (let slot = 1; slot <= MAX_SLOTS; slot++) {
         const container = document.getElementById(`pokemon-menu-container-${slot}`);
-        const visible = hasTrainer && slot <= slots;
+        const side = slotSide(state.mode, slot);
+        const visible = slot <= total && Boolean(state.trainers[multi ? side : 1]);
         container.style.display = visible ? 'block' : 'none';
-        container.classList.remove('w-1', 'w-2', 'w-3');
-        if (visible) container.classList.add(`w-${slots}`);
+        container.classList.remove('w-1', 'w-2', 'w-3', 'side-2');
+        if (visible) {
+            container.classList.add(`w-${total}`);
+            if (multi && side === 2) container.classList.add('side-2');
+        }
     }
 }
 
 export function applyStaticTranslations() {
-    const title = document.querySelector('#settings-modal h2');
-    if (title) title.textContent = t('settings', 'Settings');
     // The late filter is a visual "<N>+" pill; the translation is its tooltip.
     const lateBtn = document.getElementById('late-filter');
     if (lateBtn) lateBtn.title = t('lateFilter', 'Late trainers only');

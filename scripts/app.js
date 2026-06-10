@@ -1,15 +1,17 @@
 // Application entry point: initialization, settings and event wiring.
 
-import { GAMES, MODES, THEMES, LANGUAGE_NAMES, getGame, getVariant } from './config.js';
+import { GAMES, MODES, THEMES, LANGUAGE_NAMES, MAX_SIDES,
+         getGame, getVariant, modeSlots } from './config.js';
 import { loadTranslations, loadVariantData } from './data.js';
 import { state } from './state.js';
 import {
     initSelect2, flagTemplate, iconTemplate,
     buildSlotContainers,
     populateTrainerDropdown, populateQuoteDropdown, syncTrainerDropdowns,
-    renderSpeciesList, populatePokemonMenus, highlightSelectedSprites,
-    showPokemonSets, resetPokemonUI, resetSelections,
-    updateMenuVisibility, applyStaticTranslations,
+    refreshSidePlaceholders, renderSpeciesLists, populatePokemonMenus,
+    highlightSelectedSprites, showPokemonSets,
+    resetSlotsOfSide, resetPokemonUI, resetSelections,
+    updateLayout, applyStaticTranslations,
     trainerPool, isLateTrainer,
 } from './ui.js';
 
@@ -86,6 +88,29 @@ function updateLateFilterRow() {
     btn.classList.toggle('active', state.lateOnly);
 }
 
+// Mobile-only multis toggle (the header mode switch is hidden on mobile).
+function updateMultisRow() {
+    const row = document.getElementById('multis-row');
+    row.style.display = state.variant.modes.includes('multis') ? '' : 'none';
+    document.getElementById('multis-toggle')
+        .classList.toggle('active', state.mode === 'multis');
+}
+
+// Minisprite lists on/off (some users prefer fewer sprites on screen).
+function updateSpritesRow() {
+    const row = document.getElementById('sprites-row');
+    row.style.display = state.variant.showMinisprites ? '' : 'none';
+    document.getElementById('sprites-toggle').classList.toggle('active', state.spritesOn);
+}
+
+function onSpritesToggled() {
+    state.spritesOn = !state.spritesOn;
+    localStorage.setItem('minisprites', state.spritesOn ? '1' : '');
+    updateSpritesRow();
+    renderSpeciesLists(onSpeciesPicked);
+    highlightSelectedSprites();
+}
+
 function onGameChanged(code) {
     state.game = getGame(code);
     applyVariant(state.game.variants[0]);
@@ -110,14 +135,16 @@ function applyVariant(variant) {
     populateLanguageSelect(); // may force a language fallback
     localStorage.setItem('selectedLanguage', state.language);
     updateLateFilterRow();
+    updateMultisRow();
+    updateSpritesRow();
     applyStaticTranslations();
     loadAndRender();
 }
 
-// Switching language keeps the current view (trainer, picked Pokémon, selected
-// sets) and just re-renders it in the new language. Species are remembered by
-// their English dex name; trainers by index (the per-language trainer files
-// are parallel arrays).
+// Switching language keeps the current view (trainers, picked Pokémon,
+// selected sets) and just re-renders it in the new language. Species are
+// remembered by their English dex name; trainers by index (the per-language
+// trainer files are parallel arrays).
 function onLanguageChanged(code) {
     const snapshot = captureSelection();
     state.language = code;
@@ -133,19 +160,25 @@ function setTheme(code) {
     updateThemeSwatches();
 }
 
-// Toggling the late filter keeps the current trainer when it passes the
-// filter, otherwise resets the view.
+// Toggling the late filter keeps selected trainers that pass the filter and
+// clears the sides that don't.
 function onLateFilterChanged(checked) {
     state.lateOnly = checked;
     localStorage.setItem('lateOnly', checked ? '1' : '');
     updateLateFilterRow();
-    populateTrainerDropdown(onTrainerSelected);
-    populateQuoteDropdown(onTrainerSelected);
-    if (state.trainer && trainerPool().includes(state.trainer)) {
-        syncTrainerDropdowns(state.trainer);
-    } else {
-        resetSelections();
+    for (let side = 1; side <= MAX_SIDES; side++) {
+        populateTrainerDropdown(side, onTrainerSelected);
+        populateQuoteDropdown(side, onTrainerSelected);
+        const trainer = state.trainers[side];
+        if (trainer && trainerPool().includes(trainer)) {
+            syncTrainerDropdowns(side, trainer);
+        } else if (trainer) {
+            state.trainers[side] = null;
+            resetSlotsOfSide(side);
+        }
     }
+    renderSpeciesLists(onSpeciesPicked);
+    updateLayout();
 }
 
 /* ---------- language-switch view preservation ---------- */
@@ -159,12 +192,17 @@ function speciesFromEnglish(english) {
 }
 
 function captureSelection() {
-    if (!state.trainer || !state.data) return null;
-    const snapshot = {
-        trainerIndex: state.data.trainers.indexOf(state.trainer),
-        slots: {},
-    };
-    for (let slot = 1; slot <= MODES[state.mode].slots; slot++) {
+    if (!state.data) return null;
+    const snapshot = { trainerIndexes: {}, slots: {} };
+    let any = false;
+    for (let side = 1; side <= MAX_SIDES; side++) {
+        if (state.trainers[side]) {
+            snapshot.trainerIndexes[side] = state.data.trainers.indexOf(state.trainers[side]);
+            any = true;
+        }
+    }
+    if (!any) return null;
+    for (let slot = 1; slot <= modeSlots(state.mode); slot++) {
         const species = $(`#pokemon-menu-${slot}`).val();
         snapshot.slots[slot] = {
             species: species ? speciesToEnglish(species) : null,
@@ -176,10 +214,10 @@ function captureSelection() {
 
 function restoreSelection(snapshot) {
     if (!snapshot) return;
-    const trainer = state.data.trainers[snapshot.trainerIndex];
-    if (!trainer) return;
-    onTrainerSelected(trainer);
-
+    for (const side of Object.keys(snapshot.trainerIndexes)) {
+        const trainer = state.data.trainers[snapshot.trainerIndexes[side]];
+        if (trainer) onTrainerSelected(Number(side), trainer);
+    }
     for (const slot of Object.keys(snapshot.slots)) {
         const { species, setNumber } = snapshot.slots[slot];
         const translated = species && speciesFromEnglish(species);
@@ -202,31 +240,28 @@ async function loadAndRender() {
         console.error('Error loading facility data:', error);
         return;
     }
-    populateTrainerDropdown(onTrainerSelected);
-    populateQuoteDropdown(onTrainerSelected);
+    for (let side = 1; side <= MAX_SIDES; side++) {
+        populateTrainerDropdown(side, onTrainerSelected);
+        populateQuoteDropdown(side, onTrainerSelected);
+    }
     resetSelections();
 }
 
 /* ---------- trainer & pokémon selection ---------- */
 
-function onTrainerSelected(trainer) {
+function onTrainerSelected(side, trainer) {
     if (!trainer) return;
-    state.trainer = trainer;
-    syncTrainerDropdowns(trainer);
-    renderSpeciesList(trainer, onSpeciesPicked);
-    populatePokemonMenus(trainer, onMenuSelected);
-    resetPokemonUI();
-    updateMenuVisibility();
+    state.trainers[side] = trainer;
+    syncTrainerDropdowns(side, trainer);
+    renderSpeciesLists(onSpeciesPicked);
+    populatePokemonMenus(onMenuSelected);
+    resetSlotsOfSide(side);
+    updateLayout();
 }
 
-// A mini-sprite was clicked: fill the first empty visible slot, or overwrite
-// the last one when all are taken.
-function onSpeciesPicked(species) {
-    const slots = MODES[state.mode].slots;
-    let slot = slots;
-    for (let i = 1; i <= slots; i++) {
-        if (!$(`#pokemon-menu-${i}`).val()) { slot = i; break; }
-    }
+// A mini-sprite was clicked: each list sits above one menu and fills exactly
+// that slot.
+function onSpeciesPicked(slot, species) {
     $(`#pokemon-menu-${slot}`).val(species).trigger('change.select2');
     onMenuSelected(slot, species);
 }
@@ -237,9 +272,10 @@ function onMenuSelected(slot, species) {
     highlightSelectedSprites();
 }
 
-/* ---------- mode (singles/doubles/triples/rotation) ---------- */
+/* ---------- mode (singles/doubles/multis/triples/rotation) ---------- */
 
 function setMode(mode) {
+    const previous = state.mode;
     state.mode = state.variant.modes.includes(mode) ? mode : state.variant.modes[0];
     localStorage.setItem('mode', state.mode);
 
@@ -247,15 +283,25 @@ function setMode(mode) {
         .replace(/\b\w+-mode\b/g, '').trim();
     document.body.classList.add(`${state.mode}-mode`);
 
+    // Crossing between 1-trainer and 2-trainer modes changes slot ownership
+    // and where the species lists live: rebuild those (trainers are kept).
+    if (MODES[previous]?.sides !== MODES[state.mode].sides && state.data) {
+        if (MODES[state.mode].sides === 1 && state.trainers[2]) {
+            state.trainers[2] = null; // side 2 disappears outside multis
+            syncTrainerDropdowns(2, null);
+        }
+        refreshSidePlaceholders();
+        renderSpeciesLists(onSpeciesPicked);
+        populatePokemonMenus(onMenuSelected);
+        resetPokemonUI();
+    }
+
     updateModeSwitch();
-    updateMenuVisibility();
+    updateMultisRow();
+    updateLayout();
 }
 
-// Mode control: the current mode's glyph shown big (⚀ ⚁ ⚂ ⟳), with a small
-// multi-position slider track underneath — one notch per variant mode, the
-// knob slides to the active one (alt accent color on the 3rd/4th position).
-// Clicking the glyph cycles modes; clicking a notch jumps to it. Hidden when
-// the variant has a single mode (and on mobile, where the first mode is forced).
+// Multi-position slider switch under the big mode glyph (see styles.css).
 function buildModeSwitch() {
     const control = document.getElementById('mode-control');
     const sw = document.getElementById('mode-switch');
@@ -294,12 +340,8 @@ function updateModeSwitch() {
     const knob = document.getElementById('mode-knob');
     if (!knob) return;
     const index = state.variant.modes.indexOf(state.mode);
-    const isAlt = index >= 2;
     knob.style.transform = `translateX(${index * 100}%)`;
-    knob.classList.toggle('alt', isAlt);
-    const glyph = document.getElementById('mode-glyph');
-    glyph.textContent = MODES[state.mode].icon;
-    glyph.classList.toggle('alt', isAlt);
+    document.getElementById('mode-glyph').textContent = MODES[state.mode].icon;
     document.querySelectorAll('.mode-cell').forEach(cell => {
         cell.classList.toggle('active', cell.dataset.mode === state.mode);
     });
@@ -337,14 +379,17 @@ async function init() {
         : state.variant.languages[0];
 
     state.lateOnly = localStorage.getItem('lateOnly') === '1';
+    state.spritesOn = localStorage.getItem('minisprites') !== ''; // default on
     setTheme(localStorage.getItem('theme') || THEMES[0].code);
 
-    buildSlotContainers(onMenuSelected);
+    buildSlotContainers();
 
+    // Mobile has no mode switch: singles by default, multis via settings.
     const isMobile = window.matchMedia('(max-width: 768px)').matches;
     const savedMode = localStorage.getItem('mode');
+    const mobileOk = mode => !isMobile || ['singles', 'multis'].includes(mode);
     buildModeSwitch();
-    setMode(!isMobile && state.variant.modes.includes(savedMode)
+    setMode(state.variant.modes.includes(savedMode) && mobileOk(savedMode)
         ? savedMode
         : state.variant.modes[0]);
 
@@ -353,6 +398,8 @@ async function init() {
     populateLanguageSelect();
     populateThemeSwatches();
     updateLateFilterRow();
+    updateMultisRow();
+    updateSpritesRow();
     applyStaticTranslations();
 
     // Event wiring.
@@ -361,6 +408,9 @@ async function init() {
     $('#variant-select').on('change', e => onVariantChanged(e.target.value));
     $('#language-select').on('change', e => onLanguageChanged(e.target.value));
     document.getElementById('late-filter').addEventListener('click', () => onLateFilterChanged(!state.lateOnly));
+    document.getElementById('multis-toggle').addEventListener('click',
+        () => setMode(state.mode === 'multis' ? 'singles' : 'multis'));
+    document.getElementById('sprites-toggle').addEventListener('click', onSpritesToggled);
     document.getElementById('mode-glyph').addEventListener('click', cycleMode);
     document.getElementById('settings-btn').addEventListener('click', openSettings);
     document.getElementById('reset-btn').addEventListener('click', resetSelections);
