@@ -36,14 +36,20 @@ Internal planning document — tracks goals and progress for the Battle Facility
       gen 3/4 facilities; e.g. Curse is already handled)
 - [x] Data validator (`tools/validate.py`) — also checks gen-aware move coverage
 - [x] Game icons in the game select (`icons` list per game, one per flagship version)
-- [ ] Data converter tooling in `tools/` (build per source once data sources are chosen — Google Sheets links or scraped pages, transformed + validated to JSON)
+- [x] Localization pipeline (`tools/build_languages.py`): generates trainer/set files and fills
+      dex/item/nature columns from the [poke-corpus](https://github.com/abcboy101/poke-corpus)
+      game text dumps (clone locally, default path `/tmp/pokecorpus/corpus`)
+- [ ] Data converter tooling for NEW facility data (build per source once sources are chosen)
 
 ## Languages
 
-- [ ] Add all official game languages per variant as data becomes available
-- [ ] Korean columns missing from `pokedex-7.json` and `items.json` (Gen 7 supports Korean)
-- [ ] Translate new UI strings (`translations.json`) for all 9 languages
+- [x] Battle Tree: all 9 USUM languages (en, fr, it, de, es, jp, ko, chs, cht)
+- [x] Battle Subway: all 7 BW languages (en, fr, it, de, es, jp, ko)
+- [x] Korean columns in pokedex-7/pokedex-5/items/natures (from poke-corpus)
+- [x] UI strings (`translations.json`) available in all 9 languages
 - [ ] Battle Tree: SM variant (slight set/trainer differences vs USUM)
+- Note: Chinese corpus files encode *species names* as private-use glyphs; the existing
+  chs/cht dex columns are used instead (quotes/items/moves are plain text — verified clean)
 
 ## Facilities to add (in planned order)
 

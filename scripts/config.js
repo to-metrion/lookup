@@ -35,7 +35,7 @@ export const GAMES = [
                 dataPrefix: 'tree',
                 pokedex: 'data/pokedex-7.json',
                 gen: 7,
-                languages: ['en', 'fr', 'jp'],
+                languages: ['en', 'fr', 'it', 'de', 'es', 'jp', 'ko', 'chs', 'cht'],
                 modes: ['singles', 'doubles'],
                 hasTrainers: true,
                 showMinisprites: true,
@@ -55,7 +55,7 @@ export const GAMES = [
                 dataPrefix: 'subway',
                 pokedex: 'data/pokedex-5.json',
                 gen: 5,
-                languages: ['en'],
+                languages: ['en', 'fr', 'it', 'de', 'es', 'jp', 'ko'],
                 modes: ['singles', 'doubles'],
                 hasTrainers: true,
                 showMinisprites: true,
@@ -93,7 +93,7 @@ export const THEMES = [
 
 // Appended to every data fetch (?v=...) so browsers pick up new data after a
 // deploy instead of serving stale cached JSON. Bump when data files change.
-export const DATA_VERSION = '2026-06-10';
+export const DATA_VERSION = '2026-06-10b';
 
 export const LANGUAGE_NAMES = {
     en: 'English',

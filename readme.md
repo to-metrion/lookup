@@ -6,8 +6,8 @@ Lookup tool for Pokémon battle facility trainers and their sets, hosted at [loo
 
 Currently covers:
 
-- **Battle Tree** (USUM, Gen 7) — English, French, Japanese
-- **Battle Subway** (Gen 5)
+- **Battle Tree** (USUM, Gen 7) — all 9 game languages
+- **Battle Subway** (Gen 5) — all 7 game languages
 
 ## Structure
 
@@ -21,8 +21,9 @@ scripts/
   state.js          Shared app state
   ui.js             DOM rendering (dropdowns, set tables, set details)
 tools/
-  validate.py       Data integrity checks — run after every data change
-  convert_moves.js  Rebuilds data/moves.json from tools/src/move_data.js
+  validate.py          Data integrity checks — run after every data change
+  convert_moves.js     Rebuilds data/moves.json from tools/src/move_data.js
+  build_languages.py   Generates localized data files from poke-corpus
 data/
   <facility>-trainers-<lang>.json   Trainer rosters & quotes
   <facility>-sets-<lang>.json       Pokémon sets
