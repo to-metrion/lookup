@@ -8,9 +8,9 @@ languages, with a `qid` file marking "Text File : N" sections.
 This script:
   1. adds Korean (and fills other missing) columns to the shared data files
      (pokedex-7.json, pokedex-5.json, items.json, natures.json)
-  2. generates <prefix>-sets-<lang>.json for new languages (mechanical
+  2. generates <dir>/sets-<lang>.json for new languages (mechanical
      translation of species/items/natures/moves via the aligned name tables)
-  3. generates <prefix>-trainers-<lang>.json (trainer names from the name
+  3. generates <dir>/trainers-<lang>.json (trainer names from the name
      list sections; quotes matched by exact string in the dialogue sections,
      then read from the same lines in the target language)
 
@@ -296,7 +296,7 @@ def load_data(name):
 
 def gen_sets(prefix, dex_file, lang, species_maps, item_maps, move_maps,
              nature_maps, suffix_map):
-    en_sets = load_data(f'{prefix}-sets-en.json')['sets']
+    en_sets = load_data(f'{prefix}/sets-en.json')['sets']
     dex = load_data(dex_file)['pokedex']
     dex_by_en = {p['en']: p for p in dex}
     # The app resolves items/natures via items.json / natures.json columns, so
@@ -337,9 +337,9 @@ def gen_sets(prefix, dex_file, lang, species_maps, item_maps, move_maps,
             **({'tera': s['tera']} if 'tera' in s else {}),
         })
     if problems:
-        warn(f'{prefix}-sets-{lang}: {len(problems)} sets dropped (untranslatable): '
+        warn(f'{prefix}/sets-{lang}: {len(problems)} sets dropped (untranslatable): '
              + ', '.join(problems[:6]))
-    path = DATA / f'{prefix}-sets-{lang}.json'
+    path = DATA / prefix / f'sets-{lang}.json'
     path.write_text(json.dumps({'sets': out}, indent=4, ensure_ascii=False) + '\n',
                     encoding='utf-8')
     info(f'{prefix}-sets-{lang}.json: {len(out)} sets')
@@ -375,7 +375,7 @@ def match_quotes(game, trainers):
 
 def gen_trainers(prefix, game, dex_file, lang, species_maps, suffix_map,
                  class_section=True):
-    en_tr = load_data(f'{prefix}-trainers-en.json')['trainers']
+    en_tr = load_data(f'{prefix}/trainers-en.json')['trainers']
     dex = load_data(dex_file)['pokedex']
     dex_by_en = {p['en']: p for p in dex}
     names_en = column(game, 'trainer_names', 'en')
@@ -425,8 +425,8 @@ def gen_trainers(prefix, game, dex_file, lang, species_maps, suffix_map,
         rec['sprite'] = t['sprite']
         out.append(rec)
     if problems:
-        warn(f'{prefix}-trainers-{lang}: {len(problems)} trainers dropped: {problems[:8]}')
-    path = DATA / f'{prefix}-trainers-{lang}.json'
+        warn(f'{prefix}/trainers-{lang}: {len(problems)} trainers dropped: {problems[:8]}')
+    path = DATA / f'{prefix}/trainers-{lang}.json'
     path.write_text(json.dumps({'trainers': out}, indent=4, ensure_ascii=False) + '\n',
                     encoding='utf-8')
     info(f'{prefix}-trainers-{lang}.json: {len(out)} trainers')
@@ -437,10 +437,10 @@ def gen_trainers(prefix, game, dex_file, lang, species_maps, suffix_map,
 def self_check(game, prefix, lang):
     """Compare generated names/quotes against a pre-existing file."""
     try:
-        existing = load_data(f'{prefix}-trainers-{lang}.json')['trainers']
+        existing = load_data(f'{prefix}/trainers-{lang}.json')['trainers']
     except FileNotFoundError:
         return
-    en_tr = load_data(f'{prefix}-trainers-en.json')['trainers']
+    en_tr = load_data(f'{prefix}/trainers-en.json')['trainers']
     names_en = column(game, 'trainer_names', 'en')
     names_loc = column(game, 'trainer_names', lang)
     same = diff = 0

@@ -6,8 +6,8 @@
 //
 //   code             unique id (used in localStorage)
 //   name             display name
-//   dataPrefix       data files are data/<dataPrefix>-trainers-<lang>.json
-//                    and data/<dataPrefix>-sets-<lang>.json
+//   dataDir          data files live in data/<dataDir>/trainers-<lang>.json
+//                    and data/<dataDir>/sets-<lang>.json
 //   pokedex          pokedex file for this variant
 //   gen              generation number (move types are gen-aware)
 //   languages        available language codes (data files must exist for each)
@@ -32,7 +32,7 @@ export const GAMES = [
             {
                 code: 'tree-usum',
                 name: 'Ultra Sun / Ultra Moon',
-                dataPrefix: 'tree',
+                dataDir: 'tree',
                 pokedex: 'data/pokedex-7.json',
                 gen: 7,
                 languages: ['en', 'fr', 'it', 'de', 'es', 'jp', 'ko', 'chs', 'cht'],
@@ -52,7 +52,7 @@ export const GAMES = [
             {
                 code: 'subway',
                 name: 'Black / White',
-                dataPrefix: 'subway',
+                dataDir: 'subway',
                 pokedex: 'data/pokedex-5.json',
                 gen: 5,
                 languages: ['en', 'fr', 'it', 'de', 'es', 'jp', 'ko'],
@@ -93,7 +93,7 @@ export const THEMES = [
 
 // Appended to every data fetch (?v=...) so browsers pick up new data after a
 // deploy instead of serving stale cached JSON. Bump when data files change.
-export const DATA_VERSION = '2026-06-10b';
+export const DATA_VERSION = '2026-06-10c';
 
 export const LANGUAGE_NAMES = {
     en: 'English',

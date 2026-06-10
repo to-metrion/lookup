@@ -27,7 +27,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / 'data'
 IMAGES = ROOT / 'assets' / 'images'
 
-# (dataPrefix, pokedex file, gen, [languages])  — keep in sync with scripts/config.js
+# (dataDir, pokedex file, gen, [languages])  — keep in sync with scripts/config.js
 VARIANTS = [
     ('tree', 'pokedex-7.json', 7, ['en', 'fr', 'it', 'de', 'es', 'jp', 'ko', 'chs', 'cht']),
     ('subway', 'pokedex-5.json', 5, ['en', 'fr', 'it', 'de', 'es', 'jp', 'ko']),
@@ -75,8 +75,8 @@ def move_type(moves_index, name, gen):
 
 def validate_variant_language(prefix, lang, dex, items, natures, gen=None, moves_index=None):
     tag = f'{prefix}/{lang}'
-    trainers = load(f'{prefix}-trainers-{lang}.json')['trainers']
-    sets = load(f'{prefix}-sets-{lang}.json')['sets']
+    trainers = load(f'{prefix}/trainers-{lang}.json')['trainers']
+    sets = load(f'{prefix}/sets-{lang}.json')['sets']
     dex_by_lang = {p[lang]: p for p in dex if p.get(lang)}
     set_keys = {(s['species'], s['setNumber']) for s in sets}
     items_by_lang = {i[lang]: i for i in items if i.get(lang)}
@@ -156,9 +156,9 @@ def validate_parallel(prefix, langs, dex):
     if len(langs) < 2:
         return
     base_lang = langs[0]
-    base = load(f'{prefix}-trainers-{base_lang}.json')['trainers']
+    base = load(f'{prefix}/trainers-{base_lang}.json')['trainers']
     for lang in langs[1:]:
-        other = load(f'{prefix}-trainers-{lang}.json')['trainers']
+        other = load(f'{prefix}/trainers-{lang}.json')['trainers']
         if len(base) != len(other):
             problem(f'{prefix}: trainer count differs: {base_lang}={len(base)} {lang}={len(other)}')
             continue

@@ -24,15 +24,15 @@ export function loadTranslations() {
 // Loads the sets file for a variant in a given language (used by the
 // Showdown export, which always needs the English sets).
 export async function loadSets(variant, language) {
-    const data = await fetchJSON(`data/${variant.dataPrefix}-sets-${language}.json`);
+    const data = await fetchJSON(`data/${variant.dataDir}/sets-${language}.json`);
     return data.sets;
 }
 
 // Loads everything needed for one variant + language combination, in parallel.
 export async function loadVariantData(variant, language) {
     const [trainers, sets, pokedex, natures, items, moves] = await Promise.all([
-        fetchJSON(`data/${variant.dataPrefix}-trainers-${language}.json`),
-        fetchJSON(`data/${variant.dataPrefix}-sets-${language}.json`),
+        fetchJSON(`data/${variant.dataDir}/trainers-${language}.json`),
+        fetchJSON(`data/${variant.dataDir}/sets-${language}.json`),
         fetchJSON(variant.pokedex),
         fetchJSON('data/natures.json'),
         fetchJSON('data/items.json'),

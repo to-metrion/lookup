@@ -25,13 +25,22 @@ tools/
   convert_moves.js     Rebuilds data/moves.json from tools/src/move_data.js
   build_languages.py   Generates localized data files from poke-corpus
 data/
-  <facility>-trainers-<lang>.json   Trainer rosters & quotes
-  <facility>-sets-<lang>.json       Pokémon sets
+  <facility>/trainers-<lang>.json   Trainer rosters & quotes
+  <facility>/sets-<lang>.json       Pokémon sets
   pokedex-<gen>.json                Species names, types, abilities
-  items.json, natures.json, translations.json
+  items.json, natures.json, moves.json, translations.json
 assets/images/      Sprites, items, types, flags, trainers
 ```
 
 Planned features and progress are tracked in [roadmap.md](roadmap.md).
 
 No build step — serve the folder statically (e.g. `python3 -m http.server`) or push to GitHub Pages.
+
+## Credits
+
+- Localized names, trainer dialogue, and other game text sourced from
+  [Poké Corpus](https://github.com/abcboy101/poke-corpus) by
+  [abcboy101](https://github.com/abcboy101) — a searchable corpus of official
+  Pokémon game text in all languages.
+- Pokémon and all related names are © Nintendo / Creatures Inc. / GAME FREAK inc.
+  This is an unofficial fan-made tool.
