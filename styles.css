@@ -442,9 +442,15 @@ button:focus {
 }
 
 /* Select2 paints the currently-selected option light grey by default, which
-   is unreadable with light text on dark themes — use theme colors instead. */
-.select2-results__option[aria-selected="true"] {
+   is unreadable with light text on dark themes — use theme colors instead.
+   (The container prefix is needed to match Select2's own rule's specificity.) */
+.select2-container--default .select2-results__option[aria-selected="true"] {
     background-color: var(--selected);
+    color: var(--text);
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: var(--surface-alt);
     color: var(--text);
 }
 
