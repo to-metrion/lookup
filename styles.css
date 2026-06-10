@@ -23,8 +23,8 @@
 }
 
 [data-theme="light"] {
-    --bg: #ececec;
-    --surface: #ffffff;
+    --bg: #ffffff;
+    --surface: #ececec;
     --surface-alt: #dcdcdc;
     --hover: #c8c8c8;
     --selected: #b0b0b0;
@@ -592,7 +592,7 @@ button:focus {
 }
 
 .theme-swatch[data-theme="dark"]     { background: linear-gradient(135deg, #333    50%, #2196F3 50%); }
-.theme-swatch[data-theme="light"]    { background: linear-gradient(135deg, #ececec 50%, #1976D2 50%); }
+.theme-swatch[data-theme="light"]    { background: linear-gradient(135deg, #ffffff 50%, #1976D2 50%); }
 .theme-swatch[data-theme="midnight"] { background: linear-gradient(135deg, #1a1d29 50%, #7aa2f7 50%); }
 .theme-swatch[data-theme="forest"]   { background: linear-gradient(135deg, #1f2b20 50%, #6aa84f 50%); }
 .theme-swatch[data-theme="ocean"]    { background: linear-gradient(135deg, #14262b 50%, #4fc3d9 50%); }

@@ -35,7 +35,7 @@ Internal planning document — tracks goals and progress for the Battle Facility
       type changes are patched in `TYPE_CHANGES` in the converter (extend it when adding
       gen 3/4 facilities; e.g. Curse is already handled)
 - [x] Data validator (`tools/validate.py`) — also checks gen-aware move coverage
-- [ ] Game icons in the game select (`icon` field supported; **icon images still needed** in `assets/images/games/`)
+- [x] Game icons in the game select (`icons` list per game, one per flagship version)
 - [ ] Data converter tooling in `tools/` (build per source once data sources are chosen — Google Sheets links or scraped pages, transformed + validated to JSON)
 
 ## Languages

@@ -18,15 +18,16 @@
 //                    enables the late-trainers-only toggle (shown as "<N>+"),
 //                    which filters on the `late` field of trainers ('1' = late)
 //
-// Games may also declare `icon` (assets/images/games/<file>.png) shown in the
-// game select. Future per-variant flags (see roadmap.md): dynamax, levels,
-// openLevel, fixedTeams, ...
+// Games may also declare `icons`, a list of images (assets/images/games/...)
+// shown in the game select — typically one per flagship version.
+// Future per-variant flags (see roadmap.md): dynamax, levels, openLevel,
+// fixedTeams, ...
 
 export const GAMES = [
     {
         code: 'tree',
         name: 'Battle Tree',
-        // icon: 'assets/images/games/tree.png',
+        icons: ['assets/images/games/us.png', 'assets/images/games/um.png'],
         variants: [
             {
                 code: 'tree-usum',
@@ -46,7 +47,7 @@ export const GAMES = [
     {
         code: 'subway',
         name: 'Battle Subway',
-        // icon: 'assets/images/games/subway.png',
+        icons: ['assets/images/games/b.png', 'assets/images/games/w.png'],
         variants: [
             {
                 code: 'subway',

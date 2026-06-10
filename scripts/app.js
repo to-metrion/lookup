@@ -20,7 +20,7 @@ function populateGameSelect() {
     select.innerHTML = '';
     for (const game of GAMES) {
         const option = new Option(game.name, game.code);
-        if (game.icon) option.setAttribute('data-icon', game.icon);
+        if (game.icons?.length) option.setAttribute('data-icons', game.icons.join('|'));
         select.appendChild(option);
     }
     select.value = state.game.code;

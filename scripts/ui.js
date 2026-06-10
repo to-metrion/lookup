@@ -98,14 +98,18 @@ export function flagTemplate(option) {
         .append(document.createTextNode(' ' + option.text));
 }
 
-// Generic icon template for the game select (icons optional, set via data-icon).
+// Icon template for the game select. Games may declare several icons
+// (one per flagship version), passed via data-icons as a |-separated list.
 export function iconTemplate(option) {
     if (!option.id) return option.text;
-    const icon = $(option.element).data('icon');
-    if (!icon) return option.text;
-    return $('<span></span>')
-        .append($('<img>').attr('src', icon).addClass('game-icon').on('error', function () { $(this).remove(); }))
-        .append(document.createTextNode(' ' + option.text));
+    const icons = String($(option.element).attr('data-icons') || '');
+    if (!icons) return option.text;
+    const $span = $('<span></span>');
+    for (const icon of icons.split('|')) {
+        $span.append($('<img>').attr('src', icon).addClass('game-icon')
+            .on('error', function () { $(this).remove(); }));
+    }
+    return $span.append(document.createTextNode(' ' + option.text));
 }
 
 export function initSelect2(selector, { placeholder, template, containerClass, search = true } = {}) {
