@@ -364,6 +364,7 @@ button:focus {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    row-gap: 18px; /* breathing room when columns stack (mobile multis) */
 }
 
 .pokemon-menu-container {
