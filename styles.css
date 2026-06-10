@@ -1,10 +1,209 @@
 /* ============================================================
+   Themes — every color lives in a variable. A theme is a
+   [data-theme="..."] block overriding them (config.js: THEMES).
+   ============================================================ */
+:root {
+    /* Dark (default) */
+    --bg: #333;
+    --surface: #444;          /* header, panels, even rows */
+    --surface-alt: #555;      /* odd rows, borders */
+    --hover: #666;
+    --selected: #888;
+    --border: #555;
+    --border-strong: #888;
+    --text: #fff;
+    --text-muted: #aaa;
+    --accent: #2196F3;
+    --accent-alt: #e67e22;
+    --highlight: yellow;      /* selected rows/sprites */
+    --success: #8f8;
+    --overlay: rgba(0, 0, 0, 0.4);
+    --sprite-shadow: rgba(0, 0, 0, 0.5);
+    --arrow-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+}
+
+[data-theme="light"] {
+    --bg: #ececec;
+    --surface: #ffffff;
+    --surface-alt: #dcdcdc;
+    --hover: #c8c8c8;
+    --selected: #b0b0b0;
+    --border: #bbb;
+    --border-strong: #999;
+    --text: #222;
+    --text-muted: #666;
+    --accent: #1976D2;
+    --accent-alt: #e65100;
+    --highlight: #c79100;
+    --success: #2e7d32;
+    --overlay: rgba(0, 0, 0, 0.3);
+    --sprite-shadow: rgba(0, 0, 0, 0.25);
+    --arrow-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23333333' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+}
+
+[data-theme="midnight"] {
+    --bg: #1a1d29;
+    --surface: #242837;
+    --surface-alt: #2e3348;
+    --hover: #3a4060;
+    --selected: #4a5278;
+    --border: #2e3348;
+    --border-strong: #565f89;
+    --text: #e8eaf2;
+    --text-muted: #9aa1c0;
+    --accent: #7aa2f7;
+    --accent-alt: #bb9af7;
+    --highlight: #e0af68;
+    --success: #9ece6a;
+    --overlay: rgba(0, 0, 0, 0.5);
+    --sprite-shadow: rgba(0, 0, 0, 0.6);
+    --arrow-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23e8eaf2' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+}
+
+[data-theme="forest"] {
+    --bg: #1f2b20;
+    --surface: #2a3a2b;
+    --surface-alt: #355237;
+    --hover: #406644;
+    --selected: #557a58;
+    --border: #355237;
+    --border-strong: #6e9a72;
+    --text: #e8f0e8;
+    --text-muted: #a8c0aa;
+    --accent: #6aa84f;
+    --accent-alt: #d4a017;
+    --highlight: #ffd966;
+    --success: #a5d6a7;
+    --overlay: rgba(0, 0, 0, 0.5);
+    --sprite-shadow: rgba(0, 0, 0, 0.5);
+    --arrow-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23e8f0e8' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+}
+
+[data-theme="ocean"] {
+    --bg: #14262b;
+    --surface: #1d3640;
+    --surface-alt: #264753;
+    --hover: #305866;
+    --selected: #417283;
+    --border: #264753;
+    --border-strong: #5b8c9c;
+    --text: #e6f2f5;
+    --text-muted: #9fc0c9;
+    --accent: #4fc3d9;
+    --accent-alt: #ff8a65;
+    --highlight: #ffd54f;
+    --success: #80cbc4;
+    --overlay: rgba(0, 0, 0, 0.5);
+    --sprite-shadow: rgba(0, 0, 0, 0.55);
+    --arrow-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23e6f2f5' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+}
+
+[data-theme="lavender"] {
+    --bg: #ece7f4;
+    --surface: #faf8fd;
+    --surface-alt: #d9d0e8;
+    --hover: #c6b9dd;
+    --selected: #ab97cf;
+    --border: #c2b3d9;
+    --border-strong: #947dbd;
+    --text: #2e2440;
+    --text-muted: #6f6191;
+    --accent: #7e57c2;
+    --accent-alt: #d81b60;
+    --highlight: #c79100;
+    --success: #2e7d32;
+    --overlay: rgba(40, 30, 60, 0.3);
+    --sprite-shadow: rgba(40, 30, 60, 0.25);
+    --arrow-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232e2440' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+}
+
+/* Fairy: soft pink with a complementary sky-blue secondary accent. */
+[data-theme="fairy"] {
+    --bg: #fcebf3;
+    --surface: #fffafd;
+    --surface-alt: #f3d3e3;
+    --hover: #e9bcd4;
+    --selected: #d999bd;
+    --border: #e6c3d6;
+    --border-strong: #c98aac;
+    --text: #3d2333;
+    --text-muted: #8d6079;
+    --accent: #e0569e;
+    --accent-alt: #58b7e8;
+    --highlight: #2e96d6;   /* the blue shows on selected rows/sprites */
+    --success: #2e7d32;
+    --overlay: rgba(80, 40, 65, 0.3);
+    --sprite-shadow: rgba(80, 40, 65, 0.25);
+    --arrow-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%233d2333' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+}
+
+/* Sunset: deep purple with a complementary warm-orange accent. */
+[data-theme="sunset"] {
+    --bg: #251b33;
+    --surface: #322447;
+    --surface-alt: #41305c;
+    --hover: #514070;
+    --selected: #66518c;
+    --border: #41305c;
+    --border-strong: #7a639e;
+    --text: #f0eaf7;
+    --text-muted: #b3a3cc;
+    --accent: #ff8c42;
+    --accent-alt: #ff5277;
+    --highlight: #ffd166;
+    --success: #9ece6a;
+    --overlay: rgba(0, 0, 0, 0.5);
+    --sprite-shadow: rgba(0, 0, 0, 0.55);
+    --arrow-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23f0eaf7' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+}
+
+/* Umbreon: black coat with ring-yellow accent and red-eye secondary. */
+[data-theme="umbreon"] {
+    --bg: #1c1c22;
+    --surface: #26262e;
+    --surface-alt: #32323c;
+    --hover: #41414d;
+    --selected: #555562;
+    --border: #32323c;
+    --border-strong: #6e6e7e;
+    --text: #f0f0f2;
+    --text-muted: #a6a6b3;
+    --accent: #d4af37;
+    --accent-alt: #d94a4a;
+    --highlight: #d4af37;
+    --success: #9ece6a;
+    --overlay: rgba(0, 0, 0, 0.55);
+    --sprite-shadow: rgba(0, 0, 0, 0.6);
+    --arrow-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23f0f0f2' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+}
+
+/* Slate: neutral gray with a complementary red accent (and blue secondary). */
+[data-theme="slate"] {
+    --bg: #2b2d31;
+    --surface: #383b40;
+    --surface-alt: #45484e;
+    --hover: #54585f;
+    --selected: #6a6f77;
+    --border: #45484e;
+    --border-strong: #80858d;
+    --text: #f0f1f3;
+    --text-muted: #a8acb3;
+    --accent: #e8474f;
+    --accent-alt: #4fa3e8;
+    --highlight: #ffd24d;
+    --success: #8fcf8f;
+    --overlay: rgba(0, 0, 0, 0.5);
+    --sprite-shadow: rgba(0, 0, 0, 0.55);
+    --arrow-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23f0f1f3' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+}
+
+/* ============================================================
    General
    ============================================================ */
 body {
     font-family: 'Helvetica', 'Arial', sans-serif;
-    background-color: #333;
-    color: #fff;
+    background-color: var(--bg);
+    color: var(--text);
     margin: 0;
     padding: 0;
 }
@@ -14,14 +213,14 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: #444;
+    background-color: var(--surface);
     height: 80px;
 }
 
 button {
     background: none;
     border: none;
-    color: #fff;
+    color: var(--text);
     font-size: 1.5em;
     cursor: pointer;
 }
@@ -37,15 +236,46 @@ button:focus {
 /* ============================================================
    Header
    ============================================================ */
-.settings-icon,
-.reset-icon {
+/* Theme-tinted icons: the PNGs are used as masks so their color always
+   follows the theme accent — no recolored image copies needed. */
+.icon-mask {
+    display: inline-block;
+    background-color: var(--accent);
+    -webkit-mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    mask-position: center;
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    vertical-align: middle;
+}
+
+.icon-settings {
     width: 48px;
+    height: 48px;
+    -webkit-mask-image: url('assets/images/settings.png');
+    mask-image: url('assets/images/settings.png');
+}
+
+.icon-reset {
+    width: 48px;
+    height: 48px;
+    -webkit-mask-image: url('assets/images/clear.png');
+    mask-image: url('assets/images/clear.png');
+}
+
+.icon-copy {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    -webkit-mask-image: url('assets/images/copy.png');
+    mask-image: url('assets/images/copy.png');
 }
 
 .trainer-select-container {
     flex-grow: 1;
     margin: 0 10px;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 .quote-select-container {
@@ -53,74 +283,72 @@ button:focus {
     width: 100%;
 }
 
-/* Singles/doubles toggle switch */
-.mode-toggle-container {
+/* Battle mode control: the current mode's glyph shown big (⚀ ⚁ ⚂ ⟳, accent
+   colored — alt accent on 3rd/4th modes), with a small slider track under it.
+   One notch per mode; the knob slides to the active one. */
+#mode-control {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    gap: 2px;
+    margin-left: 10px; /* match the gap to the trainer menu on the right */
+    user-select: none;
 }
 
-.switch {
+#mode-glyph {
+    font-size: 86px;
+    height: 56px;            /* die glyphs have empty space in their font box; */
+    display: flex;           /* a fixed-height flex box centers the visible die */
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    transform: translateY(-7px); /* optical centering nudge */
+    padding: 0 4px;
+    color: var(--accent);
+    transition: color 0.3s ease;
+}
+
+#mode-glyph.alt {
+    color: var(--accent-alt);
+}
+
+#mode-switch {
+    position: relative;
+    display: flex;
+    background-color: var(--bg);
+    border-radius: 10px;
+    padding: 3px;
+}
+
+#mode-knob {
     position: absolute;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
-    margin-left: 10px;
-    margin-top: 10px;
+    top: 3px;
+    left: 3px;
+    width: 28px;
+    height: 14px;
+    border-radius: 7px;
+    background-color: var(--accent);
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-.switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
+#mode-knob.alt {
+    background-color: var(--accent-alt);
 }
 
-.slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    transition: .4s;
+.mode-cell {
+    position: relative;
+    z-index: 1;
+    width: 28px;
+    height: 14px;
+    padding: 0;
+    font-size: 0;
 }
 
-.slider:before {
-    position: absolute;
-    content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    transition: .4s;
-}
 
-input:checked + .slider {
-    background-color: #2196F3;
-}
-
-input:checked + .slider:before {
-    transform: translateX(26px);
-}
-
-.slider.round {
-    border-radius: 34px;
-}
-
-.slider.round:before {
-    border-radius: 50%;
-}
-
-#mode-label {
-    margin-top: 30px;
-    font-size: 64px;
-    margin-left: 10px;
-}
 
 /* ============================================================
-   Pokémon menus layout
+   Pokémon menus layout (slot containers generated by ui.js)
    ============================================================ */
 #pokemon-list,
 #pokemon-menus {
@@ -130,6 +358,7 @@ input:checked + .slider:before {
 #pokemon-menus {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .pokemon-menu-container {
@@ -139,28 +368,26 @@ input:checked + .slider:before {
     box-sizing: border-box;
 }
 
-.pokemon-menu-container.single {
-    width: 100%;
-}
-
-.pokemon-menu-container.double {
-    width: 50%;
-}
+.pokemon-menu-container.w-1 { width: 100%; }
+.pokemon-menu-container.w-2 { width: 50%; }
+.pokemon-menu-container.w-3 { width: 33.333%; }
 
 /* ============================================================
    Select2 styling
    ============================================================ */
-#facility-select + .select2-container,
-#language-select + .select2-container {
+#game-select + .select2-container,
+#variant-select + .select2-container,
+#language-select + .select2-container,
+#theme-select + .select2-container {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 /* Big trainer dropdown in the header */
 .select2-container--trainer .select2-selection--single {
-    background-color: #444 !important;
-    border: 1px solid #555 !important;
-    color: #fff !important;
+    background-color: var(--surface) !important;
+    border: 1px solid var(--border) !important;
+    color: var(--text) !important;
     height: 75px !important;
     font-size: 56px !important;
     display: flex !important;
@@ -170,7 +397,7 @@ input:checked + .slider:before {
 }
 
 .select2-container--trainer .select2-selection--single .select2-selection__rendered {
-    color: #fff !important;
+    color: var(--text) !important;
     font-family: 'Futura', sans-serif !important;
     font-variant-caps: small-caps !important;
     line-height: 70px !important;
@@ -178,9 +405,9 @@ input:checked + .slider:before {
 
 /* Standard dropdowns */
 .select2-container--default .select2-selection--single {
-    background-color: #444;
-    border: 1px solid #555;
-    color: #fff;
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
     height: 40px;
     font-size: 16px;
     display: flex;
@@ -190,12 +417,19 @@ input:checked + .slider:before {
 }
 
 .select2-container--default .select2-selection--single .select2-selection__rendered {
-    color: #fff;
+    color: var(--text);
 }
 
 .select2-dropdown {
-    background-color: #333;
-    border: 1px solid #555;
+    background-color: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+}
+
+.select2-search--dropdown .select2-search__field {
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
 }
 
 .select2-results__option {
@@ -203,8 +437,15 @@ input:checked + .slider:before {
 }
 
 .select2-results__option--highlighted {
-    background-color: #555;
-    color: #fff;
+    background-color: var(--surface-alt) !important;
+    color: var(--text) !important;
+}
+
+/* Select2 paints the currently-selected option light grey by default, which
+   is unreadable with light text on dark themes — use theme colors instead. */
+.select2-results__option[aria-selected="true"] {
+    background-color: var(--selected);
+    color: var(--text);
 }
 
 .select2-container--default .select2-results > .select2-results__options {
@@ -231,7 +472,7 @@ input:checked + .slider:before {
 }
 
 .select2-container--default .select2-selection--single .select2-selection__arrow b {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+    background-image: var(--arrow-icon);
     background-color: transparent;
     background-size: contain;
     background-repeat: no-repeat;
@@ -244,14 +485,14 @@ input:checked + .slider:before {
     left: auto !important;
 }
 
-/* Sprites inside dropdowns */
+/* Sprites & icons inside dropdowns */
 .trainer-sprite-select2 {
     height: 60px !important;
     width: auto;
     margin-right: 10px !important;
     vertical-align: middle !important;
     padding-bottom: 5px !important;
-    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5)) !important;
+    filter: drop-shadow(0 0 5px var(--sprite-shadow)) !important;
 }
 
 .pokemon-sprite-select2 {
@@ -259,13 +500,20 @@ input:checked + .slider:before {
     width: auto;
     margin-right: 10px;
     vertical-align: middle;
-    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5)) !important;
+    filter: drop-shadow(0 0 5px var(--sprite-shadow)) !important;
 }
 
 .flag-icon {
     width: auto;
     height: 16px;
     margin-right: 5px;
+    vertical-align: middle;
+}
+
+.game-icon {
+    width: auto;
+    height: 24px;
+    margin-right: 8px;
     vertical-align: middle;
 }
 
@@ -289,19 +537,19 @@ input:checked + .slider:before {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: var(--overlay);
 }
 
 .modal-content {
-    background-color: #333;
+    background-color: var(--bg);
     margin: 15% auto;
     padding: 20px;
-    border: 1px solid #888;
+    border: 1px solid var(--border-strong);
     width: 80%;
 }
 
 .close {
-    color: #aaa;
+    color: var(--text-muted);
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -309,9 +557,66 @@ input:checked + .slider:before {
 
 .close:hover,
 .close:focus {
-    color: #fff;
+    color: var(--text);
     text-decoration: none;
     cursor: pointer;
+}
+
+/* Visual theme picker: dual-color squares (top-left = background,
+   bottom-right = accent of each theme). Colors mirror the theme blocks above. */
+#theme-swatches {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 12px 0;
+}
+
+.theme-swatch {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: 2px solid var(--border);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.theme-swatch.active {
+    border-color: var(--highlight);
+    box-shadow: 0 0 0 2px var(--highlight);
+}
+
+.theme-swatch[data-theme="dark"]     { background: linear-gradient(135deg, #333    50%, #2196F3 50%); }
+.theme-swatch[data-theme="light"]    { background: linear-gradient(135deg, #ececec 50%, #1976D2 50%); }
+.theme-swatch[data-theme="midnight"] { background: linear-gradient(135deg, #1a1d29 50%, #7aa2f7 50%); }
+.theme-swatch[data-theme="forest"]   { background: linear-gradient(135deg, #1f2b20 50%, #6aa84f 50%); }
+.theme-swatch[data-theme="ocean"]    { background: linear-gradient(135deg, #14262b 50%, #4fc3d9 50%); }
+.theme-swatch[data-theme="lavender"] { background: linear-gradient(135deg, #ece7f4 50%, #7e57c2 50%); }
+.theme-swatch[data-theme="fairy"]    { background: linear-gradient(135deg, #fcebf3 50%, #e0569e 50%); }
+.theme-swatch[data-theme="sunset"]   { background: linear-gradient(135deg, #251b33 50%, #ff8c42 50%); }
+.theme-swatch[data-theme="umbreon"]  { background: linear-gradient(135deg, #1c1c22 50%, #d4af37 50%); }
+.theme-swatch[data-theme="slate"]    { background: linear-gradient(135deg, #2b2d31 50%, #e8474f 50%); }
+
+/* Visual late-trainers toggle ("40+", "28+", ...) — styled like the
+   select boxes around it: full width, 40px tall, slightly rounded. */
+.settings-toggle-btn {
+    display: inline-block;
+    padding: 0 24px;
+    height: 40px;
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    background-color: var(--surface);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.settings-toggle-btn.active {
+    background-color: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
 }
 
 /* ============================================================
@@ -327,7 +632,7 @@ input:checked + .slider:before {
 }
 
 .pokemon-sprite.selected {
-    border: 1px solid yellow;
+    border: 1px solid var(--highlight);
     border-radius: 5px;
     transform: scale(1.2);
 }
@@ -351,11 +656,11 @@ input:checked + .slider:before {
 }
 
 .sets-table .even-row {
-    background-color: #444;
+    background-color: var(--surface);
 }
 
 .sets-table .odd-row {
-    background-color: #555;
+    background-color: var(--surface-alt);
 }
 
 .sets-table td img {
@@ -371,12 +676,12 @@ input:checked + .slider:before {
 }
 
 .set-row:hover {
-    background-color: #666;
+    background-color: var(--hover);
 }
 
 .set-row.selected {
-    background-color: #888;
-    border: 1px solid yellow;
+    background-color: var(--selected);
+    border: 1px solid var(--highlight);
     border-radius: 5px;
 }
 
@@ -385,7 +690,7 @@ input:checked + .slider:before {
    ============================================================ */
 .set-details {
     margin-top: 10px;
-    background-color: #444;
+    background-color: var(--surface);
     padding: 10px;
     border-radius: 10px;
     display: flex;
@@ -471,6 +776,25 @@ input:checked + .slider:before {
     line-height: 1.3;
 }
 
+.move-line {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 3px;
+}
+
+.move-type-icon {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+}
+
+.move-bullet {
+    width: 16px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
 .speed {
     font-weight: bold;
     font-size: 1.2em;
@@ -503,12 +827,12 @@ input:checked + .slider:before {
 
 .copy-feedback {
     font-size: 0.8em;
-    color: #8f8;
+    color: var(--success);
     margin-left: 5px;
 }
 
 .separator {
-    border-top: 1px dotted #888;
+    border-top: 1px dotted var(--border-strong);
     margin: 10px 0;
 }
 
@@ -516,8 +840,8 @@ input:checked + .slider:before {
    Mobile
    ============================================================ */
 @media only screen and (max-width: 768px) {
-    .mode-toggle-container {
-        display: none;
+    #mode-control {
+        display: none !important; /* mode is forced to the variant's first mode */
     }
 }
 
@@ -553,13 +877,20 @@ input:checked + .slider:before {
         margin: 5px 0;
     }
 
-    .settings-icon {
-        padding: 5px;
+    .icon-settings {
         width: 32px;
+        height: 32px;
     }
 
     #reset-btn {
         visibility: hidden;
+    }
+
+    /* Slots stack when they get too narrow */
+    .pokemon-menu-container.w-2,
+    .pokemon-menu-container.w-3 {
+        min-width: 280px;
+        flex-grow: 1;
     }
 
     /* Set details columns share space evenly on small screens */

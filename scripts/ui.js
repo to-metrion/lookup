@@ -2,6 +2,7 @@
 
 import { state } from './state.js';
 import { loadSets } from './data.js';
+import { MODES, MAX_SLOTS, variantMaxSlots } from './config.js';
 
 /* ---------- lookup helpers ---------- */
 
@@ -25,6 +26,49 @@ function itemImageUrl(itemName) {
 function minispriteUrl(species) {
     const english = dexEntry(species)?.en ?? species;
     return `assets/images/minisprites/${english.toLowerCase()}.png`;
+}
+
+export function isLateTrainer(trainer) {
+    return String(trainer.late ?? '').trim() === '1';
+}
+
+// Trainers visible in the dropdowns, honoring the late-only filter.
+export function trainerPool() {
+    if (state.lateOnly && state.variant.lateCutoff) {
+        return state.data.trainers.filter(isLateTrainer);
+    }
+    return state.data.trainers;
+}
+
+/* ---------- move types (gen-aware) ---------- */
+
+// data/moves.json: { "<English move>": [[firstGen, "Type"], [genChanged, "NewType"], ...] }
+// Lookup is spelling-tolerant ("AncientPower" matches "Ancient Power") because
+// pre-gen-6 data files use the era's official names.
+let movesIndex = null;
+let movesIndexSource = null;
+
+function normalizeMoveName(name) {
+    return name.toLowerCase().replace(/[^a-z0-9]/g, '');
+}
+
+function moveType(name, gen) {
+    if (!name) return null;
+    if (movesIndexSource !== state.data.moves) {
+        movesIndexSource = state.data.moves;
+        movesIndex = new Map();
+        for (const [move, list] of Object.entries(state.data.moves)) {
+            movesIndex.set(normalizeMoveName(move), list);
+        }
+    }
+    // Slash-combined slots ("Fly / Outrage") → look up the first move.
+    const list = movesIndex.get(normalizeMoveName(name.split('/')[0].trim()));
+    if (!list) return null;
+    let type = null;
+    for (const [g, t] of list) {
+        if (g <= gen) type = t;
+    }
+    return type && type !== 'None' && type !== '???' ? type : null;
 }
 
 /* ---------- Select2 helpers ---------- */
@@ -54,7 +98,17 @@ export function flagTemplate(option) {
         .append(document.createTextNode(' ' + option.text));
 }
 
-export function initSelect2(selector, { placeholder, template, containerClass }) {
+// Generic icon template for the game select (icons optional, set via data-icon).
+export function iconTemplate(option) {
+    if (!option.id) return option.text;
+    const icon = $(option.element).data('icon');
+    if (!icon) return option.text;
+    return $('<span></span>')
+        .append($('<img>').attr('src', icon).addClass('game-icon').on('error', function () { $(this).remove(); }))
+        .append(document.createTextNode(' ' + option.text));
+}
+
+export function initSelect2(selector, { placeholder, template, containerClass, search = true } = {}) {
     const $el = $(selector);
     if ($el.hasClass('select2-hidden-accessible')) {
         $el.select2('destroy');
@@ -64,6 +118,8 @@ export function initSelect2(selector, { placeholder, template, containerClass })
         templateResult: template,
         templateSelection: template,
         width: '100%',
+        // search: false hides the search box (short, fixed lists)
+        minimumResultsForSearch: search ? 0 : Infinity,
     });
     if (containerClass) {
         $el.data('select2').$container.addClass(containerClass);
@@ -77,16 +133,44 @@ export function initSelect2(selector, { placeholder, template, containerClass })
     return $el;
 }
 
+/* ---------- Pokémon slot containers (generated, 1..MAX_SLOTS) ---------- */
+
+// Called once at startup; menus/sets for every possible slot exist up front
+// and are shown/hidden based on the current mode.
+export function buildSlotContainers(onMenuSelect) {
+    const menus = document.getElementById('pokemon-menus');
+    menus.innerHTML = '';
+    for (let slot = 1; slot <= MAX_SLOTS; slot++) {
+        const container = document.createElement('div');
+        container.className = 'pokemon-menu-container';
+        container.id = `pokemon-menu-container-${slot}`;
+        container.style.display = 'none';
+        container.innerHTML = `
+            <select id="pokemon-menu-${slot}"></select>
+            <div id="pokemon-sets-${slot}"></div>
+        `;
+        menus.appendChild(container);
+    }
+    state.activeSets = {};
+    // Stash the selection callback for populatePokemonMenus.
+    buildSlotContainers.onMenuSelect = onMenuSelect;
+}
+
 /* ---------- trainer & quote dropdowns ---------- */
+
+// Dropdown option values are the trainer's INDEX in state.data.trainers, not
+// the name — names can legitimately collide (e.g. two Battle Tree trainers
+// share the same Japanese name).
 
 export function populateTrainerDropdown(onSelect) {
     const $dropdown = $('#trainer-dropdown').empty();
     const placeholder = t('trainerDropdownPlaceholder', 'Trainer');
     $dropdown.append(`<option value="" disabled selected></option>`);
 
-    const trainers = [...state.data.trainers].sort((a, b) => a.name.localeCompare(b.name));
+    const trainers = [...trainerPool()].sort((a, b) => a.name.localeCompare(b.name));
     for (const trainer of trainers) {
-        const option = new Option(trainer.name, trainer.name, false, false);
+        const index = state.data.trainers.indexOf(trainer);
+        const option = new Option(trainer.name, String(index), false, false);
         $(option).attr('data-icon', trainer.sprite);
         $dropdown.append(option);
     }
@@ -98,8 +182,7 @@ export function populateTrainerDropdown(onSelect) {
     });
 
     $dropdown.off('select2:select').on('select2:select', event => {
-        const trainer = state.data.trainers.find(tr => tr.name === event.params.data.id);
-        onSelect(trainer);
+        onSelect(state.data.trainers[Number(event.params.data.id)]);
     });
 }
 
@@ -108,23 +191,24 @@ export function populateQuoteDropdown(onSelect) {
     const placeholder = t('quoteDropdownPlaceholder', 'Quote');
     $dropdown.append(`<option value="" disabled selected></option>`);
 
-    const trainers = [...state.data.trainers].sort((a, b) => a.quote.localeCompare(b.quote));
+    const trainers = [...trainerPool()].sort((a, b) => a.quote.localeCompare(b.quote));
     for (const trainer of trainers) {
-        $dropdown.append(new Option(trainer.quote, trainer.name, false, false));
+        const index = state.data.trainers.indexOf(trainer);
+        $dropdown.append(new Option(trainer.quote, String(index), false, false));
     }
 
     initSelect2('#quote-dropdown', { placeholder, template: textTemplate });
 
     $dropdown.off('select2:select').on('select2:select', event => {
-        const trainer = state.data.trainers.find(tr => tr.name === event.params.data.id);
-        onSelect(trainer);
+        onSelect(state.data.trainers[Number(event.params.data.id)]);
     });
 }
 
 // Keep both dropdowns showing the selected trainer without re-firing events.
-export function syncTrainerDropdowns(trainerName) {
-    $('#trainer-dropdown').val(trainerName).trigger('change.select2');
-    $('#quote-dropdown').val(trainerName).trigger('change.select2');
+export function syncTrainerDropdowns(trainer) {
+    const value = trainer ? String(state.data.trainers.indexOf(trainer)) : '';
+    $('#trainer-dropdown').val(value).trigger('change.select2');
+    $('#quote-dropdown').val(value).trigger('change.select2');
 }
 
 /* ---------- species list & pokémon menus ---------- */
@@ -132,6 +216,7 @@ export function syncTrainerDropdowns(trainerName) {
 export function renderSpeciesList(trainer, onPick) {
     const list = document.getElementById('pokemon-list');
     list.innerHTML = '';
+    if (!state.variant.showMinisprites) return;
 
     for (const species of trainer.species.split(', ')) {
         if (!dexEntry(species)) continue;
@@ -150,7 +235,8 @@ export function populatePokemonMenus(trainer, onSelect) {
         .filter(sp => dexEntry(sp))
         .sort((a, b) => a.localeCompare(b));
 
-    for (const slot of [1, 2]) {
+    const slots = variantMaxSlots(state.variant);
+    for (let slot = 1; slot <= slots; slot++) {
         const $menu = $(`#pokemon-menu-${slot}`).empty();
         $menu.append(new Option('', '', true, true));
         for (const sp of species) {
@@ -158,7 +244,10 @@ export function populatePokemonMenus(trainer, onSelect) {
             $(option).attr('data-icon', minispriteUrl(sp));
             $menu.append(option);
         }
-        initSelect2(`#pokemon-menu-${slot}`, { placeholder: 'Pokémon', template: spriteTemplate });
+        initSelect2(`#pokemon-menu-${slot}`, {
+            placeholder: t('pokemonDropdownPlaceholder', 'Pokémon'),
+            template: spriteTemplate,
+        });
         $menu.off('select2:select').on('select2:select', event => {
             onSelect(slot, event.params.data.id);
         });
@@ -166,7 +255,10 @@ export function populatePokemonMenus(trainer, onSelect) {
 }
 
 export function highlightSelectedSprites() {
-    const selected = [$('#pokemon-menu-1').val(), $('#pokemon-menu-2').val()];
+    const selected = [];
+    for (let slot = 1; slot <= MAX_SLOTS; slot++) {
+        selected.push($(`#pokemon-menu-${slot}`).val());
+    }
     document.querySelectorAll('.pokemon-sprite').forEach(img => {
         img.classList.toggle('selected', selected.includes(img.alt));
     });
@@ -240,7 +332,7 @@ function itemCell(itemName) {
 }
 
 export function updateHighlightedRows() {
-    for (const slot of [1, 2]) {
+    for (let slot = 1; slot <= MAX_SLOTS; slot++) {
         const container = document.getElementById(`pokemon-sets-${slot}`);
         const active = state.activeSets[slot];
         container.querySelectorAll('.set-row').forEach(row => {
@@ -252,7 +344,7 @@ export function updateHighlightedRows() {
 
 /* ---------- set details ---------- */
 
-function showSetDetails(slot, set) {
+async function showSetDetails(slot, set) {
     const container = document.getElementById(`pokemon-sets-${slot}`);
     container.querySelector('.set-details')?.remove();
 
@@ -265,6 +357,27 @@ function showSetDetails(slot, set) {
     const english = speciesData.en.toLowerCase();
     const abilities = (speciesData[`abilities-${state.language}`] || '').split(', ');
     const itemEnglish = itemEntry(set.item)?.en ?? set.item;
+
+    // English move names drive the type lookup; for other languages the
+    // English counterpart set provides them (moves match by position).
+    let enSet = set;
+    if (state.language !== 'en') {
+        try {
+            const englishSets = await loadSets(state.variant, 'en');
+            enSet = englishSets.find(s =>
+                s.species === speciesData.en && s.setNumber === set.setNumber) || set;
+        } catch { /* fall back to localized names */ }
+    }
+    const moveLines = [];
+    for (let i = 1; i <= 4; i++) {
+        const text = set[`move${i}`];
+        if (!text || text === '-') continue;
+        const type = moveType(enSet[`move${i}`], state.variant.gen);
+        const bullet = type
+            ? `<img src="assets/images/types/${type.toLowerCase()}.png" alt="${type}" class="move-type-icon" onerror="this.remove()" />`
+            : '<span class="move-bullet">-</span>';
+        moveLines.push(`<div class="move-line">${bullet}<span>${text}</span></div>`);
+    }
 
     const natureData = state.data.natures.find(nature =>
         nature[`nature-${state.language}`] === set.nature);
@@ -296,12 +409,7 @@ function showSetDetails(slot, set) {
                 <br/><span class="nature-text">${natureText}</span>
             </div>
             <div class="separator"></div>
-            <div class="moves">
-                - ${set.move1}<br/>
-                - ${set.move2}<br/>
-                - ${set.move3}<br/>
-                - ${set.move4}
-            </div>
+            <div class="moves">${moveLines.join('')}</div>
             <div class="separator"></div>
             <div class="speed">
                 <img src="assets/images/speed.png" alt="Speed" class="speed-icon" />
@@ -318,7 +426,7 @@ function showSetDetails(slot, set) {
                 ${set.EVs.split(', ').join('<br/>')}
             </div>
             <div class="copy">
-                <img src="assets/images/copy.png" alt="Copy set" title="Copy set (Showdown format)" class="copy-icon" />
+                <span role="button" title="Copy set (Showdown format)" class="icon-mask icon-copy copy-icon"></span>
                 <span class="copy-feedback" hidden>Copied!</span>
             </div>
         </div>
@@ -363,7 +471,7 @@ async function showdownExport(set, speciesData) {
     const englishAbilities = (speciesData['abilities-en'] || '').split(', ');
     let englishSet = set;
     if (state.language !== 'en') {
-        const englishSets = await loadSets(state.facility, 'en');
+        const englishSets = await loadSets(state.variant, 'en');
         englishSet = englishSets.find(s =>
             s.species === speciesData.en && s.setNumber === set.setNumber) || set;
     }
@@ -374,9 +482,9 @@ function showdownFormat(set, abilities) {
     const lines = [
         set.item && set.item !== 'None' ? `${set.species} @ ${set.item}` : set.species,
         `Ability: ${abilities[0] ?? ''}`,
-        `EVs: ${set.EVs.split(', ').join(' / ')}`,
         `${set.nature} Nature`,
     ];
+    if (set.EVs) lines.splice(2, 0, `EVs: ${set.EVs.split(', ').join(' / ')}`);
     if (set.tera) lines.splice(1, 0, `Tera Type: ${set.tera}`);
     for (const move of [set.move1, set.move2, set.move3, set.move4]) {
         if (move) lines.push(`- ${move}`);
@@ -387,8 +495,8 @@ function showdownFormat(set, abilities) {
 /* ---------- resets & visibility ---------- */
 
 export function resetPokemonUI() {
-    state.activeSets = { 1: null, 2: null };
-    for (const slot of [1, 2]) {
+    state.activeSets = {};
+    for (let slot = 1; slot <= MAX_SLOTS; slot++) {
         const $menu = $(`#pokemon-menu-${slot}`);
         if ($menu.hasClass('select2-hidden-accessible')) {
             $menu.val('').trigger('change.select2');
@@ -400,27 +508,31 @@ export function resetPokemonUI() {
 
 export function resetSelections() {
     state.trainer = null;
-    syncTrainerDropdowns('');
+    syncTrainerDropdowns(null);
     resetPokemonUI();
     document.getElementById('pokemon-list').innerHTML = '';
     updateMenuVisibility();
 }
 
-// Shows/hides the two pokémon menu containers based on mode + trainer selection.
+// Shows the slot containers for the current mode (when a trainer is selected)
+// and sizes them evenly.
 export function updateMenuVisibility() {
-    const container1 = document.getElementById('pokemon-menu-container-1');
-    const container2 = document.getElementById('pokemon-menu-container-2');
     const hasTrainer = Boolean(state.trainer);
-    const doubles = state.mode === 'doubles';
+    const slots = MODES[state.mode].slots;
 
-    container1.style.display = hasTrainer ? 'block' : 'none';
-    container2.style.display = hasTrainer && doubles ? 'block' : 'none';
-    container1.classList.toggle('single', !doubles);
-    container1.classList.toggle('double', doubles);
-    container2.classList.toggle('double', doubles);
+    for (let slot = 1; slot <= MAX_SLOTS; slot++) {
+        const container = document.getElementById(`pokemon-menu-container-${slot}`);
+        const visible = hasTrainer && slot <= slots;
+        container.style.display = visible ? 'block' : 'none';
+        container.classList.remove('w-1', 'w-2', 'w-3');
+        if (visible) container.classList.add(`w-${slots}`);
+    }
 }
 
 export function applyStaticTranslations() {
     const title = document.querySelector('#settings-modal h2');
     if (title) title.textContent = t('settings', 'Settings');
+    // The late filter is a visual "<N>+" pill; the translation is its tooltip.
+    const lateBtn = document.getElementById('late-filter');
+    if (lateBtn) lateBtn.title = t('lateFilter', 'Late trainers only');
 }

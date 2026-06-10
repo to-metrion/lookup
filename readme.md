@@ -16,10 +16,13 @@ index.html          Single page
 styles.css          All styling
 scripts/
   app.js            Entry point: init, settings, event wiring
-  config.js         Facility & language config
+  config.js         Games, variants (feature flags), modes, themes, languages
   data.js           JSON fetching with caching
   state.js          Shared app state
   ui.js             DOM rendering (dropdowns, set tables, set details)
+tools/
+  validate.py       Data integrity checks — run after every data change
+  convert_moves.js  Rebuilds data/moves.json from tools/src/move_data.js
 data/
   <facility>-trainers-<lang>.json   Trainer rosters & quotes
   <facility>-sets-<lang>.json       Pokémon sets
@@ -27,5 +30,7 @@ data/
   items.json, natures.json, translations.json
 assets/images/      Sprites, items, types, flags, trainers
 ```
+
+Planned features and progress are tracked in [roadmap.md](roadmap.md).
 
 No build step — serve the folder statically (e.g. `python3 -m http.server`) or push to GitHub Pages.

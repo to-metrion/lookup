@@ -31,5 +31,27 @@
         "ko": "설정",
         "chs": "设置",
         "cht": "設定"
+    },
+    "lateFilter": {
+        "en": "Late trainers only (post-50)",
+        "fr": "Dresseurs tardifs uniquement (après 50)",
+        "jp": "後半のトレーナーのみ（50戦以降）",
+        "it": "Solo allenatori tardivi (dopo 50)",
+        "de": "Nur späte Trainer (nach 50)",
+        "es": "Solo entrenadores tardíos (tras 50)",
+        "ko": "후반 트레이너만 (50전 이후)",
+        "chs": "仅显示后期训练家（50战后）",
+        "cht": "僅顯示後期訓練家（50戰後）"
+    },
+    "pokemonDropdownPlaceholder": {
+        "en": "Pokémon",
+        "fr": "Pokémon",
+        "it": "Pokémon",
+        "de": "Pokémon",
+        "es": "Pokémon",
+        "jp": "ポケモン",
+        "ko": "포켓몬",
+        "chs": "宝可梦",
+        "cht": "寶可夢"
     }
 }
