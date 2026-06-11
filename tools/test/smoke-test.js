@@ -344,6 +344,22 @@ function check(name, cond) {
     check('maison: ORAS trainers load (194)', $('#trainer-dropdown-1 option').length === 195);
     check('maison: late pill shows 40+', doc.getElementById('late-filter').textContent === '40+');
     check('maison: Inga present (ORAS-corpus name)', $('#trainer-dropdown-1 option').toArray().some(o => o.text === 'Inga'));
+
+    /* ---- hidden feature: trainer search also matches the trainer class ---- */
+    const chefCount = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/maison/trainers-en.json'), 'utf8'))
+        .trainers.filter(t => t.class === 'Chef').length;
+    $('#trainer-dropdown-1').select2('open');
+    await sleep(100);
+    const searchField = doc.querySelector('.select2-container--open .select2-search__field');
+    searchField.value = 'chef';
+    $(searchField).trigger('input');
+    await sleep(100);
+    const classHits = [...doc.querySelectorAll('.select2-results__option')]
+        .filter(o => !o.classList.contains('select2-results__message'));
+    check('class search: "chef" lists all ' + chefCount + ' Chefs (' + classHits.length + ')',
+        chefCount > 0 && classHits.length === chefCount);
+    $('#trainer-dropdown-1').select2('close');
+    await sleep(100);
     const mIdx = $('#trainer-dropdown-1 option').eq(1).val();
     $('#trainer-dropdown-1').val(mIdx).trigger('change');
     $('#trainer-dropdown-1').trigger({ type: 'select2:select', params: { data: { id: mIdx } } });

@@ -121,7 +121,8 @@ export function iconTemplate(option) {
     return $span.append(document.createTextNode(' ' + option.text));
 }
 
-export function initSelect2(selector, { placeholder, template, containerClass, search = true } = {}) {
+export function initSelect2(selector, { placeholder, template, containerClass, search = true,
+                                        matcher } = {}) {
     const $el = $(selector);
     if ($el.hasClass('select2-hidden-accessible')) {
         $el.select2('destroy');
@@ -133,6 +134,7 @@ export function initSelect2(selector, { placeholder, template, containerClass, s
         width: '100%',
         // search: false hides the search box (short, fixed lists)
         minimumResultsForSearch: search ? 0 : Infinity,
+        ...(matcher ? { matcher } : {}),
     });
     if (containerClass) {
         $el.data('select2').$container.addClass(containerClass);
@@ -178,6 +180,23 @@ function sideLabel(base, side) {
 // the name — names can legitimately collide (e.g. two Battle Tree trainers
 // share the same Japanese name).
 
+// Hidden nicety: the trainer search also matches the (localized) trainer
+// CLASS, so typing "chef" lists every Chef alongside any name matches.
+// Mirrors select2's default matcher (case- and diacritic-insensitive).
+const fold = s => String(s ?? '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+
+function trainerMatcher(params, data) {
+    const term = fold(params.term).trim();
+    if (!term) return data;
+    if (fold(data.text).includes(term)) return data;
+    const value = data.element?.value;
+    if (value !== '' && value != null) {
+        const trainer = state.data.trainers[Number(value)];
+        if (fold(trainer?.class).includes(term)) return data;
+    }
+    return null;
+}
+
 export function populateTrainerDropdown(side, onSelect) {
     const $dropdown = $(`#trainer-dropdown-${side}`).empty();
     $dropdown.append(`<option value="" disabled selected></option>`);
@@ -194,6 +213,7 @@ export function populateTrainerDropdown(side, onSelect) {
         placeholder: sideLabel(t('trainerDropdownPlaceholder', 'Trainer'), side),
         template: trainerTemplate,
         containerClass: 'select2-container--trainer',
+        matcher: trainerMatcher,
     });
 
     $dropdown.off('select2:select').on('select2:select', event => {
@@ -229,6 +249,7 @@ export function refreshSidePlaceholders() {
             placeholder: sideLabel(t('trainerDropdownPlaceholder', 'Trainer'), side),
             template: trainerTemplate,
             containerClass: 'select2-container--trainer',
+            matcher: trainerMatcher,
         });
         initSelect2(`#quote-dropdown-${side}`, {
             placeholder: sideLabel(t('quoteDropdownPlaceholder', 'Quote'), side),
