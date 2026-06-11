@@ -245,8 +245,8 @@
         {
             "name": "Salvatore",
             "class": "Montanaro",
-            "roster": "Lycanroc-1, Probopass-1, Dugtrio-Alola-1, Mawile-1, Ferrothorn-1, Armaldo-1, Rampardos-1, Bastiodon-1, Scizor-1, Gigalith-1, Steelix-1, Gliscor-1, Palossand-1, Hippowdon-1, Aggron-1, Rhyperior-1, Sandslash-1, Tyranitar-1, Metagross-1, Garchomp-1",
-            "species": "Lycanroc, Probopass, Dugtrio-Alola, Mawile, Ferrothorn, Armaldo, Rampardos, Bastiodon, Scizor, Gigalith, Steelix, Gliscor, Palossand, Hippowdon, Aggron, Rhyperior, Sandslash, Tyranitar, Metagross, Garchomp",
+            "roster": "Lycanroc-1, Dugtrio-Alola-1, Mawile-1, Ferrothorn-1, Armaldo-1, Rampardos-1, Bastiodon-1, Scizor-1, Gigalith-1, Steelix-1, Gliscor-1, Palossand-1, Hippowdon-1, Aggron-1, Rhyperior-1, Sandslash-1, Tyranitar-1, Metagross-1, Garchomp-1",
+            "species": "Lycanroc, Dugtrio-Alola, Mawile, Ferrothorn, Armaldo, Rampardos, Bastiodon, Scizor, Gigalith, Steelix, Gliscor, Palossand, Hippowdon, Aggron, Rhyperior, Sandslash, Tyranitar, Metagross, Garchomp",
             "late": "",
             "quote": "Bene, maestroa! Diamo inizio all’allenamento!",
             "winQuote": "Molto bene! Grazie mille, maestroa!",
@@ -256,8 +256,8 @@
         {
             "name": "Kevin",
             "class": "Montanaro",
-            "roster": "Lycanroc-1, Probopass-1, Dugtrio-Alola-1, Mawile-1, Ferrothorn-1, Armaldo-1, Rampardos-1, Bastiodon-1, Scizor-1, Gigalith-1, Steelix-1, Gliscor-1, Palossand-1, Hippowdon-1, Aggron-1, Rhyperior-1, Sandslash-1, Tyranitar-1, Metagross-1, Garchomp-1",
-            "species": "Lycanroc, Probopass, Dugtrio-Alola, Mawile, Ferrothorn, Armaldo, Rampardos, Bastiodon, Scizor, Gigalith, Steelix, Gliscor, Palossand, Hippowdon, Aggron, Rhyperior, Sandslash, Tyranitar, Metagross, Garchomp",
+            "roster": "Lycanroc-1, Dugtrio-Alola-1, Mawile-1, Ferrothorn-1, Armaldo-1, Rampardos-1, Bastiodon-1, Scizor-1, Gigalith-1, Steelix-1, Gliscor-1, Palossand-1, Hippowdon-1, Aggron-1, Rhyperior-1, Sandslash-1, Tyranitar-1, Metagross-1, Garchomp-1",
+            "species": "Lycanroc, Dugtrio-Alola, Mawile, Ferrothorn, Armaldo, Rampardos, Bastiodon, Scizor, Gigalith, Steelix, Gliscor, Palossand, Hippowdon, Aggron, Rhyperior, Sandslash, Tyranitar, Metagross, Garchomp",
             "late": "",
             "quote": "Le finezze non sono il mio forte, ma quanto a potenza non mi batte nessuno!",
             "winQuote": "Nelle lotte trionfa il più forte! Un deboluccioa deboluccia come te non ha speranza!",
@@ -487,8 +487,8 @@
         {
             "name": "Ermes",
             "class": "Rising Star (M)",
-            "roster": "Chesnaught-1, Delphox-1, Greninja-1, Beedrill-1, Decidueye-1, Incineroar-1, Araquanid-1, Venusaur-1, Charizard-1, Meganium-1, Typhlosion-1, Feraligatr-1, Sceptile-1, Blaziken-1, Swampert-1, Torterra-1, Infernape-1, Empoleon-1, Serperior-1, Emboar-1, Samurott-1, Pidgeot-1, Sableye-1, Audino-1, Sharpedo-1, Glalie-1, Camerupt-1, Lopunny-1, Golem-Alola-1, Slowbro-1, Altaria-1, Abomasnow-1, Pinsir-1, Steelix-1, Gliscor-1, Porygon2-1, Gallade-1, Walrein-1, Snorlax-1, Kingdra-1, Salamence-1",
-            "species": "Chesnaught, Delphox, Greninja, Beedrill, Decidueye, Incineroar, Araquanid, Venusaur, Charizard, Meganium, Typhlosion, Feraligatr, Sceptile, Blaziken, Swampert, Torterra, Infernape, Empoleon, Serperior, Emboar, Samurott, Pidgeot, Sableye, Audino, Sharpedo, Glalie, Camerupt, Lopunny, Golem-Alola, Slowbro, Altaria, Abomasnow, Pinsir, Steelix, Gliscor, Porygon2, Gallade, Walrein, Snorlax, Kingdra, Salamence",
+            "roster": "Chesnaught-1, Delphox-1, Greninja-1, Beedrill-1, Decidueye-1, Incineroar-1, Araquanid-1, Venusaur-1, Charizard-1, Meganium-1, Typhlosion-1, Feraligatr-1, Sceptile-1, Blaziken-1, Swampert-1, Torterra-1, Infernape-1, Empoleon-1, Serperior-1, Emboar-1, Samurott-1, Pidgeot-1, Sableye-1, Audino-1, Sharpedo-1, Glalie-1, Camerupt-1, Lopunny-1, Golem-Alola-1, Slowbro-1, Altaria-1, Abomasnow-1, Pinsir-1, Steelix-1, Gliscor-1, Porygon2-1, Gallade-1, Snorlax-1, Kingdra-1, Salamence-1",
+            "species": "Chesnaught, Delphox, Greninja, Beedrill, Decidueye, Incineroar, Araquanid, Venusaur, Charizard, Meganium, Typhlosion, Feraligatr, Sceptile, Blaziken, Swampert, Torterra, Infernape, Empoleon, Serperior, Emboar, Samurott, Pidgeot, Sableye, Audino, Sharpedo, Glalie, Camerupt, Lopunny, Golem-Alola, Slowbro, Altaria, Abomasnow, Pinsir, Steelix, Gliscor, Porygon2, Gallade, Snorlax, Kingdra, Salamence",
             "late": "",
             "quote": "Ah ah ah ah! Inginocchiati davanti alla mia squadra!",
             "winQuote": "Beh, non era necessario che ti prostrassi... Il mio era un modo di dire!",

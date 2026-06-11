@@ -357,8 +357,14 @@ export function showPokemonSets(slot, species) {
         row.appendChild(textCell(set.speed));
 
         row.onclick = () => {
-            state.activeSets[slot] = set;
-            showSetDetails(slot, set);
+            if (state.activeSets[slot] === set) {
+                // re-clicking the selected set collapses its details
+                state.activeSets[slot] = null;
+                container.querySelector('.set-details')?.remove();
+            } else {
+                state.activeSets[slot] = set;
+                showSetDetails(slot, set);
+            }
             updateHighlightedRows();
         };
 

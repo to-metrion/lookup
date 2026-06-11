@@ -30,18 +30,27 @@ function populateGameSelect() {
 }
 
 // Hidden entirely when the selected game has a single variant.
+// Only rebuilds the options when the game changed — rebuilding (and therefore
+// destroying the select2 instance) from inside the select's own change event
+// crashes select2.
 function populateVariantSelect() {
     const row = document.getElementById('variant-row');
     const select = document.getElementById('variant-select');
-    select.innerHTML = '';
-    for (const variant of state.game.variants) {
-        select.appendChild(new Option(variant.name, variant.code));
+    const codes = state.game.variants.map(v => v.code);
+    const current = [...select.options].map(o => o.value);
+    if (codes.join('|') !== current.join('|')) {
+        select.innerHTML = '';
+        for (const variant of state.game.variants) {
+            const option = new Option(variant.name, variant.code);
+            if (variant.icons?.length) option.setAttribute('data-icons', variant.icons.join('|'));
+            select.appendChild(option);
+        }
+        if (state.game.variants.length > 1) {
+            initSelect2('#variant-select', { placeholder: 'Facility', template: iconTemplate, search: false });
+        }
     }
-    select.value = state.variant.code;
     row.style.display = state.game.variants.length > 1 ? '' : 'none';
-    if (state.game.variants.length > 1) {
-        initSelect2('#variant-select', { placeholder: 'Facility', search: false });
-    }
+    $(select).val(state.variant.code).trigger('change.select2');
 }
 
 function populateLanguageSelect() {

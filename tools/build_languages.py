@@ -16,6 +16,13 @@ This script:
 
 Usage:  python3 tools/build_languages.py [--corpus /path/to/poke-corpus/corpus]
 
+To get the corpus locally (sparse clone, only the three games needed, ~90MB):
+    git clone --depth 1 --filter=blob:none --no-checkout \
+        https://github.com/abcboy101/poke-corpus.git /tmp/pokecorpus
+    cd /tmp/pokecorpus
+    git sparse-checkout set corpus/UltraSunUltraMoon corpus/BlackWhite corpus/ScarletViolet
+    git checkout main
+
 Verification: run tools/validate.py afterwards. This script also self-checks
 against the pre-existing hand-made columns (fr/jp) and reports mismatches.
 """
@@ -432,6 +439,91 @@ def gen_trainers(prefix, game, dex_file, lang, species_maps, suffix_map,
     info(f'{prefix}-trainers-{lang}.json: {len(out)} trainers')
 
 
+# ---------------- delta variants (base + overrides, e.g. SM on USUM) ----------------
+
+def gen_delta(prefix, game, dex_file, lang, species_maps, item_maps, move_maps,
+              nature_maps, suffix_map):
+    """Localizes the en delta files of a base+delta variant.
+    Delta sets/trainer records are full records (translated like normal ones);
+    'remove' lists are translated via dex (sets) / corpus name list (trainers)."""
+    dex = load_data(dex_file)['pokedex']
+    dex_by_en = {p['en']: p for p in dex}
+    names_en = column(game, 'trainer_names', 'en')
+    names_loc = column(game, 'trainer_names', lang)
+
+    def loc_species(en_name):
+        return dex_by_en.get(en_name, {}).get(lang) \
+            or localize_species(en_name, lang, species_maps, suffix_map)
+
+    def loc_trainer_name(en_name):
+        idxs = [i for i, n in enumerate(names_en) if n == en_name]
+        return names_loc[idxs[0]] if idxs else None
+
+    # The app resolves items/natures via items.json / natures.json columns, so
+    # delta sets MUST use those spellings too; corpus is only a fallback.
+    items_local = {nrm(r['en']): r for r in load_data('items.json')['items']}
+    natures_local = {nrm(r['nature-en']): r for r in load_data('natures.json')['natures']}
+    item_maps = [{k: {lang: v.get(lang)} for k, v in items_local.items()}] + item_maps
+    nature_maps = [{k: {lang: v.get(f'nature-{lang}')} for k, v in natures_local.items()}] + nature_maps
+
+    # sets delta
+    d = json.loads((DATA / prefix / 'sets-en.json').read_text(encoding='utf-8'))
+    out = {'remove': [], 'sets': []}
+    for species, num in d.get('remove', []):
+        loc = loc_species(species)
+        if loc: out['remove'].append([loc, num])
+        else: warn(f'{prefix}/{lang}: cannot localize removed set {species}-{num}')
+    for s in d.get('sets', []):
+        loc_sp = loc_species(s['species'])
+        loc_item = s['item'] if s['item'] in ('', 'None') else lookup(item_maps, s['item'], lang)
+        loc_nat = lookup(nature_maps, s['nature'], lang)
+        moves = {i: (s[f'move{i}'] if not s[f'move{i}'] or s[f'move{i}'] == '-'
+                     else lookup(move_maps, s[f'move{i}'], lang, MOVE_ALIASES)) for i in (1, 2, 3, 4)}
+        if not all([loc_sp, loc_item is not None, loc_nat, all(moves.values()) or True]):
+            warn(f'{prefix}/{lang}: cannot localize delta set {s["setName"]}'); continue
+        out['sets'].append({**s, 'setName': f'{loc_sp}-{s["setNumber"]}', 'species': loc_sp,
+                            'item': loc_item, 'nature': loc_nat,
+                            **{f'move{i}': moves[i] for i in (1, 2, 3, 4)}})
+    (DATA / prefix / f'sets-{lang}.json').write_text(
+        json.dumps(out, indent=4, ensure_ascii=False) + '\n', encoding='utf-8')
+
+    # trainers delta
+    d = json.loads((DATA / prefix / 'trainers-en.json').read_text(encoding='utf-8'))
+    out = {'remove': [], 'trainers': []}
+    for name in d.get('remove', []):
+        loc = loc_trainer_name(name)
+        if loc: out['remove'].append(loc)
+        else: warn(f'{prefix}/{lang}: cannot localize removed trainer {name!r}')
+    if d.get('trainers'):
+        quotes_loc = column(game, 'quotes', lang)
+        offsets = match_quotes(game, d['trainers'])
+        class_map = name_map(game, 'classes', [lang]) if 'classes' in SECTIONS[game] else {}
+        for t in d['trainers']:
+            loc_name = loc_trainer_name(t['name'])
+            off = offsets.get(t['name'])
+            species_loc = [loc_species(sp) for sp in t['species'].split(', ')]
+            roster_loc = []
+            for entry in t['roster'].split(', '):
+                m = re.match(r'(.+)-(\d+)$', entry)
+                loc = loc_species(m.group(1)) if m else None
+                roster_loc.append(f'{loc}-{m.group(2)}' if loc else None)
+            if not loc_name or off is None or not all(species_loc) or not all(roster_loc):
+                warn(f'{prefix}/{lang}: cannot localize delta trainer {t["name"]!r}'); continue
+            rec = {'name': loc_name}
+            if 'class' in t:
+                rec['class'] = (class_map.get(nrm(t['class'])) or {}).get(lang, t['class'])
+            rec.update({'roster': ', '.join(roster_loc), 'species': ', '.join(species_loc),
+                        'late': t.get('late', ''), 'quote': clean(quotes_loc[off])})
+            if 'winQuote' in t:
+                rec['winQuote'] = clean(quotes_loc[off + 1])
+                rec['lossQuote'] = clean(quotes_loc[off + 2])
+            rec['sprite'] = t['sprite']
+            out['trainers'].append(rec)
+    (DATA / prefix / f'trainers-{lang}.json').write_text(
+        json.dumps(out, indent=4, ensure_ascii=False) + '\n', encoding='utf-8')
+    info(f'{prefix} delta localized for {lang}')
+
+
 # ---------------- self-check against existing hand-made files ----------------
 
 def self_check(game, prefix, lang):
@@ -494,6 +586,11 @@ def main():
     for lang in ['jp', 'fr', 'it', 'de', 'es', 'ko']:
         gen_sets('subway', 'pokedex-5.json', lang, [sp_bw, sp_usum],
                  [it_bw, it_usum], [mv_bw, mv_usum], [nt_bw, nt_usum], suffix_map)
+
+    # 2b. delta variants (e.g. tree-sm): localize the en delta files
+    for lang in ['fr', 'it', 'de', 'es', 'jp', 'ko', 'chs', 'cht']:
+        gen_delta('tree-sm', USUM, 'pokedex-7.json', lang, [sp_usum, sp_sv],
+                  [it_usum, it_sv], [mv_usum, mv_sv], [nt_usum], suffix_map)
 
     # 3. trainers
     self_check(USUM, 'tree', 'fr')

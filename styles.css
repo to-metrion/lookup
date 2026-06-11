@@ -922,6 +922,11 @@ button:focus {
     .multis-mode .slot-species {
         display: none; /* too much scrolling on small screens */
     }
+
+    /* ...and since sprites can't show in mobile multis, hide their toggle too */
+    .multis-mode #sprites-row {
+        display: none !important;
+    }
 }
 
 @media (max-width: 600px) {

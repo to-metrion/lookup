@@ -245,8 +245,8 @@
         {
             "name": "Volker",
             "class": "Wanderer",
-            "roster": "Wolwerock-1, Voluminas-1, Digdri-Alola-1, Flunkifer-1, Tentantel-1, Armaldo-1, Rameidon-1, Bollterus-1, Scherox-1, Brockoloss-1, Stahlos-1, Skorgro-1, Colossand-1, Hippoterus-1, Stolloss-1, Rihornior-1, Sandamer-1, Despotar-1, Metagross-1, Knakrack-1",
-            "species": "Wolwerock, Voluminas, Digdri-Alola, Flunkifer, Tentantel, Armaldo, Rameidon, Bollterus, Scherox, Brockoloss, Stahlos, Skorgro, Colossand, Hippoterus, Stolloss, Rihornior, Sandamer, Despotar, Metagross, Knakrack",
+            "roster": "Wolwerock-1, Digdri-Alola-1, Flunkifer-1, Tentantel-1, Armaldo-1, Rameidon-1, Bollterus-1, Scherox-1, Brockoloss-1, Stahlos-1, Skorgro-1, Colossand-1, Hippoterus-1, Stolloss-1, Rihornior-1, Sandamer-1, Despotar-1, Metagross-1, Knakrack-1",
+            "species": "Wolwerock, Digdri-Alola, Flunkifer, Tentantel, Armaldo, Rameidon, Bollterus, Scherox, Brockoloss, Stahlos, Skorgro, Colossand, Hippoterus, Stolloss, Rihornior, Sandamer, Despotar, Metagross, Knakrack",
             "late": "",
             "quote": "Yo, Boss! Willst du mit mir ein Sumotraining absolvieren?",
             "winQuote": "Yo! Yo! Yo! Danke, Boss!",
@@ -256,8 +256,8 @@
         {
             "name": "Humphrey",
             "class": "Wanderer",
-            "roster": "Wolwerock-1, Voluminas-1, Digdri-Alola-1, Flunkifer-1, Tentantel-1, Armaldo-1, Rameidon-1, Bollterus-1, Scherox-1, Brockoloss-1, Stahlos-1, Skorgro-1, Colossand-1, Hippoterus-1, Stolloss-1, Rihornior-1, Sandamer-1, Despotar-1, Metagross-1, Knakrack-1",
-            "species": "Wolwerock, Voluminas, Digdri-Alola, Flunkifer, Tentantel, Armaldo, Rameidon, Bollterus, Scherox, Brockoloss, Stahlos, Skorgro, Colossand, Hippoterus, Stolloss, Rihornior, Sandamer, Despotar, Metagross, Knakrack",
+            "roster": "Wolwerock-1, Digdri-Alola-1, Flunkifer-1, Tentantel-1, Armaldo-1, Rameidon-1, Bollterus-1, Scherox-1, Brockoloss-1, Stahlos-1, Skorgro-1, Colossand-1, Hippoterus-1, Stolloss-1, Rihornior-1, Sandamer-1, Despotar-1, Metagross-1, Knakrack-1",
+            "species": "Wolwerock, Digdri-Alola, Flunkifer, Tentantel, Armaldo, Rameidon, Bollterus, Scherox, Brockoloss, Stahlos, Skorgro, Colossand, Hippoterus, Stolloss, Rihornior, Sandamer, Despotar, Metagross, Knakrack",
             "late": "",
             "quote": "Ich kann unnötiges Gelaber nicht ausstehen. Lassen wir die Muskeln sprechen!",
             "winQuote": "Bei ’nem Kampf muss man immer volle Kanne draufhauen! Schwächlinge haben hier nichts zu suchen!",
@@ -487,8 +487,8 @@
         {
             "name": "Timo",
             "class": "Rising Star (M)",
-            "roster": "Brigaron-1, Fennexis-1, Quajutsu-1, Bibor-1, Silvarro-1, Fuegro-1, Aranestro-1, Bisaflor-1, Glurak-1, Meganie-1, Tornupto-1, Impergator-1, Gewaldro-1, Lohgock-1, Sumpex-1, Chelterrar-1, Panferno-1, Impoleon-1, Serpiroyal-1, Flambirex-1, Admurai-1, Tauboss-1, Zobiris-1, Ohrdoch-1, Tohaido-1, Firnontor-1, Camerupt-1, Schlapor-1, Geowaz-Alola-1, Lahmus-1, Altaria-1, Rexblisar-1, Pinsir-1, Stahlos-1, Skorgro-1, Porygon2-1, Galagladi-1, Walraisa-1, Relaxo-1, Seedraking-1, Brutalanda-1",
-            "species": "Brigaron, Fennexis, Quajutsu, Bibor, Silvarro, Fuegro, Aranestro, Bisaflor, Glurak, Meganie, Tornupto, Impergator, Gewaldro, Lohgock, Sumpex, Chelterrar, Panferno, Impoleon, Serpiroyal, Flambirex, Admurai, Tauboss, Zobiris, Ohrdoch, Tohaido, Firnontor, Camerupt, Schlapor, Geowaz-Alola, Lahmus, Altaria, Rexblisar, Pinsir, Stahlos, Skorgro, Porygon2, Galagladi, Walraisa, Relaxo, Seedraking, Brutalanda",
+            "roster": "Brigaron-1, Fennexis-1, Quajutsu-1, Bibor-1, Silvarro-1, Fuegro-1, Aranestro-1, Bisaflor-1, Glurak-1, Meganie-1, Tornupto-1, Impergator-1, Gewaldro-1, Lohgock-1, Sumpex-1, Chelterrar-1, Panferno-1, Impoleon-1, Serpiroyal-1, Flambirex-1, Admurai-1, Tauboss-1, Zobiris-1, Ohrdoch-1, Tohaido-1, Firnontor-1, Camerupt-1, Schlapor-1, Geowaz-Alola-1, Lahmus-1, Altaria-1, Rexblisar-1, Pinsir-1, Stahlos-1, Skorgro-1, Porygon2-1, Galagladi-1, Relaxo-1, Seedraking-1, Brutalanda-1",
+            "species": "Brigaron, Fennexis, Quajutsu, Bibor, Silvarro, Fuegro, Aranestro, Bisaflor, Glurak, Meganie, Tornupto, Impergator, Gewaldro, Lohgock, Sumpex, Chelterrar, Panferno, Impoleon, Serpiroyal, Flambirex, Admurai, Tauboss, Zobiris, Ohrdoch, Tohaido, Firnontor, Camerupt, Schlapor, Geowaz-Alola, Lahmus, Altaria, Rexblisar, Pinsir, Stahlos, Skorgro, Porygon2, Galagladi, Relaxo, Seedraking, Brutalanda",
             "late": "",
             "quote": "Muahahahaha!! Knie nieder vor meinem Pokémon-Team!",
             "winQuote": "Nein, du musst nicht wirklich niederknien. Das war doch nur eine Redensart!",

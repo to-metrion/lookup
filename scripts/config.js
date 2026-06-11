@@ -8,6 +8,10 @@
 //   name             display name
 //   dataDir          data files live in data/<dataDir>/trainers-<lang>.json
 //                    and data/<dataDir>/sets-<lang>.json
+//   base             optional: dataDir of another variant whose files serve as
+//                    the base; this variant's files are then DELTAS merged on
+//                    top ({ "remove": [...], "trainers"/"sets": [full records
+//                    that replace same-key entries or add new ones] })
 //   pokedex          pokedex file for this variant
 //   gen              generation number (move types are gen-aware)
 //   languages        available language codes (data files must exist for each)
@@ -18,8 +22,8 @@
 //                    enables the late-trainers-only toggle (shown as "<N>+"),
 //                    which filters on the `late` field of trainers ('1' = late)
 //
-// Games may also declare `icons`, a list of images (assets/images/games/...)
-// shown in the game select — typically one per flagship version.
+// Games AND variants may declare `icons`, a list of images
+// (assets/images/games/...) shown in their select — one per flagship version.
 // Future per-variant flags (see roadmap.md): dynamax, levels, openLevel,
 // fixedTeams, ...
 
@@ -32,6 +36,7 @@ export const GAMES = [
             {
                 code: 'tree-usum',
                 name: 'Ultra Sun / Ultra Moon',
+                icons: ['assets/images/games/us.png', 'assets/images/games/um.png'],
                 dataDir: 'tree',
                 pokedex: 'data/pokedex-7.json',
                 gen: 7,
@@ -41,7 +46,20 @@ export const GAMES = [
                 showMinisprites: true,
                 lateCutoff: 40,
             },
-            // { code: 'tree-sm', name: 'Sun / Moon', ... }  (planned)
+            {
+                code: 'tree-sm',
+                name: 'Sun / Moon',
+                icons: ['assets/images/games/s.png', 'assets/images/games/m.png'],
+                dataDir: 'tree-sm',
+                base: 'tree',   // delta files on top of the USUM data
+                pokedex: 'data/pokedex-7.json',
+                gen: 7,
+                languages: ['en', 'fr', 'it', 'de', 'es', 'jp', 'ko', 'chs', 'cht'],
+                modes: ['singles', 'doubles', 'multis'],
+                hasTrainers: true,
+                showMinisprites: true,
+                lateCutoff: 40,
+            },
         ],
     },
     {
@@ -106,7 +124,7 @@ export const THEMES = [
 
 // Appended to every data fetch (?v=...) so browsers pick up new data after a
 // deploy instead of serving stale cached JSON. Bump when data files change.
-export const DATA_VERSION = '2026-06-10c';
+export const DATA_VERSION = '2026-06-11d';
 
 export const LANGUAGE_NAMES = {
     en: 'English',

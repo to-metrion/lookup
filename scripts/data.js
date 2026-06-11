@@ -21,26 +21,65 @@ export function loadTranslations() {
     return fetchJSON('data/translations.json');
 }
 
+// Delta merge for variants that declare a `base` (e.g. SM on top of USUM):
+// removals are filtered out, records with an existing key replace the base
+// entry in place, new keys are appended (deterministic order — the parallel-
+// language invariant depends on it).
+function mergeDelta(baseList, delta, keyOf, removeKeyOf = k => k) {
+    const removed = new Set((delta.remove ?? []).map(r => String(removeKeyOf(r))));
+    const replacements = new Map((delta.records ?? []).map(r => [String(keyOf(r)), r]));
+    const merged = baseList
+        .filter(item => !removed.has(String(keyOf(item))))
+        .map(item => {
+            const r = replacements.get(String(keyOf(item)));
+            if (r) replacements.delete(String(keyOf(item)));
+            return r ?? item;
+        });
+    return merged.concat([...replacements.values()]); // additions, delta order
+}
+
+async function loadTrainersAndSets(variant, language) {
+    if (!variant.base) {
+        const [trainers, sets] = await Promise.all([
+            fetchJSON(`data/${variant.dataDir}/trainers-${language}.json`),
+            fetchJSON(`data/${variant.dataDir}/sets-${language}.json`),
+        ]);
+        return { trainers: trainers.trainers, sets: sets.sets };
+    }
+    const [baseTrainers, baseSets, dTrainers, dSets] = await Promise.all([
+        fetchJSON(`data/${variant.base}/trainers-${language}.json`),
+        fetchJSON(`data/${variant.base}/sets-${language}.json`),
+        fetchJSON(`data/${variant.dataDir}/trainers-${language}.json`),
+        fetchJSON(`data/${variant.dataDir}/sets-${language}.json`),
+    ]);
+    const setKey = s => `${s.species}|${s.setNumber}`;
+    return {
+        trainers: mergeDelta(baseTrainers.trainers,
+            { remove: dTrainers.remove, records: dTrainers.trainers },
+            t => t.name),
+        sets: mergeDelta(baseSets.sets,
+            { remove: dSets.remove, records: dSets.sets },
+            setKey, r => Array.isArray(r) ? `${r[0]}|${r[1]}` : r),
+    };
+}
+
 // Loads the sets file for a variant in a given language (used by the
 // Showdown export, which always needs the English sets).
 export async function loadSets(variant, language) {
-    const data = await fetchJSON(`data/${variant.dataDir}/sets-${language}.json`);
-    return data.sets;
+    return (await loadTrainersAndSets(variant, language)).sets;
 }
 
 // Loads everything needed for one variant + language combination, in parallel.
 export async function loadVariantData(variant, language) {
-    const [trainers, sets, pokedex, natures, items, moves] = await Promise.all([
-        fetchJSON(`data/${variant.dataDir}/trainers-${language}.json`),
-        fetchJSON(`data/${variant.dataDir}/sets-${language}.json`),
+    const [trainersAndSets, pokedex, natures, items, moves] = await Promise.all([
+        loadTrainersAndSets(variant, language),
         fetchJSON(variant.pokedex),
         fetchJSON('data/natures.json'),
         fetchJSON('data/items.json'),
         fetchJSON('data/moves.json'),
     ]);
     return {
-        trainers: trainers.trainers,
-        sets: sets.sets,
+        ...trainersAndSets,
         pokedex: pokedex.pokedex,
         natures: natures.natures,
         items: items.items,

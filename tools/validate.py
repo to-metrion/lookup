@@ -27,10 +27,13 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / 'data'
 IMAGES = ROOT / 'assets' / 'images'
 
-# (dataDir, pokedex file, gen, [languages])  — keep in sync with scripts/config.js
+# (dataDir, base dataDir or None, pokedex file, gen, [languages])
+# — keep in sync with scripts/config.js. Variants with a base use DELTA files
+# (remove + full replacement/addition records) merged onto the base data.
 VARIANTS = [
-    ('tree', 'pokedex-7.json', 7, ['en', 'fr', 'it', 'de', 'es', 'jp', 'ko', 'chs', 'cht']),
-    ('subway', 'pokedex-5.json', 5, ['en', 'fr', 'it', 'de', 'es', 'jp', 'ko']),
+    ('tree', None, 'pokedex-7.json', 7, ['en', 'fr', 'it', 'de', 'es', 'jp', 'ko', 'chs', 'cht']),
+    ('tree-sm', 'tree', 'pokedex-7.json', 7, ['en', 'fr', 'it', 'de', 'es', 'jp', 'ko', 'chs', 'cht']),
+    ('subway', None, 'pokedex-5.json', 5, ['en', 'fr', 'it', 'de', 'es', 'jp', 'ko']),
 ]
 
 ROSTER_RE = re.compile(r'(.+)-(\d+)$')
@@ -72,10 +75,36 @@ def move_type(moves_index, name, gen):
     return result
 
 
-def validate_variant_language(prefix, lang, dex, items, natures, gen=None, moves_index=None):
+def merge_delta(base_list, removed_keys, records, key_of):
+    removed = {str(k) for k in removed_keys}
+    repl = {str(key_of(r)): r for r in records}
+    merged = []
+    for item in base_list:
+        k = str(key_of(item))
+        if k in removed:
+            continue
+        merged.append(repl.pop(k, item))
+    return merged + list(repl.values())
+
+
+def load_trainers_sets(prefix, base, lang):
+    if not base:
+        return (load(f'{prefix}/trainers-{lang}.json')['trainers'],
+                load(f'{prefix}/sets-{lang}.json')['sets'])
+    bt = load(f'{base}/trainers-{lang}.json')['trainers']
+    bs = load(f'{base}/sets-{lang}.json')['sets']
+    dt = load(f'{prefix}/trainers-{lang}.json')
+    ds = load(f'{prefix}/sets-{lang}.json')
+    set_key = lambda s: f"{s['species']}|{s['setNumber']}"
+    trainers = merge_delta(bt, dt.get('remove', []), dt.get('trainers', []), lambda t: t['name'])
+    sets = merge_delta(bs, [f'{r[0]}|{r[1]}' for r in ds.get('remove', [])],
+                       ds.get('sets', []), set_key)
+    return trainers, sets
+
+
+def validate_variant_language(prefix, lang, dex, items, natures, gen=None, moves_index=None, base=None):
     tag = f'{prefix}/{lang}'
-    trainers = load(f'{prefix}/trainers-{lang}.json')['trainers']
-    sets = load(f'{prefix}/sets-{lang}.json')['sets']
+    trainers, sets = load_trainers_sets(prefix, base, lang)
     dex_by_lang = {p[lang]: p for p in dex if p.get(lang)}
     set_keys = {(s['species'], s['setNumber']) for s in sets}
     items_by_lang = {i[lang]: i for i in items if i.get(lang)}
@@ -151,13 +180,13 @@ def roster_signature(trainer, lang, dex):
     return sorted(out)
 
 
-def validate_parallel(prefix, langs, dex):
+def validate_parallel(prefix, langs, dex, variant_base=None):
     if len(langs) < 2:
         return
     base_lang = langs[0]
-    base = load(f'{prefix}/trainers-{base_lang}.json')['trainers']
+    base, _ = load_trainers_sets(prefix, variant_base, base_lang)
     for lang in langs[1:]:
-        other = load(f'{prefix}/trainers-{lang}.json')['trainers']
+        other, _ = load_trainers_sets(prefix, variant_base, lang)
         if len(base) != len(other):
             problem(f'{prefix}: trainer count differs: {base_lang}={len(base)} {lang}={len(other)}')
             continue
@@ -173,12 +202,12 @@ def main():
     natures = load('natures.json')['natures']
     moves_index = {normalize_move(k): v for k, v in load('moves.json')['moves'].items()}
 
-    for prefix, dex_file, gen, langs in VARIANTS:
+    for prefix, base, dex_file, gen, langs in VARIANTS:
         dex = load(dex_file)['pokedex']
-        print(f'== {prefix} (gen {gen}; {", ".join(langs)}) ==')
+        print(f'== {prefix} (gen {gen}; {", ".join(langs)}{f"; delta on {base}" if base else ""}) ==')
         for lang in langs:
-            validate_variant_language(prefix, lang, dex, items, natures, gen, moves_index)
-        validate_parallel(prefix, langs, dex)
+            validate_variant_language(prefix, lang, dex, items, natures, gen, moves_index, base)
+        validate_parallel(prefix, langs, dex, base)
 
     print()
     if problems:
