@@ -33,6 +33,8 @@ IMAGES = ROOT / 'assets' / 'images'
 VARIANTS = [
     ('tree', None, 'pokedex-7.json', 7, ['en', 'fr', 'it', 'de', 'es', 'jp', 'ko', 'chs', 'cht']),
     ('tree-sm', 'tree', 'pokedex-7.json', 7, ['en', 'fr', 'it', 'de', 'es', 'jp', 'ko', 'chs', 'cht']),
+    ('maison', None, 'pokedex-6.json', 6, ['en', 'fr', 'it', 'de', 'es', 'jp', 'ko']),
+    ('maison-xy', 'maison', 'pokedex-6.json', 6, ['en', 'fr', 'it', 'de', 'es', 'jp', 'ko']),
     ('subway', None, 'pokedex-5.json', 5, ['en', 'fr', 'it', 'de', 'es', 'jp', 'ko']),
 ]
 
@@ -96,7 +98,17 @@ def load_trainers_sets(prefix, base, lang):
     dt = load(f'{prefix}/trainers-{lang}.json')
     ds = load(f'{prefix}/sets-{lang}.json')
     set_key = lambda s: f"{s['species']}|{s['setNumber']}"
-    trainers = merge_delta(bt, dt.get('remove', []), dt.get('trainers', []), lambda t: t['name'])
+    # trainers: removals by name; replacements by name+sprite (names can
+    # legitimately collide between two different trainers in some languages)
+    removed = set(dt.get('remove', []))
+    t_key = lambda t: f"{t['name']}|{t.get('sprite', '')}"
+    repl = {t_key(t): t for t in dt.get('trainers', [])}
+    trainers = []
+    for t in bt:
+        if t['name'] in removed:
+            continue
+        trainers.append(repl.pop(t_key(t), t))
+    trainers += list(repl.values())
     sets = merge_delta(bs, [f'{r[0]}|{r[1]}' for r in ds.get('remove', [])],
                        ds.get('sets', []), set_key)
     return trainers, sets
@@ -154,9 +166,15 @@ def validate_variant_language(prefix, lang, dex, items, natures, gen=None, moves
         if s.get('nature') not in nature_names:
             problem(f'{tag}: set {sid}: nature "{s.get("nature")}" not in natures.json')
         # EVs may legitimately be empty (early-streak Pokémon have none).
-        for field in ('setName', 'move1', 'speed'):
+        for field in ('setName', 'move1'):
             if field not in s or s[field] in ('', None):
                 problem(f'{tag}: set {sid}: missing/empty field "{field}"')
+        if 'speed' in s:
+            problem(f'{tag}: set {sid}: stale static "speed" field '
+                    '(displayed speed is computed by scripts/speed.js)')
+        # Computed speed needs the species' base stats in the pokedex file.
+        if s['species'] in dex_by_lang and dex_by_lang[s['species']].get('spe') is None:
+            problem(f'{tag}: set {sid}: species has no base stats in pokedex')
         # Move types are looked up via English names only.
         if lang == 'en' and moves_index is not None:
             for i in (1, 2, 3, 4):
@@ -197,13 +215,34 @@ def validate_parallel(prefix, langs, dex, variant_base=None):
                 problem(f'{prefix}: trainer #{i} ("{a["name"]}") roster differs between {base_lang} and {lang}')
 
 
+def validate_pokedex(dex_file, dex):
+    """Base stats + National Dex ordering (the UI's minisprite sort relies on
+    file position; speed.js relies on the stats)."""
+    prev = 0
+    for i, p in enumerate(dex):
+        for k in ('num', 'hp', 'atk', 'def', 'spa', 'spd', 'spe'):
+            if not isinstance(p.get(k), int):
+                problem(f'{dex_file}: {p.get("en", f"#{i}")}: missing/invalid "{k}" '
+                        '(run tools/add_base_stats.js)')
+                break
+        num = p.get('num')
+        if isinstance(num, int):
+            if num < prev:
+                problem(f'{dex_file}: {p["en"]} (#{num}) out of National Dex order')
+            prev = num
+
+
 def main():
     items = load('items.json')['items']
     natures = load('natures.json')['natures']
     moves_index = {normalize_move(k): v for k, v in load('moves.json')['moves'].items()}
 
+    checked_dex = set()
     for prefix, base, dex_file, gen, langs in VARIANTS:
         dex = load(dex_file)['pokedex']
+        if dex_file not in checked_dex:
+            checked_dex.add(dex_file)
+            validate_pokedex(dex_file, dex)
         print(f'== {prefix} (gen {gen}; {", ".join(langs)}{f"; delta on {base}" if base else ""}) ==')
         for lang in langs:
             validate_variant_language(prefix, lang, dex, items, natures, gen, moves_index, base)

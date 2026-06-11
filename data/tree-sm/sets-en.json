@@ -11,8 +11,7 @@
             "move2": "Weather Ball",
             "move3": "Sunny Day",
             "move4": "Synthesis",
-            "EVs": "252 SpA, 252 SpD",
-            "speed": "65"
+            "EVs": "252 SpA, 252 SpD"
         },
         {
             "setName": "Turtonator-2",
@@ -24,8 +23,7 @@
             "move2": "Solar Beam",
             "move3": "Flamethrower",
             "move4": "Sunny Day",
-            "EVs": "252 HP, 252 SpD",
-            "speed": "56"
+            "EVs": "252 HP, 252 SpD"
         },
         {
             "setName": "Vikavolt-3",
@@ -37,8 +35,7 @@
             "move2": "Air Slash",
             "move3": "Flash Cannon",
             "move4": "Thunder Wave",
-            "EVs": "252 HP, 252 SpA",
-            "speed": "63"
+            "EVs": "252 HP, 252 SpA"
         },
         {
             "setName": "Incineroar-3",
@@ -50,8 +47,7 @@
             "move2": "Throat Chop",
             "move3": "Earthquake",
             "move4": "Outrage",
-            "EVs": "252 Atk, 252 Spe",
-            "speed": "112"
+            "EVs": "252 Atk, 252 Spe"
         },
         {
             "setName": "Togedemaru-3",
@@ -63,8 +59,7 @@
             "move2": "Spiky Shield",
             "move3": "Fell Stinger",
             "move4": "Poison Jab",
-            "EVs": "252 HP, 252 Atk",
-            "speed": "116"
+            "EVs": "252 HP, 252 Atk"
         },
         {
             "setName": "Electivire-3",
@@ -76,8 +71,7 @@
             "move2": "Focus Blast",
             "move3": "Flamethrower",
             "move4": "Psychic",
-            "EVs": "252 HP, 252 SpA",
-            "speed": "115"
+            "EVs": "252 HP, 252 SpA"
         },
         {
             "setName": "Togedemaru-4",
@@ -89,8 +83,7 @@
             "move2": "Nuzzle",
             "move3": "U-turn",
             "move4": "Spiky Shield",
-            "EVs": "252 Atk, 252 Spe",
-            "speed": "162"
+            "EVs": "252 Atk, 252 Spe"
         },
         {
             "setName": "Golem-Alola-1",
@@ -102,8 +95,7 @@
             "move2": "Smack Down",
             "move3": "Bulldoze",
             "move4": "Counter",
-            "EVs": "168 HP, 168 Atk, 168 Def",
-            "speed": "65"
+            "EVs": "168 HP, 168 Atk, 168 Def"
         },
         {
             "setName": "Aerodactyl-1",
@@ -115,8 +107,7 @@
             "move2": "",
             "move3": "",
             "move4": "",
-            "EVs": "252 Atk, 252 Spe",
-            "speed": "300"
+            "EVs": "252 Atk, 252 Spe"
         },
         {
             "setName": "Rhyperior-2",
@@ -128,8 +119,7 @@
             "move2": "Rock Polish",
             "move3": "",
             "move4": "",
-            "EVs": "252 Atk, 252 Spe",
-            "speed": "92"
+            "EVs": "252 Atk, 252 Spe"
         },
         {
             "setName": "Porygon-Z-2",
@@ -141,8 +131,7 @@
             "move2": "",
             "move3": "",
             "move4": "",
-            "EVs": "252 Spe, 252 SpA",
-            "speed": "142"
+            "EVs": "252 Spe, 252 SpA"
         },
         {
             "setName": "Magnezone-3",
@@ -154,8 +143,7 @@
             "move2": "Flash Cannon",
             "move3": "Magnet Rise",
             "move4": "Thunder Wave",
-            "EVs": "252 Def, 252 SpA",
-            "speed": "80"
+            "EVs": "252 Def, 252 SpA"
         },
         {
             "setName": "Golem-Alola-2",
@@ -167,8 +155,7 @@
             "move2": "Earthquake",
             "move3": "Explosion",
             "move4": "Rock Polish",
-            "EVs": "252 Atk, 252 Spe",
-            "speed": "97"
+            "EVs": "252 Atk, 252 Spe"
         },
         {
             "setName": "Magnezone-4",
@@ -180,8 +167,7 @@
             "move2": "Flash Cannon",
             "move3": "Tri Attack",
             "move4": "Volt Switch",
-            "EVs": "252 SpA, 252 SpD",
-            "speed": "80"
+            "EVs": "252 SpA, 252 SpD"
         },
         {
             "setName": "Electivire-4",
@@ -193,8 +179,7 @@
             "move2": "Feint",
             "move3": "Ice Punch",
             "move4": "Cross Chop",
-            "EVs": "252 HP, 252 Atk",
-            "speed": "115"
+            "EVs": "252 HP, 252 Atk"
         }
     ]
 }

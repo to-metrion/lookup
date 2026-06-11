@@ -54,13 +54,29 @@ async function loadTrainersAndSets(variant, language) {
     ]);
     const setKey = s => `${s.species}|${s.setNumber}`;
     return {
-        trainers: mergeDelta(baseTrainers.trainers,
-            { remove: dTrainers.remove, records: dTrainers.trainers },
-            t => t.name),
+        trainers: mergeTrainers(baseTrainers.trainers, dTrainers),
         sets: mergeDelta(baseSets.sets,
             { remove: dSets.remove, records: dSets.sets },
             setKey, r => Array.isArray(r) ? `${r[0]}|${r[1]}` : r),
     };
+}
+
+// Trainer deltas: removals match by name; replacements match by name+sprite
+// (localized names can collide between two different trainers, e.g. Italian
+// "Ella" — a delta record only replaces a same-name same-class trainer,
+// otherwise it's an addition).
+function mergeTrainers(base, delta) {
+    const removed = new Set(delta.remove ?? []);
+    const key = t => `${t.name}|${t.sprite ?? ''}`;
+    const replacements = new Map((delta.trainers ?? []).map(t => [key(t), t]));
+    const merged = base
+        .filter(t => !removed.has(t.name))
+        .map(t => {
+            const r = replacements.get(key(t));
+            if (r) replacements.delete(key(t));
+            return r ?? t;
+        });
+    return merged.concat([...replacements.values()]);
 }
 
 // Loads the sets file for a variant in a given language (used by the

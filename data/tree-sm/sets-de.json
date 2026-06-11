@@ -11,8 +11,7 @@
             "move2": "Meteorologe",
             "move3": "Sonnentag",
             "move4": "Synthese",
-            "EVs": "252 SpA, 252 SpD",
-            "speed": "65"
+            "EVs": "252 SpA, 252 SpD"
         },
         {
             "setName": "Tortunator-2",
@@ -24,8 +23,7 @@
             "move2": "Solarstrahl",
             "move3": "Flammenwurf",
             "move4": "Sonnentag",
-            "EVs": "252 HP, 252 SpD",
-            "speed": "56"
+            "EVs": "252 HP, 252 SpD"
         },
         {
             "setName": "Donarion-3",
@@ -37,8 +35,7 @@
             "move2": "Luftschnitt",
             "move3": "Lichtkanone",
             "move4": "Donnerwelle",
-            "EVs": "252 HP, 252 SpA",
-            "speed": "63"
+            "EVs": "252 HP, 252 SpA"
         },
         {
             "setName": "Fuegro-3",
@@ -50,8 +47,7 @@
             "move2": "Neck Strike",
             "move3": "Erdbeben",
             "move4": "Wutanfall",
-            "EVs": "252 Atk, 252 Spe",
-            "speed": "112"
+            "EVs": "252 Atk, 252 Spe"
         },
         {
             "setName": "Togedemaru-3",
@@ -63,8 +59,7 @@
             "move2": "Schutzstacheln",
             "move3": "Stachelfinale",
             "move4": "Gifthieb",
-            "EVs": "252 HP, 252 Atk",
-            "speed": "116"
+            "EVs": "252 HP, 252 Atk"
         },
         {
             "setName": "Elevoltek-3",
@@ -76,8 +71,7 @@
             "move2": "Fokusstoß",
             "move3": "Flammenwurf",
             "move4": "Psychokinese",
-            "EVs": "252 HP, 252 SpA",
-            "speed": "115"
+            "EVs": "252 HP, 252 SpA"
         },
         {
             "setName": "Togedemaru-4",
@@ -89,8 +83,7 @@
             "move2": "Wangenrubbler",
             "move3": "Kehrtwende",
             "move4": "Schutzstacheln",
-            "EVs": "252 Atk, 252 Spe",
-            "speed": "162"
+            "EVs": "252 Atk, 252 Spe"
         },
         {
             "setName": "Geowaz-Alola-1",
@@ -102,8 +95,7 @@
             "move2": "Katapult",
             "move3": "Dampfwalze",
             "move4": "Konter",
-            "EVs": "168 HP, 168 Atk, 168 Def",
-            "speed": "65"
+            "EVs": "168 HP, 168 Atk, 168 Def"
         },
         {
             "setName": "Aerodactyl-1",
@@ -115,8 +107,7 @@
             "move2": "",
             "move3": "",
             "move4": "",
-            "EVs": "252 Atk, 252 Spe",
-            "speed": "300"
+            "EVs": "252 Atk, 252 Spe"
         },
         {
             "setName": "Rihornior-2",
@@ -128,8 +119,7 @@
             "move2": "Steinpolitur",
             "move3": "",
             "move4": "",
-            "EVs": "252 Atk, 252 Spe",
-            "speed": "92"
+            "EVs": "252 Atk, 252 Spe"
         },
         {
             "setName": "Porygon-Z-2",
@@ -141,8 +131,7 @@
             "move2": "",
             "move3": "",
             "move4": "",
-            "EVs": "252 Spe, 252 SpA",
-            "speed": "142"
+            "EVs": "252 Spe, 252 SpA"
         },
         {
             "setName": "Magnezone-3",
@@ -154,8 +143,7 @@
             "move2": "Lichtkanone",
             "move3": "Magnetflug",
             "move4": "Donnerwelle",
-            "EVs": "252 Def, 252 SpA",
-            "speed": "80"
+            "EVs": "252 Def, 252 SpA"
         },
         {
             "setName": "Geowaz-Alola-2",
@@ -167,8 +155,7 @@
             "move2": "Erdbeben",
             "move3": "Explosion",
             "move4": "Steinpolitur",
-            "EVs": "252 Atk, 252 Spe",
-            "speed": "97"
+            "EVs": "252 Atk, 252 Spe"
         },
         {
             "setName": "Magnezone-4",
@@ -180,8 +167,7 @@
             "move2": "Lichtkanone",
             "move3": "Triplette",
             "move4": "Voltwechsel",
-            "EVs": "252 SpA, 252 SpD",
-            "speed": "80"
+            "EVs": "252 SpA, 252 SpD"
         },
         {
             "setName": "Elevoltek-4",
@@ -193,8 +179,7 @@
             "move2": "Offenlegung",
             "move3": "Eishieb",
             "move4": "Kreuzhieb",
-            "EVs": "252 HP, 252 Atk",
-            "speed": "115"
+            "EVs": "252 HP, 252 Atk"
         }
     ]
 }

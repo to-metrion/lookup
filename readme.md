@@ -7,6 +7,7 @@ Lookup tool for Pokémon battle facility trainers and their sets, hosted at [loo
 Currently covers:
 
 - **Battle Tree** (SM & USUM, Gen 7) — all 9 game languages
+- **Battle Maison** (XY & ORAS, Gen 6) — all 7 game languages
 - **Battle Subway** (Gen 5) — all 7 game languages
 
 ## Structure

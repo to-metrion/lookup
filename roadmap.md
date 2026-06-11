@@ -47,6 +47,20 @@ Internal planning document — tracks goals and progress for the Battle Facility
 - [x] Localization pipeline (`tools/build_languages.py`): generates trainer/set files and fills
       dex/item/nature columns from the [poke-corpus](https://github.com/abcboy101/poke-corpus)
       game text dumps (clone locally, default path `/tmp/pokecorpus/corpus`)
+- [x] Pokédex files carry National Dex `num` + all six base stats, per
+      generation (`tools/add_base_stats.js`, via @pkmn/dex; needs `npm i
+      @pkmn/dex`). Files MUST be in National Dex order (forms right after
+      their base species) — the UI minisprite sort keys off file position;
+      validate.py enforces both. Form quirks: Minior/Wishiwashi carry their
+      battle-start forme's stats (Meteor / School).
+- [x] Speed is COMPUTED at runtime (`scripts/speed.js`) from base stats —
+      static speed values stripped from all sets files. L50/IV31 by default
+      (variant flags `speedLevel`/`speedIVs` for future facilities), EVs +
+      nature from the set, items (Choice Scarf ×1.5, Iron Ball ×0.5, Quick
+      Powder ×2 on Ditto), Mega sets display "pre → post" (e.g. "70 → 40").
+      Verified against the previously shipped static values across all
+      facilities/languages: only intended diffs (Maison statics lacked item
+      modifiers; subway Absol-3 static was 136, a typo — correct is 139).
 - [ ] Data converter tooling for NEW facility data (build per source once sources are chosen)
 
 ## Languages
@@ -69,17 +83,28 @@ Internal planning document — tracks goals and progress for the Battle Facility
 
 ## Facilities to add (in planned order)
 
-0. Next up: **Battle Maison** (chronological fit between Subway and Tree) — SwSh postponed.
 1. [ ] **SwSh Battle Tower** — basic format. Quirk: some trainers Dynamax specific Pokémon → per-trainer `maxed` field (e.g. `"Charizard-1, Duraludon-2"`), Dynamax icon on those set rows.
 2. [ ] **Restricted Sparring (SwSh)** — `hasTrainers: false` (one implicit trainer, dropdowns hidden), `showMinisprites: false`, singles only.
-3. [ ] **Battle Maison (XY/ORAS)** — modes: singles / doubles / triples / multis (rotation
-   battles use the same 3-Pokémon layout as triples — no separate mode needed). Foundation
-   already supports all of these.
+3. [x] **Battle Maison (XY/ORAS)** — DONE (June 2026). ORAS base + XY delta (incl. two
+   per-version slot swaps Sati/Inga, Aparna/Arabella), 1072 sets, 194 trainers per version,
+   7 languages, all four modes (first facility with triples). Built by `tools/build_maison.py`
+   from the curation spreadsheet (tools/src/maison/) + poke-corpus (names/quotes by trainer-ID
+   indexing; Chatelaine intros from their scripted dialogue — review quotes in-app).
+   Speed is computed (L50/IV31, gen-6 base stats via @pkmn/dex). `data/pokedex-6.json` carries
+   gen-6-era abilities (e.g. Gengar = Levitate). Sprites + x/y/or/as icons delivered.
+   XY/ORAS quote divergence fixed: ORAS quotes come from corpus TF35 (TF34 is a STALE
+   copy of the XY text!) — most shared trainers were rewritten for ORAS, so the XY delta
+   carries ~118 in-place quote replacements (name+sprite key) and removes+re-adds the
+   ~29 trainers whose localized name changed between games (same action in every
+   language to keep the arrays parallel; namesake collisions are pulled in to fixpoint).
+   Chatelaines: Super rematch intros (triplets 318–321), `late: 1`, per-person sprites.
+   Per-trainer sprite overrides (tourists/workers/skaters/furisode girls) in
+   SPRITE_OVERRIDES in `tools/build_maison.py`.
 4. [ ] **Battle Frontier Gen IV (Pt/HGSS)** — multiple variants (Tower, Factory, Castle, Arcade, Hall). Level 50/100 toggle on the variant that supports it: affects displayed speed **and** the set pool → sets need per-level speed or availability flag (decide with data in hand).
-5. [ ] **Battle Frontier Gen III (Emerald)** — multiple variants, quirks TBD. "Open Level" (51–100 slider): speed must be **computed**, which requires:
-   - [ ] Base stats added to pokedex files (all six stats, future-proof)
-   - [ ] IVs per set (Gen III frontier IVs are deterministic and documented)
-   - [ ] Structured nature modifiers (derivable from the `stats-en` text already in `natures.json`)
+5. [ ] **Battle Frontier Gen III (Emerald)** — multiple variants, quirks TBD. "Open Level" (51–100 slider): speed is already computed at runtime (scripts/speed.js, level-parameterized; nature parsed from `stats-en`), still needs:
+   - [x] Base stats added to pokedex files (all six stats, future-proof)
+   - [ ] IVs per set (Gen III frontier IVs are deterministic and documented; extend speed.js to read a per-set `ivs` field)
+   - [ ] A pokedex-3 file with gen-3 base stats (add to tools/add_base_stats.js)
 6. [ ] **BDSP Battle Tower** (last) — teams are fixed per trainer (no random roster), same order every time → set presentation needs rethinking when we get there.
 
 ## Known data gaps

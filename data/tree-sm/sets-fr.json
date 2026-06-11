@@ -11,8 +11,7 @@
             "move2": "Ball’Météo",
             "move3": "Zénith",
             "move4": "Synthèse",
-            "EVs": "252 SpA, 252 SpD",
-            "speed": "65"
+            "EVs": "252 SpA, 252 SpD"
         },
         {
             "setName": "Boumata-2",
@@ -24,8 +23,7 @@
             "move2": "Lance-Soleil",
             "move3": "Lance-Flammes",
             "move4": "Zénith",
-            "EVs": "252 HP, 252 SpD",
-            "speed": "56"
+            "EVs": "252 HP, 252 SpD"
         },
         {
             "setName": "Lucanon-3",
@@ -37,8 +35,7 @@
             "move2": "Lame d’Air",
             "move3": "Luminocanon",
             "move4": "Cage-Éclair",
-            "EVs": "252 HP, 252 SpA",
-            "speed": "63"
+            "EVs": "252 HP, 252 SpA"
         },
         {
             "setName": "Félinferno-3",
@@ -50,8 +47,7 @@
             "move2": "Exécu-Son",
             "move3": "Séisme",
             "move4": "Colère",
-            "EVs": "252 Atk, 252 Spe",
-            "speed": "112"
+            "EVs": "252 Atk, 252 Spe"
         },
         {
             "setName": "Togedemaru-3",
@@ -63,8 +59,7 @@
             "move2": "Pico-Défense",
             "move3": "Dard Mortel",
             "move4": "Direct Toxik",
-            "EVs": "252 HP, 252 Atk",
-            "speed": "116"
+            "EVs": "252 HP, 252 Atk"
         },
         {
             "setName": "Élekable-3",
@@ -76,8 +71,7 @@
             "move2": "Exploforce",
             "move3": "Lance-Flammes",
             "move4": "Psyko",
-            "EVs": "252 HP, 252 SpA",
-            "speed": "115"
+            "EVs": "252 HP, 252 SpA"
         },
         {
             "setName": "Togedemaru-4",
@@ -89,8 +83,7 @@
             "move2": "Frotte-Frimousse",
             "move3": "Demi-Tour",
             "move4": "Pico-Défense",
-            "EVs": "252 Atk, 252 Spe",
-            "speed": "162"
+            "EVs": "252 Atk, 252 Spe"
         },
         {
             "setName": "Grolem-Alola-1",
@@ -102,8 +95,7 @@
             "move2": "Anti-Air",
             "move3": "Piétisol",
             "move4": "Riposte",
-            "EVs": "168 HP, 168 Atk, 168 Def",
-            "speed": "65"
+            "EVs": "168 HP, 168 Atk, 168 Def"
         },
         {
             "setName": "Ptéra-1",
@@ -115,8 +107,7 @@
             "move2": "",
             "move3": "",
             "move4": "",
-            "EVs": "252 Atk, 252 Spe",
-            "speed": "300"
+            "EVs": "252 Atk, 252 Spe"
         },
         {
             "setName": "Rhinastoc-2",
@@ -128,8 +119,7 @@
             "move2": "Poliroche",
             "move3": "",
             "move4": "",
-            "EVs": "252 Atk, 252 Spe",
-            "speed": "92"
+            "EVs": "252 Atk, 252 Spe"
         },
         {
             "setName": "Porygon-Z-2",
@@ -141,8 +131,7 @@
             "move2": "",
             "move3": "",
             "move4": "",
-            "EVs": "252 Spe, 252 SpA",
-            "speed": "142"
+            "EVs": "252 Spe, 252 SpA"
         },
         {
             "setName": "Magnézone-3",
@@ -154,8 +143,7 @@
             "move2": "Luminocanon",
             "move3": "Vol Magnétik",
             "move4": "Cage-Éclair",
-            "EVs": "252 Def, 252 SpA",
-            "speed": "80"
+            "EVs": "252 Def, 252 SpA"
         },
         {
             "setName": "Grolem-Alola-2",
@@ -167,8 +155,7 @@
             "move2": "Séisme",
             "move3": "Explosion",
             "move4": "Poliroche",
-            "EVs": "252 Atk, 252 Spe",
-            "speed": "97"
+            "EVs": "252 Atk, 252 Spe"
         },
         {
             "setName": "Magnézone-4",
@@ -180,8 +167,7 @@
             "move2": "Luminocanon",
             "move3": "Triplattaque",
             "move4": "Change Éclair",
-            "EVs": "252 SpA, 252 SpD",
-            "speed": "80"
+            "EVs": "252 SpA, 252 SpD"
         },
         {
             "setName": "Élekable-4",
@@ -193,8 +179,7 @@
             "move2": "Ruse",
             "move3": "Poing-Glace",
             "move4": "Coup-Croix",
-            "EVs": "252 HP, 252 Atk",
-            "speed": "115"
+            "EVs": "252 HP, 252 Atk"
         }
     ]
 }

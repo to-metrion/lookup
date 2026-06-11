@@ -4760,6 +4760,42 @@
                 "Normal"
             ]
         ],
+        "Comet Punch": [
+            [
+                1,
+                "Normal"
+            ]
+        ],
+        "Vine Whip": [
+            [
+                1,
+                "Grass"
+            ]
+        ],
+        "Rage": [
+            [
+                1,
+                "Normal"
+            ]
+        ],
+        "Spider Web": [
+            [
+                2,
+                "Bug"
+            ]
+        ],
+        "Lucky Chant": [
+            [
+                4,
+                "Normal"
+            ]
+        ],
+        "Crafty Shield": [
+            [
+                6,
+                "Fairy"
+            ]
+        ],
         "Fury Attack": [
             [
                 1,

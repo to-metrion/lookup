@@ -21,6 +21,11 @@
 //   lateCutoff       battle number after which "late" trainers appear; presence
 //                    enables the late-trainers-only toggle (shown as "<N>+"),
 //                    which filters on the `late` field of trainers ('1' = late)
+//   speedLevel       optional: level used for the computed speed display
+//                    (default 50) — displayed speed is computed at runtime by
+//                    scripts/speed.js from the pokédex base stats; sets files
+//                    carry no static speed values
+//   speedIVs         optional: IVs for the computed speed (default 31)
 //
 // Games AND variants may declare `icons`, a list of images
 // (assets/images/games/...) shown in their select — one per flagship version.
@@ -56,6 +61,40 @@ export const GAMES = [
                 gen: 7,
                 languages: ['en', 'fr', 'it', 'de', 'es', 'jp', 'ko', 'chs', 'cht'],
                 modes: ['singles', 'doubles', 'multis'],
+                hasTrainers: true,
+                showMinisprites: true,
+                lateCutoff: 40,
+            },
+        ],
+    },
+    {
+        code: 'maison',
+        name: 'Battle Maison',
+        icons: ['assets/images/games/or.png', 'assets/images/games/as.png'],
+        variants: [
+            {
+                code: 'maison-oras',
+                name: 'Omega Ruby / Alpha Sapphire',
+                icons: ['assets/images/games/or.png', 'assets/images/games/as.png'],
+                dataDir: 'maison',
+                pokedex: 'data/pokedex-6.json',
+                gen: 6,
+                languages: ['en', 'fr', 'it', 'de', 'es', 'jp', 'ko'],
+                modes: ['singles', 'doubles', 'triples', 'multis'],
+                hasTrainers: true,
+                showMinisprites: true,
+                lateCutoff: 40,
+            },
+            {
+                code: 'maison-xy',
+                name: 'X / Y',
+                icons: ['assets/images/games/x.png', 'assets/images/games/y.png'],
+                dataDir: 'maison-xy',
+                base: 'maison',   // delta files on top of the ORAS data
+                pokedex: 'data/pokedex-6.json',
+                gen: 6,
+                languages: ['en', 'fr', 'it', 'de', 'es', 'jp', 'ko'],
+                modes: ['singles', 'doubles', 'triples', 'multis'],
                 hasTrainers: true,
                 showMinisprites: true,
                 lateCutoff: 40,
@@ -124,7 +163,7 @@ export const THEMES = [
 
 // Appended to every data fetch (?v=...) so browsers pick up new data after a
 // deploy instead of serving stale cached JSON. Bump when data files change.
-export const DATA_VERSION = '2026-06-11d';
+export const DATA_VERSION = '2026-06-12c';
 
 export const LANGUAGE_NAMES = {
     en: 'English',

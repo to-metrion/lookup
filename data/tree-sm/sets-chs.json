@@ -11,8 +11,7 @@
             "move2": "气象球",
             "move3": "大晴天",
             "move4": "光合作用",
-            "EVs": "252 SpA, 252 SpD",
-            "speed": "65"
+            "EVs": "252 SpA, 252 SpD"
         },
         {
             "setName": "爆焰龟兽-2",
@@ -24,8 +23,7 @@
             "move2": "日光束",
             "move3": "喷射火焰",
             "move4": "大晴天",
-            "EVs": "252 HP, 252 SpD",
-            "speed": "56"
+            "EVs": "252 HP, 252 SpD"
         },
         {
             "setName": "锹农炮虫-3",
@@ -37,8 +35,7 @@
             "move2": "空气斩",
             "move3": "加农光炮",
             "move4": "电磁波",
-            "EVs": "252 HP, 252 SpA",
-            "speed": "63"
+            "EVs": "252 HP, 252 SpA"
         },
         {
             "setName": "炽焰咆哮虎-3",
@@ -50,8 +47,7 @@
             "move2": "地狱突刺",
             "move3": "地震",
             "move4": "逆鳞",
-            "EVs": "252 Atk, 252 Spe",
-            "speed": "112"
+            "EVs": "252 Atk, 252 Spe"
         },
         {
             "setName": "托戈德玛尔-3",
@@ -63,8 +59,7 @@
             "move2": "尖刺防守",
             "move3": "致命针刺",
             "move4": "毒击",
-            "EVs": "252 HP, 252 Atk",
-            "speed": "116"
+            "EVs": "252 HP, 252 Atk"
         },
         {
             "setName": "电击魔兽-3",
@@ -76,8 +71,7 @@
             "move2": "真气弹",
             "move3": "喷射火焰",
             "move4": "精神强念",
-            "EVs": "252 HP, 252 SpA",
-            "speed": "115"
+            "EVs": "252 HP, 252 SpA"
         },
         {
             "setName": "托戈德玛尔-4",
@@ -89,8 +83,7 @@
             "move2": "蹭蹭脸颊",
             "move3": "急速折返",
             "move4": "尖刺防守",
-            "EVs": "252 Atk, 252 Spe",
-            "speed": "162"
+            "EVs": "252 Atk, 252 Spe"
         },
         {
             "setName": "隆隆岩-阿罗拉-1",
@@ -102,8 +95,7 @@
             "move2": "击落",
             "move3": "重踏",
             "move4": "双倍奉还",
-            "EVs": "168 HP, 168 Atk, 168 Def",
-            "speed": "65"
+            "EVs": "168 HP, 168 Atk, 168 Def"
         },
         {
             "setName": "化石翼龙-1",
@@ -115,8 +107,7 @@
             "move2": "",
             "move3": "",
             "move4": "",
-            "EVs": "252 Atk, 252 Spe",
-            "speed": "300"
+            "EVs": "252 Atk, 252 Spe"
         },
         {
             "setName": "超甲狂犀-2",
@@ -128,8 +119,7 @@
             "move2": "岩石打磨",
             "move3": "",
             "move4": "",
-            "EVs": "252 Atk, 252 Spe",
-            "speed": "92"
+            "EVs": "252 Atk, 252 Spe"
         },
         {
             "setName": "多边兽乙型-2",
@@ -141,8 +131,7 @@
             "move2": "",
             "move3": "",
             "move4": "",
-            "EVs": "252 Spe, 252 SpA",
-            "speed": "142"
+            "EVs": "252 Spe, 252 SpA"
         },
         {
             "setName": "自爆磁怪-3",
@@ -154,8 +143,7 @@
             "move2": "加农光炮",
             "move3": "电磁飘浮",
             "move4": "电磁波",
-            "EVs": "252 Def, 252 SpA",
-            "speed": "80"
+            "EVs": "252 Def, 252 SpA"
         },
         {
             "setName": "隆隆岩-阿罗拉-2",
@@ -167,8 +155,7 @@
             "move2": "地震",
             "move3": "大爆炸",
             "move4": "岩石打磨",
-            "EVs": "252 Atk, 252 Spe",
-            "speed": "97"
+            "EVs": "252 Atk, 252 Spe"
         },
         {
             "setName": "自爆磁怪-4",
@@ -180,8 +167,7 @@
             "move2": "加农光炮",
             "move3": "三重攻击",
             "move4": "伏特替换",
-            "EVs": "252 SpA, 252 SpD",
-            "speed": "80"
+            "EVs": "252 SpA, 252 SpD"
         },
         {
             "setName": "电击魔兽-4",
@@ -193,8 +179,7 @@
             "move2": "佯攻",
             "move3": "冰冻拳",
             "move4": "十字劈",
-            "EVs": "252 HP, 252 Atk",
-            "speed": "115"
+            "EVs": "252 HP, 252 Atk"
         }
     ]
 }

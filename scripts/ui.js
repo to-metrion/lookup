@@ -6,6 +6,7 @@
 
 import { state } from './state.js';
 import { loadSets } from './data.js';
+import { speedDisplay } from './speed.js';
 import { MODES, MAX_SLOTS, MAX_SIDES, modeSlots, slotSide, variantMaxSlots } from './config.js';
 
 /* ---------- lookup helpers ---------- */
@@ -263,10 +264,31 @@ export function renderSpeciesLists(onPick) {
     }
 }
 
+// Pokédex position of a species in the current language (the pokedex files
+// are in National Dex order with forms right after their base species), so
+// sorting by it groups families together. Memoized per data load.
+let dexIndexMap = null;
+let dexIndexSource = null;
+let dexIndexLang = null;
+
+function dexIndex(species) {
+    if (dexIndexSource !== state.data.pokedex || dexIndexLang !== state.language) {
+        dexIndexSource = state.data.pokedex;
+        dexIndexLang = state.language;
+        dexIndexMap = new Map();
+        state.data.pokedex.forEach((p, i) => {
+            if (p[state.language]) dexIndexMap.set(p[state.language], i);
+        });
+    }
+    return dexIndexMap.get(species) ?? Number.MAX_SAFE_INTEGER;
+}
+
 function renderSpeciesListInto(slot, trainer, onPick) {
     if (!trainer) return;
     const container = document.getElementById(`slot-species-${slot}`);
-    for (const species of trainer.species.split(', ')) {
+    const ordered = trainer.species.split(', ')
+        .sort((a, b) => dexIndex(a) - dexIndex(b));
+    for (const species of ordered) {
         if (!dexEntry(species)) continue;
         const img = document.createElement('img');
         img.src = minispriteUrl(species);
@@ -354,7 +376,7 @@ export function showPokemonSets(slot, species) {
         row.appendChild(textCell(set.move2));
         row.appendChild(textCell(set.move3));
         row.appendChild(textCell(set.move4));
-        row.appendChild(textCell(set.speed));
+        row.appendChild(textCell(speedDisplay(set)));
 
         row.onclick = () => {
             if (state.activeSets[slot] === set) {
@@ -476,7 +498,7 @@ async function showSetDetails(slot, set) {
             <div class="separator"></div>
             <div class="speed">
                 <img src="assets/images/speed.png" alt="Speed" class="speed-icon" />
-                ${set.speed}
+                ${speedDisplay(set)}
             </div>
         </div>
         <div class="right-column">
