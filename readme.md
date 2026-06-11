@@ -42,5 +42,6 @@ No build step — serve the folder statically (e.g. `python3 -m http.server`) or
   [Poké Corpus](https://github.com/abcboy101/poke-corpus) by
   [abcboy101](https://github.com/abcboy101) — a searchable corpus of official
   Pokémon game text in all languages.
+- Unofficial sprites from [MBCMechachu](https://koenig.gg/pokemon-sprites/)'s database. Credits to: 5310, acpeters, axel_codeinfinity, bananannertoast, boludart, carmanekko, Cesare_CBass, ezerart, flashythepegasus, floriandx, Frander04, futuresushi, gab_thebest, grand-emperor-z, hexechroma, larryturbo, leparagon, mbcmechachu, multidiegodani, radicalcharizard, robertovile, TraviS, ushcale, Vent, wolfang62 & zerudez.
 - Pokémon and all related names are © Nintendo / Creatures Inc. / GAME FREAK inc.
   This is an unofficial fan-made tool.
