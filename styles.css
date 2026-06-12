@@ -14,7 +14,6 @@
     --text: #fff;
     --text-muted: #aaa;
     --accent: #2196F3;
-    --accent-alt: #e67e22;
     --highlight: yellow;      /* selected rows/sprites */
     --success: #8f8;
     --overlay: rgba(0, 0, 0, 0.4);
@@ -33,7 +32,6 @@
     --text: #222;
     --text-muted: #666;
     --accent: #1976D2;
-    --accent-alt: #e65100;
     --highlight: #c79100;
     --success: #2e7d32;
     --overlay: rgba(0, 0, 0, 0.3);
@@ -52,7 +50,6 @@
     --text: #e8eaf2;
     --text-muted: #9aa1c0;
     --accent: #7aa2f7;
-    --accent-alt: #bb9af7;
     --highlight: #e0af68;
     --success: #9ece6a;
     --overlay: rgba(0, 0, 0, 0.5);
@@ -71,7 +68,6 @@
     --text: #e8f0e8;
     --text-muted: #a8c0aa;
     --accent: #6aa84f;
-    --accent-alt: #d4a017;
     --highlight: #ffd966;
     --success: #a5d6a7;
     --overlay: rgba(0, 0, 0, 0.5);
@@ -90,7 +86,6 @@
     --text: #e6f2f5;
     --text-muted: #9fc0c9;
     --accent: #4fc3d9;
-    --accent-alt: #ff8a65;
     --highlight: #ffd54f;
     --success: #80cbc4;
     --overlay: rgba(0, 0, 0, 0.5);
@@ -109,7 +104,6 @@
     --text: #2e2440;
     --text-muted: #6f6191;
     --accent: #7e57c2;
-    --accent-alt: #d81b60;
     --highlight: #c79100;
     --success: #2e7d32;
     --overlay: rgba(40, 30, 60, 0.3);
@@ -117,7 +111,7 @@
     --arrow-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232e2440' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
 }
 
-/* Fairy: soft pink with a complementary sky-blue secondary accent. */
+/* Fairy: soft pink with a complementary sky-blue highlight. */
 [data-theme="fairy"] {
     --bg: #fcebf3;
     --surface: #fffafd;
@@ -129,7 +123,6 @@
     --text: #3d2333;
     --text-muted: #8d6079;
     --accent: #e0569e;
-    --accent-alt: #58b7e8;
     --highlight: #2e96d6;   /* the blue shows on selected rows/sprites */
     --success: #2e7d32;
     --overlay: rgba(80, 40, 65, 0.3);
@@ -149,7 +142,6 @@
     --text: #f0eaf7;
     --text-muted: #b3a3cc;
     --accent: #ff8c42;
-    --accent-alt: #ff5277;
     --highlight: #ffd166;
     --success: #9ece6a;
     --overlay: rgba(0, 0, 0, 0.5);
@@ -157,7 +149,7 @@
     --arrow-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23f0eaf7' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
 }
 
-/* Umbreon: black coat with ring-yellow accent and red-eye secondary. */
+/* Umbreon: black coat with ring-yellow accent. */
 [data-theme="umbreon"] {
     --bg: #1c1c22;
     --surface: #26262e;
@@ -169,7 +161,6 @@
     --text: #f0f0f2;
     --text-muted: #a6a6b3;
     --accent: #d4af37;
-    --accent-alt: #d94a4a;
     --highlight: #d4af37;
     --success: #9ece6a;
     --overlay: rgba(0, 0, 0, 0.55);
@@ -177,7 +168,7 @@
     --arrow-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23f0f0f2' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
 }
 
-/* Slate: neutral gray with a complementary red accent (and blue secondary). */
+/* Slate: neutral gray with a complementary red accent. */
 [data-theme="slate"] {
     --bg: #2b2d31;
     --surface: #383b40;
@@ -189,7 +180,6 @@
     --text: #f0f1f3;
     --text-muted: #a8acb3;
     --accent: #e8474f;
-    --accent-alt: #4fa3e8;
     --highlight: #ffd24d;
     --success: #8fcf8f;
     --overlay: rgba(0, 0, 0, 0.5);
