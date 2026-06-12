@@ -60,18 +60,26 @@ function check(name, cond) {
 
     /* ---- settings structure ---- */
     check('game select has 3 options', $('#game-select option').length === 3);
-    check('tree option carries 2 game icons',
-        ($('#game-select option[value="tree"]').attr('data-icons') || '').split('|').length === 2);
+    check('tree option carries USUM icons (default variant)',
+        ($('#game-select option[value="tree"]').attr('data-icons') || '') === 'assets/images/games/us.png|assets/images/games/um.png');
     check('game select shows version icons',
         doc.querySelectorAll('#game-select + .select2-container .game-icon').length === 2);
     check('default game = tree', $('#game-select').val() === 'tree');
     check('variant row visible (tree has SM + USUM)', doc.getElementById('variant-row').style.display !== 'none');
-    check('variant select has 2 options', $('#variant-select option').length === 2);
-    check('variant options carry icons', ($('#variant-select option').eq(0).attr('data-icons') || '').split('|').length === 2);
-    check('language options = 9 (tree)', $('#language-select option').length === 9);
-    check('settings selects have no search box',
-        $('#game-select').data('select2').options.options.minimumResultsForSearch === Infinity
-        && $('#language-select').data('select2').options.options.minimumResultsForSearch === Infinity);
+    check('variant pills: 2, chronological (SM first)',
+        [...doc.querySelectorAll('#variant-pills .variant-pill')].map(p => p.textContent).join(',') === 'SM,USUM');
+    check('default variant = USUM despite listing order',
+        doc.querySelector('#variant-pills .variant-pill.active')?.dataset.variant === 'tree-usum');
+    check('language flags = 9 (tree)', doc.querySelectorAll('#language-flags .lang-flag').length === 9);
+    check('game select has no search box',
+        $('#game-select').data('select2').options.options.minimumResultsForSearch === Infinity);
+    check('game select is big (trainer-style)',
+        Boolean(doc.querySelector('.select2-container--game')));
+    check('flags below game/facility selection',
+        Boolean(doc.getElementById('variant-row').compareDocumentPosition(doc.getElementById('language-flags'))
+            & window.Node.DOCUMENT_POSITION_FOLLOWING));
+    check('settings dividers present', doc.querySelectorAll('.modal-content .settings-divider').length === 3);
+    check('active flag = en', doc.querySelector('#language-flags .lang-flag.active')?.dataset.lang === 'en');
     check('trainer dropdown keeps search',
         $('#trainer-dropdown-1').data('select2').options.options.minimumResultsForSearch === 0);
     check('10 theme swatches rendered', doc.querySelectorAll('.theme-swatch').length === 10);
@@ -171,12 +179,12 @@ function check(name, cond) {
     await sleep(100);
     check('multis: trainer-2 sets render (' + m2sp + ')', doc.querySelectorAll('#pokemon-sets-2 .set-row').length > 0);
     /* language round-trip preserves both trainers */
-    $('#language-select').val('jp').trigger('change');
+    doc.querySelector('#language-flags [data-lang="jp"]').click();
     await sleep(700);
     check('multis jp: both trainers preserved', $('#trainer-dropdown-1').val() === enIdx
         && $('#trainer-dropdown-2').val() === t2Idx);
     check('multis jp: trainer-2 sets preserved', doc.querySelectorAll('#pokemon-sets-2 .set-row').length > 0);
-    $('#language-select').val('en').trigger('change');
+    doc.querySelector('#language-flags [data-lang="en"]').click();
     await sleep(700);
     /* back to singles keeps trainer 1, clears side 2 */
     doc.querySelector('.mode-cell[data-mode="singles"]').click();
@@ -212,9 +220,13 @@ function check(name, cond) {
     check('click again re-expands', Boolean(doc.querySelector('#pokemon-sets-1 .set-details')));
 
     /* ---- language switch preserves view; copy stays English ---- */
-    $('#language-select').val('jp').trigger('change');
+    doc.querySelector('#language-flags [data-lang="jp"]').click();
     await sleep(700);
     check('jp: late pill tooltip translated', doc.getElementById('late-filter').title.includes('トレーナー'));
+    check('jp: game select shows official name (バトルツリー)',
+        doc.querySelector('#game-select + .select2-container .select2-selection__rendered')
+            .textContent.includes('バトルツリー'));
+    check('jp: dropdown option localized', $('#game-select option[value="maison"]').text() === 'バトルハウス');
     check('jp: same trainer index selected', $('#trainer-dropdown-1').val() === enIdx);
     check('jp: displayed name translated', $('#trainer-dropdown-1 option:selected').text() !== enName);
     check('jp: species preserved (translated)', Boolean($('#pokemon-menu-1').val()) && $('#pokemon-menu-1').val() !== enSpecies);
@@ -229,7 +241,7 @@ function check(name, cond) {
     doc.querySelector('#pokemon-sets-1 .copy-icon').click();
     await sleep(150);
     check('jp copy: English output', /^[\x00-\x7F]+$/.test(String(window.__copied || '')));
-    $('#language-select').val('en').trigger('change');
+    doc.querySelector('#language-flags [data-lang="en"]').click();
     await sleep(700);
     check('en: view restored', $('#trainer-dropdown-1').val() === enIdx && $('#pokemon-menu-1').val() === enSpecies);
 
@@ -268,7 +280,7 @@ function check(name, cond) {
     }
 
     /* ---- new languages: Korean tree data through the UI ---- */
-    $('#language-select').val('ko').trigger('change');
+    doc.querySelector('#language-flags [data-lang="ko"]').click();
     await sleep(700);
     const koIdx = $('#trainer-dropdown-1 option').eq(1).val();
     $('#trainer-dropdown-1').val(koIdx).trigger('change');
@@ -283,16 +295,21 @@ function check(name, cond) {
     $('#pokemon-menu-1').trigger({ type: 'select2:select', params: { data: { id: koSpecies } } });
     await sleep(100);
     check('ko: sets render for ' + koSpecies, doc.querySelectorAll('#pokemon-sets-1 .set-row').length > 0);
-    $('#language-select').val('chs').trigger('change');
+    doc.querySelector('#language-flags [data-lang="chs"]').click();
     await sleep(700);
     check('chs: trainer preserved, name in Chinese (' + $('#trainer-dropdown-1 option:selected').text() + ')',
         /[\u4e00-\u9fff]/.test($('#trainer-dropdown-1 option:selected').text()));
     check('chs: species selection preserved', Boolean($('#pokemon-menu-1').val()));
 
     /* ---- SM delta variant (empty delta == USUM data) ---- */
-    $('#variant-select').val('tree-sm').trigger('change');
+    doc.querySelector('#variant-pills [data-variant="tree-sm"]').click();
     await sleep(700);
     check('SM: variant stored', window.localStorage.getItem('selectedVariant') === 'tree-sm');
+    check('SM: game icons follow facility (s/m)',
+        ($('#game-select option[value="tree"]').attr('data-icons') || '') === 'assets/images/games/s.png|assets/images/games/m.png');
+    check('SM: rendered selection shows s.png',
+        [...doc.querySelectorAll('#game-select + .select2-container .game-icon')]
+            .some(i => i.getAttribute('src').endsWith('/s.png')));
     check('SM: merged trainers load (204: Kukui removed)', $('#trainer-dropdown-1 option').length === 204);
     check('SM: Kukui absent', !$('#trainer-dropdown-1 option').toArray().some(o => o.text === 'Kukui'));
     const smIdx = $('#trainer-dropdown-1 option').eq(1).val();
@@ -304,21 +321,37 @@ function check(name, cond) {
     $('#pokemon-menu-1').trigger({ type: 'select2:select', params: { data: { id: smSp } } });
     await sleep(100);
     check('SM: sets render through delta merge', doc.querySelectorAll('#pokemon-sets-1 .set-row').length > 0);
-    $('#variant-select').val('tree-usum').trigger('change');
+    doc.querySelector('#variant-pills [data-variant="tree-usum"]').click();
     await sleep(700);
 
     /* ---- game switch (chs not available in subway -> fallback to en) ---- */
     $('#game-select').val('subway').trigger('change');
     await sleep(700);
-    check('subway: language options = 7', $('#language-select option').length === 7);
-    check('subway: chs falls back to en', $('#language-select').val() === 'en');
+    check('subway: language flags = 7', doc.querySelectorAll('#language-flags .lang-flag').length === 7);
+    check('subway: chs falls back to en', doc.querySelector('#language-flags .lang-flag.active').dataset.lang === 'en');
     check('subway: trainers loaded (' + ($('#trainer-dropdown-1 option').length - 1) + ')',
         $('#trainer-dropdown-1 option').length === 303);
     check('subway: selection reset', doc.getElementById('pokemon-menu-container-1').style.display === 'none');
     check('subway: late pill shows 28+', doc.getElementById('late-filter').textContent === '28+');
 
+    /* ---- class search works in subway too (classes derived from sprites) ---- */
+    const doctorCount = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/subway/trainers-en.json'), 'utf8'))
+        .trainers.filter(t => t.class === 'Doctor').length;
+    $('#trainer-dropdown-1').select2('open');
+    await sleep(100);
+    const subSearch = doc.querySelector('.select2-container--open .select2-search__field');
+    subSearch.value = 'doctor';
+    $(subSearch).trigger('input');
+    await sleep(100);
+    const subHits = [...doc.querySelectorAll('.select2-results__option')]
+        .filter(o => !o.classList.contains('select2-results__message'));
+    check('subway class search: "doctor" lists all ' + doctorCount + ' Doctors (' + subHits.length + ')',
+        doctorCount > 0 && subHits.length === doctorCount);
+    $('#trainer-dropdown-1').select2('close');
+    await sleep(100);
+
     /* ---- subway in Japanese end-to-end ---- */
-    $('#language-select').val('jp').trigger('change');
+    doc.querySelector('#language-flags [data-lang="jp"]').click();
     await sleep(700);
     const jpSubIdx = $('#trainer-dropdown-1 option').eq(1).val();
     $('#trainer-dropdown-1').val(jpSubIdx).trigger('change');
@@ -332,14 +365,14 @@ function check(name, cond) {
     await sleep(100);
     check('subway jp: sets render for ' + jpSubSpecies,
         doc.querySelectorAll('#pokemon-sets-1 .set-row').length > 0);
-    $('#language-select').val('en').trigger('change');
+    doc.querySelector('#language-flags [data-lang="en"]').click();
     await sleep(500);
 
     /* ---- Battle Maison (gen 6): triples + delta variant ---- */
     $('#game-select').val('maison').trigger('change');
     await sleep(700);
-    check('maison: 2 variants (ORAS default)', $('#variant-select option').length === 2
-        && $('#variant-select').val() === 'maison-oras');
+    check('maison: 2 variants (ORAS default)', doc.querySelectorAll('#variant-pills .variant-pill').length === 2
+        && doc.querySelector('#variant-pills .variant-pill.active').dataset.variant === 'maison-oras');
     check('maison: 4 mode cells', doc.querySelectorAll('.mode-cell').length === 4);
     check('maison: ORAS trainers load (194)', $('#trainer-dropdown-1 option').length === 195);
     check('maison: late pill shows 40+', doc.getElementById('late-filter').textContent === '40+');
@@ -391,16 +424,16 @@ function check(name, cond) {
     check('maison: details render with computed speed',
         Boolean(doc.querySelector('#pokemon-sets-3 .set-details .speed')));
     /* XY delta variant */
-    $('#variant-select').val('maison-xy').trigger('change');
+    doc.querySelector('#variant-pills [data-variant="maison-xy"]').click();
     await sleep(700);
     check('maison-xy: trainers merge to 194', $('#trainer-dropdown-1 option').length === 195);
     check('maison-xy: Sati replaces Inga', $('#trainer-dropdown-1 option').toArray().some(o => o.text === 'Sati')
         && !$('#trainer-dropdown-1 option').toArray().some(o => o.text === 'Inga'));
     /* maison jp end-to-end */
-    $('#language-select').val('jp').trigger('change');
+    doc.querySelector('#language-flags [data-lang="jp"]').click();
     await sleep(700);
     check('maison-xy jp: trainers load', $('#trainer-dropdown-1 option').length === 195);
-    $('#language-select').val('en').trigger('change');
+    doc.querySelector('#language-flags [data-lang="en"]').click();
     await sleep(500);
 
     /* ---- legacy localStorage migration ---- */

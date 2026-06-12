@@ -90,7 +90,7 @@
         },
         {
             "name": "Ferdinand",
-            "class": "Preschooler (M)",
+            "class": "Preschooler",
             "roster": "Carbink-1, Aromatisse-1, Minior-1, Comfey-1, Golisopod-1, Ribombee-1, Bewear-1, Turtonator-1, Dhelmise-1, Togedemaru-1, Rotom-Mow-1, Sceptile-1, Infernape-1, Serperior-1, Samurott-1, Mawile-1, Breloom-1, Audino-1, Raichu-Alola-1, Exploud-1, Lopunny-1, Darmanitan-1, Ambipom-1, Golem-Alola-1, Whimsicott-1, Altaria-1, Shiinotic-1, Mismagius-1, Komala-1, Ursaring-1, Wailord-1, Wishiwashi-1, Porygon2-1, Yanmega-1, Vaporeon-1, Espeon-1, Umbreon-1, Glaceon-1, Hippowdon-1, Liepard-1, Beartic-1, Porygon-Z-1, Vanilluxe-1, Blissey-1, Dragonite-1",
             "species": "Carbink, Aromatisse, Minior, Comfey, Golisopod, Ribombee, Bewear, Turtonator, Dhelmise, Togedemaru, Rotom-Mow, Sceptile, Infernape, Serperior, Samurott, Mawile, Breloom, Audino, Raichu-Alola, Exploud, Lopunny, Darmanitan, Ambipom, Golem-Alola, Whimsicott, Altaria, Shiinotic, Mismagius, Komala, Ursaring, Wailord, Wishiwashi, Porygon2, Yanmega, Vaporeon, Espeon, Umbreon, Glaceon, Hippowdon, Liepard, Beartic, Porygon-Z, Vanilluxe, Blissey, Dragonite",
             "late": "",
@@ -101,7 +101,7 @@
         },
         {
             "name": "Rico",
-            "class": "Preschooler (M)",
+            "class": "Preschooler",
             "roster": "Carbink-1, Aromatisse-1, Minior-1, Comfey-1, Golisopod-1, Ribombee-1, Bewear-1, Turtonator-1, Dhelmise-1, Togedemaru-1, Rotom-Mow-1, Sceptile-1, Infernape-1, Serperior-1, Samurott-1, Mawile-1, Breloom-1, Audino-1, Raichu-Alola-1, Exploud-1, Lopunny-1, Darmanitan-1, Ambipom-1, Golem-Alola-1, Whimsicott-1, Altaria-1, Shiinotic-1, Mismagius-1, Komala-1, Ursaring-1, Wailord-1, Wishiwashi-1, Porygon2-1, Yanmega-1, Vaporeon-1, Espeon-1, Umbreon-1, Glaceon-1, Hippowdon-1, Liepard-1, Beartic-1, Porygon-Z-1, Vanilluxe-1, Blissey-1, Dragonite-1",
             "species": "Carbink, Aromatisse, Minior, Comfey, Golisopod, Ribombee, Bewear, Turtonator, Dhelmise, Togedemaru, Rotom-Mow, Sceptile, Infernape, Serperior, Samurott, Mawile, Breloom, Audino, Raichu-Alola, Exploud, Lopunny, Darmanitan, Ambipom, Golem-Alola, Whimsicott, Altaria, Shiinotic, Mismagius, Komala, Ursaring, Wailord, Wishiwashi, Porygon2, Yanmega, Vaporeon, Espeon, Umbreon, Glaceon, Hippowdon, Liepard, Beartic, Porygon-Z, Vanilluxe, Blissey, Dragonite",
             "late": "",
@@ -112,7 +112,7 @@
         },
         {
             "name": "Rocky",
-            "class": "Preschooler (M)",
+            "class": "Preschooler",
             "roster": "Lurantis-1, Magmortar-1, Venusaur-1, Charizard-1, Typhlosion-1, Infernape-1, Shiftry-1, Whimsicott-1, Salazzle-1, Ninetales-1, Chandelure-1, Volcarona-1, Arcanine-1",
             "species": "Lurantis, Magmortar, Venusaur, Charizard, Typhlosion, Infernape, Shiftry, Whimsicott, Salazzle, Ninetales, Chandelure, Volcarona, Arcanine",
             "late": "",
@@ -123,7 +123,7 @@
         },
         {
             "name": "Jasper",
-            "class": "Preschooler (M)",
+            "class": "Preschooler",
             "roster": "Carbink-1, Aromatisse-1, Minior-1, Comfey-1, Golisopod-1, Ribombee-1, Bewear-1, Turtonator-1, Dhelmise-1, Togedemaru-1, Rotom-Mow-1, Sceptile-1, Infernape-1, Serperior-1, Samurott-1, Mawile-1, Breloom-1, Audino-1, Raichu-Alola-1, Exploud-1, Lopunny-1, Darmanitan-1, Ambipom-1, Golem-Alola-1, Whimsicott-1, Altaria-1, Shiinotic-1, Mismagius-1, Komala-1, Ursaring-1, Wailord-1, Wishiwashi-1, Porygon2-1, Yanmega-1, Vaporeon-1, Espeon-1, Umbreon-1, Glaceon-1, Hippowdon-1, Liepard-1, Beartic-1, Porygon-Z-1, Vanilluxe-1, Blissey-1, Dragonite-1",
             "species": "Carbink, Aromatisse, Minior, Comfey, Golisopod, Ribombee, Bewear, Turtonator, Dhelmise, Togedemaru, Rotom-Mow, Sceptile, Infernape, Serperior, Samurott, Mawile, Breloom, Audino, Raichu-Alola, Exploud, Lopunny, Darmanitan, Ambipom, Golem-Alola, Whimsicott, Altaria, Shiinotic, Mismagius, Komala, Ursaring, Wailord, Wishiwashi, Porygon2, Yanmega, Vaporeon, Espeon, Umbreon, Glaceon, Hippowdon, Liepard, Beartic, Porygon-Z, Vanilluxe, Blissey, Dragonite",
             "late": "",
@@ -134,7 +134,7 @@
         },
         {
             "name": "Kendra",
-            "class": "Preschooler (F)",
+            "class": "Preschooler",
             "roster": "Lurantis-1, Magmortar-1, Venusaur-1, Charizard-1, Typhlosion-1, Infernape-1, Shiftry-1, Whimsicott-1, Salazzle-1, Ninetales-1, Chandelure-1, Volcarona-1, Arcanine-1",
             "species": "Lurantis, Magmortar, Venusaur, Charizard, Typhlosion, Infernape, Shiftry, Whimsicott, Salazzle, Ninetales, Chandelure, Volcarona, Arcanine",
             "late": "",
@@ -145,7 +145,7 @@
         },
         {
             "name": "Mercy",
-            "class": "Preschooler (F)",
+            "class": "Preschooler",
             "roster": "Carbink-1, Gogoat-1, Aromatisse-1, Minior-1, Comfey-1, Ribombee-1, Bewear-1, Togedemaru-1, Rotom-Mow-1, Torterra-1, Empoleon-1, Mawile-1, Banette-1, Audino-1, Raichu-Alola-1, Exploud-1, Lopunny-1, Darmanitan-1, Ambipom-1, Kangaskhan-1, Whimsicott-1, Altaria-1, Abomasnow-1, Shiinotic-1, Mismagius-1, Toucannon-1, Oranguru-1, Komala-1, Ursaring-1, Wishiwashi-1, Porygon2-1, Vaporeon-1, Espeon-1, Umbreon-1, Leafeon-1, Glaceon-1, Hippowdon-1, Liepard-1, Beartic-1, Porygon-Z-1, Vanilluxe-1, Blissey-1",
             "species": "Carbink, Gogoat, Aromatisse, Minior, Comfey, Ribombee, Bewear, Togedemaru, Rotom-Mow, Torterra, Empoleon, Mawile, Banette, Audino, Raichu-Alola, Exploud, Lopunny, Darmanitan, Ambipom, Kangaskhan, Whimsicott, Altaria, Abomasnow, Shiinotic, Mismagius, Toucannon, Oranguru, Komala, Ursaring, Wishiwashi, Porygon2, Vaporeon, Espeon, Umbreon, Leafeon, Glaceon, Hippowdon, Liepard, Beartic, Porygon-Z, Vanilluxe, Blissey",
             "late": "",
@@ -156,7 +156,7 @@
         },
         {
             "name": "Helen",
-            "class": "Preschooler (F)",
+            "class": "Preschooler",
             "roster": "Carbink-1, Gogoat-1, Aromatisse-1, Minior-1, Comfey-1, Ribombee-1, Bewear-1, Togedemaru-1, Rotom-Mow-1, Torterra-1, Empoleon-1, Mawile-1, Banette-1, Audino-1, Raichu-Alola-1, Exploud-1, Lopunny-1, Darmanitan-1, Ambipom-1, Kangaskhan-1, Whimsicott-1, Altaria-1, Abomasnow-1, Shiinotic-1, Mismagius-1, Toucannon-1, Oranguru-1, Komala-1, Ursaring-1, Wishiwashi-1, Porygon2-1, Vaporeon-1, Espeon-1, Umbreon-1, Leafeon-1, Glaceon-1, Hippowdon-1, Liepard-1, Beartic-1, Porygon-Z-1, Vanilluxe-1, Blissey-1",
             "species": "Carbink, Gogoat, Aromatisse, Minior, Comfey, Ribombee, Bewear, Togedemaru, Rotom-Mow, Torterra, Empoleon, Mawile, Banette, Audino, Raichu-Alola, Exploud, Lopunny, Darmanitan, Ambipom, Kangaskhan, Whimsicott, Altaria, Abomasnow, Shiinotic, Mismagius, Toucannon, Oranguru, Komala, Ursaring, Wishiwashi, Porygon2, Vaporeon, Espeon, Umbreon, Leafeon, Glaceon, Hippowdon, Liepard, Beartic, Porygon-Z, Vanilluxe, Blissey",
             "late": "",
@@ -167,7 +167,7 @@
         },
         {
             "name": "Gladys",
-            "class": "Preschooler (F)",
+            "class": "Preschooler",
             "roster": "Carbink-1, Gogoat-1, Aromatisse-1, Minior-1, Comfey-1, Ribombee-1, Bewear-1, Togedemaru-1, Rotom-Mow-1, Torterra-1, Empoleon-1, Mawile-1, Banette-1, Audino-1, Raichu-Alola-1, Exploud-1, Lopunny-1, Darmanitan-1, Ambipom-1, Kangaskhan-1, Whimsicott-1, Altaria-1, Abomasnow-1, Shiinotic-1, Mismagius-1, Toucannon-1, Oranguru-1, Komala-1, Ursaring-1, Wishiwashi-1, Porygon2-1, Vaporeon-1, Espeon-1, Umbreon-1, Leafeon-1, Glaceon-1, Hippowdon-1, Liepard-1, Beartic-1, Porygon-Z-1, Vanilluxe-1, Blissey-1",
             "species": "Carbink, Gogoat, Aromatisse, Minior, Comfey, Ribombee, Bewear, Togedemaru, Rotom-Mow, Torterra, Empoleon, Mawile, Banette, Audino, Raichu-Alola, Exploud, Lopunny, Darmanitan, Ambipom, Kangaskhan, Whimsicott, Altaria, Abomasnow, Shiinotic, Mismagius, Toucannon, Oranguru, Komala, Ursaring, Wishiwashi, Porygon2, Vaporeon, Espeon, Umbreon, Leafeon, Glaceon, Hippowdon, Liepard, Beartic, Porygon-Z, Vanilluxe, Blissey",
             "late": "",
@@ -266,7 +266,7 @@
         },
         {
             "name": "Percy",
-            "class": "Office Worker (M)",
+            "class": "Office Worker",
             "roster": "Trevenant-1, Vikavolt-1, Decidueye-1, Turtonator-1, Electivire-1, Charizard-1, Infernape-1, Medicham-1, Mawile-1, Skarmory-1, Raichu-Alola-1, Manectric-1, Pelipper-1, Electrode-1, Darmanitan-1, Durant-1, Tauros-1, Ferrothorn-1, Alakazam-1, Gothitelle-1, Bisharp-1, Bastiodon-1, Escavalier-1, Ampharos-1, Scizor-1, Bronzong-1, Shuckle-1, Conkeldurr-1, Steelix-1, Mandibuzz-1, Porygon2-1, Gardevoir-1, Gallade-1, Exeggutor-1, Klinklang-1, Lucario-1, Dusknoir-1, Aggron-1, Magnezone-1, Tangrowth-1, Porygon-Z-1, Eelektross-1, Kingdra-1, Metagross-1",
             "species": "Trevenant, Vikavolt, Decidueye, Turtonator, Electivire, Charizard, Infernape, Medicham, Mawile, Skarmory, Raichu-Alola, Manectric, Pelipper, Electrode, Darmanitan, Durant, Tauros, Ferrothorn, Alakazam, Gothitelle, Bisharp, Bastiodon, Escavalier, Ampharos, Scizor, Bronzong, Shuckle, Conkeldurr, Steelix, Mandibuzz, Porygon2, Gardevoir, Gallade, Exeggutor, Klinklang, Lucario, Dusknoir, Aggron, Magnezone, Tangrowth, Porygon-Z, Eelektross, Kingdra, Metagross",
             "late": "",
@@ -277,7 +277,7 @@
         },
         {
             "name": "Conley",
-            "class": "Office Worker (M)",
+            "class": "Office Worker",
             "roster": "Trevenant-1, Vikavolt-1, Decidueye-1, Turtonator-1, Electivire-1, Charizard-1, Infernape-1, Medicham-1, Mawile-1, Skarmory-1, Raichu-Alola-1, Manectric-1, Pelipper-1, Electrode-1, Darmanitan-1, Durant-1, Tauros-1, Ferrothorn-1, Alakazam-1, Gothitelle-1, Bisharp-1, Bastiodon-1, Escavalier-1, Ampharos-1, Scizor-1, Bronzong-1, Shuckle-1, Conkeldurr-1, Steelix-1, Mandibuzz-1, Porygon2-1, Gardevoir-1, Gallade-1, Exeggutor-1, Klinklang-1, Lucario-1, Dusknoir-1, Aggron-1, Magnezone-1, Tangrowth-1, Porygon-Z-1, Eelektross-1, Kingdra-1, Metagross-1",
             "species": "Trevenant, Vikavolt, Decidueye, Turtonator, Electivire, Charizard, Infernape, Medicham, Mawile, Skarmory, Raichu-Alola, Manectric, Pelipper, Electrode, Darmanitan, Durant, Tauros, Ferrothorn, Alakazam, Gothitelle, Bisharp, Bastiodon, Escavalier, Ampharos, Scizor, Bronzong, Shuckle, Conkeldurr, Steelix, Mandibuzz, Porygon2, Gardevoir, Gallade, Exeggutor, Klinklang, Lucario, Dusknoir, Aggron, Magnezone, Tangrowth, Porygon-Z, Eelektross, Kingdra, Metagross",
             "late": "",
@@ -288,7 +288,7 @@
         },
         {
             "name": "Emery",
-            "class": "Office Worker (M)",
+            "class": "Office Worker",
             "roster": "Trevenant-1, Vikavolt-1, Decidueye-1, Turtonator-1, Electivire-1, Charizard-1, Infernape-1, Medicham-1, Mawile-1, Skarmory-1, Raichu-Alola-1, Manectric-1, Pelipper-1, Electrode-1, Darmanitan-1, Durant-1, Tauros-1, Ferrothorn-1, Alakazam-1, Gothitelle-1, Bisharp-1, Bastiodon-1, Escavalier-1, Ampharos-1, Scizor-1, Bronzong-1, Shuckle-1, Conkeldurr-1, Steelix-1, Mandibuzz-1, Porygon2-1, Gardevoir-1, Gallade-1, Exeggutor-1, Klinklang-1, Lucario-1, Dusknoir-1, Aggron-1, Magnezone-1, Tangrowth-1, Porygon-Z-1, Eelektross-1, Kingdra-1, Metagross-1",
             "species": "Trevenant, Vikavolt, Decidueye, Turtonator, Electivire, Charizard, Infernape, Medicham, Mawile, Skarmory, Raichu-Alola, Manectric, Pelipper, Electrode, Darmanitan, Durant, Tauros, Ferrothorn, Alakazam, Gothitelle, Bisharp, Bastiodon, Escavalier, Ampharos, Scizor, Bronzong, Shuckle, Conkeldurr, Steelix, Mandibuzz, Porygon2, Gardevoir, Gallade, Exeggutor, Klinklang, Lucario, Dusknoir, Aggron, Magnezone, Tangrowth, Porygon-Z, Eelektross, Kingdra, Metagross",
             "late": "",
@@ -299,7 +299,7 @@
         },
         {
             "name": "Winnie",
-            "class": "Office Worker (F)",
+            "class": "Office Worker",
             "roster": "Carbink-1, Sylveon-1, Delphox-1, Florges-1, Goodra-1, Aromatisse-1, Comfey-1, Lurantis-1, Ribombee-1, Bewear-1, Togedemaru-1, Lickilicky-1, Mawile-1, Lanturn-1, Breloom-1, Pelipper-1, Ludicolo-1, Froslass-1, Lilligant-1, Ambipom-1, Whimsicott-1, Musharna-1, Altaria-1, Reuniclus-1, Shiinotic-1, Mismagius-1, Komala-1, Politoed-1, Tsareena-1, Ninetales-1, Gardevoir-1, Mienshao-1, Bouffalant-1, Lapras-1, Vanilluxe-1, Snorlax-1, Blissey-1, Milotic-1, Togekiss-1, Salamence-1",
             "species": "Carbink, Sylveon, Delphox, Florges, Goodra, Aromatisse, Comfey, Lurantis, Ribombee, Bewear, Togedemaru, Lickilicky, Mawile, Lanturn, Breloom, Pelipper, Ludicolo, Froslass, Lilligant, Ambipom, Whimsicott, Musharna, Altaria, Reuniclus, Shiinotic, Mismagius, Komala, Politoed, Tsareena, Ninetales, Gardevoir, Mienshao, Bouffalant, Lapras, Vanilluxe, Snorlax, Blissey, Milotic, Togekiss, Salamence",
             "late": "",
@@ -310,7 +310,7 @@
         },
         {
             "name": "Prudence",
-            "class": "Office Worker (F)",
+            "class": "Office Worker",
             "roster": "Carbink-1, Sylveon-1, Delphox-1, Florges-1, Goodra-1, Aromatisse-1, Comfey-1, Lurantis-1, Ribombee-1, Bewear-1, Togedemaru-1, Lickilicky-1, Mawile-1, Lanturn-1, Breloom-1, Pelipper-1, Ludicolo-1, Froslass-1, Lilligant-1, Ambipom-1, Whimsicott-1, Musharna-1, Altaria-1, Reuniclus-1, Shiinotic-1, Mismagius-1, Komala-1, Politoed-1, Tsareena-1, Ninetales-1, Gardevoir-1, Mienshao-1, Bouffalant-1, Lapras-1, Vanilluxe-1, Snorlax-1, Blissey-1, Milotic-1, Togekiss-1, Salamence-1",
             "species": "Carbink, Sylveon, Delphox, Florges, Goodra, Aromatisse, Comfey, Lurantis, Ribombee, Bewear, Togedemaru, Lickilicky, Mawile, Lanturn, Breloom, Pelipper, Ludicolo, Froslass, Lilligant, Ambipom, Whimsicott, Musharna, Altaria, Reuniclus, Shiinotic, Mismagius, Komala, Politoed, Tsareena, Ninetales, Gardevoir, Mienshao, Bouffalant, Lapras, Vanilluxe, Snorlax, Blissey, Milotic, Togekiss, Salamence",
             "late": "",
@@ -321,7 +321,7 @@
         },
         {
             "name": "Dominica",
-            "class": "Office Worker (F)",
+            "class": "Office Worker",
             "roster": "Carbink-1, Sylveon-1, Delphox-1, Florges-1, Goodra-1, Aromatisse-1, Comfey-1, Lurantis-1, Ribombee-1, Bewear-1, Togedemaru-1, Lickilicky-1, Mawile-1, Lanturn-1, Breloom-1, Pelipper-1, Ludicolo-1, Froslass-1, Lilligant-1, Ambipom-1, Whimsicott-1, Musharna-1, Altaria-1, Reuniclus-1, Shiinotic-1, Mismagius-1, Komala-1, Politoed-1, Tsareena-1, Ninetales-1, Gardevoir-1, Mienshao-1, Bouffalant-1, Lapras-1, Vanilluxe-1, Snorlax-1, Blissey-1, Milotic-1, Togekiss-1, Salamence-1",
             "species": "Carbink, Sylveon, Delphox, Florges, Goodra, Aromatisse, Comfey, Lurantis, Ribombee, Bewear, Togedemaru, Lickilicky, Mawile, Lanturn, Breloom, Pelipper, Ludicolo, Froslass, Lilligant, Ambipom, Whimsicott, Musharna, Altaria, Reuniclus, Shiinotic, Mismagius, Komala, Politoed, Tsareena, Ninetales, Gardevoir, Mienshao, Bouffalant, Lapras, Vanilluxe, Snorlax, Blissey, Milotic, Togekiss, Salamence",
             "late": "",
@@ -420,7 +420,7 @@
         },
         {
             "name": "Parker",
-            "class": "Youth Athlete (M)",
+            "class": "Youth Athlete",
             "roster": "Hawlucha-1, Pyroar-1, Talonflame-1, Noivern-1, Lycanroc-1, Drampa-1, Magmortar-1, Charizard-1, Typhlosion-1, Feraligatr-1, Dugtrio-Alola-1, Marowak-1, Pidgeot-1, Hariyama-1, Manectric-1, Staraptor-1, Electrode-1, Ludicolo-1, Froslass-1, Lilligant-1, Tauros-1, Druddigon-1, Jellicent-1, Bisharp-1, Accelgor-1, Salazzle-1, Gengar-1, Heracross-1, Passimian-1, Machamp-1, Braviary-1, Aerodactyl-1, Gallade-1, Jolteon-1, Espeon-1, Lucario-1, Bouffalant-1, Crobat-1, Haxorus-1, Togekiss-1, Archeops-1",
             "species": "Hawlucha, Pyroar, Talonflame, Noivern, Lycanroc, Drampa, Magmortar, Charizard, Typhlosion, Feraligatr, Dugtrio-Alola, Marowak, Pidgeot, Hariyama, Manectric, Staraptor, Electrode, Ludicolo, Froslass, Lilligant, Tauros, Druddigon, Jellicent, Bisharp, Accelgor, Salazzle, Gengar, Heracross, Passimian, Machamp, Braviary, Aerodactyl, Gallade, Jolteon, Espeon, Lucario, Bouffalant, Crobat, Haxorus, Togekiss, Archeops",
             "late": "",
@@ -431,7 +431,7 @@
         },
         {
             "name": "Isaac",
-            "class": "Youth Athlete (M)",
+            "class": "Youth Athlete",
             "roster": "Hawlucha-1, Pyroar-1, Talonflame-1, Noivern-1, Lycanroc-1, Drampa-1, Charizard-1, Typhlosion-1, Feraligatr-1, Dugtrio-Alola-1, Marowak-1, Pidgeot-1, Hariyama-1, Manectric-1, Staraptor-1, Electrode-1, Ludicolo-1, Froslass-1, Lilligant-1, Tauros-1, Druddigon-1, Jellicent-1, Bisharp-1, Accelgor-1, Salazzle-1, Gengar-1, Heracross-1, Passimian-1, Machamp-1, Braviary-1, Aerodactyl-1, Gallade-1, Jolteon-1, Espeon-1, Lucario-1, Bouffalant-1, Crobat-1, Haxorus-1, Togekiss-1, Archeops-1",
             "species": "Hawlucha, Pyroar, Talonflame, Noivern, Lycanroc, Drampa, Charizard, Typhlosion, Feraligatr, Dugtrio-Alola, Marowak, Pidgeot, Hariyama, Manectric, Staraptor, Electrode, Ludicolo, Froslass, Lilligant, Tauros, Druddigon, Jellicent, Bisharp, Accelgor, Salazzle, Gengar, Heracross, Passimian, Machamp, Braviary, Aerodactyl, Gallade, Jolteon, Espeon, Lucario, Bouffalant, Crobat, Haxorus, Togekiss, Archeops",
             "late": "",
@@ -442,7 +442,7 @@
         },
         {
             "name": "Ayden",
-            "class": "Youth Athlete (M)",
+            "class": "Youth Athlete",
             "roster": "Hawlucha-1, Pyroar-1, Talonflame-1, Noivern-1, Lycanroc-1, Drampa-1, Magmortar-1, Charizard-1, Typhlosion-1, Feraligatr-1, Dugtrio-Alola-1, Marowak-1, Pidgeot-1, Hariyama-1, Manectric-1, Staraptor-1, Electrode-1, Ludicolo-1, Froslass-1, Lilligant-1, Tauros-1, Druddigon-1, Jellicent-1, Bisharp-1, Accelgor-1, Salazzle-1, Gengar-1, Heracross-1, Passimian-1, Machamp-1, Braviary-1, Aerodactyl-1, Gallade-1, Jolteon-1, Espeon-1, Lucario-1, Bouffalant-1, Crobat-1, Haxorus-1, Togekiss-1, Archeops-1",
             "species": "Hawlucha, Pyroar, Talonflame, Noivern, Lycanroc, Drampa, Magmortar, Charizard, Typhlosion, Feraligatr, Dugtrio-Alola, Marowak, Pidgeot, Hariyama, Manectric, Staraptor, Electrode, Ludicolo, Froslass, Lilligant, Tauros, Druddigon, Jellicent, Bisharp, Accelgor, Salazzle, Gengar, Heracross, Passimian, Machamp, Braviary, Aerodactyl, Gallade, Jolteon, Espeon, Lucario, Bouffalant, Crobat, Haxorus, Togekiss, Archeops",
             "late": "",
@@ -453,7 +453,7 @@
         },
         {
             "name": "Alwyn",
-            "class": "Youth Athlete (F)",
+            "class": "Youth Athlete",
             "roster": "Hawlucha-1, Pyroar-1, Talonflame-1, Chesnaught-1, Noivern-1, Florges-1, Lycanroc-1, Mudsdale-1, Blaziken-1, Dugtrio-Alola-1, Marowak-1, Pidgeot-1, Hariyama-1, Manectric-1, Staraptor-1, Gastrodon-1, Electrode-1, Ludicolo-1, Froslass-1, Tauros-1, Druddigon-1, Bisharp-1, Escavalier-1, Accelgor-1, Salazzle-1, Oranguru-1, Gengar-1, Heracross-1, Passimian-1, Machamp-1, Braviary-1, Aerodactyl-1, Gallade-1, Jolteon-1, Espeon-1, Lucario-1, Bouffalant-1, Crobat-1, Haxorus-1, Togekiss-1, Archeops-1",
             "species": "Hawlucha, Pyroar, Talonflame, Chesnaught, Noivern, Florges, Lycanroc, Mudsdale, Blaziken, Dugtrio-Alola, Marowak, Pidgeot, Hariyama, Manectric, Staraptor, Gastrodon, Electrode, Ludicolo, Froslass, Tauros, Druddigon, Bisharp, Escavalier, Accelgor, Salazzle, Oranguru, Gengar, Heracross, Passimian, Machamp, Braviary, Aerodactyl, Gallade, Jolteon, Espeon, Lucario, Bouffalant, Crobat, Haxorus, Togekiss, Archeops",
             "late": "",
@@ -464,7 +464,7 @@
         },
         {
             "name": "Mardea",
-            "class": "Youth Athlete (F)",
+            "class": "Youth Athlete",
             "roster": "Hawlucha-1, Pyroar-1, Talonflame-1, Chesnaught-1, Noivern-1, Florges-1, Lycanroc-1, Mudsdale-1, Blaziken-1, Dugtrio-Alola-1, Marowak-1, Pidgeot-1, Hariyama-1, Manectric-1, Staraptor-1, Gastrodon-1, Electrode-1, Ludicolo-1, Froslass-1, Tauros-1, Druddigon-1, Bisharp-1, Escavalier-1, Accelgor-1, Salazzle-1, Oranguru-1, Gengar-1, Heracross-1, Passimian-1, Machamp-1, Braviary-1, Aerodactyl-1, Gallade-1, Jolteon-1, Espeon-1, Lucario-1, Bouffalant-1, Crobat-1, Haxorus-1, Togekiss-1, Archeops-1",
             "species": "Hawlucha, Pyroar, Talonflame, Chesnaught, Noivern, Florges, Lycanroc, Mudsdale, Blaziken, Dugtrio-Alola, Marowak, Pidgeot, Hariyama, Manectric, Staraptor, Gastrodon, Electrode, Ludicolo, Froslass, Tauros, Druddigon, Bisharp, Escavalier, Accelgor, Salazzle, Oranguru, Gengar, Heracross, Passimian, Machamp, Braviary, Aerodactyl, Gallade, Jolteon, Espeon, Lucario, Bouffalant, Crobat, Haxorus, Togekiss, Archeops",
             "late": "",
@@ -475,7 +475,7 @@
         },
         {
             "name": "Gabriella",
-            "class": "Youth Athlete (F)",
+            "class": "Youth Athlete",
             "roster": "Hawlucha-1, Pyroar-1, Talonflame-1, Chesnaught-1, Noivern-1, Florges-1, Lycanroc-1, Mudsdale-1, Blaziken-1, Dugtrio-Alola-1, Marowak-1, Pidgeot-1, Hariyama-1, Manectric-1, Staraptor-1, Gastrodon-1, Electrode-1, Ludicolo-1, Froslass-1, Tauros-1, Druddigon-1, Bisharp-1, Escavalier-1, Accelgor-1, Salazzle-1, Oranguru-1, Gengar-1, Heracross-1, Passimian-1, Machamp-1, Braviary-1, Aerodactyl-1, Gallade-1, Jolteon-1, Espeon-1, Lucario-1, Bouffalant-1, Crobat-1, Haxorus-1, Togekiss-1, Archeops-1",
             "species": "Hawlucha, Pyroar, Talonflame, Chesnaught, Noivern, Florges, Lycanroc, Mudsdale, Blaziken, Dugtrio-Alola, Marowak, Pidgeot, Hariyama, Manectric, Staraptor, Gastrodon, Electrode, Ludicolo, Froslass, Tauros, Druddigon, Bisharp, Escavalier, Accelgor, Salazzle, Oranguru, Gengar, Heracross, Passimian, Machamp, Braviary, Aerodactyl, Gallade, Jolteon, Espeon, Lucario, Bouffalant, Crobat, Haxorus, Togekiss, Archeops",
             "late": "",
@@ -486,7 +486,7 @@
         },
         {
             "name": "Ryder",
-            "class": "Rising Star (M)",
+            "class": "Rising Star",
             "roster": "Chesnaught-1, Delphox-1, Greninja-1, Beedrill-1, Decidueye-1, Incineroar-1, Araquanid-1, Venusaur-1, Charizard-1, Meganium-1, Typhlosion-1, Feraligatr-1, Sceptile-1, Blaziken-1, Swampert-1, Torterra-1, Infernape-1, Empoleon-1, Serperior-1, Emboar-1, Samurott-1, Pidgeot-1, Sableye-1, Audino-1, Sharpedo-1, Glalie-1, Camerupt-1, Lopunny-1, Golem-Alola-1, Slowbro-1, Altaria-1, Abomasnow-1, Pinsir-1, Steelix-1, Gliscor-1, Porygon2-1, Gallade-1, Snorlax-1, Kingdra-1, Salamence-1",
             "species": "Chesnaught, Delphox, Greninja, Beedrill, Decidueye, Incineroar, Araquanid, Venusaur, Charizard, Meganium, Typhlosion, Feraligatr, Sceptile, Blaziken, Swampert, Torterra, Infernape, Empoleon, Serperior, Emboar, Samurott, Pidgeot, Sableye, Audino, Sharpedo, Glalie, Camerupt, Lopunny, Golem-Alola, Slowbro, Altaria, Abomasnow, Pinsir, Steelix, Gliscor, Porygon2, Gallade, Snorlax, Kingdra, Salamence",
             "late": "",
@@ -497,7 +497,7 @@
         },
         {
             "name": "Christopher",
-            "class": "Rising Star (M)",
+            "class": "Rising Star",
             "roster": "Avalugg-1, Aurorus-1, Bruxish-1, Glalie-1, Froslass-1, Abomasnow-1, Crabominable-1, Weavile-1, Porygon2-1, Glaceon-1, Beartic-1, Mamoswine-1, Vanilluxe-1",
             "species": "Avalugg, Aurorus, Bruxish, Glalie, Froslass, Abomasnow, Crabominable, Weavile, Porygon2, Glaceon, Beartic, Mamoswine, Vanilluxe",
             "late": "",
@@ -508,7 +508,7 @@
         },
         {
             "name": "Sorley",
-            "class": "Rising Star (M)",
+            "class": "Rising Star",
             "roster": "Goodra-1, Golisopod-1, Primarina-1, Bruxish-1, Gastrodon-1, Pelipper-1, Ludicolo-1, Jellicent-1, Toxicroak-1, Armaldo-1, Shiinotic-1, Accelgor-1, Politoed-1, Bronzong-1, Wishiwashi-1, Tentacruel-1, Vaporeon-1, Beartic-1, Lapras-1, Kingdra-1, Milotic-1",
             "species": "Goodra, Golisopod, Primarina, Bruxish, Gastrodon, Pelipper, Ludicolo, Jellicent, Toxicroak, Armaldo, Shiinotic, Accelgor, Politoed, Bronzong, Wishiwashi, Tentacruel, Vaporeon, Beartic, Lapras, Kingdra, Milotic",
             "late": "",
@@ -519,7 +519,7 @@
         },
         {
             "name": "Beatrice",
-            "class": "Rising Star (F)",
+            "class": "Rising Star",
             "roster": "Chesnaught-1, Delphox-1, Greninja-1, Beedrill-1, Golisopod-1, Decidueye-1, Incineroar-1, Primarina-1, Venusaur-1, Charizard-1, Meganium-1, Typhlosion-1, Feraligatr-1, Sceptile-1, Blaziken-1, Swampert-1, Torterra-1, Infernape-1, Empoleon-1, Serperior-1, Emboar-1, Samurott-1, Pidgeot-1, Sableye-1, Audino-1, Sharpedo-1, Glalie-1, Camerupt-1, Lopunny-1, Slowbro-1, Slowking-1, Altaria-1, Politoed-1, Wailord-1, Conkeldurr-1, Steelix-1, Porygon2-1, Gallade-1, Mamoswine-1, Lapras-1, Gyarados-1, Milotic-1, Arcanine-1",
             "species": "Chesnaught, Delphox, Greninja, Beedrill, Golisopod, Decidueye, Incineroar, Primarina, Venusaur, Charizard, Meganium, Typhlosion, Feraligatr, Sceptile, Blaziken, Swampert, Torterra, Infernape, Empoleon, Serperior, Emboar, Samurott, Pidgeot, Sableye, Audino, Sharpedo, Glalie, Camerupt, Lopunny, Slowbro, Slowking, Altaria, Politoed, Wailord, Conkeldurr, Steelix, Porygon2, Gallade, Mamoswine, Lapras, Gyarados, Milotic, Arcanine",
             "late": "",
@@ -530,7 +530,7 @@
         },
         {
             "name": "Brandi",
-            "class": "Rising Star (F)",
+            "class": "Rising Star",
             "roster": "Avalugg-1, Aurorus-1, Bruxish-1, Glalie-1, Froslass-1, Abomasnow-1, Crabominable-1, Weavile-1, Porygon2-1, Glaceon-1, Beartic-1, Mamoswine-1, Vanilluxe-1",
             "species": "Avalugg, Aurorus, Bruxish, Glalie, Froslass, Abomasnow, Crabominable, Weavile, Porygon2, Glaceon, Beartic, Mamoswine, Vanilluxe",
             "late": "",
@@ -541,7 +541,7 @@
         },
         {
             "name": "Marsha",
-            "class": "Rising Star (F)",
+            "class": "Rising Star",
             "roster": "Goodra-1, Golisopod-1, Primarina-1, Bruxish-1, Gastrodon-1, Pelipper-1, Ludicolo-1, Jellicent-1, Toxicroak-1, Armaldo-1, Shiinotic-1, Accelgor-1, Politoed-1, Bronzong-1, Wishiwashi-1, Tentacruel-1, Vaporeon-1, Beartic-1, Lapras-1, Kingdra-1, Milotic-1",
             "species": "Goodra, Golisopod, Primarina, Bruxish, Gastrodon, Pelipper, Ludicolo, Jellicent, Toxicroak, Armaldo, Shiinotic, Accelgor, Politoed, Bronzong, Wishiwashi, Tentacruel, Vaporeon, Beartic, Lapras, Kingdra, Milotic",
             "late": "",
@@ -552,7 +552,7 @@
         },
         {
             "name": "Cooper",
-            "class": "Sightseer (M)",
+            "class": "Sightseer",
             "roster": "Pyroar-1, Aurorus-1, Florges-1, Gourgeist-1, Clawitzer-1, Rotom-Wash-1, Barbaracle-2, Hawlucha-2, Chesnaught-2, Gogoat-2, Noivern-2, Gourgeist-2, Beedrill-2, Aromatisse-2, Lickilicky-1, Comfey-2, Ribombee-2, Rotom-Wash-2, Lickilicky-2, Marowak-1, Banette-1, Breloom-1, Vespiquen-1, Throh-1, Golurk-1, Musharna-1, Ferrothorn-1, Abomasnow-1, Muk-1, Ninetales-1, Gliscor-1, Exeggutor-1, Eelektross-1, Kingdra-1, Sandslash-1, Typhlosion-2, Sceptile-2, Torterra-2, Dugtrio-1, Pidgeot-2, Mawile-2, Breloom-2, Raichu-1, Manectric-2, Camerupt-2, Sawk-2, Unfezant-2, Ludicolo-2, Shiftry-2, Exploud-2, Ambipom-2, Golem-1, Weezing-2, Spiritomb-2, Druddigon-2, Musharna-2, Ferrothorn-2, Toxicroak-2, Reuniclus-2, Bisharp-2, Nidoking-2, Armaldo-2, Escavalier-2, Drifblim-2, Toucannon-2, Heracross-2, Excadrill-2, Steelix-2, Zoroark-2, Gardevoir-2, Bouffalant-2, Tangrowth-2, Malamar-2, Volcarona-2",
             "species": "Pyroar, Aurorus, Florges, Gourgeist, Clawitzer, Rotom-Wash, Barbaracle, Hawlucha, Chesnaught, Gogoat, Noivern, Beedrill, Aromatisse, Lickilicky, Comfey, Ribombee, Marowak, Banette, Breloom, Vespiquen, Throh, Golurk, Musharna, Ferrothorn, Abomasnow, Muk, Ninetales, Gliscor, Exeggutor, Eelektross, Kingdra, Sandslash, Typhlosion, Sceptile, Torterra, Dugtrio, Pidgeot, Mawile, Raichu, Manectric, Camerupt, Sawk, Unfezant, Ludicolo, Shiftry, Exploud, Ambipom, Golem, Weezing, Spiritomb, Druddigon, Toxicroak, Reuniclus, Bisharp, Nidoking, Armaldo, Escavalier, Drifblim, Toucannon, Heracross, Excadrill, Steelix, Zoroark, Gardevoir, Bouffalant, Tangrowth, Malamar, Volcarona",
             "late": "",
@@ -563,7 +563,7 @@
         },
         {
             "name": "Darien",
-            "class": "Sightseer (M)",
+            "class": "Sightseer",
             "roster": "Pyroar-1, Aurorus-1, Florges-1, Gourgeist-1, Clawitzer-1, Rotom-Wash-1, Barbaracle-2, Hawlucha-2, Pyroar-2, Chesnaught-2, Gogoat-2, Noivern-2, Gourgeist-2, Beedrill-2, Aromatisse-2, Probopass-1, Lickilicky-1, Comfey-2, Ribombee-2, Rotom-Wash-2, Probopass-2, Lickilicky-2, Marowak-1, Banette-1, Breloom-1, Vespiquen-1, Throh-1, Golurk-1, Musharna-1, Ferrothorn-1, Abomasnow-1, Muk-1, Ninetales-1, Gliscor-1, Exeggutor-1, Eelektross-1, Kingdra-1, Sandslash-1, Sceptile-2, Torterra-2, Dugtrio-1, Pidgeot-2, Mawile-2, Breloom-2, Raichu-1, Manectric-2, Camerupt-2, Sawk-2, Unfezant-2, Ludicolo-2, Shiftry-2, Exploud-2, Ambipom-2, Golem-1, Weezing-2, Spiritomb-2, Druddigon-2, Musharna-2, Ferrothorn-2, Toxicroak-2, Reuniclus-2, Bisharp-2, Nidoking-2, Armaldo-2, Escavalier-2, Drifblim-2, Toucannon-2, Heracross-2, Excadrill-2, Steelix-2, Zoroark-2, Gardevoir-2, Bouffalant-2, Tangrowth-2, Malamar-2, Volcarona-2",
             "species": "Pyroar, Aurorus, Florges, Gourgeist, Clawitzer, Rotom-Wash, Barbaracle, Hawlucha, Chesnaught, Gogoat, Noivern, Beedrill, Aromatisse, Probopass, Lickilicky, Comfey, Ribombee, Marowak, Banette, Breloom, Vespiquen, Throh, Golurk, Musharna, Ferrothorn, Abomasnow, Muk, Ninetales, Gliscor, Exeggutor, Eelektross, Kingdra, Sandslash, Sceptile, Torterra, Dugtrio, Pidgeot, Mawile, Raichu, Manectric, Camerupt, Sawk, Unfezant, Ludicolo, Shiftry, Exploud, Ambipom, Golem, Weezing, Spiritomb, Druddigon, Toxicroak, Reuniclus, Bisharp, Nidoking, Armaldo, Escavalier, Drifblim, Toucannon, Heracross, Excadrill, Steelix, Zoroark, Gardevoir, Bouffalant, Tangrowth, Malamar, Volcarona",
             "late": "",
@@ -574,7 +574,7 @@
         },
         {
             "name": "Hart",
-            "class": "Sightseer (M)",
+            "class": "Sightseer",
             "roster": "Oricorio-Sensu-1, Golisopod-1, Incineroar-1, Rotom-Mow-1, Sylveon-2, Incineroar-2, Togedemaru-2, Rotom-Mow-2, Mawile-1, Absol-1, Vespiquen-1, Staraptor-1, Tauros-1, Scrafty-1, Drifblim-1, Weavile-1, Dusknoir-1, Mienshao-1, Gyarados-1, Arcanine-1, Salamence-1, Mawile-2, Absol-2, Vespiquen-2, Staraptor-2, Durant-2, Tauros-2, Scrafty-2, Weavile-2, Gliscor-2, Dusknoir-2, Gyarados-2, Arcanine-2, Salamence-2",
             "species": "Oricorio-Sensu, Golisopod, Incineroar, Rotom-Mow, Sylveon, Togedemaru, Mawile, Absol, Vespiquen, Staraptor, Tauros, Scrafty, Drifblim, Weavile, Dusknoir, Mienshao, Gyarados, Arcanine, Salamence, Durant, Gliscor",
             "late": "",
@@ -585,7 +585,7 @@
         },
         {
             "name": "Kaula",
-            "class": "Sightseer (F)",
+            "class": "Sightseer",
             "roster": "Avalugg-1, Gogoat-1, Rotom-Heat-1, Electivire-1, Tyrantrum-2, Florges-2, Trevenant-2, Probopass-1, Lickilicky-1, Oricorio-Pa'u-1, Comfey-2, Lurantis-2, Ribombee-2, Decidueye-2, Bewear-2, Dhelmise-2, Rotom-Heat-2, Electivire-2, Probopass-2, Lickilicky-2, Marowak-1, Sawk-1, Unfezant-1, Cofagrigus-1, Jellicent-1, Reuniclus-1, Muk-1, Ampharos-1, Bronzong-1, Ninetales-1, Conkeldurr-1, Yanmega-1, Exeggutor-1, Chandelure-1, Walrein-1, Mamoswine-1, Rhyperior-1, Tangrowth-1, Sandslash-1, Meganium-2, Dugtrio-1, Audino-2, Raichu-1, Staraptor-2, Throh-2, Amoonguss-2, Electrode-2, Lopunny-2, Darmanitan-2, Durant-2, Golem-1, Scrafty-2, Altaria-2, Gothitelle-2, Nidoqueen-2, Accelgor-2, Toucannon-2, Oranguru-2, Komala-2, Ursaring-2, Houndoom-2, Tsareena-2, Passimian-2, Drapion-2, Shuckle-2, Honchkrow-2, Braviary-2, Gallade-2, Exeggutor-Alola-1, Klinklang-2, Hippowdon-2, Liepard-2, Mienshao-2, Beartic-2, Aggron-2, Milotic-2, Haxorus-2, Togekiss-2, Dragonite-2, Tyranitar-2, Hydreigon-2, Slaking-2",
             "species": "Avalugg, Gogoat, Rotom-Heat, Electivire, Tyrantrum, Florges, Trevenant, Probopass, Lickilicky, Oricorio-Pa'u, Comfey, Lurantis, Ribombee, Decidueye, Bewear, Dhelmise, Marowak, Sawk, Unfezant, Cofagrigus, Jellicent, Reuniclus, Muk, Ampharos, Bronzong, Ninetales, Conkeldurr, Yanmega, Exeggutor, Chandelure, Walrein, Mamoswine, Rhyperior, Tangrowth, Sandslash, Meganium, Dugtrio, Audino, Raichu, Staraptor, Throh, Amoonguss, Electrode, Lopunny, Darmanitan, Durant, Golem, Scrafty, Altaria, Gothitelle, Nidoqueen, Accelgor, Toucannon, Oranguru, Komala, Ursaring, Houndoom, Tsareena, Passimian, Drapion, Shuckle, Honchkrow, Braviary, Gallade, Exeggutor-Alola, Klinklang, Hippowdon, Liepard, Mienshao, Beartic, Aggron, Milotic, Haxorus, Togekiss, Dragonite, Tyranitar, Hydreigon, Slaking",
             "late": "",
@@ -596,7 +596,7 @@
         },
         {
             "name": "Charlene",
-            "class": "Sightseer (F)",
+            "class": "Sightseer",
             "roster": "Avalugg-1, Gogoat-1, Rotom-Heat-1, Electivire-1, Tyrantrum-2, Florges-2, Trevenant-2, Lickilicky-1, Oricorio-Pa'u-1, Comfey-2, Lurantis-2, Ribombee-2, Decidueye-2, Bewear-2, Dhelmise-2, Rotom-Heat-2, Electivire-2, Lickilicky-2, Marowak-1, Sawk-1, Unfezant-1, Cofagrigus-1, Jellicent-1, Reuniclus-1, Muk-1, Ampharos-1, Bronzong-1, Ninetales-1, Conkeldurr-1, Yanmega-1, Exeggutor-1, Chandelure-1, Walrein-1, Mamoswine-1, Rhyperior-1, Tangrowth-1, Sandslash-1, Meganium-2, Dugtrio-1, Audino-2, Raichu-1, Staraptor-2, Throh-2, Amoonguss-2, Electrode-2, Lopunny-2, Darmanitan-2, Durant-2, Golem-1, Scrafty-2, Altaria-2, Gothitelle-2, Nidoqueen-2, Accelgor-2, Toucannon-2, Oranguru-2, Komala-2, Ursaring-2, Houndoom-2, Tsareena-2, Passimian-2, Drapion-2, Shuckle-2, Honchkrow-2, Braviary-2, Gallade-2, Exeggutor-Alola-1, Klinklang-2, Hippowdon-2, Liepard-2, Mienshao-2, Beartic-2, Aggron-2, Milotic-2, Haxorus-2, Togekiss-2, Dragonite-2, Tyranitar-2, Hydreigon-2, Slaking-2",
             "species": "Avalugg, Gogoat, Rotom-Heat, Electivire, Tyrantrum, Florges, Trevenant, Lickilicky, Oricorio-Pa'u, Comfey, Lurantis, Ribombee, Decidueye, Bewear, Dhelmise, Marowak, Sawk, Unfezant, Cofagrigus, Jellicent, Reuniclus, Muk, Ampharos, Bronzong, Ninetales, Conkeldurr, Yanmega, Exeggutor, Chandelure, Walrein, Mamoswine, Rhyperior, Tangrowth, Sandslash, Meganium, Dugtrio, Audino, Raichu, Staraptor, Throh, Amoonguss, Electrode, Lopunny, Darmanitan, Durant, Golem, Scrafty, Altaria, Gothitelle, Nidoqueen, Accelgor, Toucannon, Oranguru, Komala, Ursaring, Houndoom, Tsareena, Passimian, Drapion, Shuckle, Honchkrow, Braviary, Gallade, Exeggutor-Alola, Klinklang, Hippowdon, Liepard, Mienshao, Beartic, Aggron, Milotic, Haxorus, Togekiss, Dragonite, Tyranitar, Hydreigon, Slaking",
             "late": "",
@@ -607,7 +607,7 @@
         },
         {
             "name": "Odessa",
-            "class": "Sightseer (F)",
+            "class": "Sightseer",
             "roster": "Oricorio-Sensu-1, Golisopod-1, Incineroar-1, Rotom-Mow-1, Sylveon-2, Incineroar-2, Togedemaru-2, Rotom-Mow-2, Mawile-1, Absol-1, Vespiquen-1, Staraptor-1, Tauros-1, Scrafty-1, Drifblim-1, Weavile-1, Dusknoir-1, Mienshao-1, Gyarados-1, Arcanine-1, Salamence-1, Mawile-2, Absol-2, Vespiquen-2, Staraptor-2, Durant-2, Tauros-2, Scrafty-2, Weavile-2, Gliscor-2, Dusknoir-2, Gyarados-2, Arcanine-2, Salamence-2",
             "species": "Oricorio-Sensu, Golisopod, Incineroar, Rotom-Mow, Sylveon, Togedemaru, Mawile, Absol, Vespiquen, Staraptor, Tauros, Scrafty, Drifblim, Weavile, Dusknoir, Mienshao, Gyarados, Arcanine, Salamence, Durant, Gliscor",
             "late": "",
@@ -772,7 +772,7 @@
         },
         {
             "name": "Arnon",
-            "class": "Golfer (M)",
+            "class": "Golfer",
             "roster": "Pyroar-2, Delphox-2, Gogoat-2, Noivern-2, Trevenant-2, Lycanroc-Midnight-1, Lurantis-2, Dhelmise-2, Rotom-Mow-2, Carbink-3, Tyrantrum-3, Aurorus-3, Chesnaught-3, Noivern-3, Florges-3, Goodra-3, Trevenant-3, Clawitzer-3, Beedrill-3, Electivire-2, Lickilicky-2, Minior-3, Decidueye-3, Bruxish-3, Drampa-3, Rotom-Mow-3, Electivire-3, Lickilicky-3, Banette-2, Breloom-2, Unfezant-2, Lilligant-2, Cofagrigus-2, Tauros-2, Ferrothorn-2, Reuniclus-2, Abomasnow-2, Shiinotic-2, Oranguru-2, Komala-2, Tsareena-2, Passimian-2, Honchkrow-2, Gliscor-2, Exeggutor-Alola-1, Leafeon-2, Tangrowth-2, Milotic-2, Dragonite-2, Serperior-3, Pidgeot-3, Audino-3, Staraptor-3, Unfezant-3, Amoonguss-3, Shiftry-3, Lopunny-3, Cofagrigus-3, Spiritomb-3, Cradily-3, Accelgor-3, Ursaring-3, Weavile-3, Braviary-3, Yanmega-3, Umbreon-3, Liepard-3, Dusknoir-3, Bouffalant-3, Walrein-3, Blissey-3, Sandslash-2, Haxorus-3, Volcarona-3, Archeops-3, Dragonite-3, Tyranitar-3, Metagross-3, Garchomp-3, Hydreigon-3",
             "species": "Pyroar, Delphox, Gogoat, Noivern, Trevenant, Lycanroc-Midnight, Lurantis, Dhelmise, Rotom-Mow, Carbink, Tyrantrum, Aurorus, Chesnaught, Florges, Goodra, Clawitzer, Beedrill, Electivire, Lickilicky, Minior, Decidueye, Bruxish, Drampa, Banette, Breloom, Unfezant, Lilligant, Cofagrigus, Tauros, Ferrothorn, Reuniclus, Abomasnow, Shiinotic, Oranguru, Komala, Tsareena, Passimian, Honchkrow, Gliscor, Exeggutor-Alola, Leafeon, Tangrowth, Milotic, Dragonite, Serperior, Pidgeot, Audino, Staraptor, Amoonguss, Shiftry, Lopunny, Spiritomb, Cradily, Accelgor, Ursaring, Weavile, Braviary, Yanmega, Umbreon, Liepard, Dusknoir, Bouffalant, Walrein, Blissey, Sandslash, Haxorus, Volcarona, Archeops, Tyranitar, Metagross, Garchomp, Hydreigon",
             "late": "",
@@ -783,7 +783,7 @@
         },
         {
             "name": "Alim",
-            "class": "Golfer (M)",
+            "class": "Golfer",
             "roster": "Pyroar-2, Delphox-2, Gogoat-2, Noivern-2, Trevenant-2, Lycanroc-Midnight-1, Lurantis-2, Dhelmise-2, Rotom-Mow-2, Carbink-3, Tyrantrum-3, Aurorus-3, Chesnaught-3, Noivern-3, Florges-3, Goodra-3, Trevenant-3, Clawitzer-3, Beedrill-3, Electivire-2, Minior-3, Decidueye-3, Bruxish-3, Drampa-3, Rotom-Mow-3, Electivire-3, Banette-2, Breloom-2, Unfezant-2, Lilligant-2, Cofagrigus-2, Tauros-2, Ferrothorn-2, Reuniclus-2, Abomasnow-2, Shiinotic-2, Oranguru-2, Komala-2, Tsareena-2, Passimian-2, Honchkrow-2, Gliscor-2, Exeggutor-Alola-1, Leafeon-2, Tangrowth-2, Milotic-2, Dragonite-2, Serperior-3, Audino-3, Staraptor-3, Unfezant-3, Amoonguss-3, Ludicolo-3, Shiftry-3, Lopunny-3, Cofagrigus-3, Spiritomb-3, Whimsicott-3, Cradily-3, Accelgor-3, Ursaring-3, Weavile-3, Braviary-3, Yanmega-3, Umbreon-3, Liepard-3, Dusknoir-3, Bouffalant-3, Walrein-3, Blissey-3, Sandslash-2, Haxorus-3, Volcarona-3, Archeops-3, Dragonite-3, Tyranitar-3, Metagross-3, Garchomp-3, Hydreigon-3",
             "species": "Pyroar, Delphox, Gogoat, Noivern, Trevenant, Lycanroc-Midnight, Lurantis, Dhelmise, Rotom-Mow, Carbink, Tyrantrum, Aurorus, Chesnaught, Florges, Goodra, Clawitzer, Beedrill, Electivire, Minior, Decidueye, Bruxish, Drampa, Banette, Breloom, Unfezant, Lilligant, Cofagrigus, Tauros, Ferrothorn, Reuniclus, Abomasnow, Shiinotic, Oranguru, Komala, Tsareena, Passimian, Honchkrow, Gliscor, Exeggutor-Alola, Leafeon, Tangrowth, Milotic, Dragonite, Serperior, Audino, Staraptor, Amoonguss, Ludicolo, Shiftry, Lopunny, Spiritomb, Whimsicott, Cradily, Accelgor, Ursaring, Weavile, Braviary, Yanmega, Umbreon, Liepard, Dusknoir, Bouffalant, Walrein, Blissey, Sandslash, Haxorus, Volcarona, Archeops, Tyranitar, Metagross, Garchomp, Hydreigon",
             "late": "",
@@ -794,7 +794,7 @@
         },
         {
             "name": "Zeno",
-            "class": "Golfer (M)",
+            "class": "Golfer",
             "roster": "Sylveon-2, Sylveon-3, Vaporeon-2, Jolteon-2, Flareon-2, Espeon-2, Umbreon-2, Leafeon-2, Glaceon-2, Vaporeon-3, Jolteon-3, Flareon-3, Espeon-3, Umbreon-3, Leafeon-3, Glaceon-3",
             "species": "Sylveon, Vaporeon, Jolteon, Flareon, Espeon, Umbreon, Leafeon, Glaceon",
             "late": "",
@@ -805,7 +805,7 @@
         },
         {
             "name": "Anisa",
-            "class": "Golfer (F)",
+            "class": "Golfer",
             "roster": "Pyroar-2, Avalugg-2, Greninja-2, Gogoat-2, Trevenant-2, Gourgeist-2, Lycanroc-Midnight-1, Lurantis-2, Decidueye-2, Dhelmise-2, Rotom-Mow-2, Greninja-3, Gogoat-3, Magmortar-2, Probopass-2, Comfey-3, Toxapex-3, Golisopod-3, Vikavolt-3, Bewear-3, Bruxish-3, Dhelmise-3, Rotom-Mow-3, Magmortar-3, Probopass-3, Venusaur-2, Breloom-2, Vespiquen-2, Unfezant-2, Lilligant-2, Tauros-2, Ferrothorn-2, Abomasnow-2, Shiinotic-2, Komala-2, Ampharos-2, Tsareena-2, Passimian-2, Honchkrow-2, Aerodactyl-2, Palossand-2, Exeggutor-Alola-1, Leafeon-2, Mamoswine-2, Tangrowth-2, Milotic-2, Salamence-2, Venusaur-3, Meganium-3, Feraligatr-3, Sceptile-3, Empoleon-3, Pidgeot-3, Audino-3, Staraptor-3, Amoonguss-3, Shiftry-3, Lopunny-3, Jellicent-3, Cradily-3, Ampharos-3, Ursaring-3, Weavile-3, Braviary-3, Umbreon-3, Liepard-3, Bouffalant-3, Blissey-3, Sandslash-2, Haxorus-3, Volcarona-3, Archeops-3, Tyranitar-3, Metagross-3, Garchomp-3, Hydreigon-3",
             "species": "Pyroar, Avalugg, Greninja, Gogoat, Trevenant, Gourgeist, Lycanroc-Midnight, Lurantis, Decidueye, Dhelmise, Rotom-Mow, Magmortar, Probopass, Comfey, Toxapex, Golisopod, Vikavolt, Bewear, Bruxish, Venusaur, Breloom, Vespiquen, Unfezant, Lilligant, Tauros, Ferrothorn, Abomasnow, Shiinotic, Komala, Ampharos, Tsareena, Passimian, Honchkrow, Aerodactyl, Palossand, Exeggutor-Alola, Leafeon, Mamoswine, Tangrowth, Milotic, Salamence, Meganium, Feraligatr, Sceptile, Empoleon, Pidgeot, Audino, Staraptor, Amoonguss, Shiftry, Lopunny, Jellicent, Cradily, Ursaring, Weavile, Braviary, Umbreon, Liepard, Bouffalant, Blissey, Sandslash, Haxorus, Volcarona, Archeops, Tyranitar, Metagross, Garchomp, Hydreigon",
             "late": "",
@@ -816,7 +816,7 @@
         },
         {
             "name": "Calliope",
-            "class": "Golfer (F)",
+            "class": "Golfer",
             "roster": "Pyroar-2, Avalugg-2, Greninja-2, Gogoat-2, Trevenant-2, Gourgeist-2, Lycanroc-Midnight-1, Lurantis-2, Decidueye-2, Dhelmise-2, Rotom-Mow-2, Greninja-3, Gogoat-3, Probopass-2, Lickilicky-2, Comfey-3, Toxapex-3, Golisopod-3, Vikavolt-3, Bewear-3, Bruxish-3, Dhelmise-3, Rotom-Mow-3, Probopass-3, Lickilicky-3, Venusaur-2, Breloom-2, Vespiquen-2, Unfezant-2, Lilligant-2, Tauros-2, Ferrothorn-2, Abomasnow-2, Shiinotic-2, Komala-2, Ampharos-2, Tsareena-2, Passimian-2, Honchkrow-2, Aerodactyl-2, Palossand-2, Exeggutor-Alola-1, Leafeon-2, Mamoswine-2, Tangrowth-2, Milotic-2, Salamence-2, Venusaur-3, Meganium-3, Feraligatr-3, Sceptile-3, Empoleon-3, Audino-3, Staraptor-3, Amoonguss-3, Ludicolo-3, Shiftry-3, Lopunny-3, Whimsicott-3, Jellicent-3, Cradily-3, Ampharos-3, Ursaring-3, Weavile-3, Braviary-3, Umbreon-3, Liepard-3, Bouffalant-3, Blissey-3, Sandslash-2, Haxorus-3, Volcarona-3, Archeops-3, Tyranitar-3, Metagross-3, Garchomp-3, Hydreigon-3",
             "species": "Pyroar, Avalugg, Greninja, Gogoat, Trevenant, Gourgeist, Lycanroc-Midnight, Lurantis, Decidueye, Dhelmise, Rotom-Mow, Probopass, Lickilicky, Comfey, Toxapex, Golisopod, Vikavolt, Bewear, Bruxish, Venusaur, Breloom, Vespiquen, Unfezant, Lilligant, Tauros, Ferrothorn, Abomasnow, Shiinotic, Komala, Ampharos, Tsareena, Passimian, Honchkrow, Aerodactyl, Palossand, Exeggutor-Alola, Leafeon, Mamoswine, Tangrowth, Milotic, Salamence, Meganium, Feraligatr, Sceptile, Empoleon, Audino, Staraptor, Amoonguss, Ludicolo, Shiftry, Lopunny, Whimsicott, Jellicent, Cradily, Ursaring, Weavile, Braviary, Umbreon, Liepard, Bouffalant, Blissey, Sandslash, Haxorus, Volcarona, Archeops, Tyranitar, Metagross, Garchomp, Hydreigon",
             "late": "",
@@ -827,7 +827,7 @@
         },
         {
             "name": "Christina",
-            "class": "Golfer (F)",
+            "class": "Golfer",
             "roster": "Sylveon-2, Sylveon-3, Vaporeon-2, Jolteon-2, Flareon-2, Espeon-2, Umbreon-2, Leafeon-2, Glaceon-2, Vaporeon-3, Jolteon-3, Flareon-3, Espeon-3, Umbreon-3, Leafeon-3, Glaceon-3",
             "species": "Sylveon, Vaporeon, Jolteon, Flareon, Espeon, Umbreon, Leafeon, Glaceon",
             "late": "",
@@ -838,7 +838,7 @@
         },
         {
             "name": "Nedry",
-            "class": "Pokemon Breeder (M)",
+            "class": "Pokémon Breeder",
             "roster": "Talonflame-2, Sylveon-2, Gourgeist-2, Decidueye-2, Turtonator-2, Rotom-Wash-2, Pyroar-3, Electivire-2, Probopass-2, Lickilicky-2, Oricorio-Pom-Pom-1, Lurantis-3, Mudsdale-3, Decidueye-3, Togedemaru-3, Rotom-Wash-3, Electivire-3, Probopass-3, Lickilicky-3, Pidgeot-2, Audino-2, Glalie-2, Staraptor-2, Unfezant-2, Lopunny-2, Ambipom-2, Musharna-2, Houndoom-2, Mimikyu-2, Braviary-2, Tentacruel-2, Flareon-2, Umbreon-2, Glaceon-2, Liepard-2, Rhyperior-2, Blissey-2, Sandslash-Alola-1, Arcanine-2, Blastoise-3, Torterra-3, Serperior-3, Dugtrio-2, Marowak-2, Medicham-3, Mawile-3, Banette-3, Sableye-3, Lanturn-3, Skarmory-3, Absol-3, Sharpedo-3, Raichu-Alola-2, Glalie-3, Manectric-3, Gastrodon-3, Camerupt-3, Sawk-3, Throh-3, Pelipper-3, Lilligant-3, Kangaskhan-3, Tauros-3, Reuniclus-3, Nidoqueen-3, Nidoking-3, Oranguru-3, Komala-3, Wailord-3, Ninetales-2, Mandibuzz-3, Exeggutor-2, Chandelure-3, Vaporeon-3, Jolteon-3, Espeon-3, Leafeon-3, Lucario-3, Hippowdon-3, Mienshao-3, Beartic-3, Aggron-3, Crobat-3, Magnezone-3, Porygon-Z-3, Vanilluxe-3, Snorlax-3, Kingdra-3, Milotic-3, Malamar-3, Togekiss-3, Slaking-3",
             "species": "Talonflame, Sylveon, Gourgeist, Decidueye, Turtonator, Rotom-Wash, Pyroar, Electivire, Probopass, Lickilicky, Oricorio-Pom-Pom, Lurantis, Mudsdale, Togedemaru, Pidgeot, Audino, Glalie, Staraptor, Unfezant, Lopunny, Ambipom, Musharna, Houndoom, Mimikyu, Braviary, Tentacruel, Flareon, Umbreon, Glaceon, Liepard, Rhyperior, Blissey, Sandslash-Alola, Arcanine, Blastoise, Torterra, Serperior, Dugtrio, Marowak, Medicham, Mawile, Banette, Sableye, Lanturn, Skarmory, Absol, Sharpedo, Raichu-Alola, Manectric, Gastrodon, Camerupt, Sawk, Throh, Pelipper, Lilligant, Kangaskhan, Tauros, Reuniclus, Nidoqueen, Nidoking, Oranguru, Komala, Wailord, Ninetales, Mandibuzz, Exeggutor, Chandelure, Vaporeon, Jolteon, Espeon, Leafeon, Lucario, Hippowdon, Mienshao, Beartic, Aggron, Crobat, Magnezone, Porygon-Z, Vanilluxe, Snorlax, Kingdra, Milotic, Malamar, Togekiss, Slaking",
             "late": "",
@@ -849,7 +849,7 @@
         },
         {
             "name": "Sheridan",
-            "class": "Pokemon Breeder (M)",
+            "class": "Pokémon Breeder",
             "roster": "Talonflame-2, Sylveon-2, Gourgeist-2, Decidueye-2, Turtonator-2, Rotom-Wash-2, Lickilicky-2, Oricorio-Pom-Pom-1, Lycanroc-2, Lurantis-3, Mudsdale-3, Decidueye-3, Togedemaru-3, Rotom-Wash-3, Lickilicky-3, Pidgeot-2, Audino-2, Glalie-2, Staraptor-2, Unfezant-2, Lopunny-2, Ambipom-2, Musharna-2, Houndoom-2, Mimikyu-2, Braviary-2, Tentacruel-2, Flareon-2, Umbreon-2, Glaceon-2, Liepard-2, Rhyperior-2, Blissey-2, Sandslash-Alola-1, Arcanine-2, Blastoise-3, Torterra-3, Serperior-3, Dugtrio-2, Marowak-2, Medicham-3, Banette-3, Sableye-3, Lanturn-3, Breloom-3, Skarmory-3, Absol-3, Sharpedo-3, Raichu-Alola-2, Glalie-3, Manectric-3, Gastrodon-3, Camerupt-3, Sawk-3, Throh-3, Pelipper-3, Lilligant-3, Kangaskhan-3, Tauros-3, Reuniclus-3, Nidoqueen-3, Nidoking-3, Bastiodon-3, Oranguru-3, Komala-3, Wailord-3, Ninetales-2, Mandibuzz-3, Exeggutor-2, Chandelure-3, Vaporeon-3, Jolteon-3, Espeon-3, Leafeon-3, Lucario-3, Hippowdon-3, Beartic-3, Aggron-3, Crobat-3, Magnezone-3, Porygon-Z-3, Vanilluxe-3, Snorlax-3, Kingdra-3, Milotic-3, Malamar-3, Togekiss-3, Slaking-3",
             "species": "Talonflame, Sylveon, Gourgeist, Decidueye, Turtonator, Rotom-Wash, Lickilicky, Oricorio-Pom-Pom, Lycanroc, Lurantis, Mudsdale, Togedemaru, Pidgeot, Audino, Glalie, Staraptor, Unfezant, Lopunny, Ambipom, Musharna, Houndoom, Mimikyu, Braviary, Tentacruel, Flareon, Umbreon, Glaceon, Liepard, Rhyperior, Blissey, Sandslash-Alola, Arcanine, Blastoise, Torterra, Serperior, Dugtrio, Marowak, Medicham, Banette, Sableye, Lanturn, Breloom, Skarmory, Absol, Sharpedo, Raichu-Alola, Manectric, Gastrodon, Camerupt, Sawk, Throh, Pelipper, Lilligant, Kangaskhan, Tauros, Reuniclus, Nidoqueen, Nidoking, Bastiodon, Oranguru, Komala, Wailord, Ninetales, Mandibuzz, Exeggutor, Chandelure, Vaporeon, Jolteon, Espeon, Leafeon, Lucario, Hippowdon, Beartic, Aggron, Crobat, Magnezone, Porygon-Z, Vanilluxe, Snorlax, Kingdra, Milotic, Malamar, Togekiss, Slaking",
             "late": "",
@@ -860,7 +860,7 @@
         },
         {
             "name": "Kiernan",
-            "class": "Pokemon Breeder (M)",
+            "class": "Pokémon Breeder",
             "roster": "Lurantis-1, Pyroar-2, Talonflame-2, Delphox-2, Turtonator-2, Rotom-Heat-2, Delphox-3, Magmortar-2, Lurantis-3, Incineroar-3, Rotom-Heat-3, Magmortar-3, Typhlosion-1, Ninetales-1, Arcanine-1, Typhlosion-2, Infernape-2, Emboar-2, Camerupt-2, Charizard-3, Blaziken-3, Infernape-3, Emboar-3, Shiftry-3, Lilligant-3, Darmanitan-3, Tsareena-3, Ninetales-2, Exeggutor-2, Leafeon-3, Tangrowth-3, Arcanine-3",
             "species": "Lurantis, Pyroar, Talonflame, Delphox, Turtonator, Rotom-Heat, Magmortar, Incineroar, Typhlosion, Ninetales, Arcanine, Infernape, Emboar, Camerupt, Charizard, Blaziken, Shiftry, Lilligant, Darmanitan, Tsareena, Exeggutor, Leafeon, Tangrowth",
             "late": "",
@@ -871,7 +871,7 @@
         },
         {
             "name": "Dara",
-            "class": "Pokemon Breeder (F)",
+            "class": "Pokémon Breeder",
             "roster": "Talonflame-2, Sylveon-2, Gourgeist-2, Primarina-2, Rotom-Frost-2, Pyroar-3, Delphox-3, Electivire-2, Probopass-2, Lickilicky-2, Oricorio-Pom-Pom-1, Lurantis-3, Mudsdale-3, Primarina-3, Togedemaru-3, Rotom-Frost-3, Electivire-3, Probopass-3, Lickilicky-3, Samurott-2, Pidgeot-2, Audino-2, Staraptor-2, Unfezant-2, Froslass-2, Ambipom-2, Musharna-2, Houndoom-2, Mimikyu-2, Mandibuzz-2, Braviary-2, Yanmega-2, Flareon-2, Umbreon-2, Glaceon-2, Liepard-2, Blissey-2, Arcanine-2, Typhlosion-3, Samurott-3, Mawile-3, Banette-3, Sableye-3, Lanturn-3, Absol-3, Raichu-Alola-2, Manectric-3, Camerupt-3, Pelipper-3, Electrode-3, Exploud-3, Froslass-3, Lilligant-3, Ambipom-3, Cofagrigus-3, Golurk-3, Durant-3, Golem-2, Slowbro-3, Weezing-3, Kangaskhan-3, Tauros-3, Druddigon-3, Reuniclus-3, Nidoqueen-3, Nidoking-3, Komala-3, Wailord-3, Ninetales-2, Wishiwashi-3, Steelix-3, Gliscor-3, Mandibuzz-3, Tentacruel-3, Aerodactyl-3, Porygon2-3, Palossand-3, Exeggutor-2, Starmie-3, Klinklang-3, Vaporeon-3, Jolteon-3, Espeon-3, Leafeon-3, Mienshao-3, Beartic-3, Crobat-3, Rhyperior-3, Snorlax-3, Milotic-3, Togekiss-3, Slaking-3",
             "species": "Talonflame, Sylveon, Gourgeist, Primarina, Rotom-Frost, Pyroar, Delphox, Electivire, Probopass, Lickilicky, Oricorio-Pom-Pom, Lurantis, Mudsdale, Togedemaru, Samurott, Pidgeot, Audino, Staraptor, Unfezant, Froslass, Ambipom, Musharna, Houndoom, Mimikyu, Mandibuzz, Braviary, Yanmega, Flareon, Umbreon, Glaceon, Liepard, Blissey, Arcanine, Typhlosion, Mawile, Banette, Sableye, Lanturn, Absol, Raichu-Alola, Manectric, Camerupt, Pelipper, Electrode, Exploud, Lilligant, Cofagrigus, Golurk, Durant, Golem, Slowbro, Weezing, Kangaskhan, Tauros, Druddigon, Reuniclus, Nidoqueen, Nidoking, Komala, Wailord, Ninetales, Wishiwashi, Steelix, Gliscor, Tentacruel, Aerodactyl, Porygon2, Palossand, Exeggutor, Starmie, Klinklang, Vaporeon, Jolteon, Espeon, Leafeon, Mienshao, Beartic, Crobat, Rhyperior, Snorlax, Milotic, Togekiss, Slaking",
             "late": "",
@@ -882,7 +882,7 @@
         },
         {
             "name": "Rada",
-            "class": "Pokemon Breeder (F)",
+            "class": "Pokémon Breeder",
             "roster": "Talonflame-2, Sylveon-2, Gourgeist-2, Primarina-2, Rotom-Frost-2, Delphox-3, Lickilicky-2, Oricorio-Pom-Pom-1, Lycanroc-2, Lurantis-3, Mudsdale-3, Primarina-3, Togedemaru-3, Rotom-Frost-3, Lickilicky-3, Samurott-2, Pidgeot-2, Audino-2, Staraptor-2, Unfezant-2, Froslass-2, Ambipom-2, Musharna-2, Houndoom-2, Mimikyu-2, Mandibuzz-2, Braviary-2, Yanmega-2, Flareon-2, Umbreon-2, Glaceon-2, Liepard-2, Blissey-2, Arcanine-2, Typhlosion-3, Samurott-3, Banette-3, Sableye-3, Lanturn-3, Breloom-3, Absol-3, Raichu-Alola-2, Manectric-3, Camerupt-3, Pelipper-3, Electrode-3, Exploud-3, Froslass-3, Lilligant-3, Ambipom-3, Cofagrigus-3, Golurk-3, Durant-3, Golem-2, Slowbro-3, Weezing-3, Kangaskhan-3, Tauros-3, Druddigon-3, Reuniclus-3, Nidoqueen-3, Nidoking-3, Bastiodon-3, Komala-3, Wailord-3, Ninetales-2, Wishiwashi-3, Steelix-3, Gliscor-3, Mandibuzz-3, Tentacruel-3, Aerodactyl-3, Porygon2-3, Palossand-3, Exeggutor-2, Starmie-3, Klinklang-3, Vaporeon-3, Jolteon-3, Espeon-3, Leafeon-3, Beartic-3, Crobat-3, Rhyperior-3, Snorlax-3, Milotic-3, Togekiss-3, Slaking-3",
             "species": "Talonflame, Sylveon, Gourgeist, Primarina, Rotom-Frost, Delphox, Lickilicky, Oricorio-Pom-Pom, Lycanroc, Lurantis, Mudsdale, Togedemaru, Samurott, Pidgeot, Audino, Staraptor, Unfezant, Froslass, Ambipom, Musharna, Houndoom, Mimikyu, Mandibuzz, Braviary, Yanmega, Flareon, Umbreon, Glaceon, Liepard, Blissey, Arcanine, Typhlosion, Banette, Sableye, Lanturn, Breloom, Absol, Raichu-Alola, Manectric, Camerupt, Pelipper, Electrode, Exploud, Lilligant, Cofagrigus, Golurk, Durant, Golem, Slowbro, Weezing, Kangaskhan, Tauros, Druddigon, Reuniclus, Nidoqueen, Nidoking, Bastiodon, Komala, Wailord, Ninetales, Wishiwashi, Steelix, Gliscor, Tentacruel, Aerodactyl, Porygon2, Palossand, Exeggutor, Starmie, Klinklang, Vaporeon, Jolteon, Espeon, Leafeon, Beartic, Crobat, Rhyperior, Snorlax, Milotic, Togekiss, Slaking",
             "late": "",
@@ -893,7 +893,7 @@
         },
         {
             "name": "Gertrude",
-            "class": "Pokemon Breeder (F)",
+            "class": "Pokémon Breeder",
             "roster": "Lurantis-1, Pyroar-2, Talonflame-2, Delphox-2, Turtonator-2, Rotom-Heat-2, Delphox-3, Magmortar-2, Lurantis-3, Incineroar-3, Rotom-Heat-3, Magmortar-3, Typhlosion-1, Ninetales-1, Arcanine-1, Typhlosion-2, Infernape-2, Emboar-2, Camerupt-2, Charizard-3, Blaziken-3, Infernape-3, Emboar-3, Shiftry-3, Lilligant-3, Darmanitan-3, Tsareena-3, Ninetales-2, Exeggutor-2, Leafeon-3, Tangrowth-3, Arcanine-3",
             "species": "Lurantis, Pyroar, Talonflame, Delphox, Turtonator, Rotom-Heat, Magmortar, Incineroar, Typhlosion, Ninetales, Arcanine, Infernape, Emboar, Camerupt, Charizard, Blaziken, Shiftry, Lilligant, Darmanitan, Tsareena, Exeggutor, Leafeon, Tangrowth",
             "late": "",
@@ -1124,7 +1124,7 @@
         },
         {
             "name": "Harvey",
-            "class": "Aether Foundation (M)",
+            "class": "Aether Foundation",
             "roster": "Pyroar-4, Avalugg-4, Aurorus-4, Goodra-4, Clawitzer-4, Rotom-Frost-3, Electivire-3, Lickilicky-3, Minior-4, Toxapex-4, Bewear-4, Turtonator-4, Bruxish-4, Togedemaru-4, Serperior-4, Sableye-4, Lanturn-4, Skarmory-4, Sharpedo-4, Raichu-2, Glalie-4, Gastrodon-4, Exploud-4, Golem-Alola-2, Kangaskhan-4, Tauros-4, Bastiodon-4, Shiinotic-4, Mismagius-4, Drifblim-4, Toucannon-4, Muk-2, Gengar-4, Pinsir-4, Ursaring-4, Wailord-4, Ninetales-Alola-2, Honchkrow-4, Mandibuzz-4, Braviary-4, Tentacruel-4, Porygon2-4, Yanmega-4, Starmie-4, Klinklang-4, Vaporeon-4, Flareon-4, Espeon-4, Umbreon-4, Walrein-4, Magnezone-4, Rhyperior-4, Porygon-Z-4, Snorlax-4, Blissey-4, Milotic-4, Malamar-4, Archeops-4, Dragonite-4, Salamence-4, Metagross-4, Slaking-4, Rotom-Frost-4, Electivire-4, Lickilicky-4",
             "species": "Pyroar, Avalugg, Aurorus, Goodra, Clawitzer, Rotom-Frost, Electivire, Lickilicky, Minior, Toxapex, Bewear, Turtonator, Bruxish, Togedemaru, Serperior, Sableye, Lanturn, Skarmory, Sharpedo, Raichu, Glalie, Gastrodon, Exploud, Golem-Alola, Kangaskhan, Tauros, Bastiodon, Shiinotic, Mismagius, Drifblim, Toucannon, Muk, Gengar, Pinsir, Ursaring, Wailord, Ninetales-Alola, Honchkrow, Mandibuzz, Braviary, Tentacruel, Porygon2, Yanmega, Starmie, Klinklang, Vaporeon, Flareon, Espeon, Umbreon, Walrein, Magnezone, Rhyperior, Porygon-Z, Snorlax, Blissey, Milotic, Malamar, Archeops, Dragonite, Salamence, Metagross, Slaking",
             "late": "1",
@@ -1135,7 +1135,7 @@
         },
         {
             "name": "Luke",
-            "class": "Aether Foundation (M)",
+            "class": "Aether Foundation",
             "roster": "Pyroar-4, Avalugg-4, Aurorus-4, Goodra-4, Clawitzer-4, Rotom-Frost-3, Magmortar-3, Probopass-3, Minior-4, Toxapex-4, Bewear-4, Turtonator-4, Bruxish-4, Togedemaru-4, Serperior-4, Sableye-4, Lanturn-4, Skarmory-4, Sharpedo-4, Raichu-2, Glalie-4, Gastrodon-4, Exploud-4, Golem-Alola-2, Kangaskhan-4, Tauros-4, Bastiodon-4, Shiinotic-4, Mismagius-4, Drifblim-4, Toucannon-4, Muk-2, Gengar-4, Pinsir-4, Ursaring-4, Wailord-4, Ninetales-Alola-2, Honchkrow-4, Mandibuzz-4, Braviary-4, Tentacruel-4, Porygon2-4, Yanmega-4, Starmie-4, Klinklang-4, Vaporeon-4, Flareon-4, Espeon-4, Umbreon-4, Walrein-4, Magnezone-4, Rhyperior-4, Porygon-Z-4, Snorlax-4, Blissey-4, Milotic-4, Malamar-4, Archeops-4, Dragonite-4, Salamence-4, Metagross-4, Slaking-4, Rotom-Frost-4, Magmortar-4, Probopass-4",
             "species": "Pyroar, Avalugg, Aurorus, Goodra, Clawitzer, Rotom-Frost, Magmortar, Probopass, Minior, Toxapex, Bewear, Turtonator, Bruxish, Togedemaru, Serperior, Sableye, Lanturn, Skarmory, Sharpedo, Raichu, Glalie, Gastrodon, Exploud, Golem-Alola, Kangaskhan, Tauros, Bastiodon, Shiinotic, Mismagius, Drifblim, Toucannon, Muk, Gengar, Pinsir, Ursaring, Wailord, Ninetales-Alola, Honchkrow, Mandibuzz, Braviary, Tentacruel, Porygon2, Yanmega, Starmie, Klinklang, Vaporeon, Flareon, Espeon, Umbreon, Walrein, Magnezone, Rhyperior, Porygon-Z, Snorlax, Blissey, Milotic, Malamar, Archeops, Dragonite, Salamence, Metagross, Slaking",
             "late": "1",
@@ -1146,7 +1146,7 @@
         },
         {
             "name": "Granville",
-            "class": "Ace Trainer (M)",
+            "class": "Ace Trainer",
             "roster": "Talonflame-3, Greninja-3, Noivern-3, Ribombee-3, Talonflame-4, Greninja-4, Noivern-4, Ribombee-4, Rotom-Heat-4, Sceptile-3, Dugtrio-2, Electrode-3, Alakazam-3, Accelgor-3, Weavile-3, Aerodactyl-3, Jolteon-3, Crobat-3, Sceptile-4, Dugtrio-Alola-2, Electrode-4, Alakazam-4, Accelgor-4, Weavile-4, Aerodactyl-4, Jolteon-4, Crobat-4",
             "species": "Talonflame, Greninja, Noivern, Ribombee, Rotom-Heat, Sceptile, Dugtrio, Electrode, Alakazam, Accelgor, Weavile, Aerodactyl, Jolteon, Crobat, Dugtrio-Alola",
             "late": "1",
@@ -1157,7 +1157,7 @@
         },
         {
             "name": "Raz",
-            "class": "Ace Trainer (M)",
+            "class": "Ace Trainer",
             "roster": "Talonflame-3, Greninja-3, Noivern-3, Ribombee-3, Talonflame-4, Greninja-4, Noivern-4, Ribombee-4, Rotom-Heat-4, Sceptile-3, Dugtrio-2, Electrode-3, Alakazam-3, Accelgor-3, Weavile-3, Aerodactyl-3, Jolteon-3, Crobat-3, Sceptile-4, Dugtrio-Alola-2, Electrode-4, Alakazam-4, Accelgor-4, Weavile-4, Aerodactyl-4, Jolteon-4, Crobat-4",
             "species": "Talonflame, Greninja, Noivern, Ribombee, Rotom-Heat, Sceptile, Dugtrio, Electrode, Alakazam, Accelgor, Weavile, Aerodactyl, Jolteon, Crobat, Dugtrio-Alola",
             "late": "1",
@@ -1168,7 +1168,7 @@
         },
         {
             "name": "Heidi",
-            "class": "Aether Foundation (F)",
+            "class": "Aether Foundation",
             "roster": "Rotom-Wash-3, Pyroar-4, Avalugg-4, Aurorus-4, Goodra-4, Clawitzer-4, Electivire-3, Lickilicky-3, Minior-4, Decidueye-4, Araquanid-4, Bewear-4, Bruxish-4, Togedemaru-4, Samurott-4, Sableye-4, Skarmory-4, Exploud-4, Kangaskhan-4, Tauros-4, Bastiodon-4, Mismagius-4, Drifblim-4, Toucannon-4, Muk-2, Ursaring-4, Excadrill-4, Weavile-4, Gliscor-4, Aerodactyl-4, Porygon2-4, Palossand-4, Yanmega-4, Gardevoir-4, Gallade-4, Exeggutor-Alola-2, Flygon-4, Klinklang-4, Jolteon-4, Leafeon-4, Glaceon-4, Lucario-4, Hippowdon-4, Liepard-4, Mienshao-4, Beartic-4, Walrein-4, Mamoswine-4, Lapras-4, Crobat-4, Magnezone-4, Rhyperior-4, Porygon-Z-4, Vanilluxe-4, Gyarados-4, Snorlax-4, Kingdra-4, Blissey-4, Milotic-4, Malamar-4, Sandslash-Alola-2, Haxorus-4, Arcanine-4, Tyranitar-4, Metagross-4, Garchomp-4, Hydreigon-4, Slaking-4, Rotom-Wash-4, Electivire-4, Lickilicky-4",
             "species": "Rotom-Wash, Pyroar, Avalugg, Aurorus, Goodra, Clawitzer, Electivire, Lickilicky, Minior, Decidueye, Araquanid, Bewear, Bruxish, Togedemaru, Samurott, Sableye, Skarmory, Exploud, Kangaskhan, Tauros, Bastiodon, Mismagius, Drifblim, Toucannon, Muk, Ursaring, Excadrill, Weavile, Gliscor, Aerodactyl, Porygon2, Palossand, Yanmega, Gardevoir, Gallade, Exeggutor-Alola, Flygon, Klinklang, Jolteon, Leafeon, Glaceon, Lucario, Hippowdon, Liepard, Mienshao, Beartic, Walrein, Mamoswine, Lapras, Crobat, Magnezone, Rhyperior, Porygon-Z, Vanilluxe, Gyarados, Snorlax, Kingdra, Blissey, Milotic, Malamar, Sandslash-Alola, Haxorus, Arcanine, Tyranitar, Metagross, Garchomp, Hydreigon, Slaking",
             "late": "1",
@@ -1179,7 +1179,7 @@
         },
         {
             "name": "Haley",
-            "class": "Aether Foundation (F)",
+            "class": "Aether Foundation",
             "roster": "Rotom-Wash-3, Hawlucha-4, Pyroar-4, Avalugg-4, Aurorus-4, Talonflame-4, Sylveon-4, Delphox-4, Gogoat-4, Noivern-4, Florges-4, Goodra-4, Gourgeist-4, Clawitzer-4, Beedrill-4, Magmortar-3, Probopass-3, Minior-4, Oricorio-Baile-1, Lycanroc-Midnight-2, Comfey-4, Golisopod-4, Lurantis-4, Ribombee-4, Vikavolt-4, Mudsdale-4, Decidueye-4, Incineroar-4, Primarina-4, Araquanid-4, Bewear-4, Bruxish-4, Drampa-4, Dhelmise-4, Togedemaru-4, Venusaur-4, Charizard-4, Typhlosion-4, Feraligatr-4, Sceptile-4, Blaziken-4, Swampert-4, Infernape-4, Empoleon-4, Samurott-4, Sableye-4, Skarmory-4, Exploud-4, Kangaskhan-4, Tauros-4, Bastiodon-4, Mismagius-4, Drifblim-4, Toucannon-4, Muk-2, Ursaring-4, Porygon2-4, Klinklang-4, Walrein-4, Mamoswine-4, Magnezone-4, Porygon-Z-4, Snorlax-4, Blissey-4, Milotic-4, Malamar-4, Metagross-4, Slaking-4, Rotom-Wash-4, Magmortar-4, Probopass-4",
             "species": "Rotom-Wash, Hawlucha, Pyroar, Avalugg, Aurorus, Talonflame, Sylveon, Delphox, Gogoat, Noivern, Florges, Goodra, Gourgeist, Clawitzer, Beedrill, Magmortar, Probopass, Minior, Oricorio-Baile, Lycanroc-Midnight, Comfey, Golisopod, Lurantis, Ribombee, Vikavolt, Mudsdale, Decidueye, Incineroar, Primarina, Araquanid, Bewear, Bruxish, Drampa, Dhelmise, Togedemaru, Venusaur, Charizard, Typhlosion, Feraligatr, Sceptile, Blaziken, Swampert, Infernape, Empoleon, Samurott, Sableye, Skarmory, Exploud, Kangaskhan, Tauros, Bastiodon, Mismagius, Drifblim, Toucannon, Muk, Ursaring, Porygon2, Klinklang, Walrein, Mamoswine, Magnezone, Porygon-Z, Snorlax, Blissey, Milotic, Malamar, Metagross, Slaking",
             "late": "1",
@@ -1190,7 +1190,7 @@
         },
         {
             "name": "Lea",
-            "class": "Ace Trainer (F)",
+            "class": "Ace Trainer",
             "roster": "Delphox-3, Incineroar-3, Rotom-Heat-3, Delphox-4, Magmortar-3, Lurantis-4, Incineroar-4, Rotom-Heat-4, Ninetales-1, Venusaur-3, Charizard-3, Blaziken-3, Infernape-3, Emboar-3, Shiftry-3, Lilligant-3, Whimsicott-3, Ninetales-2, Exeggutor-2, Chandelure-3, Leafeon-3, Tangrowth-3, Arcanine-3, Venusaur-4, Charizard-4, Typhlosion-4, Blaziken-4, Infernape-4, Emboar-4, Shiftry-4, Lilligant-4, Darmanitan-4, Whimsicott-4, Houndoom-4, Exeggutor-Alola-2, Chandelure-4, Leafeon-4, Tangrowth-4, Magmortar-4",
             "species": "Delphox, Incineroar, Rotom-Heat, Magmortar, Lurantis, Ninetales, Venusaur, Charizard, Blaziken, Infernape, Emboar, Shiftry, Lilligant, Whimsicott, Exeggutor, Chandelure, Leafeon, Tangrowth, Arcanine, Typhlosion, Darmanitan, Houndoom, Exeggutor-Alola",
             "late": "1",
@@ -1201,7 +1201,7 @@
         },
         {
             "name": "Sylvia",
-            "class": "Ace Trainer (F)",
+            "class": "Ace Trainer",
             "roster": "Delphox-3, Incineroar-3, Rotom-Heat-3, Delphox-4, Magmortar-3, Lurantis-4, Incineroar-4, Rotom-Heat-4, Ninetales-1, Venusaur-3, Charizard-3, Blaziken-3, Infernape-3, Emboar-3, Shiftry-3, Lilligant-3, Whimsicott-3, Ninetales-2, Exeggutor-2, Chandelure-3, Leafeon-3, Tangrowth-3, Arcanine-3, Venusaur-4, Charizard-4, Typhlosion-4, Blaziken-4, Infernape-4, Emboar-4, Shiftry-4, Lilligant-4, Darmanitan-4, Whimsicott-4, Houndoom-4, Exeggutor-Alola-2, Chandelure-4, Leafeon-4, Tangrowth-4, Magmortar-4",
             "species": "Delphox, Incineroar, Rotom-Heat, Magmortar, Lurantis, Ninetales, Venusaur, Charizard, Blaziken, Infernape, Emboar, Shiftry, Lilligant, Whimsicott, Exeggutor, Chandelure, Leafeon, Tangrowth, Arcanine, Typhlosion, Darmanitan, Houndoom, Exeggutor-Alola",
             "late": "1",
@@ -1278,7 +1278,7 @@
         },
         {
             "name": "Levi",
-            "class": "Ace Trainer (M)",
+            "class": "Ace Trainer",
             "roster": "Delphox-3, Incineroar-3, Rotom-Wash-3, Delphox-4, Magmortar-3, Incineroar-4, Charizard-3, Typhlosion-3, Blaziken-3, Infernape-3, Emboar-3, Exeggutor-2, Starmie-3, Espeon-3, Walrein-3, Mamoswine-3, Volcarona-3, Arcanine-3, Metagross-3, Charizard-4, Typhlosion-4, Blaziken-4, Infernape-4, Emboar-4, Exeggutor-Alola-2, Starmie-4, Espeon-4, Walrein-4, Mamoswine-4, Volcarona-4, Arcanine-4, Metagross-4, Rotom-Wash-4, Magmortar-4",
             "species": "Delphox, Incineroar, Rotom-Wash, Magmortar, Charizard, Typhlosion, Blaziken, Infernape, Emboar, Exeggutor, Starmie, Espeon, Walrein, Mamoswine, Volcarona, Arcanine, Metagross, Exeggutor-Alola",
             "late": "1",
@@ -1289,7 +1289,7 @@
         },
         {
             "name": "Hashim",
-            "class": "Ace Trainer (M)",
+            "class": "Ace Trainer",
             "roster": "Kommo-o-1, Kommo-o-2, Carbink-3, Greninja-3, Golisopod-3, Vikavolt-3, Primarina-3, Carbink-4, Greninja-4, Rotom-Fan-3, Probopass-3, Golisopod-4, Vikavolt-4, Primarina-4, Blastoise-3, Feraligatr-3, Swampert-3, Empoleon-3, Samurott-3, Pinsir-3, Scizor-3, Heracross-3, Shuckle-3, Gigalith-3, Wishiwashi-3, Aerodactyl-3, Yanmega-3, Aggron-3, Walrein-3, Lapras-3, Gyarados-3, Kingdra-3, Milotic-3, Volcarona-3, Archeops-3, Blastoise-4, Feraligatr-4, Swampert-4, Empoleon-4, Samurott-4, Pinsir-4, Scizor-4, Heracross-4, Shuckle-4, Gigalith-4, Wishiwashi-4, Aerodactyl-4, Yanmega-4, Aggron-4, Walrein-4, Lapras-4, Gyarados-4, Kingdra-4, Milotic-4, Volcarona-4, Archeops-4, Rotom-Fan-4, Probopass-4",
             "species": "Kommo-o, Carbink, Greninja, Golisopod, Vikavolt, Primarina, Rotom-Fan, Probopass, Blastoise, Feraligatr, Swampert, Empoleon, Samurott, Pinsir, Scizor, Heracross, Shuckle, Gigalith, Wishiwashi, Aerodactyl, Yanmega, Aggron, Walrein, Lapras, Gyarados, Kingdra, Milotic, Volcarona, Archeops",
             "late": "1",
@@ -1300,7 +1300,7 @@
         },
         {
             "name": "Munin",
-            "class": "Ace Trainer (M)",
+            "class": "Ace Trainer",
             "roster": "Tyrantrum-3, Chesnaught-3, Gogoat-3, Noivern-3, Goodra-3, Vikavolt-3, Decidueye-3, Rotom-Mow-3, Tyrantrum-4, Chesnaught-4, Gogoat-4, Noivern-4, Goodra-4, Electivire-3, Vikavolt-4, Decidueye-4, Venusaur-3, Meganium-3, Sceptile-3, Torterra-3, Serperior-3, Ampharos-3, Exeggutor-2, Flygon-3, Jolteon-3, Leafeon-3, Magnezone-3, Tangrowth-3, Eelektross-3, Kingdra-3, Haxorus-3, Dragonite-3, Salamence-3, Garchomp-3, Hydreigon-3, Venusaur-4, Meganium-4, Sceptile-4, Torterra-4, Serperior-4, Ampharos-4, Exeggutor-Alola-2, Flygon-4, Jolteon-4, Leafeon-4, Magnezone-4, Tangrowth-4, Eelektross-4, Kingdra-4, Haxorus-4, Dragonite-4, Salamence-4, Garchomp-4, Hydreigon-4, Rotom-Mow-4, Electivire-4",
             "species": "Tyrantrum, Chesnaught, Gogoat, Noivern, Goodra, Vikavolt, Decidueye, Rotom-Mow, Electivire, Venusaur, Meganium, Sceptile, Torterra, Serperior, Ampharos, Exeggutor, Flygon, Jolteon, Leafeon, Magnezone, Tangrowth, Eelektross, Kingdra, Haxorus, Dragonite, Salamence, Garchomp, Hydreigon, Exeggutor-Alola",
             "late": "1",
@@ -1311,7 +1311,7 @@
         },
         {
             "name": "Poppy",
-            "class": "Ace Trainer (F)",
+            "class": "Ace Trainer",
             "roster": "Kommo-o-1, Kommo-o-2, Greninja-3, Noivern-3, Incineroar-3, Rotom-Mow-3, Greninja-4, Noivern-4, Probopass-3, Incineroar-4, Empoleon-3, Honchkrow-3, Weavile-3, Zoroark-3, Mandibuzz-3, Klinklang-3, Umbreon-3, Lucario-3, Aggron-3, Crobat-3, Magnezone-3, Gyarados-3, Togekiss-3, Archeops-3, Dragonite-3, Tyranitar-3, Salamence-3, Metagross-3, Hydreigon-3, Empoleon-4, Honchkrow-4, Weavile-4, Zoroark-4, Mandibuzz-4, Klinklang-4, Umbreon-4, Lucario-4, Aggron-4, Crobat-4, Magnezone-4, Gyarados-4, Togekiss-4, Archeops-4, Dragonite-4, Tyranitar-4, Salamence-4, Metagross-4, Hydreigon-4, Rotom-Mow-4, Probopass-4",
             "species": "Kommo-o, Greninja, Noivern, Incineroar, Rotom-Mow, Probopass, Empoleon, Honchkrow, Weavile, Zoroark, Mandibuzz, Klinklang, Umbreon, Lucario, Aggron, Crobat, Magnezone, Gyarados, Togekiss, Archeops, Dragonite, Tyranitar, Salamence, Metagross, Hydreigon",
             "late": "1",
@@ -1322,7 +1322,7 @@
         },
         {
             "name": "Tamah",
-            "class": "Ace Trainer (F)",
+            "class": "Ace Trainer",
             "roster": "Sylveon-3, Florges-3, Primarina-3, Sylveon-4, Florges-4, Rotom-Fan-3, Lickilicky-3, Primarina-4, Swampert-3, Torterra-3, Porygon2-3, Gardevoir-3, Flygon-3, Hippowdon-3, Mamoswine-3, Rhyperior-3, Porygon-Z-3, Snorlax-3, Blissey-3, Togekiss-3, Garchomp-3, Slaking-3, Swampert-4, Torterra-4, Porygon2-4, Gardevoir-4, Flygon-4, Hippowdon-4, Mamoswine-4, Rhyperior-4, Porygon-Z-4, Snorlax-4, Blissey-4, Togekiss-4, Garchomp-4, Slaking-4, Rotom-Fan-4, Lickilicky-4",
             "species": "Sylveon, Florges, Primarina, Rotom-Fan, Lickilicky, Swampert, Torterra, Porygon2, Gardevoir, Flygon, Hippowdon, Mamoswine, Rhyperior, Porygon-Z, Snorlax, Blissey, Togekiss, Garchomp, Slaking",
             "late": "1",
@@ -1333,7 +1333,7 @@
         },
         {
             "name": "Bette",
-            "class": "Ace Trainer (F)",
+            "class": "Ace Trainer",
             "roster": "Chesnaught-3, Decidueye-3, Dhelmise-3, Rotom-Wash-3, Chesnaught-4, Magmortar-3, Decidueye-4, Dhelmise-4, Venusaur-3, Blaziken-3, Infernape-3, Emboar-3, Nidoqueen-3, Nidoking-3, Muk-Alola-2, Gengar-3, Drapion-3, Tentacruel-3, Gallade-3, Chandelure-3, Lucario-3, Dusknoir-3, Crobat-3, Venusaur-4, Blaziken-4, Infernape-4, Emboar-4, Nidoqueen-4, Nidoking-4, Muk-2, Gengar-4, Drapion-4, Tentacruel-4, Gallade-4, Chandelure-4, Lucario-4, Dusknoir-4, Crobat-4, Rotom-Wash-4, Magmortar-4",
             "species": "Chesnaught, Decidueye, Dhelmise, Rotom-Wash, Magmortar, Venusaur, Blaziken, Infernape, Emboar, Nidoqueen, Nidoking, Muk-Alola, Gengar, Drapion, Tentacruel, Gallade, Chandelure, Lucario, Dusknoir, Crobat, Muk",
             "late": "1",
@@ -1344,7 +1344,7 @@
         },
         {
             "name": "Kikujiro",
-            "class": "Veteran (M)",
+            "class": "Veteran",
             "roster": "Togedemaru-2, Rotom-Heat-3, Electivire-3, Rotom-Heat-4, Raichu-Alola-2, Manectric-3, Ampharos-3, Jolteon-3, Raichu-2, Manectric-4, Ampharos-4, Jolteon-4, Zapdos-1, Raikou-1, Thundurus-1, Zapdos-2, Raikou-2, Thundurus-2, Electivire-4",
             "species": "Togedemaru, Rotom-Heat, Electivire, Raichu-Alola, Manectric, Ampharos, Jolteon, Raichu, Zapdos, Raikou, Thundurus",
             "late": "1",
@@ -1355,7 +1355,7 @@
         },
         {
             "name": "Xenophon",
-            "class": "Veteran (M)",
+            "class": "Veteran",
             "roster": "Florges-2, Comfey-3, Dhelmise-3, Rotom-Mow-3, Dhelmise-4, Venusaur-3, Breloom-3, Whimsicott-3, Tsareena-3, Exeggutor-2, Venusaur-4, Breloom-4, Whimsicott-4, Tsareena-4, Exeggutor-Alola-2, Virizion-1, Virizion-2, Rotom-Mow-4",
             "species": "Florges, Comfey, Dhelmise, Rotom-Mow, Venusaur, Breloom, Whimsicott, Tsareena, Exeggutor, Exeggutor-Alola, Virizion",
             "late": "1",
@@ -1366,7 +1366,7 @@
         },
         {
             "name": "Placido",
-            "class": "Veteran (M)",
+            "class": "Veteran",
             "roster": "Azelf-1, Azelf-2, Articuno-1, Moltres-1, Entei-1, Regirock-1, Registeel-1, Terrakion-1, Tornadus-1, Latias-1, Heatran-1, Landorus-1, Articuno-2, Moltres-2, Entei-2, Regirock-2, Registeel-2, Terrakion-2, Tornadus-2, Latias-2, Heatran-2, Landorus-2",
             "species": "Azelf, Articuno, Moltres, Entei, Regirock, Registeel, Terrakion, Tornadus, Latias, Heatran, Landorus",
             "late": "1",
@@ -1377,7 +1377,7 @@
         },
         {
             "name": "Ignacio",
-            "class": "Veteran (M)",
+            "class": "Veteran",
             "roster": "Azelf-3, Kommo-o-3, Azelf-4, Kommo-o-4, Raikou-3, Cobalion-3, Terrakion-3, Virizion-3, Tornadus-3, Thundurus-3, Latias-3, Latios-3, Raikou-4, Cobalion-4, Terrakion-4, Virizion-4, Tornadus-4, Thundurus-4, Latias-4, Latios-4",
             "species": "Azelf, Kommo-o, Raikou, Cobalion, Terrakion, Virizion, Tornadus, Thundurus, Latias, Latios",
             "late": "1",
@@ -1388,7 +1388,7 @@
         },
         {
             "name": "Aino",
-            "class": "Veteran (F)",
+            "class": "Veteran",
             "roster": "Uxie-1, Uxie-2, Rotom-Wash-3, Oranguru-2, Medicham-3, Musharna-3, Slowking-3, Gardevoir-3, Gallade-3, Metagross-3, Medicham-4, Musharna-4, Slowking-4, Gardevoir-4, Gallade-4, Metagross-4, Rotom-Wash-4",
             "species": "Uxie, Rotom-Wash, Oranguru, Medicham, Musharna, Slowking, Gardevoir, Gallade, Metagross",
             "late": "1",
@@ -1399,7 +1399,7 @@
         },
         {
             "name": "Xio",
-            "class": "Veteran (F)",
+            "class": "Veteran",
             "roster": "Sylveon-1, Florges-2, Sylveon-3, Florges-3, Aromatisse-3, Primarina-3, Sylveon-4, Florges-4, Aromatisse-4, Primarina-4, Mawile-3, Whimsicott-3, Shiinotic-3, Mimikyu-3, Gardevoir-3, Togekiss-3, Mawile-4, Whimsicott-4, Shiinotic-4, Mimikyu-4, Gardevoir-4, Togekiss-4",
             "species": "Sylveon, Florges, Aromatisse, Primarina, Mawile, Whimsicott, Shiinotic, Mimikyu, Gardevoir, Togekiss",
             "late": "1",
@@ -1410,7 +1410,7 @@
         },
         {
             "name": "Priya",
-            "class": "Veteran (F)",
+            "class": "Veteran",
             "roster": "Azelf-1, Azelf-2, Zapdos-1, Raikou-1, Suicune-1, Regice-1, Cobalion-1, Virizion-1, Thundurus-1, Latios-1, Cresselia-1, Regigigas-1, Zapdos-2, Raikou-2, Suicune-2, Regice-2, Cobalion-2, Virizion-2, Thundurus-2, Latios-2, Cresselia-2, Regigigas-2",
             "species": "Azelf, Zapdos, Raikou, Suicune, Regice, Cobalion, Virizion, Thundurus, Latios, Cresselia, Regigigas",
             "late": "1",
@@ -1421,7 +1421,7 @@
         },
         {
             "name": "Candy",
-            "class": "Veteran (F)",
+            "class": "Veteran",
             "roster": "Azelf-3, Kommo-o-3, Azelf-4, Kommo-o-4, Raikou-3, Cobalion-3, Terrakion-3, Virizion-3, Tornadus-3, Thundurus-3, Latias-3, Latios-3, Raikou-4, Cobalion-4, Terrakion-4, Virizion-4, Tornadus-4, Thundurus-4, Latias-4, Latios-4",
             "species": "Azelf, Kommo-o, Raikou, Cobalion, Terrakion, Virizion, Tornadus, Thundurus, Latias, Latios",
             "late": "1",
@@ -1476,7 +1476,7 @@
         },
         {
             "name": "Niara",
-            "class": "Preschooler (M)",
+            "class": "Preschooler",
             "roster": "Chesnaught-3, Delphox-3, Greninja-3, Decidueye-3, Incineroar-3, Primarina-3, Chesnaught-4, Delphox-4, Greninja-4, Decidueye-4, Incineroar-4, Primarina-4, Venusaur-3, Charizard-3, Blastoise-3, Meganium-3, Typhlosion-3, Feraligatr-3, Sceptile-3, Blaziken-3, Swampert-3, Torterra-3, Infernape-3, Empoleon-3, Serperior-3, Emboar-3, Samurott-3, Venusaur-4, Charizard-4, Blastoise-4, Meganium-4, Typhlosion-4, Feraligatr-4, Sceptile-4, Blaziken-4, Swampert-4, Torterra-4, Infernape-4, Empoleon-4, Serperior-4, Emboar-4, Samurott-4",
             "species": "Chesnaught, Delphox, Greninja, Decidueye, Incineroar, Primarina, Venusaur, Charizard, Blastoise, Meganium, Typhlosion, Feraligatr, Sceptile, Blaziken, Swampert, Torterra, Infernape, Empoleon, Serperior, Emboar, Samurott",
             "late": "1",
@@ -1487,7 +1487,7 @@
         },
         {
             "name": "Victor",
-            "class": "Preschooler (M)",
+            "class": "Preschooler",
             "roster": "Kommo-o-1, Kommo-o-2, Goodra-3, Azelf-3, Kommo-o-3, Uxie-3, Mesprit-3, Goodra-4, Azelf-4, Kommo-o-4, Uxie-4, Mesprit-4, Dragonite-3, Tyranitar-3, Salamence-3, Metagross-3, Garchomp-3, Hydreigon-3, Dragonite-4, Tyranitar-4, Salamence-4, Metagross-4, Garchomp-4, Hydreigon-4, Latias-3, Latios-3, Heatran-3, Cresselia-3, Landorus-3, Latias-4, Latios-4, Heatran-4, Cresselia-4, Landorus-4",
             "species": "Kommo-o, Goodra, Azelf, Uxie, Mesprit, Dragonite, Tyranitar, Salamence, Metagross, Garchomp, Hydreigon, Latias, Latios, Heatran, Cresselia, Landorus",
             "late": "1",
@@ -1498,7 +1498,7 @@
         },
         {
             "name": "Reina",
-            "class": "Preschooler (F)",
+            "class": "Preschooler",
             "roster": "Chesnaught-3, Delphox-3, Greninja-3, Decidueye-3, Incineroar-3, Primarina-3, Chesnaught-4, Delphox-4, Greninja-4, Decidueye-4, Incineroar-4, Primarina-4, Venusaur-3, Charizard-3, Blastoise-3, Meganium-3, Typhlosion-3, Feraligatr-3, Sceptile-3, Blaziken-3, Swampert-3, Torterra-3, Infernape-3, Empoleon-3, Serperior-3, Emboar-3, Samurott-3, Venusaur-4, Charizard-4, Blastoise-4, Meganium-4, Typhlosion-4, Feraligatr-4, Sceptile-4, Blaziken-4, Swampert-4, Torterra-4, Infernape-4, Empoleon-4, Serperior-4, Emboar-4, Samurott-4",
             "species": "Chesnaught, Delphox, Greninja, Decidueye, Incineroar, Primarina, Venusaur, Charizard, Blastoise, Meganium, Typhlosion, Feraligatr, Sceptile, Blaziken, Swampert, Torterra, Infernape, Empoleon, Serperior, Emboar, Samurott",
             "late": "1",
@@ -1509,7 +1509,7 @@
         },
         {
             "name": "Naya",
-            "class": "Preschooler (F)",
+            "class": "Preschooler",
             "roster": "Kommo-o-1, Kommo-o-2, Goodra-3, Azelf-3, Kommo-o-3, Uxie-3, Mesprit-3, Goodra-4, Azelf-4, Kommo-o-4, Uxie-4, Mesprit-4, Dragonite-3, Tyranitar-3, Salamence-3, Metagross-3, Garchomp-3, Hydreigon-3, Dragonite-4, Tyranitar-4, Salamence-4, Metagross-4, Garchomp-4, Hydreigon-4, Latias-3, Latios-3, Heatran-3, Cresselia-3, Landorus-3, Latias-4, Latios-4, Heatran-4, Cresselia-4, Landorus-4",
             "species": "Kommo-o, Goodra, Azelf, Uxie, Mesprit, Dragonite, Tyranitar, Salamence, Metagross, Garchomp, Hydreigon, Latias, Latios, Heatran, Cresselia, Landorus",
             "late": "1",
@@ -1564,7 +1564,7 @@
         },
         {
             "name": "Savir",
-            "class": "Office Worker (M)",
+            "class": "Office Worker",
             "roster": "Vikavolt-3, Rotom-Mow-3, Electivire-3, Vikavolt-4, Medicham-3, Mawile-3, Skarmory-3, Raichu-Alola-2, Manectric-3, Electrode-3, Durant-3, Druddigon-3, Ferrothorn-3, Alakazam-3, Gothitelle-3, Bisharp-3, Abomasnow-3, Bastiodon-3, Escavalier-3, Ampharos-3, Scizor-3, Bronzong-3, Shuckle-3, Excadrill-3, Steelix-3, Porygon2-3, Gardevoir-3, Gallade-3, Klinklang-3, Lucario-3, Aggron-3, Magnezone-3, Porygon-Z-3, Eelektross-3, Metagross-3, Medicham-4, Mawile-4, Skarmory-4, Raichu-2, Manectric-4, Electrode-4, Durant-4, Ferrothorn-4, Alakazam-4, Gothitelle-4, Bisharp-4, Bastiodon-4, Escavalier-4, Ampharos-4, Scizor-4, Bronzong-4, Shuckle-4, Excadrill-4, Steelix-4, Porygon2-4, Gardevoir-4, Gallade-4, Klinklang-4, Lucario-4, Aggron-4, Magnezone-4, Porygon-Z-4, Eelektross-4, Metagross-4, Rotom-Mow-4, Electivire-4",
             "species": "Vikavolt, Rotom-Mow, Electivire, Medicham, Mawile, Skarmory, Raichu-Alola, Manectric, Electrode, Durant, Druddigon, Ferrothorn, Alakazam, Gothitelle, Bisharp, Abomasnow, Bastiodon, Escavalier, Ampharos, Scizor, Bronzong, Shuckle, Excadrill, Steelix, Porygon2, Gardevoir, Gallade, Klinklang, Lucario, Aggron, Magnezone, Porygon-Z, Eelektross, Metagross, Raichu",
             "late": "1",
@@ -1575,7 +1575,7 @@
         },
         {
             "name": "Harding",
-            "class": "Office Worker (M)",
+            "class": "Office Worker",
             "roster": "Vikavolt-3, Rotom-Mow-3, Electivire-3, Vikavolt-4, Medicham-3, Skarmory-3, Raichu-Alola-2, Manectric-3, Electrode-3, Durant-3, Druddigon-3, Ferrothorn-3, Alakazam-3, Gothitelle-3, Bisharp-3, Abomasnow-3, Bastiodon-3, Escavalier-3, Ampharos-3, Scizor-3, Bronzong-3, Shuckle-3, Excadrill-3, Steelix-3, Porygon2-3, Gardevoir-3, Gallade-3, Klinklang-3, Lucario-3, Aggron-3, Magnezone-3, Porygon-Z-3, Eelektross-3, Metagross-3, Medicham-4, Skarmory-4, Raichu-2, Manectric-4, Electrode-4, Durant-4, Ferrothorn-4, Alakazam-4, Gothitelle-4, Bisharp-4, Bastiodon-4, Escavalier-4, Ampharos-4, Scizor-4, Bronzong-4, Shuckle-4, Excadrill-4, Steelix-4, Porygon2-4, Gardevoir-4, Gallade-4, Klinklang-4, Lucario-4, Aggron-4, Magnezone-4, Porygon-Z-4, Eelektross-4, Metagross-4, Rotom-Mow-4, Electivire-4",
             "species": "Vikavolt, Rotom-Mow, Electivire, Medicham, Skarmory, Raichu-Alola, Manectric, Electrode, Durant, Druddigon, Ferrothorn, Alakazam, Gothitelle, Bisharp, Abomasnow, Bastiodon, Escavalier, Ampharos, Scizor, Bronzong, Shuckle, Excadrill, Steelix, Porygon2, Gardevoir, Gallade, Klinklang, Lucario, Aggron, Magnezone, Porygon-Z, Eelektross, Metagross, Raichu",
             "late": "1",
@@ -1586,7 +1586,7 @@
         },
         {
             "name": "Darrel",
-            "class": "Office Worker (F)",
+            "class": "Office Worker",
             "roster": "Carbink-3, Sylveon-3, Florges-3, Goodra-3, Aromatisse-3, Comfey-3, Lurantis-3, Ribombee-3, Bewear-3, Togedemaru-3, Carbink-4, Sylveon-4, Florges-4, Goodra-4, Aromatisse-4, Rotom-Frost-3, Lickilicky-3, Comfey-4, Lurantis-4, Ribombee-4, Bewear-4, Togedemaru-4, Dugtrio-2, Pidgeot-3, Mawile-3, Lanturn-3, Breloom-3, Pelipper-3, Ludicolo-3, Froslass-3, Lilligant-3, Ambipom-3, Whimsicott-3, Musharna-3, Altaria-3, Reuniclus-3, Shiinotic-3, Mismagius-3, Drifblim-3, Toucannon-3, Komala-3, Politoed-3, Tsareena-3, Ninetales-2, Mimikyu-3, Gardevoir-3, Mienshao-3, Lapras-3, Vanilluxe-3, Snorlax-3, Blissey-3, Milotic-3, Togekiss-3, Dugtrio-Alola-2, Mawile-4, Lanturn-4, Breloom-4, Pelipper-4, Ludicolo-4, Froslass-4, Lilligant-4, Ambipom-4, Whimsicott-4, Musharna-4, Altaria-4, Reuniclus-4, Shiinotic-4, Mismagius-4, Drifblim-4, Komala-4, Politoed-4, Tsareena-4, Ninetales-Alola-2, Mimikyu-4, Gardevoir-4, Mienshao-4, Lapras-4, Vanilluxe-4, Snorlax-4, Blissey-4, Milotic-4, Togekiss-4, Rotom-Frost-4, Lickilicky-4",
             "species": "Carbink, Sylveon, Florges, Goodra, Aromatisse, Comfey, Lurantis, Ribombee, Bewear, Togedemaru, Rotom-Frost, Lickilicky, Dugtrio, Pidgeot, Mawile, Lanturn, Breloom, Pelipper, Ludicolo, Froslass, Lilligant, Ambipom, Whimsicott, Musharna, Altaria, Reuniclus, Shiinotic, Mismagius, Drifblim, Toucannon, Komala, Politoed, Tsareena, Ninetales, Mimikyu, Gardevoir, Mienshao, Lapras, Vanilluxe, Snorlax, Blissey, Milotic, Togekiss, Dugtrio-Alola, Ninetales-Alola",
             "late": "1",
@@ -1597,7 +1597,7 @@
         },
         {
             "name": "Jana",
-            "class": "Office Worker (F)",
+            "class": "Office Worker",
             "roster": "Carbink-3, Sylveon-3, Florges-3, Goodra-3, Aromatisse-3, Comfey-3, Lurantis-3, Ribombee-3, Bewear-3, Togedemaru-3, Carbink-4, Sylveon-4, Florges-4, Goodra-4, Aromatisse-4, Rotom-Frost-3, Lickilicky-3, Comfey-4, Lurantis-4, Ribombee-4, Bewear-4, Togedemaru-4, Dugtrio-2, Pidgeot-3, Lanturn-3, Breloom-3, Pelipper-3, Ludicolo-3, Froslass-3, Lilligant-3, Ambipom-3, Whimsicott-3, Musharna-3, Altaria-3, Reuniclus-3, Shiinotic-3, Mismagius-3, Drifblim-3, Toucannon-3, Komala-3, Politoed-3, Tsareena-3, Ninetales-2, Mimikyu-3, Gardevoir-3, Mienshao-3, Lapras-3, Vanilluxe-3, Snorlax-3, Blissey-3, Milotic-3, Togekiss-3, Dugtrio-Alola-2, Lanturn-4, Breloom-4, Pelipper-4, Ludicolo-4, Froslass-4, Lilligant-4, Ambipom-4, Whimsicott-4, Musharna-4, Altaria-4, Reuniclus-4, Shiinotic-4, Mismagius-4, Drifblim-4, Komala-4, Politoed-4, Tsareena-4, Ninetales-Alola-2, Mimikyu-4, Gardevoir-4, Mienshao-4, Lapras-4, Vanilluxe-4, Snorlax-4, Blissey-4, Milotic-4, Togekiss-4, Rotom-Frost-4, Lickilicky-4",
             "species": "Carbink, Sylveon, Florges, Goodra, Aromatisse, Comfey, Lurantis, Ribombee, Bewear, Togedemaru, Rotom-Frost, Lickilicky, Dugtrio, Pidgeot, Lanturn, Breloom, Pelipper, Ludicolo, Froslass, Lilligant, Ambipom, Whimsicott, Musharna, Altaria, Reuniclus, Shiinotic, Mismagius, Drifblim, Toucannon, Komala, Politoed, Tsareena, Ninetales, Mimikyu, Gardevoir, Mienshao, Lapras, Vanilluxe, Snorlax, Blissey, Milotic, Togekiss, Dugtrio-Alola, Ninetales-Alola",
             "late": "1",
@@ -1652,7 +1652,7 @@
         },
         {
             "name": "Leena",
-            "class": "Youth Athlete (M)",
+            "class": "Youth Athlete",
             "roster": "Talonflame-3, Greninja-3, Noivern-3, Ribombee-3, Talonflame-4, Greninja-4, Noivern-4, Ribombee-4, Electrode-3, Accelgor-3, Weavile-3, Aerodactyl-3, Jolteon-3, Crobat-3, Electrode-4, Accelgor-4, Weavile-4, Aerodactyl-4, Jolteon-4, Crobat-4",
             "species": "Talonflame, Greninja, Noivern, Ribombee, Electrode, Accelgor, Weavile, Aerodactyl, Jolteon, Crobat",
             "late": "1",
@@ -1663,7 +1663,7 @@
         },
         {
             "name": "Buddy",
-            "class": "Youth Athlete (M)",
+            "class": "Youth Athlete",
             "roster": "Talonflame-3, Greninja-3, Noivern-3, Ribombee-3, Talonflame-4, Greninja-4, Noivern-4, Ribombee-4, Electrode-3, Accelgor-3, Weavile-3, Aerodactyl-3, Jolteon-3, Crobat-3, Electrode-4, Accelgor-4, Weavile-4, Aerodactyl-4, Jolteon-4, Crobat-4",
             "species": "Talonflame, Greninja, Noivern, Ribombee, Electrode, Accelgor, Weavile, Aerodactyl, Jolteon, Crobat",
             "late": "1",
@@ -1674,7 +1674,7 @@
         },
         {
             "name": "Hilario",
-            "class": "Youth Athlete (F)",
+            "class": "Youth Athlete",
             "roster": "Hawlucha-3, Greninja-3, Lycanroc-2, Hawlucha-4, Greninja-4, Lycanroc-Midnight-2, Sceptile-3, Serperior-3, Dugtrio-2, Ambipom-3, Whimsicott-3, Alakazam-3, Salazzle-3, Starmie-3, Sceptile-4, Serperior-4, Dugtrio-Alola-2, Ambipom-4, Whimsicott-4, Alakazam-4, Salazzle-4, Starmie-4, Raikou-1, Raikou-2, Raikou-3, Raikou-4",
             "species": "Hawlucha, Greninja, Lycanroc, Lycanroc-Midnight, Sceptile, Serperior, Dugtrio, Ambipom, Whimsicott, Alakazam, Salazzle, Starmie, Dugtrio-Alola, Raikou",
             "late": "1",
@@ -1685,7 +1685,7 @@
         },
         {
             "name": "Thamina",
-            "class": "Youth Athlete (F)",
+            "class": "Youth Athlete",
             "roster": "Hawlucha-3, Greninja-3, Lycanroc-2, Hawlucha-4, Greninja-4, Lycanroc-Midnight-2, Sceptile-3, Serperior-3, Dugtrio-2, Ambipom-3, Whimsicott-3, Alakazam-3, Salazzle-3, Starmie-3, Sceptile-4, Serperior-4, Dugtrio-Alola-2, Ambipom-4, Whimsicott-4, Alakazam-4, Salazzle-4, Starmie-4, Raikou-1, Raikou-2, Raikou-3, Raikou-4",
             "species": "Hawlucha, Greninja, Lycanroc, Lycanroc-Midnight, Sceptile, Serperior, Dugtrio, Ambipom, Whimsicott, Alakazam, Salazzle, Starmie, Dugtrio-Alola, Raikou",
             "late": "1",
@@ -1696,7 +1696,7 @@
         },
         {
             "name": "Dolly",
-            "class": "Rising Star (M)",
+            "class": "Rising Star",
             "roster": "Goodra-3, Bruxish-3, Rotom-Wash-3, Magmortar-3, Pelipper-2, Politoed-2, Swampert-3, Pelipper-3, Ludicolo-3, Armaldo-3, Carracosta-3, Politoed-3, Jolteon-3, Beartic-3, Kingdra-3, Pelipper-4, Electrode-4, Ludicolo-4, Armaldo-4, Carracosta-4, Politoed-4, Tentacruel-4, Beartic-4, Kingdra-4, Suicune-1, Suicune-2, Zapdos-3, Suicune-3, Suicune-4, Tornadus-4, Rotom-Wash-4, Magmortar-4",
             "species": "Goodra, Bruxish, Rotom-Wash, Magmortar, Pelipper, Politoed, Swampert, Ludicolo, Armaldo, Carracosta, Jolteon, Beartic, Kingdra, Electrode, Tentacruel, Suicune, Zapdos, Tornadus",
             "late": "1",
@@ -1707,7 +1707,7 @@
         },
         {
             "name": "Erix",
-            "class": "Rising Star (M)",
+            "class": "Rising Star",
             "roster": "Delphox-3, Rotom-Heat-3, Lurantis-4, Rotom-Heat-4, Ninetales-1, Venusaur-3, Charizard-3, Shiftry-3, Lilligant-3, Darmanitan-3, Whimsicott-3, Ninetales-2, Exeggutor-2, Leafeon-3, Tangrowth-3, Arcanine-3, Venusaur-4, Shiftry-4, Lilligant-4, Darmanitan-4, Whimsicott-4, Houndoom-4, Exeggutor-Alola-2, Leafeon-4, Tangrowth-4, Moltres-1, Heatran-1, Moltres-2, Heatran-2, Moltres-3, Heatran-3, Moltres-4",
             "species": "Delphox, Rotom-Heat, Lurantis, Ninetales, Venusaur, Charizard, Shiftry, Lilligant, Darmanitan, Whimsicott, Exeggutor, Leafeon, Tangrowth, Arcanine, Houndoom, Exeggutor-Alola, Moltres, Heatran",
             "late": "1",
@@ -1718,7 +1718,7 @@
         },
         {
             "name": "Joaquin",
-            "class": "Rising Star (F)",
+            "class": "Rising Star",
             "roster": "Goodra-3, Bruxish-3, Rotom-Wash-3, Magmortar-3, Pelipper-2, Politoed-2, Swampert-3, Pelipper-3, Ludicolo-3, Armaldo-3, Carracosta-3, Politoed-3, Jolteon-3, Beartic-3, Kingdra-3, Pelipper-4, Electrode-4, Ludicolo-4, Armaldo-4, Carracosta-4, Politoed-4, Tentacruel-4, Beartic-4, Kingdra-4, Suicune-1, Suicune-2, Zapdos-3, Suicune-3, Suicune-4, Tornadus-4, Rotom-Wash-4, Magmortar-4",
             "species": "Goodra, Bruxish, Rotom-Wash, Magmortar, Pelipper, Politoed, Swampert, Ludicolo, Armaldo, Carracosta, Jolteon, Beartic, Kingdra, Electrode, Tentacruel, Suicune, Zapdos, Tornadus",
             "late": "1",
@@ -1729,7 +1729,7 @@
         },
         {
             "name": "Marianne",
-            "class": "Rising Star (F)",
+            "class": "Rising Star",
             "roster": "Delphox-3, Rotom-Heat-3, Lurantis-4, Rotom-Heat-4, Ninetales-1, Venusaur-3, Charizard-3, Shiftry-3, Lilligant-3, Darmanitan-3, Whimsicott-3, Ninetales-2, Exeggutor-2, Leafeon-3, Tangrowth-3, Arcanine-3, Venusaur-4, Shiftry-4, Lilligant-4, Darmanitan-4, Whimsicott-4, Houndoom-4, Exeggutor-Alola-2, Leafeon-4, Tangrowth-4, Moltres-1, Heatran-1, Moltres-2, Heatran-2, Moltres-3, Heatran-3, Moltres-4",
             "species": "Delphox, Rotom-Heat, Lurantis, Ninetales, Venusaur, Charizard, Shiftry, Lilligant, Darmanitan, Whimsicott, Exeggutor, Leafeon, Tangrowth, Arcanine, Houndoom, Exeggutor-Alola, Moltres, Heatran",
             "late": "1",
@@ -1740,7 +1740,7 @@
         },
         {
             "name": "Alice",
-            "class": "Sightseer (M)",
+            "class": "Sightseer",
             "roster": "Darmanitan-3, Rampardos-3, Conkeldurr-3, Rhyperior-3, Haxorus-3, Archeops-3, Slaking-3, Darmanitan-4, Rampardos-4, Conkeldurr-4, Rhyperior-4, Haxorus-4, Archeops-4, Slaking-4, Regigigas-1, Regigigas-2, Regigigas-3, Regigigas-4",
             "species": "Darmanitan, Rampardos, Conkeldurr, Rhyperior, Haxorus, Archeops, Slaking, Regigigas",
             "late": "1",
@@ -1751,7 +1751,7 @@
         },
         {
             "name": "Chen",
-            "class": "Sightseer (M)",
+            "class": "Sightseer",
             "roster": "Darmanitan-3, Rampardos-3, Conkeldurr-3, Rhyperior-3, Haxorus-3, Archeops-3, Slaking-3, Darmanitan-4, Rampardos-4, Conkeldurr-4, Rhyperior-4, Haxorus-4, Archeops-4, Slaking-4, Regigigas-1, Regigigas-2, Regigigas-3, Regigigas-4",
             "species": "Darmanitan, Rampardos, Conkeldurr, Rhyperior, Haxorus, Archeops, Slaking, Regigigas",
             "late": "1",
@@ -1762,7 +1762,7 @@
         },
         {
             "name": "Christian",
-            "class": "Sightseer (F)",
+            "class": "Sightseer",
             "roster": "Vikavolt-3, Drampa-3, Vikavolt-4, Drampa-4, Alakazam-3, Gengar-3, Chandelure-3, Espeon-3, Glaceon-3, Magnezone-3, Porygon-Z-3, Volcarona-3, Alakazam-4, Gengar-4, Chandelure-4, Espeon-4, Glaceon-4, Magnezone-4, Porygon-Z-4, Volcarona-4, Latios-1, Heatran-1, Latios-2, Heatran-2, Latios-3, Heatran-3, Latios-4, Heatran-4",
             "species": "Vikavolt, Drampa, Alakazam, Gengar, Chandelure, Espeon, Glaceon, Magnezone, Porygon-Z, Volcarona, Latios, Heatran",
             "late": "1",
@@ -1773,7 +1773,7 @@
         },
         {
             "name": "Ezra",
-            "class": "Sightseer (F)",
+            "class": "Sightseer",
             "roster": "Vikavolt-3, Drampa-3, Vikavolt-4, Drampa-4, Alakazam-3, Gengar-3, Chandelure-3, Espeon-3, Glaceon-3, Magnezone-3, Porygon-Z-3, Volcarona-3, Alakazam-4, Gengar-4, Chandelure-4, Espeon-4, Glaceon-4, Magnezone-4, Porygon-Z-4, Volcarona-4, Latios-1, Heatran-1, Latios-2, Heatran-2, Latios-3, Heatran-3, Latios-4, Heatran-4",
             "species": "Vikavolt, Drampa, Alakazam, Gengar, Chandelure, Espeon, Glaceon, Magnezone, Porygon-Z, Volcarona, Latios, Heatran",
             "late": "1",
@@ -1894,7 +1894,7 @@
         },
         {
             "name": "Patrick",
-            "class": "Golfer (M)",
+            "class": "Golfer",
             "roster": "Comfey-3, Comfey-4, Charizard-3, Typhlosion-3, Staraptor-3, Ninetales-2, Tentacruel-3, Flygon-3, Volcarona-3, Salamence-3, Slaking-3, Charizard-4, Typhlosion-4, Staraptor-4, Ninetales-Alola-2, Tentacruel-4, Flygon-4, Volcarona-4, Salamence-4, Slaking-4, Zapdos-1, Entei-1, Regigigas-1, Zapdos-2, Entei-2, Regigigas-2, Zapdos-3, Entei-3, Regigigas-3, Zapdos-4, Entei-4, Regigigas-4",
             "species": "Comfey, Charizard, Typhlosion, Staraptor, Ninetales, Tentacruel, Flygon, Volcarona, Salamence, Slaking, Ninetales-Alola, Zapdos, Entei, Regigigas",
             "late": "1",
@@ -1905,7 +1905,7 @@
         },
         {
             "name": "Moe",
-            "class": "Golfer (M)",
+            "class": "Golfer",
             "roster": "Vaporeon-3, Jolteon-3, Flareon-3, Espeon-3, Umbreon-3, Leafeon-3, Glaceon-3, Vaporeon-4, Jolteon-4, Flareon-4, Espeon-4, Umbreon-4, Leafeon-4, Glaceon-4",
             "species": "Vaporeon, Jolteon, Flareon, Espeon, Umbreon, Leafeon, Glaceon",
             "late": "1",
@@ -1916,7 +1916,7 @@
         },
         {
             "name": "Bruce",
-            "class": "Golfer (F)",
+            "class": "Golfer",
             "roster": "Vaporeon-3, Jolteon-3, Flareon-3, Espeon-3, Umbreon-3, Leafeon-3, Glaceon-3, Vaporeon-4, Jolteon-4, Flareon-4, Espeon-4, Umbreon-4, Leafeon-4, Glaceon-4",
             "species": "Vaporeon, Jolteon, Flareon, Espeon, Umbreon, Leafeon, Glaceon",
             "late": "1",
@@ -1927,7 +1927,7 @@
         },
         {
             "name": "Susanna",
-            "class": "Golfer (F)",
+            "class": "Golfer",
             "roster": "Charizard-3, Typhlosion-3, Staraptor-3, Ninetales-2, Tentacruel-3, Flygon-3, Volcarona-3, Salamence-3, Slaking-3, Charizard-4, Typhlosion-4, Staraptor-4, Ninetales-Alola-2, Tentacruel-4, Flygon-4, Volcarona-4, Salamence-4, Slaking-4, Zapdos-1, Entei-1, Regigigas-1, Zapdos-2, Entei-2, Regigigas-2, Zapdos-3, Entei-3, Regigigas-3, Zapdos-4, Entei-4, Regigigas-4",
             "species": "Charizard, Typhlosion, Staraptor, Ninetales, Tentacruel, Flygon, Volcarona, Salamence, Slaking, Ninetales-Alola, Zapdos, Entei, Regigigas",
             "late": "1",
@@ -1938,7 +1938,7 @@
         },
         {
             "name": "Lori",
-            "class": "Pokemon Breeder (M)",
+            "class": "Pokémon Breeder",
             "roster": "Avalugg-3, Aromatisse-3, Avalugg-4, Aromatisse-4, Amoonguss-3, Cofagrigus-3, Slowbro-3, Musharna-3, Ferrothorn-3, Slowking-3, Reuniclus-3, Bastiodon-3, Shiinotic-3, Escavalier-3, Shuckle-3, Gigalith-3, Steelix-3, Snorlax-3, Amoonguss-4, Cofagrigus-4, Slowbro-4, Musharna-4, Ferrothorn-4, Slowking-4, Reuniclus-4, Bastiodon-4, Shiinotic-4, Escavalier-4, Shuckle-4, Gigalith-4, Steelix-4, Snorlax-4",
             "species": "Avalugg, Aromatisse, Amoonguss, Cofagrigus, Slowbro, Musharna, Ferrothorn, Slowking, Reuniclus, Bastiodon, Shiinotic, Escavalier, Shuckle, Gigalith, Steelix, Snorlax",
             "late": "1",
@@ -1949,7 +1949,7 @@
         },
         {
             "name": "Colby",
-            "class": "Pokemon Breeder (M)",
+            "class": "Pokémon Breeder",
             "roster": "Avalugg-3, Aromatisse-3, Avalugg-4, Aromatisse-4, Amoonguss-3, Cofagrigus-3, Slowbro-3, Musharna-3, Ferrothorn-3, Slowking-3, Reuniclus-3, Bastiodon-3, Shiinotic-3, Escavalier-3, Shuckle-3, Gigalith-3, Steelix-3, Snorlax-3, Amoonguss-4, Cofagrigus-4, Slowbro-4, Musharna-4, Ferrothorn-4, Slowking-4, Reuniclus-4, Bastiodon-4, Shiinotic-4, Escavalier-4, Shuckle-4, Gigalith-4, Steelix-4, Snorlax-4",
             "species": "Avalugg, Aromatisse, Amoonguss, Cofagrigus, Slowbro, Musharna, Ferrothorn, Slowking, Reuniclus, Bastiodon, Shiinotic, Escavalier, Shuckle, Gigalith, Steelix, Snorlax",
             "late": "1",
@@ -1960,7 +1960,7 @@
         },
         {
             "name": "Danby",
-            "class": "Pokemon Breeder (F)",
+            "class": "Pokémon Breeder",
             "roster": "Toxapex-3, Golisopod-3, Mudsdale-3, Turtonator-3, Drampa-3, Dhelmise-3, Toxapex-4, Golisopod-4, Mudsdale-4, Turtonator-4, Drampa-4, Dhelmise-4, Vespiquen-3, Gastrodon-3, Camerupt-3, Spiritomb-3, Carracosta-3, Bronzong-3, Wishiwashi-3, Palossand-3, Rhyperior-3, Vespiquen-4, Gastrodon-4, Camerupt-4, Spiritomb-4, Carracosta-4, Bronzong-4, Wishiwashi-4, Palossand-4, Rhyperior-4",
             "species": "Toxapex, Golisopod, Mudsdale, Turtonator, Drampa, Dhelmise, Vespiquen, Gastrodon, Camerupt, Spiritomb, Carracosta, Bronzong, Wishiwashi, Palossand, Rhyperior",
             "late": "1",
@@ -1971,7 +1971,7 @@
         },
         {
             "name": "Izel",
-            "class": "Pokemon Breeder (F)",
+            "class": "Pokémon Breeder",
             "roster": "Toxapex-3, Golisopod-3, Mudsdale-3, Turtonator-3, Drampa-3, Dhelmise-3, Toxapex-4, Golisopod-4, Mudsdale-4, Turtonator-4, Drampa-4, Dhelmise-4, Vespiquen-3, Gastrodon-3, Camerupt-3, Spiritomb-3, Carracosta-3, Bronzong-3, Wishiwashi-3, Palossand-3, Rhyperior-3, Vespiquen-4, Gastrodon-4, Camerupt-4, Spiritomb-4, Carracosta-4, Bronzong-4, Wishiwashi-4, Palossand-4, Rhyperior-4",
             "species": "Toxapex, Golisopod, Mudsdale, Turtonator, Drampa, Dhelmise, Vespiquen, Gastrodon, Camerupt, Spiritomb, Carracosta, Bronzong, Wishiwashi, Palossand, Rhyperior",
             "late": "1",
@@ -2048,7 +2048,7 @@
         },
         {
             "name": "Horace",
-            "class": "Ace Trainer (M)",
+            "class": "Ace Trainer",
             "roster": "Azelf-1, Kommo-o-1, Uxie-1, Mesprit-1, Azelf-2, Kommo-o-2, Uxie-2, Mesprit-2, Azelf-3, Kommo-o-3, Uxie-3, Mesprit-3, Azelf-4, Kommo-o-4, Uxie-4, Mesprit-4, Regirock-1, Regice-1, Registeel-1, Regirock-2, Regice-2, Registeel-2, Regirock-3, Regice-3, Registeel-3, Regirock-4, Regice-4, Registeel-4",
             "species": "Azelf, Kommo-o, Uxie, Mesprit, Regirock, Regice, Registeel",
             "late": "1",
@@ -2059,7 +2059,7 @@
         },
         {
             "name": "Perri",
-            "class": "Pokemon Center Lady",
+            "class": "Pokémon Center Lady",
             "roster": "Sylveon-2, Florges-2, Aromatisse-2, Oricorio-Pa'u-1, Bewear-2, Togedemaru-2, Sylveon-3, Florges-3, Aromatisse-3, Bewear-3, Togedemaru-3, Sylveon-4, Florges-4, Aromatisse-4, Bewear-4, Togedemaru-4, Audino-2, Lilligant-2, Slowbro-2, Musharna-2, Slowking-2, Gardevoir-2, Blissey-2, Togekiss-2, Audino-3, Lilligant-3, Slowbro-3, Musharna-3, Slowking-3, Gardevoir-3, Blissey-3, Togekiss-3, Audino-4, Lilligant-4, Slowbro-4, Musharna-4, Slowking-4, Gardevoir-4, Blissey-4, Togekiss-4",
             "species": "Sylveon, Florges, Aromatisse, Oricorio-Pa'u, Bewear, Togedemaru, Audino, Lilligant, Slowbro, Musharna, Slowking, Gardevoir, Blissey, Togekiss",
             "late": "1",
@@ -2070,7 +2070,7 @@
         },
         {
             "name": "Dooley",
-            "class": "Veteran (M)",
+            "class": "Veteran",
             "roster": "Sylveon-3, Kommo-o-3, Rotom-Wash-3, Sylveon-4, Kommo-o-4, Charizard-3, Mawile-3, Kangaskhan-3, Dragonite-3, Tyranitar-3, Salamence-3, Metagross-3, Garchomp-3, Charizard-4, Mawile-4, Kangaskhan-4, Dragonite-4, Tyranitar-4, Salamence-4, Metagross-4, Garchomp-4, Articuno-3, Zapdos-3, Raikou-3, Entei-3, Suicune-3, Terrakion-3, Tornadus-3, Thundurus-3, Latios-3, Heatran-3, Cresselia-3, Landorus-3, Articuno-4, Zapdos-4, Raikou-4, Entei-4, Suicune-4, Terrakion-4, Tornadus-4, Thundurus-4, Latios-4, Heatran-4, Cresselia-4, Landorus-4, Rotom-Wash-4",
             "species": "Sylveon, Kommo-o, Rotom-Wash, Charizard, Mawile, Kangaskhan, Dragonite, Tyranitar, Salamence, Metagross, Garchomp, Articuno, Zapdos, Raikou, Entei, Suicune, Terrakion, Tornadus, Thundurus, Latios, Heatran, Cresselia, Landorus",
             "late": "1",
@@ -2081,7 +2081,7 @@
         },
         {
             "name": "Demiathena",
-            "class": "Veteran (F)",
+            "class": "Veteran",
             "roster": "Azelf-3, Uxie-3, Mesprit-3, Azelf-4, Uxie-4, Mesprit-4, Zapdos-3, Raikou-3, Suicune-3, Virizion-3, Thundurus-3, Latias-3, Latios-3, Cresselia-3, Zapdos-4, Raikou-4, Suicune-4, Virizion-4, Thundurus-4, Latias-4, Latios-4, Cresselia-4",
             "species": "Azelf, Uxie, Mesprit, Zapdos, Raikou, Suicune, Virizion, Thundurus, Latias, Latios, Cresselia",
             "late": "1",
@@ -2114,7 +2114,7 @@
         },
         {
             "name": "Grimsley",
-            "class": "Pokemon Trainer",
+            "class": "Pokémon Trainer",
             "roster": "Absol-3, Sharpedo-3, Scrafty-3, Bisharp-3, Houndoom-3, Drapion-3, Honchkrow-3, Liepard-3, Tyranitar-3, Absol-4, Sharpedo-4, Scrafty-4, Bisharp-4, Houndoom-4, Drapion-4, Liepard-4, Tyranitar-4",
             "species": "Absol, Sharpedo, Scrafty, Bisharp, Houndoom, Drapion, Honchkrow, Liepard, Tyranitar",
             "late": "1",
@@ -2125,7 +2125,7 @@
         },
         {
             "name": "Anabel",
-            "class": "Pokemon Trainer",
+            "class": "Pokémon Trainer",
             "roster": "Alakazam-3, Lucario-3, Snorlax-3, Alakazam-4, Lucario-4, Snorlax-4, Raikou-1, Entei-1, Latios-1, Raikou-2, Entei-2, Latios-2, Raikou-3, Entei-3, Latios-3, Raikou-4, Entei-4, Latios-4",
             "species": "Alakazam, Lucario, Snorlax, Raikou, Entei, Latios",
             "late": "1",
@@ -2136,7 +2136,7 @@
         },
         {
             "name": "Wally",
-            "class": "Pokemon Trainer",
+            "class": "Pokémon Trainer",
             "roster": "Altaria-3, Gallade-3, Magnezone-3, Garchomp-3, Altaria-4, Gallade-4, Magnezone-4, Garchomp-4",
             "species": "Altaria, Gallade, Magnezone, Garchomp",
             "late": "1",
@@ -2147,7 +2147,7 @@
         },
         {
             "name": "Colress",
-            "class": "Pokemon Trainer",
+            "class": "Pokémon Trainer",
             "roster": "Muk-Alola-1, Electrode-3, Muk-Alola-2, Porygon2-3, Klinklang-3, Magnezone-3, Porygon-Z-3, Metagross-3, Electrode-4, Porygon2-4, Klinklang-4, Magnezone-4, Porygon-Z-4, Metagross-4",
             "species": "Muk-Alola, Electrode, Porygon2, Klinklang, Magnezone, Porygon-Z, Metagross",
             "late": "1",
@@ -2158,7 +2158,7 @@
         },
         {
             "name": "Cynthia",
-            "class": "Pokemon Trainer",
+            "class": "Pokémon Trainer",
             "roster": "Spiritomb-3, Lucario-3, Milotic-3, Togekiss-3, Garchomp-3, Spiritomb-4, Lucario-4, Milotic-4, Togekiss-4, Garchomp-4",
             "species": "Spiritomb, Lucario, Milotic, Togekiss, Garchomp",
             "late": "1",
@@ -2169,7 +2169,7 @@
         },
         {
             "name": "Plumeria",
-            "class": "Pokemon Trainer",
+            "class": "Pokémon Trainer",
             "roster": "Toxapex-3, Lurantis-3, Toxapex-4, Lurantis-4, Salazzle-3, Gengar-3, Crobat-3, Salazzle-4, Gengar-4, Crobat-4",
             "species": "Toxapex, Lurantis, Salazzle, Gengar, Crobat",
             "late": "1",
@@ -2180,7 +2180,7 @@
         },
         {
             "name": "Guzma",
-            "class": "Pokemon Trainer",
+            "class": "Pokémon Trainer",
             "roster": "Toxapex-3, Golisopod-3, Toxapex-4, Golisopod-4, Toxicroak-3, Bisharp-3, Pinsir-3, Honchkrow-3, Liepard-3, Toxicroak-4, Bisharp-4, Pinsir-4, Honchkrow-4, Liepard-4",
             "species": "Toxapex, Golisopod, Toxicroak, Bisharp, Pinsir, Honchkrow, Liepard",
             "late": "1",
@@ -2213,7 +2213,7 @@
         },
         {
             "name": "Sina",
-            "class": "Pokemon Trainer",
+            "class": "Pokémon Trainer",
             "roster": "Drampa-3, Drampa-4, Lilligant-3, Abomasnow-3, Oranguru-3, Mandibuzz-3, Glaceon-3, Lilligant-4, Abomasnow-4, Oranguru-4, Mandibuzz-4, Glaceon-4, Sandslash-Alola-2",
             "species": "Drampa, Lilligant, Abomasnow, Oranguru, Mandibuzz, Glaceon, Sandslash-Alola",
             "late": "1",
@@ -2224,7 +2224,7 @@
         },
         {
             "name": "Dexio",
-            "class": "Pokemon Trainer",
+            "class": "Pokémon Trainer",
             "roster": "Turtonator-3, Turtonator-4, Slowbro-3, Whimsicott-3, Passimian-3, Braviary-3, Espeon-3, Slowbro-4, Whimsicott-4, Passimian-4, Ninetales-Alola-2, Braviary-4, Espeon-4",
             "species": "Turtonator, Slowbro, Whimsicott, Passimian, Braviary, Espeon, Ninetales-Alola",
             "late": "1",
@@ -2235,7 +2235,7 @@
         },
         {
             "name": "Kukui",
-            "class": "Pokemon Trainer",
+            "class": "Pokémon Trainer",
             "roster": "Ninetales-Alola-1, Ninetales-Alola-2, Snorlax-3, Snorlax-4, Magnezone-3, Magnezone-4, Braviary-3, Braviary-4, Decidueye-3, Decidueye-4, Incineroar-3, Incineroar-4, Primarina-3, Primarina-4, Lycanroc-2, Lycanroc-Midnight-2",
             "species": "Ninetales-Alola, Snorlax, Magnezone, Braviary, Decidueye, Incineroar, Primarina, Lycanroc, Lycanroc-Midnight",
             "late": "1",

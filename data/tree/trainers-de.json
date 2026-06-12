@@ -90,7 +90,7 @@
         },
         {
             "name": "Elias",
-            "class": "Preschooler (M)",
+            "class": "Vorschüler",
             "roster": "Rocara-1, Parfinesse-1, Meteno-1, Curelei-1, Tectass-1, Bandelby-1, Kosturso-1, Tortunator-1, Moruda-1, Togedemaru-1, Rotom-Schneid-1, Gewaldro-1, Panferno-1, Serpiroyal-1, Admurai-1, Flunkifer-1, Kapilz-1, Ohrdoch-1, Raichu-Alola-1, Krawumms-1, Schlapor-1, Flampivian-1, Ambidiffel-1, Geowaz-Alola-1, Elfun-1, Altaria-1, Lamellux-1, Traunmagil-1, Koalelu-1, Ursaring-1, Wailord-1, Lusardin-1, Porygon2-1, Yanmega-1, Aquana-1, Psiana-1, Nachtara-1, Glaziola-1, Hippoterus-1, Kleoparda-1, Siberio-1, Porygon-Z-1, Gelatwino-1, Heiteira-1, Dragoran-1",
             "species": "Rocara, Parfinesse, Meteno, Curelei, Tectass, Bandelby, Kosturso, Tortunator, Moruda, Togedemaru, Rotom-Schneid, Gewaldro, Panferno, Serpiroyal, Admurai, Flunkifer, Kapilz, Ohrdoch, Raichu-Alola, Krawumms, Schlapor, Flampivian, Ambidiffel, Geowaz-Alola, Elfun, Altaria, Lamellux, Traunmagil, Koalelu, Ursaring, Wailord, Lusardin, Porygon2, Yanmega, Aquana, Psiana, Nachtara, Glaziola, Hippoterus, Kleoparda, Siberio, Porygon-Z, Gelatwino, Heiteira, Dragoran",
             "late": "",
@@ -101,7 +101,7 @@
         },
         {
             "name": "Rickie",
-            "class": "Preschooler (M)",
+            "class": "Vorschüler",
             "roster": "Rocara-1, Parfinesse-1, Meteno-1, Curelei-1, Tectass-1, Bandelby-1, Kosturso-1, Tortunator-1, Moruda-1, Togedemaru-1, Rotom-Schneid-1, Gewaldro-1, Panferno-1, Serpiroyal-1, Admurai-1, Flunkifer-1, Kapilz-1, Ohrdoch-1, Raichu-Alola-1, Krawumms-1, Schlapor-1, Flampivian-1, Ambidiffel-1, Geowaz-Alola-1, Elfun-1, Altaria-1, Lamellux-1, Traunmagil-1, Koalelu-1, Ursaring-1, Wailord-1, Lusardin-1, Porygon2-1, Yanmega-1, Aquana-1, Psiana-1, Nachtara-1, Glaziola-1, Hippoterus-1, Kleoparda-1, Siberio-1, Porygon-Z-1, Gelatwino-1, Heiteira-1, Dragoran-1",
             "species": "Rocara, Parfinesse, Meteno, Curelei, Tectass, Bandelby, Kosturso, Tortunator, Moruda, Togedemaru, Rotom-Schneid, Gewaldro, Panferno, Serpiroyal, Admurai, Flunkifer, Kapilz, Ohrdoch, Raichu-Alola, Krawumms, Schlapor, Flampivian, Ambidiffel, Geowaz-Alola, Elfun, Altaria, Lamellux, Traunmagil, Koalelu, Ursaring, Wailord, Lusardin, Porygon2, Yanmega, Aquana, Psiana, Nachtara, Glaziola, Hippoterus, Kleoparda, Siberio, Porygon-Z, Gelatwino, Heiteira, Dragoran",
             "late": "",
@@ -112,7 +112,7 @@
         },
         {
             "name": "Rolf",
-            "class": "Preschooler (M)",
+            "class": "Vorschüler",
             "roster": "Mantidea-1, Magbrant-1, Bisaflor-1, Glurak-1, Tornupto-1, Panferno-1, Tengulist-1, Elfun-1, Amfira-1, Vulnona-1, Skelabra-1, Ramoth-1, Arkani-1",
             "species": "Mantidea, Magbrant, Bisaflor, Glurak, Tornupto, Panferno, Tengulist, Elfun, Amfira, Vulnona, Skelabra, Ramoth, Arkani",
             "late": "",
@@ -123,7 +123,7 @@
         },
         {
             "name": "Kilian",
-            "class": "Preschooler (M)",
+            "class": "Vorschüler",
             "roster": "Rocara-1, Parfinesse-1, Meteno-1, Curelei-1, Tectass-1, Bandelby-1, Kosturso-1, Tortunator-1, Moruda-1, Togedemaru-1, Rotom-Schneid-1, Gewaldro-1, Panferno-1, Serpiroyal-1, Admurai-1, Flunkifer-1, Kapilz-1, Ohrdoch-1, Raichu-Alola-1, Krawumms-1, Schlapor-1, Flampivian-1, Ambidiffel-1, Geowaz-Alola-1, Elfun-1, Altaria-1, Lamellux-1, Traunmagil-1, Koalelu-1, Ursaring-1, Wailord-1, Lusardin-1, Porygon2-1, Yanmega-1, Aquana-1, Psiana-1, Nachtara-1, Glaziola-1, Hippoterus-1, Kleoparda-1, Siberio-1, Porygon-Z-1, Gelatwino-1, Heiteira-1, Dragoran-1",
             "species": "Rocara, Parfinesse, Meteno, Curelei, Tectass, Bandelby, Kosturso, Tortunator, Moruda, Togedemaru, Rotom-Schneid, Gewaldro, Panferno, Serpiroyal, Admurai, Flunkifer, Kapilz, Ohrdoch, Raichu-Alola, Krawumms, Schlapor, Flampivian, Ambidiffel, Geowaz-Alola, Elfun, Altaria, Lamellux, Traunmagil, Koalelu, Ursaring, Wailord, Lusardin, Porygon2, Yanmega, Aquana, Psiana, Nachtara, Glaziola, Hippoterus, Kleoparda, Siberio, Porygon-Z, Gelatwino, Heiteira, Dragoran",
             "late": "",
@@ -134,7 +134,7 @@
         },
         {
             "name": "Tina",
-            "class": "Preschooler (F)",
+            "class": "Vorschülerin",
             "roster": "Mantidea-1, Magbrant-1, Bisaflor-1, Glurak-1, Tornupto-1, Panferno-1, Tengulist-1, Elfun-1, Amfira-1, Vulnona-1, Skelabra-1, Ramoth-1, Arkani-1",
             "species": "Mantidea, Magbrant, Bisaflor, Glurak, Tornupto, Panferno, Tengulist, Elfun, Amfira, Vulnona, Skelabra, Ramoth, Arkani",
             "late": "",
@@ -145,7 +145,7 @@
         },
         {
             "name": "Ruth",
-            "class": "Preschooler (F)",
+            "class": "Vorschülerin",
             "roster": "Rocara-1, Chevrumm-1, Parfinesse-1, Meteno-1, Curelei-1, Bandelby-1, Kosturso-1, Togedemaru-1, Rotom-Schneid-1, Chelterrar-1, Impoleon-1, Flunkifer-1, Banette-1, Ohrdoch-1, Raichu-Alola-1, Krawumms-1, Schlapor-1, Flampivian-1, Ambidiffel-1, Kangama-1, Elfun-1, Altaria-1, Rexblisar-1, Lamellux-1, Traunmagil-1, Tukanon-1, Kommandutan-1, Koalelu-1, Ursaring-1, Lusardin-1, Porygon2-1, Aquana-1, Psiana-1, Nachtara-1, Folipurba-1, Glaziola-1, Hippoterus-1, Kleoparda-1, Siberio-1, Porygon-Z-1, Gelatwino-1, Heiteira-1",
             "species": "Rocara, Chevrumm, Parfinesse, Meteno, Curelei, Bandelby, Kosturso, Togedemaru, Rotom-Schneid, Chelterrar, Impoleon, Flunkifer, Banette, Ohrdoch, Raichu-Alola, Krawumms, Schlapor, Flampivian, Ambidiffel, Kangama, Elfun, Altaria, Rexblisar, Lamellux, Traunmagil, Tukanon, Kommandutan, Koalelu, Ursaring, Lusardin, Porygon2, Aquana, Psiana, Nachtara, Folipurba, Glaziola, Hippoterus, Kleoparda, Siberio, Porygon-Z, Gelatwino, Heiteira",
             "late": "",
@@ -156,7 +156,7 @@
         },
         {
             "name": "Helen",
-            "class": "Preschooler (F)",
+            "class": "Vorschülerin",
             "roster": "Rocara-1, Chevrumm-1, Parfinesse-1, Meteno-1, Curelei-1, Bandelby-1, Kosturso-1, Togedemaru-1, Rotom-Schneid-1, Chelterrar-1, Impoleon-1, Flunkifer-1, Banette-1, Ohrdoch-1, Raichu-Alola-1, Krawumms-1, Schlapor-1, Flampivian-1, Ambidiffel-1, Kangama-1, Elfun-1, Altaria-1, Rexblisar-1, Lamellux-1, Traunmagil-1, Tukanon-1, Kommandutan-1, Koalelu-1, Ursaring-1, Lusardin-1, Porygon2-1, Aquana-1, Psiana-1, Nachtara-1, Folipurba-1, Glaziola-1, Hippoterus-1, Kleoparda-1, Siberio-1, Porygon-Z-1, Gelatwino-1, Heiteira-1",
             "species": "Rocara, Chevrumm, Parfinesse, Meteno, Curelei, Bandelby, Kosturso, Togedemaru, Rotom-Schneid, Chelterrar, Impoleon, Flunkifer, Banette, Ohrdoch, Raichu-Alola, Krawumms, Schlapor, Flampivian, Ambidiffel, Kangama, Elfun, Altaria, Rexblisar, Lamellux, Traunmagil, Tukanon, Kommandutan, Koalelu, Ursaring, Lusardin, Porygon2, Aquana, Psiana, Nachtara, Folipurba, Glaziola, Hippoterus, Kleoparda, Siberio, Porygon-Z, Gelatwino, Heiteira",
             "late": "",
@@ -167,7 +167,7 @@
         },
         {
             "name": "Nele",
-            "class": "Preschooler (F)",
+            "class": "Vorschülerin",
             "roster": "Rocara-1, Chevrumm-1, Parfinesse-1, Meteno-1, Curelei-1, Bandelby-1, Kosturso-1, Togedemaru-1, Rotom-Schneid-1, Chelterrar-1, Impoleon-1, Flunkifer-1, Banette-1, Ohrdoch-1, Raichu-Alola-1, Krawumms-1, Schlapor-1, Flampivian-1, Ambidiffel-1, Kangama-1, Elfun-1, Altaria-1, Rexblisar-1, Lamellux-1, Traunmagil-1, Tukanon-1, Kommandutan-1, Koalelu-1, Ursaring-1, Lusardin-1, Porygon2-1, Aquana-1, Psiana-1, Nachtara-1, Folipurba-1, Glaziola-1, Hippoterus-1, Kleoparda-1, Siberio-1, Porygon-Z-1, Gelatwino-1, Heiteira-1",
             "species": "Rocara, Chevrumm, Parfinesse, Meteno, Curelei, Bandelby, Kosturso, Togedemaru, Rotom-Schneid, Chelterrar, Impoleon, Flunkifer, Banette, Ohrdoch, Raichu-Alola, Krawumms, Schlapor, Flampivian, Ambidiffel, Kangama, Elfun, Altaria, Rexblisar, Lamellux, Traunmagil, Tukanon, Kommandutan, Koalelu, Ursaring, Lusardin, Porygon2, Aquana, Psiana, Nachtara, Folipurba, Glaziola, Hippoterus, Kleoparda, Siberio, Porygon-Z, Gelatwino, Heiteira",
             "late": "",
@@ -266,7 +266,7 @@
         },
         {
             "name": "Alfred",
-            "class": "Office Worker (M)",
+            "class": "Angestellter",
             "roster": "Trombork-1, Donarion-1, Silvarro-1, Tortunator-1, Elevoltek-1, Glurak-1, Panferno-1, Meditalis-1, Flunkifer-1, Panzaeron-1, Raichu-Alola-1, Voltenso-1, Pelipper-1, Lektrobal-1, Flampivian-1, Fermicula-1, Tauros-1, Tentantel-1, Simsala-1, Morbitesse-1, Caesurio-1, Bollterus-1, Cavalanzas-1, Ampharos-1, Scherox-1, Bronzong-1, Pottrott-1, Meistagrif-1, Stahlos-1, Grypheldis-1, Porygon2-1, Guardevoir-1, Galagladi-1, Kokowei-1, Klikdiklak-1, Lucario-1, Zwirrfinst-1, Stolloss-1, Magnezone-1, Tangoloss-1, Porygon-Z-1, Zapplarang-1, Seedraking-1, Metagross-1",
             "species": "Trombork, Donarion, Silvarro, Tortunator, Elevoltek, Glurak, Panferno, Meditalis, Flunkifer, Panzaeron, Raichu-Alola, Voltenso, Pelipper, Lektrobal, Flampivian, Fermicula, Tauros, Tentantel, Simsala, Morbitesse, Caesurio, Bollterus, Cavalanzas, Ampharos, Scherox, Bronzong, Pottrott, Meistagrif, Stahlos, Grypheldis, Porygon2, Guardevoir, Galagladi, Kokowei, Klikdiklak, Lucario, Zwirrfinst, Stolloss, Magnezone, Tangoloss, Porygon-Z, Zapplarang, Seedraking, Metagross",
             "late": "",
@@ -277,7 +277,7 @@
         },
         {
             "name": "Theodor",
-            "class": "Office Worker (M)",
+            "class": "Angestellter",
             "roster": "Trombork-1, Donarion-1, Silvarro-1, Tortunator-1, Elevoltek-1, Glurak-1, Panferno-1, Meditalis-1, Flunkifer-1, Panzaeron-1, Raichu-Alola-1, Voltenso-1, Pelipper-1, Lektrobal-1, Flampivian-1, Fermicula-1, Tauros-1, Tentantel-1, Simsala-1, Morbitesse-1, Caesurio-1, Bollterus-1, Cavalanzas-1, Ampharos-1, Scherox-1, Bronzong-1, Pottrott-1, Meistagrif-1, Stahlos-1, Grypheldis-1, Porygon2-1, Guardevoir-1, Galagladi-1, Kokowei-1, Klikdiklak-1, Lucario-1, Zwirrfinst-1, Stolloss-1, Magnezone-1, Tangoloss-1, Porygon-Z-1, Zapplarang-1, Seedraking-1, Metagross-1",
             "species": "Trombork, Donarion, Silvarro, Tortunator, Elevoltek, Glurak, Panferno, Meditalis, Flunkifer, Panzaeron, Raichu-Alola, Voltenso, Pelipper, Lektrobal, Flampivian, Fermicula, Tauros, Tentantel, Simsala, Morbitesse, Caesurio, Bollterus, Cavalanzas, Ampharos, Scherox, Bronzong, Pottrott, Meistagrif, Stahlos, Grypheldis, Porygon2, Guardevoir, Galagladi, Kokowei, Klikdiklak, Lucario, Zwirrfinst, Stolloss, Magnezone, Tangoloss, Porygon-Z, Zapplarang, Seedraking, Metagross",
             "late": "",
@@ -288,7 +288,7 @@
         },
         {
             "name": "Gustav",
-            "class": "Office Worker (M)",
+            "class": "Angestellter",
             "roster": "Trombork-1, Donarion-1, Silvarro-1, Tortunator-1, Elevoltek-1, Glurak-1, Panferno-1, Meditalis-1, Flunkifer-1, Panzaeron-1, Raichu-Alola-1, Voltenso-1, Pelipper-1, Lektrobal-1, Flampivian-1, Fermicula-1, Tauros-1, Tentantel-1, Simsala-1, Morbitesse-1, Caesurio-1, Bollterus-1, Cavalanzas-1, Ampharos-1, Scherox-1, Bronzong-1, Pottrott-1, Meistagrif-1, Stahlos-1, Grypheldis-1, Porygon2-1, Guardevoir-1, Galagladi-1, Kokowei-1, Klikdiklak-1, Lucario-1, Zwirrfinst-1, Stolloss-1, Magnezone-1, Tangoloss-1, Porygon-Z-1, Zapplarang-1, Seedraking-1, Metagross-1",
             "species": "Trombork, Donarion, Silvarro, Tortunator, Elevoltek, Glurak, Panferno, Meditalis, Flunkifer, Panzaeron, Raichu-Alola, Voltenso, Pelipper, Lektrobal, Flampivian, Fermicula, Tauros, Tentantel, Simsala, Morbitesse, Caesurio, Bollterus, Cavalanzas, Ampharos, Scherox, Bronzong, Pottrott, Meistagrif, Stahlos, Grypheldis, Porygon2, Guardevoir, Galagladi, Kokowei, Klikdiklak, Lucario, Zwirrfinst, Stolloss, Magnezone, Tangoloss, Porygon-Z, Zapplarang, Seedraking, Metagross",
             "late": "",
@@ -299,7 +299,7 @@
         },
         {
             "name": "Sammy",
-            "class": "Office Worker (F)",
+            "class": "Angestellte",
             "roster": "Rocara-1, Feelinara-1, Fennexis-1, Florges-1, Viscogon-1, Parfinesse-1, Curelei-1, Mantidea-1, Bandelby-1, Kosturso-1, Togedemaru-1, Schlurplek-1, Flunkifer-1, Lanturn-1, Kapilz-1, Pelipper-1, Kappalores-1, Frosdedje-1, Dressella-1, Ambidiffel-1, Elfun-1, Somnivora-1, Altaria-1, Zytomega-1, Lamellux-1, Traunmagil-1, Koalelu-1, Quaxo-1, Fruyal-1, Vulnona-1, Guardevoir-1, Wie-Shu-1, Bisofank-1, Lapras-1, Gelatwino-1, Relaxo-1, Heiteira-1, Milotic-1, Togekiss-1, Brutalanda-1",
             "species": "Rocara, Feelinara, Fennexis, Florges, Viscogon, Parfinesse, Curelei, Mantidea, Bandelby, Kosturso, Togedemaru, Schlurplek, Flunkifer, Lanturn, Kapilz, Pelipper, Kappalores, Frosdedje, Dressella, Ambidiffel, Elfun, Somnivora, Altaria, Zytomega, Lamellux, Traunmagil, Koalelu, Quaxo, Fruyal, Vulnona, Guardevoir, Wie-Shu, Bisofank, Lapras, Gelatwino, Relaxo, Heiteira, Milotic, Togekiss, Brutalanda",
             "late": "",
@@ -310,7 +310,7 @@
         },
         {
             "name": "Bibi",
-            "class": "Office Worker (F)",
+            "class": "Angestellte",
             "roster": "Rocara-1, Feelinara-1, Fennexis-1, Florges-1, Viscogon-1, Parfinesse-1, Curelei-1, Mantidea-1, Bandelby-1, Kosturso-1, Togedemaru-1, Schlurplek-1, Flunkifer-1, Lanturn-1, Kapilz-1, Pelipper-1, Kappalores-1, Frosdedje-1, Dressella-1, Ambidiffel-1, Elfun-1, Somnivora-1, Altaria-1, Zytomega-1, Lamellux-1, Traunmagil-1, Koalelu-1, Quaxo-1, Fruyal-1, Vulnona-1, Guardevoir-1, Wie-Shu-1, Bisofank-1, Lapras-1, Gelatwino-1, Relaxo-1, Heiteira-1, Milotic-1, Togekiss-1, Brutalanda-1",
             "species": "Rocara, Feelinara, Fennexis, Florges, Viscogon, Parfinesse, Curelei, Mantidea, Bandelby, Kosturso, Togedemaru, Schlurplek, Flunkifer, Lanturn, Kapilz, Pelipper, Kappalores, Frosdedje, Dressella, Ambidiffel, Elfun, Somnivora, Altaria, Zytomega, Lamellux, Traunmagil, Koalelu, Quaxo, Fruyal, Vulnona, Guardevoir, Wie-Shu, Bisofank, Lapras, Gelatwino, Relaxo, Heiteira, Milotic, Togekiss, Brutalanda",
             "late": "",
@@ -321,7 +321,7 @@
         },
         {
             "name": "Domenica",
-            "class": "Office Worker (F)",
+            "class": "Angestellte",
             "roster": "Rocara-1, Feelinara-1, Fennexis-1, Florges-1, Viscogon-1, Parfinesse-1, Curelei-1, Mantidea-1, Bandelby-1, Kosturso-1, Togedemaru-1, Schlurplek-1, Flunkifer-1, Lanturn-1, Kapilz-1, Pelipper-1, Kappalores-1, Frosdedje-1, Dressella-1, Ambidiffel-1, Elfun-1, Somnivora-1, Altaria-1, Zytomega-1, Lamellux-1, Traunmagil-1, Koalelu-1, Quaxo-1, Fruyal-1, Vulnona-1, Guardevoir-1, Wie-Shu-1, Bisofank-1, Lapras-1, Gelatwino-1, Relaxo-1, Heiteira-1, Milotic-1, Togekiss-1, Brutalanda-1",
             "species": "Rocara, Feelinara, Fennexis, Florges, Viscogon, Parfinesse, Curelei, Mantidea, Bandelby, Kosturso, Togedemaru, Schlurplek, Flunkifer, Lanturn, Kapilz, Pelipper, Kappalores, Frosdedje, Dressella, Ambidiffel, Elfun, Somnivora, Altaria, Zytomega, Lamellux, Traunmagil, Koalelu, Quaxo, Fruyal, Vulnona, Guardevoir, Wie-Shu, Bisofank, Lapras, Gelatwino, Relaxo, Heiteira, Milotic, Togekiss, Brutalanda",
             "late": "",
@@ -420,7 +420,7 @@
         },
         {
             "name": "Jasper",
-            "class": "Youth Athlete (M)",
+            "class": "Sportskanone",
             "roster": "Resladero-1, Pyroleo-1, Fiaro-1, UHaFnir-1, Wolwerock-1, Sen-Long-1, Magbrant-1, Glurak-1, Tornupto-1, Impergator-1, Digdri-Alola-1, Knogga-1, Tauboss-1, Hariyama-1, Voltenso-1, Staraptor-1, Lektrobal-1, Kappalores-1, Frosdedje-1, Dressella-1, Tauros-1, Shardrago-1, Apoquallyp-1, Caesurio-1, Hydragil-1, Amfira-1, Gengar-1, Skaraborn-1, Quartermak-1, Machomei-1, Washakwil-1, Aerodactyl-1, Galagladi-1, Blitza-1, Psiana-1, Lucario-1, Bisofank-1, Iksbat-1, Maxax-1, Togekiss-1, Aeropteryx-1",
             "species": "Resladero, Pyroleo, Fiaro, UHaFnir, Wolwerock, Sen-Long, Magbrant, Glurak, Tornupto, Impergator, Digdri-Alola, Knogga, Tauboss, Hariyama, Voltenso, Staraptor, Lektrobal, Kappalores, Frosdedje, Dressella, Tauros, Shardrago, Apoquallyp, Caesurio, Hydragil, Amfira, Gengar, Skaraborn, Quartermak, Machomei, Washakwil, Aerodactyl, Galagladi, Blitza, Psiana, Lucario, Bisofank, Iksbat, Maxax, Togekiss, Aeropteryx",
             "late": "",
@@ -431,7 +431,7 @@
         },
         {
             "name": "Jake",
-            "class": "Youth Athlete (M)",
+            "class": "Sportskanone",
             "roster": "Resladero-1, Pyroleo-1, Fiaro-1, UHaFnir-1, Wolwerock-1, Sen-Long-1, Glurak-1, Tornupto-1, Impergator-1, Digdri-Alola-1, Knogga-1, Tauboss-1, Hariyama-1, Voltenso-1, Staraptor-1, Lektrobal-1, Kappalores-1, Frosdedje-1, Dressella-1, Tauros-1, Shardrago-1, Apoquallyp-1, Caesurio-1, Hydragil-1, Amfira-1, Gengar-1, Skaraborn-1, Quartermak-1, Machomei-1, Washakwil-1, Aerodactyl-1, Galagladi-1, Blitza-1, Psiana-1, Lucario-1, Bisofank-1, Iksbat-1, Maxax-1, Togekiss-1, Aeropteryx-1",
             "species": "Resladero, Pyroleo, Fiaro, UHaFnir, Wolwerock, Sen-Long, Glurak, Tornupto, Impergator, Digdri-Alola, Knogga, Tauboss, Hariyama, Voltenso, Staraptor, Lektrobal, Kappalores, Frosdedje, Dressella, Tauros, Shardrago, Apoquallyp, Caesurio, Hydragil, Amfira, Gengar, Skaraborn, Quartermak, Machomei, Washakwil, Aerodactyl, Galagladi, Blitza, Psiana, Lucario, Bisofank, Iksbat, Maxax, Togekiss, Aeropteryx",
             "late": "",
@@ -442,7 +442,7 @@
         },
         {
             "name": "Johannes",
-            "class": "Youth Athlete (M)",
+            "class": "Sportskanone",
             "roster": "Resladero-1, Pyroleo-1, Fiaro-1, UHaFnir-1, Wolwerock-1, Sen-Long-1, Magbrant-1, Glurak-1, Tornupto-1, Impergator-1, Digdri-Alola-1, Knogga-1, Tauboss-1, Hariyama-1, Voltenso-1, Staraptor-1, Lektrobal-1, Kappalores-1, Frosdedje-1, Dressella-1, Tauros-1, Shardrago-1, Apoquallyp-1, Caesurio-1, Hydragil-1, Amfira-1, Gengar-1, Skaraborn-1, Quartermak-1, Machomei-1, Washakwil-1, Aerodactyl-1, Galagladi-1, Blitza-1, Psiana-1, Lucario-1, Bisofank-1, Iksbat-1, Maxax-1, Togekiss-1, Aeropteryx-1",
             "species": "Resladero, Pyroleo, Fiaro, UHaFnir, Wolwerock, Sen-Long, Magbrant, Glurak, Tornupto, Impergator, Digdri-Alola, Knogga, Tauboss, Hariyama, Voltenso, Staraptor, Lektrobal, Kappalores, Frosdedje, Dressella, Tauros, Shardrago, Apoquallyp, Caesurio, Hydragil, Amfira, Gengar, Skaraborn, Quartermak, Machomei, Washakwil, Aerodactyl, Galagladi, Blitza, Psiana, Lucario, Bisofank, Iksbat, Maxax, Togekiss, Aeropteryx",
             "late": "",
@@ -453,7 +453,7 @@
         },
         {
             "name": "Chika",
-            "class": "Youth Athlete (F)",
+            "class": "Sportskanone",
             "roster": "Resladero-1, Pyroleo-1, Fiaro-1, Brigaron-1, UHaFnir-1, Florges-1, Wolwerock-1, Pampross-1, Lohgock-1, Digdri-Alola-1, Knogga-1, Tauboss-1, Hariyama-1, Voltenso-1, Staraptor-1, Gastrodon-1, Lektrobal-1, Kappalores-1, Frosdedje-1, Tauros-1, Shardrago-1, Caesurio-1, Cavalanzas-1, Hydragil-1, Amfira-1, Kommandutan-1, Gengar-1, Skaraborn-1, Quartermak-1, Machomei-1, Washakwil-1, Aerodactyl-1, Galagladi-1, Blitza-1, Psiana-1, Lucario-1, Bisofank-1, Iksbat-1, Maxax-1, Togekiss-1, Aeropteryx-1",
             "species": "Resladero, Pyroleo, Fiaro, Brigaron, UHaFnir, Florges, Wolwerock, Pampross, Lohgock, Digdri-Alola, Knogga, Tauboss, Hariyama, Voltenso, Staraptor, Gastrodon, Lektrobal, Kappalores, Frosdedje, Tauros, Shardrago, Caesurio, Cavalanzas, Hydragil, Amfira, Kommandutan, Gengar, Skaraborn, Quartermak, Machomei, Washakwil, Aerodactyl, Galagladi, Blitza, Psiana, Lucario, Bisofank, Iksbat, Maxax, Togekiss, Aeropteryx",
             "late": "",
@@ -464,7 +464,7 @@
         },
         {
             "name": "Silvia",
-            "class": "Youth Athlete (F)",
+            "class": "Sportskanone",
             "roster": "Resladero-1, Pyroleo-1, Fiaro-1, Brigaron-1, UHaFnir-1, Florges-1, Wolwerock-1, Pampross-1, Lohgock-1, Digdri-Alola-1, Knogga-1, Tauboss-1, Hariyama-1, Voltenso-1, Staraptor-1, Gastrodon-1, Lektrobal-1, Kappalores-1, Frosdedje-1, Tauros-1, Shardrago-1, Caesurio-1, Cavalanzas-1, Hydragil-1, Amfira-1, Kommandutan-1, Gengar-1, Skaraborn-1, Quartermak-1, Machomei-1, Washakwil-1, Aerodactyl-1, Galagladi-1, Blitza-1, Psiana-1, Lucario-1, Bisofank-1, Iksbat-1, Maxax-1, Togekiss-1, Aeropteryx-1",
             "species": "Resladero, Pyroleo, Fiaro, Brigaron, UHaFnir, Florges, Wolwerock, Pampross, Lohgock, Digdri-Alola, Knogga, Tauboss, Hariyama, Voltenso, Staraptor, Gastrodon, Lektrobal, Kappalores, Frosdedje, Tauros, Shardrago, Caesurio, Cavalanzas, Hydragil, Amfira, Kommandutan, Gengar, Skaraborn, Quartermak, Machomei, Washakwil, Aerodactyl, Galagladi, Blitza, Psiana, Lucario, Bisofank, Iksbat, Maxax, Togekiss, Aeropteryx",
             "late": "",
@@ -475,7 +475,7 @@
         },
         {
             "name": "Gwendolyn",
-            "class": "Youth Athlete (F)",
+            "class": "Sportskanone",
             "roster": "Resladero-1, Pyroleo-1, Fiaro-1, Brigaron-1, UHaFnir-1, Florges-1, Wolwerock-1, Pampross-1, Lohgock-1, Digdri-Alola-1, Knogga-1, Tauboss-1, Hariyama-1, Voltenso-1, Staraptor-1, Gastrodon-1, Lektrobal-1, Kappalores-1, Frosdedje-1, Tauros-1, Shardrago-1, Caesurio-1, Cavalanzas-1, Hydragil-1, Amfira-1, Kommandutan-1, Gengar-1, Skaraborn-1, Quartermak-1, Machomei-1, Washakwil-1, Aerodactyl-1, Galagladi-1, Blitza-1, Psiana-1, Lucario-1, Bisofank-1, Iksbat-1, Maxax-1, Togekiss-1, Aeropteryx-1",
             "species": "Resladero, Pyroleo, Fiaro, Brigaron, UHaFnir, Florges, Wolwerock, Pampross, Lohgock, Digdri-Alola, Knogga, Tauboss, Hariyama, Voltenso, Staraptor, Gastrodon, Lektrobal, Kappalores, Frosdedje, Tauros, Shardrago, Caesurio, Cavalanzas, Hydragil, Amfira, Kommandutan, Gengar, Skaraborn, Quartermak, Machomei, Washakwil, Aerodactyl, Galagladi, Blitza, Psiana, Lucario, Bisofank, Iksbat, Maxax, Togekiss, Aeropteryx",
             "late": "",
@@ -486,7 +486,7 @@
         },
         {
             "name": "Timo",
-            "class": "Rising Star (M)",
+            "class": "Trainerhoffnung",
             "roster": "Brigaron-1, Fennexis-1, Quajutsu-1, Bibor-1, Silvarro-1, Fuegro-1, Aranestro-1, Bisaflor-1, Glurak-1, Meganie-1, Tornupto-1, Impergator-1, Gewaldro-1, Lohgock-1, Sumpex-1, Chelterrar-1, Panferno-1, Impoleon-1, Serpiroyal-1, Flambirex-1, Admurai-1, Tauboss-1, Zobiris-1, Ohrdoch-1, Tohaido-1, Firnontor-1, Camerupt-1, Schlapor-1, Geowaz-Alola-1, Lahmus-1, Altaria-1, Rexblisar-1, Pinsir-1, Stahlos-1, Skorgro-1, Porygon2-1, Galagladi-1, Relaxo-1, Seedraking-1, Brutalanda-1",
             "species": "Brigaron, Fennexis, Quajutsu, Bibor, Silvarro, Fuegro, Aranestro, Bisaflor, Glurak, Meganie, Tornupto, Impergator, Gewaldro, Lohgock, Sumpex, Chelterrar, Panferno, Impoleon, Serpiroyal, Flambirex, Admurai, Tauboss, Zobiris, Ohrdoch, Tohaido, Firnontor, Camerupt, Schlapor, Geowaz-Alola, Lahmus, Altaria, Rexblisar, Pinsir, Stahlos, Skorgro, Porygon2, Galagladi, Relaxo, Seedraking, Brutalanda",
             "late": "",
@@ -497,7 +497,7 @@
         },
         {
             "name": "Malcolm",
-            "class": "Rising Star (M)",
+            "class": "Trainerhoffnung",
             "roster": "Arktilas-1, Amagarga-1, Knirfish-1, Firnontor-1, Frosdedje-1, Rexblisar-1, Krawell-1, Snibunna-1, Porygon2-1, Glaziola-1, Siberio-1, Mamutel-1, Gelatwino-1",
             "species": "Arktilas, Amagarga, Knirfish, Firnontor, Frosdedje, Rexblisar, Krawell, Snibunna, Porygon2, Glaziola, Siberio, Mamutel, Gelatwino",
             "late": "",
@@ -508,7 +508,7 @@
         },
         {
             "name": "Brandon",
-            "class": "Rising Star (M)",
+            "class": "Trainerhoffnung",
             "roster": "Viscogon-1, Tectass-1, Primarene-1, Knirfish-1, Gastrodon-1, Pelipper-1, Kappalores-1, Apoquallyp-1, Toxiquak-1, Armaldo-1, Lamellux-1, Hydragil-1, Quaxo-1, Bronzong-1, Lusardin-1, Tentoxa-1, Aquana-1, Siberio-1, Lapras-1, Seedraking-1, Milotic-1",
             "species": "Viscogon, Tectass, Primarene, Knirfish, Gastrodon, Pelipper, Kappalores, Apoquallyp, Toxiquak, Armaldo, Lamellux, Hydragil, Quaxo, Bronzong, Lusardin, Tentoxa, Aquana, Siberio, Lapras, Seedraking, Milotic",
             "late": "",
@@ -519,7 +519,7 @@
         },
         {
             "name": "Ellie",
-            "class": "Rising Star (F)",
+            "class": "Trainerhoffnung",
             "roster": "Brigaron-1, Fennexis-1, Quajutsu-1, Bibor-1, Tectass-1, Silvarro-1, Fuegro-1, Primarene-1, Bisaflor-1, Glurak-1, Meganie-1, Tornupto-1, Impergator-1, Gewaldro-1, Lohgock-1, Sumpex-1, Chelterrar-1, Panferno-1, Impoleon-1, Serpiroyal-1, Flambirex-1, Admurai-1, Tauboss-1, Zobiris-1, Ohrdoch-1, Tohaido-1, Firnontor-1, Camerupt-1, Schlapor-1, Lahmus-1, Laschoking-1, Altaria-1, Quaxo-1, Wailord-1, Meistagrif-1, Stahlos-1, Porygon2-1, Galagladi-1, Mamutel-1, Lapras-1, Garados-1, Milotic-1, Arkani-1",
             "species": "Brigaron, Fennexis, Quajutsu, Bibor, Tectass, Silvarro, Fuegro, Primarene, Bisaflor, Glurak, Meganie, Tornupto, Impergator, Gewaldro, Lohgock, Sumpex, Chelterrar, Panferno, Impoleon, Serpiroyal, Flambirex, Admurai, Tauboss, Zobiris, Ohrdoch, Tohaido, Firnontor, Camerupt, Schlapor, Lahmus, Laschoking, Altaria, Quaxo, Wailord, Meistagrif, Stahlos, Porygon2, Galagladi, Mamutel, Lapras, Garados, Milotic, Arkani",
             "late": "",
@@ -530,7 +530,7 @@
         },
         {
             "name": "Kerstin",
-            "class": "Rising Star (F)",
+            "class": "Trainerhoffnung",
             "roster": "Arktilas-1, Amagarga-1, Knirfish-1, Firnontor-1, Frosdedje-1, Rexblisar-1, Krawell-1, Snibunna-1, Porygon2-1, Glaziola-1, Siberio-1, Mamutel-1, Gelatwino-1",
             "species": "Arktilas, Amagarga, Knirfish, Firnontor, Frosdedje, Rexblisar, Krawell, Snibunna, Porygon2, Glaziola, Siberio, Mamutel, Gelatwino",
             "late": "",
@@ -541,7 +541,7 @@
         },
         {
             "name": "Konstanze",
-            "class": "Rising Star (F)",
+            "class": "Trainerhoffnung",
             "roster": "Viscogon-1, Tectass-1, Primarene-1, Knirfish-1, Gastrodon-1, Pelipper-1, Kappalores-1, Apoquallyp-1, Toxiquak-1, Armaldo-1, Lamellux-1, Hydragil-1, Quaxo-1, Bronzong-1, Lusardin-1, Tentoxa-1, Aquana-1, Siberio-1, Lapras-1, Seedraking-1, Milotic-1",
             "species": "Viscogon, Tectass, Primarene, Knirfish, Gastrodon, Pelipper, Kappalores, Apoquallyp, Toxiquak, Armaldo, Lamellux, Hydragil, Quaxo, Bronzong, Lusardin, Tentoxa, Aquana, Siberio, Lapras, Seedraking, Milotic",
             "late": "",
@@ -552,7 +552,7 @@
         },
         {
             "name": "Ulli",
-            "class": "Sightseer (M)",
+            "class": "Urlauber",
             "roster": "Pyroleo-1, Amagarga-1, Florges-1, Pumpdjinn-1, Wummer-1, Rotom-Wasch-1, Thanathora-2, Resladero-2, Brigaron-2, Chevrumm-2, UHaFnir-2, Pumpdjinn-2, Bibor-2, Parfinesse-2, Schlurplek-1, Curelei-2, Bandelby-2, Rotom-Wasch-2, Schlurplek-2, Knogga-1, Banette-1, Kapilz-1, Honweisel-1, Jiutesto-1, Golgantes-1, Somnivora-1, Tentantel-1, Rexblisar-1, Sleimok-1, Vulnona-1, Skorgro-1, Kokowei-1, Zapplarang-1, Seedraking-1, Sandamer-1, Tornupto-2, Gewaldro-2, Chelterrar-2, Digdri-1, Tauboss-2, Flunkifer-2, Kapilz-2, Raichu-1, Voltenso-2, Camerupt-2, Karadonis-2, Fasasnob-2, Kappalores-2, Tengulist-2, Krawumms-2, Ambidiffel-2, Geowaz-1, Smogmog-2, Kryppuk-2, Shardrago-2, Somnivora-2, Tentantel-2, Toxiquak-2, Zytomega-2, Caesurio-2, Nidoking-2, Armaldo-2, Cavalanzas-2, Drifzepeli-2, Tukanon-2, Skaraborn-2, Stalobor-2, Stahlos-2, Zoroark-2, Guardevoir-2, Bisofank-2, Tangoloss-2, Calamanero-2, Ramoth-2",
             "species": "Pyroleo, Amagarga, Florges, Pumpdjinn, Wummer, Rotom-Wasch, Thanathora, Resladero, Brigaron, Chevrumm, UHaFnir, Bibor, Parfinesse, Schlurplek, Curelei, Bandelby, Knogga, Banette, Kapilz, Honweisel, Jiutesto, Golgantes, Somnivora, Tentantel, Rexblisar, Sleimok, Vulnona, Skorgro, Kokowei, Zapplarang, Seedraking, Sandamer, Tornupto, Gewaldro, Chelterrar, Digdri, Tauboss, Flunkifer, Raichu, Voltenso, Camerupt, Karadonis, Fasasnob, Kappalores, Tengulist, Krawumms, Ambidiffel, Geowaz, Smogmog, Kryppuk, Shardrago, Toxiquak, Zytomega, Caesurio, Nidoking, Armaldo, Cavalanzas, Drifzepeli, Tukanon, Skaraborn, Stalobor, Stahlos, Zoroark, Guardevoir, Bisofank, Tangoloss, Calamanero, Ramoth",
             "late": "",
@@ -563,7 +563,7 @@
         },
         {
             "name": "Barney",
-            "class": "Sightseer (M)",
+            "class": "Urlauber",
             "roster": "Pyroleo-1, Amagarga-1, Florges-1, Pumpdjinn-1, Wummer-1, Rotom-Wasch-1, Thanathora-2, Resladero-2, Pyroleo-2, Brigaron-2, Chevrumm-2, UHaFnir-2, Pumpdjinn-2, Bibor-2, Parfinesse-2, Voluminas-1, Schlurplek-1, Curelei-2, Bandelby-2, Rotom-Wasch-2, Voluminas-2, Schlurplek-2, Knogga-1, Banette-1, Kapilz-1, Honweisel-1, Jiutesto-1, Golgantes-1, Somnivora-1, Tentantel-1, Rexblisar-1, Sleimok-1, Vulnona-1, Skorgro-1, Kokowei-1, Zapplarang-1, Seedraking-1, Sandamer-1, Gewaldro-2, Chelterrar-2, Digdri-1, Tauboss-2, Flunkifer-2, Kapilz-2, Raichu-1, Voltenso-2, Camerupt-2, Karadonis-2, Fasasnob-2, Kappalores-2, Tengulist-2, Krawumms-2, Ambidiffel-2, Geowaz-1, Smogmog-2, Kryppuk-2, Shardrago-2, Somnivora-2, Tentantel-2, Toxiquak-2, Zytomega-2, Caesurio-2, Nidoking-2, Armaldo-2, Cavalanzas-2, Drifzepeli-2, Tukanon-2, Skaraborn-2, Stalobor-2, Stahlos-2, Zoroark-2, Guardevoir-2, Bisofank-2, Tangoloss-2, Calamanero-2, Ramoth-2",
             "species": "Pyroleo, Amagarga, Florges, Pumpdjinn, Wummer, Rotom-Wasch, Thanathora, Resladero, Brigaron, Chevrumm, UHaFnir, Bibor, Parfinesse, Voluminas, Schlurplek, Curelei, Bandelby, Knogga, Banette, Kapilz, Honweisel, Jiutesto, Golgantes, Somnivora, Tentantel, Rexblisar, Sleimok, Vulnona, Skorgro, Kokowei, Zapplarang, Seedraking, Sandamer, Gewaldro, Chelterrar, Digdri, Tauboss, Flunkifer, Raichu, Voltenso, Camerupt, Karadonis, Fasasnob, Kappalores, Tengulist, Krawumms, Ambidiffel, Geowaz, Smogmog, Kryppuk, Shardrago, Toxiquak, Zytomega, Caesurio, Nidoking, Armaldo, Cavalanzas, Drifzepeli, Tukanon, Skaraborn, Stalobor, Stahlos, Zoroark, Guardevoir, Bisofank, Tangoloss, Calamanero, Ramoth",
             "late": "",
@@ -574,7 +574,7 @@
         },
         {
             "name": "Dejan",
-            "class": "Sightseer (M)",
+            "class": "Urlauber",
             "roster": "Choreogel-Buyo-1, Tectass-1, Fuegro-1, Rotom-Schneid-1, Feelinara-2, Fuegro-2, Togedemaru-2, Rotom-Schneid-2, Flunkifer-1, Absol-1, Honweisel-1, Staraptor-1, Tauros-1, Irokex-1, Drifzepeli-1, Snibunna-1, Zwirrfinst-1, Wie-Shu-1, Garados-1, Arkani-1, Brutalanda-1, Flunkifer-2, Absol-2, Honweisel-2, Staraptor-2, Fermicula-2, Tauros-2, Irokex-2, Snibunna-2, Skorgro-2, Zwirrfinst-2, Garados-2, Arkani-2, Brutalanda-2",
             "species": "Choreogel-Buyo, Tectass, Fuegro, Rotom-Schneid, Feelinara, Togedemaru, Flunkifer, Absol, Honweisel, Staraptor, Tauros, Irokex, Drifzepeli, Snibunna, Zwirrfinst, Wie-Shu, Garados, Arkani, Brutalanda, Fermicula, Skorgro",
             "late": "",
@@ -585,7 +585,7 @@
         },
         {
             "name": "Gabi",
-            "class": "Sightseer (F)",
+            "class": "Urlauberin",
             "roster": "Arktilas-1, Chevrumm-1, Rotom-Hitze-1, Elevoltek-1, Monargoras-2, Florges-2, Trombork-2, Voluminas-1, Schlurplek-1, Choreogel-Hula-1, Curelei-2, Mantidea-2, Bandelby-2, Silvarro-2, Kosturso-2, Moruda-2, Rotom-Hitze-2, Elevoltek-2, Voluminas-2, Schlurplek-2, Knogga-1, Karadonis-1, Fasasnob-1, Echnatoll-1, Apoquallyp-1, Zytomega-1, Sleimok-1, Ampharos-1, Bronzong-1, Vulnona-1, Meistagrif-1, Yanmega-1, Kokowei-1, Skelabra-1, Walraisa-1, Mamutel-1, Rihornior-1, Tangoloss-1, Sandamer-1, Meganie-2, Digdri-1, Ohrdoch-2, Raichu-1, Staraptor-2, Jiutesto-2, Hutsassa-2, Lektrobal-2, Schlapor-2, Flampivian-2, Fermicula-2, Geowaz-1, Irokex-2, Altaria-2, Morbitesse-2, Nidoqueen-2, Hydragil-2, Tukanon-2, Kommandutan-2, Koalelu-2, Ursaring-2, Hundemon-2, Fruyal-2, Quartermak-2, Piondragi-2, Pottrott-2, Kramshef-2, Washakwil-2, Galagladi-2, Kokowei-Alola-1, Klikdiklak-2, Hippoterus-2, Kleoparda-2, Wie-Shu-2, Siberio-2, Stolloss-2, Milotic-2, Maxax-2, Togekiss-2, Dragoran-2, Despotar-2, Trikephalo-2, Letarking-2",
             "species": "Arktilas, Chevrumm, Rotom-Hitze, Elevoltek, Monargoras, Florges, Trombork, Voluminas, Schlurplek, Choreogel-Hula, Curelei, Mantidea, Bandelby, Silvarro, Kosturso, Moruda, Knogga, Karadonis, Fasasnob, Echnatoll, Apoquallyp, Zytomega, Sleimok, Ampharos, Bronzong, Vulnona, Meistagrif, Yanmega, Kokowei, Skelabra, Walraisa, Mamutel, Rihornior, Tangoloss, Sandamer, Meganie, Digdri, Ohrdoch, Raichu, Staraptor, Jiutesto, Hutsassa, Lektrobal, Schlapor, Flampivian, Fermicula, Geowaz, Irokex, Altaria, Morbitesse, Nidoqueen, Hydragil, Tukanon, Kommandutan, Koalelu, Ursaring, Hundemon, Fruyal, Quartermak, Piondragi, Pottrott, Kramshef, Washakwil, Galagladi, Kokowei-Alola, Klikdiklak, Hippoterus, Kleoparda, Wie-Shu, Siberio, Stolloss, Milotic, Maxax, Togekiss, Dragoran, Despotar, Trikephalo, Letarking",
             "late": "",
@@ -596,7 +596,7 @@
         },
         {
             "name": "Ryoko",
-            "class": "Sightseer (F)",
+            "class": "Urlauberin",
             "roster": "Arktilas-1, Chevrumm-1, Rotom-Hitze-1, Elevoltek-1, Monargoras-2, Florges-2, Trombork-2, Schlurplek-1, Choreogel-Hula-1, Curelei-2, Mantidea-2, Bandelby-2, Silvarro-2, Kosturso-2, Moruda-2, Rotom-Hitze-2, Elevoltek-2, Schlurplek-2, Knogga-1, Karadonis-1, Fasasnob-1, Echnatoll-1, Apoquallyp-1, Zytomega-1, Sleimok-1, Ampharos-1, Bronzong-1, Vulnona-1, Meistagrif-1, Yanmega-1, Kokowei-1, Skelabra-1, Walraisa-1, Mamutel-1, Rihornior-1, Tangoloss-1, Sandamer-1, Meganie-2, Digdri-1, Ohrdoch-2, Raichu-1, Staraptor-2, Jiutesto-2, Hutsassa-2, Lektrobal-2, Schlapor-2, Flampivian-2, Fermicula-2, Geowaz-1, Irokex-2, Altaria-2, Morbitesse-2, Nidoqueen-2, Hydragil-2, Tukanon-2, Kommandutan-2, Koalelu-2, Ursaring-2, Hundemon-2, Fruyal-2, Quartermak-2, Piondragi-2, Pottrott-2, Kramshef-2, Washakwil-2, Galagladi-2, Kokowei-Alola-1, Klikdiklak-2, Hippoterus-2, Kleoparda-2, Wie-Shu-2, Siberio-2, Stolloss-2, Milotic-2, Maxax-2, Togekiss-2, Dragoran-2, Despotar-2, Trikephalo-2, Letarking-2",
             "species": "Arktilas, Chevrumm, Rotom-Hitze, Elevoltek, Monargoras, Florges, Trombork, Schlurplek, Choreogel-Hula, Curelei, Mantidea, Bandelby, Silvarro, Kosturso, Moruda, Knogga, Karadonis, Fasasnob, Echnatoll, Apoquallyp, Zytomega, Sleimok, Ampharos, Bronzong, Vulnona, Meistagrif, Yanmega, Kokowei, Skelabra, Walraisa, Mamutel, Rihornior, Tangoloss, Sandamer, Meganie, Digdri, Ohrdoch, Raichu, Staraptor, Jiutesto, Hutsassa, Lektrobal, Schlapor, Flampivian, Fermicula, Geowaz, Irokex, Altaria, Morbitesse, Nidoqueen, Hydragil, Tukanon, Kommandutan, Koalelu, Ursaring, Hundemon, Fruyal, Quartermak, Piondragi, Pottrott, Kramshef, Washakwil, Galagladi, Kokowei-Alola, Klikdiklak, Hippoterus, Kleoparda, Wie-Shu, Siberio, Stolloss, Milotic, Maxax, Togekiss, Dragoran, Despotar, Trikephalo, Letarking",
             "late": "",
@@ -607,7 +607,7 @@
         },
         {
             "name": "Courtney",
-            "class": "Sightseer (F)",
+            "class": "Urlauberin",
             "roster": "Choreogel-Buyo-1, Tectass-1, Fuegro-1, Rotom-Schneid-1, Feelinara-2, Fuegro-2, Togedemaru-2, Rotom-Schneid-2, Flunkifer-1, Absol-1, Honweisel-1, Staraptor-1, Tauros-1, Irokex-1, Drifzepeli-1, Snibunna-1, Zwirrfinst-1, Wie-Shu-1, Garados-1, Arkani-1, Brutalanda-1, Flunkifer-2, Absol-2, Honweisel-2, Staraptor-2, Fermicula-2, Tauros-2, Irokex-2, Snibunna-2, Skorgro-2, Zwirrfinst-2, Garados-2, Arkani-2, Brutalanda-2",
             "species": "Choreogel-Buyo, Tectass, Fuegro, Rotom-Schneid, Feelinara, Togedemaru, Flunkifer, Absol, Honweisel, Staraptor, Tauros, Irokex, Drifzepeli, Snibunna, Zwirrfinst, Wie-Shu, Garados, Arkani, Brutalanda, Fermicula, Skorgro",
             "late": "",
@@ -772,7 +772,7 @@
         },
         {
             "name": "Gottfried",
-            "class": "Golfer (M)",
+            "class": "Golfer",
             "roster": "Pyroleo-2, Fennexis-2, Chevrumm-2, UHaFnir-2, Trombork-2, Wolwerock-Nacht-1, Mantidea-2, Moruda-2, Rotom-Schneid-2, Rocara-3, Monargoras-3, Amagarga-3, Brigaron-3, UHaFnir-3, Florges-3, Viscogon-3, Trombork-3, Wummer-3, Bibor-3, Elevoltek-2, Schlurplek-2, Meteno-3, Silvarro-3, Knirfish-3, Sen-Long-3, Rotom-Schneid-3, Elevoltek-3, Schlurplek-3, Banette-2, Kapilz-2, Fasasnob-2, Dressella-2, Echnatoll-2, Tauros-2, Tentantel-2, Zytomega-2, Rexblisar-2, Lamellux-2, Kommandutan-2, Koalelu-2, Fruyal-2, Quartermak-2, Kramshef-2, Skorgro-2, Kokowei-Alola-1, Folipurba-2, Tangoloss-2, Milotic-2, Dragoran-2, Serpiroyal-3, Tauboss-3, Ohrdoch-3, Staraptor-3, Fasasnob-3, Hutsassa-3, Tengulist-3, Schlapor-3, Echnatoll-3, Kryppuk-3, Wielie-3, Hydragil-3, Ursaring-3, Snibunna-3, Washakwil-3, Yanmega-3, Nachtara-3, Kleoparda-3, Zwirrfinst-3, Bisofank-3, Walraisa-3, Heiteira-3, Sandamer-2, Maxax-3, Ramoth-3, Aeropteryx-3, Dragoran-3, Despotar-3, Metagross-3, Knakrack-3, Trikephalo-3",
             "species": "Pyroleo, Fennexis, Chevrumm, UHaFnir, Trombork, Wolwerock-Nacht, Mantidea, Moruda, Rotom-Schneid, Rocara, Monargoras, Amagarga, Brigaron, Florges, Viscogon, Wummer, Bibor, Elevoltek, Schlurplek, Meteno, Silvarro, Knirfish, Sen-Long, Banette, Kapilz, Fasasnob, Dressella, Echnatoll, Tauros, Tentantel, Zytomega, Rexblisar, Lamellux, Kommandutan, Koalelu, Fruyal, Quartermak, Kramshef, Skorgro, Kokowei-Alola, Folipurba, Tangoloss, Milotic, Dragoran, Serpiroyal, Tauboss, Ohrdoch, Staraptor, Hutsassa, Tengulist, Schlapor, Kryppuk, Wielie, Hydragil, Ursaring, Snibunna, Washakwil, Yanmega, Nachtara, Kleoparda, Zwirrfinst, Bisofank, Walraisa, Heiteira, Sandamer, Maxax, Ramoth, Aeropteryx, Despotar, Metagross, Knakrack, Trikephalo",
             "late": "",
@@ -783,7 +783,7 @@
         },
         {
             "name": "Geoffrey",
-            "class": "Golfer (M)",
+            "class": "Golfer",
             "roster": "Pyroleo-2, Fennexis-2, Chevrumm-2, UHaFnir-2, Trombork-2, Wolwerock-Nacht-1, Mantidea-2, Moruda-2, Rotom-Schneid-2, Rocara-3, Monargoras-3, Amagarga-3, Brigaron-3, UHaFnir-3, Florges-3, Viscogon-3, Trombork-3, Wummer-3, Bibor-3, Elevoltek-2, Meteno-3, Silvarro-3, Knirfish-3, Sen-Long-3, Rotom-Schneid-3, Elevoltek-3, Banette-2, Kapilz-2, Fasasnob-2, Dressella-2, Echnatoll-2, Tauros-2, Tentantel-2, Zytomega-2, Rexblisar-2, Lamellux-2, Kommandutan-2, Koalelu-2, Fruyal-2, Quartermak-2, Kramshef-2, Skorgro-2, Kokowei-Alola-1, Folipurba-2, Tangoloss-2, Milotic-2, Dragoran-2, Serpiroyal-3, Ohrdoch-3, Staraptor-3, Fasasnob-3, Hutsassa-3, Kappalores-3, Tengulist-3, Schlapor-3, Echnatoll-3, Kryppuk-3, Elfun-3, Wielie-3, Hydragil-3, Ursaring-3, Snibunna-3, Washakwil-3, Yanmega-3, Nachtara-3, Kleoparda-3, Zwirrfinst-3, Bisofank-3, Walraisa-3, Heiteira-3, Sandamer-2, Maxax-3, Ramoth-3, Aeropteryx-3, Dragoran-3, Despotar-3, Metagross-3, Knakrack-3, Trikephalo-3",
             "species": "Pyroleo, Fennexis, Chevrumm, UHaFnir, Trombork, Wolwerock-Nacht, Mantidea, Moruda, Rotom-Schneid, Rocara, Monargoras, Amagarga, Brigaron, Florges, Viscogon, Wummer, Bibor, Elevoltek, Meteno, Silvarro, Knirfish, Sen-Long, Banette, Kapilz, Fasasnob, Dressella, Echnatoll, Tauros, Tentantel, Zytomega, Rexblisar, Lamellux, Kommandutan, Koalelu, Fruyal, Quartermak, Kramshef, Skorgro, Kokowei-Alola, Folipurba, Tangoloss, Milotic, Dragoran, Serpiroyal, Ohrdoch, Staraptor, Hutsassa, Kappalores, Tengulist, Schlapor, Kryppuk, Elfun, Wielie, Hydragil, Ursaring, Snibunna, Washakwil, Yanmega, Nachtara, Kleoparda, Zwirrfinst, Bisofank, Walraisa, Heiteira, Sandamer, Maxax, Ramoth, Aeropteryx, Despotar, Metagross, Knakrack, Trikephalo",
             "late": "",
@@ -794,7 +794,7 @@
         },
         {
             "name": "Ingmar",
-            "class": "Golfer (M)",
+            "class": "Golfer",
             "roster": "Feelinara-2, Feelinara-3, Aquana-2, Blitza-2, Flamara-2, Psiana-2, Nachtara-2, Folipurba-2, Glaziola-2, Aquana-3, Blitza-3, Flamara-3, Psiana-3, Nachtara-3, Folipurba-3, Glaziola-3",
             "species": "Feelinara, Aquana, Blitza, Flamara, Psiana, Nachtara, Folipurba, Glaziola",
             "late": "",
@@ -805,7 +805,7 @@
         },
         {
             "name": "Denise",
-            "class": "Golfer (F)",
+            "class": "Golferin",
             "roster": "Pyroleo-2, Arktilas-2, Quajutsu-2, Chevrumm-2, Trombork-2, Pumpdjinn-2, Wolwerock-Nacht-1, Mantidea-2, Silvarro-2, Moruda-2, Rotom-Schneid-2, Quajutsu-3, Chevrumm-3, Magbrant-2, Voluminas-2, Curelei-3, Aggrostella-3, Tectass-3, Donarion-3, Kosturso-3, Knirfish-3, Moruda-3, Rotom-Schneid-3, Magbrant-3, Voluminas-3, Bisaflor-2, Kapilz-2, Honweisel-2, Fasasnob-2, Dressella-2, Tauros-2, Tentantel-2, Rexblisar-2, Lamellux-2, Koalelu-2, Ampharos-2, Fruyal-2, Quartermak-2, Kramshef-2, Aerodactyl-2, Colossand-2, Kokowei-Alola-1, Folipurba-2, Mamutel-2, Tangoloss-2, Milotic-2, Brutalanda-2, Bisaflor-3, Meganie-3, Impergator-3, Gewaldro-3, Impoleon-3, Tauboss-3, Ohrdoch-3, Staraptor-3, Hutsassa-3, Tengulist-3, Schlapor-3, Apoquallyp-3, Wielie-3, Ampharos-3, Ursaring-3, Snibunna-3, Washakwil-3, Nachtara-3, Kleoparda-3, Bisofank-3, Heiteira-3, Sandamer-2, Maxax-3, Ramoth-3, Aeropteryx-3, Despotar-3, Metagross-3, Knakrack-3, Trikephalo-3",
             "species": "Pyroleo, Arktilas, Quajutsu, Chevrumm, Trombork, Pumpdjinn, Wolwerock-Nacht, Mantidea, Silvarro, Moruda, Rotom-Schneid, Magbrant, Voluminas, Curelei, Aggrostella, Tectass, Donarion, Kosturso, Knirfish, Bisaflor, Kapilz, Honweisel, Fasasnob, Dressella, Tauros, Tentantel, Rexblisar, Lamellux, Koalelu, Ampharos, Fruyal, Quartermak, Kramshef, Aerodactyl, Colossand, Kokowei-Alola, Folipurba, Mamutel, Tangoloss, Milotic, Brutalanda, Meganie, Impergator, Gewaldro, Impoleon, Tauboss, Ohrdoch, Staraptor, Hutsassa, Tengulist, Schlapor, Apoquallyp, Wielie, Ursaring, Snibunna, Washakwil, Nachtara, Kleoparda, Bisofank, Heiteira, Sandamer, Maxax, Ramoth, Aeropteryx, Despotar, Metagross, Knakrack, Trikephalo",
             "late": "",
@@ -816,7 +816,7 @@
         },
         {
             "name": "Claudette",
-            "class": "Golfer (F)",
+            "class": "Golferin",
             "roster": "Pyroleo-2, Arktilas-2, Quajutsu-2, Chevrumm-2, Trombork-2, Pumpdjinn-2, Wolwerock-Nacht-1, Mantidea-2, Silvarro-2, Moruda-2, Rotom-Schneid-2, Quajutsu-3, Chevrumm-3, Voluminas-2, Schlurplek-2, Curelei-3, Aggrostella-3, Tectass-3, Donarion-3, Kosturso-3, Knirfish-3, Moruda-3, Rotom-Schneid-3, Voluminas-3, Schlurplek-3, Bisaflor-2, Kapilz-2, Honweisel-2, Fasasnob-2, Dressella-2, Tauros-2, Tentantel-2, Rexblisar-2, Lamellux-2, Koalelu-2, Ampharos-2, Fruyal-2, Quartermak-2, Kramshef-2, Aerodactyl-2, Colossand-2, Kokowei-Alola-1, Folipurba-2, Mamutel-2, Tangoloss-2, Milotic-2, Brutalanda-2, Bisaflor-3, Meganie-3, Impergator-3, Gewaldro-3, Impoleon-3, Ohrdoch-3, Staraptor-3, Hutsassa-3, Kappalores-3, Tengulist-3, Schlapor-3, Elfun-3, Apoquallyp-3, Wielie-3, Ampharos-3, Ursaring-3, Snibunna-3, Washakwil-3, Nachtara-3, Kleoparda-3, Bisofank-3, Heiteira-3, Sandamer-2, Maxax-3, Ramoth-3, Aeropteryx-3, Despotar-3, Metagross-3, Knakrack-3, Trikephalo-3",
             "species": "Pyroleo, Arktilas, Quajutsu, Chevrumm, Trombork, Pumpdjinn, Wolwerock-Nacht, Mantidea, Silvarro, Moruda, Rotom-Schneid, Voluminas, Schlurplek, Curelei, Aggrostella, Tectass, Donarion, Kosturso, Knirfish, Bisaflor, Kapilz, Honweisel, Fasasnob, Dressella, Tauros, Tentantel, Rexblisar, Lamellux, Koalelu, Ampharos, Fruyal, Quartermak, Kramshef, Aerodactyl, Colossand, Kokowei-Alola, Folipurba, Mamutel, Tangoloss, Milotic, Brutalanda, Meganie, Impergator, Gewaldro, Impoleon, Ohrdoch, Staraptor, Hutsassa, Kappalores, Tengulist, Schlapor, Elfun, Apoquallyp, Wielie, Ursaring, Snibunna, Washakwil, Nachtara, Kleoparda, Bisofank, Heiteira, Sandamer, Maxax, Ramoth, Aeropteryx, Despotar, Metagross, Knakrack, Trikephalo",
             "late": "",
@@ -827,7 +827,7 @@
         },
         {
             "name": "Emily",
-            "class": "Golfer (F)",
+            "class": "Golferin",
             "roster": "Feelinara-2, Feelinara-3, Aquana-2, Blitza-2, Flamara-2, Psiana-2, Nachtara-2, Folipurba-2, Glaziola-2, Aquana-3, Blitza-3, Flamara-3, Psiana-3, Nachtara-3, Folipurba-3, Glaziola-3",
             "species": "Feelinara, Aquana, Blitza, Flamara, Psiana, Nachtara, Folipurba, Glaziola",
             "late": "",
@@ -838,7 +838,7 @@
         },
         {
             "name": "Sullivan",
-            "class": "Pokemon Breeder (M)",
+            "class": "Pokémon-Züchter",
             "roster": "Fiaro-2, Feelinara-2, Pumpdjinn-2, Silvarro-2, Tortunator-2, Rotom-Wasch-2, Pyroleo-3, Elevoltek-2, Voluminas-2, Schlurplek-2, Choreogel-Cheerleading-1, Mantidea-3, Pampross-3, Silvarro-3, Togedemaru-3, Rotom-Wasch-3, Elevoltek-3, Voluminas-3, Schlurplek-3, Tauboss-2, Ohrdoch-2, Firnontor-2, Staraptor-2, Fasasnob-2, Schlapor-2, Ambidiffel-2, Somnivora-2, Hundemon-2, Mimigma-2, Washakwil-2, Tentoxa-2, Flamara-2, Nachtara-2, Glaziola-2, Kleoparda-2, Rihornior-2, Heiteira-2, Sandamer-Alola-1, Arkani-2, Turtok-3, Chelterrar-3, Serpiroyal-3, Digdri-2, Knogga-2, Meditalis-3, Flunkifer-3, Banette-3, Zobiris-3, Lanturn-3, Panzaeron-3, Absol-3, Tohaido-3, Raichu-Alola-2, Firnontor-3, Voltenso-3, Gastrodon-3, Camerupt-3, Karadonis-3, Jiutesto-3, Pelipper-3, Dressella-3, Kangama-3, Tauros-3, Zytomega-3, Nidoqueen-3, Nidoking-3, Kommandutan-3, Koalelu-3, Wailord-3, Vulnona-2, Grypheldis-3, Kokowei-2, Skelabra-3, Aquana-3, Blitza-3, Psiana-3, Folipurba-3, Lucario-3, Hippoterus-3, Wie-Shu-3, Siberio-3, Stolloss-3, Iksbat-3, Magnezone-3, Porygon-Z-3, Gelatwino-3, Relaxo-3, Seedraking-3, Milotic-3, Calamanero-3, Togekiss-3, Letarking-3",
             "species": "Fiaro, Feelinara, Pumpdjinn, Silvarro, Tortunator, Rotom-Wasch, Pyroleo, Elevoltek, Voluminas, Schlurplek, Choreogel-Cheerleading, Mantidea, Pampross, Togedemaru, Tauboss, Ohrdoch, Firnontor, Staraptor, Fasasnob, Schlapor, Ambidiffel, Somnivora, Hundemon, Mimigma, Washakwil, Tentoxa, Flamara, Nachtara, Glaziola, Kleoparda, Rihornior, Heiteira, Sandamer-Alola, Arkani, Turtok, Chelterrar, Serpiroyal, Digdri, Knogga, Meditalis, Flunkifer, Banette, Zobiris, Lanturn, Panzaeron, Absol, Tohaido, Raichu-Alola, Voltenso, Gastrodon, Camerupt, Karadonis, Jiutesto, Pelipper, Dressella, Kangama, Tauros, Zytomega, Nidoqueen, Nidoking, Kommandutan, Koalelu, Wailord, Vulnona, Grypheldis, Kokowei, Skelabra, Aquana, Blitza, Psiana, Folipurba, Lucario, Hippoterus, Wie-Shu, Siberio, Stolloss, Iksbat, Magnezone, Porygon-Z, Gelatwino, Relaxo, Seedraking, Milotic, Calamanero, Togekiss, Letarking",
             "late": "",
@@ -849,7 +849,7 @@
         },
         {
             "name": "Luke",
-            "class": "Pokemon Breeder (M)",
+            "class": "Pokémon-Züchter",
             "roster": "Fiaro-2, Feelinara-2, Pumpdjinn-2, Silvarro-2, Tortunator-2, Rotom-Wasch-2, Schlurplek-2, Choreogel-Cheerleading-1, Wolwerock-2, Mantidea-3, Pampross-3, Silvarro-3, Togedemaru-3, Rotom-Wasch-3, Schlurplek-3, Tauboss-2, Ohrdoch-2, Firnontor-2, Staraptor-2, Fasasnob-2, Schlapor-2, Ambidiffel-2, Somnivora-2, Hundemon-2, Mimigma-2, Washakwil-2, Tentoxa-2, Flamara-2, Nachtara-2, Glaziola-2, Kleoparda-2, Rihornior-2, Heiteira-2, Sandamer-Alola-1, Arkani-2, Turtok-3, Chelterrar-3, Serpiroyal-3, Digdri-2, Knogga-2, Meditalis-3, Banette-3, Zobiris-3, Lanturn-3, Kapilz-3, Panzaeron-3, Absol-3, Tohaido-3, Raichu-Alola-2, Firnontor-3, Voltenso-3, Gastrodon-3, Camerupt-3, Karadonis-3, Jiutesto-3, Pelipper-3, Dressella-3, Kangama-3, Tauros-3, Zytomega-3, Nidoqueen-3, Nidoking-3, Bollterus-3, Kommandutan-3, Koalelu-3, Wailord-3, Vulnona-2, Grypheldis-3, Kokowei-2, Skelabra-3, Aquana-3, Blitza-3, Psiana-3, Folipurba-3, Lucario-3, Hippoterus-3, Siberio-3, Stolloss-3, Iksbat-3, Magnezone-3, Porygon-Z-3, Gelatwino-3, Relaxo-3, Seedraking-3, Milotic-3, Calamanero-3, Togekiss-3, Letarking-3",
             "species": "Fiaro, Feelinara, Pumpdjinn, Silvarro, Tortunator, Rotom-Wasch, Schlurplek, Choreogel-Cheerleading, Wolwerock, Mantidea, Pampross, Togedemaru, Tauboss, Ohrdoch, Firnontor, Staraptor, Fasasnob, Schlapor, Ambidiffel, Somnivora, Hundemon, Mimigma, Washakwil, Tentoxa, Flamara, Nachtara, Glaziola, Kleoparda, Rihornior, Heiteira, Sandamer-Alola, Arkani, Turtok, Chelterrar, Serpiroyal, Digdri, Knogga, Meditalis, Banette, Zobiris, Lanturn, Kapilz, Panzaeron, Absol, Tohaido, Raichu-Alola, Voltenso, Gastrodon, Camerupt, Karadonis, Jiutesto, Pelipper, Dressella, Kangama, Tauros, Zytomega, Nidoqueen, Nidoking, Bollterus, Kommandutan, Koalelu, Wailord, Vulnona, Grypheldis, Kokowei, Skelabra, Aquana, Blitza, Psiana, Folipurba, Lucario, Hippoterus, Siberio, Stolloss, Iksbat, Magnezone, Porygon-Z, Gelatwino, Relaxo, Seedraking, Milotic, Calamanero, Togekiss, Letarking",
             "late": "",
@@ -860,7 +860,7 @@
         },
         {
             "name": "Sid",
-            "class": "Pokemon Breeder (M)",
+            "class": "Pokémon-Züchter",
             "roster": "Mantidea-1, Pyroleo-2, Fiaro-2, Fennexis-2, Tortunator-2, Rotom-Hitze-2, Fennexis-3, Magbrant-2, Mantidea-3, Fuegro-3, Rotom-Hitze-3, Magbrant-3, Tornupto-1, Vulnona-1, Arkani-1, Tornupto-2, Panferno-2, Flambirex-2, Camerupt-2, Glurak-3, Lohgock-3, Panferno-3, Flambirex-3, Tengulist-3, Dressella-3, Flampivian-3, Fruyal-3, Vulnona-2, Kokowei-2, Folipurba-3, Tangoloss-3, Arkani-3",
             "species": "Mantidea, Pyroleo, Fiaro, Fennexis, Tortunator, Rotom-Hitze, Magbrant, Fuegro, Tornupto, Vulnona, Arkani, Panferno, Flambirex, Camerupt, Glurak, Lohgock, Tengulist, Dressella, Flampivian, Fruyal, Kokowei, Folipurba, Tangoloss",
             "late": "",
@@ -871,7 +871,7 @@
         },
         {
             "name": "Rita",
-            "class": "Pokemon Breeder (F)",
+            "class": "Pokémon-Züchterin",
             "roster": "Fiaro-2, Feelinara-2, Pumpdjinn-2, Primarene-2, Rotom-Frost-2, Pyroleo-3, Fennexis-3, Elevoltek-2, Voluminas-2, Schlurplek-2, Choreogel-Cheerleading-1, Mantidea-3, Pampross-3, Primarene-3, Togedemaru-3, Rotom-Frost-3, Elevoltek-3, Voluminas-3, Schlurplek-3, Admurai-2, Tauboss-2, Ohrdoch-2, Staraptor-2, Fasasnob-2, Frosdedje-2, Ambidiffel-2, Somnivora-2, Hundemon-2, Mimigma-2, Grypheldis-2, Washakwil-2, Yanmega-2, Flamara-2, Nachtara-2, Glaziola-2, Kleoparda-2, Heiteira-2, Arkani-2, Tornupto-3, Admurai-3, Flunkifer-3, Banette-3, Zobiris-3, Lanturn-3, Absol-3, Raichu-Alola-2, Voltenso-3, Camerupt-3, Pelipper-3, Lektrobal-3, Krawumms-3, Frosdedje-3, Dressella-3, Ambidiffel-3, Echnatoll-3, Golgantes-3, Fermicula-3, Geowaz-2, Lahmus-3, Smogmog-3, Kangama-3, Tauros-3, Shardrago-3, Zytomega-3, Nidoqueen-3, Nidoking-3, Koalelu-3, Wailord-3, Vulnona-2, Lusardin-3, Stahlos-3, Skorgro-3, Grypheldis-3, Tentoxa-3, Aerodactyl-3, Porygon2-3, Colossand-3, Kokowei-2, Starmie-3, Klikdiklak-3, Aquana-3, Blitza-3, Psiana-3, Folipurba-3, Wie-Shu-3, Siberio-3, Iksbat-3, Rihornior-3, Relaxo-3, Milotic-3, Togekiss-3, Letarking-3",
             "species": "Fiaro, Feelinara, Pumpdjinn, Primarene, Rotom-Frost, Pyroleo, Fennexis, Elevoltek, Voluminas, Schlurplek, Choreogel-Cheerleading, Mantidea, Pampross, Togedemaru, Admurai, Tauboss, Ohrdoch, Staraptor, Fasasnob, Frosdedje, Ambidiffel, Somnivora, Hundemon, Mimigma, Grypheldis, Washakwil, Yanmega, Flamara, Nachtara, Glaziola, Kleoparda, Heiteira, Arkani, Tornupto, Flunkifer, Banette, Zobiris, Lanturn, Absol, Raichu-Alola, Voltenso, Camerupt, Pelipper, Lektrobal, Krawumms, Dressella, Echnatoll, Golgantes, Fermicula, Geowaz, Lahmus, Smogmog, Kangama, Tauros, Shardrago, Zytomega, Nidoqueen, Nidoking, Koalelu, Wailord, Vulnona, Lusardin, Stahlos, Skorgro, Tentoxa, Aerodactyl, Porygon2, Colossand, Kokowei, Starmie, Klikdiklak, Aquana, Blitza, Psiana, Folipurba, Wie-Shu, Siberio, Iksbat, Rihornior, Relaxo, Milotic, Togekiss, Letarking",
             "late": "",
@@ -882,7 +882,7 @@
         },
         {
             "name": "Izumi",
-            "class": "Pokemon Breeder (F)",
+            "class": "Pokémon-Züchterin",
             "roster": "Fiaro-2, Feelinara-2, Pumpdjinn-2, Primarene-2, Rotom-Frost-2, Fennexis-3, Schlurplek-2, Choreogel-Cheerleading-1, Wolwerock-2, Mantidea-3, Pampross-3, Primarene-3, Togedemaru-3, Rotom-Frost-3, Schlurplek-3, Admurai-2, Tauboss-2, Ohrdoch-2, Staraptor-2, Fasasnob-2, Frosdedje-2, Ambidiffel-2, Somnivora-2, Hundemon-2, Mimigma-2, Grypheldis-2, Washakwil-2, Yanmega-2, Flamara-2, Nachtara-2, Glaziola-2, Kleoparda-2, Heiteira-2, Arkani-2, Tornupto-3, Admurai-3, Banette-3, Zobiris-3, Lanturn-3, Kapilz-3, Absol-3, Raichu-Alola-2, Voltenso-3, Camerupt-3, Pelipper-3, Lektrobal-3, Krawumms-3, Frosdedje-3, Dressella-3, Ambidiffel-3, Echnatoll-3, Golgantes-3, Fermicula-3, Geowaz-2, Lahmus-3, Smogmog-3, Kangama-3, Tauros-3, Shardrago-3, Zytomega-3, Nidoqueen-3, Nidoking-3, Bollterus-3, Koalelu-3, Wailord-3, Vulnona-2, Lusardin-3, Stahlos-3, Skorgro-3, Grypheldis-3, Tentoxa-3, Aerodactyl-3, Porygon2-3, Colossand-3, Kokowei-2, Starmie-3, Klikdiklak-3, Aquana-3, Blitza-3, Psiana-3, Folipurba-3, Siberio-3, Iksbat-3, Rihornior-3, Relaxo-3, Milotic-3, Togekiss-3, Letarking-3",
             "species": "Fiaro, Feelinara, Pumpdjinn, Primarene, Rotom-Frost, Fennexis, Schlurplek, Choreogel-Cheerleading, Wolwerock, Mantidea, Pampross, Togedemaru, Admurai, Tauboss, Ohrdoch, Staraptor, Fasasnob, Frosdedje, Ambidiffel, Somnivora, Hundemon, Mimigma, Grypheldis, Washakwil, Yanmega, Flamara, Nachtara, Glaziola, Kleoparda, Heiteira, Arkani, Tornupto, Banette, Zobiris, Lanturn, Kapilz, Absol, Raichu-Alola, Voltenso, Camerupt, Pelipper, Lektrobal, Krawumms, Dressella, Echnatoll, Golgantes, Fermicula, Geowaz, Lahmus, Smogmog, Kangama, Tauros, Shardrago, Zytomega, Nidoqueen, Nidoking, Bollterus, Koalelu, Wailord, Vulnona, Lusardin, Stahlos, Skorgro, Tentoxa, Aerodactyl, Porygon2, Colossand, Kokowei, Starmie, Klikdiklak, Aquana, Blitza, Psiana, Folipurba, Siberio, Iksbat, Rihornior, Relaxo, Milotic, Togekiss, Letarking",
             "late": "",
@@ -893,7 +893,7 @@
         },
         {
             "name": "Aya",
-            "class": "Pokemon Breeder (F)",
+            "class": "Pokémon-Züchterin",
             "roster": "Mantidea-1, Pyroleo-2, Fiaro-2, Fennexis-2, Tortunator-2, Rotom-Hitze-2, Fennexis-3, Magbrant-2, Mantidea-3, Fuegro-3, Rotom-Hitze-3, Magbrant-3, Tornupto-1, Vulnona-1, Arkani-1, Tornupto-2, Panferno-2, Flambirex-2, Camerupt-2, Glurak-3, Lohgock-3, Panferno-3, Flambirex-3, Tengulist-3, Dressella-3, Flampivian-3, Fruyal-3, Vulnona-2, Kokowei-2, Folipurba-3, Tangoloss-3, Arkani-3",
             "species": "Mantidea, Pyroleo, Fiaro, Fennexis, Tortunator, Rotom-Hitze, Magbrant, Fuegro, Tornupto, Vulnona, Arkani, Panferno, Flambirex, Camerupt, Glurak, Lohgock, Tengulist, Dressella, Flampivian, Fruyal, Kokowei, Folipurba, Tangoloss",
             "late": "",
@@ -1124,7 +1124,7 @@
         },
         {
             "name": "Konrad",
-            "class": "Aether Foundation (M)",
+            "class": "Æther Foundation",
             "roster": "Pyroleo-4, Arktilas-4, Amagarga-4, Viscogon-4, Wummer-4, Rotom-Frost-3, Elevoltek-3, Schlurplek-3, Meteno-4, Aggrostella-4, Kosturso-4, Tortunator-4, Knirfish-4, Togedemaru-4, Serpiroyal-4, Zobiris-4, Lanturn-4, Panzaeron-4, Tohaido-4, Raichu-2, Firnontor-4, Gastrodon-4, Krawumms-4, Geowaz-Alola-2, Kangama-4, Tauros-4, Bollterus-4, Lamellux-4, Traunmagil-4, Drifzepeli-4, Tukanon-4, Sleimok-2, Gengar-4, Pinsir-4, Ursaring-4, Wailord-4, Vulnona-Alola-2, Kramshef-4, Grypheldis-4, Washakwil-4, Tentoxa-4, Porygon2-4, Yanmega-4, Starmie-4, Klikdiklak-4, Aquana-4, Flamara-4, Psiana-4, Nachtara-4, Walraisa-4, Magnezone-4, Rihornior-4, Porygon-Z-4, Relaxo-4, Heiteira-4, Milotic-4, Calamanero-4, Aeropteryx-4, Dragoran-4, Brutalanda-4, Metagross-4, Letarking-4, Rotom-Frost-4, Elevoltek-4, Schlurplek-4",
             "species": "Pyroleo, Arktilas, Amagarga, Viscogon, Wummer, Rotom-Frost, Elevoltek, Schlurplek, Meteno, Aggrostella, Kosturso, Tortunator, Knirfish, Togedemaru, Serpiroyal, Zobiris, Lanturn, Panzaeron, Tohaido, Raichu, Firnontor, Gastrodon, Krawumms, Geowaz-Alola, Kangama, Tauros, Bollterus, Lamellux, Traunmagil, Drifzepeli, Tukanon, Sleimok, Gengar, Pinsir, Ursaring, Wailord, Vulnona-Alola, Kramshef, Grypheldis, Washakwil, Tentoxa, Porygon2, Yanmega, Starmie, Klikdiklak, Aquana, Flamara, Psiana, Nachtara, Walraisa, Magnezone, Rihornior, Porygon-Z, Relaxo, Heiteira, Milotic, Calamanero, Aeropteryx, Dragoran, Brutalanda, Metagross, Letarking",
             "late": "1",
@@ -1135,7 +1135,7 @@
         },
         {
             "name": "Lutz",
-            "class": "Aether Foundation (M)",
+            "class": "Æther Foundation",
             "roster": "Pyroleo-4, Arktilas-4, Amagarga-4, Viscogon-4, Wummer-4, Rotom-Frost-3, Magbrant-3, Voluminas-3, Meteno-4, Aggrostella-4, Kosturso-4, Tortunator-4, Knirfish-4, Togedemaru-4, Serpiroyal-4, Zobiris-4, Lanturn-4, Panzaeron-4, Tohaido-4, Raichu-2, Firnontor-4, Gastrodon-4, Krawumms-4, Geowaz-Alola-2, Kangama-4, Tauros-4, Bollterus-4, Lamellux-4, Traunmagil-4, Drifzepeli-4, Tukanon-4, Sleimok-2, Gengar-4, Pinsir-4, Ursaring-4, Wailord-4, Vulnona-Alola-2, Kramshef-4, Grypheldis-4, Washakwil-4, Tentoxa-4, Porygon2-4, Yanmega-4, Starmie-4, Klikdiklak-4, Aquana-4, Flamara-4, Psiana-4, Nachtara-4, Walraisa-4, Magnezone-4, Rihornior-4, Porygon-Z-4, Relaxo-4, Heiteira-4, Milotic-4, Calamanero-4, Aeropteryx-4, Dragoran-4, Brutalanda-4, Metagross-4, Letarking-4, Rotom-Frost-4, Magbrant-4, Voluminas-4",
             "species": "Pyroleo, Arktilas, Amagarga, Viscogon, Wummer, Rotom-Frost, Magbrant, Voluminas, Meteno, Aggrostella, Kosturso, Tortunator, Knirfish, Togedemaru, Serpiroyal, Zobiris, Lanturn, Panzaeron, Tohaido, Raichu, Firnontor, Gastrodon, Krawumms, Geowaz-Alola, Kangama, Tauros, Bollterus, Lamellux, Traunmagil, Drifzepeli, Tukanon, Sleimok, Gengar, Pinsir, Ursaring, Wailord, Vulnona-Alola, Kramshef, Grypheldis, Washakwil, Tentoxa, Porygon2, Yanmega, Starmie, Klikdiklak, Aquana, Flamara, Psiana, Nachtara, Walraisa, Magnezone, Rihornior, Porygon-Z, Relaxo, Heiteira, Milotic, Calamanero, Aeropteryx, Dragoran, Brutalanda, Metagross, Letarking",
             "late": "1",
@@ -1146,7 +1146,7 @@
         },
         {
             "name": "Ikarus",
-            "class": "Ace Trainer (M)",
+            "class": "Ass-Trainer",
             "roster": "Fiaro-3, Quajutsu-3, UHaFnir-3, Bandelby-3, Fiaro-4, Quajutsu-4, UHaFnir-4, Bandelby-4, Rotom-Hitze-4, Gewaldro-3, Digdri-2, Lektrobal-3, Simsala-3, Hydragil-3, Snibunna-3, Aerodactyl-3, Blitza-3, Iksbat-3, Gewaldro-4, Digdri-Alola-2, Lektrobal-4, Simsala-4, Hydragil-4, Snibunna-4, Aerodactyl-4, Blitza-4, Iksbat-4",
             "species": "Fiaro, Quajutsu, UHaFnir, Bandelby, Rotom-Hitze, Gewaldro, Digdri, Lektrobal, Simsala, Hydragil, Snibunna, Aerodactyl, Blitza, Iksbat, Digdri-Alola",
             "late": "1",
@@ -1157,7 +1157,7 @@
         },
         {
             "name": "Terry",
-            "class": "Ace Trainer (M)",
+            "class": "Ass-Trainer",
             "roster": "Fiaro-3, Quajutsu-3, UHaFnir-3, Bandelby-3, Fiaro-4, Quajutsu-4, UHaFnir-4, Bandelby-4, Rotom-Hitze-4, Gewaldro-3, Digdri-2, Lektrobal-3, Simsala-3, Hydragil-3, Snibunna-3, Aerodactyl-3, Blitza-3, Iksbat-3, Gewaldro-4, Digdri-Alola-2, Lektrobal-4, Simsala-4, Hydragil-4, Snibunna-4, Aerodactyl-4, Blitza-4, Iksbat-4",
             "species": "Fiaro, Quajutsu, UHaFnir, Bandelby, Rotom-Hitze, Gewaldro, Digdri, Lektrobal, Simsala, Hydragil, Snibunna, Aerodactyl, Blitza, Iksbat, Digdri-Alola",
             "late": "1",
@@ -1168,7 +1168,7 @@
         },
         {
             "name": "Heidi",
-            "class": "Aether Foundation (F)",
+            "class": "Æther Foundation",
             "roster": "Rotom-Wasch-3, Pyroleo-4, Arktilas-4, Amagarga-4, Viscogon-4, Wummer-4, Elevoltek-3, Schlurplek-3, Meteno-4, Silvarro-4, Aranestro-4, Kosturso-4, Knirfish-4, Togedemaru-4, Admurai-4, Zobiris-4, Panzaeron-4, Krawumms-4, Kangama-4, Tauros-4, Bollterus-4, Traunmagil-4, Drifzepeli-4, Tukanon-4, Sleimok-2, Ursaring-4, Stalobor-4, Snibunna-4, Skorgro-4, Aerodactyl-4, Porygon2-4, Colossand-4, Yanmega-4, Guardevoir-4, Galagladi-4, Kokowei-Alola-2, Libelldra-4, Klikdiklak-4, Blitza-4, Folipurba-4, Glaziola-4, Lucario-4, Hippoterus-4, Kleoparda-4, Wie-Shu-4, Siberio-4, Walraisa-4, Mamutel-4, Lapras-4, Iksbat-4, Magnezone-4, Rihornior-4, Porygon-Z-4, Gelatwino-4, Garados-4, Relaxo-4, Seedraking-4, Heiteira-4, Milotic-4, Calamanero-4, Sandamer-Alola-2, Maxax-4, Arkani-4, Despotar-4, Metagross-4, Knakrack-4, Trikephalo-4, Letarking-4, Rotom-Wasch-4, Elevoltek-4, Schlurplek-4",
             "species": "Rotom-Wasch, Pyroleo, Arktilas, Amagarga, Viscogon, Wummer, Elevoltek, Schlurplek, Meteno, Silvarro, Aranestro, Kosturso, Knirfish, Togedemaru, Admurai, Zobiris, Panzaeron, Krawumms, Kangama, Tauros, Bollterus, Traunmagil, Drifzepeli, Tukanon, Sleimok, Ursaring, Stalobor, Snibunna, Skorgro, Aerodactyl, Porygon2, Colossand, Yanmega, Guardevoir, Galagladi, Kokowei-Alola, Libelldra, Klikdiklak, Blitza, Folipurba, Glaziola, Lucario, Hippoterus, Kleoparda, Wie-Shu, Siberio, Walraisa, Mamutel, Lapras, Iksbat, Magnezone, Rihornior, Porygon-Z, Gelatwino, Garados, Relaxo, Seedraking, Heiteira, Milotic, Calamanero, Sandamer-Alola, Maxax, Arkani, Despotar, Metagross, Knakrack, Trikephalo, Letarking",
             "late": "1",
@@ -1179,7 +1179,7 @@
         },
         {
             "name": "Christina",
-            "class": "Aether Foundation (F)",
+            "class": "Æther Foundation",
             "roster": "Rotom-Wasch-3, Resladero-4, Pyroleo-4, Arktilas-4, Amagarga-4, Fiaro-4, Feelinara-4, Fennexis-4, Chevrumm-4, UHaFnir-4, Florges-4, Viscogon-4, Pumpdjinn-4, Wummer-4, Bibor-4, Magbrant-3, Voluminas-3, Meteno-4, Choreogel-Flamenco-1, Wolwerock-Nacht-2, Curelei-4, Tectass-4, Mantidea-4, Bandelby-4, Donarion-4, Pampross-4, Silvarro-4, Fuegro-4, Primarene-4, Aranestro-4, Kosturso-4, Knirfish-4, Sen-Long-4, Moruda-4, Togedemaru-4, Bisaflor-4, Glurak-4, Tornupto-4, Impergator-4, Gewaldro-4, Lohgock-4, Sumpex-4, Panferno-4, Impoleon-4, Admurai-4, Zobiris-4, Panzaeron-4, Krawumms-4, Kangama-4, Tauros-4, Bollterus-4, Traunmagil-4, Drifzepeli-4, Tukanon-4, Sleimok-2, Ursaring-4, Porygon2-4, Klikdiklak-4, Walraisa-4, Mamutel-4, Magnezone-4, Porygon-Z-4, Relaxo-4, Heiteira-4, Milotic-4, Calamanero-4, Metagross-4, Letarking-4, Rotom-Wasch-4, Magbrant-4, Voluminas-4",
             "species": "Rotom-Wasch, Resladero, Pyroleo, Arktilas, Amagarga, Fiaro, Feelinara, Fennexis, Chevrumm, UHaFnir, Florges, Viscogon, Pumpdjinn, Wummer, Bibor, Magbrant, Voluminas, Meteno, Choreogel-Flamenco, Wolwerock-Nacht, Curelei, Tectass, Mantidea, Bandelby, Donarion, Pampross, Silvarro, Fuegro, Primarene, Aranestro, Kosturso, Knirfish, Sen-Long, Moruda, Togedemaru, Bisaflor, Glurak, Tornupto, Impergator, Gewaldro, Lohgock, Sumpex, Panferno, Impoleon, Admurai, Zobiris, Panzaeron, Krawumms, Kangama, Tauros, Bollterus, Traunmagil, Drifzepeli, Tukanon, Sleimok, Ursaring, Porygon2, Klikdiklak, Walraisa, Mamutel, Magnezone, Porygon-Z, Relaxo, Heiteira, Milotic, Calamanero, Metagross, Letarking",
             "late": "1",
@@ -1190,7 +1190,7 @@
         },
         {
             "name": "Daniela",
-            "class": "Ace Trainer (F)",
+            "class": "Ass-Trainer",
             "roster": "Fennexis-3, Fuegro-3, Rotom-Hitze-3, Fennexis-4, Magbrant-3, Mantidea-4, Fuegro-4, Rotom-Hitze-4, Vulnona-1, Bisaflor-3, Glurak-3, Lohgock-3, Panferno-3, Flambirex-3, Tengulist-3, Dressella-3, Elfun-3, Vulnona-2, Kokowei-2, Skelabra-3, Folipurba-3, Tangoloss-3, Arkani-3, Bisaflor-4, Glurak-4, Tornupto-4, Lohgock-4, Panferno-4, Flambirex-4, Tengulist-4, Dressella-4, Flampivian-4, Elfun-4, Hundemon-4, Kokowei-Alola-2, Skelabra-4, Folipurba-4, Tangoloss-4, Magbrant-4",
             "species": "Fennexis, Fuegro, Rotom-Hitze, Magbrant, Mantidea, Vulnona, Bisaflor, Glurak, Lohgock, Panferno, Flambirex, Tengulist, Dressella, Elfun, Kokowei, Skelabra, Folipurba, Tangoloss, Arkani, Tornupto, Flampivian, Hundemon, Kokowei-Alola",
             "late": "1",
@@ -1201,7 +1201,7 @@
         },
         {
             "name": "Melinda",
-            "class": "Ace Trainer (F)",
+            "class": "Ass-Trainer",
             "roster": "Fennexis-3, Fuegro-3, Rotom-Hitze-3, Fennexis-4, Magbrant-3, Mantidea-4, Fuegro-4, Rotom-Hitze-4, Vulnona-1, Bisaflor-3, Glurak-3, Lohgock-3, Panferno-3, Flambirex-3, Tengulist-3, Dressella-3, Elfun-3, Vulnona-2, Kokowei-2, Skelabra-3, Folipurba-3, Tangoloss-3, Arkani-3, Bisaflor-4, Glurak-4, Tornupto-4, Lohgock-4, Panferno-4, Flambirex-4, Tengulist-4, Dressella-4, Flampivian-4, Elfun-4, Hundemon-4, Kokowei-Alola-2, Skelabra-4, Folipurba-4, Tangoloss-4, Magbrant-4",
             "species": "Fennexis, Fuegro, Rotom-Hitze, Magbrant, Mantidea, Vulnona, Bisaflor, Glurak, Lohgock, Panferno, Flambirex, Tengulist, Dressella, Elfun, Kokowei, Skelabra, Folipurba, Tangoloss, Arkani, Tornupto, Flampivian, Hundemon, Kokowei-Alola",
             "late": "1",
@@ -1278,7 +1278,7 @@
         },
         {
             "name": "Carlo",
-            "class": "Ace Trainer (M)",
+            "class": "Ass-Trainer",
             "roster": "Fennexis-3, Fuegro-3, Rotom-Wasch-3, Fennexis-4, Magbrant-3, Fuegro-4, Glurak-3, Tornupto-3, Lohgock-3, Panferno-3, Flambirex-3, Kokowei-2, Starmie-3, Psiana-3, Walraisa-3, Mamutel-3, Ramoth-3, Arkani-3, Metagross-3, Glurak-4, Tornupto-4, Lohgock-4, Panferno-4, Flambirex-4, Kokowei-Alola-2, Starmie-4, Psiana-4, Walraisa-4, Mamutel-4, Ramoth-4, Arkani-4, Metagross-4, Rotom-Wasch-4, Magbrant-4",
             "species": "Fennexis, Fuegro, Rotom-Wasch, Magbrant, Glurak, Tornupto, Lohgock, Panferno, Flambirex, Kokowei, Starmie, Psiana, Walraisa, Mamutel, Ramoth, Arkani, Metagross, Kokowei-Alola",
             "late": "1",
@@ -1289,7 +1289,7 @@
         },
         {
             "name": "Kenny",
-            "class": "Ace Trainer (M)",
+            "class": "Ass-Trainer",
             "roster": "Grandiras-1, Grandiras-2, Rocara-3, Quajutsu-3, Tectass-3, Donarion-3, Primarene-3, Rocara-4, Quajutsu-4, Rotom-Wirbel-3, Voluminas-3, Tectass-4, Donarion-4, Primarene-4, Turtok-3, Impergator-3, Sumpex-3, Impoleon-3, Admurai-3, Pinsir-3, Scherox-3, Skaraborn-3, Pottrott-3, Brockoloss-3, Lusardin-3, Aerodactyl-3, Yanmega-3, Stolloss-3, Walraisa-3, Lapras-3, Garados-3, Seedraking-3, Milotic-3, Ramoth-3, Aeropteryx-3, Turtok-4, Impergator-4, Sumpex-4, Impoleon-4, Admurai-4, Pinsir-4, Scherox-4, Skaraborn-4, Pottrott-4, Brockoloss-4, Lusardin-4, Aerodactyl-4, Yanmega-4, Stolloss-4, Walraisa-4, Lapras-4, Garados-4, Seedraking-4, Milotic-4, Ramoth-4, Aeropteryx-4, Rotom-Wirbel-4, Voluminas-4",
             "species": "Grandiras, Rocara, Quajutsu, Tectass, Donarion, Primarene, Rotom-Wirbel, Voluminas, Turtok, Impergator, Sumpex, Impoleon, Admurai, Pinsir, Scherox, Skaraborn, Pottrott, Brockoloss, Lusardin, Aerodactyl, Yanmega, Stolloss, Walraisa, Lapras, Garados, Seedraking, Milotic, Ramoth, Aeropteryx",
             "late": "1",
@@ -1300,7 +1300,7 @@
         },
         {
             "name": "Otto",
-            "class": "Ace Trainer (M)",
+            "class": "Ass-Trainer",
             "roster": "Monargoras-3, Brigaron-3, Chevrumm-3, UHaFnir-3, Viscogon-3, Donarion-3, Silvarro-3, Rotom-Schneid-3, Monargoras-4, Brigaron-4, Chevrumm-4, UHaFnir-4, Viscogon-4, Elevoltek-3, Donarion-4, Silvarro-4, Bisaflor-3, Meganie-3, Gewaldro-3, Chelterrar-3, Serpiroyal-3, Ampharos-3, Kokowei-2, Libelldra-3, Blitza-3, Folipurba-3, Magnezone-3, Tangoloss-3, Zapplarang-3, Seedraking-3, Maxax-3, Dragoran-3, Brutalanda-3, Knakrack-3, Trikephalo-3, Bisaflor-4, Meganie-4, Gewaldro-4, Chelterrar-4, Serpiroyal-4, Ampharos-4, Kokowei-Alola-2, Libelldra-4, Blitza-4, Folipurba-4, Magnezone-4, Tangoloss-4, Zapplarang-4, Seedraking-4, Maxax-4, Dragoran-4, Brutalanda-4, Knakrack-4, Trikephalo-4, Rotom-Schneid-4, Elevoltek-4",
             "species": "Monargoras, Brigaron, Chevrumm, UHaFnir, Viscogon, Donarion, Silvarro, Rotom-Schneid, Elevoltek, Bisaflor, Meganie, Gewaldro, Chelterrar, Serpiroyal, Ampharos, Kokowei, Libelldra, Blitza, Folipurba, Magnezone, Tangoloss, Zapplarang, Seedraking, Maxax, Dragoran, Brutalanda, Knakrack, Trikephalo, Kokowei-Alola",
             "late": "1",
@@ -1311,7 +1311,7 @@
         },
         {
             "name": "Alessandra",
-            "class": "Ace Trainer (F)",
+            "class": "Ass-Trainer",
             "roster": "Grandiras-1, Grandiras-2, Quajutsu-3, UHaFnir-3, Fuegro-3, Rotom-Schneid-3, Quajutsu-4, UHaFnir-4, Voluminas-3, Fuegro-4, Impoleon-3, Kramshef-3, Snibunna-3, Zoroark-3, Grypheldis-3, Klikdiklak-3, Nachtara-3, Lucario-3, Stolloss-3, Iksbat-3, Magnezone-3, Garados-3, Togekiss-3, Aeropteryx-3, Dragoran-3, Despotar-3, Brutalanda-3, Metagross-3, Trikephalo-3, Impoleon-4, Kramshef-4, Snibunna-4, Zoroark-4, Grypheldis-4, Klikdiklak-4, Nachtara-4, Lucario-4, Stolloss-4, Iksbat-4, Magnezone-4, Garados-4, Togekiss-4, Aeropteryx-4, Dragoran-4, Despotar-4, Brutalanda-4, Metagross-4, Trikephalo-4, Rotom-Schneid-4, Voluminas-4",
             "species": "Grandiras, Quajutsu, UHaFnir, Fuegro, Rotom-Schneid, Voluminas, Impoleon, Kramshef, Snibunna, Zoroark, Grypheldis, Klikdiklak, Nachtara, Lucario, Stolloss, Iksbat, Magnezone, Garados, Togekiss, Aeropteryx, Dragoran, Despotar, Brutalanda, Metagross, Trikephalo",
             "late": "1",
@@ -1322,7 +1322,7 @@
         },
         {
             "name": "Mila",
-            "class": "Ace Trainer (F)",
+            "class": "Ass-Trainer",
             "roster": "Feelinara-3, Florges-3, Primarene-3, Feelinara-4, Florges-4, Rotom-Wirbel-3, Schlurplek-3, Primarene-4, Sumpex-3, Chelterrar-3, Porygon2-3, Guardevoir-3, Libelldra-3, Hippoterus-3, Mamutel-3, Rihornior-3, Porygon-Z-3, Relaxo-3, Heiteira-3, Togekiss-3, Knakrack-3, Letarking-3, Sumpex-4, Chelterrar-4, Porygon2-4, Guardevoir-4, Libelldra-4, Hippoterus-4, Mamutel-4, Rihornior-4, Porygon-Z-4, Relaxo-4, Heiteira-4, Togekiss-4, Knakrack-4, Letarking-4, Rotom-Wirbel-4, Schlurplek-4",
             "species": "Feelinara, Florges, Primarene, Rotom-Wirbel, Schlurplek, Sumpex, Chelterrar, Porygon2, Guardevoir, Libelldra, Hippoterus, Mamutel, Rihornior, Porygon-Z, Relaxo, Heiteira, Togekiss, Knakrack, Letarking",
             "late": "1",
@@ -1333,7 +1333,7 @@
         },
         {
             "name": "Valentina",
-            "class": "Ace Trainer (F)",
+            "class": "Ass-Trainer",
             "roster": "Brigaron-3, Silvarro-3, Moruda-3, Rotom-Wasch-3, Brigaron-4, Magbrant-3, Silvarro-4, Moruda-4, Bisaflor-3, Lohgock-3, Panferno-3, Flambirex-3, Nidoqueen-3, Nidoking-3, Sleimok-Alola-2, Gengar-3, Piondragi-3, Tentoxa-3, Galagladi-3, Skelabra-3, Lucario-3, Zwirrfinst-3, Iksbat-3, Bisaflor-4, Lohgock-4, Panferno-4, Flambirex-4, Nidoqueen-4, Nidoking-4, Sleimok-2, Gengar-4, Piondragi-4, Tentoxa-4, Galagladi-4, Skelabra-4, Lucario-4, Zwirrfinst-4, Iksbat-4, Rotom-Wasch-4, Magbrant-4",
             "species": "Brigaron, Silvarro, Moruda, Rotom-Wasch, Magbrant, Bisaflor, Lohgock, Panferno, Flambirex, Nidoqueen, Nidoking, Sleimok-Alola, Gengar, Piondragi, Tentoxa, Galagladi, Skelabra, Lucario, Zwirrfinst, Iksbat, Sleimok",
             "late": "1",
@@ -1344,7 +1344,7 @@
         },
         {
             "name": "Tobias",
-            "class": "Veteran (M)",
+            "class": "Veteran",
             "roster": "Togedemaru-2, Rotom-Hitze-3, Elevoltek-3, Rotom-Hitze-4, Raichu-Alola-2, Voltenso-3, Ampharos-3, Blitza-3, Raichu-2, Voltenso-4, Ampharos-4, Blitza-4, Zapdos-1, Raikou-1, Voltolos-1, Zapdos-2, Raikou-2, Voltolos-2, Elevoltek-4",
             "species": "Togedemaru, Rotom-Hitze, Elevoltek, Raichu-Alola, Voltenso, Ampharos, Blitza, Raichu, Zapdos, Raikou, Voltolos",
             "late": "1",
@@ -1355,7 +1355,7 @@
         },
         {
             "name": "Victor",
-            "class": "Veteran (M)",
+            "class": "Veteran",
             "roster": "Florges-2, Curelei-3, Moruda-3, Rotom-Schneid-3, Moruda-4, Bisaflor-3, Kapilz-3, Elfun-3, Fruyal-3, Kokowei-2, Bisaflor-4, Kapilz-4, Elfun-4, Fruyal-4, Kokowei-Alola-2, Viridium-1, Viridium-2, Rotom-Schneid-4",
             "species": "Florges, Curelei, Moruda, Rotom-Schneid, Bisaflor, Kapilz, Elfun, Fruyal, Kokowei, Kokowei-Alola, Viridium",
             "late": "1",
@@ -1366,7 +1366,7 @@
         },
         {
             "name": "Alfie",
-            "class": "Veteran (M)",
+            "class": "Veteran",
             "roster": "Tobutz-1, Tobutz-2, Arktos-1, Lavados-1, Entei-1, Regirock-1, Registeel-1, Terrakium-1, Boreos-1, Latias-1, Heatran-1, Demeteros-1, Arktos-2, Lavados-2, Entei-2, Regirock-2, Registeel-2, Terrakium-2, Boreos-2, Latias-2, Heatran-2, Demeteros-2",
             "species": "Tobutz, Arktos, Lavados, Entei, Regirock, Registeel, Terrakium, Boreos, Latias, Heatran, Demeteros",
             "late": "1",
@@ -1377,7 +1377,7 @@
         },
         {
             "name": "Bert",
-            "class": "Veteran (M)",
+            "class": "Veteran",
             "roster": "Tobutz-3, Grandiras-3, Tobutz-4, Grandiras-4, Raikou-3, Kobalium-3, Terrakium-3, Viridium-3, Boreos-3, Voltolos-3, Latias-3, Latios-3, Raikou-4, Kobalium-4, Terrakium-4, Viridium-4, Boreos-4, Voltolos-4, Latias-4, Latios-4",
             "species": "Tobutz, Grandiras, Raikou, Kobalium, Terrakium, Viridium, Boreos, Voltolos, Latias, Latios",
             "late": "1",
@@ -1388,7 +1388,7 @@
         },
         {
             "name": "Anneliese",
-            "class": "Veteran (F)",
+            "class": "Veteranin",
             "roster": "Selfe-1, Selfe-2, Rotom-Wasch-3, Kommandutan-2, Meditalis-3, Somnivora-3, Laschoking-3, Guardevoir-3, Galagladi-3, Metagross-3, Meditalis-4, Somnivora-4, Laschoking-4, Guardevoir-4, Galagladi-4, Metagross-4, Rotom-Wasch-4",
             "species": "Selfe, Rotom-Wasch, Kommandutan, Meditalis, Somnivora, Laschoking, Guardevoir, Galagladi, Metagross",
             "late": "1",
@@ -1399,7 +1399,7 @@
         },
         {
             "name": "Annette",
-            "class": "Veteran (F)",
+            "class": "Veteranin",
             "roster": "Feelinara-1, Florges-2, Feelinara-3, Florges-3, Parfinesse-3, Primarene-3, Feelinara-4, Florges-4, Parfinesse-4, Primarene-4, Flunkifer-3, Elfun-3, Lamellux-3, Mimigma-3, Guardevoir-3, Togekiss-3, Flunkifer-4, Elfun-4, Lamellux-4, Mimigma-4, Guardevoir-4, Togekiss-4",
             "species": "Feelinara, Florges, Parfinesse, Primarene, Flunkifer, Elfun, Lamellux, Mimigma, Guardevoir, Togekiss",
             "late": "1",
@@ -1410,7 +1410,7 @@
         },
         {
             "name": "Janette",
-            "class": "Veteran (F)",
+            "class": "Veteranin",
             "roster": "Tobutz-1, Tobutz-2, Zapdos-1, Raikou-1, Suicune-1, Regice-1, Kobalium-1, Viridium-1, Voltolos-1, Latios-1, Cresselia-1, Regigigas-1, Zapdos-2, Raikou-2, Suicune-2, Regice-2, Kobalium-2, Viridium-2, Voltolos-2, Latios-2, Cresselia-2, Regigigas-2",
             "species": "Tobutz, Zapdos, Raikou, Suicune, Regice, Kobalium, Viridium, Voltolos, Latios, Cresselia, Regigigas",
             "late": "1",
@@ -1421,7 +1421,7 @@
         },
         {
             "name": "Candice",
-            "class": "Veteran (F)",
+            "class": "Veteranin",
             "roster": "Tobutz-3, Grandiras-3, Tobutz-4, Grandiras-4, Raikou-3, Kobalium-3, Terrakium-3, Viridium-3, Boreos-3, Voltolos-3, Latias-3, Latios-3, Raikou-4, Kobalium-4, Terrakium-4, Viridium-4, Boreos-4, Voltolos-4, Latias-4, Latios-4",
             "species": "Tobutz, Grandiras, Raikou, Kobalium, Terrakium, Viridium, Boreos, Voltolos, Latias, Latios",
             "late": "1",
@@ -1476,7 +1476,7 @@
         },
         {
             "name": "Ernie",
-            "class": "Preschooler (M)",
+            "class": "Vorschüler",
             "roster": "Brigaron-3, Fennexis-3, Quajutsu-3, Silvarro-3, Fuegro-3, Primarene-3, Brigaron-4, Fennexis-4, Quajutsu-4, Silvarro-4, Fuegro-4, Primarene-4, Bisaflor-3, Glurak-3, Turtok-3, Meganie-3, Tornupto-3, Impergator-3, Gewaldro-3, Lohgock-3, Sumpex-3, Chelterrar-3, Panferno-3, Impoleon-3, Serpiroyal-3, Flambirex-3, Admurai-3, Bisaflor-4, Glurak-4, Turtok-4, Meganie-4, Tornupto-4, Impergator-4, Gewaldro-4, Lohgock-4, Sumpex-4, Chelterrar-4, Panferno-4, Impoleon-4, Serpiroyal-4, Flambirex-4, Admurai-4",
             "species": "Brigaron, Fennexis, Quajutsu, Silvarro, Fuegro, Primarene, Bisaflor, Glurak, Turtok, Meganie, Tornupto, Impergator, Gewaldro, Lohgock, Sumpex, Chelterrar, Panferno, Impoleon, Serpiroyal, Flambirex, Admurai",
             "late": "1",
@@ -1487,7 +1487,7 @@
         },
         {
             "name": "Rudi",
-            "class": "Preschooler (M)",
+            "class": "Vorschüler",
             "roster": "Grandiras-1, Grandiras-2, Viscogon-3, Tobutz-3, Grandiras-3, Selfe-3, Vesprit-3, Viscogon-4, Tobutz-4, Grandiras-4, Selfe-4, Vesprit-4, Dragoran-3, Despotar-3, Brutalanda-3, Metagross-3, Knakrack-3, Trikephalo-3, Dragoran-4, Despotar-4, Brutalanda-4, Metagross-4, Knakrack-4, Trikephalo-4, Latias-3, Latios-3, Heatran-3, Cresselia-3, Demeteros-3, Latias-4, Latios-4, Heatran-4, Cresselia-4, Demeteros-4",
             "species": "Grandiras, Viscogon, Tobutz, Selfe, Vesprit, Dragoran, Despotar, Brutalanda, Metagross, Knakrack, Trikephalo, Latias, Latios, Heatran, Cresselia, Demeteros",
             "late": "1",
@@ -1498,7 +1498,7 @@
         },
         {
             "name": "Hattie",
-            "class": "Preschooler (F)",
+            "class": "Vorschülerin",
             "roster": "Brigaron-3, Fennexis-3, Quajutsu-3, Silvarro-3, Fuegro-3, Primarene-3, Brigaron-4, Fennexis-4, Quajutsu-4, Silvarro-4, Fuegro-4, Primarene-4, Bisaflor-3, Glurak-3, Turtok-3, Meganie-3, Tornupto-3, Impergator-3, Gewaldro-3, Lohgock-3, Sumpex-3, Chelterrar-3, Panferno-3, Impoleon-3, Serpiroyal-3, Flambirex-3, Admurai-3, Bisaflor-4, Glurak-4, Turtok-4, Meganie-4, Tornupto-4, Impergator-4, Gewaldro-4, Lohgock-4, Sumpex-4, Chelterrar-4, Panferno-4, Impoleon-4, Serpiroyal-4, Flambirex-4, Admurai-4",
             "species": "Brigaron, Fennexis, Quajutsu, Silvarro, Fuegro, Primarene, Bisaflor, Glurak, Turtok, Meganie, Tornupto, Impergator, Gewaldro, Lohgock, Sumpex, Chelterrar, Panferno, Impoleon, Serpiroyal, Flambirex, Admurai",
             "late": "1",
@@ -1509,7 +1509,7 @@
         },
         {
             "name": "Melissa",
-            "class": "Preschooler (F)",
+            "class": "Vorschülerin",
             "roster": "Grandiras-1, Grandiras-2, Viscogon-3, Tobutz-3, Grandiras-3, Selfe-3, Vesprit-3, Viscogon-4, Tobutz-4, Grandiras-4, Selfe-4, Vesprit-4, Dragoran-3, Despotar-3, Brutalanda-3, Metagross-3, Knakrack-3, Trikephalo-3, Dragoran-4, Despotar-4, Brutalanda-4, Metagross-4, Knakrack-4, Trikephalo-4, Latias-3, Latios-3, Heatran-3, Cresselia-3, Demeteros-3, Latias-4, Latios-4, Heatran-4, Cresselia-4, Demeteros-4",
             "species": "Grandiras, Viscogon, Tobutz, Selfe, Vesprit, Dragoran, Despotar, Brutalanda, Metagross, Knakrack, Trikephalo, Latias, Latios, Heatran, Cresselia, Demeteros",
             "late": "1",
@@ -1564,7 +1564,7 @@
         },
         {
             "name": "Joshua",
-            "class": "Office Worker (M)",
+            "class": "Angestellter",
             "roster": "Donarion-3, Rotom-Schneid-3, Elevoltek-3, Donarion-4, Meditalis-3, Flunkifer-3, Panzaeron-3, Raichu-Alola-2, Voltenso-3, Lektrobal-3, Fermicula-3, Shardrago-3, Tentantel-3, Simsala-3, Morbitesse-3, Caesurio-3, Rexblisar-3, Bollterus-3, Cavalanzas-3, Ampharos-3, Scherox-3, Bronzong-3, Pottrott-3, Stalobor-3, Stahlos-3, Porygon2-3, Guardevoir-3, Galagladi-3, Klikdiklak-3, Lucario-3, Stolloss-3, Magnezone-3, Porygon-Z-3, Zapplarang-3, Metagross-3, Meditalis-4, Flunkifer-4, Panzaeron-4, Raichu-2, Voltenso-4, Lektrobal-4, Fermicula-4, Tentantel-4, Simsala-4, Morbitesse-4, Caesurio-4, Bollterus-4, Cavalanzas-4, Ampharos-4, Scherox-4, Bronzong-4, Pottrott-4, Stalobor-4, Stahlos-4, Porygon2-4, Guardevoir-4, Galagladi-4, Klikdiklak-4, Lucario-4, Stolloss-4, Magnezone-4, Porygon-Z-4, Zapplarang-4, Metagross-4, Rotom-Schneid-4, Elevoltek-4",
             "species": "Donarion, Rotom-Schneid, Elevoltek, Meditalis, Flunkifer, Panzaeron, Raichu-Alola, Voltenso, Lektrobal, Fermicula, Shardrago, Tentantel, Simsala, Morbitesse, Caesurio, Rexblisar, Bollterus, Cavalanzas, Ampharos, Scherox, Bronzong, Pottrott, Stalobor, Stahlos, Porygon2, Guardevoir, Galagladi, Klikdiklak, Lucario, Stolloss, Magnezone, Porygon-Z, Zapplarang, Metagross, Raichu",
             "late": "1",
@@ -1575,7 +1575,7 @@
         },
         {
             "name": "Neville",
-            "class": "Office Worker (M)",
+            "class": "Angestellter",
             "roster": "Donarion-3, Rotom-Schneid-3, Elevoltek-3, Donarion-4, Meditalis-3, Panzaeron-3, Raichu-Alola-2, Voltenso-3, Lektrobal-3, Fermicula-3, Shardrago-3, Tentantel-3, Simsala-3, Morbitesse-3, Caesurio-3, Rexblisar-3, Bollterus-3, Cavalanzas-3, Ampharos-3, Scherox-3, Bronzong-3, Pottrott-3, Stalobor-3, Stahlos-3, Porygon2-3, Guardevoir-3, Galagladi-3, Klikdiklak-3, Lucario-3, Stolloss-3, Magnezone-3, Porygon-Z-3, Zapplarang-3, Metagross-3, Meditalis-4, Panzaeron-4, Raichu-2, Voltenso-4, Lektrobal-4, Fermicula-4, Tentantel-4, Simsala-4, Morbitesse-4, Caesurio-4, Bollterus-4, Cavalanzas-4, Ampharos-4, Scherox-4, Bronzong-4, Pottrott-4, Stalobor-4, Stahlos-4, Porygon2-4, Guardevoir-4, Galagladi-4, Klikdiklak-4, Lucario-4, Stolloss-4, Magnezone-4, Porygon-Z-4, Zapplarang-4, Metagross-4, Rotom-Schneid-4, Elevoltek-4",
             "species": "Donarion, Rotom-Schneid, Elevoltek, Meditalis, Panzaeron, Raichu-Alola, Voltenso, Lektrobal, Fermicula, Shardrago, Tentantel, Simsala, Morbitesse, Caesurio, Rexblisar, Bollterus, Cavalanzas, Ampharos, Scherox, Bronzong, Pottrott, Stalobor, Stahlos, Porygon2, Guardevoir, Galagladi, Klikdiklak, Lucario, Stolloss, Magnezone, Porygon-Z, Zapplarang, Metagross, Raichu",
             "late": "1",
@@ -1586,7 +1586,7 @@
         },
         {
             "name": "Gisela",
-            "class": "Office Worker (F)",
+            "class": "Angestellte",
             "roster": "Rocara-3, Feelinara-3, Florges-3, Viscogon-3, Parfinesse-3, Curelei-3, Mantidea-3, Bandelby-3, Kosturso-3, Togedemaru-3, Rocara-4, Feelinara-4, Florges-4, Viscogon-4, Parfinesse-4, Rotom-Frost-3, Schlurplek-3, Curelei-4, Mantidea-4, Bandelby-4, Kosturso-4, Togedemaru-4, Digdri-2, Tauboss-3, Flunkifer-3, Lanturn-3, Kapilz-3, Pelipper-3, Kappalores-3, Frosdedje-3, Dressella-3, Ambidiffel-3, Elfun-3, Somnivora-3, Altaria-3, Zytomega-3, Lamellux-3, Traunmagil-3, Drifzepeli-3, Tukanon-3, Koalelu-3, Quaxo-3, Fruyal-3, Vulnona-2, Mimigma-3, Guardevoir-3, Wie-Shu-3, Lapras-3, Gelatwino-3, Relaxo-3, Heiteira-3, Milotic-3, Togekiss-3, Digdri-Alola-2, Flunkifer-4, Lanturn-4, Kapilz-4, Pelipper-4, Kappalores-4, Frosdedje-4, Dressella-4, Ambidiffel-4, Elfun-4, Somnivora-4, Altaria-4, Zytomega-4, Lamellux-4, Traunmagil-4, Drifzepeli-4, Koalelu-4, Quaxo-4, Fruyal-4, Vulnona-Alola-2, Mimigma-4, Guardevoir-4, Wie-Shu-4, Lapras-4, Gelatwino-4, Relaxo-4, Heiteira-4, Milotic-4, Togekiss-4, Rotom-Frost-4, Schlurplek-4",
             "species": "Rocara, Feelinara, Florges, Viscogon, Parfinesse, Curelei, Mantidea, Bandelby, Kosturso, Togedemaru, Rotom-Frost, Schlurplek, Digdri, Tauboss, Flunkifer, Lanturn, Kapilz, Pelipper, Kappalores, Frosdedje, Dressella, Ambidiffel, Elfun, Somnivora, Altaria, Zytomega, Lamellux, Traunmagil, Drifzepeli, Tukanon, Koalelu, Quaxo, Fruyal, Vulnona, Mimigma, Guardevoir, Wie-Shu, Lapras, Gelatwino, Relaxo, Heiteira, Milotic, Togekiss, Digdri-Alola, Vulnona-Alola",
             "late": "1",
@@ -1597,7 +1597,7 @@
         },
         {
             "name": "Izuna",
-            "class": "Office Worker (F)",
+            "class": "Angestellte",
             "roster": "Rocara-3, Feelinara-3, Florges-3, Viscogon-3, Parfinesse-3, Curelei-3, Mantidea-3, Bandelby-3, Kosturso-3, Togedemaru-3, Rocara-4, Feelinara-4, Florges-4, Viscogon-4, Parfinesse-4, Rotom-Frost-3, Schlurplek-3, Curelei-4, Mantidea-4, Bandelby-4, Kosturso-4, Togedemaru-4, Digdri-2, Tauboss-3, Lanturn-3, Kapilz-3, Pelipper-3, Kappalores-3, Frosdedje-3, Dressella-3, Ambidiffel-3, Elfun-3, Somnivora-3, Altaria-3, Zytomega-3, Lamellux-3, Traunmagil-3, Drifzepeli-3, Tukanon-3, Koalelu-3, Quaxo-3, Fruyal-3, Vulnona-2, Mimigma-3, Guardevoir-3, Wie-Shu-3, Lapras-3, Gelatwino-3, Relaxo-3, Heiteira-3, Milotic-3, Togekiss-3, Digdri-Alola-2, Lanturn-4, Kapilz-4, Pelipper-4, Kappalores-4, Frosdedje-4, Dressella-4, Ambidiffel-4, Elfun-4, Somnivora-4, Altaria-4, Zytomega-4, Lamellux-4, Traunmagil-4, Drifzepeli-4, Koalelu-4, Quaxo-4, Fruyal-4, Vulnona-Alola-2, Mimigma-4, Guardevoir-4, Wie-Shu-4, Lapras-4, Gelatwino-4, Relaxo-4, Heiteira-4, Milotic-4, Togekiss-4, Rotom-Frost-4, Schlurplek-4",
             "species": "Rocara, Feelinara, Florges, Viscogon, Parfinesse, Curelei, Mantidea, Bandelby, Kosturso, Togedemaru, Rotom-Frost, Schlurplek, Digdri, Tauboss, Lanturn, Kapilz, Pelipper, Kappalores, Frosdedje, Dressella, Ambidiffel, Elfun, Somnivora, Altaria, Zytomega, Lamellux, Traunmagil, Drifzepeli, Tukanon, Koalelu, Quaxo, Fruyal, Vulnona, Mimigma, Guardevoir, Wie-Shu, Lapras, Gelatwino, Relaxo, Heiteira, Milotic, Togekiss, Digdri-Alola, Vulnona-Alola",
             "late": "1",
@@ -1652,7 +1652,7 @@
         },
         {
             "name": "Ralph",
-            "class": "Youth Athlete (M)",
+            "class": "Sportskanone",
             "roster": "Fiaro-3, Quajutsu-3, UHaFnir-3, Bandelby-3, Fiaro-4, Quajutsu-4, UHaFnir-4, Bandelby-4, Lektrobal-3, Hydragil-3, Snibunna-3, Aerodactyl-3, Blitza-3, Iksbat-3, Lektrobal-4, Hydragil-4, Snibunna-4, Aerodactyl-4, Blitza-4, Iksbat-4",
             "species": "Fiaro, Quajutsu, UHaFnir, Bandelby, Lektrobal, Hydragil, Snibunna, Aerodactyl, Blitza, Iksbat",
             "late": "1",
@@ -1663,7 +1663,7 @@
         },
         {
             "name": "Didi",
-            "class": "Youth Athlete (M)",
+            "class": "Sportskanone",
             "roster": "Fiaro-3, Quajutsu-3, UHaFnir-3, Bandelby-3, Fiaro-4, Quajutsu-4, UHaFnir-4, Bandelby-4, Lektrobal-3, Hydragil-3, Snibunna-3, Aerodactyl-3, Blitza-3, Iksbat-3, Lektrobal-4, Hydragil-4, Snibunna-4, Aerodactyl-4, Blitza-4, Iksbat-4",
             "species": "Fiaro, Quajutsu, UHaFnir, Bandelby, Lektrobal, Hydragil, Snibunna, Aerodactyl, Blitza, Iksbat",
             "late": "1",
@@ -1674,7 +1674,7 @@
         },
         {
             "name": "Monika",
-            "class": "Youth Athlete (F)",
+            "class": "Sportskanone",
             "roster": "Resladero-3, Quajutsu-3, Wolwerock-2, Resladero-4, Quajutsu-4, Wolwerock-Nacht-2, Gewaldro-3, Serpiroyal-3, Digdri-2, Ambidiffel-3, Elfun-3, Simsala-3, Amfira-3, Starmie-3, Gewaldro-4, Serpiroyal-4, Digdri-Alola-2, Ambidiffel-4, Elfun-4, Simsala-4, Amfira-4, Starmie-4, Raikou-1, Raikou-2, Raikou-3, Raikou-4",
             "species": "Resladero, Quajutsu, Wolwerock, Wolwerock-Nacht, Gewaldro, Serpiroyal, Digdri, Ambidiffel, Elfun, Simsala, Amfira, Starmie, Digdri-Alola, Raikou",
             "late": "1",
@@ -1685,7 +1685,7 @@
         },
         {
             "name": "Anja",
-            "class": "Youth Athlete (F)",
+            "class": "Sportskanone",
             "roster": "Resladero-3, Quajutsu-3, Wolwerock-2, Resladero-4, Quajutsu-4, Wolwerock-Nacht-2, Gewaldro-3, Serpiroyal-3, Digdri-2, Ambidiffel-3, Elfun-3, Simsala-3, Amfira-3, Starmie-3, Gewaldro-4, Serpiroyal-4, Digdri-Alola-2, Ambidiffel-4, Elfun-4, Simsala-4, Amfira-4, Starmie-4, Raikou-1, Raikou-2, Raikou-3, Raikou-4",
             "species": "Resladero, Quajutsu, Wolwerock, Wolwerock-Nacht, Gewaldro, Serpiroyal, Digdri, Ambidiffel, Elfun, Simsala, Amfira, Starmie, Digdri-Alola, Raikou",
             "late": "1",
@@ -1696,7 +1696,7 @@
         },
         {
             "name": "Timon",
-            "class": "Rising Star (M)",
+            "class": "Trainerhoffnung",
             "roster": "Viscogon-3, Knirfish-3, Rotom-Wasch-3, Magbrant-3, Pelipper-2, Quaxo-2, Sumpex-3, Pelipper-3, Kappalores-3, Armaldo-3, Karippas-3, Quaxo-3, Blitza-3, Siberio-3, Seedraking-3, Pelipper-4, Lektrobal-4, Kappalores-4, Armaldo-4, Karippas-4, Quaxo-4, Tentoxa-4, Siberio-4, Seedraking-4, Suicune-1, Suicune-2, Zapdos-3, Suicune-3, Suicune-4, Boreos-4, Rotom-Wasch-4, Magbrant-4",
             "species": "Viscogon, Knirfish, Rotom-Wasch, Magbrant, Pelipper, Quaxo, Sumpex, Kappalores, Armaldo, Karippas, Blitza, Siberio, Seedraking, Lektrobal, Tentoxa, Suicune, Zapdos, Boreos",
             "late": "1",
@@ -1707,7 +1707,7 @@
         },
         {
             "name": "Jeremy",
-            "class": "Rising Star (M)",
+            "class": "Trainerhoffnung",
             "roster": "Fennexis-3, Rotom-Hitze-3, Mantidea-4, Rotom-Hitze-4, Vulnona-1, Bisaflor-3, Glurak-3, Tengulist-3, Dressella-3, Flampivian-3, Elfun-3, Vulnona-2, Kokowei-2, Folipurba-3, Tangoloss-3, Arkani-3, Bisaflor-4, Tengulist-4, Dressella-4, Flampivian-4, Elfun-4, Hundemon-4, Kokowei-Alola-2, Folipurba-4, Tangoloss-4, Lavados-1, Heatran-1, Lavados-2, Heatran-2, Lavados-3, Heatran-3, Lavados-4",
             "species": "Fennexis, Rotom-Hitze, Mantidea, Vulnona, Bisaflor, Glurak, Tengulist, Dressella, Flampivian, Elfun, Kokowei, Folipurba, Tangoloss, Arkani, Hundemon, Kokowei-Alola, Lavados, Heatran",
             "late": "1",
@@ -1718,7 +1718,7 @@
         },
         {
             "name": "Babette",
-            "class": "Rising Star (F)",
+            "class": "Trainerhoffnung",
             "roster": "Viscogon-3, Knirfish-3, Rotom-Wasch-3, Magbrant-3, Pelipper-2, Quaxo-2, Sumpex-3, Pelipper-3, Kappalores-3, Armaldo-3, Karippas-3, Quaxo-3, Blitza-3, Siberio-3, Seedraking-3, Pelipper-4, Lektrobal-4, Kappalores-4, Armaldo-4, Karippas-4, Quaxo-4, Tentoxa-4, Siberio-4, Seedraking-4, Suicune-1, Suicune-2, Zapdos-3, Suicune-3, Suicune-4, Boreos-4, Rotom-Wasch-4, Magbrant-4",
             "species": "Viscogon, Knirfish, Rotom-Wasch, Magbrant, Pelipper, Quaxo, Sumpex, Kappalores, Armaldo, Karippas, Blitza, Siberio, Seedraking, Lektrobal, Tentoxa, Suicune, Zapdos, Boreos",
             "late": "1",
@@ -1729,7 +1729,7 @@
         },
         {
             "name": "Chiyo",
-            "class": "Rising Star (F)",
+            "class": "Trainerhoffnung",
             "roster": "Fennexis-3, Rotom-Hitze-3, Mantidea-4, Rotom-Hitze-4, Vulnona-1, Bisaflor-3, Glurak-3, Tengulist-3, Dressella-3, Flampivian-3, Elfun-3, Vulnona-2, Kokowei-2, Folipurba-3, Tangoloss-3, Arkani-3, Bisaflor-4, Tengulist-4, Dressella-4, Flampivian-4, Elfun-4, Hundemon-4, Kokowei-Alola-2, Folipurba-4, Tangoloss-4, Lavados-1, Heatran-1, Lavados-2, Heatran-2, Lavados-3, Heatran-3, Lavados-4",
             "species": "Fennexis, Rotom-Hitze, Mantidea, Vulnona, Bisaflor, Glurak, Tengulist, Dressella, Flampivian, Elfun, Kokowei, Folipurba, Tangoloss, Arkani, Hundemon, Kokowei-Alola, Lavados, Heatran",
             "late": "1",
@@ -1740,7 +1740,7 @@
         },
         {
             "name": "Guillermo",
-            "class": "Sightseer (M)",
+            "class": "Urlauber",
             "roster": "Flampivian-3, Rameidon-3, Meistagrif-3, Rihornior-3, Maxax-3, Aeropteryx-3, Letarking-3, Flampivian-4, Rameidon-4, Meistagrif-4, Rihornior-4, Maxax-4, Aeropteryx-4, Letarking-4, Regigigas-1, Regigigas-2, Regigigas-3, Regigigas-4",
             "species": "Flampivian, Rameidon, Meistagrif, Rihornior, Maxax, Aeropteryx, Letarking, Regigigas",
             "late": "1",
@@ -1751,7 +1751,7 @@
         },
         {
             "name": "Chen",
-            "class": "Sightseer (M)",
+            "class": "Urlauber",
             "roster": "Flampivian-3, Rameidon-3, Meistagrif-3, Rihornior-3, Maxax-3, Aeropteryx-3, Letarking-3, Flampivian-4, Rameidon-4, Meistagrif-4, Rihornior-4, Maxax-4, Aeropteryx-4, Letarking-4, Regigigas-1, Regigigas-2, Regigigas-3, Regigigas-4",
             "species": "Flampivian, Rameidon, Meistagrif, Rihornior, Maxax, Aeropteryx, Letarking, Regigigas",
             "late": "1",
@@ -1762,7 +1762,7 @@
         },
         {
             "name": "Vanessa",
-            "class": "Sightseer (F)",
+            "class": "Urlauberin",
             "roster": "Donarion-3, Sen-Long-3, Donarion-4, Sen-Long-4, Simsala-3, Gengar-3, Skelabra-3, Psiana-3, Glaziola-3, Magnezone-3, Porygon-Z-3, Ramoth-3, Simsala-4, Gengar-4, Skelabra-4, Psiana-4, Glaziola-4, Magnezone-4, Porygon-Z-4, Ramoth-4, Latios-1, Heatran-1, Latios-2, Heatran-2, Latios-3, Heatran-3, Latios-4, Heatran-4",
             "species": "Donarion, Sen-Long, Simsala, Gengar, Skelabra, Psiana, Glaziola, Magnezone, Porygon-Z, Ramoth, Latios, Heatran",
             "late": "1",
@@ -1773,7 +1773,7 @@
         },
         {
             "name": "Ilse",
-            "class": "Sightseer (F)",
+            "class": "Urlauberin",
             "roster": "Donarion-3, Sen-Long-3, Donarion-4, Sen-Long-4, Simsala-3, Gengar-3, Skelabra-3, Psiana-3, Glaziola-3, Magnezone-3, Porygon-Z-3, Ramoth-3, Simsala-4, Gengar-4, Skelabra-4, Psiana-4, Glaziola-4, Magnezone-4, Porygon-Z-4, Ramoth-4, Latios-1, Heatran-1, Latios-2, Heatran-2, Latios-3, Heatran-3, Latios-4, Heatran-4",
             "species": "Donarion, Sen-Long, Simsala, Gengar, Skelabra, Psiana, Glaziola, Magnezone, Porygon-Z, Ramoth, Latios, Heatran",
             "late": "1",
@@ -1894,7 +1894,7 @@
         },
         {
             "name": "Andy",
-            "class": "Golfer (M)",
+            "class": "Golfer",
             "roster": "Curelei-3, Curelei-4, Glurak-3, Tornupto-3, Staraptor-3, Vulnona-2, Tentoxa-3, Libelldra-3, Ramoth-3, Brutalanda-3, Letarking-3, Glurak-4, Tornupto-4, Staraptor-4, Vulnona-Alola-2, Tentoxa-4, Libelldra-4, Ramoth-4, Brutalanda-4, Letarking-4, Zapdos-1, Entei-1, Regigigas-1, Zapdos-2, Entei-2, Regigigas-2, Zapdos-3, Entei-3, Regigigas-3, Zapdos-4, Entei-4, Regigigas-4",
             "species": "Curelei, Glurak, Tornupto, Staraptor, Vulnona, Tentoxa, Libelldra, Ramoth, Brutalanda, Letarking, Vulnona-Alola, Zapdos, Entei, Regigigas",
             "late": "1",
@@ -1905,7 +1905,7 @@
         },
         {
             "name": "Cameron",
-            "class": "Golfer (M)",
+            "class": "Golfer",
             "roster": "Aquana-3, Blitza-3, Flamara-3, Psiana-3, Nachtara-3, Folipurba-3, Glaziola-3, Aquana-4, Blitza-4, Flamara-4, Psiana-4, Nachtara-4, Folipurba-4, Glaziola-4",
             "species": "Aquana, Blitza, Flamara, Psiana, Nachtara, Folipurba, Glaziola",
             "late": "1",
@@ -1916,7 +1916,7 @@
         },
         {
             "name": "Adele",
-            "class": "Golfer (F)",
+            "class": "Golferin",
             "roster": "Aquana-3, Blitza-3, Flamara-3, Psiana-3, Nachtara-3, Folipurba-3, Glaziola-3, Aquana-4, Blitza-4, Flamara-4, Psiana-4, Nachtara-4, Folipurba-4, Glaziola-4",
             "species": "Aquana, Blitza, Flamara, Psiana, Nachtara, Folipurba, Glaziola",
             "late": "1",
@@ -1927,7 +1927,7 @@
         },
         {
             "name": "Diana",
-            "class": "Golfer (F)",
+            "class": "Golferin",
             "roster": "Glurak-3, Tornupto-3, Staraptor-3, Vulnona-2, Tentoxa-3, Libelldra-3, Ramoth-3, Brutalanda-3, Letarking-3, Glurak-4, Tornupto-4, Staraptor-4, Vulnona-Alola-2, Tentoxa-4, Libelldra-4, Ramoth-4, Brutalanda-4, Letarking-4, Zapdos-1, Entei-1, Regigigas-1, Zapdos-2, Entei-2, Regigigas-2, Zapdos-3, Entei-3, Regigigas-3, Zapdos-4, Entei-4, Regigigas-4",
             "species": "Glurak, Tornupto, Staraptor, Vulnona, Tentoxa, Libelldra, Ramoth, Brutalanda, Letarking, Vulnona-Alola, Zapdos, Entei, Regigigas",
             "late": "1",
@@ -1938,7 +1938,7 @@
         },
         {
             "name": "Paco",
-            "class": "Pokemon Breeder (M)",
+            "class": "Pokémon-Züchter",
             "roster": "Arktilas-3, Parfinesse-3, Arktilas-4, Parfinesse-4, Hutsassa-3, Echnatoll-3, Lahmus-3, Somnivora-3, Tentantel-3, Laschoking-3, Zytomega-3, Bollterus-3, Lamellux-3, Cavalanzas-3, Pottrott-3, Brockoloss-3, Stahlos-3, Relaxo-3, Hutsassa-4, Echnatoll-4, Lahmus-4, Somnivora-4, Tentantel-4, Laschoking-4, Zytomega-4, Bollterus-4, Lamellux-4, Cavalanzas-4, Pottrott-4, Brockoloss-4, Stahlos-4, Relaxo-4",
             "species": "Arktilas, Parfinesse, Hutsassa, Echnatoll, Lahmus, Somnivora, Tentantel, Laschoking, Zytomega, Bollterus, Lamellux, Cavalanzas, Pottrott, Brockoloss, Stahlos, Relaxo",
             "late": "1",
@@ -1949,7 +1949,7 @@
         },
         {
             "name": "Werner",
-            "class": "Pokemon Breeder (M)",
+            "class": "Pokémon-Züchter",
             "roster": "Arktilas-3, Parfinesse-3, Arktilas-4, Parfinesse-4, Hutsassa-3, Echnatoll-3, Lahmus-3, Somnivora-3, Tentantel-3, Laschoking-3, Zytomega-3, Bollterus-3, Lamellux-3, Cavalanzas-3, Pottrott-3, Brockoloss-3, Stahlos-3, Relaxo-3, Hutsassa-4, Echnatoll-4, Lahmus-4, Somnivora-4, Tentantel-4, Laschoking-4, Zytomega-4, Bollterus-4, Lamellux-4, Cavalanzas-4, Pottrott-4, Brockoloss-4, Stahlos-4, Relaxo-4",
             "species": "Arktilas, Parfinesse, Hutsassa, Echnatoll, Lahmus, Somnivora, Tentantel, Laschoking, Zytomega, Bollterus, Lamellux, Cavalanzas, Pottrott, Brockoloss, Stahlos, Relaxo",
             "late": "1",
@@ -1960,7 +1960,7 @@
         },
         {
             "name": "Bonnie",
-            "class": "Pokemon Breeder (F)",
+            "class": "Pokémon-Züchterin",
             "roster": "Aggrostella-3, Tectass-3, Pampross-3, Tortunator-3, Sen-Long-3, Moruda-3, Aggrostella-4, Tectass-4, Pampross-4, Tortunator-4, Sen-Long-4, Moruda-4, Honweisel-3, Gastrodon-3, Camerupt-3, Kryppuk-3, Karippas-3, Bronzong-3, Lusardin-3, Colossand-3, Rihornior-3, Honweisel-4, Gastrodon-4, Camerupt-4, Kryppuk-4, Karippas-4, Bronzong-4, Lusardin-4, Colossand-4, Rihornior-4",
             "species": "Aggrostella, Tectass, Pampross, Tortunator, Sen-Long, Moruda, Honweisel, Gastrodon, Camerupt, Kryppuk, Karippas, Bronzong, Lusardin, Colossand, Rihornior",
             "late": "1",
@@ -1971,7 +1971,7 @@
         },
         {
             "name": "Jill",
-            "class": "Pokemon Breeder (F)",
+            "class": "Pokémon-Züchterin",
             "roster": "Aggrostella-3, Tectass-3, Pampross-3, Tortunator-3, Sen-Long-3, Moruda-3, Aggrostella-4, Tectass-4, Pampross-4, Tortunator-4, Sen-Long-4, Moruda-4, Honweisel-3, Gastrodon-3, Camerupt-3, Kryppuk-3, Karippas-3, Bronzong-3, Lusardin-3, Colossand-3, Rihornior-3, Honweisel-4, Gastrodon-4, Camerupt-4, Kryppuk-4, Karippas-4, Bronzong-4, Lusardin-4, Colossand-4, Rihornior-4",
             "species": "Aggrostella, Tectass, Pampross, Tortunator, Sen-Long, Moruda, Honweisel, Gastrodon, Camerupt, Kryppuk, Karippas, Bronzong, Lusardin, Colossand, Rihornior",
             "late": "1",
@@ -2048,7 +2048,7 @@
         },
         {
             "name": "Guildo",
-            "class": "Ace Trainer (M)",
+            "class": "Ass-Trainer",
             "roster": "Tobutz-1, Grandiras-1, Selfe-1, Vesprit-1, Tobutz-2, Grandiras-2, Selfe-2, Vesprit-2, Tobutz-3, Grandiras-3, Selfe-3, Vesprit-3, Tobutz-4, Grandiras-4, Selfe-4, Vesprit-4, Regirock-1, Regice-1, Registeel-1, Regirock-2, Regice-2, Registeel-2, Regirock-3, Regice-3, Registeel-3, Regirock-4, Regice-4, Registeel-4",
             "species": "Tobutz, Grandiras, Selfe, Vesprit, Regirock, Regice, Registeel",
             "late": "1",
@@ -2059,7 +2059,7 @@
         },
         {
             "name": "Patrizia",
-            "class": "Pokemon Center Lady",
+            "class": "Center-Schwester",
             "roster": "Feelinara-2, Florges-2, Parfinesse-2, Choreogel-Hula-1, Kosturso-2, Togedemaru-2, Feelinara-3, Florges-3, Parfinesse-3, Kosturso-3, Togedemaru-3, Feelinara-4, Florges-4, Parfinesse-4, Kosturso-4, Togedemaru-4, Ohrdoch-2, Dressella-2, Lahmus-2, Somnivora-2, Laschoking-2, Guardevoir-2, Heiteira-2, Togekiss-2, Ohrdoch-3, Dressella-3, Lahmus-3, Somnivora-3, Laschoking-3, Guardevoir-3, Heiteira-3, Togekiss-3, Ohrdoch-4, Dressella-4, Lahmus-4, Somnivora-4, Laschoking-4, Guardevoir-4, Heiteira-4, Togekiss-4",
             "species": "Feelinara, Florges, Parfinesse, Choreogel-Hula, Kosturso, Togedemaru, Ohrdoch, Dressella, Lahmus, Somnivora, Laschoking, Guardevoir, Heiteira, Togekiss",
             "late": "1",
@@ -2070,7 +2070,7 @@
         },
         {
             "name": "Boris",
-            "class": "Veteran (M)",
+            "class": "Veteran",
             "roster": "Feelinara-3, Grandiras-3, Rotom-Wasch-3, Feelinara-4, Grandiras-4, Glurak-3, Flunkifer-3, Kangama-3, Dragoran-3, Despotar-3, Brutalanda-3, Metagross-3, Knakrack-3, Glurak-4, Flunkifer-4, Kangama-4, Dragoran-4, Despotar-4, Brutalanda-4, Metagross-4, Knakrack-4, Arktos-3, Zapdos-3, Raikou-3, Entei-3, Suicune-3, Terrakium-3, Boreos-3, Voltolos-3, Latios-3, Heatran-3, Cresselia-3, Demeteros-3, Arktos-4, Zapdos-4, Raikou-4, Entei-4, Suicune-4, Terrakium-4, Boreos-4, Voltolos-4, Latios-4, Heatran-4, Cresselia-4, Demeteros-4, Rotom-Wasch-4",
             "species": "Feelinara, Grandiras, Rotom-Wasch, Glurak, Flunkifer, Kangama, Dragoran, Despotar, Brutalanda, Metagross, Knakrack, Arktos, Zapdos, Raikou, Entei, Suicune, Terrakium, Boreos, Voltolos, Latios, Heatran, Cresselia, Demeteros",
             "late": "1",
@@ -2081,7 +2081,7 @@
         },
         {
             "name": "Leonore",
-            "class": "Veteran (F)",
+            "class": "Veteranin",
             "roster": "Tobutz-3, Selfe-3, Vesprit-3, Tobutz-4, Selfe-4, Vesprit-4, Zapdos-3, Raikou-3, Suicune-3, Viridium-3, Voltolos-3, Latias-3, Latios-3, Cresselia-3, Zapdos-4, Raikou-4, Suicune-4, Viridium-4, Voltolos-4, Latias-4, Latios-4, Cresselia-4",
             "species": "Tobutz, Selfe, Vesprit, Zapdos, Raikou, Suicune, Viridium, Voltolos, Latias, Latios, Cresselia",
             "late": "1",
@@ -2114,7 +2114,7 @@
         },
         {
             "name": "Astor",
-            "class": "Pokemon Trainer",
+            "class": "Pokémon-Trainer",
             "roster": "Absol-3, Tohaido-3, Irokex-3, Caesurio-3, Hundemon-3, Piondragi-3, Kramshef-3, Kleoparda-3, Despotar-3, Absol-4, Tohaido-4, Irokex-4, Caesurio-4, Hundemon-4, Piondragi-4, Kleoparda-4, Despotar-4",
             "species": "Absol, Tohaido, Irokex, Caesurio, Hundemon, Piondragi, Kramshef, Kleoparda, Despotar",
             "late": "1",
@@ -2125,7 +2125,7 @@
         },
         {
             "name": "Anabel",
-            "class": "Pokemon Trainer",
+            "class": "Pokémon-Trainer",
             "roster": "Simsala-3, Lucario-3, Relaxo-3, Simsala-4, Lucario-4, Relaxo-4, Raikou-1, Entei-1, Latios-1, Raikou-2, Entei-2, Latios-2, Raikou-3, Entei-3, Latios-3, Raikou-4, Entei-4, Latios-4",
             "species": "Simsala, Lucario, Relaxo, Raikou, Entei, Latios",
             "late": "1",
@@ -2136,7 +2136,7 @@
         },
         {
             "name": "Heiko",
-            "class": "Pokemon Trainer",
+            "class": "Pokémon-Trainer",
             "roster": "Altaria-3, Galagladi-3, Magnezone-3, Knakrack-3, Altaria-4, Galagladi-4, Magnezone-4, Knakrack-4",
             "species": "Altaria, Galagladi, Magnezone, Knakrack",
             "late": "1",
@@ -2147,7 +2147,7 @@
         },
         {
             "name": "Achromas",
-            "class": "Pokemon Trainer",
+            "class": "Pokémon-Trainer",
             "roster": "Sleimok-Alola-1, Lektrobal-3, Sleimok-Alola-2, Porygon2-3, Klikdiklak-3, Magnezone-3, Porygon-Z-3, Metagross-3, Lektrobal-4, Porygon2-4, Klikdiklak-4, Magnezone-4, Porygon-Z-4, Metagross-4",
             "species": "Sleimok-Alola, Lektrobal, Porygon2, Klikdiklak, Magnezone, Porygon-Z, Metagross",
             "late": "1",
@@ -2158,7 +2158,7 @@
         },
         {
             "name": "Cynthia",
-            "class": "Pokemon Trainer",
+            "class": "Pokémon-Trainer",
             "roster": "Kryppuk-3, Lucario-3, Milotic-3, Togekiss-3, Knakrack-3, Kryppuk-4, Lucario-4, Milotic-4, Togekiss-4, Knakrack-4",
             "species": "Kryppuk, Lucario, Milotic, Togekiss, Knakrack",
             "late": "1",
@@ -2169,7 +2169,7 @@
         },
         {
             "name": "Fran",
-            "class": "Pokemon Trainer",
+            "class": "Pokémon-Trainer",
             "roster": "Aggrostella-3, Mantidea-3, Aggrostella-4, Mantidea-4, Amfira-3, Gengar-3, Iksbat-3, Amfira-4, Gengar-4, Iksbat-4",
             "species": "Aggrostella, Mantidea, Amfira, Gengar, Iksbat",
             "late": "1",
@@ -2180,7 +2180,7 @@
         },
         {
             "name": "Bromley",
-            "class": "Pokemon Trainer",
+            "class": "Pokémon-Trainer",
             "roster": "Aggrostella-3, Tectass-3, Aggrostella-4, Tectass-4, Toxiquak-3, Caesurio-3, Pinsir-3, Kramshef-3, Kleoparda-3, Toxiquak-4, Caesurio-4, Pinsir-4, Kramshef-4, Kleoparda-4",
             "species": "Aggrostella, Tectass, Toxiquak, Caesurio, Pinsir, Kramshef, Kleoparda",
             "late": "1",
@@ -2213,7 +2213,7 @@
         },
         {
             "name": "Sina",
-            "class": "Pokemon Trainer",
+            "class": "Pokémon-Trainer",
             "roster": "Sen-Long-3, Sen-Long-4, Dressella-3, Rexblisar-3, Kommandutan-3, Grypheldis-3, Glaziola-3, Dressella-4, Rexblisar-4, Kommandutan-4, Grypheldis-4, Glaziola-4, Sandamer-Alola-2",
             "species": "Sen-Long, Dressella, Rexblisar, Kommandutan, Grypheldis, Glaziola, Sandamer-Alola",
             "late": "1",
@@ -2224,7 +2224,7 @@
         },
         {
             "name": "Dexio",
-            "class": "Pokemon Trainer",
+            "class": "Pokémon-Trainer",
             "roster": "Tortunator-3, Tortunator-4, Lahmus-3, Elfun-3, Quartermak-3, Washakwil-3, Psiana-3, Lahmus-4, Elfun-4, Quartermak-4, Vulnona-Alola-2, Washakwil-4, Psiana-4",
             "species": "Tortunator, Lahmus, Elfun, Quartermak, Washakwil, Psiana, Vulnona-Alola",
             "late": "1",
@@ -2235,7 +2235,7 @@
         },
         {
             "name": "Kukui",
-            "class": "Pokemon Trainer",
+            "class": "Pokémon-Trainer",
             "roster": "Vulnona-Alola-1, Vulnona-Alola-2, Relaxo-3, Relaxo-4, Magnezone-3, Magnezone-4, Washakwil-3, Washakwil-4, Silvarro-3, Silvarro-4, Fuegro-3, Fuegro-4, Primarene-3, Primarene-4, Wolwerock-2, Wolwerock-Nacht-2",
             "species": "Vulnona-Alola, Relaxo, Magnezone, Washakwil, Silvarro, Fuegro, Primarene, Wolwerock, Wolwerock-Nacht",
             "late": "1",

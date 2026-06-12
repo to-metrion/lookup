@@ -6,6 +6,11 @@
 //
 //   code             unique id (used in localStorage)
 //   name             display name
+//   short            (variants) short label for the facility pill row in
+//                    settings (e.g. 'USUM', 'SM'); falls back to `name`
+//   default          (variants) true → selected when the game is picked.
+//                    Variants are LISTED chronologically (SM before USUM,
+//                    XY before ORAS); the default is independent of order.
 //   dataDir          data files live in data/<dataDir>/trainers-<lang>.json
 //                    and data/<dataDir>/sets-<lang>.json
 //   base             optional: dataDir of another variant whose files serve as
@@ -39,10 +44,12 @@ export const GAMES = [
         icons: ['assets/images/games/us.png', 'assets/images/games/um.png'],
         variants: [
             {
-                code: 'tree-usum',
-                name: 'Ultra Sun / Ultra Moon',
-                icons: ['assets/images/games/us.png', 'assets/images/games/um.png'],
-                dataDir: 'tree',
+                code: 'tree-sm',
+                name: 'Sun / Moon',
+                short: 'SM',
+                icons: ['assets/images/games/s.png', 'assets/images/games/m.png'],
+                dataDir: 'tree-sm',
+                base: 'tree',   // delta files on top of the USUM data
                 pokedex: 'data/pokedex-7.json',
                 gen: 7,
                 languages: ['en', 'fr', 'it', 'de', 'es', 'jp', 'ko', 'chs', 'cht'],
@@ -52,11 +59,12 @@ export const GAMES = [
                 lateCutoff: 40,
             },
             {
-                code: 'tree-sm',
-                name: 'Sun / Moon',
-                icons: ['assets/images/games/s.png', 'assets/images/games/m.png'],
-                dataDir: 'tree-sm',
-                base: 'tree',   // delta files on top of the USUM data
+                code: 'tree-usum',
+                name: 'Ultra Sun / Ultra Moon',
+                short: 'USUM',
+                default: true,
+                icons: ['assets/images/games/us.png', 'assets/images/games/um.png'],
+                dataDir: 'tree',
                 pokedex: 'data/pokedex-7.json',
                 gen: 7,
                 languages: ['en', 'fr', 'it', 'de', 'es', 'jp', 'ko', 'chs', 'cht'],
@@ -73,10 +81,12 @@ export const GAMES = [
         icons: ['assets/images/games/or.png', 'assets/images/games/as.png'],
         variants: [
             {
-                code: 'maison-oras',
-                name: 'Omega Ruby / Alpha Sapphire',
-                icons: ['assets/images/games/or.png', 'assets/images/games/as.png'],
-                dataDir: 'maison',
+                code: 'maison-xy',
+                name: 'X / Y',
+                short: 'XY',
+                icons: ['assets/images/games/x.png', 'assets/images/games/y.png'],
+                dataDir: 'maison-xy',
+                base: 'maison',   // delta files on top of the ORAS data
                 pokedex: 'data/pokedex-6.json',
                 gen: 6,
                 languages: ['en', 'fr', 'it', 'de', 'es', 'jp', 'ko'],
@@ -86,11 +96,12 @@ export const GAMES = [
                 lateCutoff: 40,
             },
             {
-                code: 'maison-xy',
-                name: 'X / Y',
-                icons: ['assets/images/games/x.png', 'assets/images/games/y.png'],
-                dataDir: 'maison-xy',
-                base: 'maison',   // delta files on top of the ORAS data
+                code: 'maison-oras',
+                name: 'Omega Ruby / Alpha Sapphire',
+                short: 'ORAS',
+                default: true,
+                icons: ['assets/images/games/or.png', 'assets/images/games/as.png'],
+                dataDir: 'maison',
                 pokedex: 'data/pokedex-6.json',
                 gen: 6,
                 languages: ['en', 'fr', 'it', 'de', 'es', 'jp', 'ko'],
@@ -163,7 +174,7 @@ export const THEMES = [
 
 // Appended to every data fetch (?v=...) so browsers pick up new data after a
 // deploy instead of serving stale cached JSON. Bump when data files change.
-export const DATA_VERSION = '2026-06-12c';
+export const DATA_VERSION = '2026-06-12f';
 
 export const LANGUAGE_NAMES = {
     en: 'English',
@@ -181,8 +192,12 @@ export function getGame(code) {
     return GAMES.find(game => game.code === code) || GAMES[0];
 }
 
+export function defaultVariant(game) {
+    return game.variants.find(variant => variant.default) || game.variants[0];
+}
+
 export function getVariant(game, code) {
-    return game.variants.find(variant => variant.code === code) || game.variants[0];
+    return game.variants.find(variant => variant.code === code) || defaultVariant(game);
 }
 
 // Highest slot count among a variant's modes (how many menus to populate).

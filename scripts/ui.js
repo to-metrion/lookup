@@ -100,13 +100,6 @@ function textTemplate(option) {
     return option.text;
 }
 
-export function flagTemplate(option) {
-    if (!option.id) return option.text;
-    return $('<span></span>')
-        .append($('<img>').attr('src', `assets/images/flags/${option.id}.png`).addClass('flag-icon'))
-        .append(document.createTextNode(' ' + option.text));
-}
-
 // Icon template for the game select. Games may declare several icons
 // (one per flagship version), passed via data-icons as a |-separated list.
 export function iconTemplate(option) {

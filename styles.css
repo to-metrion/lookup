@@ -393,12 +393,41 @@ button:focus {
 /* ============================================================
    Select2 styling
    ============================================================ */
-#game-select + .select2-container,
-#variant-select + .select2-container,
-#language-select + .select2-container,
-#theme-select + .select2-container {
+#game-select + .select2-container {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+/* Big game select: trainer-style (small-caps, tall) but more modest, so the
+   hierarchy reads game > facility pills. */
+.select2-container--game .select2-selection--single {
+    background-color: var(--surface) !important;
+    border: 1px solid var(--border) !important;
+    color: var(--text) !important;
+    height: 56px !important;
+    font-size: 30px !important;
+    display: flex !important;
+    align-items: center !important;
+    padding-left: 10px !important;
+    width: 100% !important;
+}
+
+.select2-container--game .select2-selection--single .select2-selection__rendered {
+    color: var(--text) !important;
+    font-family: 'Futura', sans-serif !important;
+    font-variant-caps: small-caps !important;
+    display: flex !important;
+    align-items: center !important;
+    line-height: 1 !important;
+}
+
+.select2-container--game .select2-selection--single .select2-selection__arrow {
+    height: 100% !important;
+    top: 0 !important;
+}
+
+.select2-container--game .game-icon {
+    height: 32px;
 }
 
 /* Big trainer dropdown in the header */
@@ -565,11 +594,68 @@ button:focus {
     filter: drop-shadow(0 0 5px var(--sprite-shadow)) !important;
 }
 
-.flag-icon {
+/* Subtle separators between settings groups (themes / game+facility /
+   language / per-variant toggles). */
+.settings-divider {
+    border: none;
+    border-top: 1px solid var(--border);
+    opacity: 0.6;
+    margin: 14px 0;
+}
+
+/* Language picker: a row of flag buttons (styled like the theme swatches). */
+#language-flags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 12px 0;
+}
+
+.lang-flag {
+    padding: 0;
+    border: 2px solid var(--border);
+    border-radius: 6px;
+    background: none;
+    cursor: pointer;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.lang-flag img {
+    height: 26px;
     width: auto;
-    height: 16px;
-    margin-right: 5px;
-    vertical-align: middle;
+    display: block;
+}
+
+.lang-flag.active {
+    border-color: var(--highlight);
+    box-shadow: 0 0 0 2px var(--highlight);
+}
+
+/* Facility picker: small text pills, clearly subordinate to the game select. */
+#variant-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 10px 0;
+}
+
+.variant-pill {
+    padding: 6px 16px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background-color: var(--surface);
+    color: var(--text);
+    font-family: 'Futura', sans-serif;
+    font-variant-caps: small-caps;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.variant-pill.active {
+    border-color: var(--highlight);
+    box-shadow: 0 0 0 1px var(--highlight);
+    color: var(--highlight);
 }
 
 .game-icon {

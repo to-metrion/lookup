@@ -53,5 +53,34 @@
         "ko": "포켓몬",
         "chs": "宝可梦",
         "cht": "寶可夢"
+    },
+    "game-tree": {
+        "en": "Battle Tree",
+        "fr": "Arbre de Combat",
+        "jp": "バトルツリー",
+        "it": "Albero della Lotta",
+        "de": "Kampfbaum",
+        "es": "Árbol de Combate",
+        "ko": "배틀트리",
+        "chs": "对战树",
+        "cht": "對戰樹"
+    },
+    "game-maison": {
+        "en": "Battle Maison",
+        "fr": "Maison de Combat",
+        "jp": "バトルハウス",
+        "it": "Villa Lotta",
+        "de": "Kampfhaus",
+        "es": "Mansión Batalla",
+        "ko": "배틀하우스"
+    },
+    "game-subway": {
+        "en": "Battle Subway",
+        "fr": "Métro de Combat",
+        "jp": "バトルサブウェイ",
+        "it": "Metrò Lotta",
+        "de": "Kampfmetro",
+        "es": "Metro Batalla",
+        "ko": "배틀서브웨이"
     }
 }

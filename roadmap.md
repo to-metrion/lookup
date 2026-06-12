@@ -44,6 +44,23 @@ Internal planning document — tracks goals and progress for the Battle Facility
       replaces the old "sprites only fill the last slot" behavior users complained about),
       with a Bulbasaur settings toggle to hide them (default on)
 - [x] Settings menu: no title, theme swatches at the top
+- [x] Settings rework (June 2026): language picker is a row of flag buttons under
+      the theme swatches (no dropdown, no text; flag PNGs downscaled 2560px → 64px
+      tall, ≤4 KB each); game select is big trainer-style small-caps
+      (`.select2-container--game`); facility picker is a row of small text pills
+      (`variant.short` in config.js — 'USUM'/'SM'/'ORAS'/'XY'; scales to gen-4
+      facilities and Restricted Sparring as plain labels, per-facility emblems
+      could replace them later if art is sourced). Variants are listed
+      chronologically (SM before USUM, XY before ORAS) with `default: true`
+      marking the selection a game opens on; the game select's icons follow
+      the selected facility (XY → x/y, ORAS → or/as — gen 4's Pt vs HGSS can
+      do the same). Settings groups (themes / game+facility / language /
+      toggles) are separated by subtle dividers, language below facility.
+      Game names use the official localizations (`game-*` keys in
+      translations.json, from the corpus: Arbre de Combat, Kampfhaus, Metrò
+      Lotta, バトルツリー...); facility pill labels (USUM/SM/ORAS/XY) stay
+      universal. Maison/Subway have no official chs/cht names (pre-gen-7
+      games) and fall back to English there.
 - [x] Localization pipeline (`tools/build_languages.py`): generates trainer/set files and fills
       dex/item/nature columns from the [poke-corpus](https://github.com/abcboy101/poke-corpus)
       game text dumps (clone locally, default path `/tmp/pokecorpus/corpus`)
@@ -80,6 +97,14 @@ Internal planning document — tracks goals and progress for the Battle Facility
   to target one of two same-named trainers (Red/Blue, キロハナ), extend the key first
 - Note: Chinese corpus files encode *species names* as private-use glyphs; the existing
   chs/cht dex columns are used instead (quotes/items/moves are plain text — verified clean)
+- [x] All trainers carry a localized `class` (Tree all 9 languages, Subway all 7;
+      Maison already had it), derived from the sprite via `CLASS_BY_SPRITE` in
+      build_languages.py (BW TF191 / USUM TF111, index-based so gendered localized
+      names are correct: Forscher/Forscherin, Topdresseur/Topdresseuse; the ⒆⒇
+      corpus placeholder expands to "Pokémon"; ♂/♀ markers are dropped — "Clerk ♂"
+      → "Clerk" — and English classes use the corpus spelling, no "(M)"/"(F)").
+      The trainer search box also matches the class — typing "chef"/"doctor"
+      lists that class (works everywhere).
 
 ## Facilities to add (in planned order)
 

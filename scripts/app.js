@@ -1,17 +1,17 @@
 // Application entry point: initialization, settings and event wiring.
 
 import { GAMES, MODES, THEMES, LANGUAGE_NAMES, MAX_SIDES,
-         getGame, getVariant, modeSlots } from './config.js';
+         getGame, getVariant, defaultVariant, modeSlots } from './config.js';
 import { loadTranslations, loadVariantData } from './data.js';
 import { state } from './state.js';
 import {
-    initSelect2, flagTemplate, iconTemplate,
+    initSelect2, iconTemplate,
     buildSlotContainers,
     populateTrainerDropdown, populateQuoteDropdown, syncTrainerDropdowns,
     refreshSidePlaceholders, renderSpeciesLists, populatePokemonMenus,
     highlightSelectedSprites, showPokemonSets,
     resetSlotsOfSide, resetPokemonUI, resetSelections,
-    updateLayout, applyStaticTranslations,
+    updateLayout, applyStaticTranslations, t,
     trainerPool, isLateTrainer,
 } from './ui.js';
 
@@ -21,50 +21,83 @@ function populateGameSelect() {
     const select = document.getElementById('game-select');
     select.innerHTML = '';
     for (const game of GAMES) {
-        const option = new Option(game.name, game.code);
-        if (game.icons?.length) option.setAttribute('data-icons', game.icons.join('|'));
-        select.appendChild(option);
+        select.appendChild(new Option(game.name, game.code));
     }
     select.value = state.game.code;
-    initSelect2('#game-select', { placeholder: 'Game', template: iconTemplate, search: false });
+    updateGameSelectIcons(false);
+    initSelect2('#game-select', {
+        placeholder: 'Game',
+        template: iconTemplate,
+        search: false,
+        containerClass: 'select2-container--game', // big, trainer-style
+    });
 }
 
-// Hidden entirely when the selected game has a single variant.
-// Only rebuilds the options when the game changed — rebuilding (and therefore
-// destroying the select2 instance) from inside the select's own change event
-// crashes select2.
-function populateVariantSelect() {
+// The selected game's icons follow the selected FACILITY (XY shows x/y,
+// ORAS shows or/as, ...); other games show their own default icons. Names
+// use the official localizations (game-* keys in translations.json; games
+// without an official name in the current language fall back to English).
+// Only the option attributes/text are touched — rebuilding the select2 from
+// inside its own change event would crash it.
+function updateGameSelectIcons(rerender = true) {
+    for (const option of document.getElementById('game-select').options) {
+        const game = getGame(option.value);
+        const icons = (game === state.game && state.variant?.icons) || game.icons;
+        if (icons?.length) option.setAttribute('data-icons', icons.join('|'));
+        option.textContent = t(`game-${game.code}`, game.name);
+        // select2 caches per-option data in an internal store keyed by
+        // data-select2-id — drop the id so the new text is picked up
+        option.removeAttribute('data-select2-id');
+    }
+    if (rerender) $('#game-select').trigger('change.select2');
+}
+
+// Facility picker: a segmented row of small text pills (clearly subordinate
+// to the big game select above it). Labels come from `variant.short` in
+// config.js, falling back to the full name. Hidden for single-variant games.
+function populateVariantPills() {
     const row = document.getElementById('variant-row');
-    const select = document.getElementById('variant-select');
-    const codes = state.game.variants.map(v => v.code);
-    const current = [...select.options].map(o => o.value);
-    if (codes.join('|') !== current.join('|')) {
-        select.innerHTML = '';
-        for (const variant of state.game.variants) {
-            const option = new Option(variant.name, variant.code);
-            if (variant.icons?.length) option.setAttribute('data-icons', variant.icons.join('|'));
-            select.appendChild(option);
-        }
-        if (state.game.variants.length > 1) {
-            initSelect2('#variant-select', { placeholder: 'Facility', template: iconTemplate, search: false });
-        }
+    const pills = document.getElementById('variant-pills');
+    pills.innerHTML = '';
+    for (const variant of state.game.variants) {
+        const pill = document.createElement('button');
+        pill.className = 'variant-pill';
+        pill.dataset.variant = variant.code;
+        pill.textContent = variant.short ?? variant.name;
+        pill.title = variant.name;
+        pill.classList.toggle('active', variant.code === state.variant.code);
+        pill.addEventListener('click', () => {
+            if (variant.code !== state.variant.code) onVariantChanged(variant.code);
+        });
+        pills.appendChild(pill);
     }
     row.style.display = state.game.variants.length > 1 ? '' : 'none';
-    $(select).val(state.variant.code).trigger('change.select2');
 }
 
-function populateLanguageSelect() {
-    const select = document.getElementById('language-select');
-    select.innerHTML = '';
-    for (const code of state.variant.languages) {
-        select.appendChild(new Option(LANGUAGE_NAMES[code] || code, code));
-    }
+// Language picker: a row of flag buttons under the theme swatches — the
+// flags speak for themselves, no dropdown or text needed.
+function populateLanguageFlags() {
+    const row = document.getElementById('language-flags');
+    row.innerHTML = '';
     // Keep the current language if this variant supports it, else fall back.
     if (!state.variant.languages.includes(state.language)) {
         state.language = state.variant.languages[0];
     }
-    select.value = state.language;
-    initSelect2('#language-select', { placeholder: 'Language', template: flagTemplate, search: false });
+    for (const code of state.variant.languages) {
+        const btn = document.createElement('button');
+        btn.className = 'lang-flag';
+        btn.dataset.lang = code;
+        btn.title = LANGUAGE_NAMES[code] || code;
+        btn.classList.toggle('active', code === state.language);
+        const img = document.createElement('img');
+        img.src = `assets/images/flags/${code}.png`;
+        img.alt = LANGUAGE_NAMES[code] || code;
+        btn.appendChild(img);
+        btn.addEventListener('click', () => {
+            if (code !== state.language) onLanguageChanged(code);
+        });
+        row.appendChild(btn);
+    }
 }
 
 // Visual theme picker: a row of dual-color squares (no text).
@@ -122,7 +155,7 @@ function onSpritesToggled() {
 
 function onGameChanged(code) {
     state.game = getGame(code);
-    applyVariant(state.game.variants[0]);
+    applyVariant(defaultVariant(state.game));
 }
 
 function onVariantChanged(code) {
@@ -140,8 +173,9 @@ function applyVariant(variant) {
         setMode(variant.modes[0]);
     }
     buildModeSwitch();
-    populateVariantSelect();
-    populateLanguageSelect(); // may force a language fallback
+    populateVariantPills();
+    updateGameSelectIcons();
+    populateLanguageFlags(); // may force a language fallback
     localStorage.setItem('selectedLanguage', state.language);
     updateLateFilterRow();
     updateMultisRow();
@@ -158,6 +192,8 @@ function onLanguageChanged(code) {
     const snapshot = captureSelection();
     state.language = code;
     localStorage.setItem('selectedLanguage', code);
+    populateLanguageFlags();
+    updateGameSelectIcons(); // localized game names
     applyStaticTranslations();
     loadAndRender().then(() => restoreSelection(snapshot));
 }
@@ -403,8 +439,8 @@ async function init() {
         : state.variant.modes[0]);
 
     populateGameSelect();
-    populateVariantSelect();
-    populateLanguageSelect();
+    populateVariantPills();
+    populateLanguageFlags();
     populateThemeSwatches();
     updateLateFilterRow();
     updateMultisRow();
@@ -414,8 +450,7 @@ async function init() {
     // Event wiring.
     // Select2 fires jQuery 'change' events (not native ones), so bind via jQuery.
     $('#game-select').on('change', e => onGameChanged(e.target.value));
-    $('#variant-select').on('change', e => onVariantChanged(e.target.value));
-    $('#language-select').on('change', e => onLanguageChanged(e.target.value));
+    // (variant pills and language flags bind their own click handlers)
     document.getElementById('late-filter').addEventListener('click', () => onLateFilterChanged(!state.lateOnly));
     document.getElementById('multis-toggle').addEventListener('click',
         () => setMode(state.mode === 'multis' ? 'singles' : 'multis'));
