@@ -5,7 +5,6 @@
 // slot(s). Slot ownership per mode comes from slotSide() in config.js.
 
 import { state } from './state.js';
-import { loadSets } from './data.js';
 import { speedDisplay } from './speed.js';
 import { MODES, MAX_SLOTS, MAX_SIDES, modeSlots, slotSide, variantMaxSlots } from './config.js';
 
@@ -375,22 +374,19 @@ export function showPokemonSets(slot, species) {
     const sets = state.data.sets.filter(set =>
         set.species === species && setNumbers.includes(set.setNumber));
 
-    const table = document.createElement('table');
-    table.className = 'sets-table';
+    const list = document.createElement('div');
+    list.className = 'sets-table';
 
     sets.forEach((set, index) => {
-        const row = document.createElement('tr');
+        const row = document.createElement('div');
         row.className = `set-row ${index % 2 === 0 ? 'even-row' : 'odd-row'}`;
         row.dataset.setNumber = set.setNumber;
 
-        row.appendChild(textCell(set.setNumber));
+        row.appendChild(textCell(set.setNumber, 'set-num'));
         row.appendChild(itemCell(set.item));
-        row.appendChild(textCell(set.nature));
-        row.appendChild(textCell(set.move1));
-        row.appendChild(textCell(set.move2));
-        row.appendChild(textCell(set.move3));
-        row.appendChild(textCell(set.move4));
-        row.appendChild(textCell(speedDisplay(set)));
+        row.appendChild(textCell(set.nature, 'set-nature'));
+        row.appendChild(movesCell(set));
+        row.appendChild(speedCell(set));
 
         row.onclick = () => {
             if (state.activeSets[slot] === set) {
@@ -404,21 +400,52 @@ export function showPokemonSets(slot, species) {
             updateHighlightedRows();
         };
 
-        table.appendChild(row);
+        list.appendChild(row);
     });
 
-    container.appendChild(table);
+    container.appendChild(list);
     updateHighlightedRows();
+
+    fitMoveGrids(container);
+    if (typeof ResizeObserver !== 'undefined' && !container._movesObserver) {
+        container._movesObserver = new ResizeObserver(() => fitMoveGrids(container));
+        container._movesObserver.observe(container);
+    }
 }
 
-function textCell(content) {
-    const cell = document.createElement('td');
+// Move grids default to one 1×4 line; if ANY name in the slot would be
+// ellipsis-truncated, every row in the slot stacks to 2×2 (uniformly, so the
+// table doesn't mix flat and stacked rows). Measured against the real
+// rendered names, so localized lengths are handled exactly.
+function fitMoveGrids(container) {
+    const grids = [...container.querySelectorAll('.set-moves')];
+    if (!grids.length) return;
+    grids.forEach(grid => grid.classList.remove('stacked'));
+    const tight = grids.some(grid =>
+        [...grid.querySelectorAll('.set-move > span:last-child')]
+            .some(span => span.scrollWidth > span.clientWidth));
+    if (tight) grids.forEach(grid => grid.classList.add('stacked'));
+}
+
+// Localized sets resolve move types through their English counterpart set
+// (same English species + set number; moves match by position).
+function enCounterpart(set) {
+    if (state.language === 'en') return set;
+    const english = dexEntry(set.species)?.en;
+    return state.data.enSets.find(s =>
+        s.species === english && s.setNumber === set.setNumber) ?? set;
+}
+
+function textCell(content, cls) {
+    const cell = document.createElement('div');
+    cell.className = `set-cell ${cls}`;
     cell.textContent = content;
     return cell;
 }
 
 function itemCell(itemName) {
-    const cell = document.createElement('td');
+    const cell = document.createElement('div');
+    cell.className = 'set-cell set-item';
     if (itemName && itemName !== 'None') {
         const img = document.createElement('img');
         img.src = itemImageUrl(itemName);
@@ -427,6 +454,48 @@ function itemCell(itemName) {
         img.onerror = () => img.remove();
         cell.appendChild(img);
     }
+    return cell;
+}
+
+// The four moves as a compact 2×2 grid (two 13px lines stack to roughly the
+// item icon's height, so the row stays flat) with gen-aware type icons.
+function movesCell(set) {
+    const grid = document.createElement('div');
+    grid.className = 'set-moves';
+    const enSet = enCounterpart(set);
+    for (let i = 1; i <= 4; i++) {
+        const cell = document.createElement('span');
+        cell.className = 'set-move';
+        const text = set[`move${i}`];
+        if (text && text !== '-') {
+            const type = moveType(enSet[`move${i}`], state.variant.gen);
+            if (type) {
+                const icon = document.createElement('img');
+                icon.src = `assets/images/types/${type.toLowerCase()}.png`;
+                icon.alt = type;
+                icon.className = 'set-move-icon';
+                icon.onerror = () => icon.remove();
+                cell.appendChild(icon);
+            }
+            const name = document.createElement('span');
+            name.textContent = text;
+            cell.appendChild(name);
+        }
+        grid.appendChild(cell);
+    }
+    return grid;
+}
+
+// Shrink-to-fit: only mega sets ("139 → 216") pay for the arrow's width.
+function speedCell(set) {
+    const cell = document.createElement('div');
+    cell.className = 'set-cell set-speed';
+    const icon = document.createElement('img');
+    icon.src = 'assets/images/speed.png';
+    icon.alt = 'Speed';
+    icon.onerror = () => icon.remove();
+    cell.appendChild(icon);
+    cell.appendChild(document.createTextNode(speedDisplay(set)));
     return cell;
 }
 
@@ -443,7 +512,7 @@ export function updateHighlightedRows() {
 
 /* ---------- set details ---------- */
 
-async function showSetDetails(slot, set) {
+function showSetDetails(slot, set) {
     const container = document.getElementById(`pokemon-sets-${slot}`);
     container.querySelector('.set-details')?.remove();
 
@@ -457,16 +526,8 @@ async function showSetDetails(slot, set) {
     const abilities = (speciesData[`abilities-${state.language}`] || '').split(', ');
     const itemEnglish = itemEntry(set.item)?.en ?? set.item;
 
-    // English move names drive the type lookup; for other languages the
-    // English counterpart set provides them (moves match by position).
-    let enSet = set;
-    if (state.language !== 'en') {
-        try {
-            const englishSets = await loadSets(state.variant, 'en');
-            enSet = englishSets.find(s =>
-                s.species === speciesData.en && s.setNumber === set.setNumber) || set;
-        } catch { /* fall back to localized names */ }
-    }
+    // English move names drive the type lookup (counterpart set, preloaded).
+    const enSet = enCounterpart(set);
     const moveLines = [];
     for (let i = 1; i <= 4; i++) {
         const text = set[`move${i}`];
@@ -524,10 +585,10 @@ async function showSetDetails(slot, set) {
             <div class="evs">
                 ${set.EVs.split(', ').join('<br/>')}
             </div>
-            <div class="copy">
-                <span role="button" title="Copy set (Showdown format)" class="icon-mask icon-copy copy-icon"></span>
-                <span class="copy-feedback" hidden>Copied!</span>
-            </div>
+        </div>
+        <div class="copy">
+            <span role="button" title="Copy set (Showdown format)" class="icon-mask icon-copy copy-icon"></span>
+            <span class="copy-feedback" hidden>Copied!</span>
         </div>
     `;
 
@@ -556,6 +617,32 @@ async function showSetDetails(slot, set) {
     });
 
     container.appendChild(details);
+
+    fitDetailsFont(details);
+    if (typeof ResizeObserver !== 'undefined') {
+        new ResizeObserver(() => fitDetailsFont(details)).observe(details);
+    }
+}
+
+// Hybrid squeeze handling: at full size the flex gaps between the columns
+// absorb narrowing; only once the nowrap content would actually overflow the
+// panel does the font shrink, by the measured ratio (content-aware — long
+// localized names shrink earlier than short ones, never preemptively).
+// Everything inside the panel is em-based, so it scales as one piece.
+const DETAILS_MIN_FONT = 9;
+
+function fitDetailsFont(details) {
+    details.style.fontSize = ''; // re-measure from the full-size layout
+    for (let i = 0; i < 3; i++) { // ratio is ~linear; iterate to converge
+        const overflow = details.scrollWidth - details.clientWidth;
+        if (overflow <= 0) break;
+        const font = parseFloat(getComputedStyle(details).fontSize);
+        const fixed = 20; // panel padding: px, doesn't scale with the font
+        const target = Math.max(DETAILS_MIN_FONT,
+            font * (details.clientWidth - fixed) / (details.scrollWidth - fixed));
+        if (target >= font) break;
+        details.style.fontSize = `${target.toFixed(2)}px`;
+    }
 }
 
 function typeIconHtml(type, isTera = false) {
@@ -566,15 +653,9 @@ function typeIconHtml(type, isTera = false) {
 // Showdown (and similar tools) only accept English, so the export always uses
 // the English sets file — every localized set has an English counterpart with
 // the same (English species name, set number) key.
-async function showdownExport(set, speciesData) {
+function showdownExport(set, speciesData) {
     const englishAbilities = (speciesData['abilities-en'] || '').split(', ');
-    let englishSet = set;
-    if (state.language !== 'en') {
-        const englishSets = await loadSets(state.variant, 'en');
-        englishSet = englishSets.find(s =>
-            s.species === speciesData.en && s.setNumber === set.setNumber) || set;
-    }
-    return showdownFormat(englishSet, englishAbilities);
+    return showdownFormat(enCounterpart(set), englishAbilities);
 }
 
 function showdownFormat(set, abilities) {

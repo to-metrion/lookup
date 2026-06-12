@@ -86,9 +86,13 @@ export async function loadSets(variant, language) {
 }
 
 // Loads everything needed for one variant + language combination, in parallel.
+// The English sets are always included (`enSets`): move-type icons and the
+// Showdown export resolve through the English counterpart set, and having
+// them up front keeps rendering synchronous.
 export async function loadVariantData(variant, language) {
-    const [trainersAndSets, pokedex, natures, items, moves] = await Promise.all([
+    const [trainersAndSets, enSets, pokedex, natures, items, moves] = await Promise.all([
         loadTrainersAndSets(variant, language),
+        language === 'en' ? null : loadTrainersAndSets(variant, 'en'),
         fetchJSON(variant.pokedex),
         fetchJSON('data/natures.json'),
         fetchJSON('data/items.json'),
@@ -96,6 +100,7 @@ export async function loadVariantData(variant, language) {
     ]);
     return {
         ...trainersAndSets,
+        enSets: (enSets ?? trainersAndSets).sets,
         pokedex: pokedex.pokedex,
         natures: natures.natures,
         items: items.items,

@@ -801,19 +801,26 @@ button:focus {
 /* ============================================================
    Sets table
    ============================================================ */
+/* Each row: # | item | nature | 2×2 move grid (type icons) | speed.
+   The move grid's two 13px lines stack to about the 32px item icon's
+   height, so rows stay as flat as the old single-line layout. */
 .sets-table {
     width: 100%;
-    border-collapse: separate;
     margin-top: 8px;
     font-size: 0.8em;
-    border-spacing: 0 0.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
 }
 
-.sets-table th,
-.sets-table td {
-    border: none;
-    padding: 2px;
-    text-align: center;
+.set-row {
+    display: flex;
+    align-items: center;
+    padding: 3px 2px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, border 0.2s ease;
+    border: 1px solid transparent;
+    border-radius: 5px;
 }
 
 .sets-table .even-row {
@@ -824,32 +831,100 @@ button:focus {
     background-color: var(--surface-alt);
 }
 
-.sets-table td img {
-    width: auto;
-    height: 32px;
-    vertical-align: middle;
-}
-
-.set-row {
-    cursor: pointer;
-    transition: background-color 0.2s ease, border 0.2s ease;
-    border-radius: 5px;
-}
-
 .set-row:hover {
     background-color: var(--hover);
 }
 
 .set-row.selected {
     background-color: var(--selected);
-    border: 1px solid var(--highlight);
-    border-radius: 5px;
+    border-color: var(--highlight);
+}
+
+.set-cell {
+    flex: 0 0 auto;
+    padding: 2px 6px;
+    text-align: center;
+}
+
+.set-num {
+    flex-basis: 24px;
+    padding: 2px 0;
+}
+
+.set-item {
+    flex-basis: 36px;
+    padding: 2px 0;
+}
+
+.set-item img {
+    width: auto;
+    height: 32px;
+    vertical-align: middle;
+}
+
+.set-nature {
+    min-width: 56px;
+}
+
+/* Moves default to a single 1×4 line; when names would get truncated, JS
+   (fitMoveGrids in ui.js) stacks the whole slot's rows to 2×2 — measured,
+   not width-guessed, so it adapts to the actual (localized) name lengths. */
+.set-moves {
+    flex: 1 1 0;
+    min-width: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px 10px;
+    padding: 0 8px;
+}
+
+.set-moves.stacked {
+    grid-template-columns: 1fr 1fr;
+}
+
+.set-move {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    min-width: 0;
+}
+
+.set-move > span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.set-move-icon {
+    width: 13px;
+    height: 13px;
+    flex: none;
+}
+
+/* Shrink-to-fit: plain speeds stay narrow, only megas pay for "139 → 216" */
+.set-speed {
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.set-speed img {
+    width: 16px;
+    height: 16px;
+    vertical-align: text-bottom;
+    margin-right: 3px;
 }
 
 /* ============================================================
    Set details panel
    ============================================================ */
+/* Always three side-by-side columns (no wrapping). Hybrid squeeze handling:
+   at full font size the space-between gaps absorb narrowing first; only when
+   the (nowrap) content would actually overflow does JS (fitDetailsFont in
+   ui.js) scale the panel font down by the measured ratio — everything inside
+   is em-based (sprite included), so it all shrinks proportionally. The copy
+   button is pinned to the panel's corner. */
 .set-details {
+    position: relative;
     margin-top: 10px;
     background-color: var(--surface);
     padding: 10px;
@@ -857,28 +932,33 @@ button:focus {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    gap: 10px;
+    flex-wrap: nowrap;
+    gap: 0.6em;
+    font-size: 16px;
 }
 
+/* Column padding in em: when the panel shrinks, the "dead" space between
+   columns shrinks with it, leaving the width to the text. */
 .left-column,
 .middle-column {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 10px;
+    padding: 0.5em;
 }
 
+/* Grouped around the middle instead of stretched to fill — no more EVs
+   pushed to the bottom edge with yawning gaps around the separators. */
 .right-column {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    padding: 10px;
+    justify-content: center;
+    gap: 0.3em;
+    padding: 0.5em;
 }
 
 .left-column .large-sprite {
-    width: 125px;
+    width: 7.8em; /* 125px at full size; scales with the fitted font */
     height: auto;
     align-self: flex-start;
     margin-bottom: 5px;
@@ -890,8 +970,7 @@ button:focus {
 .moves,
 .speed,
 .abilities,
-.evs,
-.copy {
+.evs {
     margin-bottom: 5px;
 }
 
@@ -902,6 +981,7 @@ button:focus {
     font-weight: bold;
     letter-spacing: 0.4px;
     font-size: 1.5em;
+    white-space: nowrap; /* "Chandelure-4" never splits at the hyphen */
 }
 
 .type-icons {
@@ -909,16 +989,21 @@ button:focus {
     justify-content: left;
 }
 
+.item {
+    white-space: nowrap;
+}
+
+/* Icon sizes in em so they scale with the panel's fluid font size */
 .type-icon {
-    width: 20px;
-    height: 20px;
+    width: 1.25em;
+    height: 1.25em;
     margin-left: 5px;
 }
 
 .item-icon,
 .speed-icon {
-    width: 32px;
-    height: 32px;
+    width: 2em;
+    height: 2em;
     vertical-align: middle;
 }
 
@@ -930,28 +1015,32 @@ button:focus {
 .nature-text {
     font-size: 0.7em;
     font-variant-caps: normal;
+    white-space: nowrap;
 }
 
 .moves {
     font-size: 1.1em;
-    line-height: 1.3;
+    line-height: 1.4;
 }
 
+/* Names never split onto two lines — the fluid font scaling (not wrapping)
+   is what absorbs narrow panels. */
 .move-line {
     display: flex;
     align-items: center;
     gap: 6px;
     margin-bottom: 3px;
+    white-space: nowrap;
 }
 
 .move-type-icon {
-    width: 16px;
-    height: 16px;
+    width: 1em;
+    height: 1em;
     flex-shrink: 0;
 }
 
 .move-bullet {
-    width: 16px;
+    width: 1em;
     text-align: center;
     flex-shrink: 0;
 }
@@ -969,14 +1058,18 @@ button:focus {
     font-size: 0.9em;
     line-height: 1.2;
     font-variant-caps: normal;
+    white-space: nowrap;
 }
 
 .evs {
     font-size: 1.2em;
+    white-space: nowrap;
 }
 
 .copy {
-    align-self: flex-end;
+    position: absolute;
+    right: 12px;
+    bottom: 8px;
 }
 
 .copy-icon {
@@ -994,7 +1087,7 @@ button:focus {
 
 .separator {
     border-top: 1px dotted var(--border-strong);
-    margin: 10px 0;
+    margin: 0.6em 0;
 }
 
 /* ============================================================
@@ -1087,64 +1180,8 @@ button:focus {
         flex-grow: 1;
     }
 
-    /* Set details columns share space evenly on small screens */
-    .left-column,
-    .middle-column,
-    .right-column {
-        flex: 1;
-        min-width: 150px;
-    }
-
-    /* Smaller set details in singles mode (full-width column) */
-    :is(.singles-mode, .multis-mode) .left-column .large-sprite {
-        width: 75px;
-    }
-
-    :is(.singles-mode, .multis-mode) .set-name {
-        letter-spacing: 0.3px;
-        font-size: 1em;
-    }
-
-    :is(.singles-mode, .multis-mode) .item-icon,
-    :is(.singles-mode, .multis-mode) .speed-icon {
-        width: 24px;
-        height: 24px;
-    }
-
-    :is(.singles-mode, .multis-mode) .item {
-        font-size: 0.7em;
-    }
-
-    :is(.singles-mode, .multis-mode) .nature {
-        font-size: 0.9em;
-    }
-
-    :is(.singles-mode, .multis-mode) .nature-text {
-        font-size: 0.5em;
-    }
-
-    :is(.singles-mode, .multis-mode) .moves {
-        font-size: 0.8em;
-        line-height: 1.4;
-    }
-
-    :is(.singles-mode, .multis-mode) .speed {
-        font-size: 1em;
-    }
-
-    :is(.singles-mode, .multis-mode) .abilities {
-        font-size: 0.8em;
-    }
-
-    :is(.singles-mode, .multis-mode) .abilities-list {
-        font-size: 0.8em;
-        line-height: 1.1;
-    }
-
-    :is(.singles-mode, .multis-mode) .evs {
-        font-size: 0.9em;
-    }
-
+    /* (Set details scale fluidly with their container width — no
+       mobile-specific overrides needed.) */
     :is(.singles-mode, .multis-mode) .sets-table {
         font-size: 0.7em;
     }

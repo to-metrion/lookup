@@ -61,6 +61,27 @@ Internal planning document — tracks goals and progress for the Battle Facility
       Lotta, バトルツリー...); facility pill labels (USUM/SM/ORAS/XY) stay
       universal. Maison/Subway have no official chs/cht names (pre-gen-7
       games) and fall back to English there.
+- [x] Set presentation rework (June 2026). Rows: divs instead of a table —
+      # | item | nature | move grid with gen-aware type icons | speed
+      (icon + value, shrink-to-fit so only mega "pre → post" pays for the
+      arrow). Moves default to one 1×4 line; if any name in the slot would be
+      ellipsis-truncated, `fitMoveGrids()` (ui.js, ResizeObserver per slot)
+      stacks ALL of the slot's rows to 2×2 — uniform per table, measured
+      against real rendered names; two 13px move lines ≈ the 32px item icon,
+      so stacked rows stay flat too.
+      Details panel: ALWAYS three side-by-side columns (flex-wrap: nowrap,
+      original space-between spread; data lines are nowrap). Hybrid squeeze:
+      the gaps between columns absorb narrowing at full size first; only when
+      the content would actually overflow does `fitDetailsFont()` (ui.js,
+      ResizeObserver) shrink the panel font by the measured ratio (floor 9px)
+      — content-aware, so long localized names shrink exactly when needed,
+      never preemptively. Everything inside is em-based (sprite = 7.8em), so
+      the panel scales as one piece. The old mobile font overrides for the
+      panel were removed — the fitting covers them. Copy button absolutely
+      pinned bottom-right of the panel.
+      English counterpart sets are preloaded (`state.data.enSets` via
+      loadVariantData) so move-type icons and the Showdown export resolve
+      synchronously in every language.
 - [x] Localization pipeline (`tools/build_languages.py`): generates trainer/set files and fills
       dex/item/nature columns from the [poke-corpus](https://github.com/abcboy101/poke-corpus)
       game text dumps (clone locally, default path `/tmp/pokecorpus/corpus`)

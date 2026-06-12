@@ -201,6 +201,9 @@ function check(name, cond) {
     await sleep(100);
     const rows = doc.querySelectorAll('#pokemon-sets-1 .set-row');
     check('sets render for ' + enSpecies + ' (' + rows.length + ')', rows.length > 0);
+    check('row: 2×2 move grid with 4 cells', rows[0].querySelectorAll('.set-moves .set-move').length === 4);
+    check('row: move type icons present', rows[0].querySelectorAll('.set-move-icon').length > 0);
+    check('row: speed cell has icon', Boolean(rows[0].querySelector('.set-speed img')));
     rows[0].click();
     await sleep(150);
     const chosenSetNumber = rows[0].dataset.setNumber;
@@ -210,6 +213,12 @@ function check(name, cond) {
     check('move type icons rendered (' + mIcons.length + '/4)', mIcons.length === 4);
     check('first move icon is grass (Energy Ball)', mIcons[0] && mIcons[0].getAttribute('src').includes('grass'));
     check('copy icon masked', Boolean(det && det.querySelector('.icon-copy.copy-icon')));
+    check('copy pinned at panel level (not inside a column)',
+        det && det.querySelector('.copy').parentElement === det);
+    check('right column: abilities + EVs (copy lives at panel level)',
+        det && Boolean(det.querySelector('.right-column .abilities'))
+        && Boolean(det.querySelector('.right-column .evs'))
+        && !det.querySelector('.right-column .copy'));
     /* re-click selected row -> collapse */
     rows[0].click();
     await sleep(100);
