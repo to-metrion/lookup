@@ -1,17 +1,18 @@
 # Battle Facility Tool
 
-Lookup tool for Pokémon battle facility trainers and their sets, hosted at [lookup.eisencalc.com](https://lookup.eisencalc.com).
+Lookup tool for Pokémon Battle Facility trainers and their sets, hosted at [lookup.eisencalc.com](https://lookup.eisencalc.com).
 
 > **Work in progress** — the app is functional but still under construction, and more content is on the way. Better documentation will be added once it's completed.
 
 Currently covers:
 
-- **Battle Tree** (SM & USUM, Gen 7) — all 9 game languages
-- **Battle Maison** (XY & ORAS, Gen 6) — all 7 game languages
-- **Battle Subway** (Gen 5) — all 7 game languages
+- **Battle Tree** (SM & USUM, Gen 7)
+- **Battle Maison** (XY & ORAS, Gen 6)
+- **Battle Subway** (Gen 5)
 
 ## Credits
 
+- Trainer and set data for Generations 5, 6 and 7 taken directly from game data, thanks to [SilverstarStream](https://github.com/SilverstarStream)
 - Localized names, trainer dialogue, and other game text sourced from
   [Poké Corpus](https://github.com/abcboy101/poke-corpus) by
   [abcboy101](https://github.com/abcboy101) — a searchable corpus of official
