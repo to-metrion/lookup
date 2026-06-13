@@ -53,7 +53,7 @@ function itemSpeedMod(enItem, enSpecies) {
 // (Sablenite, Glalitite, Heracronite, Blastoisinite...), so accept if the
 // species starts with the stem minus up to 3 chars — but at least 5, which
 // keeps Eviolite out and Latiasite/Latiosite apart.
-function megaEntry(enSpecies, enItem) {
+export function megaEntry(enSpecies, enItem) {
     const m = /^(.+?)ite( [XY])?$/.exec(enItem ?? '');
     if (!m) return null;
     const stem = m[1];

@@ -5,7 +5,7 @@
 // slot(s). Slot ownership per mode comes from slotSide() in config.js.
 
 import { state } from './state.js';
-import { speedDisplay } from './speed.js';
+import { speedDisplay, megaEntry } from './speed.js';
 import { MODES, MAX_SLOTS, MAX_SIDES, modeSlots, slotSide, variantMaxSlots } from './config.js';
 
 /* ---------- lookup helpers ---------- */
@@ -525,6 +525,10 @@ function showSetDetails(slot, set) {
     const english = speciesData.en.toLowerCase();
     const abilities = (speciesData[`abilities-${state.language}`] || '').split(', ');
     const itemEnglish = itemEntry(set.item)?.en ?? set.item;
+    const megaDex = megaEntry(speciesData.en, itemEnglish);
+    const megaAbilities = megaDex
+        ? (megaDex[`abilities-${state.language}`] || '').split(', ')
+        : null;
 
     // English move names drive the type lookup (counterpart set, preloaded).
     const enSet = enCounterpart(set);
@@ -580,6 +584,7 @@ function showSetDetails(slot, set) {
             <div class="separator"></div>
             <div class="abilities">
                 <span class="abilities-list">${abilities.join('<br/>')}</span>
+                ${megaAbilities ? `<span class="mega-ability-arrow">↓</span><span class="abilities-list">${megaAbilities.join('<br/>')}</span>` : ''}
             </div>
             <div class="separator"></div>
             <div class="evs">

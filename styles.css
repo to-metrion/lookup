@@ -1096,6 +1096,13 @@ button:focus {
     white-space: nowrap;
 }
 
+.mega-ability-arrow {
+    display: block;
+    text-align: center;
+    color: var(--text-muted);
+    line-height: 2;
+}
+
 .evs {
     font-size: 1.2em;
     white-space: nowrap;
