@@ -3,6 +3,7 @@
 /* Luxray — dark navy, sky-blue accent, gold-eye highlight */
 :root,
 [data-theme="p-luxray"] {
+    --on-accent: #111;  /* text color on accent bg; most themes use dark text */
     --bg: #1d2026;
     --surface: #282c34;
     --surface-alt: #333843;
@@ -22,6 +23,7 @@
 
 /* Bisharp — steel gray, blade-red accent, gold highlight */
 [data-theme="p-bisharp"] {
+    --on-accent: #fff;  /* red accent is dark enough for white text (4.6:1) */
     --bg: #2a2c34;
     --surface: #353842;
     --surface-alt: #414450;
@@ -811,7 +813,7 @@ button:focus {
 
 .settings-toggle-btn.active {
     background-color: var(--accent);
-    color: #fff;
+    color: var(--on-accent);
     border-color: var(--accent);
 }
 
