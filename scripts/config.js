@@ -158,18 +158,23 @@ export function slotSide(mode, slot) {
 }
 
 // Themes override the CSS variables defined in styles.css via
-// <html data-theme="...">. 'dark' is the default (:root).
+// <html data-theme="...">. The first entry (Luxray) is the default.
+// Each theme sprite lives at assets/images/themes/<code>.png.
 export const THEMES = [
-    { code: 'dark', name: 'Dark' },
-    { code: 'light', name: 'Light' },
-    { code: 'midnight', name: 'Midnight' },
-    { code: 'forest', name: 'Forest' },
-    { code: 'ocean', name: 'Ocean' },
-    { code: 'lavender', name: 'Lavender' },
-    { code: 'fairy', name: 'Fairy' },
-    { code: 'sunset', name: 'Sunset' },
-    { code: 'umbreon', name: 'Umbreon' },
-    { code: 'slate', name: 'Slate' },
+    // Dark (7)
+    { code: 'p-luxray',    name: 'Luxray',      dark: true  },
+    { code: 'p-bisharp',   name: 'Bisharp',     dark: true  },
+    { code: 'p-chandelure',name: 'Chandelure',   dark: true  },
+    { code: 'p-umbreon',   name: 'Umbreon',     dark: true  },
+    { code: 'p-honchkrow', name: 'Honchkrow',   dark: true  },
+    { code: 'p-gourgeist', name: 'Gourgeist',   dark: true  },
+    { code: 'p-zygarde',   name: 'Zygarde',     dark: true  },
+    // Light (5)
+    { code: 'p-magnemite', name: 'Magnemite',   dark: false },
+    { code: 'p-whimsicott',name: 'Whimsicott',  dark: false },
+    { code: 'p-jellicentf',name: 'Jellicent ♀', dark: false },
+    { code: 'p-glaceon',   name: 'Glaceon',     dark: false },
+    { code: 'p-gardevoir', name: 'Gardevoir',   dark: false },
 ];
 
 // Appended to every data fetch (?v=...) so browsers pick up new data after a

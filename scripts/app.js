@@ -100,15 +100,19 @@ function populateLanguageFlags() {
     }
 }
 
-// Visual theme picker: a row of dual-color squares (no text).
+// Visual theme picker: sprite buttons with dark/light background.
 function populateThemeSwatches() {
     const row = document.getElementById('theme-swatches');
     row.innerHTML = '';
     for (const theme of THEMES) {
         const swatch = document.createElement('button');
-        swatch.className = 'theme-swatch';
+        swatch.className = `theme-swatch ${theme.dark ? 'theme-dark' : 'theme-light'}`;
         swatch.dataset.theme = theme.code;
         swatch.title = theme.name;
+        const img = document.createElement('img');
+        img.src = `assets/images/themes/${theme.code}.png`;
+        img.alt = theme.name;
+        swatch.appendChild(img);
         swatch.addEventListener('click', () => setTheme(theme.code));
         row.appendChild(swatch);
     }
