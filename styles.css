@@ -394,9 +394,6 @@ button:focus {
    ============================================================ */
 #pokemon-menus {
     margin-top: 20px;
-}
-
-#pokemon-menus {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -460,6 +457,7 @@ button:focus {
 .select2-container--game .select2-selection--single .select2-selection__arrow {
     height: 100% !important;
     top: 0 !important;
+    margin-top: 0 !important; /* cancel the -15px from --default rule */
 }
 
 .select2-container--game .game-icon {

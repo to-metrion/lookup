@@ -110,8 +110,10 @@ function populateThemeSwatches() {
         swatch.dataset.theme = theme.code;
         swatch.title = theme.name;
         const img = document.createElement('img');
-        img.src = `assets/images/themes/${theme.code}.png`;
+        img.dataset.src = `assets/images/themes/${theme.code}.png`;
         img.alt = theme.name;
+        img.width = 36;
+        img.height = 36;
         swatch.appendChild(img);
         swatch.addEventListener('click', () => setTheme(theme.code));
         row.appendChild(swatch);
@@ -399,6 +401,12 @@ function updateModeSwitch() {
 /* ---------- modal ---------- */
 
 function openSettings() {
+    // Lazy-load theme sprite images on first open to avoid competing with
+    // critical data fetches at page load.
+    document.querySelectorAll('#theme-swatches img[data-src]').forEach(img => {
+        img.src = img.dataset.src;
+        img.removeAttribute('data-src');
+    });
     document.getElementById('settings-modal').style.display = 'block';
 }
 
