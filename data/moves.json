@@ -4843,6 +4843,24 @@
                 3,
                 "Normal"
             ]
+        ],
+        "Gear Up": [
+            [
+                7,
+                "Steel"
+            ]
+        ],
+        "Magic Room": [
+            [
+                5,
+                "Psychic"
+            ]
+        ],
+        "Speed Swap": [
+            [
+                8,
+                "Psychic"
+            ]
         ]
     }
 }

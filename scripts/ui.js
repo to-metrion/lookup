@@ -90,9 +90,29 @@ function spriteTemplate(option) {
         .append(document.createTextNode(' ' + option.text));
 }
 
+// Trainers usually have one sprite; the Restricted Sparring opponent carries a
+// second (data-icon2) so both Master Dojo Student figures show by the name. A
+// Dynamax badge (data-dmax) is appended after the name when the trainer fields
+// a Pokémon that can Dynamax.
 function trainerTemplate(option) {
-    option._spriteClass = 'trainer-sprite-select2';
-    return spriteTemplate(option);
+    if (!option.id) return option.text;
+    const el = $(option.element);
+    const icon = el.data('icon');
+    if (!icon) return option.text;
+    const $span = $('<span></span>');
+    $span.append($('<img>').attr('src', icon).addClass('trainer-sprite-select2'));
+    const icon2 = el.data('icon2');
+    if (icon2) {
+        $span.append($('<img>').attr('src', icon2).addClass('trainer-sprite-select2'));
+    }
+    $span.append(document.createTextNode(' ' + option.text));
+    if (el.data('dmax')) {
+        $span.append($('<img>').attr('src', 'assets/images/dmax.png')
+            .attr('title', 'Has a Dynamax Pokémon')
+            .addClass('trainer-dmax-badge')
+            .on('error', function () { $(this).remove(); }));
+    }
+    return $span;
 }
 
 function textTemplate(option) {
@@ -189,6 +209,29 @@ function trainerMatcher(params, data) {
     return null;
 }
 
+// Set keys ("species|setNumber") whose Pokémon can Dynamax — used to badge
+// trainers that field one. Memoized per data load.
+let dmaxKeysSource = null;
+let dmaxKeys = null;
+
+function dmaxSetKeys() {
+    if (dmaxKeysSource !== state.data.sets) {
+        dmaxKeysSource = state.data.sets;
+        dmaxKeys = new Set(state.data.sets
+            .filter(set => set.dmax)
+            .map(set => `${set.species}|${set.setNumber}`));
+    }
+    return dmaxKeys;
+}
+
+function trainerHasDmax(trainer) {
+    if (!dmaxSetKeys().size) return false;
+    return trainer.roster.split(', ').some(entry => {
+        const [species, number] = entry.split(/-(?=\d+$)/);
+        return dmaxSetKeys().has(`${species}|${Number(number)}`);
+    });
+}
+
 export function populateTrainerDropdown(side, onSelect) {
     const $dropdown = $(`#trainer-dropdown-${side}`).empty();
     $dropdown.append(`<option value="" disabled selected></option>`);
@@ -198,6 +241,8 @@ export function populateTrainerDropdown(side, onSelect) {
         const index = state.data.trainers.indexOf(trainer);
         const option = new Option(trainer.name, String(index), false, false);
         $(option).attr('data-icon', trainer.sprite);
+        if (trainer.sprite2) $(option).attr('data-icon2', trainer.sprite2);
+        if (trainerHasDmax(trainer)) $(option).attr('data-dmax', '1');
         $dropdown.append(option);
     }
 
@@ -323,7 +368,21 @@ export function highlightSelectedSprites() {
 
 /* ---------- pokémon menus ---------- */
 
-// (Re)populates every visible slot's menu from its owning trainer's species.
+// Every species that appears in the facility's sets (for trainer-less browsing).
+// Memoized per data load.
+let facilitySpeciesSource = null;
+let facilitySpeciesList = null;
+
+function facilitySpecies() {
+    if (facilitySpeciesSource !== state.data.sets) {
+        facilitySpeciesSource = state.data.sets;
+        facilitySpeciesList = [...new Set(state.data.sets.map(set => set.species))];
+    }
+    return facilitySpeciesList;
+}
+
+// (Re)populates every visible slot's menu — from its owning trainer's roster, or
+// from ALL facility species when no trainer is selected (browse mode).
 export function populatePokemonMenus(onSelect) {
     const total = sides() === 1
         ? Math.min(variantMaxSlots(state.variant), MAX_SLOTS)
@@ -337,15 +396,13 @@ export function populatePokemonMenus(onSelect) {
 function populateOneMenu(slot, trainer, onSelect) {
     const $menu = $(`#pokemon-menu-${slot}`).empty();
     $menu.append(new Option('', '', true, true));
-    if (trainer) {
-        const species = trainer.species.split(', ')
-            .filter(sp => dexEntry(sp))
-            .sort((a, b) => a.localeCompare(b));
-        for (const sp of species) {
-            const option = new Option(sp, sp, false, false);
-            $(option).attr('data-icon', minispriteUrl(sp));
-            $menu.append(option);
-        }
+    const species = (trainer ? trainer.species.split(', ') : facilitySpecies())
+        .filter(sp => dexEntry(sp))
+        .sort((a, b) => a.localeCompare(b));
+    for (const sp of species) {
+        const option = new Option(sp, sp, false, false);
+        $(option).attr('data-icon', minispriteUrl(sp));
+        $menu.append(option);
     }
     initSelect2(`#pokemon-menu-${slot}`, {
         placeholder: t('pokemonDropdownPlaceholder', 'Pokémon'),
@@ -362,17 +419,21 @@ export function showPokemonSets(slot, species) {
     const container = document.getElementById(`pokemon-sets-${slot}`);
     container.innerHTML = '';
 
+    // With a trainer, show only the sets on their roster; without one (browse
+    // mode), show every set the species has in this facility.
     const trainer = state.trainers[slotSide(state.mode, slot)];
-    if (!trainer) return;
-
-    // Roster entries look like "Species-Name-3": split on the final "-<number>".
-    const setNumbers = trainer.roster.split(', ')
-        .map(entry => entry.split(/-(?=\d+$)/))
-        .filter(([rosterSpecies]) => rosterSpecies === species)
-        .map(([, setNumber]) => parseInt(setNumber, 10));
-
-    const sets = state.data.sets.filter(set =>
-        set.species === species && setNumbers.includes(set.setNumber));
+    let sets;
+    if (trainer) {
+        // Roster entries look like "Species-Name-3": split on the final "-<number>".
+        const setNumbers = trainer.roster.split(', ')
+            .map(entry => entry.split(/-(?=\d+$)/))
+            .filter(([rosterSpecies]) => rosterSpecies === species)
+            .map(([, setNumber]) => parseInt(setNumber, 10));
+        sets = state.data.sets.filter(set =>
+            set.species === species && setNumbers.includes(set.setNumber));
+    } else {
+        sets = state.data.sets.filter(set => set.species === species);
+    }
 
     const list = document.createElement('div');
     list.className = 'sets-table';
@@ -382,7 +443,7 @@ export function showPokemonSets(slot, species) {
         row.className = `set-row ${index % 2 === 0 ? 'even-row' : 'odd-row'}`;
         row.dataset.setNumber = set.setNumber;
 
-        row.appendChild(textCell(set.setNumber, 'set-num'));
+        row.appendChild(setNumCell(set));
         row.appendChild(itemCell(set.item));
         row.appendChild(textCell(set.nature, 'set-nature'));
         row.appendChild(movesCell(set));
@@ -440,6 +501,26 @@ function textCell(content, cls) {
     const cell = document.createElement('div');
     cell.className = `set-cell ${cls}`;
     cell.textContent = content;
+    return cell;
+}
+
+// Set-number cell, with the Dynamax badge stacked under the number when the
+// set can Dynamax (SwSh sets #5–8 + Leon's Charizard carry `dmax: true`).
+function setNumCell(set) {
+    const cell = document.createElement('div');
+    cell.className = 'set-cell set-num';
+    // setLabel overrides the displayed number (Leon's 31-IV copies are keyed
+    // 5-12 internally but shown as 1-4); the real setNumber stays the match key.
+    cell.appendChild(document.createTextNode(set.setLabel ?? set.setNumber));
+    if (set.dmax) {
+        const icon = document.createElement('img');
+        icon.src = 'assets/images/dmax.png';
+        icon.alt = 'Dynamax';
+        icon.title = 'Can Dynamax';
+        icon.className = 'dmax-mini';
+        icon.onerror = () => icon.remove();
+        cell.appendChild(icon);
+    }
     return cell;
 }
 
@@ -562,9 +643,9 @@ function showSetDetails(slot, set) {
 
     details.innerHTML = `
         <div class="left-column">
-            <h3 class="set-name">${set.setName}</h3>
+            <h3 class="set-name">${set.setName}${set.dmax ? ' <img src="assets/images/dmax.png" alt="Dynamax" title="Can Dynamax" class="dmax-icon" onerror="this.remove()" />' : ''}</h3>
             <div class="type-icons">${typeIcons}</div>
-            <img src="assets/images/sprites/${english}.png" alt="${set.species}" class="large-sprite" />
+            <img src="assets/images/sprites/${set.sprite ?? english}.png" alt="${set.species}" class="large-sprite" />
             <div class="item">${itemHtml}</div>
         </div>
         <div class="middle-column">
@@ -590,6 +671,7 @@ function showSetDetails(slot, set) {
             <div class="evs">
                 ${set.EVs.split(', ').join('<br/>')}
             </div>
+            ${set.IVs != null ? `<div class="separator"></div><div class="ivs">IVs: ${set.IVs}</div>` : ''}
         </div>
         <div class="copy">
             <span role="button" title="Copy set (Showdown format)" class="icon-mask icon-copy copy-icon"></span>
@@ -597,9 +679,20 @@ function showSetDetails(slot, set) {
         </div>
     `;
 
+    // Per-set sprite override (e.g. Leon's Gigantamax Charizard uses
+    // "charizard-gmax"): fall back to the species' normal sprite if the
+    // override image is missing.
+    if (set.sprite) {
+        const sprite = details.querySelector('.large-sprite');
+        sprite.onerror = () => {
+            sprite.onerror = null;
+            sprite.src = `assets/images/sprites/${english}.png`;
+        };
+    }
+
     // Mega evolution: if the held item is a mega stone, try the mega sprite first
     // and fall back to the regular sprite if it doesn't exist.
-    if (/ite$/.test(itemEnglish) && itemEnglish !== 'Eviolite') {
+    if (!set.sprite && /ite$/.test(itemEnglish) && itemEnglish !== 'Eviolite') {
         const sprite = details.querySelector('.large-sprite');
         sprite.onerror = () => {
             sprite.onerror = null;
@@ -720,14 +813,19 @@ export function resetSelections() {
 // Shows/hides the side-2 menus and the slot containers for the current mode.
 export function updateLayout() {
     const multi = sides() > 1;
+    // Facilities without quote data (e.g. SwSh) hide the quote dropdown(s).
+    const quotes = state.variant.hasQuotes !== false;
+    document.getElementById('quote-side-1').style.display = quotes ? '' : 'none';
     document.getElementById('trainer-side-2').style.display = multi ? '' : 'none';
-    document.getElementById('quote-side-2').style.display = multi ? '' : 'none';
+    document.getElementById('quote-side-2').style.display = (multi && quotes) ? '' : 'none';
 
     const total = modeSlots(state.mode);
     for (let slot = 1; slot <= MAX_SLOTS; slot++) {
         const container = document.getElementById(`pokemon-menu-container-${slot}`);
         const side = slotSide(state.mode, slot);
-        const visible = slot <= total && Boolean(state.trainers[multi ? side : 1]);
+        // Slots for the current mode are always shown — the menu lists all
+        // facility species until a trainer narrows it to their roster.
+        const visible = slot <= total;
         container.style.display = visible ? 'block' : 'none';
         container.classList.remove('w-1', 'w-2', 'w-3', 'side-2');
         if (visible) {

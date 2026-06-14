@@ -8,6 +8,10 @@
 //   name             display name
 //   short            (variants) short label for the facility pill row in
 //                    settings (e.g. 'USUM', 'SM'); falls back to `name`
+//   nameKey          (variants) optional translations.json key for the pill
+//                    label, used instead of `short` when the facility name is
+//                    localized (SwSh Battle Tower / Restricted Sparring); the
+//                    universal short codes (USUM/SM/...) carry no nameKey
 //   default          (variants) true → selected when the game is picked.
 //                    Variants are LISTED chronologically (SM before USUM,
 //                    XY before ORAS); the default is independent of order.
@@ -22,6 +26,8 @@
 //   languages        available language codes (data files must exist for each)
 //   modes            battle modes from MODES below (first = default)
 //   hasTrainers      false → single implicit trainer, trainer/quote dropdowns hidden
+//   hasQuotes        false → hide the quote dropdown(s) (facility has no quote
+//                    data); defaults to true
 //   showMinisprites  false → hide the clickable minisprite list
 //   lateCutoff       battle number after which "late" trainers appear; presence
 //                    enables the late-trainers-only toggle (shown as "<N>+"),
@@ -39,8 +45,54 @@
 
 export const GAMES = [
     {
+        // SwSh groups two facilities: Battle Tower (standard) and Restricted
+        // Sparring (one opponent, the Master Dojo Student). Sets carry gen-8
+        // quirks read by the renderer: per-set `IVs`, `dmax` (the dmax.png
+        // badge), `sprite`/`setLabel`. Listed first for chronology, but `tree`
+        // keeps `default: true` so the tool still opens on Battle Tree.
+        code: 'swsh',
+        name: 'Sword / Shield',
+        icons: ['assets/images/games/sw.png', 'assets/images/games/sh.png'],
+        variants: [
+            {
+                code: 'swsh-tower',
+                name: 'Battle Tower',
+                short: 'Tower',
+                nameKey: 'variant-tower',  // localized pill label (translations.json)
+                default: true,
+                icons: ['assets/images/games/sw.png', 'assets/images/games/sh.png'],
+                dataDir: 'swsh-tower',
+                pokedex: 'data/pokedex-8.json',
+                gen: 8,
+                languages: ['en', 'fr', 'it', 'de', 'es', 'jp', 'ko', 'chs', 'cht'],
+                modes: ['singles', 'doubles'],
+                hasTrainers: true,
+                showMinisprites: true,
+            },
+            {
+                code: 'swsh-rs',
+                name: 'Restricted Sparring',
+                short: 'RS',
+                nameKey: 'variant-rs',
+                icons: ['assets/images/games/ia.png'],  // Isle-of-Armor logo for RS
+                dataDir: 'swsh-rs',
+                pokedex: 'data/pokedex-8.json',
+                gen: 8,
+                languages: ['en', 'fr', 'it', 'de', 'es', 'jp', 'ko', 'chs', 'cht'],
+                modes: ['singles'],
+                // One opponent (Master Dojo Student) fielding the whole RS pool;
+                // no quotes. Minisprites left ON for now to gauge whether 150
+                // species in the list is visually too much.
+                hasTrainers: true,
+                hasQuotes: false,
+                showMinisprites: true,
+            },
+        ],
+    },
+    {
         code: 'tree',
         name: 'Battle Tree',
+        default: true,   // tool opens on Battle Tree even though SwSh lists first
         icons: ['assets/images/games/us.png', 'assets/images/games/um.png'],
         variants: [
             {
@@ -179,7 +231,7 @@ export const THEMES = [
 
 // Appended to every data fetch (?v=...) so browsers pick up new data after a
 // deploy instead of serving stale cached JSON. Bump when data files change.
-export const DATA_VERSION = '2026-06-12f';
+export const DATA_VERSION = '2026-06-13j';
 
 export const LANGUAGE_NAMES = {
     en: 'English',
@@ -193,8 +245,14 @@ export const LANGUAGE_NAMES = {
     cht: '繁體中文',
 };
 
+// The game the tool opens on (marked `default: true`) — independent of the
+// menu's display order, which is chronological (SwSh listed first).
+export function defaultGame() {
+    return GAMES.find(game => game.default) || GAMES[0];
+}
+
 export function getGame(code) {
-    return GAMES.find(game => game.code === code) || GAMES[0];
+    return GAMES.find(game => game.code === code) || defaultGame();
 }
 
 export function defaultVariant(game) {

@@ -7,9 +7,11 @@
 //     stat = floor(stat · item)          (Choice Scarf ×1.5, Iron Ball ×0.5,
 //                                         Quick Powder ×2 — Ditto only)
 //
-// All current facilities use level 50 / 31 IVs; variants can override via
-// `speedLevel` / `speedIVs` feature flags (future: gen-4 L50/L100 toggle,
-// Emerald open-level slider — needs per-set IVs, see roadmap).
+// Level/IVs default to 50 / 31; variants can override the level via the
+// `speedLevel` flag and the IV default via `speedIVs`. Individual sets may
+// also carry their own `IVs` integer (SwSh Battle Tower / Restricted Sparring
+// give different IV tiers per set, e.g. 16/19/23/27/31), which takes
+// precedence over the variant default — see speedDisplay below.
 //
 // Mega Evolution: when a set's species holds its matching Mega Stone, the
 // display shows "pre → post" (e.g. "139 → 216") using the Mega forme's base
@@ -73,7 +75,8 @@ export function speedDisplay(set) {
         ev: speEv(set.EVs),
         natureMod: natureSpeedMod(set.nature),
         level: state.variant?.speedLevel ?? 50,
-        iv: state.variant?.speedIVs ?? 31,
+        // Per-set IVs (SwSh) win over the variant default; both fall back to 31.
+        iv: set.IVs ?? state.variant?.speedIVs ?? 31,
     };
     const enItem = set.item
         ? (state.data.items.find(i => i[state.language] === set.item)?.en ?? set.item)

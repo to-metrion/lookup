@@ -63,8 +63,12 @@ function populateVariantPills() {
         const pill = document.createElement('button');
         pill.className = 'variant-pill';
         pill.dataset.variant = variant.code;
-        pill.textContent = variant.short ?? variant.name;
-        pill.title = variant.name;
+        // Universal short codes (USUM/SM/…) stay as-is; facilities with a
+        // localized name (SwSh Tower / Restricted Sparring) use their nameKey.
+        pill.textContent = variant.nameKey
+            ? t(variant.nameKey, variant.short ?? variant.name)
+            : (variant.short ?? variant.name);
+        pill.title = variant.nameKey ? pill.textContent : variant.name;
         pill.classList.toggle('active', variant.code === state.variant.code);
         pill.addEventListener('click', () => {
             if (variant.code !== state.variant.code) onVariantChanged(variant.code);
@@ -199,6 +203,7 @@ function onLanguageChanged(code) {
     state.language = code;
     localStorage.setItem('selectedLanguage', code);
     populateLanguageFlags();
+    populateVariantPills();  // re-localize facility pill labels (nameKey)
     updateGameSelectIcons(); // localized game names
     applyStaticTranslations();
     loadAndRender().then(() => restoreSelection(snapshot));
@@ -252,15 +257,18 @@ function captureSelection() {
             any = true;
         }
     }
-    if (!any) return null;
+    // Capture picked Pokémon too — including browse mode (no trainer selected).
     for (let slot = 1; slot <= modeSlots(state.mode); slot++) {
         const species = $(`#pokemon-menu-${slot}`).val();
-        snapshot.slots[slot] = {
-            species: species ? speciesToEnglish(species) : null,
-            setNumber: state.activeSets[slot]?.setNumber ?? null,
-        };
+        if (species) {
+            snapshot.slots[slot] = {
+                species: speciesToEnglish(species),
+                setNumber: state.activeSets[slot]?.setNumber ?? null,
+            };
+            any = true;
+        }
     }
-    return snapshot;
+    return any ? snapshot : null;
 }
 
 function restoreSelection(snapshot) {
@@ -296,6 +304,14 @@ async function loadAndRender() {
         populateQuoteDropdown(side, onTrainerSelected);
     }
     resetSelections();
+    // Browse mode: the Pokémon menus list every facility species until a
+    // trainer is picked, so sets can be looked up with no trainer selected.
+    populatePokemonMenus(onMenuSelected);
+    // Facilities with a single opponent (Restricted Sparring) auto-select it
+    // so the user doesn't have to pick the only trainer there is.
+    if (state.data.trainers.length === 1) {
+        onTrainerSelected(1, state.data.trainers[0]);
+    }
 }
 
 /* ---------- trainer & pokémon selection ---------- */
@@ -469,7 +485,10 @@ async function init() {
     document.getElementById('sprites-toggle').addEventListener('click', onSpritesToggled);
     document.getElementById('mode-glyph').addEventListener('click', cycleMode);
     document.getElementById('settings-btn').addEventListener('click', openSettings);
-    document.getElementById('reset-btn').addEventListener('click', resetSelections);
+    document.getElementById('reset-btn').addEventListener('click', () => {
+        resetSelections();
+        populatePokemonMenus(onMenuSelected);  // back to browsing all species
+    });
     document.querySelector('#settings-modal .close').addEventListener('click', closeSettings);
     document.getElementById('settings-modal').addEventListener('click', e => {
         if (e.target.id === 'settings-modal') closeSettings(); // click on backdrop

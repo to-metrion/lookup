@@ -82,5 +82,38 @@
         "de": "Kampfmetro",
         "es": "Metro Batalla",
         "ko": "배틀서브웨이"
+    },
+    "game-swsh": {
+        "en": "Sword / Shield",
+        "fr": "Épée / Bouclier",
+        "it": "Spada / Scudo",
+        "de": "Schwert / Schild",
+        "es": "Espada / Escudo",
+        "jp": "ソード・シールド",
+        "ko": "소드・실드",
+        "chs": "剑／盾",
+        "cht": "劍／盾"
+    },
+    "variant-tower": {
+        "en": "Battle Tower",
+        "fr": "Tour de Combat",
+        "it": "Torre Lotta",
+        "de": "Kampfturm",
+        "es": "Torre Batalla",
+        "jp": "バトルタワー",
+        "ko": "배틀타워",
+        "chs": "对战塔",
+        "cht": "對戰塔"
+    },
+    "variant-rs": {
+        "en": "Restricted Sparring",
+        "fr": "Exercice spécialisé",
+        "it": "Prova Limitata",
+        "de": "Fokus-Sparring",
+        "es": "Prueba Ceñida",
+        "jp": "しばり組手",
+        "ko": "제한대련",
+        "chs": "制约比试",
+        "cht": "制約比試"
     }
 }
