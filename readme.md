@@ -6,6 +6,7 @@ Lookup tool for Pokémon Battle Facility trainers and their sets, hosted at [loo
 
 Currently covers:
 
+- **Sword & Shield** (Tower & Restricted Sparring, Gen 8)
 - **Battle Tree** (SM & USUM, Gen 7)
 - **Battle Maison** (XY & ORAS, Gen 6)
 - **Battle Subway** (Gen 5)
