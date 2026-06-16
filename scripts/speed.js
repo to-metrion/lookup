@@ -68,23 +68,75 @@ export function megaEntry(enSpecies, enItem) {
     return state.data.pokedex.find(p => p.en === target) ?? null;
 }
 
-export function speedDisplay(set) {
+// `ivOverride` is the IV of the trainer fielding this set (gen-4 Frontier,
+// where IVs are per-trainer; the caller derives it from the set's slot/side so
+// multis can show two different IVs at once). null = none (browse mode).
+// Battle Hall: the level of the Pokémon the player faces depends on the player's
+// own level and how many types they've taken to rank 2+. Returns null when the
+// inputs aren't set or no rank is selected (Argenta / browse). Pokémon floors.
+//   base = Lp − 3·√Lp ; increment = √Lp / 5
+//   L = min(Lp, ⌊ base + types/2 + (rank−1)·increment ⌋)
+// where `types` excludes the currently selected type if it's already rank 2+.
+export function hallFacedLevel() {
+    const Lp = state.hallLevel;
+    if (!state.variant?.hall || !Lp || !state.hallRank) return null;
+    const rank = state.hallRank;
+    // Everything is computed with real arithmetic and ONLY the final result is
+    // floored (the game rounds down once, at the end). `types` is the player's
+    // rank-2+ count as entered — the currently selected type is NOT subtracted.
+    const base = Lp - 3 * Math.sqrt(Lp);
+    const increment = Math.sqrt(Lp) / 5;
+    const types = state.hallRank2 || 0;
+    return Math.min(Lp, Math.floor(base + types / 2 + (rank - 1) * increment));
+}
+
+// The level used for the speed calc. Hall: the computed faced level, or null when
+// it can't be determined yet (no rank selected) → speed is then not shown at all.
+function speedLevel() {
+    if (state.variant?.hall) return hallFacedLevel();
+    if (state.variant?.factory && state.factoryOpen) return 100;   // Open Level
+    return state.variant?.speedLevel ?? 50;
+}
+
+// Shared inputs for a set's speed: the dex entry, the level/EV/IV params, and the
+// resolved item modifier. (Arcade `noItems` opponents hold no item — no item
+// modifier and no Mega Evolution, even though the shared set lists an item.)
+function speedCore(set, ivOverride) {
     const dex = state.data.pokedex.find(p => p[state.language] === set.species);
-    if (!dex || dex.spe == null) return '';
-    const params = {
-        ev: speEv(set.EVs),
-        natureMod: natureSpeedMod(set.nature),
-        level: state.variant?.speedLevel ?? 50,
-        // Per-set IVs (SwSh) win over the variant default; both fall back to 31.
-        iv: set.IVs ?? state.variant?.speedIVs ?? 31,
-    };
-    const enItem = set.item
+    if (!dex || dex.spe == null) return null;
+    const level = speedLevel();
+    if (level == null) return null;   // Hall with no determined faced level → no speed
+    const noItems = Boolean(state.variant?.noItems);
+    const enItem = (!noItems && set.item)
         ? (state.data.items.find(i => i[state.language] === set.item)?.en ?? set.item)
         : null;
-    const pre = computeSpeed({ ...params, base: dex.spe,
-                               itemMod: itemSpeedMod(enItem, dex.en) });
-    const mega = enItem && megaEntry(dex.en, enItem);
+    const params = {
+        ev: speEv(set.EVs),
+        level,
+        // IV precedence: per-set IVs (SwSh) > the fielding trainer's IV
+        // (gen-4 Frontier) > the variant default > 31.
+        iv: set.IVs ?? ivOverride ?? state.variant?.speedIVs ?? 31,
+    };
+    return { dex, params, enItem, itemMod: itemSpeedMod(enItem, dex.en) };
+}
+
+export function speedDisplay(set, ivOverride = null) {
+    const c = speedCore(set, ivOverride);
+    if (!c) return '';
+    const params = { ...c.params, natureMod: natureSpeedMod(set.nature) };
+    const pre = computeSpeed({ ...params, base: c.dex.spe, itemMod: c.itemMod });
+    const mega = c.enItem && megaEntry(c.dex.en, c.enItem);
     return mega && mega.spe != null
         ? `${pre} → ${computeSpeed({ ...params, base: mega.spe })}`
         : String(pre);
+}
+
+// DP Tower randomizes natures, so we can't assume one — return the speed for a
+// minus-speed (×0.9), neutral, and plus-speed (×1.1) nature. (No Mega in gen-4.)
+export function speedTriple(set, ivOverride = null) {
+    const c = speedCore(set, ivOverride);
+    if (!c) return null;
+    const at = natureMod =>
+        computeSpeed({ ...c.params, base: c.dex.spe, natureMod, itemMod: c.itemMod });
+    return { minus: at(0.9), neutral: at(1), plus: at(1.1) };
 }

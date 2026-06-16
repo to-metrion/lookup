@@ -1,0 +1,32 @@
+{
+  "remove": [
+    "Palmer (21)",
+    "Palmer"
+  ],
+  "trainers": [
+    {
+      "name": "Dalia (21)",
+      "class": "Diva Arena",
+      "roster": "Medicham-1, Ludicolo-1, Dusknoir-1",
+      "species": "Medicham, Ludicolo, Dusknoir",
+      "iv": 31,
+      "late": "",
+      "quote": "Non preoccuparti. ♪ Lasciamo che il destino faccia il suo corso. Come le sorprese del tabellone, così è la vita, fatta di alti e bassi. Non preoccuparti. ♪ Le cose andranno come devono andare. Ma ora basta chiacchiere. Di una cosa sono assolutamente certa. Se sei qui non è solo perché hai avuto fortuna. Non perdiamo altro tempo. Sono curiosa di vederti all'opera!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen4trainers/dahlia.png"
+    },
+    {
+      "name": "Dalia",
+      "class": "Diva Arena",
+      "roster": "Blaziken-4, Togekiss-4, Zapdos-4",
+      "species": "Blaziken, Togekiss, Zapdos",
+      "iv": 31,
+      "late": "1",
+      "quote": "Non preoccuparti. ♪ Lasciamo che il destino faccia il suo corso. Come le sorprese del tabellone, così è la vita, fatta di alti e bassi. Non preoccuparti. ♪ Le cose andranno come devono andare. Ma ora basta chiacchiere. Ti stai dimostrando davvero forte. Hai così tanta fortuna da riuscire a spazzare via tutta la sfortuna? Oppure hai così tanto talento da non aver bisogno neanche di un pizzico di buona sorte? Spero di capire oggi come hai fatto ad arrivare fino a qui!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen4trainers/dahlia.png"
+    }
+  ]
+}

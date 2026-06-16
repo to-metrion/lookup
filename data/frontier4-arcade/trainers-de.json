@@ -1,0 +1,32 @@
+{
+  "remove": [
+    "Viktor (21)",
+    "Viktor"
+  ],
+  "trainers": [
+    {
+      "name": "Dahlia (21)",
+      "class": "Arkaden-Star",
+      "roster": "Meditalis-1, Kappalores-1, Zwirrfinst-1",
+      "species": "Meditalis, Kappalores, Zwirrfinst",
+      "iv": 31,
+      "late": "",
+      "quote": "Kein Grund zur Sorge. ♪ Lassen wir dem Glück freie Hand. Das Hin und Her auf dem Spielfeld ist wie die Achterbahnfahrt des Lebens. Kein Grund zur Sorge. ♪ Es kommt, wie es kommen muss. Nun aber genug davon. Eines weiß ich ganz sicher. Du bist nicht aus purem Glück bis hierher gekommen. Verschwenden wir keine Zeit. Lass mich dein Können selbst testen!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen4trainers/dahlia.png"
+    },
+    {
+      "name": "Dahlia",
+      "class": "Arkaden-Star",
+      "roster": "Lohgock-4, Togekiss-4, Zapdos-4",
+      "species": "Lohgock, Togekiss, Zapdos",
+      "iv": 31,
+      "late": "1",
+      "quote": "Kein Grund zur Sorge. ♪ Lassen wir dem Glück freie Hand. Das Hin und Her auf dem Spielfeld ist wie die Achterbahnfahrt des Lebens. Kein Grund zur Sorge. ♪ Es kommt, wie es kommen muss. Nun aber genug davon. Du bist ein hervorragender Gegner. Bist du so gut, weil du das Pech einfach abschüttelst? Oder bist du so gut, dass dich weder Glück noch Pech beeinflussen können? Ich möchte selbst herausfinden, was dich heute zu mir geführt hat!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen4trainers/dahlia.png"
+    }
+  ]
+}

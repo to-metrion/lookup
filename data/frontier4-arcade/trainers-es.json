@@ -1,0 +1,32 @@
+{
+  "remove": [
+    "Jericor (21)",
+    "Jericor"
+  ],
+  "trainers": [
+    {
+      "name": "Delila (21)",
+      "class": "Astro Ruleta",
+      "roster": "Medicham-1, Ludicolo-1, Dusknoir-1",
+      "species": "Medicham, Ludicolo, Dusknoir",
+      "iv": 31,
+      "late": "",
+      "quote": "No te preocupes y deja que la suerte decida por ti. ♪ La vida gira como una ruleta y tiene sus sorpresas, malas o buenas. No te preocupes y deja que la suerte decida... ♪ Bah, mejor dejo el canturreo. Una cosa tengo bien clara: No se llega hasta aquí solo gracias a la buena suerte. Así que no perdamos el tiempo, ¡tengo ganas de que midamos nuestros equipos Pokémon!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen4trainers/dahlia.png"
+    },
+    {
+      "name": "Delila",
+      "class": "Astro Ruleta",
+      "roster": "Blaziken-4, Togekiss-4, Zapdos-4",
+      "species": "Blaziken, Togekiss, Zapdos",
+      "iv": 31,
+      "late": "1",
+      "quote": "No te preocupes y deja que la suerte decida por ti. ♪ La vida gira como una ruleta y tiene sus sorpresas, malas o buenas. No te preocupes y deja que la suerte decida... ♪ Bah, mejor dejo el canturreo. Llegar hasta aquí ya es increíble, ¿pero no habrá sido exclusivamente con buena fortuna? ¿O acaso la suerte no ha tenido nada que ver? ¡Voy a comprobarlo con mis propios ojos!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen4trainers/dahlia.png"
+    }
+  ]
+}

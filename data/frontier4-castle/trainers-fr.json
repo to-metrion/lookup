@@ -1,0 +1,32 @@
+{
+  "remove": [
+    "Koner (21)",
+    "Koner"
+  ],
+  "trainers": [
+    {
+      "name": "Parsley (21)",
+      "class": "Chambellan",
+      "roster": "Pingoléon-1, Étouraptor-1, Démolosse-1, Pingoléon-2, Étouraptor-2, Démolosse-2",
+      "species": "Pingoléon, Étouraptor, Démolosse",
+      "iv": 31,
+      "late": "",
+      "quote": "Bienvenue. Comme vous le savez, mon nom est Parsley. Je suis le Chambellan du Castel de Combat. Pour une raison que je ne puis révéler, Dame Percila ne peut vous affronter en personne. De ce fait, c'est moi, Parsley, qui combattrai en son nom. En tant que représentant de Dame Percila, je ne saurais accepter la défaite. N'allez pas croire que je suis un adversaire facile. En garde!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen4trainers/darach.png"
+    },
+    {
+      "name": "Parsley",
+      "class": "Chambellan",
+      "roster": "Pingoléon-3, Gallame-3, Pingoléon-4, Gallame-4, Entei-3, Entei-4",
+      "species": "Pingoléon, Gallame, Entei",
+      "iv": 31,
+      "late": "1",
+      "quote": "Votre maîtrise des Pokémon est très impressionnante. vous avez toute mon admiration. Cependant, sauf votre respect, votre stratégie n'est pas sans faille. Après tout, j'ai eu maintes occasions de vous observer au combat. Vous souhaitez savoir où le bât blesse? En tant que Dresseur, il est de mon devoir de vous le montrer au combat. En garde!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen4trainers/darach.png"
+    }
+  ]
+}

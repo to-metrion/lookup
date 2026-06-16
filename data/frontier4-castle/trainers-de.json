@@ -1,0 +1,32 @@
+{
+  "remove": [
+    "Viktor (21)",
+    "Viktor"
+  ],
+  "trainers": [
+    {
+      "name": "Perenus (21)",
+      "class": "Kammerdiener",
+      "roster": "Impoleon-1, Staraptor-1, Hundemon-1, Impoleon-2, Staraptor-2, Hundemon-2",
+      "species": "Impoleon, Staraptor, Hundemon",
+      "iv": 31,
+      "late": "",
+      "quote": "Willkommen. Ich bin Perenus, wie du weißt. Ich bin der Kammerdiener. Für Lady Kattlea, meine Herrin, ist eine Niederlage keine Option. Sie kann aber aus einem nicht näher ausführbaren Grund nicht antreten. Daher werde ich an ihrer statt kämpfen....Ich werde dich sicher nicht unterfordern, so viel steht fest. En garde!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen4trainers/darach.png"
+    },
+    {
+      "name": "Perenus",
+      "class": "Kammerdiener",
+      "roster": "Impoleon-3, Galagladi-3, Impoleon-4, Galagladi-4, Entei-3, Entei-4",
+      "species": "Impoleon, Galagladi, Entei",
+      "iv": 31,
+      "late": "1",
+      "quote": "Dein Umgang mit Pokémon ist atemberaubend. dir gebührt meine Empfehlung....Erlaube mir eine Bemerkung, was deinen Kampfstil anbelangt. Immerhin konnte ich dich aus nächster Nähe beobachten. Was ist mir also aufgefallen? Es gehört sich für mich als Trainer, dir das in einem Kampf zu demonstrieren. Beginnen wir also! En garde!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen4trainers/darach.png"
+    }
+  ]
+}

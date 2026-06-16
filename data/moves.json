@@ -3160,7 +3160,7 @@
         ],
         "Arm Thrust": [
             [
-                6,
+                3,
                 "Fighting"
             ]
         ],
@@ -4826,6 +4826,120 @@
                 "Water"
             ]
         ],
+        "Gear Up": [
+            [
+                7,
+                "Steel"
+            ]
+        ],
+        "Magic Room": [
+            [
+                5,
+                "Psychic"
+            ]
+        ],
+        "Speed Swap": [
+            [
+                7,
+                "Psychic"
+            ]
+        ],
+        "Harden": [
+            [
+                1,
+                "Normal"
+            ]
+        ],
+        "Scratch": [
+            [
+                1,
+                "Normal"
+            ]
+        ],
+        "Smokescreen": [
+            [
+                1,
+                "Normal"
+            ]
+        ],
+        "Splash": [
+            [
+                1,
+                "Normal"
+            ]
+        ],
+        "Withdraw": [
+            [
+                1,
+                "Water"
+            ]
+        ],
+        "Present": [
+            [
+                2,
+                "Normal"
+            ]
+        ],
+        "Sweet Scent": [
+            [
+                2,
+                "Normal"
+            ]
+        ],
+        "Mud Sport": [
+            [
+                3,
+                "Ground"
+            ]
+        ],
+        "Poison Sting": [
+            [
+                1,
+                "Poison"
+            ]
+        ],
+        "Spike Cannon": [
+            [
+                1,
+                "Normal"
+            ]
+        ],
+        "Absorb": [
+            [
+                1,
+                "Grass"
+            ]
+        ],
+        "Camouflage": [
+            [
+                3,
+                "Normal"
+            ]
+        ],
+        "Constrict": [
+            [
+                1,
+                "Normal"
+            ]
+        ],
+        "Cut": [
+            [
+                1,
+                "Normal"
+            ]
+        ],
+        "Meditate": [
+            [
+                1,
+                "Psychic"
+            ]
+        ],
+        "Pound": [
+            [
+                1,
+                "Normal"
+            ]
+        ],
         "Faint Attack": [
             [
                 2,
@@ -4842,24 +4956,6 @@
             [
                 3,
                 "Normal"
-            ]
-        ],
-        "Gear Up": [
-            [
-                7,
-                "Steel"
-            ]
-        ],
-        "Magic Room": [
-            [
-                5,
-                "Psychic"
-            ]
-        ],
-        "Speed Swap": [
-            [
-                8,
-                "Psychic"
             ]
         ]
     }

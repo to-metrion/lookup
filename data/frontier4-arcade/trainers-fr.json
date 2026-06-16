@@ -1,0 +1,32 @@
+{
+  "remove": [
+    "Koner (21)",
+    "Koner"
+  ],
+  "trainers": [
+    {
+      "name": "Dahlia (21)",
+      "class": "Diva Arcade",
+      "roster": "Charmina-1, Ludicolo-1, Noctunoir-1",
+      "species": "Charmina, Ludicolo, Noctunoir",
+      "iv": 31,
+      "late": "",
+      "quote": "A quoi bon s'inquiéter? ♪ Les choses sont-elles déjà décidées? Le tableau de jeu, la vie... Que va-t-il se passer? A quoi bon s'inquiéter? ♪ On ne peut changer sa destinée! Mais assez de poésie! La chance est ton alliée, mais tes compétences sont avérées. Allons, ne perdons plus de temps, car tu dois m'affronter!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen4trainers/dahlia.png"
+    },
+    {
+      "name": "Dahlia",
+      "class": "Diva Arcade",
+      "roster": "Braségali-4, Togekiss-4, Électhor-4",
+      "species": "Braségali, Togekiss, Électhor",
+      "iv": 31,
+      "late": "1",
+      "quote": "A quoi bon s'inquiéter? ♪ Les choses sont-elles déjà décidées? Le tableau de jeu, la vie... Que va-t-il se passer? A quoi bon s'inquiéter? ♪ On ne peut changer sa destinée! Mais assez de poésie. Tu es absolument incroyable! A nouveau, tu te trouves devant moi, la chance a l'air de ton côté! Ou peut-être n'as-tu que faire de la chance? Je vais pouvoir en juger!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen4trainers/dahlia.png"
+    }
+  ]
+}

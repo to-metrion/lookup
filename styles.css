@@ -464,6 +464,30 @@ button:focus {
     height: 32px;
 }
 
+/* Battle Hall type selector: the type icon (iconTemplate → .game-icon) sized to
+   sit cleanly in the trainer-styled menu. */
+.select2-container--trainer .game-icon {
+    height: 38px;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+/* Hall type selector: the big trainer-styled box has a 70px line-height, which
+   drops the inline icon to the baseline. Flex-center the selection so the type
+   icon (and Argenta's sprite) sit centered vertically. */
+.select2-container--hall-type .select2-selection--single .select2-selection__rendered,
+.select2-container--hall-type .select2-selection--single .select2-selection__rendered > span {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    line-height: normal;   /* drop the inherited 70px strut that pinned the icon low */
+}
+.select2-container--hall-type .game-icon {
+    height: 52px;
+    margin: 0 14px 0 0;
+    vertical-align: middle;
+}
+
 /* Big trainer dropdown in the header */
 .select2-container--trainer .select2-selection--single {
     background-color: var(--surface) !important;
@@ -701,6 +725,33 @@ button:focus {
     color: var(--highlight);
 }
 
+/* gen-4 Frontier: facility pills sit under the version pills — visually
+   subordinate (smaller, tighter) to the version row above them. */
+#facility-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 0 0 10px 0;
+}
+
+.facility-pill {
+    padding: 4px 12px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background-color: var(--surface);
+    color: var(--text);
+    font-family: 'Futura', sans-serif;
+    font-variant-caps: small-caps;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.facility-pill.active {
+    border-color: var(--highlight);
+    box-shadow: 0 0 0 1px var(--highlight);
+    color: var(--highlight);
+}
+
 .game-icon {
     width: auto;
     height: 24px;
@@ -822,6 +873,34 @@ button:focus {
     background-color: var(--accent);
     color: var(--on-accent);
     border-color: var(--accent);
+}
+
+/* Battle Factory Lv50 / Open Level segmented toggle (sits under the facility
+   pills; deliberately short — it's a sub-choice of the Factory facility). */
+.factory-level-toggle {
+    display: inline-flex;
+    margin: 8px 0 2px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    overflow: hidden;
+}
+.factory-level-opt {
+    padding: 0 14px;
+    height: 22px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: var(--surface);
+    color: var(--text-muted);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+.factory-level-opt + .factory-level-opt {
+    border-left: 1px solid var(--border);
+}
+.factory-level-opt.active {
+    background-color: var(--accent);
+    color: var(--on-accent);
 }
 
 /* ============================================================
@@ -1079,6 +1158,47 @@ button:focus {
     font-size: 1.3em;
 }
 
+/* Battle Hall: faced-level line above the abilities separator (title font). */
+.hall-faced-level {
+    font-variant-caps: small-caps;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom: 5px;
+}
+
+/* Battle Hall: faced-level calculator that replaces the quote dropdown. */
+.hall-level-tool {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 18px;
+    width: 100%;
+    padding-left: 4px;
+}
+.hall-field {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--text);
+}
+.hall-field input {
+    width: 4em;
+    padding: 4px 6px;
+    background-color: var(--surface);
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    font-size: 0.95em;
+}
+.hall-info {
+    cursor: help;
+    color: var(--text-muted);
+    font-size: 1.1em;
+    line-height: 1;
+    user-select: none;
+}
+.hall-info:hover { color: var(--text); }
+
 .nature-text {
     font-size: 0.7em;
     font-variant-caps: normal;
@@ -1115,6 +1235,32 @@ button:focus {
 .speed {
     font-weight: bold;
     font-size: 1.2em;
+}
+
+/* DP random-nature 3-way speed: −nature (red) / neutral / +nature (green).
+   Preview row shows them inline; details stacks three lines under the moves. */
+.spd-minus { color: #e05a5a; font-weight: bold; }
+.spd-plus  { color: #4caf50; font-weight: bold; }
+.spd-neutral { color: inherit; font-weight: bold; }
+.speed-triple {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.speed-triple .speed {
+    font-size: 0.95em;
+    line-height: 1.1;
+}
+.speed-triple .speed-icon {
+    width: 1.35em;
+    height: 1.35em;
+}
+.speed-triple .speed.spd-minus { color: #e05a5a; }
+.speed-triple .speed.spd-plus  { color: #4caf50; }
+.speed-triple .speed.spd-neutral { color: inherit; }
+.speed-sign {
+    font-weight: bold;
+    margin-right: 1px;
 }
 
 .abilities {

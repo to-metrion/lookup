@@ -183,7 +183,117 @@ export const GAMES = [
             },
         ],
     },
+    {
+        // Gen-4 Battle Frontier. Unlike the other games this has TWO sub-axes:
+        // a VERSION (HGSS / Platinum / DP) shown in the variant-pill row, and a
+        // FACILITY (Battle Tower / Arcade / Castle / Hall / Factory) shown in a
+        // second pill row below it (see app.js populateFacilityPills). A variant
+        // is the (version × facility) combination — it carries `version` and
+        // `facility` keys. HGSS and Platinum share IDENTICAL sets & trainers, so
+        // their variants point at the same data; only the frontier brain differs
+        // between facilities (Arcade/Castle are deltas on the Tower data).
+        //
+        // IVs are PER-TRAINER in gen 4 (`trainerIVs: true`): speed.js reads the
+        // selected trainer's `iv`; browse mode falls back to speedIVs.
+        //
+        // Currently built: HGSS + Platinum × {Tower, Arcade, Castle}, English.
+        // DEFERRED: DP (needs a delta), Hall + Factory (special mechanics), the
+        // 8 other languages, and Factory's 50/Open level toggle.
+        // NB: Gen-3 will ALSO be named "Battle Frontier" — that's fine, the game
+        // select keys on `code` (unique), not the display name; the two are told
+        // apart by their game logos.
+        code: 'frontier4',
+        name: 'Battle Frontier',
+        icons: ['assets/images/games/hg.png', 'assets/images/games/ss.png'],
+        versions: [
+            { code: 'hgss', short: 'HGSS', default: true,
+              icons: ['assets/images/games/hg.png', 'assets/images/games/ss.png'] },
+            { code: 'pt', short: 'Platinum',
+              icons: ['assets/images/games/pt.png'] },
+            // Diamond/Pearl: Tower only, own dataset, random natures (see
+            // frontier4Variants). Diamond + Pearl logos (self-remove if absent).
+            { code: 'dp', short: 'DP',
+              icons: ['assets/images/games/d.png', 'assets/images/games/p.png'] },
+        ],
+        variants: frontier4Variants(),
+    },
 ];
+
+// Builds the 6 gen-4 variants (2 versions × 3 facilities) — HGSS and Platinum
+// share data files (sets+regular trainers identical), so both versions of a
+// facility point at the same dataDir/base. Factory adds a 50/Open level axis
+// when it's built (not yet).
+function frontier4Variants() {
+    const VERSIONS = [
+        { code: 'hgss', short: 'HGSS' },
+        { code: 'pt', short: 'Platinum' },
+        // Diamond/Pearl: ONLY the Battle Tower (its own dataset — names/sets/rosters
+        // mostly differ from HGSS). Natures are randomized in DP, so they're not
+        // listed (`randomNature` → 3-way speed display). See frontier4-dp.
+        { code: 'dp', short: 'DP' },
+    ];
+    // facility key -> { label (pill), nameKey (translations.json), dataDir, base }
+    // `noItems`: Arcade opponents hold NO items (same sets as Tower otherwise) —
+    // items are hidden AND excluded from the speed calc there. (Castle DOES use
+    // items, so it has no flag.)
+    const FACILITIES = [
+        { key: 'tower',  label: 'Tower',  nameKey: 'facility-tower',  dataDir: 'frontier4-tower' },
+        { key: 'arcade', label: 'Arcade', nameKey: 'facility-arcade', dataDir: 'frontier4-arcade', base: 'frontier4-tower', noItems: true },
+        { key: 'castle', label: 'Castle', nameKey: 'facility-castle', dataDir: 'frontier4-castle', base: 'frontier4-tower' },
+        // Hall: no trainers — the player faces a random Pokémon from a pool keyed
+        // by TYPE + RANK (see `hall` flag → type/rank selector UI in app.js).
+        // Singles only; its own sets file; no 43+ late filter.
+        { key: 'hall',   label: 'Hall',   nameKey: 'facility-hall',   dataDir: 'frontier4-hall', hall: true },
+        // Factory: same sets + regular trainers as Tower, but each trainer's
+        // roster is GENERATED at runtime from their group + the Lv50/Open level
+        // (see app.js). Brain → Thorton. Open Level battles are level 100.
+        { key: 'factory', label: 'Factory', nameKey: 'facility-factory', dataDir: 'frontier4-factory', base: 'frontier4-tower', factory: true },
+    ];
+    const out = [];
+    for (const v of VERSIONS) {
+        // Diamond/Pearl only has the Battle Tower.
+        const facilities = v.code === 'dp'
+            ? FACILITIES.filter(f => f.key === 'tower') : FACILITIES;
+        for (const f of facilities) {
+            const variant = {
+                code: `f4-${v.code}-${f.key}`,
+                name: `${v.short} — ${f.label}`,
+                version: v.code,
+                facility: f.key,
+                facilityShort: f.label,
+                facilityNameKey: f.nameKey,
+                dataDir: f.dataDir,
+                pokedex: 'data/pokedex-4.json',
+                gen: 4,
+                languages: ['en', 'fr', 'it', 'de', 'es', 'jp', 'ko'],
+                // Hall: singles + doubles (doubles has no in-game role here, but
+                // lets people browse two sets side by side); no multis.
+                modes: f.hall ? ['singles', 'doubles'] : ['singles', 'doubles', 'multis'],
+                hasTrainers: true,
+                showMinisprites: true,
+                trainerIVs: true,   // IV comes from the selected trainer (or Hall rank)
+                noItems: f.noItems || false,  // Arcade/Castle: opponents hold no items
+                icons: v.code === 'hgss'
+                    ? ['assets/images/games/hg.png', 'assets/images/games/ss.png']
+                    : v.code === 'pt' ? ['assets/images/games/pt.png']
+                    : ['assets/images/games/d.png', 'assets/images/games/p.png'],
+            };
+            if (f.hall) variant.hall = true;        // type/rank selector instead of trainers
+            else variant.lateCutoff = 43;           // "43+" toggle (Tower/Arcade/Castle/Factory)
+            if (f.factory) variant.factory = true;  // runtime roster generation + Lv50/Open
+            if (f.base) variant.base = f.base;
+            // DP Tower is its OWN standalone dataset and randomizes natures.
+            if (v.code === 'dp' && f.key === 'tower') {
+                variant.dataDir = 'frontier4-dp';
+                variant.base = undefined;
+                variant.randomNature = true;
+            }
+            if (v.code === 'hgss' && f.key === 'tower') variant.default = true;
+            out.push(variant);
+        }
+    }
+    return out;
+}
 
 // Battle modes. `sides` = how many opposing trainers are shown at once
 // (multis = two independent trainers); `slots` = Pokémon shown per side.
@@ -231,7 +341,7 @@ export const THEMES = [
 
 // Appended to every data fetch (?v=...) so browsers pick up new data after a
 // deploy instead of serving stale cached JSON. Bump when data files change.
-export const DATA_VERSION = '2026-06-13j';
+export const DATA_VERSION = '2026-06-15g';
 
 export const LANGUAGE_NAMES = {
     en: 'English',
@@ -261,6 +371,40 @@ export function defaultVariant(game) {
 
 export function getVariant(game, code) {
     return game.variants.find(variant => variant.code === code) || defaultVariant(game);
+}
+
+// --- gen-4 two-axis menu (version × facility) ---------------------------
+// Games with a `versions` array show version pills (HGSS/Platinum/…) in the
+// variant-pill row and facility pills (Tower/Arcade/…) in a second row. A
+// variant is the (version, facility) combination.
+
+export function gameVersions(game) {
+    return game.versions || [];
+}
+
+export function defaultVersion(game) {
+    const vs = gameVersions(game);
+    return (vs.find(v => v.default) || vs[0])?.code;
+}
+
+// Distinct facilities available for a version, in declaration order:
+// [{ key, label }].
+export function facilitiesForVersion(game, versionCode) {
+    const seen = new Set();
+    const out = [];
+    for (const variant of game.variants) {
+        if (variant.version === versionCode && !seen.has(variant.facility)) {
+            seen.add(variant.facility);
+            out.push({ key: variant.facility, label: variant.facilityShort,
+                       nameKey: variant.facilityNameKey });
+        }
+    }
+    return out;
+}
+
+export function variantForVersionFacility(game, versionCode, facilityKey) {
+    return game.variants.find(
+        v => v.version === versionCode && v.facility === facilityKey);
 }
 
 // Highest slot count among a variant's modes (how many menus to populate).

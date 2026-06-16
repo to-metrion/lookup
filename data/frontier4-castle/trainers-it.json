@@ -1,0 +1,32 @@
+{
+  "remove": [
+    "Palmer (21)",
+    "Palmer"
+  ],
+  "trainers": [
+    {
+      "name": "Paride (21)",
+      "class": "Maggiordomo",
+      "roster": "Empoleon-1, Staraptor-1, Houndoom-1, Empoleon-2, Staraptor-2, Houndoom-2",
+      "species": "Empoleon, Staraptor, Houndoom",
+      "iv": 31,
+      "late": "",
+      "quote": "Ti do il benvenuto. Come sai, mi chiamo Paride e sono il Maggiordomo del Maniero. Lady Catlina, la mia padrona, non accetta di buon grado la sconfitta. Tuttavia, per un motivo che non posso svelare, non può lottare. Di conseguenza, sarò io a lottare al posto di Milady.... Ma ti avverto, non per questo mi devi sottovalutare. En garde!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen4trainers/darach.png"
+    },
+    {
+      "name": "Paride",
+      "class": "Maggiordomo",
+      "roster": "Empoleon-3, Gallade-3, Empoleon-4, Gallade-4, Entei-3, Entei-4",
+      "species": "Empoleon, Gallade, Entei",
+      "iv": 31,
+      "late": "1",
+      "quote": "La tua destrezza con i Pokémon è straordinaria. sei encomiabile. Tuttavia, se posso permettermi, ho notato una cosa di te. Del resto, ho avuto la possibilità di osservarti da vicino. Dunque, sai cos'ho notato? Visto che sono Allenatore io stesso, te lo mostrerò direttamente in lotta. Iniziamo! En garde!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen4trainers/darach.png"
+    }
+  ]
+}

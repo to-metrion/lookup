@@ -5,7 +5,7 @@
 // slot(s). Slot ownership per mode comes from slotSide() in config.js.
 
 import { state } from './state.js';
-import { speedDisplay, megaEntry } from './speed.js';
+import { speedDisplay, speedTriple, megaEntry, hallFacedLevel } from './speed.js';
 import { MODES, MAX_SLOTS, MAX_SIDES, modeSlots, slotSide, variantMaxSlots } from './config.js';
 
 /* ---------- lookup helpers ---------- */
@@ -36,8 +36,22 @@ export function isLateTrainer(trainer) {
     return String(trainer.late ?? '').trim() === '1';
 }
 
-// Trainers visible in the dropdowns, honoring the late-only filter.
+// Battle Factory has its OWN two-threshold filter (by trainer index), not the
+// generic `late` flag: 21+ = trainers 141-300 + both Thorton (idx ≥ 140);
+// 49+ = trainers 221-300 + Thorton(49) only (idx ≥ 220, minus Thorton (21)).
+export function factoryLatePass(idx, trainer, cutoff) {
+    if (cutoff === 21) return idx >= 140;
+    if (cutoff === 49) return idx >= 220 && !(trainer.factoryBrain && trainer.battle === 21);
+    return true;
+}
+
+// Trainers visible in the dropdowns, honoring the active filter.
 export function trainerPool() {
+    if (state.variant.factory) {
+        return state.factoryLate
+            ? state.data.trainers.filter((t, i) => factoryLatePass(i, t, state.factoryLate))
+            : state.data.trainers;
+    }
     if (state.lateOnly && state.variant.lateCutoff) {
         return state.data.trainers.filter(isLateTrainer);
     }
@@ -94,13 +108,48 @@ function spriteTemplate(option) {
 // second (data-icon2) so both Master Dojo Student figures show by the name. A
 // Dynamax badge (data-dmax) is appended after the name when the trainer fields
 // a Pokémon that can Dynamax.
+// gen-4: HGSS and Platinum share one dataset but differ in a few trainer NAMES
+// and some trainer-class SPRITES. Both are resolved per the selected version
+// here (no data duplication): Platinum gets the trainer's `namePt` when present,
+// and a "<sprite>-pt.png" sprite that falls back to the shared HGSS file if no
+// Platinum-specific art exists.
+function isPlatinum() {
+    return state.variant?.version === 'pt';
+}
+
+// DP reuses Platinum's trainer-class art, so it takes the "-pt" sprites too (with
+// the shared HGSS file as fallback). Names/quotes are NOT shared — DP has its own.
+function usesPlatinumSprites() {
+    return state.variant?.version === 'pt' || state.variant?.version === 'dp';
+}
+
+export function trainerName(trainer) {
+    return (isPlatinum() && trainer.namePt) ? trainer.namePt : trainer.name;
+}
+
+export function trainerQuote(trainer) {
+    return (isPlatinum() && trainer.quotePt) ? trainer.quotePt : trainer.quote;
+}
+
+// Returns [src, fallbackSrc|null]: for Platinum, the -pt sprite with the shared
+// sprite as fallback; otherwise just the shared sprite.
+function trainerSpriteSrc(sprite) {
+    if (usesPlatinumSprites() && sprite) {
+        return [sprite.replace(/\.png$/, '-pt.png'), sprite];
+    }
+    return [sprite, null];
+}
+
 function trainerTemplate(option) {
     if (!option.id) return option.text;
     const el = $(option.element);
     const icon = el.data('icon');
     if (!icon) return option.text;
     const $span = $('<span></span>');
-    $span.append($('<img>').attr('src', icon).addClass('trainer-sprite-select2'));
+    const fb = el.data('icon-fb');
+    const $img = $('<img>').attr('src', icon).addClass('trainer-sprite-select2');
+    if (fb) $img.one('error', function () { this.src = fb; });  // -pt missing → shared
+    $span.append($img);
     const icon2 = el.data('icon2');
     if (icon2) {
         $span.append($('<img>').attr('src', icon2).addClass('trainer-sprite-select2'));
@@ -134,13 +183,14 @@ export function iconTemplate(option) {
 }
 
 export function initSelect2(selector, { placeholder, template, containerClass, search = true,
-                                        matcher } = {}) {
+                                        matcher, allowClear = false } = {}) {
     const $el = $(selector);
     if ($el.hasClass('select2-hidden-accessible')) {
         $el.select2('destroy');
     }
     $el.select2({
         placeholder,
+        allowClear,   // shows an "×" to clear back to the placeholder
         templateResult: template,
         templateSelection: template,
         width: '100%',
@@ -236,11 +286,14 @@ export function populateTrainerDropdown(side, onSelect) {
     const $dropdown = $(`#trainer-dropdown-${side}`).empty();
     $dropdown.append(`<option value="" disabled selected></option>`);
 
-    const trainers = [...trainerPool()].sort((a, b) => a.name.localeCompare(b.name));
+    const trainers = [...trainerPool()].sort(
+        (a, b) => trainerName(a).localeCompare(trainerName(b)));
     for (const trainer of trainers) {
         const index = state.data.trainers.indexOf(trainer);
-        const option = new Option(trainer.name, String(index), false, false);
-        $(option).attr('data-icon', trainer.sprite);
+        const option = new Option(trainerName(trainer), String(index), false, false);
+        const [icon, fb] = trainerSpriteSrc(trainer.sprite);
+        $(option).attr('data-icon', icon);
+        if (fb) $(option).attr('data-icon-fb', fb);
         if (trainer.sprite2) $(option).attr('data-icon2', trainer.sprite2);
         if (trainerHasDmax(trainer)) $(option).attr('data-dmax', '1');
         $dropdown.append(option);
@@ -262,10 +315,11 @@ export function populateQuoteDropdown(side, onSelect) {
     const $dropdown = $(`#quote-dropdown-${side}`).empty();
     $dropdown.append(`<option value="" disabled selected></option>`);
 
-    const trainers = [...trainerPool()].sort((a, b) => a.quote.localeCompare(b.quote));
+    const trainers = [...trainerPool()].sort(
+        (a, b) => trainerQuote(a).localeCompare(trainerQuote(b)));
     for (const trainer of trainers) {
         const index = state.data.trainers.indexOf(trainer);
-        $dropdown.append(new Option(trainer.quote, String(index), false, false));
+        $dropdown.append(new Option(trainerQuote(trainer), String(index), false, false));
     }
 
     initSelect2(`#quote-dropdown-${side}`, {
@@ -342,7 +396,9 @@ function dexIndex(species) {
 }
 
 function renderSpeciesListInto(slot, trainer, onPick) {
-    if (!trainer) return;
+    // Argenta (battle 50) draws from the WHOLE Hall pool — too many to show as a
+    // minisprite grid, so the synthetic selection sets `noMinisprites`.
+    if (!trainer || trainer.noMinisprites) return;
     const container = document.getElementById(`slot-species-${slot}`);
     const ordered = trainer.species.split(', ')
         .sort((a, b) => dexIndex(a) - dexIndex(b));
@@ -381,6 +437,22 @@ function facilitySpecies() {
     return facilitySpeciesList;
 }
 
+// Species offered in BROWSE mode (no trainer). With a late filter active (43+,
+// Factory 21+/49+), restrict to species fielded by a trainer that passes the
+// filter — so species only on excluded (non-late) rosters disappear too.
+function browseSpecies() {
+    const lateActive = (state.lateOnly && state.variant.lateCutoff)
+        || (state.variant.factory && state.factoryLate);
+    if (!lateActive) return facilitySpecies();
+    const out = new Set();
+    for (const t of trainerPool()) {
+        for (const tok of (t.roster || '').split(', ')) {
+            if (tok) out.add(tok.split(/-(?=\d+$)/)[0]);
+        }
+    }
+    return [...out];
+}
+
 // (Re)populates every visible slot's menu — from its owning trainer's roster, or
 // from ALL facility species when no trainer is selected (browse mode).
 export function populatePokemonMenus(onSelect) {
@@ -396,7 +468,7 @@ export function populatePokemonMenus(onSelect) {
 function populateOneMenu(slot, trainer, onSelect) {
     const $menu = $(`#pokemon-menu-${slot}`).empty();
     $menu.append(new Option('', '', true, true));
-    const species = (trainer ? trainer.species.split(', ') : facilitySpecies())
+    const species = (trainer ? trainer.species.split(', ') : browseSpecies())
         .filter(sp => dexEntry(sp))
         .sort((a, b) => a.localeCompare(b));
     for (const sp of species) {
@@ -414,6 +486,14 @@ function populateOneMenu(slot, trainer, onSelect) {
 }
 
 /* ---------- sets table ---------- */
+
+// gen-4 Frontier: the IV used for a slot's sets comes from the trainer fielding
+// it — the trainer on the slot's side (so multis can show two IVs at once).
+// null for non-trainer-IV variants or browse mode (no trainer on that side).
+function ivForSlot(slot) {
+    if (!state.variant.trainerIVs) return null;
+    return state.trainers[slotSide(state.mode, slot)]?.iv ?? null;
+}
 
 export function showPokemonSets(slot, species) {
     const container = document.getElementById(`pokemon-sets-${slot}`);
@@ -445,9 +525,10 @@ export function showPokemonSets(slot, species) {
 
         row.appendChild(setNumCell(set));
         row.appendChild(itemCell(set.item));
-        row.appendChild(textCell(set.nature, 'set-nature'));
+        // DP randomizes natures → don't list one (frees space for the 3-way speed).
+        if (!state.variant?.randomNature) row.appendChild(textCell(set.nature, 'set-nature'));
         row.appendChild(movesCell(set));
-        row.appendChild(speedCell(set));
+        row.appendChild(speedCell(set, ivForSlot(slot)));
 
         row.onclick = () => {
             if (state.activeSets[slot] === set) {
@@ -466,6 +547,15 @@ export function showPokemonSets(slot, species) {
 
     container.appendChild(list);
     updateHighlightedRows();
+
+    // QoL: if exactly one set is in the pool (always in Hall / Restricted
+    // Sparring, and whenever a trainer fields a single set of the species),
+    // open its details automatically — saves a click.
+    if (sets.length === 1) {
+        state.activeSets[slot] = sets[0];
+        showSetDetails(slot, sets[0]);
+        updateHighlightedRows();
+    }
 
     fitMoveGrids(container);
     if (typeof ResizeObserver !== 'undefined' && !container._movesObserver) {
@@ -527,6 +617,8 @@ function setNumCell(set) {
 function itemCell(itemName) {
     const cell = document.createElement('div');
     cell.className = 'set-cell set-item';
+    // Arcade/Castle opponents hold no items — show an empty item column.
+    if (state.variant?.noItems) return cell;
     if (itemName && itemName !== 'None') {
         const img = document.createElement('img');
         img.src = itemImageUrl(itemName);
@@ -568,15 +660,42 @@ function movesCell(set) {
 }
 
 // Shrink-to-fit: only mega sets ("139 → 216") pay for the arrow's width.
-function speedCell(set) {
+function speedCell(set, iv = null) {
     const cell = document.createElement('div');
     cell.className = 'set-cell set-speed';
-    const icon = document.createElement('img');
-    icon.src = 'assets/images/speed.png';
-    icon.alt = 'Speed';
-    icon.onerror = () => icon.remove();
-    cell.appendChild(icon);
-    cell.appendChild(document.createTextNode(speedDisplay(set)));
+    const icon = () => {
+        const img = document.createElement('img');
+        img.src = 'assets/images/speed.png';
+        img.alt = 'Speed';
+        img.onerror = () => img.remove();
+        return img;
+    };
+    // DP (random natures): three colour-coded speeds — −nature (red) / neutral /
+    // +nature (green) — since the game doesn't fix the nature.
+    if (state.variant?.randomNature) {
+        const t = speedTriple(set, iv);
+        if (t) {
+            const span = (v, cls) => {
+                const s = document.createElement('span');
+                s.className = `spd-${cls}`;
+                s.textContent = v;
+                return s;
+            };
+            cell.appendChild(icon());
+            cell.appendChild(span(t.minus, 'minus'));
+            cell.appendChild(document.createTextNode(' / '));
+            cell.appendChild(span(t.neutral, 'neutral'));
+            cell.appendChild(document.createTextNode(' / '));
+            cell.appendChild(span(t.plus, 'plus'));
+        }
+        return cell;
+    }
+    // Hall without a determined faced level → no speed (empty cell, no icon).
+    const text = speedDisplay(set, iv);
+    if (text) {
+        cell.appendChild(icon());
+        cell.appendChild(document.createTextNode(text));
+    }
     return cell;
 }
 
@@ -593,7 +712,18 @@ export function updateHighlightedRows() {
 
 /* ---------- set details ---------- */
 
+// "IVs: N" detail line. Per-set IVs (SwSh) take precedence; for gen-4 Frontier
+// (variant.trainerIVs) it shows the fielding trainer's IV (`slotIV`). Hidden in
+// browse mode (no trainer) when the set has no per-set IV.
+function ivsLine(set, slotIV) {
+    const iv = set.IVs ?? slotIV;
+    return iv != null
+        ? `<div class="separator"></div><div class="ivs">IVs: ${iv}</div>`
+        : '';
+}
+
 function showSetDetails(slot, set) {
+    const slotIV = ivForSlot(slot);
     const container = document.getElementById(`pokemon-sets-${slot}`);
     container.querySelector('.set-details')?.remove();
 
@@ -605,8 +735,10 @@ function showSetDetails(slot, set) {
 
     const english = speciesData.en.toLowerCase();
     const abilities = (speciesData[`abilities-${state.language}`] || '').split(', ');
+    // Arcade/Castle: opponents hold no items → no item, no Mega Evolution.
+    const noItems = Boolean(state.variant?.noItems);
     const itemEnglish = itemEntry(set.item)?.en ?? set.item;
-    const megaDex = megaEntry(speciesData.en, itemEnglish);
+    const megaDex = noItems ? null : megaEntry(speciesData.en, itemEnglish);
     const megaAbilities = megaDex
         ? (megaDex[`abilities-${state.language}`] || '').split(', ')
         : null;
@@ -637,8 +769,38 @@ function showSetDetails(slot, set) {
         set.tera ? typeIconHtml(set.tera, true) : '',
     ].join('');
 
-    const itemHtml = set.item && set.item !== 'None'
+    const itemHtml = (!noItems && set.item && set.item !== 'None')
         ? `<img src="${itemImageUrl(set.item)}" alt="${set.item}" class="item-icon" onerror="this.remove()" /> ${set.item}`
+        : '';
+
+    // DP randomizes natures: drop the nature block (+ its separator) and show a
+    // 3-way speed (−/neutral/+ nature) under the moves instead of one value.
+    const randomNature = Boolean(state.variant?.randomNature);
+    const speedIcon = '<img src="assets/images/speed.png" alt="Speed" class="speed-icon" />';
+    const triple = randomNature ? speedTriple(set, slotIV) : null;
+    const speedValue = randomNature ? null : speedDisplay(set, slotIV);
+    // No speed to show (Hall before a level is determined) → omit the block + its
+    // leading separator entirely.
+    const speedInner = (randomNature && triple)
+        ? `<div class="speed-triple">
+                <div class="speed spd-plus"><span class="speed-sign">+</span>${speedIcon}${triple.plus}</div>
+                <div class="speed spd-neutral">${speedIcon}${triple.neutral}</div>
+                <div class="speed spd-minus"><span class="speed-sign">−</span>${speedIcon}${triple.minus}</div>
+           </div>`
+        : speedValue ? `<div class="speed">${speedIcon}${speedValue}</div>` : '';
+    const speedBlock = speedInner ? `<div class="separator"></div>${speedInner}` : '';
+    const natureBlock = randomNature ? '' : `
+            <div class="nature">
+                <b>${set.nature}</b>
+                <br/><span class="nature-text">${natureText}</span>
+            </div>
+            <div class="separator"></div>`;
+
+    // Battle Hall: the faced Pokémon's level (from the player's inputs), shown
+    // above the abilities separator with a title font (like the nature).
+    const facedLevel = state.variant?.hall ? hallFacedLevel() : null;
+    const hallLevelHtml = facedLevel != null
+        ? `<div class="hall-faced-level"><b>${t('hallFacedLevel', 'Lv.')} ${facedLevel}</b></div>`
         : '';
 
     details.innerHTML = `
@@ -649,19 +811,12 @@ function showSetDetails(slot, set) {
             <div class="item">${itemHtml}</div>
         </div>
         <div class="middle-column">
-            <div class="nature">
-                <b>${set.nature}</b>
-                <br/><span class="nature-text">${natureText}</span>
-            </div>
-            <div class="separator"></div>
+            ${natureBlock}
             <div class="moves">${moveLines.join('')}</div>
-            <div class="separator"></div>
-            <div class="speed">
-                <img src="assets/images/speed.png" alt="Speed" class="speed-icon" />
-                ${speedDisplay(set)}
-            </div>
+            ${speedBlock}
         </div>
         <div class="right-column">
+            ${hallLevelHtml}
             <div class="separator"></div>
             <div class="abilities">
                 <span class="abilities-list">${abilities.join('<br/>')}</span>
@@ -671,7 +826,7 @@ function showSetDetails(slot, set) {
             <div class="evs">
                 ${set.EVs.split(', ').join('<br/>')}
             </div>
-            ${set.IVs != null ? `<div class="separator"></div><div class="ivs">IVs: ${set.IVs}</div>` : ''}
+            ${ivsLine(set, slotIV)}
         </div>
         <div class="copy">
             <span role="button" title="Copy set (Showdown format)" class="icon-mask icon-copy copy-icon"></span>
@@ -706,7 +861,7 @@ function showSetDetails(slot, set) {
     const feedback = details.querySelector('.copy-feedback');
     copyIcon.addEventListener('click', async () => {
         try {
-            await navigator.clipboard.writeText(await showdownExport(set, speciesData));
+            await navigator.clipboard.writeText(await showdownExport(set, speciesData, slotIV));
             feedback.hidden = false;
             setTimeout(() => { feedback.hidden = true; }, 1500);
         } catch (error) {
@@ -751,19 +906,34 @@ function typeIconHtml(type, isTera = false) {
 // Showdown (and similar tools) only accept English, so the export always uses
 // the English sets file — every localized set has an English counterpart with
 // the same (English species name, set number) key.
-function showdownExport(set, speciesData) {
+function showdownExport(set, speciesData, slotIV = null) {
     const englishAbilities = (speciesData['abilities-en'] || '').split(', ');
-    return showdownFormat(enCounterpart(set), englishAbilities);
+    return showdownFormat(enCounterpart(set), englishAbilities, slotIV);
 }
 
-function showdownFormat(set, abilities) {
-    const lines = [
-        set.item && set.item !== 'None' ? `${set.species} @ ${set.item}` : set.species,
-        `Ability: ${abilities[0] ?? ''}`,
-        `${set.nature} Nature`,
-    ];
-    if (set.EVs) lines.splice(2, 0, `EVs: ${set.EVs.split(', ').join(' / ')}`);
-    if (set.tera) lines.splice(1, 0, `Tera Type: ${set.tera}`);
+const IV_STATS = ['HP', 'Atk', 'Def', 'SpA', 'SpD', 'Spe'];
+
+function showdownFormat(set, abilities, ivOverride = null) {
+    // Arcade (variant.noItems) opponents hold no item — omit it from the export too.
+    const item = state.variant?.noItems ? null : set.item;
+    const abils = (abilities || []).map(a => a.trim()).filter(Boolean);
+    const lines = [item && item !== 'None' ? `${set.species} @ ${item}` : set.species];
+    // Battle Hall: include the faced level once it's been determined (it varies;
+    // other facilities are level 50 and left implicit).
+    const facedLevel = state.variant?.hall ? hallFacedLevel() : null;
+    if (facedLevel != null) lines.push(`Level: ${facedLevel}`);
+    if (set.tera) lines.push(`Tera Type: ${set.tera}`);
+    // Only state the ability when it's unambiguous (a single possibility). When a
+    // set could have 2-3 abilities the game doesn't fix which, so we omit the line
+    // rather than guess at the first one.
+    if (abils.length === 1) lines.push(`Ability: ${abils[0]}`);
+    if (set.EVs) lines.push(`EVs: ${set.EVs.split(', ').join(' / ')}`);
+    // IVs are uniform across stats here; export them only when not the default 31
+    // (same precedence as the speed calc: per-set > trainer/rank > variant > 31).
+    const iv = set.IVs ?? ivOverride ?? state.variant?.speedIVs ?? 31;
+    if (iv !== 31) lines.push(`IVs: ${IV_STATS.map(s => `${iv} ${s}`).join(' / ')}`);
+    // DP randomizes natures → none to state.
+    if (!state.variant?.randomNature) lines.push(`${set.nature} Nature`);
     for (const move of [set.move1, set.move2, set.move3, set.move4]) {
         if (move) lines.push(`- ${move}`);
     }
@@ -813,11 +983,23 @@ export function resetSelections() {
 // Shows/hides the side-2 menus and the slot containers for the current mode.
 export function updateLayout() {
     const multi = sides() > 1;
+    // Battle Hall replaces the trainer menu with type+rank selectors.
+    const hall = Boolean(state.variant.hall);
+    // Battle Factory: the Lv50/Open level toggle lives in the settings menu.
+    document.getElementById('factory-level-row').style.display =
+        state.variant.factory ? '' : 'none';
+    document.getElementById('hall-select-container').style.display = hall ? '' : 'none';
+    // Hide the whole normal trainer container in Hall mode — otherwise its empty
+    // flex-grow box keeps claiming half the toolbar row and the Hall menus shrink.
+    document.getElementById('trainer-side-1').parentElement.style.display = hall ? 'none' : '';
+    document.getElementById('trainer-side-1').style.display = hall ? 'none' : '';
     // Facilities without quote data (e.g. SwSh) hide the quote dropdown(s).
-    const quotes = state.variant.hasQuotes !== false;
+    const quotes = state.variant.hasQuotes !== false && !hall;
     document.getElementById('quote-side-1').style.display = quotes ? '' : 'none';
     document.getElementById('trainer-side-2').style.display = multi ? '' : 'none';
     document.getElementById('quote-side-2').style.display = (multi && quotes) ? '' : 'none';
+    // Battle Hall has no quotes — the faced-level calculator takes that space.
+    document.getElementById('hall-level-tool').style.display = hall ? '' : 'none';
 
     const total = modeSlots(state.mode);
     for (let slot = 1; slot <= MAX_SLOTS; slot++) {

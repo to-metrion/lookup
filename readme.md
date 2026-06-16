@@ -13,7 +13,7 @@ Currently covers:
 
 ## Credits
 
-- Trainer and set data for Generations 5, 6 and 7 taken directly from game data, thanks to [SilverstarStream](https://github.com/SilverstarStream)
+- Trainer and set data taken directly from game data thanks to [SilverstarStream](https://github.com/SilverstarStream) for Gens 5, 6 and 7, and to [Mow](https://github.com/taxicat1) and chloe for Gen 4.
 - Localized names, trainer dialogue, and other game text sourced from
   [Poké Corpus](https://github.com/abcboy101/poke-corpus) by
   [abcboy101](https://github.com/abcboy101) — a searchable corpus of official

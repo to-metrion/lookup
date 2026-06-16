@@ -1,0 +1,32 @@
+{
+  "remove": [
+    "Jericor (21)",
+    "Jericor"
+  ],
+  "trainers": [
+    {
+      "name": "Kokuran (21)",
+      "class": "Mayordomo",
+      "roster": "Empoleon-1, Staraptor-1, Houndoom-1, Empoleon-2, Staraptor-2, Houndoom-2",
+      "species": "Empoleon, Staraptor, Houndoom",
+      "iv": 31,
+      "late": "",
+      "quote": "Hola. Soy Kokuran y soy el mayordomo del castillo. Mi jefa, la señorita Catleya, no encaja bien las derrotas. Aun así, por motivos que no puedo revelar, ella no puede combatir. Por tanto, yo ocuparé su lugar. Subestimarme es inútil, soy mucho mejor de lo que parezco... ¡En guardia!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen4trainers/darach.png"
+    },
+    {
+      "name": "Kokuran",
+      "class": "Mayordomo",
+      "roster": "Empoleon-3, Gallade-3, Empoleon-4, Gallade-4, Entei-3, Entei-4",
+      "species": "Empoleon, Gallade, Entei",
+      "iv": 31,
+      "late": "1",
+      "quote": "Tus habilidades con los Pokémon siguen siendo impresionantes. todo elogio es poco. No obstante, si se me permite decirlo, me he percatado de algo acerca de tu manera de combatir al tener la oportunidad de verte de cerca. ¿Que de qué me he dado cuenta? Sería maleducado por mi parte decírtelo antes del combate, ¡así que en guardia!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen4trainers/darach.png"
+    }
+  ]
+}

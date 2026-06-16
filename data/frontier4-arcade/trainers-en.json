@@ -1,0 +1,32 @@
+{
+  "remove": [
+    "Palmer (21)",
+    "Palmer"
+  ],
+  "trainers": [
+    {
+      "name": "Dahlia (21)",
+      "class": "Arcade Star",
+      "roster": "Medicham-1, Ludicolo-1, Dusknoir-1",
+      "species": "Medicham, Ludicolo, Dusknoir",
+      "iv": 31,
+      "late": "",
+      "quote": "No need to worry. ♪ Let chance do what it does. Like surprises from the game board, life goes through twists and turns. No need to worry. ♪ Things will go as they will. But, enough of that. I know one thing for certain. You have arrived here not merely because you were lucky. Let us not waste any time. I wish to test your skills myself!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen4trainers/dahlia.png"
+    },
+    {
+      "name": "Dahlia",
+      "class": "Arcade Star",
+      "roster": "Blaziken-4, Togekiss-4, Zapdos-4",
+      "species": "Blaziken, Togekiss, Zapdos",
+      "iv": 31,
+      "late": "1",
+      "quote": "No need to worry. ♪ Let chance do what it does. Like surprises from the game board, life goes through twists and turns. No need to worry. ♪ Things will go as they will. But, enough of that. You are proving yourself incredible. Are you incredible because you are so lucky you shrug off bad luck entirely? Or, are you so incredibly talented to not be swayed by luck, good or bad? I wish to see for myself what brought you to me today!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen4trainers/dahlia.png"
+    }
+  ]
+}

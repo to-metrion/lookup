@@ -1,0 +1,32 @@
+{
+  "remove": [
+    "Palmer (21)",
+    "Palmer"
+  ],
+  "trainers": [
+    {
+      "name": "Darach (21)",
+      "class": "Castle Valet",
+      "roster": "Empoleon-1, Staraptor-1, Houndoom-1, Empoleon-2, Staraptor-2, Houndoom-2",
+      "species": "Empoleon, Staraptor, Houndoom",
+      "iv": 31,
+      "late": "",
+      "quote": "Welcome. I am Darach, as you know, and I am the Castle Valet. Lady Caitlin, my employer, is not one to accept defeat willingly. However, for a reason I'm not at liberty to disclose, she cannot battle. Consequently, I will do battle in her ladyship's place....Let me assure you that you won't be shortchanged by facing me. En garde!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen4trainers/darach.png"
+    },
+    {
+      "name": "Darach",
+      "class": "Castle Valet",
+      "roster": "Empoleon-3, Gallade-3, Empoleon-4, Gallade-4, Entei-3, Entei-4",
+      "species": "Empoleon, Gallade, Entei",
+      "iv": 31,
+      "late": "1",
+      "quote": "Your mastery of Pokémon is as breathtaking as ever. you certainly are to be commended....However, if I may say so, I noticed something about the way you battle. After all, I have had the opportunity to watch you closely firsthand. So, what is it that I noticed? As a Trainer myself, it is but proper etiquette to show you in a battle. Let us begin! En garde!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen4trainers/darach.png"
+    }
+  ]
+}

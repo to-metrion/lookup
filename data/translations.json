@@ -94,6 +94,132 @@
         "chs": "剑／盾",
         "cht": "劍／盾"
     },
+    "game-frontier4": {
+        "en": "Battle Frontier",
+        "fr": "Battle Frontier",
+        "it": "Battle Frontier",
+        "de": "Battle Frontier",
+        "es": "Battle Frontier",
+        "jp": "バトルフロンティア",
+        "ko": "배틀프런티어"
+    },
+    "facility-tower": {
+        "en": "Tower",
+        "fr": "Tour",
+        "it": "Torre",
+        "de": "Turm",
+        "es": "Torre",
+        "jp": "タワー",
+        "ko": "타워"
+    },
+    "facility-arcade": {
+        "en": "Arcade",
+        "fr": "Arcade",
+        "it": "Arena",
+        "de": "Arkaden",
+        "es": "Ruleta",
+        "jp": "ルーレット",
+        "ko": "룰렛"
+    },
+    "facility-castle": {
+        "en": "Castle",
+        "fr": "Castel",
+        "it": "Maniero",
+        "de": "Palais",
+        "es": "Castillo",
+        "jp": "キャッスル",
+        "ko": "캐슬"
+    },
+    "facility-hall": {
+        "en": "Hall",
+        "fr": "Scène",
+        "it": "Palco",
+        "de": "Saal",
+        "es": "Sala",
+        "jp": "ステージ",
+        "ko": "스테이지"
+    },
+    "facility-factory": {
+        "en": "Factory",
+        "fr": "Usine",
+        "it": "Azienda",
+        "de": "Fabrik",
+        "es": "Fábrica",
+        "jp": "ファクトリー",
+        "ko": "팩토리"
+    },
+    "hallType": {
+        "en": "Type",
+        "fr": "Type",
+        "it": "Tipo",
+        "de": "Typ",
+        "es": "Tipo",
+        "jp": "タイプ",
+        "ko": "타입"
+    },
+    "hallRank": {
+        "en": "Rank",
+        "fr": "Rang",
+        "it": "Rango",
+        "de": "Rang",
+        "es": "Rango",
+        "jp": "ランク",
+        "ko": "랭크"
+    },
+    "factory-lv50": {
+        "en": "Level 50",
+        "fr": "Niveau 50",
+        "it": "L. 50",
+        "de": "Level 50",
+        "es": "Nivel 50",
+        "jp": "レベル５０",
+        "ko": "레벨 50"
+    },
+    "factory-open": {
+        "en": "Open Level",
+        "fr": "Niveau libre",
+        "it": "L. Libero",
+        "de": "Offener Level",
+        "es": "Nivel libre",
+        "jp": "オープンレベル",
+        "ko": "오픈 레벨"
+    },
+    "hallLevelLabel": {
+        "en": "Level",
+        "fr": "Niveau",
+        "it": "Livello",
+        "de": "Level",
+        "es": "Nivel",
+        "jp": "レベル",
+        "ko": "레벨"
+    },
+    "hallRank2Label": {
+        "en": "Rank 2+",
+        "fr": "Rang 2+",
+        "it": "Rango 2+",
+        "de": "Rang 2+",
+        "es": "Rango 2+",
+        "jp": "ランク2+",
+        "ko": "랭크2+"
+    },
+    "hallRank2Info": {
+        "en": "Number of types where you have cleared rank 1",
+        "fr": "Nombre de types pour lesquels vous avez terminé le rang 1",
+        "it": "Numero di tipi per cui hai completato il rango 1",
+        "de": "Anzahl der Typen, bei denen du Rang 1 abgeschlossen hast",
+        "es": "Número de tipos en los que has superado el rango 1",
+        "jp": "ランク1をクリアしたタイプの数",
+        "ko": "랭크1을 클리어한 타입의 수"
+    },
+    "hallFacedLevel": {
+        "en": "Lv.",
+        "fr": "Niv.",
+        "it": "Liv.",
+        "de": "Lv.",
+        "es": "Nv.",
+        "jp": "レベル",
+        "ko": "레벨"
+    },
     "variant-tower": {
         "en": "Battle Tower",
         "fr": "Tour de Combat",
@@ -115,5 +241,167 @@
         "ko": "제한대련",
         "chs": "制约比试",
         "cht": "制約比試"
+    },
+    "hall-argenta": {
+        "en": "Argenta",
+        "fr": "Célosia",
+        "it": "Mara",
+        "de": "Argenta",
+        "es": "Argenta",
+        "jp": "ケイト",
+        "ko": "맨드라"
+    },
+    "type-normal": {
+        "en": "Normal",
+        "fr": "Normal",
+        "it": "Normale",
+        "de": "Normal",
+        "es": "Normal",
+        "jp": "ノーマル",
+        "ko": "노말"
+    },
+    "type-fire": {
+        "en": "Fire",
+        "fr": "Feu",
+        "it": "Fuoco",
+        "de": "Feuer",
+        "es": "Fuego",
+        "jp": "ほのお",
+        "ko": "불꽃"
+    },
+    "type-water": {
+        "en": "Water",
+        "fr": "Eau",
+        "it": "Acqua",
+        "de": "Wasser",
+        "es": "Agua",
+        "jp": "みず",
+        "ko": "물"
+    },
+    "type-electric": {
+        "en": "Electric",
+        "fr": "Electrik",
+        "it": "Elettro",
+        "de": "Elektro",
+        "es": "Eléctrico",
+        "jp": "でんき",
+        "ko": "전기"
+    },
+    "type-grass": {
+        "en": "Grass",
+        "fr": "Plante",
+        "it": "Erba",
+        "de": "Pflanze",
+        "es": "Planta",
+        "jp": "くさ",
+        "ko": "풀"
+    },
+    "type-ice": {
+        "en": "Ice",
+        "fr": "Glace",
+        "it": "Ghiaccio",
+        "de": "Eis",
+        "es": "Hielo",
+        "jp": "こおり",
+        "ko": "얼음"
+    },
+    "type-fighting": {
+        "en": "Fighting",
+        "fr": "Combat",
+        "it": "Lotta",
+        "de": "Kampf",
+        "es": "Lucha",
+        "jp": "かくとう",
+        "ko": "격투"
+    },
+    "type-poison": {
+        "en": "Poison",
+        "fr": "Poison",
+        "it": "Veleno",
+        "de": "Gift",
+        "es": "Veneno",
+        "jp": "どく",
+        "ko": "독"
+    },
+    "type-ground": {
+        "en": "Ground",
+        "fr": "Sol",
+        "it": "Terra",
+        "de": "Boden",
+        "es": "Tierra",
+        "jp": "じめん",
+        "ko": "땅"
+    },
+    "type-flying": {
+        "en": "Flying",
+        "fr": "Vol",
+        "it": "Volante",
+        "de": "Flug",
+        "es": "Volador",
+        "jp": "ひこう",
+        "ko": "비행"
+    },
+    "type-psychic": {
+        "en": "Psychic",
+        "fr": "Psy",
+        "it": "Psico",
+        "de": "Psycho",
+        "es": "Psíquico",
+        "jp": "エスパー",
+        "ko": "에스퍼"
+    },
+    "type-bug": {
+        "en": "Bug",
+        "fr": "Insecte",
+        "it": "Coleottero",
+        "de": "Käfer",
+        "es": "Bicho",
+        "jp": "むし",
+        "ko": "벌레"
+    },
+    "type-rock": {
+        "en": "Rock",
+        "fr": "Roche",
+        "it": "Roccia",
+        "de": "Gestein",
+        "es": "Roca",
+        "jp": "いわ",
+        "ko": "바위"
+    },
+    "type-ghost": {
+        "en": "Ghost",
+        "fr": "Spectre",
+        "it": "Spettro",
+        "de": "Geist",
+        "es": "Fantasma",
+        "jp": "ゴースト",
+        "ko": "고스트"
+    },
+    "type-dragon": {
+        "en": "Dragon",
+        "fr": "Dragon",
+        "it": "Drago",
+        "de": "Drachen",
+        "es": "Dragón",
+        "jp": "ドラゴン",
+        "ko": "드래곤"
+    },
+    "type-dark": {
+        "en": "Dark",
+        "fr": "Ténèbres",
+        "it": "Buio",
+        "de": "Unlicht",
+        "es": "Siniestro",
+        "jp": "あく",
+        "ko": "악"
+    },
+    "type-steel": {
+        "en": "Steel",
+        "fr": "Acier",
+        "it": "Acciaio",
+        "de": "Stahl",
+        "es": "Acero",
+        "jp": "はがね",
+        "ko": "강철"
     }
 }
