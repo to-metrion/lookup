@@ -79,7 +79,10 @@ export function megaEntry(enSpecies, enItem) {
 // where `types` excludes the currently selected type if it's already rank 2+.
 export function hallFacedLevel() {
     const Lp = state.hallLevel;
-    if (!state.variant?.hall || !Lp || !state.hallRank) return null;
+    if (!state.variant?.hall || !Lp) return null;
+    // Argenta (battles 50 & 170) fields Pokémon at the player's own level.
+    if (state.hallType === 'argenta50' || state.hallType === 'argenta170') return Lp;
+    if (!state.hallRank) return null;
     const rank = state.hallRank;
     // Everything is computed with real arithmetic and ONLY the final result is
     // floored (the game rounds down once, at the end). `types` is the player's
