@@ -1,0 +1,3996 @@
+{
+  "sets": [
+    {
+      "setName": "サンダース-1",
+      "species": "サンダース",
+      "setNumber": 1,
+      "item": "きせきのみ",
+      "move1": "１０まんボルト",
+      "move2": "はかいこうせん",
+      "move3": "シャドーボール",
+      "move4": "ほえる",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 11,
+        "spc": 13
+      },
+      "EVs": "223 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 187 Spe"
+    },
+    {
+      "setName": "エーフィ-1",
+      "species": "エーフィ",
+      "setNumber": 1,
+      "item": "たべのこし",
+      "move1": "どろかけ",
+      "move2": "サイコキネシス",
+      "move3": "じこあんじ",
+      "move4": "どくどく",
+      "level": 10,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 13,
+        "spe": 15,
+        "spc": 11
+      },
+      "EVs": "200 HP, 223 Atk, 187 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "ブラッキー-1",
+      "species": "ブラッキー",
+      "setNumber": 1,
+      "item": "おうごんのみ",
+      "move1": "シャドーボール",
+      "move2": "アイアンテール",
+      "move3": "じこあんじ",
+      "move4": "どくどく",
+      "level": 10,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 11,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "200 HP, 200 Atk, 212 Def, 200 SpA, 200 SpD, 223 Spe"
+    },
+    {
+      "setName": "ソーナンス-1",
+      "species": "ソーナンス",
+      "setNumber": 1,
+      "item": "きあいのハチマキ",
+      "move1": "カウンター",
+      "move2": "ミラーコート",
+      "move3": "しんぴのまもり",
+      "move4": "みちづれ",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 7,
+        "def": 15,
+        "spe": 13,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "ガルーラ-1",
+      "species": "ガルーラ",
+      "setNumber": 1,
+      "item": "きせきのみ",
+      "move1": "きしかいせい",
+      "move2": "はかいこうせん",
+      "move3": "じしん",
+      "move4": "メロメロ",
+      "level": 10,
+      "DVs": {
+        "hp": 5,
+        "atk": 14,
+        "def": 15,
+        "spe": 12,
+        "spc": 15
+      },
+      "EVs": "200 HP, 173 Atk, 200 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "サニーゴ-1",
+      "species": "サニーゴ",
+      "setNumber": 1,
+      "item": "ピントレンズ",
+      "move1": "なみのり",
+      "move2": "サイコキネシス",
+      "move3": "じこさいせい",
+      "move4": "げんしのちから",
+      "level": 10,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "200 HP, 173 Atk, 182 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "ミルタンク-1",
+      "species": "ミルタンク",
+      "setNumber": 1,
+      "item": "おうごんのみ",
+      "move1": "ふぶき",
+      "move2": "じしん",
+      "move3": "はかいこうせん",
+      "move4": "どくどく",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 11,
+        "def": 11,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 187 SpA, 187 SpD, 173 Spe"
+    },
+    {
+      "setName": "プテラ-1",
+      "species": "プテラ",
+      "setNumber": 1,
+      "item": "たべのこし",
+      "move1": "はかいこうせん",
+      "move2": "ちょうおんぱ",
+      "move3": "じしん",
+      "move4": "かみつく",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 11,
+        "spe": 15,
+        "spc": 11
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "ラプラス-1",
+      "species": "ラプラス",
+      "setNumber": 1,
+      "item": "きせきのみ",
+      "move1": "ふぶき",
+      "move2": "なみのり",
+      "move3": "１０まんボルト",
+      "move4": "サイコキネシス",
+      "level": 10,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "ニューラ-1",
+      "species": "ニューラ",
+      "setNumber": 1,
+      "item": "おうごんのみ",
+      "move1": "きりさく",
+      "move2": "だましうち",
+      "move3": "なみのり",
+      "move4": "ふぶき",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 11,
+        "spe": 11,
+        "spc": 15
+      },
+      "EVs": "173 HP, 187 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "ポリゴン２-1",
+      "species": "ポリゴン２",
+      "setNumber": 1,
+      "item": "ひかりのこな",
+      "move1": "サイコキネシス",
+      "move2": "ふぶき",
+      "move3": "はかいこうせん",
+      "move4": "トライアタック",
+      "level": 10,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 11,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "173 HP, 173 Atk, 200 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "ムウマ-1",
+      "species": "ムウマ",
+      "setNumber": 1,
+      "item": "きあいのハチマキ",
+      "move1": "ほろびのうた",
+      "move2": "くろいまなざし",
+      "move3": "いたみわけ",
+      "move4": "シャドーボール",
+      "level": 10,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "デルビル-1",
+      "species": "デルビル",
+      "setNumber": 1,
+      "item": "おうごんのみ",
+      "move1": "だましうち",
+      "move2": "ソーラービーム",
+      "move3": "ほえる",
+      "move4": "にほんばれ",
+      "level": 10,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 181 Spe"
+    },
+    {
+      "setName": "キリンリキ-1",
+      "species": "キリンリキ",
+      "setNumber": 1,
+      "item": "おうじゃのしるし",
+      "move1": "サイケこうせん",
+      "move2": "どろかけ",
+      "move3": "シャドーボール",
+      "move4": "こうそくいどう",
+      "level": 10,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 13,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "ハピナス-1",
+      "species": "ハピナス",
+      "setNumber": 1,
+      "item": "せんせいのツメ",
+      "move1": "ずつき",
+      "move2": "ソーラービーム",
+      "move3": "ころがる",
+      "move4": "かいりき",
+      "level": 10,
+      "DVs": {
+        "hp": 12,
+        "atk": 13,
+        "def": 15,
+        "spe": 12,
+        "spc": 14
+      },
+      "EVs": "178 HP, 200 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "カビゴン-1",
+      "species": "カビゴン",
+      "setNumber": 1,
+      "item": "きせきのみ",
+      "move1": "ずつき",
+      "move2": "まもる",
+      "move3": "いびき",
+      "move4": "なみのり",
+      "level": 10,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "ナッシー-1",
+      "species": "ナッシー",
+      "setNumber": 1,
+      "item": "おうじゃのしるし",
+      "move1": "どくどく",
+      "move2": "ギガドレイン",
+      "move3": "どろぼう",
+      "move4": "ねんりき",
+      "level": 10,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "ヘラクロス-1",
+      "species": "ヘラクロス",
+      "setNumber": 1,
+      "item": "おうごんのみ",
+      "move1": "きしかいせい",
+      "move2": "こらえる",
+      "move3": "カウンター",
+      "move4": "いわくだき",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 7,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "アンノーン-1",
+      "species": "アンノーン",
+      "setNumber": 1,
+      "item": "きのみ",
+      "move1": "めざめるパワー",
+      "move2": "",
+      "move3": "",
+      "move4": "",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe",
+      "minisprite": "unown-z",
+      "sprite": "unown-z"
+    },
+    {
+      "setName": "ケンタロス-1",
+      "species": "ケンタロス",
+      "setNumber": 1,
+      "item": "おうじゃのしるし",
+      "move1": "ずつき",
+      "move2": "いばる",
+      "move3": "しっぽをふる",
+      "move4": "こごえるかぜ",
+      "level": 10,
+      "DVs": {
+        "hp": 7,
+        "atk": 6,
+        "def": 5,
+        "spe": 5,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "バリヤード-1",
+      "species": "バリヤード",
+      "setNumber": 1,
+      "item": "せんせいのツメ",
+      "move1": "どくどく",
+      "move2": "じこあんじ",
+      "move3": "ほのおのパンチ",
+      "move4": "ずつき",
+      "level": 10,
+      "DVs": {
+        "hp": 13,
+        "atk": 7,
+        "def": 3,
+        "spe": 6,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "ブラッキー-2",
+      "species": "ブラッキー",
+      "setNumber": 2,
+      "item": "たべのこし",
+      "move1": "まもる",
+      "move2": "どくどく",
+      "move3": "どろかけ",
+      "move4": "メロメロ",
+      "level": 20,
+      "DVs": {
+        "hp": 6,
+        "atk": 12,
+        "def": 15,
+        "spe": 11,
+        "spc": 12
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "スターミー-1",
+      "species": "スターミー",
+      "setNumber": 1,
+      "item": "おうごんのみ",
+      "move1": "じこさいせい",
+      "move2": "サイコキネシス",
+      "move3": "なみのり",
+      "move4": "じこあんじ",
+      "level": 20,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 11,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "ギャラドス-1",
+      "species": "ギャラドス",
+      "setNumber": 1,
+      "item": "きせきのみ",
+      "move1": "はかいこうせん",
+      "move2": "りゅうのいかり",
+      "move3": "１０まんボルト",
+      "move4": "だいもんじ",
+      "level": 20,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 10,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "ハガネール-1",
+      "species": "ハガネール",
+      "setNumber": 1,
+      "item": "おうごんのみ",
+      "move1": "ほえる",
+      "move2": "アイアンテール",
+      "move3": "いばる",
+      "move4": "じしん",
+      "level": 20,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 173 Spe"
+    },
+    {
+      "setName": "フーディン-1",
+      "species": "フーディン",
+      "setNumber": 1,
+      "item": "きのみジュース",
+      "move1": "サイコキネシス",
+      "move2": "じこあんじ",
+      "move3": "どくどく",
+      "move4": "かみなりパンチ",
+      "level": 20,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 173 Def, 200 SpA, 200 SpD, 223 Spe"
+    },
+    {
+      "setName": "ウインディ-1",
+      "species": "ウインディ",
+      "setNumber": 1,
+      "item": "ひかりのこな",
+      "move1": "かえんほうしゃ",
+      "move2": "ほえる",
+      "move3": "はかいこうせん",
+      "move4": "アイアンテール",
+      "level": 20,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 11,
+        "spe": 15,
+        "spc": 11
+      },
+      "EVs": "187 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "ヘラクロス-2",
+      "species": "ヘラクロス",
+      "setNumber": 2,
+      "item": "きあいのハチマキ",
+      "move1": "こらえる",
+      "move2": "きしかいせい",
+      "move3": "メガホーン",
+      "move4": "じしん",
+      "level": 20,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 173 Atk, 212 Def, 212 SpA, 212 SpD, 173 Spe"
+    },
+    {
+      "setName": "ナッシー-2",
+      "species": "ナッシー",
+      "setNumber": 2,
+      "item": "たべのこし",
+      "move1": "はかいこうせん",
+      "move2": "サイコキネシス",
+      "move3": "どくどく",
+      "move4": "ゆめくい",
+      "level": 20,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 212 Spe"
+    },
+    {
+      "setName": "プテラ-2",
+      "species": "プテラ",
+      "setNumber": 2,
+      "item": "おうごんのみ",
+      "move1": "ねむる",
+      "move2": "はかいこうせん",
+      "move3": "じしん",
+      "move4": "りゅうのいかり",
+      "level": 20,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 11,
+        "spe": 11,
+        "spc": 11
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "ハピナス-2",
+      "species": "ハピナス",
+      "setNumber": 2,
+      "item": "ひかりのこな",
+      "move1": "サイコキネシス",
+      "move2": "じごくぐるま",
+      "move3": "タマゴうみ",
+      "move4": "カウンター",
+      "level": 20,
+      "DVs": {
+        "hp": 14,
+        "atk": 11,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 173 Def, 223 SpA, 223 SpD, 173 Spe"
+    },
+    {
+      "setName": "ラプラス-2",
+      "species": "ラプラス",
+      "setNumber": 2,
+      "item": "おうごんのみ",
+      "move1": "サイコキネシス",
+      "move2": "１０まんボルト",
+      "move3": "ふぶき",
+      "move4": "あやしいひかり",
+      "level": 20,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 13,
+        "spc": 7
+      },
+      "EVs": "234 HP, 173 Atk, 200 Def, 173 SpA, 173 SpD, 234 Spe"
+    },
+    {
+      "setName": "ピカチュウ-1",
+      "species": "ピカチュウ",
+      "setNumber": 1,
+      "item": "でんきだま",
+      "move1": "１０まんボルト",
+      "move2": "でんじは",
+      "move3": "かいりき",
+      "move4": "どくどく",
+      "level": 20,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 12,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "212 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "ハッサム-1",
+      "species": "ハッサム",
+      "setNumber": 1,
+      "item": "きあいのハチマキ",
+      "move1": "はがねのつばさ",
+      "move2": "きりさく",
+      "move3": "どくどく",
+      "move4": "すなあらし",
+      "level": 20,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "200 HP, 212 Atk, 200 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "エビワラー-1",
+      "species": "エビワラー",
+      "setNumber": 1,
+      "item": "おうごんのみ",
+      "move1": "かみなりパンチ",
+      "move2": "れいとうパンチ",
+      "move3": "ほのおのパンチ",
+      "move4": "メガトンパンチ",
+      "level": 20,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 11,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "223 HP, 212 Atk, 187 Def, 173 SpA, 173 SpD, 223 Spe"
+    },
+    {
+      "setName": "ケンタロス-2",
+      "species": "ケンタロス",
+      "setNumber": 2,
+      "item": "ひかりのこな",
+      "move1": "１０まんボルト",
+      "move2": "じしん",
+      "move3": "はかいこうせん",
+      "move4": "ふぶき",
+      "level": 20,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "マリルリ-1",
+      "species": "マリルリ",
+      "setNumber": 1,
+      "item": "しんぴのしずく",
+      "move1": "なみのり",
+      "move2": "ふぶき",
+      "move3": "メロメロ",
+      "move4": "あまごい",
+      "level": 20,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 13,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "200 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "ミルタンク-2",
+      "species": "ミルタンク",
+      "setNumber": 2,
+      "item": "おうじゃのしるし",
+      "move1": "じしん",
+      "move2": "かみなり",
+      "move3": "メロメロ",
+      "move4": "なみのり",
+      "level": 20,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "200 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "プクリン-1",
+      "species": "プクリン",
+      "setNumber": 1,
+      "item": "おうごんのみ",
+      "move1": "はかいこうせん",
+      "move2": "ふぶき",
+      "move3": "だいもんじ",
+      "move4": "メロメロ",
+      "level": 20,
+      "DVs": {
+        "hp": 6,
+        "atk": 12,
+        "def": 7,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "200 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "プクリン-2",
+      "species": "プクリン",
+      "setNumber": 2,
+      "item": "ピンクのリボン",
+      "move1": "サイコキネシス",
+      "move2": "いばる",
+      "move3": "じこあんじ",
+      "move4": "ずつき",
+      "level": 20,
+      "DVs": {
+        "hp": 7,
+        "atk": 12,
+        "def": 7,
+        "spe": 7,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "ニドキング-1",
+      "species": "ニドキング",
+      "setNumber": 1,
+      "item": "きのみ",
+      "move1": "ふぶき",
+      "move2": "じしん",
+      "move3": "なみのり",
+      "move4": "かみなりパンチ",
+      "level": 20,
+      "DVs": {
+        "hp": 8,
+        "atk": 5,
+        "def": 6,
+        "spe": 4,
+        "spc": 6
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "ヌオー-1",
+      "species": "ヌオー",
+      "setNumber": 1,
+      "item": "せんせいのツメ",
+      "move1": "ドわすれ",
+      "move2": "じしん",
+      "move3": "なみのり",
+      "move4": "あまごい",
+      "level": 20,
+      "DVs": {
+        "hp": 13,
+        "atk": 5,
+        "def": 5,
+        "spe": 4,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "サンダース-2",
+      "species": "サンダース",
+      "setNumber": 2,
+      "item": "きせきのみ",
+      "move1": "１０まんボルト",
+      "move2": "でんじは",
+      "move3": "ほえる",
+      "move4": "どろかけ",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 11,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 234 SpA, 234 SpD, 223 Spe"
+    },
+    {
+      "setName": "ニョロボン-1",
+      "species": "ニョロボン",
+      "setNumber": 1,
+      "item": "ひかりのこな",
+      "move1": "かげぶんしん",
+      "move2": "なみのり",
+      "move3": "じわれ",
+      "move4": "じごくぐるま",
+      "level": 30,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 11
+      },
+      "EVs": "223 HP, 234 Atk, 234 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "スターミー-2",
+      "species": "スターミー",
+      "setNumber": 2,
+      "item": "たべのこし",
+      "move1": "でんじは",
+      "move2": "サイコキネシス",
+      "move3": "じこさいせい",
+      "move4": "なみのり",
+      "level": 30,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "ルージュラ-1",
+      "species": "ルージュラ",
+      "setNumber": 1,
+      "item": "おうごんのみ",
+      "move1": "ふぶき",
+      "move2": "あくまのキッス",
+      "move3": "ゆめくい",
+      "move4": "メロメロ",
+      "level": 30,
+      "DVs": {
+        "hp": 12,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 173 Spe"
+    },
+    {
+      "setName": "ダグトリオ-1",
+      "species": "ダグトリオ",
+      "setNumber": 1,
+      "item": "おうじゃのしるし",
+      "move1": "じしん",
+      "move2": "ヘドロばくだん",
+      "move3": "きりさく",
+      "move4": "どろかけ",
+      "level": 30,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 173 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "キレイハナ-1",
+      "species": "キレイハナ",
+      "setNumber": 1,
+      "item": "ひかりのこな",
+      "move1": "ギガドレイン",
+      "move2": "にほんばれ",
+      "move3": "ソーラービーム",
+      "move4": "かげぶんしん",
+      "level": 30,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "212 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "ハピナス-3",
+      "species": "ハピナス",
+      "setNumber": 3,
+      "item": "たべのこし",
+      "move1": "どくどく",
+      "move2": "リフレクター",
+      "move3": "タマゴうみ",
+      "move4": "まもる",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 173 Atk, 212 Def, 212 SpA, 212 SpD, 173 Spe"
+    },
+    {
+      "setName": "ヘルガー-1",
+      "species": "ヘルガー",
+      "setNumber": 1,
+      "item": "もくたん",
+      "move1": "かえんほうしゃ",
+      "move2": "かみくだく",
+      "move3": "シャドーボール",
+      "move4": "ゆめくい",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 212 Spe"
+    },
+    {
+      "setName": "カイリキー-1",
+      "species": "カイリキー",
+      "setNumber": 1,
+      "item": "きせきのみ",
+      "move1": "クロスチョップ",
+      "move2": "れいとうパンチ",
+      "move3": "じしん",
+      "move4": "だいもんじ",
+      "level": 30,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 11,
+        "spc": 14
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "クロバット-1",
+      "species": "クロバット",
+      "setNumber": 1,
+      "item": "おうごんのみ",
+      "move1": "メロメロ",
+      "move2": "あやしいひかり",
+      "move3": "どくどく",
+      "move4": "つばさでうつ",
+      "level": 30,
+      "DVs": {
+        "hp": 6,
+        "atk": 14,
+        "def": 15,
+        "spe": 13,
+        "spc": 12
+      },
+      "EVs": "223 HP, 223 Atk, 173 Def, 223 SpA, 223 SpD, 173 Spe"
+    },
+    {
+      "setName": "ポリゴン２-2",
+      "species": "ポリゴン２",
+      "setNumber": 2,
+      "item": "ひかりのこな",
+      "move1": "サイコキネシス",
+      "move2": "じこさいせい",
+      "move3": "はかいこうせん",
+      "move4": "トライアタック",
+      "level": 30,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "234 HP, 173 Atk, 200 Def, 173 SpA, 173 SpD, 234 Spe"
+    },
+    {
+      "setName": "ガラガラ-1",
+      "species": "ガラガラ",
+      "setNumber": 1,
+      "item": "ふといホネ",
+      "move1": "じしん",
+      "move2": "おんがえし",
+      "move3": "はかいこうせん",
+      "move4": "ホネブーメラン",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "212 HP, 223 Atk, 212 Def, 173 SpA, 173 SpD, 223 Spe"
+    },
+    {
+      "setName": "マルマイン-1",
+      "species": "マルマイン",
+      "setNumber": 1,
+      "item": "ひかりのこな",
+      "move1": "ひかりのかべ",
+      "move2": "１０まんボルト",
+      "move3": "まもる",
+      "move4": "かみなり",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "200 HP, 212 Atk, 200 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "ラプラス-3",
+      "species": "ラプラス",
+      "setNumber": 3,
+      "item": "たべのこし",
+      "move1": "あまごい",
+      "move2": "みずでっぽう",
+      "move3": "こごえるかぜ",
+      "move4": "かいりき",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "223 HP, 212 Atk, 187 Def, 173 SpA, 173 SpD, 223 Spe"
+    },
+    {
+      "setName": "ランターン-1",
+      "species": "ランターン",
+      "setNumber": 1,
+      "item": "おうごんのみ",
+      "move1": "あまごい",
+      "move2": "かみなり",
+      "move3": "なみのり",
+      "move4": "じたばた",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "エーフィ-2",
+      "species": "エーフィ",
+      "setNumber": 2,
+      "item": "きせきのみ",
+      "move1": "ねんりき",
+      "move2": "スピードスター",
+      "move3": "どくどく",
+      "move4": "じこあんじ",
+      "level": 30,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "ドククラゲ-1",
+      "species": "ドククラゲ",
+      "setNumber": 1,
+      "item": "おうじゃのしるし",
+      "move1": "まきつく",
+      "move2": "どくどく",
+      "move3": "ヘドロばくだん",
+      "move4": "バブルこうせん",
+      "level": 30,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 212 SpA, 212 SpD, 216 Spe"
+    },
+    {
+      "setName": "ゲンガー-1",
+      "species": "ゲンガー",
+      "setNumber": 1,
+      "item": "おうごんのみ",
+      "move1": "どろぼう",
+      "move2": "したでなめる",
+      "move3": "ナイトヘッド",
+      "move4": "ギガドレイン",
+      "level": 30,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 7,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "リングマ-1",
+      "species": "リングマ",
+      "setNumber": 1,
+      "item": "おうごんのみ",
+      "move1": "ずつき",
+      "move2": "まもる",
+      "move3": "ほえる",
+      "move4": "にらみつける",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 7,
+        "def": 7,
+        "spe": 4,
+        "spc": 5
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "オニドリル-1",
+      "species": "オニドリル",
+      "setNumber": 1,
+      "item": "ひかりのこな",
+      "move1": "オウムがえし",
+      "move2": "おいうち",
+      "move3": "つつく",
+      "move4": "スピードスター",
+      "level": 30,
+      "DVs": {
+        "hp": 7,
+        "atk": 6,
+        "def": 7,
+        "spe": 7,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "オコリザル-1",
+      "species": "オコリザル",
+      "setNumber": 1,
+      "item": "きせきのみ",
+      "move1": "けたぐり",
+      "move2": "からてチョップ",
+      "move3": "きしかいせい",
+      "move4": "きあいだめ",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 7,
+        "def": 7,
+        "spe": 6,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "ケンタロス-3",
+      "species": "ケンタロス",
+      "setNumber": 3,
+      "item": "おうごんのみ",
+      "move1": "おんがえし",
+      "move2": "はかいこうせん",
+      "move3": "じしん",
+      "move4": "アイアンテール",
+      "level": 40,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "キングドラ-1",
+      "species": "キングドラ",
+      "setNumber": 1,
+      "item": "たべのこし",
+      "move1": "なみのり",
+      "move2": "りゅうのいぶき",
+      "move3": "はかいこうせん",
+      "move4": "ふぶき",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "カビゴン-2",
+      "species": "カビゴン",
+      "setNumber": 2,
+      "item": "せんせいのツメ",
+      "move1": "メロメロ",
+      "move2": "のしかかり",
+      "move3": "じこあんじ",
+      "move4": "じしん",
+      "level": 40,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "ラプラス-4",
+      "species": "ラプラス",
+      "setNumber": 4,
+      "item": "たべのこし",
+      "move1": "１０まんボルト",
+      "move2": "れいとうビーム",
+      "move3": "あやしいひかり",
+      "move4": "なみのり",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "ハガネール-2",
+      "species": "ハガネール",
+      "setNumber": 2,
+      "item": "おうごんのみ",
+      "move1": "すなあらし",
+      "move2": "アイアンテール",
+      "move3": "じしん",
+      "move4": "どくどく",
+      "level": 40,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "フーディン-2",
+      "species": "フーディン",
+      "setNumber": 2,
+      "item": "おうじゃのしるし",
+      "move1": "サイコキネシス",
+      "move2": "かみなりパンチ",
+      "move3": "じこさいせい",
+      "move4": "ほのおのパンチ",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "スターミー-3",
+      "species": "スターミー",
+      "setNumber": 3,
+      "item": "たべのこし",
+      "move1": "ふぶき",
+      "move2": "１０まんボルト",
+      "move3": "なみのり",
+      "move4": "サイコキネシス",
+      "level": 40,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 11,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "ソーナンス-2",
+      "species": "ソーナンス",
+      "setNumber": 2,
+      "item": "おうごんのみ",
+      "move1": "カウンター",
+      "move2": "ミラーコート",
+      "move3": "しんぴのまもり",
+      "move4": "みちづれ",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 15,
+        "spe": 14,
+        "spc": 7
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "ゴローニャ-1",
+      "species": "ゴローニャ",
+      "setNumber": 1,
+      "item": "きあいのハチマキ",
+      "move1": "だいばくはつ",
+      "move2": "じしん",
+      "move3": "メガトンパンチ",
+      "move4": "いわなだれ",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "ハッサム-2",
+      "species": "ハッサム",
+      "setNumber": 2,
+      "item": "ピントレンズ",
+      "move1": "きりさく",
+      "move2": "はがねのつばさ",
+      "move3": "おいうち",
+      "move4": "はかいこうせん",
+      "level": 40,
+      "DVs": {
+        "hp": 14,
+        "atk": 11,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "ダグトリオ-2",
+      "species": "ダグトリオ",
+      "setNumber": 2,
+      "item": "おうじゃのしるし",
+      "move1": "じしん",
+      "move2": "はかいこうせん",
+      "move3": "ヘドロばくだん",
+      "move4": "どろかけ",
+      "level": 40,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 11,
+        "spc": 11
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "ヤドラン-1",
+      "species": "ヤドラン",
+      "setNumber": 1,
+      "item": "きせきのみ",
+      "move1": "なみのり",
+      "move2": "サイコキネシス",
+      "move3": "じしん",
+      "move4": "ふぶき",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 15,
+        "spe": 12,
+        "spc": 15
+      },
+      "EVs": "212 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "ポリゴン２-3",
+      "species": "ポリゴン２",
+      "setNumber": 3,
+      "item": "None",
+      "move1": "テクスチャー２",
+      "move2": "テクスチャー",
+      "move3": "サイケこうせん",
+      "move4": "どろぼう",
+      "level": 40,
+      "DVs": {
+        "hp": 9,
+        "atk": 11,
+        "def": 12,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "ウインディ-2",
+      "species": "ウインディ",
+      "setNumber": 2,
+      "item": "もくたん",
+      "move1": "かえんぐるま",
+      "move2": "にらみつける",
+      "move3": "のしかかり",
+      "move4": "ほえる",
+      "level": 40,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 11,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "フォレトス-1",
+      "species": "フォレトス",
+      "setNumber": 1,
+      "item": "たべのこし",
+      "move1": "こうそくスピン",
+      "move2": "まもる",
+      "move3": "どくどく",
+      "move4": "すなあらし",
+      "level": 40,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 10,
+        "spe": 7,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "オムスター-1",
+      "species": "オムスター",
+      "setNumber": 1,
+      "item": "おうごんのみ",
+      "move1": "のろい",
+      "move2": "みずでっぽう",
+      "move3": "げんしのちから",
+      "move4": "いわくだき",
+      "level": 40,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "リザードン-1",
+      "species": "リザードン",
+      "setNumber": 1,
+      "item": "おうじゃのしるし",
+      "move1": "ほのおのうず",
+      "move2": "りゅうのいかり",
+      "move3": "そらをとぶ",
+      "move4": "きりさく",
+      "level": 40,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "ナッシー-3",
+      "species": "ナッシー",
+      "setNumber": 3,
+      "item": "ひかりのこな",
+      "move1": "タマゴばくだん",
+      "move2": "ふみつけ",
+      "move3": "じこあんじ",
+      "move4": "ねんりき",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 7,
+        "spe": 14,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "スリーパー-1",
+      "species": "スリーパー",
+      "setNumber": 1,
+      "item": "ひかりのこな",
+      "move1": "ねんりき",
+      "move2": "かみなりパンチ",
+      "move3": "ずつき",
+      "move4": "かなしばり",
+      "level": 40,
+      "DVs": {
+        "hp": 14,
+        "atk": 7,
+        "def": 7,
+        "spe": 7,
+        "spc": 10
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "ベトベトン-1",
+      "species": "ベトベトン",
+      "setNumber": 1,
+      "item": "せんせいのツメ",
+      "move1": "いやなおと",
+      "move2": "どくどく",
+      "move3": "ヘドロこうげき",
+      "move4": "かたくなる",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 7,
+        "def": 5,
+        "spe": 6,
+        "spc": 11
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "エレブー-1",
+      "species": "エレブー",
+      "setNumber": 1,
+      "item": "おうじゃのしるし",
+      "move1": "ひかりのかべ",
+      "move2": "かみなりパンチ",
+      "move3": "スピードスター",
+      "move4": "いびき",
+      "level": 40,
+      "DVs": {
+        "hp": 7,
+        "atk": 6,
+        "def": 5,
+        "spe": 7,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "キングドラ-2",
+      "species": "キングドラ",
+      "setNumber": 2,
+      "item": "おうごんのみ",
+      "move1": "なみのり",
+      "move2": "はかいこうせん",
+      "move3": "ふぶき",
+      "move4": "りゅうのいぶき",
+      "level": 50,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "234 HP, 234 Atk, 244 Def, 234 SpA, 234 SpD, 223 Spe"
+    },
+    {
+      "setName": "ヘルガー-2",
+      "species": "ヘルガー",
+      "setNumber": 2,
+      "item": "きせきのみ",
+      "move1": "ねむる",
+      "move2": "かみくだく",
+      "move3": "ゆめくい",
+      "move4": "かえんほうしゃ",
+      "level": 50,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 12
+      },
+      "EVs": "234 HP, 223 Atk, 244 Def, 244 SpA, 244 SpD, 244 Spe"
+    },
+    {
+      "setName": "ツボツボ-1",
+      "species": "ツボツボ",
+      "setNumber": 1,
+      "item": "たべのこし",
+      "move1": "すなあらし",
+      "move2": "ねむる",
+      "move3": "どくどく",
+      "move4": "まきつく",
+      "level": 50,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 12,
+        "spc": 15
+      },
+      "EVs": "244 HP, 244 Atk, 244 Def, 234 SpA, 234 SpD, 244 Spe"
+    },
+    {
+      "setName": "カビゴン-3",
+      "species": "カビゴン",
+      "setNumber": 3,
+      "item": "たべのこし",
+      "move1": "はかいこうせん",
+      "move2": "じしん",
+      "move3": "なみのり",
+      "move4": "じこあんじ",
+      "level": 50,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "244 HP, 234 Atk, 234 Def, 234 SpA, 234 SpD, 244 Spe"
+    },
+    {
+      "setName": "ラプラス-5",
+      "species": "ラプラス",
+      "setNumber": 5,
+      "item": "おうごんのみ",
+      "move1": "１０まんボルト",
+      "move2": "なみのり",
+      "move3": "あやしいひかり",
+      "move4": "ふぶき",
+      "level": 50,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "234 HP, 244 Atk, 244 Def, 244 SpA, 244 SpD, 234 Spe"
+    },
+    {
+      "setName": "サンダース-3",
+      "species": "サンダース",
+      "setNumber": 3,
+      "item": "おうじゃのしるし",
+      "move1": "１０まんボルト",
+      "move2": "でんじは",
+      "move3": "シャドーボール",
+      "move4": "めざめるパワー",
+      "level": 50,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 13,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "234 HP, 244 Atk, 238 Def, 234 SpA, 234 SpD, 234 Spe"
+    },
+    {
+      "setName": "ハッサム-3",
+      "species": "ハッサム",
+      "setNumber": 3,
+      "item": "たべのこし",
+      "move1": "はかいこうせん",
+      "move2": "きりさく",
+      "move3": "こうそくいどう",
+      "move4": "メタルクロー",
+      "level": 50,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 15,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "ヤドキング-1",
+      "species": "ヤドキング",
+      "setNumber": 1,
+      "item": "はっかのみ",
+      "move1": "ねむる",
+      "move2": "なみのり",
+      "move3": "サイコキネシス",
+      "move4": "ドわすれ",
+      "level": 50,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 200 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "カイリキー-2",
+      "species": "カイリキー",
+      "setNumber": 2,
+      "item": "おうごんのみ",
+      "move1": "クロスチョップ",
+      "move2": "じしん",
+      "move3": "だいもんじ",
+      "move4": "かみなりパンチ",
+      "level": 50,
+      "DVs": {
+        "hp": 12,
+        "atk": 15,
+        "def": 15,
+        "spe": 14,
+        "spc": 12
+      },
+      "EVs": "200 HP, 212 Atk, 223 Def, 209 SpA, 209 SpD, 200 Spe"
+    },
+    {
+      "setName": "スターミー-4",
+      "species": "スターミー",
+      "setNumber": 4,
+      "item": "ピントレンズ",
+      "move1": "でんじは",
+      "move2": "じこさいせい",
+      "move3": "１０まんボルト",
+      "move4": "なみのり",
+      "level": 50,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "212 HP, 209 Atk, 200 Def, 200 SpA, 200 SpD, 212 Spe"
+    },
+    {
+      "setName": "ダグトリオ-3",
+      "species": "ダグトリオ",
+      "setNumber": 3,
+      "item": "おうじゃのしるし",
+      "move1": "じしん",
+      "move2": "きりさく",
+      "move3": "はかいこうせん",
+      "move4": "ヘドロばくだん",
+      "level": 50,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 7,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "212 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "マルマイン-2",
+      "species": "マルマイン",
+      "setNumber": 2,
+      "item": "きせきのみ",
+      "move1": "１０まんボルト",
+      "move2": "だいばくはつ",
+      "move3": "ミラーコート",
+      "move4": "ねむる",
+      "level": 50,
+      "DVs": {
+        "hp": 14,
+        "atk": 7,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 212 Atk, 232 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "プテラ-3",
+      "species": "プテラ",
+      "setNumber": 3,
+      "item": "おうじゃのしるし",
+      "move1": "はかいこうせん",
+      "move2": "じしん",
+      "move3": "だいもんじ",
+      "move4": "アイアンテール",
+      "level": 50,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 212 Spe"
+    },
+    {
+      "setName": "クロバット-2",
+      "species": "クロバット",
+      "setNumber": 2,
+      "item": "たべのこし",
+      "move1": "あやしいひかり",
+      "move2": "メロメロ",
+      "move3": "はかいこうせん",
+      "move4": "どくどく",
+      "level": 50,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "212 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "サンダー-1",
+      "species": "サンダー",
+      "setNumber": 1,
+      "item": "きせきのみ",
+      "move1": "ドリルくちばし",
+      "move2": "１０まんボルト",
+      "move3": "でんじは",
+      "move4": "はかいこうせん",
+      "level": 50,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "212 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "エアームド-1",
+      "species": "エアームド",
+      "setNumber": 1,
+      "item": "おうごんのみ",
+      "move1": "すなあらし",
+      "move2": "そらをとぶ",
+      "move3": "はがねのつばさ",
+      "move4": "どくどく",
+      "level": 50,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 7,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 200 SpA, 200 SpD, 223 Spe"
+    },
+    {
+      "setName": "フォレトス-2",
+      "species": "フォレトス",
+      "setNumber": 2,
+      "item": "たべのこし",
+      "move1": "すなあらし",
+      "move2": "どくどく",
+      "move3": "だいばくはつ",
+      "move4": "いばる",
+      "level": 50,
+      "DVs": {
+        "hp": 7,
+        "atk": 12,
+        "def": 15,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 234 Def, 200 SpA, 200 SpD, 212 Spe"
+    },
+    {
+      "setName": "ハガネール-3",
+      "species": "ハガネール",
+      "setNumber": 3,
+      "item": "きせきのみ",
+      "move1": "すなあらし",
+      "move2": "アイアンテール",
+      "move3": "ねむる",
+      "move4": "じしん",
+      "level": 50,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 200 Spe"
+    },
+    {
+      "setName": "キリンリキ-2",
+      "species": "キリンリキ",
+      "setNumber": 2,
+      "item": "ピントレンズ",
+      "move1": "ゆめくい",
+      "move2": "かみくだく",
+      "move3": "サイコキネシス",
+      "move4": "じしん",
+      "level": 50,
+      "DVs": {
+        "hp": 6,
+        "atk": 4,
+        "def": 5,
+        "spe": 5,
+        "spc": 6
+      },
+      "EVs": "200 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "ギャラドス-2",
+      "species": "ギャラドス",
+      "setNumber": 2,
+      "item": "きせきのみ",
+      "move1": "はかいこうせん",
+      "move2": "なみのり",
+      "move3": "あまごい",
+      "move4": "でんじほう",
+      "level": 50,
+      "DVs": {
+        "hp": 13,
+        "atk": 7,
+        "def": 5,
+        "spe": 6,
+        "spc": 5
+      },
+      "EVs": "200 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "フリーザー-1",
+      "species": "フリーザー",
+      "setNumber": 1,
+      "item": "おうごんのみ",
+      "move1": "ふぶき",
+      "move2": "はかいこうせん",
+      "move3": "ほえる",
+      "move4": "こごえるかぜ",
+      "level": 50,
+      "DVs": {
+        "hp": 6,
+        "atk": 4,
+        "def": 5,
+        "spe": 5,
+        "spc": 6
+      },
+      "EVs": "200 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "キングドラ-3",
+      "species": "キングドラ",
+      "setNumber": 3,
+      "item": "たべのこし",
+      "move1": "りゅうのいぶき",
+      "move2": "なみのり",
+      "move3": "はかいこうせん",
+      "move4": "ふぶき",
+      "level": 60,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "234 HP, 234 Atk, 223 Def, 244 SpA, 244 SpD, 244 Spe"
+    },
+    {
+      "setName": "バンギラス-1",
+      "species": "バンギラス",
+      "setNumber": 1,
+      "item": "おうごんのみ",
+      "move1": "かみくだく",
+      "move2": "じしん",
+      "move3": "いわなだれ",
+      "move4": "はかいこうせん",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "234 HP, 244 Atk, 234 Def, 234 SpA, 234 SpD, 244 Spe"
+    },
+    {
+      "setName": "ヘルガー-3",
+      "species": "ヘルガー",
+      "setNumber": 3,
+      "item": "きせきのみ",
+      "move1": "かえんほうしゃ",
+      "move2": "かみくだく",
+      "move3": "ゆめくい",
+      "move4": "ねむる",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "244 HP, 234 Atk, 234 Def, 234 SpA, 234 SpD, 244 Spe"
+    },
+    {
+      "setName": "ポリゴン２-4",
+      "species": "ポリゴン２",
+      "setNumber": 4,
+      "item": "たべのこし",
+      "move1": "ふぶき",
+      "move2": "じこさいせい",
+      "move3": "どくどく",
+      "move4": "サイコキネシス",
+      "level": 60,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 13,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "234 HP, 223 Atk, 223 Def, 234 SpA, 234 SpD, 223 Spe"
+    },
+    {
+      "setName": "カイリキー-3",
+      "species": "カイリキー",
+      "setNumber": 3,
+      "item": "せんせいのツメ",
+      "move1": "ほのおのパンチ",
+      "move2": "クロスチョップ",
+      "move3": "かみなりパンチ",
+      "move4": "じしん",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "サンダー-2",
+      "species": "サンダー",
+      "setNumber": 2,
+      "item": "はっかのみ",
+      "move1": "ねむる",
+      "move2": "ドリルくちばし",
+      "move3": "１０まんボルト",
+      "move4": "でんじは",
+      "level": 60,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "ソーナンス-3",
+      "species": "ソーナンス",
+      "setNumber": 3,
+      "item": "おうごんのみ",
+      "move1": "カウンター",
+      "move2": "ミラーコート",
+      "move3": "みちづれ",
+      "move4": "しんぴのまもり",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "プテラ-4",
+      "species": "プテラ",
+      "setNumber": 4,
+      "item": "たべのこし",
+      "move1": "はかいこうせん",
+      "move2": "ちょうおんぱ",
+      "move3": "じしん",
+      "move4": "かみつく",
+      "level": 60,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 212 Spe"
+    },
+    {
+      "setName": "カイリュー-1",
+      "species": "カイリュー",
+      "setNumber": 1,
+      "item": "きせきのみ",
+      "move1": "はかいこうせん",
+      "move2": "こごえるかぜ",
+      "move3": "１０まんボルト",
+      "move4": "なみのり",
+      "level": 60,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "ブラッキー-3",
+      "species": "ブラッキー",
+      "setNumber": 3,
+      "item": "おうごんのみ",
+      "move1": "どろかけ",
+      "move2": "つきのひかり",
+      "move3": "サイコキネシス",
+      "move4": "だましうち",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "ウインディ-3",
+      "species": "ウインディ",
+      "setNumber": 3,
+      "item": "もくたん",
+      "move1": "かえんほうしゃ",
+      "move2": "かみくだく",
+      "move3": "しんそく",
+      "move4": "アイアンテール",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "234 HP, 223 Atk, 200 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "エアームド-2",
+      "species": "エアームド",
+      "setNumber": 2,
+      "item": "きせきのみ",
+      "move1": "はがねのつばさ",
+      "move2": "そらをとぶ",
+      "move3": "どくどく",
+      "move4": "まもる",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "ハピナス-4",
+      "species": "ハピナス",
+      "setNumber": 4,
+      "item": "たべのこし",
+      "move1": "タマゴうみ",
+      "move2": "どくどく",
+      "move3": "まもる",
+      "move4": "サイコキネシス",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 12,
+        "spc": 13
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "カビゴン-4",
+      "species": "カビゴン",
+      "setNumber": 4,
+      "item": "ピンクのリボン",
+      "move1": "いわなだれ",
+      "move2": "なみのり",
+      "move3": "のしかかり",
+      "move4": "じしん",
+      "level": 60,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 10,
+        "spe": 15,
+        "spc": 12
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "ヘラクロス-3",
+      "species": "ヘラクロス",
+      "setNumber": 3,
+      "item": "きあいのハチマキ",
+      "move1": "きしかいせい",
+      "move2": "メガホーン",
+      "move3": "じしん",
+      "move4": "カウンター",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 15,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "ルージュラ-2",
+      "species": "ルージュラ",
+      "setNumber": 2,
+      "item": "きせきのみ",
+      "move1": "ふぶき",
+      "move2": "サイコキネシス",
+      "move3": "シャドーボール",
+      "move4": "こごえるかぜ",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 15,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "カメックス-1",
+      "species": "カメックス",
+      "setNumber": 1,
+      "item": "おうごんのみ",
+      "move1": "なみのり",
+      "move2": "じしん",
+      "move3": "こうそくスピン",
+      "move4": "ふぶき",
+      "level": 60,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "サイドン-1",
+      "species": "サイドン",
+      "setNumber": 1,
+      "item": "せんせいのツメ",
+      "move1": "じしん",
+      "move2": "なみのり",
+      "move3": "アイアンテール",
+      "move4": "いわなだれ",
+      "level": 60,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 11,
+        "spe": 15,
+        "spc": 10
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "サンドパン-1",
+      "species": "サンドパン",
+      "setNumber": 1,
+      "item": "ピントレンズ",
+      "move1": "じしん",
+      "move2": "きりさく",
+      "move3": "はかいこうせん",
+      "move4": "いびき",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 7,
+        "spe": 6,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "パラセクト-1",
+      "species": "パラセクト",
+      "setNumber": 1,
+      "item": "おうごんのみ",
+      "move1": "キノコのほうし",
+      "move2": "ギガドレイン",
+      "move3": "はかいこうせん",
+      "move4": "ヘドロばくだん",
+      "level": 60,
+      "DVs": {
+        "hp": 3,
+        "atk": 6,
+        "def": 6,
+        "spe": 5,
+        "spc": 15
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "ゴローニャ-2",
+      "species": "ゴローニャ",
+      "setNumber": 2,
+      "item": "ひかりのこな",
+      "move1": "だいばくはつ",
+      "move2": "じしん",
+      "move3": "ほのおのパンチ",
+      "move4": "やつあたり",
+      "level": 60,
+      "DVs": {
+        "hp": 11,
+        "atk": 7,
+        "def": 6,
+        "spe": 5,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "サンダース-4",
+      "species": "サンダース",
+      "setNumber": 4,
+      "item": "きせきのみ",
+      "move1": "１０まんボルト",
+      "move2": "はかいこうせん",
+      "move3": "シャドーボール",
+      "move4": "ほえる",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "244 HP, 236 Atk, 234 Def, 244 SpA, 244 SpD, 223 Spe"
+    },
+    {
+      "setName": "シャワーズ-1",
+      "species": "シャワーズ",
+      "setNumber": 1,
+      "item": "たべのこし",
+      "move1": "ふぶき",
+      "move2": "シャドーボール",
+      "move3": "なみのり",
+      "move4": "どろかけ",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 15,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 244 Def, 223 SpA, 223 SpD, 244 Spe"
+    },
+    {
+      "setName": "ブラッキー-4",
+      "species": "ブラッキー",
+      "setNumber": 4,
+      "item": "おうごんのみ",
+      "move1": "だましうち",
+      "move2": "つきのひかり",
+      "move3": "じこあんじ",
+      "move4": "どくどく",
+      "level": 70,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "232 HP, 244 Atk, 234 Def, 240 SpA, 240 SpD, 223 Spe"
+    },
+    {
+      "setName": "ハピナス-5",
+      "species": "ハピナス",
+      "setNumber": 5,
+      "item": "おうごんのみ",
+      "move1": "カウンター",
+      "move2": "タマゴうみ",
+      "move3": "シャドーボール",
+      "move4": "１０まんボルト",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 15,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "234 HP, 234 Atk, 234 Def, 223 SpA, 223 SpD, 240 Spe"
+    },
+    {
+      "setName": "カビゴン-5",
+      "species": "カビゴン",
+      "setNumber": 5,
+      "item": "たべのこし",
+      "move1": "いわなだれ",
+      "move2": "じしん",
+      "move3": "ふぶき",
+      "move4": "シャドーボール",
+      "level": 70,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "234 HP, 234 Atk, 244 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "ヘルガー-4",
+      "species": "ヘルガー",
+      "setNumber": 4,
+      "item": "おうじゃのしるし",
+      "move1": "かみくだく",
+      "move2": "かえんほうしゃ",
+      "move3": "だましうち",
+      "move4": "ほえる",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 12,
+        "spc": 13
+      },
+      "EVs": "240 HP, 223 Atk, 234 Def, 234 SpA, 234 SpD, 244 Spe"
+    },
+    {
+      "setName": "バンギラス-2",
+      "species": "バンギラス",
+      "setNumber": 2,
+      "item": "たべのこし",
+      "move1": "じしん",
+      "move2": "かみくだく",
+      "move3": "いわなだれ",
+      "move4": "はかいこうせん",
+      "level": 70,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 11,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "223 HP, 212 Atk, 212 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "サンダー-3",
+      "species": "サンダー",
+      "setNumber": 3,
+      "item": "おうごんのみ",
+      "move1": "１０まんボルト",
+      "move2": "ドリルくちばし",
+      "move3": "でんじは",
+      "move4": "はかいこうせん",
+      "level": 70,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 11,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 212 Spe"
+    },
+    {
+      "setName": "ナッシー-4",
+      "species": "ナッシー",
+      "setNumber": 4,
+      "item": "きせきのみ",
+      "move1": "ねむる",
+      "move2": "だいばくはつ",
+      "move3": "サイコキネシス",
+      "move4": "ギガドレイン",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "ブラッキー-5",
+      "species": "ブラッキー",
+      "setNumber": 5,
+      "item": "おうごんのみ",
+      "move1": "つきのひかり",
+      "move2": "だましうち",
+      "move3": "サイコキネシス",
+      "move4": "シャドーボール",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "ギャラドス-3",
+      "species": "ギャラドス",
+      "setNumber": 3,
+      "item": "ひかりのこな",
+      "move1": "なみのり",
+      "move2": "１０まんボルト",
+      "move3": "はかいこうせん",
+      "move4": "ほえる",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 11,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "234 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "ヌオー-2",
+      "species": "ヌオー",
+      "setNumber": 2,
+      "item": "きせきのみ",
+      "move1": "じしん",
+      "move2": "なみのり",
+      "move3": "ヘドロばくだん",
+      "move4": "アイアンテール",
+      "level": 70,
+      "DVs": {
+        "hp": 11,
+        "atk": 13,
+        "def": 14,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "リングマ-2",
+      "species": "リングマ",
+      "setNumber": 2,
+      "item": "ピントレンズ",
+      "move1": "きりさく",
+      "move2": "じしん",
+      "move3": "はかいこうせん",
+      "move4": "かみなりパンチ",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "バリヤード-2",
+      "species": "バリヤード",
+      "setNumber": 2,
+      "item": "おうじゃのしるし",
+      "move1": "リフレクター",
+      "move2": "ほのおのパンチ",
+      "move3": "サイコキネシス",
+      "move4": "アンコール",
+      "level": 70,
+      "DVs": {
+        "hp": 15,
+        "atk": 11,
+        "def": 13,
+        "spe": 15,
+        "spc": 11
+      },
+      "EVs": "223 HP, 212 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "オコリザル-2",
+      "species": "オコリザル",
+      "setNumber": 2,
+      "item": "せんせいのツメ",
+      "move1": "クロスチョップ",
+      "move2": "れいとうパンチ",
+      "move3": "かみなりパンチ",
+      "move4": "いわなだれ",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "キリンリキ-3",
+      "species": "キリンリキ",
+      "setNumber": 3,
+      "item": "おうごんのみ",
+      "move1": "こうそくいどう",
+      "move2": "バトンタッチ",
+      "move3": "かみくだく",
+      "move4": "じしん",
+      "level": 70,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "サワムラー-1",
+      "species": "サワムラー",
+      "setNumber": 1,
+      "item": "きあいのハチマキ",
+      "move1": "きしかいせい",
+      "move2": "こらえる",
+      "move3": "のしかかり",
+      "move4": "メガトンキック",
+      "level": 70,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "ヘラクロス-4",
+      "species": "ヘラクロス",
+      "setNumber": 4,
+      "item": "ひかりのこな",
+      "move1": "きしかいせい",
+      "move2": "こらえる",
+      "move3": "メガホーン",
+      "move4": "じしん",
+      "level": 70,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 7,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "フシギバナ-1",
+      "species": "フシギバナ",
+      "setNumber": 1,
+      "item": "ひかりのこな",
+      "move1": "にほんばれ",
+      "move2": "ソーラービーム",
+      "move3": "こうごうせい",
+      "move4": "はかいこうせん",
+      "level": 70,
+      "DVs": {
+        "hp": 8,
+        "atk": 7,
+        "def": 6,
+        "spe": 4,
+        "spc": 4
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "リザードン-2",
+      "species": "リザードン",
+      "setNumber": 2,
+      "item": "ピントレンズ",
+      "move1": "きりさく",
+      "move2": "じしん",
+      "move3": "はかいこうせん",
+      "move4": "かえんほうしゃ",
+      "level": 70,
+      "DVs": {
+        "hp": 8,
+        "atk": 5,
+        "def": 6,
+        "spe": 4,
+        "spc": 4
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "カメックス-2",
+      "species": "カメックス",
+      "setNumber": 2,
+      "item": "せんせいのツメ",
+      "move1": "ハイドロポンプ",
+      "move2": "れいとうパンチ",
+      "move3": "はかいこうせん",
+      "move4": "アイアンテール",
+      "level": 70,
+      "DVs": {
+        "hp": 8,
+        "atk": 7,
+        "def": 6,
+        "spe": 6,
+        "spc": 4
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "サンダース-5",
+      "species": "サンダース",
+      "setNumber": 5,
+      "item": "きせきのみ",
+      "move1": "でんじは",
+      "move2": "１０まんボルト",
+      "move3": "アイアンテール",
+      "move4": "ほえる",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "244 HP, 234 Atk, 244 Def, 234 SpA, 234 SpD, 234 Spe"
+    },
+    {
+      "setName": "カビゴン-6",
+      "species": "カビゴン",
+      "setNumber": 6,
+      "item": "たべのこし",
+      "move1": "ねむる",
+      "move2": "はらだいこ",
+      "move3": "いびき",
+      "move4": "じしん",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 11,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "244 HP, 234 Atk, 223 Def, 244 SpA, 244 SpD, 235 Spe"
+    },
+    {
+      "setName": "ヘルガー-5",
+      "species": "ヘルガー",
+      "setNumber": 5,
+      "item": "はっかのみ",
+      "move1": "ねむる",
+      "move2": "かみくだく",
+      "move3": "かえんほうしゃ",
+      "move4": "にほんばれ",
+      "level": 80,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "234 HP, 223 Atk, 234 Def, 234 SpA, 234 SpD, 234 Spe"
+    },
+    {
+      "setName": "ケンタロス-4",
+      "species": "ケンタロス",
+      "setNumber": 4,
+      "item": "おうごんのみ",
+      "move1": "じしん",
+      "move2": "のしかかり",
+      "move3": "アイアンテール",
+      "move4": "はかいこうせん",
+      "level": 80,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 173 Spe"
+    },
+    {
+      "setName": "ラプラス-6",
+      "species": "ラプラス",
+      "setNumber": 6,
+      "item": "はっかのみ",
+      "move1": "ねむる",
+      "move2": "なみのり",
+      "move3": "あやしいひかり",
+      "move4": "サイコキネシス",
+      "level": 80,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "バンギラス-3",
+      "species": "バンギラス",
+      "setNumber": 3,
+      "item": "きせきのみ",
+      "move1": "ねむる",
+      "move2": "かみくだく",
+      "move3": "じしん",
+      "move4": "いわなだれ",
+      "level": 80,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "223 HP, 234 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "ゲンガー-2",
+      "species": "ゲンガー",
+      "setNumber": 2,
+      "item": "None",
+      "move1": "１０まんボルト",
+      "move2": "シャドーボール",
+      "move3": "あやしいひかり",
+      "move4": "どろぼう",
+      "level": 80,
+      "DVs": {
+        "hp": 11,
+        "atk": 13,
+        "def": 14,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "フォレトス-3",
+      "species": "フォレトス",
+      "setNumber": 3,
+      "item": "たべのこし",
+      "move1": "だいばくはつ",
+      "move2": "どくどく",
+      "move3": "ソーラービーム",
+      "move4": "いばる",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "キングドラ-4",
+      "species": "キングドラ",
+      "setNumber": 4,
+      "item": "はっかのみ",
+      "move1": "ねむる",
+      "move2": "なみのり",
+      "move3": "ふぶき",
+      "move4": "りゅうのいぶき",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "カイリュー-2",
+      "species": "カイリュー",
+      "setNumber": 2,
+      "item": "おうごんのみ",
+      "move1": "でんじは",
+      "move2": "なみのり",
+      "move3": "１０まんボルト",
+      "move4": "げきりん",
+      "level": 80,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "ポリゴン２-5",
+      "species": "ポリゴン２",
+      "setNumber": 5,
+      "item": "たべのこし",
+      "move1": "サイコキネシス",
+      "move2": "じこさいせい",
+      "move3": "はかいこうせん",
+      "move4": "トライアタック",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 15,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "234 HP, 223 Atk, 200 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "ルージュラ-3",
+      "species": "ルージュラ",
+      "setNumber": 3,
+      "item": "せんせいのツメ",
+      "move1": "あくまのキッス",
+      "move2": "ふぶき",
+      "move3": "ゆめくい",
+      "move4": "サイコキネシス",
+      "level": 80,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "234 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "マンタイン-1",
+      "species": "マンタイン",
+      "setNumber": 1,
+      "item": "おうごんのみ",
+      "move1": "なみのり",
+      "move2": "あやしいひかり",
+      "move3": "ふぶき",
+      "move4": "つばさでうつ",
+      "level": 80,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 12
+      },
+      "EVs": "200 HP, 212 Atk, 200 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "エアームド-3",
+      "species": "エアームド",
+      "setNumber": 3,
+      "item": "せんせいのツメ",
+      "move1": "はがねのつばさ",
+      "move2": "そらをとぶ",
+      "move3": "どろかけ",
+      "move4": "どくどく",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 212 Atk, 187 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "ファイヤー-1",
+      "species": "ファイヤー",
+      "setNumber": 1,
+      "item": "もくたん",
+      "move1": "かえんほうしゃ",
+      "move2": "ゴッドバード",
+      "move3": "はがねのつばさ",
+      "move4": "はかいこうせん",
+      "level": 80,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "プテラ-5",
+      "species": "プテラ",
+      "setNumber": 5,
+      "item": "きせきのみ",
+      "move1": "はかいこうせん",
+      "move2": "ねむる",
+      "move3": "じしん",
+      "move4": "ほえる",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 15,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "マルマイン-3",
+      "species": "マルマイン",
+      "setNumber": 3,
+      "item": "おうじゃのしるし",
+      "move1": "１０まんボルト",
+      "move2": "だいばくはつ",
+      "move3": "ミラーコート",
+      "move4": "どくどく",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 15,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 200 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "ダグトリオ-4",
+      "species": "ダグトリオ",
+      "setNumber": 4,
+      "item": "ピントレンズ",
+      "move1": "きりさく",
+      "move2": "じしん",
+      "move3": "どろぼう",
+      "move4": "どろかけ",
+      "level": 80,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 200 Def, 200 SpA, 200 SpD, 223 Spe"
+    },
+    {
+      "setName": "ウツボット-1",
+      "species": "ウツボット",
+      "setNumber": 1,
+      "item": "せんせいのツメ",
+      "move1": "ギガドレイン",
+      "move2": "ヘドロばくだん",
+      "move3": "はかいこうせん",
+      "move4": "どくどく",
+      "level": 80,
+      "DVs": {
+        "hp": 5,
+        "atk": 6,
+        "def": 5,
+        "spe": 6,
+        "spc": 5
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "カイロス-1",
+      "species": "カイロス",
+      "setNumber": 1,
+      "item": "おうごんのみ",
+      "move1": "はかいこうせん",
+      "move2": "じごくぐるま",
+      "move3": "かいりき",
+      "move4": "どくどく",
+      "level": 80,
+      "DVs": {
+        "hp": 8,
+        "atk": 7,
+        "def": 4,
+        "spe": 6,
+        "spc": 4
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "グランブル-1",
+      "species": "グランブル",
+      "setNumber": 1,
+      "item": "ひかりのこな",
+      "move1": "ほえる",
+      "move2": "シャドーボール",
+      "move3": "はかいこうせん",
+      "move4": "かみなりパンチ",
+      "level": 80,
+      "DVs": {
+        "hp": 11,
+        "atk": 7,
+        "def": 6,
+        "spe": 5,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "ブラッキー-6",
+      "species": "ブラッキー",
+      "setNumber": 6,
+      "item": "おうじゃのしるし",
+      "move1": "だましうち",
+      "move2": "どろかけ",
+      "move3": "つきのひかり",
+      "move4": "あやしいひかり",
+      "level": 90,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "244 HP, 244 Atk, 234 Def, 234 SpA, 234 SpD, 244 Spe"
+    },
+    {
+      "setName": "カイリュー-3",
+      "species": "カイリュー",
+      "setNumber": 3,
+      "item": "せんせいのツメ",
+      "move1": "だいもんじ",
+      "move2": "はかいこうせん",
+      "move3": "げきりん",
+      "move4": "ふぶき",
+      "level": 90,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "252 HP, 223 Atk, 236 Def, 244 SpA, 244 SpD, 244 Spe"
+    },
+    {
+      "setName": "スターミー-5",
+      "species": "スターミー",
+      "setNumber": 5,
+      "item": "たべのこし",
+      "move1": "じこさいせい",
+      "move2": "１０まんボルト",
+      "move3": "なみのり",
+      "move4": "サイコキネシス",
+      "level": 90,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "244 HP, 244 Atk, 244 Def, 244 SpA, 244 SpD, 234 Spe"
+    },
+    {
+      "setName": "パルシェン-1",
+      "species": "パルシェン",
+      "setNumber": 1,
+      "item": "たべのこし",
+      "move1": "だいばくはつ",
+      "move2": "ふぶき",
+      "move3": "なみのり",
+      "move4": "こごえるかぜ",
+      "level": 90,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 11,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "クロバット-3",
+      "species": "クロバット",
+      "setNumber": 3,
+      "item": "おうごんのみ",
+      "move1": "つばさでうつ",
+      "move2": "くろいきり",
+      "move3": "はかいこうせん",
+      "move4": "ギガドレイン",
+      "level": 90,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 12,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "ポリゴン２-6",
+      "species": "ポリゴン２",
+      "setNumber": 6,
+      "item": "せんせいのツメ",
+      "move1": "どくどく",
+      "move2": "サイコキネシス",
+      "move3": "じこさいせい",
+      "move4": "まもる",
+      "level": 90,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "キングドラ-5",
+      "species": "キングドラ",
+      "setNumber": 5,
+      "item": "たべのこし",
+      "move1": "りゅうのいぶき",
+      "move2": "なみのり",
+      "move3": "はかいこうせん",
+      "move4": "ふぶき",
+      "level": 90,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 234 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "バンギラス-4",
+      "species": "バンギラス",
+      "setNumber": 4,
+      "item": "せんせいのツメ",
+      "move1": "はかいこうせん",
+      "move2": "かみくだく",
+      "move3": "じしん",
+      "move4": "いわなだれ",
+      "level": 90,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 234 Atk, 223 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "ラプラス-7",
+      "species": "ラプラス",
+      "setNumber": 7,
+      "item": "はっかのみ",
+      "move1": "ねむる",
+      "move2": "なみのり",
+      "move3": "１０まんボルト",
+      "move4": "サイコキネシス",
+      "level": 90,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 234 SpA, 234 SpD, 223 Spe"
+    },
+    {
+      "setName": "エーフィ-3",
+      "species": "エーフィ",
+      "setNumber": 3,
+      "item": "おうごんのみ",
+      "move1": "サイコキネシス",
+      "move2": "シャドーボール",
+      "move3": "にほんばれ",
+      "move4": "あさのひざし",
+      "level": 90,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "234 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "カイリキー-4",
+      "species": "カイリキー",
+      "setNumber": 4,
+      "item": "せんせいのツメ",
+      "move1": "クロスチョップ",
+      "move2": "あてみなげ",
+      "move3": "だいもんじ",
+      "move4": "じしん",
+      "level": 90,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "234 HP, 234 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "カビゴン-7",
+      "species": "カビゴン",
+      "setNumber": 7,
+      "item": "きせきのみ",
+      "move1": "だいもんじ",
+      "move2": "なみのり",
+      "move3": "じしん",
+      "move4": "はかいこうせん",
+      "level": 90,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 234 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "ウインディ-4",
+      "species": "ウインディ",
+      "setNumber": 4,
+      "item": "はっかのみ",
+      "move1": "にほんばれ",
+      "move2": "かえんほうしゃ",
+      "move3": "しんそく",
+      "move4": "ねむる",
+      "level": 90,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 234 SpA, 234 SpD, 212 Spe"
+    },
+    {
+      "setName": "ハピナス-6",
+      "species": "ハピナス",
+      "setNumber": 6,
+      "item": "たべのこし",
+      "move1": "ソーラービーム",
+      "move2": "にほんばれ",
+      "move3": "タマゴうみ",
+      "move4": "だいもんじ",
+      "level": 90,
+      "DVs": {
+        "hp": 14,
+        "atk": 11,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "ヘルガー-6",
+      "species": "ヘルガー",
+      "setNumber": 6,
+      "item": "ひかりのこな",
+      "move1": "かえんほうしゃ",
+      "move2": "かみくだく",
+      "move3": "にほんばれ",
+      "move4": "ソーラービーム",
+      "level": 90,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 11,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "エアームド-4",
+      "species": "エアームド",
+      "setNumber": 4,
+      "item": "せんせいのツメ",
+      "move1": "すなあらし",
+      "move2": "はがねのつばさ",
+      "move3": "どくどく",
+      "move4": "おんがえし",
+      "level": 90,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "ツボツボ-2",
+      "species": "ツボツボ",
+      "setNumber": 2,
+      "item": "たべのこし",
+      "move1": "どくどく",
+      "move2": "まきつく",
+      "move3": "まもる",
+      "move4": "アンコール",
+      "level": 90,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "ブースター-1",
+      "species": "ブースター",
+      "setNumber": 1,
+      "item": "はっかのみ",
+      "move1": "はかいこうせん",
+      "move2": "かえんほうしゃ",
+      "move3": "シャドーボール",
+      "move4": "ほえる",
+      "level": 90,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 7,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "ミルタンク-3",
+      "species": "ミルタンク",
+      "setNumber": 3,
+      "item": "たべのこし",
+      "move1": "ミルクのみ",
+      "move2": "じしん",
+      "move3": "メロメロ",
+      "move4": "のしかかり",
+      "level": 90,
+      "DVs": {
+        "hp": 7,
+        "atk": 4,
+        "def": 7,
+        "spe": 5,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "ケンタロス-5",
+      "species": "ケンタロス",
+      "setNumber": 5,
+      "item": "ピンクのリボン",
+      "move1": "１０まんボルト",
+      "move2": "はかいこうせん",
+      "move3": "メロメロ",
+      "move4": "じしん",
+      "level": 90,
+      "DVs": {
+        "hp": 6,
+        "atk": 6,
+        "def": 5,
+        "spe": 7,
+        "spc": 6
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "ベトベトン-2",
+      "species": "ベトベトン",
+      "setNumber": 2,
+      "item": "せんせいのツメ",
+      "move1": "どくどく",
+      "move2": "ヘドロばくだん",
+      "move3": "メロメロ",
+      "move4": "ギガドレイン",
+      "level": 90,
+      "DVs": {
+        "hp": 8,
+        "atk": 5,
+        "def": 4,
+        "spe": 4,
+        "spc": 4
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "ヘルガー-7",
+      "species": "ヘルガー",
+      "setNumber": 7,
+      "item": "はっかのみ",
+      "move1": "かみくだく",
+      "move2": "かえんほうしゃ",
+      "move3": "ほえる",
+      "move4": "ねむる",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "244 HP, 244 Atk, 244 Def, 244 SpA, 244 SpD, 244 Spe"
+    },
+    {
+      "setName": "カイリキー-5",
+      "species": "カイリキー",
+      "setNumber": 5,
+      "item": "せんせいのツメ",
+      "move1": "クロスチョップ",
+      "move2": "じしん",
+      "move3": "はかいこうせん",
+      "move4": "あてみなげ",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "244 HP, 244 Atk, 244 Def, 244 SpA, 244 SpD, 244 Spe"
+    },
+    {
+      "setName": "キングドラ-6",
+      "species": "キングドラ",
+      "setNumber": 6,
+      "item": "たべのこし",
+      "move1": "なみのり",
+      "move2": "りゅうのいぶき",
+      "move3": "ねむる",
+      "move4": "どくどく",
+      "level": 100,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "244 HP, 244 Atk, 244 Def, 244 SpA, 244 SpD, 244 Spe"
+    },
+    {
+      "setName": "サンダース-6",
+      "species": "サンダース",
+      "setNumber": 6,
+      "item": "ひかりのこな",
+      "move1": "１０まんボルト",
+      "move2": "ほえる",
+      "move3": "でんじは",
+      "move4": "アイアンテール",
+      "level": 100,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 173 Spe"
+    },
+    {
+      "setName": "ケンタロス-6",
+      "species": "ケンタロス",
+      "setNumber": 6,
+      "item": "おうじゃのしるし",
+      "move1": "はかいこうせん",
+      "move2": "じしん",
+      "move3": "アイアンテール",
+      "move4": "１０まんボルト",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "ウインディ-5",
+      "species": "ウインディ",
+      "setNumber": 5,
+      "item": "たべのこし",
+      "move1": "かえんほうしゃ",
+      "move2": "しんそく",
+      "move3": "アイアンテール",
+      "move4": "はかいこうせん",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "234 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "リザードン-3",
+      "species": "リザードン",
+      "setNumber": 3,
+      "item": "ピントレンズ",
+      "move1": "かえんほうしゃ",
+      "move2": "じしん",
+      "move3": "きりさく",
+      "move4": "そらをとぶ",
+      "level": 100,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 234 Def, 234 SpA, 234 SpD, 234 Spe"
+    },
+    {
+      "setName": "マルマイン-4",
+      "species": "マルマイン",
+      "setNumber": 4,
+      "item": "ひかりのこな",
+      "move1": "でんじは",
+      "move2": "１０まんボルト",
+      "move3": "だいばくはつ",
+      "move4": "ミラーコート",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 212 Spe"
+    },
+    {
+      "setName": "サイドン-2",
+      "species": "サイドン",
+      "setNumber": 2,
+      "item": "きせきのみ",
+      "move1": "なみのり",
+      "move2": "じしん",
+      "move3": "はかいこうせん",
+      "move4": "いわなだれ",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "234 HP, 223 Atk, 234 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "ハガネール-4",
+      "species": "ハガネール",
+      "setNumber": 4,
+      "item": "たべのこし",
+      "move1": "じしん",
+      "move2": "はかいこうせん",
+      "move3": "いばる",
+      "move4": "かみくだく",
+      "level": 100,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 234 Def, 223 SpA, 223 SpD, 244 Spe"
+    },
+    {
+      "setName": "オニドリル-2",
+      "species": "オニドリル",
+      "setNumber": 2,
+      "item": "おうじゃのしるし",
+      "move1": "ドリルくちばし",
+      "move2": "はがねのつばさ",
+      "move3": "はかいこうせん",
+      "move4": "どろかけ",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 12,
+        "spc": 15
+      },
+      "EVs": "234 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "ムウマ-2",
+      "species": "ムウマ",
+      "setNumber": 2,
+      "item": "きあいのハチマキ",
+      "move1": "ほろびのうた",
+      "move2": "くろいまなざし",
+      "move3": "いたみわけ",
+      "move4": "シャドーボール",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "212 HP, 223 Atk, 234 Def, 234 SpA, 234 SpD, 223 Spe"
+    },
+    {
+      "setName": "ニューラ-2",
+      "species": "ニューラ",
+      "setNumber": 2,
+      "item": "ピントレンズ",
+      "move1": "きりさく",
+      "move2": "ふぶき",
+      "move3": "ゆめくい",
+      "move4": "だましうち",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 219 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "ハッサム-4",
+      "species": "ハッサム",
+      "setNumber": 4,
+      "item": "せんせいのツメ",
+      "move1": "はがねのつばさ",
+      "move2": "はかいこうせん",
+      "move3": "きりさく",
+      "move4": "どくどく",
+      "level": 100,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 11,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "ハピナス-7",
+      "species": "ハピナス",
+      "setNumber": 7,
+      "item": "たべのこし",
+      "move1": "１０まんボルト",
+      "move2": "ふぶき",
+      "move3": "だいもんじ",
+      "move4": "タマゴうみ",
+      "level": 100,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "イノムー-1",
+      "species": "イノムー",
+      "setNumber": 1,
+      "item": "はっかのみ",
+      "move1": "ねむる",
+      "move2": "ふぶき",
+      "move3": "はかいこうせん",
+      "move4": "じしん",
+      "level": 100,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "ナッシー-5",
+      "species": "ナッシー",
+      "setNumber": 5,
+      "item": "せんせいのツメ",
+      "move1": "サイコキネシス",
+      "move2": "どくどく",
+      "move3": "だいばくはつ",
+      "move4": "ギガドレイン",
+      "level": 100,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "オムスター-2",
+      "species": "オムスター",
+      "setNumber": 2,
+      "item": "たべのこし",
+      "move1": "なみのり",
+      "move2": "げんしのちから",
+      "move3": "ふぶき",
+      "move4": "どくどく",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "ゴローニャ-3",
+      "species": "ゴローニャ",
+      "setNumber": 3,
+      "item": "ひかりのこな",
+      "move1": "だいばくはつ",
+      "move2": "じしん",
+      "move3": "いわなだれ",
+      "move4": "だいもんじ",
+      "level": 100,
+      "DVs": {
+        "hp": 8,
+        "atk": 7,
+        "def": 4,
+        "spe": 4,
+        "spc": 6
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "エビワラー-2",
+      "species": "エビワラー",
+      "setNumber": 2,
+      "item": "きあいのハチマキ",
+      "move1": "カウンター",
+      "move2": "ほのおのパンチ",
+      "move3": "かみなりパンチ",
+      "move4": "れいとうパンチ",
+      "level": 100,
+      "DVs": {
+        "hp": 6,
+        "atk": 6,
+        "def": 7,
+        "spe": 7,
+        "spc": 6
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "ランターン-2",
+      "species": "ランターン",
+      "setNumber": 2,
+      "item": "せんせいのツメ",
+      "move1": "なみのり",
+      "move2": "あまごい",
+      "move3": "でんじほう",
+      "move4": "あやしいひかり",
+      "level": 100,
+      "DVs": {
+        "hp": 11,
+        "atk": 7,
+        "def": 6,
+        "spe": 5,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    }
+  ]
+}

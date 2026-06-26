@@ -251,6 +251,39 @@ export const GAMES = [
         ],
         variants: frontier3Variants(),
     },
+    {
+        // Gen-2 Crystal Battle Tower (oldest gen → listed last). Unlike every
+        // other facility the opponents DON'T depend on a trainer: their teams are
+        // drawn randomly from a per-LEVEL pool, so we model each LEVEL (10,20,…,100)
+        // as a "trainer" ("Level 10" … "Level 100"), each fielding its 21-set pool
+        // (cf. the gen-3 Factory's battle-number arrays). Singles only; no quotes.
+        //
+        // Gen-2 mechanics (`gen: 2`): DVs (0-15) instead of IVs, Stat Exp instead of
+        // EVs, and NO natures / abilities / held-item speed modifiers. The renderer
+        // and speed.js branch on the generation; sets carry `DVs`, `level`, and EVs
+        // already converted from Stat Exp (EV = min(252, floor√statexp)) so the
+        // standard speed/Showdown pipeline reproduces the game exactly.
+        code: 'crystal',
+        name: 'Battle Tower',
+        icons: ['assets/images/games/c.png'],
+        variants: [
+            {
+                code: 'crystal-tower',
+                name: 'Battle Tower',
+                default: true,
+                dataDir: 'crystal-tower',
+                pokedex: 'data/pokedex-2.json',
+                gen: 2,
+                languages: ['en', 'fr', 'de', 'it', 'es', 'jp'],   // gen 2: no ko/Chinese
+                modes: ['singles'],
+                hasTrainers: true,
+                hasQuotes: false,        // gen-2 Tower trainers have no quotes
+                showMinisprites: true,
+                orderedTrainers: true,   // keep "Level 10".."Level 100" in numeric order
+                icons: ['assets/images/games/c.png'],
+            },
+        ],
+    },
 ];
 
 // Gen-3 Battle Frontier variants (version × facility). Add facilities to
@@ -510,7 +543,7 @@ export const THEMES = [
 
 // Appended to every data fetch (?v=...) so browsers pick up new data after a
 // deploy instead of serving stale cached JSON. Bump when data files change.
-export const DATA_VERSION = '2026-06-25d';
+export const DATA_VERSION = '2026-06-26a';
 
 export const LANGUAGE_NAMES = {
     en: 'English',

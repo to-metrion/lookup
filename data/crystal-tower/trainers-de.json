@@ -1,0 +1,124 @@
+{
+  "trainers": [
+    {
+      "name": "Level 10",
+      "class": "",
+      "roster": "Blitza-1, Psiana-1, Nachtara-1, Woingenau-1, Kangama-1, Corasonn-1, Miltank-1, Aerodactyl-1, Lapras-1, Sniebel-1, Porygon2-1, Traunfugil-1, Hunduster-1, Girafarig-1, Heiteira-1, Relaxo-1, Kokowei-1, Skaraborn-1, Icognito-1, Tauros-1, Pantimos-1",
+      "species": "Blitza, Psiana, Nachtara, Woingenau, Kangama, Corasonn, Miltank, Aerodactyl, Lapras, Sniebel, Porygon2, Traunfugil, Hunduster, Girafarig, Heiteira, Relaxo, Kokowei, Skaraborn, Icognito, Tauros, Pantimos",
+      "iv": 0,
+      "late": "",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": ""
+    },
+    {
+      "name": "Level 20",
+      "class": "",
+      "roster": "Nachtara-2, Starmie-1, Garados-1, Stahlos-1, Simsala-1, Arkani-1, Skaraborn-2, Kokowei-2, Aerodactyl-2, Heiteira-2, Lapras-2, Pikachu-1, Scherox-1, Nockchan-1, Tauros-2, Azumarill-1, Miltank-2, Knuddeluff-1, Knuddeluff-2, Nidoking-1, Morlord-1",
+      "species": "Nachtara, Starmie, Garados, Stahlos, Simsala, Arkani, Skaraborn, Kokowei, Aerodactyl, Heiteira, Lapras, Pikachu, Scherox, Nockchan, Tauros, Azumarill, Miltank, Knuddeluff, Nidoking, Morlord",
+      "iv": 0,
+      "late": "",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": ""
+    },
+    {
+      "name": "Level 30",
+      "class": "",
+      "roster": "Blitza-2, Quappo-1, Starmie-2, Rossana-1, Digdri-1, Blubella-1, Heiteira-3, Hundemon-1, Machomei-1, Iksbat-1, Porygon2-2, Knogga-1, Lektrobal-1, Lapras-3, Lanturn-1, Psiana-2, Tentoxa-1, Gengar-1, Ursaring-1, Ibitak-1, Rasaff-1",
+      "species": "Blitza, Quappo, Starmie, Rossana, Digdri, Blubella, Heiteira, Hundemon, Machomei, Iksbat, Porygon2, Knogga, Lektrobal, Lapras, Lanturn, Psiana, Tentoxa, Gengar, Ursaring, Ibitak, Rasaff",
+      "iv": 0,
+      "late": "",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": ""
+    },
+    {
+      "name": "Level 40",
+      "class": "",
+      "roster": "Tauros-3, Seedraking-1, Relaxo-2, Lapras-4, Stahlos-2, Simsala-2, Starmie-3, Woingenau-2, Geowaz-1, Scherox-2, Digdri-2, Lahmus-1, Porygon2-3, Arkani-2, Forstellka-1, Amoroso-1, Glurak-1, Kokowei-3, Hypno-1, Sleimok-1, Elektek-1",
+      "species": "Tauros, Seedraking, Relaxo, Lapras, Stahlos, Simsala, Starmie, Woingenau, Geowaz, Scherox, Digdri, Lahmus, Porygon2, Arkani, Forstellka, Amoroso, Glurak, Kokowei, Hypno, Sleimok, Elektek",
+      "iv": 0,
+      "late": "",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": ""
+    },
+    {
+      "name": "Level 50",
+      "class": "",
+      "roster": "Seedraking-2, Hundemon-2, Pottrott-1, Relaxo-3, Lapras-5, Blitza-3, Scherox-3, Laschoking-1, Machomei-2, Starmie-4, Digdri-3, Lektrobal-2, Aerodactyl-3, Iksbat-2, Zapdos-1, Panzaeron-1, Forstellka-2, Stahlos-3, Girafarig-2, Garados-2, Arktos-1",
+      "species": "Seedraking, Hundemon, Pottrott, Relaxo, Lapras, Blitza, Scherox, Laschoking, Machomei, Starmie, Digdri, Lektrobal, Aerodactyl, Iksbat, Zapdos, Panzaeron, Forstellka, Stahlos, Girafarig, Garados, Arktos",
+      "iv": 0,
+      "late": "",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": ""
+    },
+    {
+      "name": "Level 60",
+      "class": "",
+      "roster": "Seedraking-3, Despotar-1, Hundemon-3, Porygon2-4, Machomei-3, Zapdos-2, Woingenau-3, Aerodactyl-4, Dragoran-1, Nachtara-3, Arkani-3, Panzaeron-2, Heiteira-4, Relaxo-4, Skaraborn-3, Rossana-2, Turtok-1, Rizeros-1, Sandamer-1, Parasek-1, Geowaz-2",
+      "species": "Seedraking, Despotar, Hundemon, Porygon2, Machomei, Zapdos, Woingenau, Aerodactyl, Dragoran, Nachtara, Arkani, Panzaeron, Heiteira, Relaxo, Skaraborn, Rossana, Turtok, Rizeros, Sandamer, Parasek, Geowaz",
+      "iv": 0,
+      "late": "",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": ""
+    },
+    {
+      "name": "Level 70",
+      "class": "",
+      "roster": "Blitza-4, Aquana-1, Nachtara-4, Heiteira-5, Relaxo-5, Hundemon-4, Despotar-2, Zapdos-3, Kokowei-4, Nachtara-5, Garados-3, Morlord-2, Ursaring-2, Pantimos-2, Rasaff-2, Girafarig-3, Kicklee-1, Skaraborn-4, Bisaflor-1, Glurak-2, Turtok-2",
+      "species": "Blitza, Aquana, Nachtara, Heiteira, Relaxo, Hundemon, Despotar, Zapdos, Kokowei, Garados, Morlord, Ursaring, Pantimos, Rasaff, Girafarig, Kicklee, Skaraborn, Bisaflor, Glurak, Turtok",
+      "iv": 0,
+      "late": "",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": ""
+    },
+    {
+      "name": "Level 80",
+      "class": "",
+      "roster": "Blitza-5, Relaxo-6, Hundemon-5, Tauros-4, Lapras-6, Despotar-3, Gengar-2, Forstellka-3, Seedraking-4, Dragoran-2, Porygon2-5, Rossana-3, Mantax-1, Panzaeron-3, Lavados-1, Aerodactyl-5, Lektrobal-3, Digdri-4, Sarzenia-1, Pinsir-1, Granbull-1",
+      "species": "Blitza, Relaxo, Hundemon, Tauros, Lapras, Despotar, Gengar, Forstellka, Seedraking, Dragoran, Porygon2, Rossana, Mantax, Panzaeron, Lavados, Aerodactyl, Lektrobal, Digdri, Sarzenia, Pinsir, Granbull",
+      "iv": 0,
+      "late": "",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": ""
+    },
+    {
+      "name": "Level 90",
+      "class": "",
+      "roster": "Nachtara-6, Dragoran-3, Starmie-5, Austos-1, Iksbat-3, Porygon2-6, Seedraking-5, Despotar-4, Lapras-7, Psiana-3, Machomei-4, Relaxo-7, Arkani-4, Heiteira-6, Hundemon-6, Panzaeron-4, Pottrott-2, Flamara-1, Miltank-3, Tauros-5, Sleimok-2",
+      "species": "Nachtara, Dragoran, Starmie, Austos, Iksbat, Porygon2, Seedraking, Despotar, Lapras, Psiana, Machomei, Relaxo, Arkani, Heiteira, Hundemon, Panzaeron, Pottrott, Flamara, Miltank, Tauros, Sleimok",
+      "iv": 0,
+      "late": "",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": ""
+    },
+    {
+      "name": "Level 100",
+      "class": "",
+      "roster": "Hundemon-7, Machomei-5, Seedraking-6, Blitza-6, Tauros-6, Arkani-5, Glurak-3, Lektrobal-4, Rizeros-2, Stahlos-4, Ibitak-2, Traunfugil-2, Sniebel-2, Scherox-4, Heiteira-7, Keifel-1, Kokowei-5, Amoroso-2, Geowaz-3, Nockchan-2, Lanturn-2",
+      "species": "Hundemon, Machomei, Seedraking, Blitza, Tauros, Arkani, Glurak, Lektrobal, Rizeros, Stahlos, Ibitak, Traunfugil, Sniebel, Scherox, Heiteira, Keifel, Kokowei, Amoroso, Geowaz, Nockchan, Lanturn",
+      "iv": 0,
+      "late": "",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": ""
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "trainers": [
+    {
+      "name": "Niveau 10",
+      "class": "",
+      "roster": "Voltali-1, Mentali-1, Noctali-1, Qulbutoke-1, Kangourex-1, Corayon-1, Ecremeuh-1, Ptera-1, Lokhlass-1, Farfuret-1, Porygon2-1, Feuforeve-1, Malosse-1, Girafarig-1, Leuphorie-1, Ronflex-1, Noadkoko-1, Scarhino-1, Zarbi-1, Tauros-1, M.Mime-1",
+      "species": "Voltali, Mentali, Noctali, Qulbutoke, Kangourex, Corayon, Ecremeuh, Ptera, Lokhlass, Farfuret, Porygon2, Feuforeve, Malosse, Girafarig, Leuphorie, Ronflex, Noadkoko, Scarhino, Zarbi, Tauros, M.Mime",
+      "iv": 0,
+      "late": "",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": ""
+    },
+    {
+      "name": "Niveau 20",
+      "class": "",
+      "roster": "Noctali-2, Staross-1, Leviator-1, Steelix-1, Alakazam-1, Arcanin-1, Scarhino-2, Noadkoko-2, Ptera-2, Leuphorie-2, Lokhlass-2, Pikachu-1, Cizayox-1, Tygnon-1, Tauros-2, Azumarill-1, Ecremeuh-2, Grodoudou-1, Grodoudou-2, Nidoking-1, Maraiste-1",
+      "species": "Noctali, Staross, Leviator, Steelix, Alakazam, Arcanin, Scarhino, Noadkoko, Ptera, Leuphorie, Lokhlass, Pikachu, Cizayox, Tygnon, Tauros, Azumarill, Ecremeuh, Grodoudou, Nidoking, Maraiste",
+      "iv": 0,
+      "late": "",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": ""
+    },
+    {
+      "name": "Niveau 30",
+      "class": "",
+      "roster": "Voltali-2, Tartard-1, Staross-2, Lippoutou-1, Triopikeur-1, Joliflor-1, Leuphorie-3, Demolosse-1, Mackogneur-1, Nostenfer-1, Porygon2-2, Ossatueur-1, Electrode-1, Lokhlass-3, Lanturn-1, Mentali-2, Tentacruel-1, Ectoplasma-1, Ursaring-1, Rapasdepic-1, Colossinge-1",
+      "species": "Voltali, Tartard, Staross, Lippoutou, Triopikeur, Joliflor, Leuphorie, Demolosse, Mackogneur, Nostenfer, Porygon2, Ossatueur, Electrode, Lokhlass, Lanturn, Mentali, Tentacruel, Ectoplasma, Ursaring, Rapasdepic, Colossinge",
+      "iv": 0,
+      "late": "",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": ""
+    },
+    {
+      "name": "Niveau 40",
+      "class": "",
+      "roster": "Tauros-3, Hyporoi-1, Ronflex-2, Lokhlass-4, Steelix-2, Alakazam-2, Staross-3, Qulbutoke-2, Grolem-1, Cizayox-2, Triopikeur-2, Flagadoss-1, Porygon2-3, Arcanin-2, Foretress-1, Amonistar-1, Dracaufeu-1, Noadkoko-3, Hypnomade-1, Grotadmorv-1, Elektek-1",
+      "species": "Tauros, Hyporoi, Ronflex, Lokhlass, Steelix, Alakazam, Staross, Qulbutoke, Grolem, Cizayox, Triopikeur, Flagadoss, Porygon2, Arcanin, Foretress, Amonistar, Dracaufeu, Noadkoko, Hypnomade, Grotadmorv, Elektek",
+      "iv": 0,
+      "late": "",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": ""
+    },
+    {
+      "name": "Niveau 50",
+      "class": "",
+      "roster": "Hyporoi-2, Demolosse-2, Caratroc-1, Ronflex-3, Lokhlass-5, Voltali-3, Cizayox-3, Roigada-1, Mackogneur-2, Staross-4, Triopikeur-3, Electrode-2, Ptera-3, Nostenfer-2, Electhor-1, Airmure-1, Foretress-2, Steelix-3, Girafarig-2, Leviator-2, Artikodin-1",
+      "species": "Hyporoi, Demolosse, Caratroc, Ronflex, Lokhlass, Voltali, Cizayox, Roigada, Mackogneur, Staross, Triopikeur, Electrode, Ptera, Nostenfer, Electhor, Airmure, Foretress, Steelix, Girafarig, Leviator, Artikodin",
+      "iv": 0,
+      "late": "",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": ""
+    },
+    {
+      "name": "Niveau 60",
+      "class": "",
+      "roster": "Hyporoi-3, Tyranocif-1, Demolosse-3, Porygon2-4, Mackogneur-3, Electhor-2, Qulbutoke-3, Ptera-4, Dracolosse-1, Noctali-3, Arcanin-3, Airmure-2, Leuphorie-4, Ronflex-4, Scarhino-3, Lippoutou-2, Tortank-1, Rhinoferos-1, Sablaireau-1, Parasect-1, Grolem-2",
+      "species": "Hyporoi, Tyranocif, Demolosse, Porygon2, Mackogneur, Electhor, Qulbutoke, Ptera, Dracolosse, Noctali, Arcanin, Airmure, Leuphorie, Ronflex, Scarhino, Lippoutou, Tortank, Rhinoferos, Sablaireau, Parasect, Grolem",
+      "iv": 0,
+      "late": "",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": ""
+    },
+    {
+      "name": "Niveau 70",
+      "class": "",
+      "roster": "Voltali-4, Aquali-1, Noctali-4, Leuphorie-5, Ronflex-5, Demolosse-4, Tyranocif-2, Electhor-3, Noadkoko-4, Noctali-5, Leviator-3, Maraiste-2, Ursaring-2, M.Mime-2, Colossinge-2, Girafarig-3, Kicklee-1, Scarhino-4, Florizarre-1, Dracaufeu-2, Tortank-2",
+      "species": "Voltali, Aquali, Noctali, Leuphorie, Ronflex, Demolosse, Tyranocif, Electhor, Noadkoko, Leviator, Maraiste, Ursaring, M.Mime, Colossinge, Girafarig, Kicklee, Scarhino, Florizarre, Dracaufeu, Tortank",
+      "iv": 0,
+      "late": "",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": ""
+    },
+    {
+      "name": "Niveau 80",
+      "class": "",
+      "roster": "Voltali-5, Ronflex-6, Demolosse-5, Tauros-4, Lokhlass-6, Tyranocif-3, Ectoplasma-2, Foretress-3, Hyporoi-4, Dracolosse-2, Porygon2-5, Lippoutou-3, Demanta-1, Airmure-3, Sulfura-1, Ptera-5, Electrode-3, Triopikeur-4, Empiflor-1, Scarabrute-1, Granbull-1",
+      "species": "Voltali, Ronflex, Demolosse, Tauros, Lokhlass, Tyranocif, Ectoplasma, Foretress, Hyporoi, Dracolosse, Porygon2, Lippoutou, Demanta, Airmure, Sulfura, Ptera, Electrode, Triopikeur, Empiflor, Scarabrute, Granbull",
+      "iv": 0,
+      "late": "",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": ""
+    },
+    {
+      "name": "Niveau 90",
+      "class": "",
+      "roster": "Noctali-6, Dracolosse-3, Staross-5, Crustabri-1, Nostenfer-3, Porygon2-6, Hyporoi-5, Tyranocif-4, Lokhlass-7, Mentali-3, Mackogneur-4, Ronflex-7, Arcanin-4, Leuphorie-6, Demolosse-6, Airmure-4, Caratroc-2, Pyroli-1, Ecremeuh-3, Tauros-5, Grotadmorv-2",
+      "species": "Noctali, Dracolosse, Staross, Crustabri, Nostenfer, Porygon2, Hyporoi, Tyranocif, Lokhlass, Mentali, Mackogneur, Ronflex, Arcanin, Leuphorie, Demolosse, Airmure, Caratroc, Pyroli, Ecremeuh, Tauros, Grotadmorv",
+      "iv": 0,
+      "late": "",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": ""
+    },
+    {
+      "name": "Niveau 100",
+      "class": "",
+      "roster": "Demolosse-7, Mackogneur-5, Hyporoi-6, Voltali-6, Tauros-6, Arcanin-5, Dracaufeu-3, Electrode-4, Rhinoferos-2, Steelix-4, Rapasdepic-2, Feuforeve-2, Farfuret-2, Cizayox-4, Leuphorie-7, Cochignon-1, Noadkoko-5, Amonistar-2, Grolem-3, Tygnon-2, Lanturn-2",
+      "species": "Demolosse, Mackogneur, Hyporoi, Voltali, Tauros, Arcanin, Dracaufeu, Electrode, Rhinoferos, Steelix, Rapasdepic, Feuforeve, Farfuret, Cizayox, Leuphorie, Cochignon, Noadkoko, Amonistar, Grolem, Tygnon, Lanturn",
+      "iv": 0,
+      "late": "",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": ""
+    }
+  ]
+}

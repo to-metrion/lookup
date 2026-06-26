@@ -1,0 +1,124 @@
+{
+  "trainers": [
+    {
+      "name": "Level 10",
+      "class": "",
+      "roster": "Jolteon-1, Espeon-1, Umbreon-1, Wobbuffet-1, Kangaskhan-1, Corsola-1, Miltank-1, Aerodactyl-1, Lapras-1, Sneasel-1, Porygon2-1, Misdreavus-1, Houndour-1, Girafarig-1, Blissey-1, Snorlax-1, Exeggutor-1, Heracross-1, Unown-1, Tauros-1, Mr. Mime-1",
+      "species": "Jolteon, Espeon, Umbreon, Wobbuffet, Kangaskhan, Corsola, Miltank, Aerodactyl, Lapras, Sneasel, Porygon2, Misdreavus, Houndour, Girafarig, Blissey, Snorlax, Exeggutor, Heracross, Unown, Tauros, Mr. Mime",
+      "iv": 0,
+      "late": "",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": ""
+    },
+    {
+      "name": "Level 20",
+      "class": "",
+      "roster": "Umbreon-2, Starmie-1, Gyarados-1, Steelix-1, Alakazam-1, Arcanine-1, Heracross-2, Exeggutor-2, Aerodactyl-2, Blissey-2, Lapras-2, Pikachu-1, Scizor-1, Hitmonchan-1, Tauros-2, Azumarill-1, Miltank-2, Wigglytuff-1, Wigglytuff-2, Nidoking-1, Quagsire-1",
+      "species": "Umbreon, Starmie, Gyarados, Steelix, Alakazam, Arcanine, Heracross, Exeggutor, Aerodactyl, Blissey, Lapras, Pikachu, Scizor, Hitmonchan, Tauros, Azumarill, Miltank, Wigglytuff, Nidoking, Quagsire",
+      "iv": 0,
+      "late": "",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": ""
+    },
+    {
+      "name": "Level 30",
+      "class": "",
+      "roster": "Jolteon-2, Poliwrath-1, Starmie-2, Jynx-1, Dugtrio-1, Bellossom-1, Blissey-3, Houndoom-1, Machamp-1, Crobat-1, Porygon2-2, Marowak-1, Electrode-1, Lapras-3, Lanturn-1, Espeon-2, Tentacruel-1, Gengar-1, Ursaring-1, Fearow-1, Primeape-1",
+      "species": "Jolteon, Poliwrath, Starmie, Jynx, Dugtrio, Bellossom, Blissey, Houndoom, Machamp, Crobat, Porygon2, Marowak, Electrode, Lapras, Lanturn, Espeon, Tentacruel, Gengar, Ursaring, Fearow, Primeape",
+      "iv": 0,
+      "late": "",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": ""
+    },
+    {
+      "name": "Level 40",
+      "class": "",
+      "roster": "Tauros-3, Kingdra-1, Snorlax-2, Lapras-4, Steelix-2, Alakazam-2, Starmie-3, Wobbuffet-2, Golem-1, Scizor-2, Dugtrio-2, Slowbro-1, Porygon2-3, Arcanine-2, Forretress-1, Omastar-1, Charizard-1, Exeggutor-3, Hypno-1, Muk-1, Electabuzz-1",
+      "species": "Tauros, Kingdra, Snorlax, Lapras, Steelix, Alakazam, Starmie, Wobbuffet, Golem, Scizor, Dugtrio, Slowbro, Porygon2, Arcanine, Forretress, Omastar, Charizard, Exeggutor, Hypno, Muk, Electabuzz",
+      "iv": 0,
+      "late": "",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": ""
+    },
+    {
+      "name": "Level 50",
+      "class": "",
+      "roster": "Kingdra-2, Houndoom-2, Shuckle-1, Snorlax-3, Lapras-5, Jolteon-3, Scizor-3, Slowking-1, Machamp-2, Starmie-4, Dugtrio-3, Electrode-2, Aerodactyl-3, Crobat-2, Zapdos-1, Skarmory-1, Forretress-2, Steelix-3, Girafarig-2, Gyarados-2, Articuno-1",
+      "species": "Kingdra, Houndoom, Shuckle, Snorlax, Lapras, Jolteon, Scizor, Slowking, Machamp, Starmie, Dugtrio, Electrode, Aerodactyl, Crobat, Zapdos, Skarmory, Forretress, Steelix, Girafarig, Gyarados, Articuno",
+      "iv": 0,
+      "late": "",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": ""
+    },
+    {
+      "name": "Level 60",
+      "class": "",
+      "roster": "Kingdra-3, Tyranitar-1, Houndoom-3, Porygon2-4, Machamp-3, Zapdos-2, Wobbuffet-3, Aerodactyl-4, Dragonite-1, Umbreon-3, Arcanine-3, Skarmory-2, Blissey-4, Snorlax-4, Heracross-3, Jynx-2, Blastoise-1, Rhydon-1, Sandslash-1, Parasect-1, Golem-2",
+      "species": "Kingdra, Tyranitar, Houndoom, Porygon2, Machamp, Zapdos, Wobbuffet, Aerodactyl, Dragonite, Umbreon, Arcanine, Skarmory, Blissey, Snorlax, Heracross, Jynx, Blastoise, Rhydon, Sandslash, Parasect, Golem",
+      "iv": 0,
+      "late": "",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": ""
+    },
+    {
+      "name": "Level 70",
+      "class": "",
+      "roster": "Jolteon-4, Vaporeon-1, Umbreon-4, Blissey-5, Snorlax-5, Houndoom-4, Tyranitar-2, Zapdos-3, Exeggutor-4, Umbreon-5, Gyarados-3, Quagsire-2, Ursaring-2, Mr. Mime-2, Primeape-2, Girafarig-3, Hitmonlee-1, Heracross-4, Venusaur-1, Charizard-2, Blastoise-2",
+      "species": "Jolteon, Vaporeon, Umbreon, Blissey, Snorlax, Houndoom, Tyranitar, Zapdos, Exeggutor, Gyarados, Quagsire, Ursaring, Mr. Mime, Primeape, Girafarig, Hitmonlee, Heracross, Venusaur, Charizard, Blastoise",
+      "iv": 0,
+      "late": "",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": ""
+    },
+    {
+      "name": "Level 80",
+      "class": "",
+      "roster": "Jolteon-5, Snorlax-6, Houndoom-5, Tauros-4, Lapras-6, Tyranitar-3, Gengar-2, Forretress-3, Kingdra-4, Dragonite-2, Porygon2-5, Jynx-3, Mantine-1, Skarmory-3, Moltres-1, Aerodactyl-5, Electrode-3, Dugtrio-4, Victreebel-1, Pinsir-1, Granbull-1",
+      "species": "Jolteon, Snorlax, Houndoom, Tauros, Lapras, Tyranitar, Gengar, Forretress, Kingdra, Dragonite, Porygon2, Jynx, Mantine, Skarmory, Moltres, Aerodactyl, Electrode, Dugtrio, Victreebel, Pinsir, Granbull",
+      "iv": 0,
+      "late": "",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": ""
+    },
+    {
+      "name": "Level 90",
+      "class": "",
+      "roster": "Umbreon-6, Dragonite-3, Starmie-5, Cloyster-1, Crobat-3, Porygon2-6, Kingdra-5, Tyranitar-4, Lapras-7, Espeon-3, Machamp-4, Snorlax-7, Arcanine-4, Blissey-6, Houndoom-6, Skarmory-4, Shuckle-2, Flareon-1, Miltank-3, Tauros-5, Muk-2",
+      "species": "Umbreon, Dragonite, Starmie, Cloyster, Crobat, Porygon2, Kingdra, Tyranitar, Lapras, Espeon, Machamp, Snorlax, Arcanine, Blissey, Houndoom, Skarmory, Shuckle, Flareon, Miltank, Tauros, Muk",
+      "iv": 0,
+      "late": "",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": ""
+    },
+    {
+      "name": "Level 100",
+      "class": "",
+      "roster": "Houndoom-7, Machamp-5, Kingdra-6, Jolteon-6, Tauros-6, Arcanine-5, Charizard-3, Electrode-4, Rhydon-2, Steelix-4, Fearow-2, Misdreavus-2, Sneasel-2, Scizor-4, Blissey-7, Piloswine-1, Exeggutor-5, Omastar-2, Golem-3, Hitmonchan-2, Lanturn-2",
+      "species": "Houndoom, Machamp, Kingdra, Jolteon, Tauros, Arcanine, Charizard, Electrode, Rhydon, Steelix, Fearow, Misdreavus, Sneasel, Scizor, Blissey, Piloswine, Exeggutor, Omastar, Golem, Hitmonchan, Lanturn",
+      "iv": 0,
+      "late": "",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": ""
+    }
+  ]
+}

@@ -1215,6 +1215,13 @@ button:focus {
     padding: 0.5em;
 }
 
+/* Gen 2 (Crystal Tower) has a long EVs list + level in the right column; top-align
+   it so the last lines sit well above the absolutely-positioned copy button at the
+   panel's bottom-right corner (the tall left sprite column sets the panel height). */
+.set-details.gen2 .right-column {
+    justify-content: flex-start;
+}
+
 .left-column .large-sprite {
     width: 7.8em; /* 125px at full size; scales with the fitted font */
     height: auto;
@@ -1229,7 +1236,8 @@ button:focus {
 .speed,
 .abilities,
 .evs,
-.ivs {
+.ivs,
+.dvs {
     margin-bottom: 5px;
 }
 
@@ -1431,7 +1439,8 @@ button:focus {
 }
 
 .evs,
-.ivs {
+.ivs,
+.dvs {
     font-size: 1.2em;
     white-space: nowrap;
 }

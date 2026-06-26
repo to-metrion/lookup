@@ -1,0 +1,3996 @@
+{
+  "sets": [
+    {
+      "setName": "Jolteon-1",
+      "species": "Jolteon",
+      "setNumber": 1,
+      "item": "Bacca Mirac.",
+      "move1": "Fulmine",
+      "move2": "Iper-Raggio",
+      "move3": "Palla Ombra",
+      "move4": "Boato",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 11,
+        "spc": 13
+      },
+      "EVs": "223 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 187 Spe"
+    },
+    {
+      "setName": "Espeon-1",
+      "species": "Espeon",
+      "setNumber": 1,
+      "item": "Avanzi",
+      "move1": "Fangosberla",
+      "move2": "Psichico",
+      "move3": "Psicamisù",
+      "move4": "Tossina",
+      "level": 10,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 13,
+        "spe": 15,
+        "spc": 11
+      },
+      "EVs": "200 HP, 223 Atk, 187 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "Umbreon-1",
+      "species": "Umbreon",
+      "setNumber": 1,
+      "item": "Bacca Oro",
+      "move1": "Palla Ombra",
+      "move2": "Codacciaio",
+      "move3": "Psicamisù",
+      "move4": "Tossina",
+      "level": 10,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 11,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "200 HP, 200 Atk, 212 Def, 200 SpA, 200 SpD, 223 Spe"
+    },
+    {
+      "setName": "Wobbuffet-1",
+      "species": "Wobbuffet",
+      "setNumber": 1,
+      "item": "Bandana",
+      "move1": "Contatore",
+      "move2": "Specchiovelo",
+      "move3": "Salvaguardia",
+      "move4": "Destinobbl.",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 7,
+        "def": 15,
+        "spe": 13,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Kangaskhan-1",
+      "species": "Kangaskhan",
+      "setNumber": 1,
+      "item": "Bacca Mirac.",
+      "move1": "Contropiede",
+      "move2": "Iper-Raggio",
+      "move3": "Terremoto",
+      "move4": "Attrazione",
+      "level": 10,
+      "DVs": {
+        "hp": 5,
+        "atk": 14,
+        "def": 15,
+        "spe": 12,
+        "spc": 15
+      },
+      "EVs": "200 HP, 173 Atk, 200 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Corsola-1",
+      "species": "Corsola",
+      "setNumber": 1,
+      "item": "Mirino",
+      "move1": "Surf",
+      "move2": "Psichico",
+      "move3": "Ripresa",
+      "move4": "Forzantica",
+      "level": 10,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "200 HP, 173 Atk, 182 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Miltank-1",
+      "species": "Miltank",
+      "setNumber": 1,
+      "item": "Bacca Oro",
+      "move1": "Bora",
+      "move2": "Terremoto",
+      "move3": "Iper-Raggio",
+      "move4": "Tossina",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 11,
+        "def": 11,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 187 SpA, 187 SpD, 173 Spe"
+    },
+    {
+      "setName": "Aerodactyl-1",
+      "species": "Aerodactyl",
+      "setNumber": 1,
+      "item": "Avanzi",
+      "move1": "Iper-Raggio",
+      "move2": "Supersuono",
+      "move3": "Terremoto",
+      "move4": "Morso",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 11,
+        "spe": 15,
+        "spc": 11
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Lapras-1",
+      "species": "Lapras",
+      "setNumber": 1,
+      "item": "Bacca Mirac.",
+      "move1": "Bora",
+      "move2": "Surf",
+      "move3": "Fulmine",
+      "move4": "Psichico",
+      "level": 10,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Sneasel-1",
+      "species": "Sneasel",
+      "setNumber": 1,
+      "item": "Bacca Oro",
+      "move1": "Lacerazione",
+      "move2": "Finta",
+      "move3": "Surf",
+      "move4": "Bora",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 11,
+        "spe": 11,
+        "spc": 15
+      },
+      "EVs": "173 HP, 187 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Porygon2-1",
+      "species": "Porygon2",
+      "setNumber": 1,
+      "item": "Luminpolvere",
+      "move1": "Psichico",
+      "move2": "Bora",
+      "move3": "Iper-Raggio",
+      "move4": "Tripletta",
+      "level": 10,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 11,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "173 HP, 173 Atk, 200 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Misdreavus-1",
+      "species": "Misdreavus",
+      "setNumber": 1,
+      "item": "Bandana",
+      "move1": "Ultimocanto",
+      "move2": "Malosguardo",
+      "move3": "Malcomune",
+      "move4": "Palla Ombra",
+      "level": 10,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Houndour-1",
+      "species": "Houndour",
+      "setNumber": 1,
+      "item": "Bacca Oro",
+      "move1": "Finta",
+      "move2": "Solarraggio",
+      "move3": "Boato",
+      "move4": "Giornodisole",
+      "level": 10,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 181 Spe"
+    },
+    {
+      "setName": "Girafarig-1",
+      "species": "Girafarig",
+      "setNumber": 1,
+      "item": "Roccia di re",
+      "move1": "Psicoraggio",
+      "move2": "Fangosberla",
+      "move3": "Palla Ombra",
+      "move4": "Agilità",
+      "level": 10,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 13,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Blissey-1",
+      "species": "Blissey",
+      "setNumber": 1,
+      "item": "Rapidartiglio",
+      "move1": "Bottintesta",
+      "move2": "Solarraggio",
+      "move3": "Rotolamento",
+      "move4": "Forza",
+      "level": 10,
+      "DVs": {
+        "hp": 12,
+        "atk": 13,
+        "def": 15,
+        "spe": 12,
+        "spc": 14
+      },
+      "EVs": "178 HP, 200 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Snorlax-1",
+      "species": "Snorlax",
+      "setNumber": 1,
+      "item": "Bacca Mirac.",
+      "move1": "Bottintesta",
+      "move2": "Protezione",
+      "move3": "Russare",
+      "move4": "Surf",
+      "level": 10,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Exeggutor-1",
+      "species": "Exeggutor",
+      "setNumber": 1,
+      "item": "Roccia di re",
+      "move1": "Tossina",
+      "move2": "Gigassorbim.",
+      "move3": "Furto",
+      "move4": "Confusione",
+      "level": 10,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Heracross-1",
+      "species": "Heracross",
+      "setNumber": 1,
+      "item": "Bacca Oro",
+      "move1": "Contropiede",
+      "move2": "Resistenza",
+      "move3": "Contatore",
+      "move4": "Spaccaroccia",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 7,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Unown-1",
+      "species": "Unown",
+      "setNumber": 1,
+      "item": "Bacca",
+      "move1": "Introforza",
+      "move2": "",
+      "move3": "",
+      "move4": "",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe",
+      "minisprite": "unown-z",
+      "sprite": "unown-z"
+    },
+    {
+      "setName": "Tauros-1",
+      "species": "Tauros",
+      "setNumber": 1,
+      "item": "Roccia di re",
+      "move1": "Bottintesta",
+      "move2": "Bullo",
+      "move3": "Colpo-Coda",
+      "move4": "Ventogelato",
+      "level": 10,
+      "DVs": {
+        "hp": 7,
+        "atk": 6,
+        "def": 5,
+        "spe": 5,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Mr.Mime-1",
+      "species": "Mr.Mime",
+      "setNumber": 1,
+      "item": "Rapidartiglio",
+      "move1": "Tossina",
+      "move2": "Psicamisù",
+      "move3": "Fuocopugno",
+      "move4": "Bottintesta",
+      "level": 10,
+      "DVs": {
+        "hp": 13,
+        "atk": 7,
+        "def": 3,
+        "spe": 6,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Umbreon-2",
+      "species": "Umbreon",
+      "setNumber": 2,
+      "item": "Avanzi",
+      "move1": "Protezione",
+      "move2": "Tossina",
+      "move3": "Fangosberla",
+      "move4": "Attrazione",
+      "level": 20,
+      "DVs": {
+        "hp": 6,
+        "atk": 12,
+        "def": 15,
+        "spe": 11,
+        "spc": 12
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Starmie-1",
+      "species": "Starmie",
+      "setNumber": 1,
+      "item": "Bacca Oro",
+      "move1": "Ripresa",
+      "move2": "Psichico",
+      "move3": "Surf",
+      "move4": "Psicamisù",
+      "level": 20,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 11,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Gyarados-1",
+      "species": "Gyarados",
+      "setNumber": 1,
+      "item": "Bacca Mirac.",
+      "move1": "Iper-Raggio",
+      "move2": "Ira Di Drago",
+      "move3": "Fulmine",
+      "move4": "Fuocobomba",
+      "level": 20,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 10,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Steelix-1",
+      "species": "Steelix",
+      "setNumber": 1,
+      "item": "Bacca Oro",
+      "move1": "Boato",
+      "move2": "Codacciaio",
+      "move3": "Bullo",
+      "move4": "Terremoto",
+      "level": 20,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 173 Spe"
+    },
+    {
+      "setName": "Alakazam-1",
+      "species": "Alakazam",
+      "setNumber": 1,
+      "item": "Succo di bacca",
+      "move1": "Psichico",
+      "move2": "Psicamisù",
+      "move3": "Tossina",
+      "move4": "Tuonopugno",
+      "level": 20,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 173 Def, 200 SpA, 200 SpD, 223 Spe"
+    },
+    {
+      "setName": "Arcanine-1",
+      "species": "Arcanine",
+      "setNumber": 1,
+      "item": "Luminpolvere",
+      "move1": "Lanciafiamme",
+      "move2": "Boato",
+      "move3": "Iper-Raggio",
+      "move4": "Codacciaio",
+      "level": 20,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 11,
+        "spe": 15,
+        "spc": 11
+      },
+      "EVs": "187 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Heracross-2",
+      "species": "Heracross",
+      "setNumber": 2,
+      "item": "Bandana",
+      "move1": "Resistenza",
+      "move2": "Contropiede",
+      "move3": "Megacorno",
+      "move4": "Terremoto",
+      "level": 20,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 173 Atk, 212 Def, 212 SpA, 212 SpD, 173 Spe"
+    },
+    {
+      "setName": "Exeggutor-2",
+      "species": "Exeggutor",
+      "setNumber": 2,
+      "item": "Avanzi",
+      "move1": "Iper-Raggio",
+      "move2": "Psichico",
+      "move3": "Tossina",
+      "move4": "Mangiasogni",
+      "level": 20,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 212 Spe"
+    },
+    {
+      "setName": "Aerodactyl-2",
+      "species": "Aerodactyl",
+      "setNumber": 2,
+      "item": "Bacca Oro",
+      "move1": "Riposo",
+      "move2": "Iper-Raggio",
+      "move3": "Terremoto",
+      "move4": "Ira Di Drago",
+      "level": 20,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 11,
+        "spe": 11,
+        "spc": 11
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Blissey-2",
+      "species": "Blissey",
+      "setNumber": 2,
+      "item": "Luminpolvere",
+      "move1": "Psichico",
+      "move2": "Sottomiss.",
+      "move3": "Covauova",
+      "move4": "Contatore",
+      "level": 20,
+      "DVs": {
+        "hp": 14,
+        "atk": 11,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 173 Def, 223 SpA, 223 SpD, 173 Spe"
+    },
+    {
+      "setName": "Lapras-2",
+      "species": "Lapras",
+      "setNumber": 2,
+      "item": "Bacca Oro",
+      "move1": "Psichico",
+      "move2": "Fulmine",
+      "move3": "Bora",
+      "move4": "Stordiraggio",
+      "level": 20,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 13,
+        "spc": 7
+      },
+      "EVs": "234 HP, 173 Atk, 200 Def, 173 SpA, 173 SpD, 234 Spe"
+    },
+    {
+      "setName": "Pikachu-1",
+      "species": "Pikachu",
+      "setNumber": 1,
+      "item": "Elettropalla",
+      "move1": "Fulmine",
+      "move2": "Tuononda",
+      "move3": "Forza",
+      "move4": "Tossina",
+      "level": 20,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 12,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "212 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Scizor-1",
+      "species": "Scizor",
+      "setNumber": 1,
+      "item": "Bandana",
+      "move1": "Alacciaio",
+      "move2": "Lacerazione",
+      "move3": "Tossina",
+      "move4": "Terrempesta",
+      "level": 20,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "200 HP, 212 Atk, 200 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Hitmonchan-1",
+      "species": "Hitmonchan",
+      "setNumber": 1,
+      "item": "Bacca Oro",
+      "move1": "Tuonopugno",
+      "move2": "Gelopugno",
+      "move3": "Fuocopugno",
+      "move4": "Megapugno",
+      "level": 20,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 11,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "223 HP, 212 Atk, 187 Def, 173 SpA, 173 SpD, 223 Spe"
+    },
+    {
+      "setName": "Tauros-2",
+      "species": "Tauros",
+      "setNumber": 2,
+      "item": "Luminpolvere",
+      "move1": "Fulmine",
+      "move2": "Terremoto",
+      "move3": "Iper-Raggio",
+      "move4": "Bora",
+      "level": 20,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Azumarill-1",
+      "species": "Azumarill",
+      "setNumber": 1,
+      "item": "Acqua magica",
+      "move1": "Surf",
+      "move2": "Bora",
+      "move3": "Attrazione",
+      "move4": "Pioggiadanza",
+      "level": 20,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 13,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "200 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "Miltank-2",
+      "species": "Miltank",
+      "setNumber": 2,
+      "item": "Roccia di re",
+      "move1": "Terremoto",
+      "move2": "Tuono",
+      "move3": "Attrazione",
+      "move4": "Surf",
+      "level": 20,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "200 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "Wigglytuff-1",
+      "species": "Wigglytuff",
+      "setNumber": 1,
+      "item": "Bacca Oro",
+      "move1": "Iper-Raggio",
+      "move2": "Bora",
+      "move3": "Fuocobomba",
+      "move4": "Attrazione",
+      "level": 20,
+      "DVs": {
+        "hp": 6,
+        "atk": 12,
+        "def": 7,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "200 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "Wigglytuff-2",
+      "species": "Wigglytuff",
+      "setNumber": 2,
+      "item": "Fiocco Rosa",
+      "move1": "Psichico",
+      "move2": "Bullo",
+      "move3": "Psicamisù",
+      "move4": "Bottintesta",
+      "level": 20,
+      "DVs": {
+        "hp": 7,
+        "atk": 12,
+        "def": 7,
+        "spe": 7,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Nidoking-1",
+      "species": "Nidoking",
+      "setNumber": 1,
+      "item": "Bacca",
+      "move1": "Bora",
+      "move2": "Terremoto",
+      "move3": "Surf",
+      "move4": "Tuonopugno",
+      "level": 20,
+      "DVs": {
+        "hp": 8,
+        "atk": 5,
+        "def": 6,
+        "spe": 4,
+        "spc": 6
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Quagsire-1",
+      "species": "Quagsire",
+      "setNumber": 1,
+      "item": "Rapidartiglio",
+      "move1": "Amnesia",
+      "move2": "Terremoto",
+      "move3": "Surf",
+      "move4": "Pioggiadanza",
+      "level": 20,
+      "DVs": {
+        "hp": 13,
+        "atk": 5,
+        "def": 5,
+        "spe": 4,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Jolteon-2",
+      "species": "Jolteon",
+      "setNumber": 2,
+      "item": "Bacca Mirac.",
+      "move1": "Fulmine",
+      "move2": "Tuononda",
+      "move3": "Boato",
+      "move4": "Fangosberla",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 11,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 234 SpA, 234 SpD, 223 Spe"
+    },
+    {
+      "setName": "Poliwrath-1",
+      "species": "Poliwrath",
+      "setNumber": 1,
+      "item": "Luminpolvere",
+      "move1": "Doppioteam",
+      "move2": "Surf",
+      "move3": "Abisso",
+      "move4": "Sottomiss.",
+      "level": 30,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 11
+      },
+      "EVs": "223 HP, 234 Atk, 234 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Starmie-2",
+      "species": "Starmie",
+      "setNumber": 2,
+      "item": "Avanzi",
+      "move1": "Tuononda",
+      "move2": "Psichico",
+      "move3": "Ripresa",
+      "move4": "Surf",
+      "level": 30,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Jynx-1",
+      "species": "Jynx",
+      "setNumber": 1,
+      "item": "Bacca Oro",
+      "move1": "Bora",
+      "move2": "Demonbacio",
+      "move3": "Mangiasogni",
+      "move4": "Attrazione",
+      "level": 30,
+      "DVs": {
+        "hp": 12,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 173 Spe"
+    },
+    {
+      "setName": "Dugtrio-1",
+      "species": "Dugtrio",
+      "setNumber": 1,
+      "item": "Roccia di re",
+      "move1": "Terremoto",
+      "move2": "Fangobomba",
+      "move3": "Lacerazione",
+      "move4": "Fangosberla",
+      "level": 30,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 173 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Bellossom-1",
+      "species": "Bellossom",
+      "setNumber": 1,
+      "item": "Luminpolvere",
+      "move1": "Gigassorbim.",
+      "move2": "Giornodisole",
+      "move3": "Solarraggio",
+      "move4": "Doppioteam",
+      "level": 30,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "212 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Blissey-3",
+      "species": "Blissey",
+      "setNumber": 3,
+      "item": "Avanzi",
+      "move1": "Tossina",
+      "move2": "Riflesso",
+      "move3": "Covauova",
+      "move4": "Protezione",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 173 Atk, 212 Def, 212 SpA, 212 SpD, 173 Spe"
+    },
+    {
+      "setName": "Houndoom-1",
+      "species": "Houndoom",
+      "setNumber": 1,
+      "item": "Carbonella",
+      "move1": "Lanciafiamme",
+      "move2": "Sgranocchio",
+      "move3": "Palla Ombra",
+      "move4": "Mangiasogni",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 212 Spe"
+    },
+    {
+      "setName": "Machamp-1",
+      "species": "Machamp",
+      "setNumber": 1,
+      "item": "Bacca Mirac.",
+      "move1": "Incrocolpo",
+      "move2": "Gelopugno",
+      "move3": "Terremoto",
+      "move4": "Fuocobomba",
+      "level": 30,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 11,
+        "spc": 14
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Crobat-1",
+      "species": "Crobat",
+      "setNumber": 1,
+      "item": "Bacca Oro",
+      "move1": "Attrazione",
+      "move2": "Stordiraggio",
+      "move3": "Tossina",
+      "move4": "Att. D'Ala",
+      "level": 30,
+      "DVs": {
+        "hp": 6,
+        "atk": 14,
+        "def": 15,
+        "spe": 13,
+        "spc": 12
+      },
+      "EVs": "223 HP, 223 Atk, 173 Def, 223 SpA, 223 SpD, 173 Spe"
+    },
+    {
+      "setName": "Porygon2-2",
+      "species": "Porygon2",
+      "setNumber": 2,
+      "item": "Luminpolvere",
+      "move1": "Psichico",
+      "move2": "Ripresa",
+      "move3": "Iper-Raggio",
+      "move4": "Tripletta",
+      "level": 30,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "234 HP, 173 Atk, 200 Def, 173 SpA, 173 SpD, 234 Spe"
+    },
+    {
+      "setName": "Marowak-1",
+      "species": "Marowak",
+      "setNumber": 1,
+      "item": "Osso spesso",
+      "move1": "Terremoto",
+      "move2": "Ritorno",
+      "move3": "Iper-Raggio",
+      "move4": "Ossomerang",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "212 HP, 223 Atk, 212 Def, 173 SpA, 173 SpD, 223 Spe"
+    },
+    {
+      "setName": "Electrode-1",
+      "species": "Electrode",
+      "setNumber": 1,
+      "item": "Luminpolvere",
+      "move1": "Schermo-Luce",
+      "move2": "Fulmine",
+      "move3": "Protezione",
+      "move4": "Tuono",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "200 HP, 212 Atk, 200 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Lapras-3",
+      "species": "Lapras",
+      "setNumber": 3,
+      "item": "Avanzi",
+      "move1": "Pioggiadanza",
+      "move2": "Pistolacqua",
+      "move3": "Ventogelato",
+      "move4": "Forza",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "223 HP, 212 Atk, 187 Def, 173 SpA, 173 SpD, 223 Spe"
+    },
+    {
+      "setName": "Lanturn-1",
+      "species": "Lanturn",
+      "setNumber": 1,
+      "item": "Bacca Oro",
+      "move1": "Pioggiadanza",
+      "move2": "Tuono",
+      "move3": "Surf",
+      "move4": "Flagello",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Espeon-2",
+      "species": "Espeon",
+      "setNumber": 2,
+      "item": "Bacca Mirac.",
+      "move1": "Confusione",
+      "move2": "Comete",
+      "move3": "Tossina",
+      "move4": "Psicamisù",
+      "level": 30,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Tentacruel-1",
+      "species": "Tentacruel",
+      "setNumber": 1,
+      "item": "Roccia di re",
+      "move1": "Avvolgibotta",
+      "move2": "Tossina",
+      "move3": "Fangobomba",
+      "move4": "Bollaraggio",
+      "level": 30,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 212 SpA, 212 SpD, 216 Spe"
+    },
+    {
+      "setName": "Gengar-1",
+      "species": "Gengar",
+      "setNumber": 1,
+      "item": "Bacca Oro",
+      "move1": "Furto",
+      "move2": "Leccata",
+      "move3": "Ombra Nott.",
+      "move4": "Gigassorbim.",
+      "level": 30,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 7,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Ursaring-1",
+      "species": "Ursaring",
+      "setNumber": 1,
+      "item": "Bacca Oro",
+      "move1": "Bottintesta",
+      "move2": "Protezione",
+      "move3": "Boato",
+      "move4": "Fulmisguardo",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 7,
+        "def": 7,
+        "spe": 4,
+        "spc": 5
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Fearow-1",
+      "species": "Fearow",
+      "setNumber": 1,
+      "item": "Luminpolvere",
+      "move1": "Speculmossa",
+      "move2": "Inseguimento",
+      "move3": "Beccata",
+      "move4": "Comete",
+      "level": 30,
+      "DVs": {
+        "hp": 7,
+        "atk": 6,
+        "def": 7,
+        "spe": 7,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Primeape-1",
+      "species": "Primeape",
+      "setNumber": 1,
+      "item": "Bacca Mirac.",
+      "move1": "Colpo Basso",
+      "move2": "Colpo-Karate",
+      "move3": "Contropiede",
+      "move4": "Energy Conc.",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 7,
+        "def": 7,
+        "spe": 6,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Tauros-3",
+      "species": "Tauros",
+      "setNumber": 3,
+      "item": "Bacca Oro",
+      "move1": "Ritorno",
+      "move2": "Iper-Raggio",
+      "move3": "Terremoto",
+      "move4": "Codacciaio",
+      "level": 40,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Kingdra-1",
+      "species": "Kingdra",
+      "setNumber": 1,
+      "item": "Avanzi",
+      "move1": "Surf",
+      "move2": "Dragospiro",
+      "move3": "Iper-Raggio",
+      "move4": "Bora",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Snorlax-2",
+      "species": "Snorlax",
+      "setNumber": 2,
+      "item": "Rapidartiglio",
+      "move1": "Attrazione",
+      "move2": "Body Slam",
+      "move3": "Psicamisù",
+      "move4": "Terremoto",
+      "level": 40,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Lapras-4",
+      "species": "Lapras",
+      "setNumber": 4,
+      "item": "Avanzi",
+      "move1": "Fulmine",
+      "move2": "Geloraggio",
+      "move3": "Stordiraggio",
+      "move4": "Surf",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Steelix-2",
+      "species": "Steelix",
+      "setNumber": 2,
+      "item": "Bacca Oro",
+      "move1": "Terrempesta",
+      "move2": "Codacciaio",
+      "move3": "Terremoto",
+      "move4": "Tossina",
+      "level": 40,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Alakazam-2",
+      "species": "Alakazam",
+      "setNumber": 2,
+      "item": "Roccia di re",
+      "move1": "Psichico",
+      "move2": "Tuonopugno",
+      "move3": "Ripresa",
+      "move4": "Fuocopugno",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Starmie-3",
+      "species": "Starmie",
+      "setNumber": 3,
+      "item": "Avanzi",
+      "move1": "Bora",
+      "move2": "Fulmine",
+      "move3": "Surf",
+      "move4": "Psichico",
+      "level": 40,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 11,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Wobbuffet-2",
+      "species": "Wobbuffet",
+      "setNumber": 2,
+      "item": "Bacca Oro",
+      "move1": "Contatore",
+      "move2": "Specchiovelo",
+      "move3": "Salvaguardia",
+      "move4": "Destinobbl.",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 15,
+        "spe": 14,
+        "spc": 7
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Golem-1",
+      "species": "Golem",
+      "setNumber": 1,
+      "item": "Bandana",
+      "move1": "Esplosione",
+      "move2": "Terremoto",
+      "move3": "Megapugno",
+      "move4": "Frana",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Scizor-2",
+      "species": "Scizor",
+      "setNumber": 2,
+      "item": "Mirino",
+      "move1": "Lacerazione",
+      "move2": "Alacciaio",
+      "move3": "Inseguimento",
+      "move4": "Iper-Raggio",
+      "level": 40,
+      "DVs": {
+        "hp": 14,
+        "atk": 11,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "Dugtrio-2",
+      "species": "Dugtrio",
+      "setNumber": 2,
+      "item": "Roccia di re",
+      "move1": "Terremoto",
+      "move2": "Iper-Raggio",
+      "move3": "Fangobomba",
+      "move4": "Fangosberla",
+      "level": 40,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 11,
+        "spc": 11
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Slowbro-1",
+      "species": "Slowbro",
+      "setNumber": 1,
+      "item": "Bacca Mirac.",
+      "move1": "Surf",
+      "move2": "Psichico",
+      "move3": "Terremoto",
+      "move4": "Bora",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 15,
+        "spe": 12,
+        "spc": 15
+      },
+      "EVs": "212 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Porygon2-3",
+      "species": "Porygon2",
+      "setNumber": 3,
+      "item": "None",
+      "move1": "Conversione2",
+      "move2": "Conversione",
+      "move3": "Psicoraggio",
+      "move4": "Furto",
+      "level": 40,
+      "DVs": {
+        "hp": 9,
+        "atk": 11,
+        "def": 12,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Arcanine-2",
+      "species": "Arcanine",
+      "setNumber": 2,
+      "item": "Carbonella",
+      "move1": "Ruotafuoco",
+      "move2": "Fulmisguardo",
+      "move3": "Body Slam",
+      "move4": "Boato",
+      "level": 40,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 11,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Forretress-1",
+      "species": "Forretress",
+      "setNumber": 1,
+      "item": "Avanzi",
+      "move1": "Rapigiro",
+      "move2": "Protezione",
+      "move3": "Tossina",
+      "move4": "Terrempesta",
+      "level": 40,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 10,
+        "spe": 7,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Omastar-1",
+      "species": "Omastar",
+      "setNumber": 1,
+      "item": "Bacca Oro",
+      "move1": "Maledizione",
+      "move2": "Pistolacqua",
+      "move3": "Forzantica",
+      "move4": "Spaccaroccia",
+      "level": 40,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Charizard-1",
+      "species": "Charizard",
+      "setNumber": 1,
+      "item": "Roccia di re",
+      "move1": "Turbofuoco",
+      "move2": "Ira Di Drago",
+      "move3": "Volo",
+      "move4": "Lacerazione",
+      "level": 40,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Exeggutor-3",
+      "species": "Exeggutor",
+      "setNumber": 3,
+      "item": "Luminpolvere",
+      "move1": "Uovobomba",
+      "move2": "Pestone",
+      "move3": "Psicamisù",
+      "move4": "Confusione",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 7,
+        "spe": 14,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Hypno-1",
+      "species": "Hypno",
+      "setNumber": 1,
+      "item": "Luminpolvere",
+      "move1": "Confusione",
+      "move2": "Tuonopugno",
+      "move3": "Bottintesta",
+      "move4": "Inibitore",
+      "level": 40,
+      "DVs": {
+        "hp": 14,
+        "atk": 7,
+        "def": 7,
+        "spe": 7,
+        "spc": 10
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Muk-1",
+      "species": "Muk",
+      "setNumber": 1,
+      "item": "Rapidartiglio",
+      "move1": "Stridio",
+      "move2": "Tossina",
+      "move3": "Fango",
+      "move4": "Rafforzatore",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 7,
+        "def": 5,
+        "spe": 6,
+        "spc": 11
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Electabuzz-1",
+      "species": "Electabuzz",
+      "setNumber": 1,
+      "item": "Roccia di re",
+      "move1": "Schermo-Luce",
+      "move2": "Tuonopugno",
+      "move3": "Comete",
+      "move4": "Russare",
+      "level": 40,
+      "DVs": {
+        "hp": 7,
+        "atk": 6,
+        "def": 5,
+        "spe": 7,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Kingdra-2",
+      "species": "Kingdra",
+      "setNumber": 2,
+      "item": "Bacca Oro",
+      "move1": "Surf",
+      "move2": "Iper-Raggio",
+      "move3": "Bora",
+      "move4": "Dragospiro",
+      "level": 50,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "234 HP, 234 Atk, 244 Def, 234 SpA, 234 SpD, 223 Spe"
+    },
+    {
+      "setName": "Houndoom-2",
+      "species": "Houndoom",
+      "setNumber": 2,
+      "item": "Bacca Mirac.",
+      "move1": "Riposo",
+      "move2": "Sgranocchio",
+      "move3": "Mangiasogni",
+      "move4": "Lanciafiamme",
+      "level": 50,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 12
+      },
+      "EVs": "234 HP, 223 Atk, 244 Def, 244 SpA, 244 SpD, 244 Spe"
+    },
+    {
+      "setName": "Shuckle-1",
+      "species": "Shuckle",
+      "setNumber": 1,
+      "item": "Avanzi",
+      "move1": "Terrempesta",
+      "move2": "Riposo",
+      "move3": "Tossina",
+      "move4": "Avvolgibotta",
+      "level": 50,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 12,
+        "spc": 15
+      },
+      "EVs": "244 HP, 244 Atk, 244 Def, 234 SpA, 234 SpD, 244 Spe"
+    },
+    {
+      "setName": "Snorlax-3",
+      "species": "Snorlax",
+      "setNumber": 3,
+      "item": "Avanzi",
+      "move1": "Iper-Raggio",
+      "move2": "Terremoto",
+      "move3": "Surf",
+      "move4": "Psicamisù",
+      "level": 50,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "244 HP, 234 Atk, 234 Def, 234 SpA, 234 SpD, 244 Spe"
+    },
+    {
+      "setName": "Lapras-5",
+      "species": "Lapras",
+      "setNumber": 5,
+      "item": "Bacca Oro",
+      "move1": "Fulmine",
+      "move2": "Surf",
+      "move3": "Stordiraggio",
+      "move4": "Bora",
+      "level": 50,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "234 HP, 244 Atk, 244 Def, 244 SpA, 244 SpD, 234 Spe"
+    },
+    {
+      "setName": "Jolteon-3",
+      "species": "Jolteon",
+      "setNumber": 3,
+      "item": "Roccia di re",
+      "move1": "Fulmine",
+      "move2": "Tuononda",
+      "move3": "Palla Ombra",
+      "move4": "Introforza",
+      "level": 50,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 13,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "234 HP, 244 Atk, 238 Def, 234 SpA, 234 SpD, 234 Spe"
+    },
+    {
+      "setName": "Scizor-3",
+      "species": "Scizor",
+      "setNumber": 3,
+      "item": "Avanzi",
+      "move1": "Iper-Raggio",
+      "move2": "Lacerazione",
+      "move3": "Agilità",
+      "move4": "Ferrartigli",
+      "level": 50,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 15,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Slowking-1",
+      "species": "Slowking",
+      "setNumber": 1,
+      "item": "Bacca Menta",
+      "move1": "Riposo",
+      "move2": "Surf",
+      "move3": "Psichico",
+      "move4": "Amnesia",
+      "level": 50,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 200 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Machamp-2",
+      "species": "Machamp",
+      "setNumber": 2,
+      "item": "Bacca Oro",
+      "move1": "Incrocolpo",
+      "move2": "Terremoto",
+      "move3": "Fuocobomba",
+      "move4": "Tuonopugno",
+      "level": 50,
+      "DVs": {
+        "hp": 12,
+        "atk": 15,
+        "def": 15,
+        "spe": 14,
+        "spc": 12
+      },
+      "EVs": "200 HP, 212 Atk, 223 Def, 209 SpA, 209 SpD, 200 Spe"
+    },
+    {
+      "setName": "Starmie-4",
+      "species": "Starmie",
+      "setNumber": 4,
+      "item": "Mirino",
+      "move1": "Tuononda",
+      "move2": "Ripresa",
+      "move3": "Fulmine",
+      "move4": "Surf",
+      "level": 50,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "212 HP, 209 Atk, 200 Def, 200 SpA, 200 SpD, 212 Spe"
+    },
+    {
+      "setName": "Dugtrio-3",
+      "species": "Dugtrio",
+      "setNumber": 3,
+      "item": "Roccia di re",
+      "move1": "Terremoto",
+      "move2": "Lacerazione",
+      "move3": "Iper-Raggio",
+      "move4": "Fangobomba",
+      "level": 50,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 7,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "212 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Electrode-2",
+      "species": "Electrode",
+      "setNumber": 2,
+      "item": "Bacca Mirac.",
+      "move1": "Fulmine",
+      "move2": "Esplosione",
+      "move3": "Specchiovelo",
+      "move4": "Riposo",
+      "level": 50,
+      "DVs": {
+        "hp": 14,
+        "atk": 7,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 212 Atk, 232 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "Aerodactyl-3",
+      "species": "Aerodactyl",
+      "setNumber": 3,
+      "item": "Roccia di re",
+      "move1": "Iper-Raggio",
+      "move2": "Terremoto",
+      "move3": "Fuocobomba",
+      "move4": "Codacciaio",
+      "level": 50,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 212 Spe"
+    },
+    {
+      "setName": "Crobat-2",
+      "species": "Crobat",
+      "setNumber": 2,
+      "item": "Avanzi",
+      "move1": "Stordiraggio",
+      "move2": "Attrazione",
+      "move3": "Iper-Raggio",
+      "move4": "Tossina",
+      "level": 50,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "212 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "Zapdos-1",
+      "species": "Zapdos",
+      "setNumber": 1,
+      "item": "Bacca Mirac.",
+      "move1": "Perforbecco",
+      "move2": "Fulmine",
+      "move3": "Tuononda",
+      "move4": "Iper-Raggio",
+      "level": 50,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "212 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "Skarmory-1",
+      "species": "Skarmory",
+      "setNumber": 1,
+      "item": "Bacca Oro",
+      "move1": "Terrempesta",
+      "move2": "Volo",
+      "move3": "Alacciaio",
+      "move4": "Tossina",
+      "level": 50,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 7,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 200 SpA, 200 SpD, 223 Spe"
+    },
+    {
+      "setName": "Forretress-2",
+      "species": "Forretress",
+      "setNumber": 2,
+      "item": "Avanzi",
+      "move1": "Terrempesta",
+      "move2": "Tossina",
+      "move3": "Esplosione",
+      "move4": "Bullo",
+      "level": 50,
+      "DVs": {
+        "hp": 7,
+        "atk": 12,
+        "def": 15,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 234 Def, 200 SpA, 200 SpD, 212 Spe"
+    },
+    {
+      "setName": "Steelix-3",
+      "species": "Steelix",
+      "setNumber": 3,
+      "item": "Bacca Mirac.",
+      "move1": "Terrempesta",
+      "move2": "Codacciaio",
+      "move3": "Riposo",
+      "move4": "Terremoto",
+      "level": 50,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 200 Spe"
+    },
+    {
+      "setName": "Girafarig-2",
+      "species": "Girafarig",
+      "setNumber": 2,
+      "item": "Mirino",
+      "move1": "Mangiasogni",
+      "move2": "Sgranocchio",
+      "move3": "Psichico",
+      "move4": "Terremoto",
+      "level": 50,
+      "DVs": {
+        "hp": 6,
+        "atk": 4,
+        "def": 5,
+        "spe": 5,
+        "spc": 6
+      },
+      "EVs": "200 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "Gyarados-2",
+      "species": "Gyarados",
+      "setNumber": 2,
+      "item": "Bacca Mirac.",
+      "move1": "Iper-Raggio",
+      "move2": "Surf",
+      "move3": "Pioggiadanza",
+      "move4": "Falcecannone",
+      "level": 50,
+      "DVs": {
+        "hp": 13,
+        "atk": 7,
+        "def": 5,
+        "spe": 6,
+        "spc": 5
+      },
+      "EVs": "200 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "Articuno-1",
+      "species": "Articuno",
+      "setNumber": 1,
+      "item": "Bacca Oro",
+      "move1": "Bora",
+      "move2": "Iper-Raggio",
+      "move3": "Boato",
+      "move4": "Ventogelato",
+      "level": 50,
+      "DVs": {
+        "hp": 6,
+        "atk": 4,
+        "def": 5,
+        "spe": 5,
+        "spc": 6
+      },
+      "EVs": "200 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "Kingdra-3",
+      "species": "Kingdra",
+      "setNumber": 3,
+      "item": "Avanzi",
+      "move1": "Dragospiro",
+      "move2": "Surf",
+      "move3": "Iper-Raggio",
+      "move4": "Bora",
+      "level": 60,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "234 HP, 234 Atk, 223 Def, 244 SpA, 244 SpD, 244 Spe"
+    },
+    {
+      "setName": "Tyranitar-1",
+      "species": "Tyranitar",
+      "setNumber": 1,
+      "item": "Bacca Oro",
+      "move1": "Sgranocchio",
+      "move2": "Terremoto",
+      "move3": "Frana",
+      "move4": "Iper-Raggio",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "234 HP, 244 Atk, 234 Def, 234 SpA, 234 SpD, 244 Spe"
+    },
+    {
+      "setName": "Houndoom-3",
+      "species": "Houndoom",
+      "setNumber": 3,
+      "item": "Bacca Mirac.",
+      "move1": "Lanciafiamme",
+      "move2": "Sgranocchio",
+      "move3": "Mangiasogni",
+      "move4": "Riposo",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "244 HP, 234 Atk, 234 Def, 234 SpA, 234 SpD, 244 Spe"
+    },
+    {
+      "setName": "Porygon2-4",
+      "species": "Porygon2",
+      "setNumber": 4,
+      "item": "Avanzi",
+      "move1": "Bora",
+      "move2": "Ripresa",
+      "move3": "Tossina",
+      "move4": "Psichico",
+      "level": 60,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 13,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "234 HP, 223 Atk, 223 Def, 234 SpA, 234 SpD, 223 Spe"
+    },
+    {
+      "setName": "Machamp-3",
+      "species": "Machamp",
+      "setNumber": 3,
+      "item": "Rapidartiglio",
+      "move1": "Fuocopugno",
+      "move2": "Incrocolpo",
+      "move3": "Tuonopugno",
+      "move4": "Terremoto",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Zapdos-2",
+      "species": "Zapdos",
+      "setNumber": 2,
+      "item": "Bacca Menta",
+      "move1": "Riposo",
+      "move2": "Perforbecco",
+      "move3": "Fulmine",
+      "move4": "Tuononda",
+      "level": 60,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Wobbuffet-3",
+      "species": "Wobbuffet",
+      "setNumber": 3,
+      "item": "Bacca Oro",
+      "move1": "Contatore",
+      "move2": "Specchiovelo",
+      "move3": "Destinobbl.",
+      "move4": "Salvaguardia",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Aerodactyl-4",
+      "species": "Aerodactyl",
+      "setNumber": 4,
+      "item": "Avanzi",
+      "move1": "Iper-Raggio",
+      "move2": "Supersuono",
+      "move3": "Terremoto",
+      "move4": "Morso",
+      "level": 60,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 212 Spe"
+    },
+    {
+      "setName": "Dragonite-1",
+      "species": "Dragonite",
+      "setNumber": 1,
+      "item": "Bacca Mirac.",
+      "move1": "Iper-Raggio",
+      "move2": "Ventogelato",
+      "move3": "Fulmine",
+      "move4": "Surf",
+      "level": 60,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Umbreon-3",
+      "species": "Umbreon",
+      "setNumber": 3,
+      "item": "Bacca Oro",
+      "move1": "Fangosberla",
+      "move2": "Lucelunare",
+      "move3": "Psichico",
+      "move4": "Finta",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Arcanine-3",
+      "species": "Arcanine",
+      "setNumber": 3,
+      "item": "Carbonella",
+      "move1": "Lanciafiamme",
+      "move2": "Sgranocchio",
+      "move3": "Extrarapido",
+      "move4": "Codacciaio",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "234 HP, 223 Atk, 200 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Skarmory-2",
+      "species": "Skarmory",
+      "setNumber": 2,
+      "item": "Bacca Mirac.",
+      "move1": "Alacciaio",
+      "move2": "Volo",
+      "move3": "Tossina",
+      "move4": "Protezione",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Blissey-4",
+      "species": "Blissey",
+      "setNumber": 4,
+      "item": "Avanzi",
+      "move1": "Covauova",
+      "move2": "Tossina",
+      "move3": "Protezione",
+      "move4": "Psichico",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 12,
+        "spc": 13
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Snorlax-4",
+      "species": "Snorlax",
+      "setNumber": 4,
+      "item": "Fiocco Rosa",
+      "move1": "Frana",
+      "move2": "Surf",
+      "move3": "Body Slam",
+      "move4": "Terremoto",
+      "level": 60,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 10,
+        "spe": 15,
+        "spc": 12
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Heracross-3",
+      "species": "Heracross",
+      "setNumber": 3,
+      "item": "Bandana",
+      "move1": "Contropiede",
+      "move2": "Megacorno",
+      "move3": "Terremoto",
+      "move4": "Contatore",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 15,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Jynx-2",
+      "species": "Jynx",
+      "setNumber": 2,
+      "item": "Bacca Mirac.",
+      "move1": "Bora",
+      "move2": "Psichico",
+      "move3": "Palla Ombra",
+      "move4": "Ventogelato",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 15,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Blastoise-1",
+      "species": "Blastoise",
+      "setNumber": 1,
+      "item": "Bacca Oro",
+      "move1": "Surf",
+      "move2": "Terremoto",
+      "move3": "Rapigiro",
+      "move4": "Bora",
+      "level": 60,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Rhydon-1",
+      "species": "Rhydon",
+      "setNumber": 1,
+      "item": "Rapidartiglio",
+      "move1": "Terremoto",
+      "move2": "Surf",
+      "move3": "Codacciaio",
+      "move4": "Frana",
+      "level": 60,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 11,
+        "spe": 15,
+        "spc": 10
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Sandslash-1",
+      "species": "Sandslash",
+      "setNumber": 1,
+      "item": "Mirino",
+      "move1": "Terremoto",
+      "move2": "Lacerazione",
+      "move3": "Iper-Raggio",
+      "move4": "Russare",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 7,
+        "spe": 6,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Parasect-1",
+      "species": "Parasect",
+      "setNumber": 1,
+      "item": "Bacca Oro",
+      "move1": "Spora",
+      "move2": "Gigassorbim.",
+      "move3": "Iper-Raggio",
+      "move4": "Fangobomba",
+      "level": 60,
+      "DVs": {
+        "hp": 3,
+        "atk": 6,
+        "def": 6,
+        "spe": 5,
+        "spc": 15
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Golem-2",
+      "species": "Golem",
+      "setNumber": 2,
+      "item": "Luminpolvere",
+      "move1": "Esplosione",
+      "move2": "Terremoto",
+      "move3": "Fuocopugno",
+      "move4": "Frustrazione",
+      "level": 60,
+      "DVs": {
+        "hp": 11,
+        "atk": 7,
+        "def": 6,
+        "spe": 5,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Jolteon-4",
+      "species": "Jolteon",
+      "setNumber": 4,
+      "item": "Bacca Mirac.",
+      "move1": "Fulmine",
+      "move2": "Iper-Raggio",
+      "move3": "Palla Ombra",
+      "move4": "Boato",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "244 HP, 236 Atk, 234 Def, 244 SpA, 244 SpD, 223 Spe"
+    },
+    {
+      "setName": "Vaporeon-1",
+      "species": "Vaporeon",
+      "setNumber": 1,
+      "item": "Avanzi",
+      "move1": "Bora",
+      "move2": "Palla Ombra",
+      "move3": "Surf",
+      "move4": "Fangosberla",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 15,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 244 Def, 223 SpA, 223 SpD, 244 Spe"
+    },
+    {
+      "setName": "Umbreon-4",
+      "species": "Umbreon",
+      "setNumber": 4,
+      "item": "Bacca Oro",
+      "move1": "Finta",
+      "move2": "Lucelunare",
+      "move3": "Psicamisù",
+      "move4": "Tossina",
+      "level": 70,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "232 HP, 244 Atk, 234 Def, 240 SpA, 240 SpD, 223 Spe"
+    },
+    {
+      "setName": "Blissey-5",
+      "species": "Blissey",
+      "setNumber": 5,
+      "item": "Bacca Oro",
+      "move1": "Contatore",
+      "move2": "Covauova",
+      "move3": "Palla Ombra",
+      "move4": "Fulmine",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 15,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "234 HP, 234 Atk, 234 Def, 223 SpA, 223 SpD, 240 Spe"
+    },
+    {
+      "setName": "Snorlax-5",
+      "species": "Snorlax",
+      "setNumber": 5,
+      "item": "Avanzi",
+      "move1": "Frana",
+      "move2": "Terremoto",
+      "move3": "Bora",
+      "move4": "Palla Ombra",
+      "level": 70,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "234 HP, 234 Atk, 244 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Houndoom-4",
+      "species": "Houndoom",
+      "setNumber": 4,
+      "item": "Roccia di re",
+      "move1": "Sgranocchio",
+      "move2": "Lanciafiamme",
+      "move3": "Finta",
+      "move4": "Boato",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 12,
+        "spc": 13
+      },
+      "EVs": "240 HP, 223 Atk, 234 Def, 234 SpA, 234 SpD, 244 Spe"
+    },
+    {
+      "setName": "Tyranitar-2",
+      "species": "Tyranitar",
+      "setNumber": 2,
+      "item": "Avanzi",
+      "move1": "Terremoto",
+      "move2": "Sgranocchio",
+      "move3": "Frana",
+      "move4": "Iper-Raggio",
+      "level": 70,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 11,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "223 HP, 212 Atk, 212 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Zapdos-3",
+      "species": "Zapdos",
+      "setNumber": 3,
+      "item": "Bacca Oro",
+      "move1": "Fulmine",
+      "move2": "Perforbecco",
+      "move3": "Tuononda",
+      "move4": "Iper-Raggio",
+      "level": 70,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 11,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 212 Spe"
+    },
+    {
+      "setName": "Exeggutor-4",
+      "species": "Exeggutor",
+      "setNumber": 4,
+      "item": "Bacca Mirac.",
+      "move1": "Riposo",
+      "move2": "Esplosione",
+      "move3": "Psichico",
+      "move4": "Gigassorbim.",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Umbreon-5",
+      "species": "Umbreon",
+      "setNumber": 5,
+      "item": "Bacca Oro",
+      "move1": "Lucelunare",
+      "move2": "Finta",
+      "move3": "Psichico",
+      "move4": "Palla Ombra",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Gyarados-3",
+      "species": "Gyarados",
+      "setNumber": 3,
+      "item": "Luminpolvere",
+      "move1": "Surf",
+      "move2": "Fulmine",
+      "move3": "Iper-Raggio",
+      "move4": "Boato",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 11,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "234 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Quagsire-2",
+      "species": "Quagsire",
+      "setNumber": 2,
+      "item": "Bacca Mirac.",
+      "move1": "Terremoto",
+      "move2": "Surf",
+      "move3": "Fangobomba",
+      "move4": "Codacciaio",
+      "level": 70,
+      "DVs": {
+        "hp": 11,
+        "atk": 13,
+        "def": 14,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Ursaring-2",
+      "species": "Ursaring",
+      "setNumber": 2,
+      "item": "Mirino",
+      "move1": "Lacerazione",
+      "move2": "Terremoto",
+      "move3": "Iper-Raggio",
+      "move4": "Tuonopugno",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Mr.Mime-2",
+      "species": "Mr.Mime",
+      "setNumber": 2,
+      "item": "Roccia di re",
+      "move1": "Riflesso",
+      "move2": "Fuocopugno",
+      "move3": "Psichico",
+      "move4": "Ripeti",
+      "level": 70,
+      "DVs": {
+        "hp": 15,
+        "atk": 11,
+        "def": 13,
+        "spe": 15,
+        "spc": 11
+      },
+      "EVs": "223 HP, 212 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Primeape-2",
+      "species": "Primeape",
+      "setNumber": 2,
+      "item": "Rapidartiglio",
+      "move1": "Incrocolpo",
+      "move2": "Gelopugno",
+      "move3": "Tuonopugno",
+      "move4": "Frana",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Girafarig-3",
+      "species": "Girafarig",
+      "setNumber": 3,
+      "item": "Bacca Oro",
+      "move1": "Agilità",
+      "move2": "Staffetta",
+      "move3": "Sgranocchio",
+      "move4": "Terremoto",
+      "level": 70,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Hitmonlee-1",
+      "species": "Hitmonlee",
+      "setNumber": 1,
+      "item": "Bandana",
+      "move1": "Contropiede",
+      "move2": "Resistenza",
+      "move3": "Body Slam",
+      "move4": "Megacalcio",
+      "level": 70,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Heracross-4",
+      "species": "Heracross",
+      "setNumber": 4,
+      "item": "Luminpolvere",
+      "move1": "Contropiede",
+      "move2": "Resistenza",
+      "move3": "Megacorno",
+      "move4": "Terremoto",
+      "level": 70,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 7,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Venusaur-1",
+      "species": "Venusaur",
+      "setNumber": 1,
+      "item": "Luminpolvere",
+      "move1": "Giornodisole",
+      "move2": "Solarraggio",
+      "move3": "Sintesi",
+      "move4": "Iper-Raggio",
+      "level": 70,
+      "DVs": {
+        "hp": 8,
+        "atk": 7,
+        "def": 6,
+        "spe": 4,
+        "spc": 4
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Charizard-2",
+      "species": "Charizard",
+      "setNumber": 2,
+      "item": "Mirino",
+      "move1": "Lacerazione",
+      "move2": "Terremoto",
+      "move3": "Iper-Raggio",
+      "move4": "Lanciafiamme",
+      "level": 70,
+      "DVs": {
+        "hp": 8,
+        "atk": 5,
+        "def": 6,
+        "spe": 4,
+        "spc": 4
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Blastoise-2",
+      "species": "Blastoise",
+      "setNumber": 2,
+      "item": "Rapidartiglio",
+      "move1": "Idropompa",
+      "move2": "Gelopugno",
+      "move3": "Iper-Raggio",
+      "move4": "Codacciaio",
+      "level": 70,
+      "DVs": {
+        "hp": 8,
+        "atk": 7,
+        "def": 6,
+        "spe": 6,
+        "spc": 4
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Jolteon-5",
+      "species": "Jolteon",
+      "setNumber": 5,
+      "item": "Bacca Mirac.",
+      "move1": "Tuononda",
+      "move2": "Fulmine",
+      "move3": "Codacciaio",
+      "move4": "Boato",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "244 HP, 234 Atk, 244 Def, 234 SpA, 234 SpD, 234 Spe"
+    },
+    {
+      "setName": "Snorlax-6",
+      "species": "Snorlax",
+      "setNumber": 6,
+      "item": "Avanzi",
+      "move1": "Riposo",
+      "move2": "Panciamburo",
+      "move3": "Russare",
+      "move4": "Terremoto",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 11,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "244 HP, 234 Atk, 223 Def, 244 SpA, 244 SpD, 235 Spe"
+    },
+    {
+      "setName": "Houndoom-5",
+      "species": "Houndoom",
+      "setNumber": 5,
+      "item": "Bacca Menta",
+      "move1": "Riposo",
+      "move2": "Sgranocchio",
+      "move3": "Lanciafiamme",
+      "move4": "Giornodisole",
+      "level": 80,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "234 HP, 223 Atk, 234 Def, 234 SpA, 234 SpD, 234 Spe"
+    },
+    {
+      "setName": "Tauros-4",
+      "species": "Tauros",
+      "setNumber": 4,
+      "item": "Bacca Oro",
+      "move1": "Terremoto",
+      "move2": "Body Slam",
+      "move3": "Codacciaio",
+      "move4": "Iper-Raggio",
+      "level": 80,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 173 Spe"
+    },
+    {
+      "setName": "Lapras-6",
+      "species": "Lapras",
+      "setNumber": 6,
+      "item": "Bacca Menta",
+      "move1": "Riposo",
+      "move2": "Surf",
+      "move3": "Stordiraggio",
+      "move4": "Psichico",
+      "level": 80,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Tyranitar-3",
+      "species": "Tyranitar",
+      "setNumber": 3,
+      "item": "Bacca Mirac.",
+      "move1": "Riposo",
+      "move2": "Sgranocchio",
+      "move3": "Terremoto",
+      "move4": "Frana",
+      "level": 80,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "223 HP, 234 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Gengar-2",
+      "species": "Gengar",
+      "setNumber": 2,
+      "item": "None",
+      "move1": "Fulmine",
+      "move2": "Palla Ombra",
+      "move3": "Stordiraggio",
+      "move4": "Furto",
+      "level": 80,
+      "DVs": {
+        "hp": 11,
+        "atk": 13,
+        "def": 14,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Forretress-3",
+      "species": "Forretress",
+      "setNumber": 3,
+      "item": "Avanzi",
+      "move1": "Esplosione",
+      "move2": "Tossina",
+      "move3": "Solarraggio",
+      "move4": "Bullo",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Kingdra-4",
+      "species": "Kingdra",
+      "setNumber": 4,
+      "item": "Bacca Menta",
+      "move1": "Riposo",
+      "move2": "Surf",
+      "move3": "Bora",
+      "move4": "Dragospiro",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Dragonite-2",
+      "species": "Dragonite",
+      "setNumber": 2,
+      "item": "Bacca Oro",
+      "move1": "Tuononda",
+      "move2": "Surf",
+      "move3": "Fulmine",
+      "move4": "Oltraggio",
+      "level": 80,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Porygon2-5",
+      "species": "Porygon2",
+      "setNumber": 5,
+      "item": "Avanzi",
+      "move1": "Psichico",
+      "move2": "Ripresa",
+      "move3": "Iper-Raggio",
+      "move4": "Tripletta",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 15,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "234 HP, 223 Atk, 200 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Jynx-3",
+      "species": "Jynx",
+      "setNumber": 3,
+      "item": "Rapidartiglio",
+      "move1": "Demonbacio",
+      "move2": "Bora",
+      "move3": "Mangiasogni",
+      "move4": "Psichico",
+      "level": 80,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "234 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Mantine-1",
+      "species": "Mantine",
+      "setNumber": 1,
+      "item": "Bacca Oro",
+      "move1": "Surf",
+      "move2": "Stordiraggio",
+      "move3": "Bora",
+      "move4": "Att. D'Ala",
+      "level": 80,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 12
+      },
+      "EVs": "200 HP, 212 Atk, 200 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Skarmory-3",
+      "species": "Skarmory",
+      "setNumber": 3,
+      "item": "Rapidartiglio",
+      "move1": "Alacciaio",
+      "move2": "Volo",
+      "move3": "Fangosberla",
+      "move4": "Tossina",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 212 Atk, 187 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Moltres-1",
+      "species": "Moltres",
+      "setNumber": 1,
+      "item": "Carbonella",
+      "move1": "Lanciafiamme",
+      "move2": "Aeroattacco",
+      "move3": "Alacciaio",
+      "move4": "Iper-Raggio",
+      "level": 80,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "Aerodactyl-5",
+      "species": "Aerodactyl",
+      "setNumber": 5,
+      "item": "Bacca Mirac.",
+      "move1": "Iper-Raggio",
+      "move2": "Riposo",
+      "move3": "Terremoto",
+      "move4": "Boato",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 15,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "Electrode-3",
+      "species": "Electrode",
+      "setNumber": 3,
+      "item": "Roccia di re",
+      "move1": "Fulmine",
+      "move2": "Esplosione",
+      "move3": "Specchiovelo",
+      "move4": "Tossina",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 15,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 200 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "Dugtrio-4",
+      "species": "Dugtrio",
+      "setNumber": 4,
+      "item": "Mirino",
+      "move1": "Lacerazione",
+      "move2": "Terremoto",
+      "move3": "Furto",
+      "move4": "Fangosberla",
+      "level": 80,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 200 Def, 200 SpA, 200 SpD, 223 Spe"
+    },
+    {
+      "setName": "Victreebel-1",
+      "species": "Victreebel",
+      "setNumber": 1,
+      "item": "Rapidartiglio",
+      "move1": "Gigassorbim.",
+      "move2": "Fangobomba",
+      "move3": "Iper-Raggio",
+      "move4": "Tossina",
+      "level": 80,
+      "DVs": {
+        "hp": 5,
+        "atk": 6,
+        "def": 5,
+        "spe": 6,
+        "spc": 5
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Pinsir-1",
+      "species": "Pinsir",
+      "setNumber": 1,
+      "item": "Bacca Oro",
+      "move1": "Iper-Raggio",
+      "move2": "Sottomiss.",
+      "move3": "Forza",
+      "move4": "Tossina",
+      "level": 80,
+      "DVs": {
+        "hp": 8,
+        "atk": 7,
+        "def": 4,
+        "spe": 6,
+        "spc": 4
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Granbull-1",
+      "species": "Granbull",
+      "setNumber": 1,
+      "item": "Luminpolvere",
+      "move1": "Boato",
+      "move2": "Palla Ombra",
+      "move3": "Iper-Raggio",
+      "move4": "Tuonopugno",
+      "level": 80,
+      "DVs": {
+        "hp": 11,
+        "atk": 7,
+        "def": 6,
+        "spe": 5,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Umbreon-6",
+      "species": "Umbreon",
+      "setNumber": 6,
+      "item": "Roccia di re",
+      "move1": "Finta",
+      "move2": "Fangosberla",
+      "move3": "Lucelunare",
+      "move4": "Stordiraggio",
+      "level": 90,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "244 HP, 244 Atk, 234 Def, 234 SpA, 234 SpD, 244 Spe"
+    },
+    {
+      "setName": "Dragonite-3",
+      "species": "Dragonite",
+      "setNumber": 3,
+      "item": "Rapidartiglio",
+      "move1": "Fuocobomba",
+      "move2": "Iper-Raggio",
+      "move3": "Oltraggio",
+      "move4": "Bora",
+      "level": 90,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "252 HP, 223 Atk, 236 Def, 244 SpA, 244 SpD, 244 Spe"
+    },
+    {
+      "setName": "Starmie-5",
+      "species": "Starmie",
+      "setNumber": 5,
+      "item": "Avanzi",
+      "move1": "Ripresa",
+      "move2": "Fulmine",
+      "move3": "Surf",
+      "move4": "Psichico",
+      "level": 90,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "244 HP, 244 Atk, 244 Def, 244 SpA, 244 SpD, 234 Spe"
+    },
+    {
+      "setName": "Cloyster-1",
+      "species": "Cloyster",
+      "setNumber": 1,
+      "item": "Avanzi",
+      "move1": "Esplosione",
+      "move2": "Bora",
+      "move3": "Surf",
+      "move4": "Ventogelato",
+      "level": 90,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 11,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Crobat-3",
+      "species": "Crobat",
+      "setNumber": 3,
+      "item": "Bacca Oro",
+      "move1": "Att. D'Ala",
+      "move2": "Nube",
+      "move3": "Iper-Raggio",
+      "move4": "Gigassorbim.",
+      "level": 90,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 12,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Porygon2-6",
+      "species": "Porygon2",
+      "setNumber": 6,
+      "item": "Rapidartiglio",
+      "move1": "Tossina",
+      "move2": "Psichico",
+      "move3": "Ripresa",
+      "move4": "Protezione",
+      "level": 90,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Kingdra-5",
+      "species": "Kingdra",
+      "setNumber": 5,
+      "item": "Avanzi",
+      "move1": "Dragospiro",
+      "move2": "Surf",
+      "move3": "Iper-Raggio",
+      "move4": "Bora",
+      "level": 90,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 234 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Tyranitar-4",
+      "species": "Tyranitar",
+      "setNumber": 4,
+      "item": "Rapidartiglio",
+      "move1": "Iper-Raggio",
+      "move2": "Sgranocchio",
+      "move3": "Terremoto",
+      "move4": "Frana",
+      "level": 90,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 234 Atk, 223 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Lapras-7",
+      "species": "Lapras",
+      "setNumber": 7,
+      "item": "Bacca Menta",
+      "move1": "Riposo",
+      "move2": "Surf",
+      "move3": "Fulmine",
+      "move4": "Psichico",
+      "level": 90,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 234 SpA, 234 SpD, 223 Spe"
+    },
+    {
+      "setName": "Espeon-3",
+      "species": "Espeon",
+      "setNumber": 3,
+      "item": "Bacca Oro",
+      "move1": "Psichico",
+      "move2": "Palla Ombra",
+      "move3": "Giornodisole",
+      "move4": "Mattindoro",
+      "level": 90,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "234 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Machamp-4",
+      "species": "Machamp",
+      "setNumber": 4,
+      "item": "Rapidartiglio",
+      "move1": "Incrocolpo",
+      "move2": "Vitaltiro",
+      "move3": "Fuocobomba",
+      "move4": "Terremoto",
+      "level": 90,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "234 HP, 234 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Snorlax-7",
+      "species": "Snorlax",
+      "setNumber": 7,
+      "item": "Bacca Mirac.",
+      "move1": "Fuocobomba",
+      "move2": "Surf",
+      "move3": "Terremoto",
+      "move4": "Iper-Raggio",
+      "level": 90,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 234 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Arcanine-4",
+      "species": "Arcanine",
+      "setNumber": 4,
+      "item": "Bacca Menta",
+      "move1": "Giornodisole",
+      "move2": "Lanciafiamme",
+      "move3": "Extrarapido",
+      "move4": "Riposo",
+      "level": 90,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 234 SpA, 234 SpD, 212 Spe"
+    },
+    {
+      "setName": "Blissey-6",
+      "species": "Blissey",
+      "setNumber": 6,
+      "item": "Avanzi",
+      "move1": "Solarraggio",
+      "move2": "Giornodisole",
+      "move3": "Covauova",
+      "move4": "Fuocobomba",
+      "level": 90,
+      "DVs": {
+        "hp": 14,
+        "atk": 11,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Houndoom-6",
+      "species": "Houndoom",
+      "setNumber": 6,
+      "item": "Luminpolvere",
+      "move1": "Lanciafiamme",
+      "move2": "Sgranocchio",
+      "move3": "Giornodisole",
+      "move4": "Solarraggio",
+      "level": 90,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 11,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Skarmory-4",
+      "species": "Skarmory",
+      "setNumber": 4,
+      "item": "Rapidartiglio",
+      "move1": "Terrempesta",
+      "move2": "Alacciaio",
+      "move3": "Tossina",
+      "move4": "Ritorno",
+      "level": 90,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Shuckle-2",
+      "species": "Shuckle",
+      "setNumber": 2,
+      "item": "Avanzi",
+      "move1": "Tossina",
+      "move2": "Avvolgibotta",
+      "move3": "Protezione",
+      "move4": "Ripeti",
+      "level": 90,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Flareon-1",
+      "species": "Flareon",
+      "setNumber": 1,
+      "item": "Bacca Menta",
+      "move1": "Iper-Raggio",
+      "move2": "Lanciafiamme",
+      "move3": "Palla Ombra",
+      "move4": "Boato",
+      "level": 90,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 7,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Miltank-3",
+      "species": "Miltank",
+      "setNumber": 3,
+      "item": "Avanzi",
+      "move1": "Buonlatte",
+      "move2": "Terremoto",
+      "move3": "Attrazione",
+      "move4": "Body Slam",
+      "level": 90,
+      "DVs": {
+        "hp": 7,
+        "atk": 4,
+        "def": 7,
+        "spe": 5,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Tauros-5",
+      "species": "Tauros",
+      "setNumber": 5,
+      "item": "Fiocco Rosa",
+      "move1": "Fulmine",
+      "move2": "Iper-Raggio",
+      "move3": "Attrazione",
+      "move4": "Terremoto",
+      "level": 90,
+      "DVs": {
+        "hp": 6,
+        "atk": 6,
+        "def": 5,
+        "spe": 7,
+        "spc": 6
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Muk-2",
+      "species": "Muk",
+      "setNumber": 2,
+      "item": "Rapidartiglio",
+      "move1": "Tossina",
+      "move2": "Fangobomba",
+      "move3": "Attrazione",
+      "move4": "Gigassorbim.",
+      "level": 90,
+      "DVs": {
+        "hp": 8,
+        "atk": 5,
+        "def": 4,
+        "spe": 4,
+        "spc": 4
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Houndoom-7",
+      "species": "Houndoom",
+      "setNumber": 7,
+      "item": "Bacca Menta",
+      "move1": "Sgranocchio",
+      "move2": "Lanciafiamme",
+      "move3": "Boato",
+      "move4": "Riposo",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "244 HP, 244 Atk, 244 Def, 244 SpA, 244 SpD, 244 Spe"
+    },
+    {
+      "setName": "Machamp-5",
+      "species": "Machamp",
+      "setNumber": 5,
+      "item": "Rapidartiglio",
+      "move1": "Incrocolpo",
+      "move2": "Terremoto",
+      "move3": "Iper-Raggio",
+      "move4": "Vitaltiro",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "244 HP, 244 Atk, 244 Def, 244 SpA, 244 SpD, 244 Spe"
+    },
+    {
+      "setName": "Kingdra-6",
+      "species": "Kingdra",
+      "setNumber": 6,
+      "item": "Avanzi",
+      "move1": "Surf",
+      "move2": "Dragospiro",
+      "move3": "Riposo",
+      "move4": "Tossina",
+      "level": 100,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "244 HP, 244 Atk, 244 Def, 244 SpA, 244 SpD, 244 Spe"
+    },
+    {
+      "setName": "Jolteon-6",
+      "species": "Jolteon",
+      "setNumber": 6,
+      "item": "Luminpolvere",
+      "move1": "Fulmine",
+      "move2": "Boato",
+      "move3": "Tuononda",
+      "move4": "Codacciaio",
+      "level": 100,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 173 Spe"
+    },
+    {
+      "setName": "Tauros-6",
+      "species": "Tauros",
+      "setNumber": 6,
+      "item": "Roccia di re",
+      "move1": "Iper-Raggio",
+      "move2": "Terremoto",
+      "move3": "Codacciaio",
+      "move4": "Fulmine",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Arcanine-5",
+      "species": "Arcanine",
+      "setNumber": 5,
+      "item": "Avanzi",
+      "move1": "Lanciafiamme",
+      "move2": "Extrarapido",
+      "move3": "Codacciaio",
+      "move4": "Iper-Raggio",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "234 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Charizard-3",
+      "species": "Charizard",
+      "setNumber": 3,
+      "item": "Mirino",
+      "move1": "Lanciafiamme",
+      "move2": "Terremoto",
+      "move3": "Lacerazione",
+      "move4": "Volo",
+      "level": 100,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 234 Def, 234 SpA, 234 SpD, 234 Spe"
+    },
+    {
+      "setName": "Electrode-4",
+      "species": "Electrode",
+      "setNumber": 4,
+      "item": "Luminpolvere",
+      "move1": "Tuononda",
+      "move2": "Fulmine",
+      "move3": "Esplosione",
+      "move4": "Specchiovelo",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 212 Spe"
+    },
+    {
+      "setName": "Rhydon-2",
+      "species": "Rhydon",
+      "setNumber": 2,
+      "item": "Bacca Mirac.",
+      "move1": "Surf",
+      "move2": "Terremoto",
+      "move3": "Iper-Raggio",
+      "move4": "Frana",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "234 HP, 223 Atk, 234 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Steelix-4",
+      "species": "Steelix",
+      "setNumber": 4,
+      "item": "Avanzi",
+      "move1": "Terremoto",
+      "move2": "Iper-Raggio",
+      "move3": "Bullo",
+      "move4": "Sgranocchio",
+      "level": 100,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 234 Def, 223 SpA, 223 SpD, 244 Spe"
+    },
+    {
+      "setName": "Fearow-2",
+      "species": "Fearow",
+      "setNumber": 2,
+      "item": "Roccia di re",
+      "move1": "Perforbecco",
+      "move2": "Alacciaio",
+      "move3": "Iper-Raggio",
+      "move4": "Fangosberla",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 12,
+        "spc": 15
+      },
+      "EVs": "234 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Misdreavus-2",
+      "species": "Misdreavus",
+      "setNumber": 2,
+      "item": "Bandana",
+      "move1": "Ultimocanto",
+      "move2": "Malosguardo",
+      "move3": "Malcomune",
+      "move4": "Palla Ombra",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "212 HP, 223 Atk, 234 Def, 234 SpA, 234 SpD, 223 Spe"
+    },
+    {
+      "setName": "Sneasel-2",
+      "species": "Sneasel",
+      "setNumber": 2,
+      "item": "Mirino",
+      "move1": "Lacerazione",
+      "move2": "Bora",
+      "move3": "Mangiasogni",
+      "move4": "Finta",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 219 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Scizor-4",
+      "species": "Scizor",
+      "setNumber": 4,
+      "item": "Rapidartiglio",
+      "move1": "Alacciaio",
+      "move2": "Iper-Raggio",
+      "move3": "Lacerazione",
+      "move4": "Tossina",
+      "level": 100,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 11,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Blissey-7",
+      "species": "Blissey",
+      "setNumber": 7,
+      "item": "Avanzi",
+      "move1": "Fulmine",
+      "move2": "Bora",
+      "move3": "Fuocobomba",
+      "move4": "Covauova",
+      "level": 100,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Piloswine-1",
+      "species": "Piloswine",
+      "setNumber": 1,
+      "item": "Bacca Menta",
+      "move1": "Riposo",
+      "move2": "Bora",
+      "move3": "Iper-Raggio",
+      "move4": "Terremoto",
+      "level": 100,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Exeggutor-5",
+      "species": "Exeggutor",
+      "setNumber": 5,
+      "item": "Rapidartiglio",
+      "move1": "Psichico",
+      "move2": "Tossina",
+      "move3": "Esplosione",
+      "move4": "Gigassorbim.",
+      "level": 100,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Omastar-2",
+      "species": "Omastar",
+      "setNumber": 2,
+      "item": "Avanzi",
+      "move1": "Surf",
+      "move2": "Forzantica",
+      "move3": "Bora",
+      "move4": "Tossina",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Golem-3",
+      "species": "Golem",
+      "setNumber": 3,
+      "item": "Luminpolvere",
+      "move1": "Esplosione",
+      "move2": "Terremoto",
+      "move3": "Frana",
+      "move4": "Fuocobomba",
+      "level": 100,
+      "DVs": {
+        "hp": 8,
+        "atk": 7,
+        "def": 4,
+        "spe": 4,
+        "spc": 6
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Hitmonchan-2",
+      "species": "Hitmonchan",
+      "setNumber": 2,
+      "item": "Bandana",
+      "move1": "Contatore",
+      "move2": "Fuocopugno",
+      "move3": "Tuonopugno",
+      "move4": "Gelopugno",
+      "level": 100,
+      "DVs": {
+        "hp": 6,
+        "atk": 6,
+        "def": 7,
+        "spe": 7,
+        "spc": 6
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Lanturn-2",
+      "species": "Lanturn",
+      "setNumber": 2,
+      "item": "Rapidartiglio",
+      "move1": "Surf",
+      "move2": "Pioggiadanza",
+      "move3": "Falcecannone",
+      "move4": "Stordiraggio",
+      "level": 100,
+      "DVs": {
+        "hp": 11,
+        "atk": 7,
+        "def": 6,
+        "spe": 5,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    }
+  ]
+}

@@ -18281,6 +18281,61 @@
             "chs": "",
             "cht": "",
             "ko": "???"
+        },
+        {
+            "en": "Miracle Berry",
+            "jp": "きせきのみ",
+            "fr": "Baie Miracle",
+            "it": "Bacca Mirac.",
+            "de": "Wunderbeere",
+            "es": "Baya Milagro",
+            "chs": "Miracle Berry",
+            "cht": "Miracle Berry",
+            "ko": "Miracle Berry"
+        },
+        {
+            "en": "Gold Berry",
+            "jp": "おうごんのみ",
+            "fr": "Baie Dorée",
+            "it": "Bacca Oro",
+            "de": "Goldbeere",
+            "es": "Baya Dorada",
+            "chs": "Gold Berry",
+            "cht": "Gold Berry",
+            "ko": "Gold Berry"
+        },
+        {
+            "en": "Mint Berry",
+            "jp": "はっかのみ",
+            "fr": "Baie Menthe",
+            "it": "Bacca Menta",
+            "de": "Minzbeere",
+            "es": "Baya Menta",
+            "chs": "Mint Berry",
+            "cht": "Mint Berry",
+            "ko": "Mint Berry"
+        },
+        {
+            "en": "Pink Bow",
+            "jp": "ピンクのリボン",
+            "fr": "Ruban Rose",
+            "it": "Fiocco Rosa",
+            "de": "Rosa Band",
+            "es": "Lazo Rosa",
+            "chs": "Pink Bow",
+            "cht": "Pink Bow",
+            "ko": "Pink Bow"
+        },
+        {
+            "en": "Berry",
+            "jp": "きのみ",
+            "fr": "Baie",
+            "it": "Bacca",
+            "de": "Beere",
+            "es": "Baya",
+            "chs": "Berry",
+            "cht": "Berry",
+            "ko": "Berry"
         }
     ]
 }

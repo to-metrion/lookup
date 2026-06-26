@@ -156,6 +156,18 @@ function speedLevel() {
 function speedCore(set, ivOverride) {
     const dex = state.data.pokedex.find(p => p[state.language] === set.species);
     if (!dex || dex.spe == null) return null;
+    // Gen 2: DVs (0-15) + Stat Exp + the set's own level. The modern stat formula
+    // with iv = 2·(Speed DV) and ev = floor(√statexp) (what the EVs field already
+    // holds) is algebraically identical to the gen-2 formula, so we reuse
+    // computeSpeed. No natures, abilities, or held-item speed modifiers in gen 2.
+    if (state.variant?.gen === 2) {
+        const dv = set.DVs ? set.DVs.spe : 15;
+        return {
+            dex,
+            params: { ev: speEv(set.EVs), level: set.level ?? 50, iv: 2 * dv },
+            enItem: null, itemMod: 1,
+        };
+    }
     const level = set.wild ? wildLevelBounds(set)[0] : speedLevel();
     if (level == null) return null;   // Hall with no determined faced level → no speed
     const noItems = Boolean(state.variant?.noItems);

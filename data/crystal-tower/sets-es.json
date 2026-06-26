@@ -1,0 +1,3996 @@
+{
+  "sets": [
+    {
+      "setName": "Jolteon-1",
+      "species": "Jolteon",
+      "setNumber": 1,
+      "item": "Baya Milagro",
+      "move1": "Rayo",
+      "move2": "Híper Rayo",
+      "move3": "Bola Sombra",
+      "move4": "Rugido",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 11,
+        "spc": 13
+      },
+      "EVs": "223 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 187 Spe"
+    },
+    {
+      "setName": "Espeon-1",
+      "species": "Espeon",
+      "setNumber": 1,
+      "item": "Restos",
+      "move1": "Bofetón-Lodo",
+      "move2": "Psíquico",
+      "move3": "Más Psique",
+      "move4": "Tóxico",
+      "level": 10,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 13,
+        "spe": 15,
+        "spc": 11
+      },
+      "EVs": "200 HP, 223 Atk, 187 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "Umbreon-1",
+      "species": "Umbreon",
+      "setNumber": 1,
+      "item": "Baya Dorada",
+      "move1": "Bola Sombra",
+      "move2": "Cola Férrea",
+      "move3": "Más Psique",
+      "move4": "Tóxico",
+      "level": 10,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 11,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "200 HP, 200 Atk, 212 Def, 200 SpA, 200 SpD, 223 Spe"
+    },
+    {
+      "setName": "Wobbuffet-1",
+      "species": "Wobbuffet",
+      "setNumber": 1,
+      "item": "Cinta Aguante",
+      "move1": "Contador",
+      "move2": "Manto Espejo",
+      "move3": "Velo Sagrado",
+      "move4": "Mismodestino",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 7,
+        "def": 15,
+        "spe": 13,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Kangaskhan-1",
+      "species": "Kangaskhan",
+      "setNumber": 1,
+      "item": "Baya Milagro",
+      "move1": "Inversión",
+      "move2": "Híper Rayo",
+      "move3": "Terremoto",
+      "move4": "Atracción",
+      "level": 10,
+      "DVs": {
+        "hp": 5,
+        "atk": 14,
+        "def": 15,
+        "spe": 12,
+        "spc": 15
+      },
+      "EVs": "200 HP, 173 Atk, 200 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Corsola-1",
+      "species": "Corsola",
+      "setNumber": 1,
+      "item": "Periscopio",
+      "move1": "Surf",
+      "move2": "Psíquico",
+      "move3": "Recuperación",
+      "move4": "Poder Pasado",
+      "level": 10,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "200 HP, 173 Atk, 182 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Miltank-1",
+      "species": "Miltank",
+      "setNumber": 1,
+      "item": "Baya Dorada",
+      "move1": "Ventisca",
+      "move2": "Terremoto",
+      "move3": "Híper Rayo",
+      "move4": "Tóxico",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 11,
+        "def": 11,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 187 SpA, 187 SpD, 173 Spe"
+    },
+    {
+      "setName": "Aerodactyl-1",
+      "species": "Aerodactyl",
+      "setNumber": 1,
+      "item": "Restos",
+      "move1": "Híper Rayo",
+      "move2": "Supersónico",
+      "move3": "Terremoto",
+      "move4": "Mordisco",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 11,
+        "spe": 15,
+        "spc": 11
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Lapras-1",
+      "species": "Lapras",
+      "setNumber": 1,
+      "item": "Baya Milagro",
+      "move1": "Ventisca",
+      "move2": "Surf",
+      "move3": "Rayo",
+      "move4": "Psíquico",
+      "level": 10,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Sneasel-1",
+      "species": "Sneasel",
+      "setNumber": 1,
+      "item": "Baya Dorada",
+      "move1": "Cuchillada",
+      "move2": "Finta",
+      "move3": "Surf",
+      "move4": "Ventisca",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 11,
+        "spe": 11,
+        "spc": 15
+      },
+      "EVs": "173 HP, 187 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Porygon2-1",
+      "species": "Porygon2",
+      "setNumber": 1,
+      "item": "Polvo Brillo",
+      "move1": "Psíquico",
+      "move2": "Ventisca",
+      "move3": "Híper Rayo",
+      "move4": "Tri-Ataque",
+      "level": 10,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 11,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "173 HP, 173 Atk, 200 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Misdreavus-1",
+      "species": "Misdreavus",
+      "setNumber": 1,
+      "item": "Cinta Aguante",
+      "move1": "Canto Mortal",
+      "move2": "Mal De Ojo",
+      "move3": "Divide Dolor",
+      "move4": "Bola Sombra",
+      "level": 10,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Houndour-1",
+      "species": "Houndour",
+      "setNumber": 1,
+      "item": "Baya Dorada",
+      "move1": "Finta",
+      "move2": "Rayo Solar",
+      "move3": "Rugido",
+      "move4": "Día Soleado",
+      "level": 10,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 181 Spe"
+    },
+    {
+      "setName": "Girafarig-1",
+      "species": "Girafarig",
+      "setNumber": 1,
+      "item": "Roca del Rey",
+      "move1": "Psico-Rayo",
+      "move2": "Bofetón-Lodo",
+      "move3": "Bola Sombra",
+      "move4": "Agilidad",
+      "level": 10,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 13,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Blissey-1",
+      "species": "Blissey",
+      "setNumber": 1,
+      "item": "Garra Rápida",
+      "move1": "Golpe Cabeza",
+      "move2": "Rayo Solar",
+      "move3": "Desenrollar",
+      "move4": "Fuerza",
+      "level": 10,
+      "DVs": {
+        "hp": 12,
+        "atk": 13,
+        "def": 15,
+        "spe": 12,
+        "spc": 14
+      },
+      "EVs": "178 HP, 200 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Snorlax-1",
+      "species": "Snorlax",
+      "setNumber": 1,
+      "item": "Baya Milagro",
+      "move1": "Golpe Cabeza",
+      "move2": "Protección",
+      "move3": "Ronquido",
+      "move4": "Surf",
+      "level": 10,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Exeggutor-1",
+      "species": "Exeggutor",
+      "setNumber": 1,
+      "item": "Roca del Rey",
+      "move1": "Tóxico",
+      "move2": "Giga-Drenado",
+      "move3": "Ladrón",
+      "move4": "Confusión",
+      "level": 10,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Heracross-1",
+      "species": "Heracross",
+      "setNumber": 1,
+      "item": "Baya Dorada",
+      "move1": "Inversión",
+      "move2": "Aguante",
+      "move3": "Contador",
+      "move4": "Golpe Roca",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 7,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Unown-1",
+      "species": "Unown",
+      "setNumber": 1,
+      "item": "Baya",
+      "move1": "Poder Oculto",
+      "move2": "",
+      "move3": "",
+      "move4": "",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe",
+      "minisprite": "unown-z",
+      "sprite": "unown-z"
+    },
+    {
+      "setName": "Tauros-1",
+      "species": "Tauros",
+      "setNumber": 1,
+      "item": "Roca del Rey",
+      "move1": "Golpe Cabeza",
+      "move2": "Contoneo",
+      "move3": "Látigo",
+      "move4": "Viento Hielo",
+      "level": 10,
+      "DVs": {
+        "hp": 7,
+        "atk": 6,
+        "def": 5,
+        "spe": 5,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Mr.Mime-1",
+      "species": "Mr.Mime",
+      "setNumber": 1,
+      "item": "Garra Rápida",
+      "move1": "Tóxico",
+      "move2": "Más Psique",
+      "move3": "Puño Fuego",
+      "move4": "Golpe Cabeza",
+      "level": 10,
+      "DVs": {
+        "hp": 13,
+        "atk": 7,
+        "def": 3,
+        "spe": 6,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Umbreon-2",
+      "species": "Umbreon",
+      "setNumber": 2,
+      "item": "Restos",
+      "move1": "Protección",
+      "move2": "Tóxico",
+      "move3": "Bofetón-Lodo",
+      "move4": "Atracción",
+      "level": 20,
+      "DVs": {
+        "hp": 6,
+        "atk": 12,
+        "def": 15,
+        "spe": 11,
+        "spc": 12
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Starmie-1",
+      "species": "Starmie",
+      "setNumber": 1,
+      "item": "Baya Dorada",
+      "move1": "Recuperación",
+      "move2": "Psíquico",
+      "move3": "Surf",
+      "move4": "Más Psique",
+      "level": 20,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 11,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Gyarados-1",
+      "species": "Gyarados",
+      "setNumber": 1,
+      "item": "Baya Milagro",
+      "move1": "Híper Rayo",
+      "move2": "Furia Dragón",
+      "move3": "Rayo",
+      "move4": "Llamarada",
+      "level": 20,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 10,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Steelix-1",
+      "species": "Steelix",
+      "setNumber": 1,
+      "item": "Baya Dorada",
+      "move1": "Rugido",
+      "move2": "Cola Férrea",
+      "move3": "Contoneo",
+      "move4": "Terremoto",
+      "level": 20,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 173 Spe"
+    },
+    {
+      "setName": "Alakazam-1",
+      "species": "Alakazam",
+      "setNumber": 1,
+      "item": "Zumo de Baya",
+      "move1": "Psíquico",
+      "move2": "Más Psique",
+      "move3": "Tóxico",
+      "move4": "Puño-Trueno",
+      "level": 20,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 173 Def, 200 SpA, 200 SpD, 223 Spe"
+    },
+    {
+      "setName": "Arcanine-1",
+      "species": "Arcanine",
+      "setNumber": 1,
+      "item": "Polvo Brillo",
+      "move1": "Lanzallamas",
+      "move2": "Rugido",
+      "move3": "Híper Rayo",
+      "move4": "Cola Férrea",
+      "level": 20,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 11,
+        "spe": 15,
+        "spc": 11
+      },
+      "EVs": "187 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Heracross-2",
+      "species": "Heracross",
+      "setNumber": 2,
+      "item": "Cinta Aguante",
+      "move1": "Aguante",
+      "move2": "Inversión",
+      "move3": "Megacuerno",
+      "move4": "Terremoto",
+      "level": 20,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 173 Atk, 212 Def, 212 SpA, 212 SpD, 173 Spe"
+    },
+    {
+      "setName": "Exeggutor-2",
+      "species": "Exeggutor",
+      "setNumber": 2,
+      "item": "Restos",
+      "move1": "Híper Rayo",
+      "move2": "Psíquico",
+      "move3": "Tóxico",
+      "move4": "Come Sueños",
+      "level": 20,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 212 Spe"
+    },
+    {
+      "setName": "Aerodactyl-2",
+      "species": "Aerodactyl",
+      "setNumber": 2,
+      "item": "Baya Dorada",
+      "move1": "Descanso",
+      "move2": "Híper Rayo",
+      "move3": "Terremoto",
+      "move4": "Furia Dragón",
+      "level": 20,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 11,
+        "spe": 11,
+        "spc": 11
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Blissey-2",
+      "species": "Blissey",
+      "setNumber": 2,
+      "item": "Polvo Brillo",
+      "move1": "Psíquico",
+      "move2": "Sumisión",
+      "move3": "Amortiguador",
+      "move4": "Contador",
+      "level": 20,
+      "DVs": {
+        "hp": 14,
+        "atk": 11,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 173 Def, 223 SpA, 223 SpD, 173 Spe"
+    },
+    {
+      "setName": "Lapras-2",
+      "species": "Lapras",
+      "setNumber": 2,
+      "item": "Baya Dorada",
+      "move1": "Psíquico",
+      "move2": "Rayo",
+      "move3": "Ventisca",
+      "move4": "Rayo Confuso",
+      "level": 20,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 13,
+        "spc": 7
+      },
+      "EVs": "234 HP, 173 Atk, 200 Def, 173 SpA, 173 SpD, 234 Spe"
+    },
+    {
+      "setName": "Pikachu-1",
+      "species": "Pikachu",
+      "setNumber": 1,
+      "item": "Bola Luminosa",
+      "move1": "Rayo",
+      "move2": "Onda Trueno",
+      "move3": "Fuerza",
+      "move4": "Tóxico",
+      "level": 20,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 12,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "212 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Scizor-1",
+      "species": "Scizor",
+      "setNumber": 1,
+      "item": "Cinta Aguante",
+      "move1": "Ala De Acero",
+      "move2": "Cuchillada",
+      "move3": "Tóxico",
+      "move4": "Torm. Arena",
+      "level": 20,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "200 HP, 212 Atk, 200 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Hitmonchan-1",
+      "species": "Hitmonchan",
+      "setNumber": 1,
+      "item": "Baya Dorada",
+      "move1": "Puño-Trueno",
+      "move2": "Puño Hielo",
+      "move3": "Puño Fuego",
+      "move4": "Mega Puño",
+      "level": 20,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 11,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "223 HP, 212 Atk, 187 Def, 173 SpA, 173 SpD, 223 Spe"
+    },
+    {
+      "setName": "Tauros-2",
+      "species": "Tauros",
+      "setNumber": 2,
+      "item": "Polvo Brillo",
+      "move1": "Rayo",
+      "move2": "Terremoto",
+      "move3": "Híper Rayo",
+      "move4": "Ventisca",
+      "level": 20,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Azumarill-1",
+      "species": "Azumarill",
+      "setNumber": 1,
+      "item": "Agua Mística",
+      "move1": "Surf",
+      "move2": "Ventisca",
+      "move3": "Atracción",
+      "move4": "Danza Lluvia",
+      "level": 20,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 13,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "200 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "Miltank-2",
+      "species": "Miltank",
+      "setNumber": 2,
+      "item": "Roca del Rey",
+      "move1": "Terremoto",
+      "move2": "Trueno",
+      "move3": "Atracción",
+      "move4": "Surf",
+      "level": 20,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "200 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "Wigglytuff-1",
+      "species": "Wigglytuff",
+      "setNumber": 1,
+      "item": "Baya Dorada",
+      "move1": "Híper Rayo",
+      "move2": "Ventisca",
+      "move3": "Llamarada",
+      "move4": "Atracción",
+      "level": 20,
+      "DVs": {
+        "hp": 6,
+        "atk": 12,
+        "def": 7,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "200 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "Wigglytuff-2",
+      "species": "Wigglytuff",
+      "setNumber": 2,
+      "item": "Lazo Rosa",
+      "move1": "Psíquico",
+      "move2": "Contoneo",
+      "move3": "Más Psique",
+      "move4": "Golpe Cabeza",
+      "level": 20,
+      "DVs": {
+        "hp": 7,
+        "atk": 12,
+        "def": 7,
+        "spe": 7,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Nidoking-1",
+      "species": "Nidoking",
+      "setNumber": 1,
+      "item": "Baya",
+      "move1": "Ventisca",
+      "move2": "Terremoto",
+      "move3": "Surf",
+      "move4": "Puño-Trueno",
+      "level": 20,
+      "DVs": {
+        "hp": 8,
+        "atk": 5,
+        "def": 6,
+        "spe": 4,
+        "spc": 6
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Quagsire-1",
+      "species": "Quagsire",
+      "setNumber": 1,
+      "item": "Garra Rápida",
+      "move1": "Amnesia",
+      "move2": "Terremoto",
+      "move3": "Surf",
+      "move4": "Danza Lluvia",
+      "level": 20,
+      "DVs": {
+        "hp": 13,
+        "atk": 5,
+        "def": 5,
+        "spe": 4,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Jolteon-2",
+      "species": "Jolteon",
+      "setNumber": 2,
+      "item": "Baya Milagro",
+      "move1": "Rayo",
+      "move2": "Onda Trueno",
+      "move3": "Rugido",
+      "move4": "Bofetón-Lodo",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 11,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 234 SpA, 234 SpD, 223 Spe"
+    },
+    {
+      "setName": "Poliwrath-1",
+      "species": "Poliwrath",
+      "setNumber": 1,
+      "item": "Polvo Brillo",
+      "move1": "Doble Equipo",
+      "move2": "Surf",
+      "move3": "Fisura",
+      "move4": "Sumisión",
+      "level": 30,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 11
+      },
+      "EVs": "223 HP, 234 Atk, 234 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Starmie-2",
+      "species": "Starmie",
+      "setNumber": 2,
+      "item": "Restos",
+      "move1": "Onda Trueno",
+      "move2": "Psíquico",
+      "move3": "Recuperación",
+      "move4": "Surf",
+      "level": 30,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Jynx-1",
+      "species": "Jynx",
+      "setNumber": 1,
+      "item": "Baya Dorada",
+      "move1": "Ventisca",
+      "move2": "Beso Amoroso",
+      "move3": "Come Sueños",
+      "move4": "Atracción",
+      "level": 30,
+      "DVs": {
+        "hp": 12,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 173 Spe"
+    },
+    {
+      "setName": "Dugtrio-1",
+      "species": "Dugtrio",
+      "setNumber": 1,
+      "item": "Roca del Rey",
+      "move1": "Terremoto",
+      "move2": "Bomba Lodo",
+      "move3": "Cuchillada",
+      "move4": "Bofetón-Lodo",
+      "level": 30,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 173 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Bellossom-1",
+      "species": "Bellossom",
+      "setNumber": 1,
+      "item": "Polvo Brillo",
+      "move1": "Giga-Drenado",
+      "move2": "Día Soleado",
+      "move3": "Rayo Solar",
+      "move4": "Doble Equipo",
+      "level": 30,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "212 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Blissey-3",
+      "species": "Blissey",
+      "setNumber": 3,
+      "item": "Restos",
+      "move1": "Tóxico",
+      "move2": "Reflejo",
+      "move3": "Amortiguador",
+      "move4": "Protección",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 173 Atk, 212 Def, 212 SpA, 212 SpD, 173 Spe"
+    },
+    {
+      "setName": "Houndoom-1",
+      "species": "Houndoom",
+      "setNumber": 1,
+      "item": "Carbón",
+      "move1": "Lanzallamas",
+      "move2": "Triturar",
+      "move3": "Bola Sombra",
+      "move4": "Come Sueños",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 212 Spe"
+    },
+    {
+      "setName": "Machamp-1",
+      "species": "Machamp",
+      "setNumber": 1,
+      "item": "Baya Milagro",
+      "move1": "Tajo Cruzado",
+      "move2": "Puño Hielo",
+      "move3": "Terremoto",
+      "move4": "Llamarada",
+      "level": 30,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 11,
+        "spc": 14
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Crobat-1",
+      "species": "Crobat",
+      "setNumber": 1,
+      "item": "Baya Dorada",
+      "move1": "Atracción",
+      "move2": "Rayo Confuso",
+      "move3": "Tóxico",
+      "move4": "Ataque-Ala",
+      "level": 30,
+      "DVs": {
+        "hp": 6,
+        "atk": 14,
+        "def": 15,
+        "spe": 13,
+        "spc": 12
+      },
+      "EVs": "223 HP, 223 Atk, 173 Def, 223 SpA, 223 SpD, 173 Spe"
+    },
+    {
+      "setName": "Porygon2-2",
+      "species": "Porygon2",
+      "setNumber": 2,
+      "item": "Polvo Brillo",
+      "move1": "Psíquico",
+      "move2": "Recuperación",
+      "move3": "Híper Rayo",
+      "move4": "Tri-Ataque",
+      "level": 30,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "234 HP, 173 Atk, 200 Def, 173 SpA, 173 SpD, 234 Spe"
+    },
+    {
+      "setName": "Marowak-1",
+      "species": "Marowak",
+      "setNumber": 1,
+      "item": "Hueso Grueso",
+      "move1": "Terremoto",
+      "move2": "Retroceso",
+      "move3": "Híper Rayo",
+      "move4": "Huesomerang",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "212 HP, 223 Atk, 212 Def, 173 SpA, 173 SpD, 223 Spe"
+    },
+    {
+      "setName": "Electrode-1",
+      "species": "Electrode",
+      "setNumber": 1,
+      "item": "Polvo Brillo",
+      "move1": "Pantalla Luz",
+      "move2": "Rayo",
+      "move3": "Protección",
+      "move4": "Trueno",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "200 HP, 212 Atk, 200 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Lapras-3",
+      "species": "Lapras",
+      "setNumber": 3,
+      "item": "Restos",
+      "move1": "Danza Lluvia",
+      "move2": "Pistola Agua",
+      "move3": "Viento Hielo",
+      "move4": "Fuerza",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "223 HP, 212 Atk, 187 Def, 173 SpA, 173 SpD, 223 Spe"
+    },
+    {
+      "setName": "Lanturn-1",
+      "species": "Lanturn",
+      "setNumber": 1,
+      "item": "Baya Dorada",
+      "move1": "Danza Lluvia",
+      "move2": "Trueno",
+      "move3": "Surf",
+      "move4": "Azote",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Espeon-2",
+      "species": "Espeon",
+      "setNumber": 2,
+      "item": "Baya Milagro",
+      "move1": "Confusión",
+      "move2": "Rapidez",
+      "move3": "Tóxico",
+      "move4": "Más Psique",
+      "level": 30,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Tentacruel-1",
+      "species": "Tentacruel",
+      "setNumber": 1,
+      "item": "Roca del Rey",
+      "move1": "Repetición",
+      "move2": "Tóxico",
+      "move3": "Bomba Lodo",
+      "move4": "Rayo Burbuja",
+      "level": 30,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 212 SpA, 212 SpD, 216 Spe"
+    },
+    {
+      "setName": "Gengar-1",
+      "species": "Gengar",
+      "setNumber": 1,
+      "item": "Baya Dorada",
+      "move1": "Ladrón",
+      "move2": "Lengüetazo",
+      "move3": "Tinieblas",
+      "move4": "Giga-Drenado",
+      "level": 30,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 7,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Ursaring-1",
+      "species": "Ursaring",
+      "setNumber": 1,
+      "item": "Baya Dorada",
+      "move1": "Golpe Cabeza",
+      "move2": "Protección",
+      "move3": "Rugido",
+      "move4": "Malicioso",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 7,
+        "def": 7,
+        "spe": 4,
+        "spc": 5
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Fearow-1",
+      "species": "Fearow",
+      "setNumber": 1,
+      "item": "Polvo Brillo",
+      "move1": "Mov. Espejo",
+      "move2": "Persecución",
+      "move3": "Picotazo",
+      "move4": "Rapidez",
+      "level": 30,
+      "DVs": {
+        "hp": 7,
+        "atk": 6,
+        "def": 7,
+        "spe": 7,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Primeape-1",
+      "species": "Primeape",
+      "setNumber": 1,
+      "item": "Baya Milagro",
+      "move1": "Patada Baja",
+      "move2": "Golpe Karate",
+      "move3": "Inversión",
+      "move4": "Foco Energía",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 7,
+        "def": 7,
+        "spe": 6,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Tauros-3",
+      "species": "Tauros",
+      "setNumber": 3,
+      "item": "Baya Dorada",
+      "move1": "Retroceso",
+      "move2": "Híper Rayo",
+      "move3": "Terremoto",
+      "move4": "Cola Férrea",
+      "level": 40,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Kingdra-1",
+      "species": "Kingdra",
+      "setNumber": 1,
+      "item": "Restos",
+      "move1": "Surf",
+      "move2": "Dragoaliento",
+      "move3": "Híper Rayo",
+      "move4": "Ventisca",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Snorlax-2",
+      "species": "Snorlax",
+      "setNumber": 2,
+      "item": "Garra Rápida",
+      "move1": "Atracción",
+      "move2": "Golpe Cuerpo",
+      "move3": "Más Psique",
+      "move4": "Terremoto",
+      "level": 40,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Lapras-4",
+      "species": "Lapras",
+      "setNumber": 4,
+      "item": "Restos",
+      "move1": "Rayo",
+      "move2": "Rayo Hielo",
+      "move3": "Rayo Confuso",
+      "move4": "Surf",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Steelix-2",
+      "species": "Steelix",
+      "setNumber": 2,
+      "item": "Baya Dorada",
+      "move1": "Torm. Arena",
+      "move2": "Cola Férrea",
+      "move3": "Terremoto",
+      "move4": "Tóxico",
+      "level": 40,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Alakazam-2",
+      "species": "Alakazam",
+      "setNumber": 2,
+      "item": "Roca del Rey",
+      "move1": "Psíquico",
+      "move2": "Puño-Trueno",
+      "move3": "Recuperación",
+      "move4": "Puño Fuego",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Starmie-3",
+      "species": "Starmie",
+      "setNumber": 3,
+      "item": "Restos",
+      "move1": "Ventisca",
+      "move2": "Rayo",
+      "move3": "Surf",
+      "move4": "Psíquico",
+      "level": 40,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 11,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Wobbuffet-2",
+      "species": "Wobbuffet",
+      "setNumber": 2,
+      "item": "Baya Dorada",
+      "move1": "Contador",
+      "move2": "Manto Espejo",
+      "move3": "Velo Sagrado",
+      "move4": "Mismodestino",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 15,
+        "spe": 14,
+        "spc": 7
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Golem-1",
+      "species": "Golem",
+      "setNumber": 1,
+      "item": "Cinta Aguante",
+      "move1": "Explosión",
+      "move2": "Terremoto",
+      "move3": "Mega Puño",
+      "move4": "Avalancha",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Scizor-2",
+      "species": "Scizor",
+      "setNumber": 2,
+      "item": "Periscopio",
+      "move1": "Cuchillada",
+      "move2": "Ala De Acero",
+      "move3": "Persecución",
+      "move4": "Híper Rayo",
+      "level": 40,
+      "DVs": {
+        "hp": 14,
+        "atk": 11,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "Dugtrio-2",
+      "species": "Dugtrio",
+      "setNumber": 2,
+      "item": "Roca del Rey",
+      "move1": "Terremoto",
+      "move2": "Híper Rayo",
+      "move3": "Bomba Lodo",
+      "move4": "Bofetón-Lodo",
+      "level": 40,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 11,
+        "spc": 11
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Slowbro-1",
+      "species": "Slowbro",
+      "setNumber": 1,
+      "item": "Baya Milagro",
+      "move1": "Surf",
+      "move2": "Psíquico",
+      "move3": "Terremoto",
+      "move4": "Ventisca",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 15,
+        "spe": 12,
+        "spc": 15
+      },
+      "EVs": "212 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Porygon2-3",
+      "species": "Porygon2",
+      "setNumber": 3,
+      "item": "None",
+      "move1": "Conversión2",
+      "move2": "Conversión",
+      "move3": "Psico-Rayo",
+      "move4": "Ladrón",
+      "level": 40,
+      "DVs": {
+        "hp": 9,
+        "atk": 11,
+        "def": 12,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Arcanine-2",
+      "species": "Arcanine",
+      "setNumber": 2,
+      "item": "Carbón",
+      "move1": "Rueda Fuego",
+      "move2": "Malicioso",
+      "move3": "Golpe Cuerpo",
+      "move4": "Rugido",
+      "level": 40,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 11,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Forretress-1",
+      "species": "Forretress",
+      "setNumber": 1,
+      "item": "Restos",
+      "move1": "Giro Rápido",
+      "move2": "Protección",
+      "move3": "Tóxico",
+      "move4": "Torm. Arena",
+      "level": 40,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 10,
+        "spe": 7,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Omastar-1",
+      "species": "Omastar",
+      "setNumber": 1,
+      "item": "Baya Dorada",
+      "move1": "Maldición",
+      "move2": "Pistola Agua",
+      "move3": "Poder Pasado",
+      "move4": "Golpe Roca",
+      "level": 40,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Charizard-1",
+      "species": "Charizard",
+      "setNumber": 1,
+      "item": "Roca del Rey",
+      "move1": "Giro Fuego",
+      "move2": "Furia Dragón",
+      "move3": "Vuelo",
+      "move4": "Cuchillada",
+      "level": 40,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Exeggutor-3",
+      "species": "Exeggutor",
+      "setNumber": 3,
+      "item": "Polvo Brillo",
+      "move1": "Bomba Huevo",
+      "move2": "Pisotón",
+      "move3": "Más Psique",
+      "move4": "Confusión",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 7,
+        "spe": 14,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Hypno-1",
+      "species": "Hypno",
+      "setNumber": 1,
+      "item": "Polvo Brillo",
+      "move1": "Confusión",
+      "move2": "Puño-Trueno",
+      "move3": "Golpe Cabeza",
+      "move4": "Anulación",
+      "level": 40,
+      "DVs": {
+        "hp": 14,
+        "atk": 7,
+        "def": 7,
+        "spe": 7,
+        "spc": 10
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Muk-1",
+      "species": "Muk",
+      "setNumber": 1,
+      "item": "Garra Rápida",
+      "move1": "Chirrido",
+      "move2": "Tóxico",
+      "move3": "Residuos",
+      "move4": "Fortaleza",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 7,
+        "def": 5,
+        "spe": 6,
+        "spc": 11
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Electabuzz-1",
+      "species": "Electabuzz",
+      "setNumber": 1,
+      "item": "Roca del Rey",
+      "move1": "Pantalla Luz",
+      "move2": "Puño-Trueno",
+      "move3": "Rapidez",
+      "move4": "Ronquido",
+      "level": 40,
+      "DVs": {
+        "hp": 7,
+        "atk": 6,
+        "def": 5,
+        "spe": 7,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Kingdra-2",
+      "species": "Kingdra",
+      "setNumber": 2,
+      "item": "Baya Dorada",
+      "move1": "Surf",
+      "move2": "Híper Rayo",
+      "move3": "Ventisca",
+      "move4": "Dragoaliento",
+      "level": 50,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "234 HP, 234 Atk, 244 Def, 234 SpA, 234 SpD, 223 Spe"
+    },
+    {
+      "setName": "Houndoom-2",
+      "species": "Houndoom",
+      "setNumber": 2,
+      "item": "Baya Milagro",
+      "move1": "Descanso",
+      "move2": "Triturar",
+      "move3": "Come Sueños",
+      "move4": "Lanzallamas",
+      "level": 50,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 12
+      },
+      "EVs": "234 HP, 223 Atk, 244 Def, 244 SpA, 244 SpD, 244 Spe"
+    },
+    {
+      "setName": "Shuckle-1",
+      "species": "Shuckle",
+      "setNumber": 1,
+      "item": "Restos",
+      "move1": "Torm. Arena",
+      "move2": "Descanso",
+      "move3": "Tóxico",
+      "move4": "Repetición",
+      "level": 50,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 12,
+        "spc": 15
+      },
+      "EVs": "244 HP, 244 Atk, 244 Def, 234 SpA, 234 SpD, 244 Spe"
+    },
+    {
+      "setName": "Snorlax-3",
+      "species": "Snorlax",
+      "setNumber": 3,
+      "item": "Restos",
+      "move1": "Híper Rayo",
+      "move2": "Terremoto",
+      "move3": "Surf",
+      "move4": "Más Psique",
+      "level": 50,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "244 HP, 234 Atk, 234 Def, 234 SpA, 234 SpD, 244 Spe"
+    },
+    {
+      "setName": "Lapras-5",
+      "species": "Lapras",
+      "setNumber": 5,
+      "item": "Baya Dorada",
+      "move1": "Rayo",
+      "move2": "Surf",
+      "move3": "Rayo Confuso",
+      "move4": "Ventisca",
+      "level": 50,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "234 HP, 244 Atk, 244 Def, 244 SpA, 244 SpD, 234 Spe"
+    },
+    {
+      "setName": "Jolteon-3",
+      "species": "Jolteon",
+      "setNumber": 3,
+      "item": "Roca del Rey",
+      "move1": "Rayo",
+      "move2": "Onda Trueno",
+      "move3": "Bola Sombra",
+      "move4": "Poder Oculto",
+      "level": 50,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 13,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "234 HP, 244 Atk, 238 Def, 234 SpA, 234 SpD, 234 Spe"
+    },
+    {
+      "setName": "Scizor-3",
+      "species": "Scizor",
+      "setNumber": 3,
+      "item": "Restos",
+      "move1": "Híper Rayo",
+      "move2": "Cuchillada",
+      "move3": "Agilidad",
+      "move4": "Garra-Metal",
+      "level": 50,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 15,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Slowking-1",
+      "species": "Slowking",
+      "setNumber": 1,
+      "item": "Baya Menta",
+      "move1": "Descanso",
+      "move2": "Surf",
+      "move3": "Psíquico",
+      "move4": "Amnesia",
+      "level": 50,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 200 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Machamp-2",
+      "species": "Machamp",
+      "setNumber": 2,
+      "item": "Baya Dorada",
+      "move1": "Tajo Cruzado",
+      "move2": "Terremoto",
+      "move3": "Llamarada",
+      "move4": "Puño-Trueno",
+      "level": 50,
+      "DVs": {
+        "hp": 12,
+        "atk": 15,
+        "def": 15,
+        "spe": 14,
+        "spc": 12
+      },
+      "EVs": "200 HP, 212 Atk, 223 Def, 209 SpA, 209 SpD, 200 Spe"
+    },
+    {
+      "setName": "Starmie-4",
+      "species": "Starmie",
+      "setNumber": 4,
+      "item": "Periscopio",
+      "move1": "Onda Trueno",
+      "move2": "Recuperación",
+      "move3": "Rayo",
+      "move4": "Surf",
+      "level": 50,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "212 HP, 209 Atk, 200 Def, 200 SpA, 200 SpD, 212 Spe"
+    },
+    {
+      "setName": "Dugtrio-3",
+      "species": "Dugtrio",
+      "setNumber": 3,
+      "item": "Roca del Rey",
+      "move1": "Terremoto",
+      "move2": "Cuchillada",
+      "move3": "Híper Rayo",
+      "move4": "Bomba Lodo",
+      "level": 50,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 7,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "212 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Electrode-2",
+      "species": "Electrode",
+      "setNumber": 2,
+      "item": "Baya Milagro",
+      "move1": "Rayo",
+      "move2": "Explosión",
+      "move3": "Manto Espejo",
+      "move4": "Descanso",
+      "level": 50,
+      "DVs": {
+        "hp": 14,
+        "atk": 7,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 212 Atk, 232 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "Aerodactyl-3",
+      "species": "Aerodactyl",
+      "setNumber": 3,
+      "item": "Roca del Rey",
+      "move1": "Híper Rayo",
+      "move2": "Terremoto",
+      "move3": "Llamarada",
+      "move4": "Cola Férrea",
+      "level": 50,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 212 Spe"
+    },
+    {
+      "setName": "Crobat-2",
+      "species": "Crobat",
+      "setNumber": 2,
+      "item": "Restos",
+      "move1": "Rayo Confuso",
+      "move2": "Atracción",
+      "move3": "Híper Rayo",
+      "move4": "Tóxico",
+      "level": 50,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "212 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "Zapdos-1",
+      "species": "Zapdos",
+      "setNumber": 1,
+      "item": "Baya Milagro",
+      "move1": "Pico Taladro",
+      "move2": "Rayo",
+      "move3": "Onda Trueno",
+      "move4": "Híper Rayo",
+      "level": 50,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "212 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "Skarmory-1",
+      "species": "Skarmory",
+      "setNumber": 1,
+      "item": "Baya Dorada",
+      "move1": "Torm. Arena",
+      "move2": "Vuelo",
+      "move3": "Ala De Acero",
+      "move4": "Tóxico",
+      "level": 50,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 7,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 200 SpA, 200 SpD, 223 Spe"
+    },
+    {
+      "setName": "Forretress-2",
+      "species": "Forretress",
+      "setNumber": 2,
+      "item": "Restos",
+      "move1": "Torm. Arena",
+      "move2": "Tóxico",
+      "move3": "Explosión",
+      "move4": "Contoneo",
+      "level": 50,
+      "DVs": {
+        "hp": 7,
+        "atk": 12,
+        "def": 15,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 234 Def, 200 SpA, 200 SpD, 212 Spe"
+    },
+    {
+      "setName": "Steelix-3",
+      "species": "Steelix",
+      "setNumber": 3,
+      "item": "Baya Milagro",
+      "move1": "Torm. Arena",
+      "move2": "Cola Férrea",
+      "move3": "Descanso",
+      "move4": "Terremoto",
+      "level": 50,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 200 Spe"
+    },
+    {
+      "setName": "Girafarig-2",
+      "species": "Girafarig",
+      "setNumber": 2,
+      "item": "Periscopio",
+      "move1": "Come Sueños",
+      "move2": "Triturar",
+      "move3": "Psíquico",
+      "move4": "Terremoto",
+      "level": 50,
+      "DVs": {
+        "hp": 6,
+        "atk": 4,
+        "def": 5,
+        "spe": 5,
+        "spc": 6
+      },
+      "EVs": "200 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "Gyarados-2",
+      "species": "Gyarados",
+      "setNumber": 2,
+      "item": "Baya Milagro",
+      "move1": "Híper Rayo",
+      "move2": "Surf",
+      "move3": "Danza Lluvia",
+      "move4": "Electrocañón",
+      "level": 50,
+      "DVs": {
+        "hp": 13,
+        "atk": 7,
+        "def": 5,
+        "spe": 6,
+        "spc": 5
+      },
+      "EVs": "200 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "Articuno-1",
+      "species": "Articuno",
+      "setNumber": 1,
+      "item": "Baya Dorada",
+      "move1": "Ventisca",
+      "move2": "Híper Rayo",
+      "move3": "Rugido",
+      "move4": "Viento Hielo",
+      "level": 50,
+      "DVs": {
+        "hp": 6,
+        "atk": 4,
+        "def": 5,
+        "spe": 5,
+        "spc": 6
+      },
+      "EVs": "200 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "Kingdra-3",
+      "species": "Kingdra",
+      "setNumber": 3,
+      "item": "Restos",
+      "move1": "Dragoaliento",
+      "move2": "Surf",
+      "move3": "Híper Rayo",
+      "move4": "Ventisca",
+      "level": 60,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "234 HP, 234 Atk, 223 Def, 244 SpA, 244 SpD, 244 Spe"
+    },
+    {
+      "setName": "Tyranitar-1",
+      "species": "Tyranitar",
+      "setNumber": 1,
+      "item": "Baya Dorada",
+      "move1": "Triturar",
+      "move2": "Terremoto",
+      "move3": "Avalancha",
+      "move4": "Híper Rayo",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "234 HP, 244 Atk, 234 Def, 234 SpA, 234 SpD, 244 Spe"
+    },
+    {
+      "setName": "Houndoom-3",
+      "species": "Houndoom",
+      "setNumber": 3,
+      "item": "Baya Milagro",
+      "move1": "Lanzallamas",
+      "move2": "Triturar",
+      "move3": "Come Sueños",
+      "move4": "Descanso",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "244 HP, 234 Atk, 234 Def, 234 SpA, 234 SpD, 244 Spe"
+    },
+    {
+      "setName": "Porygon2-4",
+      "species": "Porygon2",
+      "setNumber": 4,
+      "item": "Restos",
+      "move1": "Ventisca",
+      "move2": "Recuperación",
+      "move3": "Tóxico",
+      "move4": "Psíquico",
+      "level": 60,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 13,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "234 HP, 223 Atk, 223 Def, 234 SpA, 234 SpD, 223 Spe"
+    },
+    {
+      "setName": "Machamp-3",
+      "species": "Machamp",
+      "setNumber": 3,
+      "item": "Garra Rápida",
+      "move1": "Puño Fuego",
+      "move2": "Tajo Cruzado",
+      "move3": "Puño-Trueno",
+      "move4": "Terremoto",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Zapdos-2",
+      "species": "Zapdos",
+      "setNumber": 2,
+      "item": "Baya Menta",
+      "move1": "Descanso",
+      "move2": "Pico Taladro",
+      "move3": "Rayo",
+      "move4": "Onda Trueno",
+      "level": 60,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Wobbuffet-3",
+      "species": "Wobbuffet",
+      "setNumber": 3,
+      "item": "Baya Dorada",
+      "move1": "Contador",
+      "move2": "Manto Espejo",
+      "move3": "Mismodestino",
+      "move4": "Velo Sagrado",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Aerodactyl-4",
+      "species": "Aerodactyl",
+      "setNumber": 4,
+      "item": "Restos",
+      "move1": "Híper Rayo",
+      "move2": "Supersónico",
+      "move3": "Terremoto",
+      "move4": "Mordisco",
+      "level": 60,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 212 Spe"
+    },
+    {
+      "setName": "Dragonite-1",
+      "species": "Dragonite",
+      "setNumber": 1,
+      "item": "Baya Milagro",
+      "move1": "Híper Rayo",
+      "move2": "Viento Hielo",
+      "move3": "Rayo",
+      "move4": "Surf",
+      "level": 60,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Umbreon-3",
+      "species": "Umbreon",
+      "setNumber": 3,
+      "item": "Baya Dorada",
+      "move1": "Bofetón-Lodo",
+      "move2": "Luz Lunar",
+      "move3": "Psíquico",
+      "move4": "Finta",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Arcanine-3",
+      "species": "Arcanine",
+      "setNumber": 3,
+      "item": "Carbón",
+      "move1": "Lanzallamas",
+      "move2": "Triturar",
+      "move3": "Vel. Extrema",
+      "move4": "Cola Férrea",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "234 HP, 223 Atk, 200 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Skarmory-2",
+      "species": "Skarmory",
+      "setNumber": 2,
+      "item": "Baya Milagro",
+      "move1": "Ala De Acero",
+      "move2": "Vuelo",
+      "move3": "Tóxico",
+      "move4": "Protección",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Blissey-4",
+      "species": "Blissey",
+      "setNumber": 4,
+      "item": "Restos",
+      "move1": "Amortiguador",
+      "move2": "Tóxico",
+      "move3": "Protección",
+      "move4": "Psíquico",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 12,
+        "spc": 13
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Snorlax-4",
+      "species": "Snorlax",
+      "setNumber": 4,
+      "item": "Lazo Rosa",
+      "move1": "Avalancha",
+      "move2": "Surf",
+      "move3": "Golpe Cuerpo",
+      "move4": "Terremoto",
+      "level": 60,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 10,
+        "spe": 15,
+        "spc": 12
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Heracross-3",
+      "species": "Heracross",
+      "setNumber": 3,
+      "item": "Cinta Aguante",
+      "move1": "Inversión",
+      "move2": "Megacuerno",
+      "move3": "Terremoto",
+      "move4": "Contador",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 15,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Jynx-2",
+      "species": "Jynx",
+      "setNumber": 2,
+      "item": "Baya Milagro",
+      "move1": "Ventisca",
+      "move2": "Psíquico",
+      "move3": "Bola Sombra",
+      "move4": "Viento Hielo",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 15,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Blastoise-1",
+      "species": "Blastoise",
+      "setNumber": 1,
+      "item": "Baya Dorada",
+      "move1": "Surf",
+      "move2": "Terremoto",
+      "move3": "Giro Rápido",
+      "move4": "Ventisca",
+      "level": 60,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Rhydon-1",
+      "species": "Rhydon",
+      "setNumber": 1,
+      "item": "Garra Rápida",
+      "move1": "Terremoto",
+      "move2": "Surf",
+      "move3": "Cola Férrea",
+      "move4": "Avalancha",
+      "level": 60,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 11,
+        "spe": 15,
+        "spc": 10
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Sandslash-1",
+      "species": "Sandslash",
+      "setNumber": 1,
+      "item": "Periscopio",
+      "move1": "Terremoto",
+      "move2": "Cuchillada",
+      "move3": "Híper Rayo",
+      "move4": "Ronquido",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 7,
+        "spe": 6,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Parasect-1",
+      "species": "Parasect",
+      "setNumber": 1,
+      "item": "Baya Dorada",
+      "move1": "Espora",
+      "move2": "Giga-Drenado",
+      "move3": "Híper Rayo",
+      "move4": "Bomba Lodo",
+      "level": 60,
+      "DVs": {
+        "hp": 3,
+        "atk": 6,
+        "def": 6,
+        "spe": 5,
+        "spc": 15
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Golem-2",
+      "species": "Golem",
+      "setNumber": 2,
+      "item": "Polvo Brillo",
+      "move1": "Explosión",
+      "move2": "Terremoto",
+      "move3": "Puño Fuego",
+      "move4": "Frustración",
+      "level": 60,
+      "DVs": {
+        "hp": 11,
+        "atk": 7,
+        "def": 6,
+        "spe": 5,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Jolteon-4",
+      "species": "Jolteon",
+      "setNumber": 4,
+      "item": "Baya Milagro",
+      "move1": "Rayo",
+      "move2": "Híper Rayo",
+      "move3": "Bola Sombra",
+      "move4": "Rugido",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "244 HP, 236 Atk, 234 Def, 244 SpA, 244 SpD, 223 Spe"
+    },
+    {
+      "setName": "Vaporeon-1",
+      "species": "Vaporeon",
+      "setNumber": 1,
+      "item": "Restos",
+      "move1": "Ventisca",
+      "move2": "Bola Sombra",
+      "move3": "Surf",
+      "move4": "Bofetón-Lodo",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 15,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 244 Def, 223 SpA, 223 SpD, 244 Spe"
+    },
+    {
+      "setName": "Umbreon-4",
+      "species": "Umbreon",
+      "setNumber": 4,
+      "item": "Baya Dorada",
+      "move1": "Finta",
+      "move2": "Luz Lunar",
+      "move3": "Más Psique",
+      "move4": "Tóxico",
+      "level": 70,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "232 HP, 244 Atk, 234 Def, 240 SpA, 240 SpD, 223 Spe"
+    },
+    {
+      "setName": "Blissey-5",
+      "species": "Blissey",
+      "setNumber": 5,
+      "item": "Baya Dorada",
+      "move1": "Contador",
+      "move2": "Amortiguador",
+      "move3": "Bola Sombra",
+      "move4": "Rayo",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 15,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "234 HP, 234 Atk, 234 Def, 223 SpA, 223 SpD, 240 Spe"
+    },
+    {
+      "setName": "Snorlax-5",
+      "species": "Snorlax",
+      "setNumber": 5,
+      "item": "Restos",
+      "move1": "Avalancha",
+      "move2": "Terremoto",
+      "move3": "Ventisca",
+      "move4": "Bola Sombra",
+      "level": 70,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "234 HP, 234 Atk, 244 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Houndoom-4",
+      "species": "Houndoom",
+      "setNumber": 4,
+      "item": "Roca del Rey",
+      "move1": "Triturar",
+      "move2": "Lanzallamas",
+      "move3": "Finta",
+      "move4": "Rugido",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 12,
+        "spc": 13
+      },
+      "EVs": "240 HP, 223 Atk, 234 Def, 234 SpA, 234 SpD, 244 Spe"
+    },
+    {
+      "setName": "Tyranitar-2",
+      "species": "Tyranitar",
+      "setNumber": 2,
+      "item": "Restos",
+      "move1": "Terremoto",
+      "move2": "Triturar",
+      "move3": "Avalancha",
+      "move4": "Híper Rayo",
+      "level": 70,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 11,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "223 HP, 212 Atk, 212 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Zapdos-3",
+      "species": "Zapdos",
+      "setNumber": 3,
+      "item": "Baya Dorada",
+      "move1": "Rayo",
+      "move2": "Pico Taladro",
+      "move3": "Onda Trueno",
+      "move4": "Híper Rayo",
+      "level": 70,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 11,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 212 Spe"
+    },
+    {
+      "setName": "Exeggutor-4",
+      "species": "Exeggutor",
+      "setNumber": 4,
+      "item": "Baya Milagro",
+      "move1": "Descanso",
+      "move2": "Explosión",
+      "move3": "Psíquico",
+      "move4": "Giga-Drenado",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Umbreon-5",
+      "species": "Umbreon",
+      "setNumber": 5,
+      "item": "Baya Dorada",
+      "move1": "Luz Lunar",
+      "move2": "Finta",
+      "move3": "Psíquico",
+      "move4": "Bola Sombra",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Gyarados-3",
+      "species": "Gyarados",
+      "setNumber": 3,
+      "item": "Polvo Brillo",
+      "move1": "Surf",
+      "move2": "Rayo",
+      "move3": "Híper Rayo",
+      "move4": "Rugido",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 11,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "234 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Quagsire-2",
+      "species": "Quagsire",
+      "setNumber": 2,
+      "item": "Baya Milagro",
+      "move1": "Terremoto",
+      "move2": "Surf",
+      "move3": "Bomba Lodo",
+      "move4": "Cola Férrea",
+      "level": 70,
+      "DVs": {
+        "hp": 11,
+        "atk": 13,
+        "def": 14,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Ursaring-2",
+      "species": "Ursaring",
+      "setNumber": 2,
+      "item": "Periscopio",
+      "move1": "Cuchillada",
+      "move2": "Terremoto",
+      "move3": "Híper Rayo",
+      "move4": "Puño-Trueno",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Mr.Mime-2",
+      "species": "Mr.Mime",
+      "setNumber": 2,
+      "item": "Roca del Rey",
+      "move1": "Reflejo",
+      "move2": "Puño Fuego",
+      "move3": "Psíquico",
+      "move4": "Otra Vez",
+      "level": 70,
+      "DVs": {
+        "hp": 15,
+        "atk": 11,
+        "def": 13,
+        "spe": 15,
+        "spc": 11
+      },
+      "EVs": "223 HP, 212 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Primeape-2",
+      "species": "Primeape",
+      "setNumber": 2,
+      "item": "Garra Rápida",
+      "move1": "Tajo Cruzado",
+      "move2": "Puño Hielo",
+      "move3": "Puño-Trueno",
+      "move4": "Avalancha",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Girafarig-3",
+      "species": "Girafarig",
+      "setNumber": 3,
+      "item": "Baya Dorada",
+      "move1": "Agilidad",
+      "move2": "Relevo",
+      "move3": "Triturar",
+      "move4": "Terremoto",
+      "level": 70,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Hitmonlee-1",
+      "species": "Hitmonlee",
+      "setNumber": 1,
+      "item": "Cinta Aguante",
+      "move1": "Inversión",
+      "move2": "Aguante",
+      "move3": "Golpe Cuerpo",
+      "move4": "Mega Patada",
+      "level": 70,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Heracross-4",
+      "species": "Heracross",
+      "setNumber": 4,
+      "item": "Polvo Brillo",
+      "move1": "Inversión",
+      "move2": "Aguante",
+      "move3": "Megacuerno",
+      "move4": "Terremoto",
+      "level": 70,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 7,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Venusaur-1",
+      "species": "Venusaur",
+      "setNumber": 1,
+      "item": "Polvo Brillo",
+      "move1": "Día Soleado",
+      "move2": "Rayo Solar",
+      "move3": "Síntesis",
+      "move4": "Híper Rayo",
+      "level": 70,
+      "DVs": {
+        "hp": 8,
+        "atk": 7,
+        "def": 6,
+        "spe": 4,
+        "spc": 4
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Charizard-2",
+      "species": "Charizard",
+      "setNumber": 2,
+      "item": "Periscopio",
+      "move1": "Cuchillada",
+      "move2": "Terremoto",
+      "move3": "Híper Rayo",
+      "move4": "Lanzallamas",
+      "level": 70,
+      "DVs": {
+        "hp": 8,
+        "atk": 5,
+        "def": 6,
+        "spe": 4,
+        "spc": 4
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Blastoise-2",
+      "species": "Blastoise",
+      "setNumber": 2,
+      "item": "Garra Rápida",
+      "move1": "Hidro Bomba",
+      "move2": "Puño Hielo",
+      "move3": "Híper Rayo",
+      "move4": "Cola Férrea",
+      "level": 70,
+      "DVs": {
+        "hp": 8,
+        "atk": 7,
+        "def": 6,
+        "spe": 6,
+        "spc": 4
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Jolteon-5",
+      "species": "Jolteon",
+      "setNumber": 5,
+      "item": "Baya Milagro",
+      "move1": "Onda Trueno",
+      "move2": "Rayo",
+      "move3": "Cola Férrea",
+      "move4": "Rugido",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "244 HP, 234 Atk, 244 Def, 234 SpA, 234 SpD, 234 Spe"
+    },
+    {
+      "setName": "Snorlax-6",
+      "species": "Snorlax",
+      "setNumber": 6,
+      "item": "Restos",
+      "move1": "Descanso",
+      "move2": "Tambor",
+      "move3": "Ronquido",
+      "move4": "Terremoto",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 11,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "244 HP, 234 Atk, 223 Def, 244 SpA, 244 SpD, 235 Spe"
+    },
+    {
+      "setName": "Houndoom-5",
+      "species": "Houndoom",
+      "setNumber": 5,
+      "item": "Baya Menta",
+      "move1": "Descanso",
+      "move2": "Triturar",
+      "move3": "Lanzallamas",
+      "move4": "Día Soleado",
+      "level": 80,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "234 HP, 223 Atk, 234 Def, 234 SpA, 234 SpD, 234 Spe"
+    },
+    {
+      "setName": "Tauros-4",
+      "species": "Tauros",
+      "setNumber": 4,
+      "item": "Baya Dorada",
+      "move1": "Terremoto",
+      "move2": "Golpe Cuerpo",
+      "move3": "Cola Férrea",
+      "move4": "Híper Rayo",
+      "level": 80,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 173 Spe"
+    },
+    {
+      "setName": "Lapras-6",
+      "species": "Lapras",
+      "setNumber": 6,
+      "item": "Baya Menta",
+      "move1": "Descanso",
+      "move2": "Surf",
+      "move3": "Rayo Confuso",
+      "move4": "Psíquico",
+      "level": 80,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Tyranitar-3",
+      "species": "Tyranitar",
+      "setNumber": 3,
+      "item": "Baya Milagro",
+      "move1": "Descanso",
+      "move2": "Triturar",
+      "move3": "Terremoto",
+      "move4": "Avalancha",
+      "level": 80,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "223 HP, 234 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Gengar-2",
+      "species": "Gengar",
+      "setNumber": 2,
+      "item": "None",
+      "move1": "Rayo",
+      "move2": "Bola Sombra",
+      "move3": "Rayo Confuso",
+      "move4": "Ladrón",
+      "level": 80,
+      "DVs": {
+        "hp": 11,
+        "atk": 13,
+        "def": 14,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Forretress-3",
+      "species": "Forretress",
+      "setNumber": 3,
+      "item": "Restos",
+      "move1": "Explosión",
+      "move2": "Tóxico",
+      "move3": "Rayo Solar",
+      "move4": "Contoneo",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Kingdra-4",
+      "species": "Kingdra",
+      "setNumber": 4,
+      "item": "Baya Menta",
+      "move1": "Descanso",
+      "move2": "Surf",
+      "move3": "Ventisca",
+      "move4": "Dragoaliento",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Dragonite-2",
+      "species": "Dragonite",
+      "setNumber": 2,
+      "item": "Baya Dorada",
+      "move1": "Onda Trueno",
+      "move2": "Surf",
+      "move3": "Rayo",
+      "move4": "Enfado",
+      "level": 80,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Porygon2-5",
+      "species": "Porygon2",
+      "setNumber": 5,
+      "item": "Restos",
+      "move1": "Psíquico",
+      "move2": "Recuperación",
+      "move3": "Híper Rayo",
+      "move4": "Tri-Ataque",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 15,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "234 HP, 223 Atk, 200 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Jynx-3",
+      "species": "Jynx",
+      "setNumber": 3,
+      "item": "Garra Rápida",
+      "move1": "Beso Amoroso",
+      "move2": "Ventisca",
+      "move3": "Come Sueños",
+      "move4": "Psíquico",
+      "level": 80,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "234 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Mantine-1",
+      "species": "Mantine",
+      "setNumber": 1,
+      "item": "Baya Dorada",
+      "move1": "Surf",
+      "move2": "Rayo Confuso",
+      "move3": "Ventisca",
+      "move4": "Ataque-Ala",
+      "level": 80,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 12
+      },
+      "EVs": "200 HP, 212 Atk, 200 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Skarmory-3",
+      "species": "Skarmory",
+      "setNumber": 3,
+      "item": "Garra Rápida",
+      "move1": "Ala De Acero",
+      "move2": "Vuelo",
+      "move3": "Bofetón-Lodo",
+      "move4": "Tóxico",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 212 Atk, 187 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Moltres-1",
+      "species": "Moltres",
+      "setNumber": 1,
+      "item": "Carbón",
+      "move1": "Lanzallamas",
+      "move2": "Ataque Aéreo",
+      "move3": "Ala De Acero",
+      "move4": "Híper Rayo",
+      "level": 80,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "Aerodactyl-5",
+      "species": "Aerodactyl",
+      "setNumber": 5,
+      "item": "Baya Milagro",
+      "move1": "Híper Rayo",
+      "move2": "Descanso",
+      "move3": "Terremoto",
+      "move4": "Rugido",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 15,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "Electrode-3",
+      "species": "Electrode",
+      "setNumber": 3,
+      "item": "Roca del Rey",
+      "move1": "Rayo",
+      "move2": "Explosión",
+      "move3": "Manto Espejo",
+      "move4": "Tóxico",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 15,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 200 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "Dugtrio-4",
+      "species": "Dugtrio",
+      "setNumber": 4,
+      "item": "Periscopio",
+      "move1": "Cuchillada",
+      "move2": "Terremoto",
+      "move3": "Ladrón",
+      "move4": "Bofetón-Lodo",
+      "level": 80,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 200 Def, 200 SpA, 200 SpD, 223 Spe"
+    },
+    {
+      "setName": "Victreebel-1",
+      "species": "Victreebel",
+      "setNumber": 1,
+      "item": "Garra Rápida",
+      "move1": "Giga-Drenado",
+      "move2": "Bomba Lodo",
+      "move3": "Híper Rayo",
+      "move4": "Tóxico",
+      "level": 80,
+      "DVs": {
+        "hp": 5,
+        "atk": 6,
+        "def": 5,
+        "spe": 6,
+        "spc": 5
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Pinsir-1",
+      "species": "Pinsir",
+      "setNumber": 1,
+      "item": "Baya Dorada",
+      "move1": "Híper Rayo",
+      "move2": "Sumisión",
+      "move3": "Fuerza",
+      "move4": "Tóxico",
+      "level": 80,
+      "DVs": {
+        "hp": 8,
+        "atk": 7,
+        "def": 4,
+        "spe": 6,
+        "spc": 4
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Granbull-1",
+      "species": "Granbull",
+      "setNumber": 1,
+      "item": "Polvo Brillo",
+      "move1": "Rugido",
+      "move2": "Bola Sombra",
+      "move3": "Híper Rayo",
+      "move4": "Puño-Trueno",
+      "level": 80,
+      "DVs": {
+        "hp": 11,
+        "atk": 7,
+        "def": 6,
+        "spe": 5,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Umbreon-6",
+      "species": "Umbreon",
+      "setNumber": 6,
+      "item": "Roca del Rey",
+      "move1": "Finta",
+      "move2": "Bofetón-Lodo",
+      "move3": "Luz Lunar",
+      "move4": "Rayo Confuso",
+      "level": 90,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "244 HP, 244 Atk, 234 Def, 234 SpA, 234 SpD, 244 Spe"
+    },
+    {
+      "setName": "Dragonite-3",
+      "species": "Dragonite",
+      "setNumber": 3,
+      "item": "Garra Rápida",
+      "move1": "Llamarada",
+      "move2": "Híper Rayo",
+      "move3": "Enfado",
+      "move4": "Ventisca",
+      "level": 90,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "252 HP, 223 Atk, 236 Def, 244 SpA, 244 SpD, 244 Spe"
+    },
+    {
+      "setName": "Starmie-5",
+      "species": "Starmie",
+      "setNumber": 5,
+      "item": "Restos",
+      "move1": "Recuperación",
+      "move2": "Rayo",
+      "move3": "Surf",
+      "move4": "Psíquico",
+      "level": 90,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "244 HP, 244 Atk, 244 Def, 244 SpA, 244 SpD, 234 Spe"
+    },
+    {
+      "setName": "Cloyster-1",
+      "species": "Cloyster",
+      "setNumber": 1,
+      "item": "Restos",
+      "move1": "Explosión",
+      "move2": "Ventisca",
+      "move3": "Surf",
+      "move4": "Viento Hielo",
+      "level": 90,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 11,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Crobat-3",
+      "species": "Crobat",
+      "setNumber": 3,
+      "item": "Baya Dorada",
+      "move1": "Ataque-Ala",
+      "move2": "Niebla",
+      "move3": "Híper Rayo",
+      "move4": "Giga-Drenado",
+      "level": 90,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 12,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Porygon2-6",
+      "species": "Porygon2",
+      "setNumber": 6,
+      "item": "Garra Rápida",
+      "move1": "Tóxico",
+      "move2": "Psíquico",
+      "move3": "Recuperación",
+      "move4": "Protección",
+      "level": 90,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Kingdra-5",
+      "species": "Kingdra",
+      "setNumber": 5,
+      "item": "Restos",
+      "move1": "Dragoaliento",
+      "move2": "Surf",
+      "move3": "Híper Rayo",
+      "move4": "Ventisca",
+      "level": 90,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 234 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Tyranitar-4",
+      "species": "Tyranitar",
+      "setNumber": 4,
+      "item": "Garra Rápida",
+      "move1": "Híper Rayo",
+      "move2": "Triturar",
+      "move3": "Terremoto",
+      "move4": "Avalancha",
+      "level": 90,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 234 Atk, 223 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Lapras-7",
+      "species": "Lapras",
+      "setNumber": 7,
+      "item": "Baya Menta",
+      "move1": "Descanso",
+      "move2": "Surf",
+      "move3": "Rayo",
+      "move4": "Psíquico",
+      "level": 90,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 234 SpA, 234 SpD, 223 Spe"
+    },
+    {
+      "setName": "Espeon-3",
+      "species": "Espeon",
+      "setNumber": 3,
+      "item": "Baya Dorada",
+      "move1": "Psíquico",
+      "move2": "Bola Sombra",
+      "move3": "Día Soleado",
+      "move4": "Sol Matinal",
+      "level": 90,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "234 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Machamp-4",
+      "species": "Machamp",
+      "setNumber": 4,
+      "item": "Garra Rápida",
+      "move1": "Tajo Cruzado",
+      "move2": "Tiro Vital",
+      "move3": "Llamarada",
+      "move4": "Terremoto",
+      "level": 90,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "234 HP, 234 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Snorlax-7",
+      "species": "Snorlax",
+      "setNumber": 7,
+      "item": "Baya Milagro",
+      "move1": "Llamarada",
+      "move2": "Surf",
+      "move3": "Terremoto",
+      "move4": "Híper Rayo",
+      "level": 90,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 234 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Arcanine-4",
+      "species": "Arcanine",
+      "setNumber": 4,
+      "item": "Baya Menta",
+      "move1": "Día Soleado",
+      "move2": "Lanzallamas",
+      "move3": "Vel. Extrema",
+      "move4": "Descanso",
+      "level": 90,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 234 SpA, 234 SpD, 212 Spe"
+    },
+    {
+      "setName": "Blissey-6",
+      "species": "Blissey",
+      "setNumber": 6,
+      "item": "Restos",
+      "move1": "Rayo Solar",
+      "move2": "Día Soleado",
+      "move3": "Amortiguador",
+      "move4": "Llamarada",
+      "level": 90,
+      "DVs": {
+        "hp": 14,
+        "atk": 11,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Houndoom-6",
+      "species": "Houndoom",
+      "setNumber": 6,
+      "item": "Polvo Brillo",
+      "move1": "Lanzallamas",
+      "move2": "Triturar",
+      "move3": "Día Soleado",
+      "move4": "Rayo Solar",
+      "level": 90,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 11,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Skarmory-4",
+      "species": "Skarmory",
+      "setNumber": 4,
+      "item": "Garra Rápida",
+      "move1": "Torm. Arena",
+      "move2": "Ala De Acero",
+      "move3": "Tóxico",
+      "move4": "Retroceso",
+      "level": 90,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Shuckle-2",
+      "species": "Shuckle",
+      "setNumber": 2,
+      "item": "Restos",
+      "move1": "Tóxico",
+      "move2": "Repetición",
+      "move3": "Protección",
+      "move4": "Otra Vez",
+      "level": 90,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Flareon-1",
+      "species": "Flareon",
+      "setNumber": 1,
+      "item": "Baya Menta",
+      "move1": "Híper Rayo",
+      "move2": "Lanzallamas",
+      "move3": "Bola Sombra",
+      "move4": "Rugido",
+      "level": 90,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 7,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Miltank-3",
+      "species": "Miltank",
+      "setNumber": 3,
+      "item": "Restos",
+      "move1": "Batido",
+      "move2": "Terremoto",
+      "move3": "Atracción",
+      "move4": "Golpe Cuerpo",
+      "level": 90,
+      "DVs": {
+        "hp": 7,
+        "atk": 4,
+        "def": 7,
+        "spe": 5,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Tauros-5",
+      "species": "Tauros",
+      "setNumber": 5,
+      "item": "Lazo Rosa",
+      "move1": "Rayo",
+      "move2": "Híper Rayo",
+      "move3": "Atracción",
+      "move4": "Terremoto",
+      "level": 90,
+      "DVs": {
+        "hp": 6,
+        "atk": 6,
+        "def": 5,
+        "spe": 7,
+        "spc": 6
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Muk-2",
+      "species": "Muk",
+      "setNumber": 2,
+      "item": "Garra Rápida",
+      "move1": "Tóxico",
+      "move2": "Bomba Lodo",
+      "move3": "Atracción",
+      "move4": "Giga-Drenado",
+      "level": 90,
+      "DVs": {
+        "hp": 8,
+        "atk": 5,
+        "def": 4,
+        "spe": 4,
+        "spc": 4
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Houndoom-7",
+      "species": "Houndoom",
+      "setNumber": 7,
+      "item": "Baya Menta",
+      "move1": "Triturar",
+      "move2": "Lanzallamas",
+      "move3": "Rugido",
+      "move4": "Descanso",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "244 HP, 244 Atk, 244 Def, 244 SpA, 244 SpD, 244 Spe"
+    },
+    {
+      "setName": "Machamp-5",
+      "species": "Machamp",
+      "setNumber": 5,
+      "item": "Garra Rápida",
+      "move1": "Tajo Cruzado",
+      "move2": "Terremoto",
+      "move3": "Híper Rayo",
+      "move4": "Tiro Vital",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "244 HP, 244 Atk, 244 Def, 244 SpA, 244 SpD, 244 Spe"
+    },
+    {
+      "setName": "Kingdra-6",
+      "species": "Kingdra",
+      "setNumber": 6,
+      "item": "Restos",
+      "move1": "Surf",
+      "move2": "Dragoaliento",
+      "move3": "Descanso",
+      "move4": "Tóxico",
+      "level": 100,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "244 HP, 244 Atk, 244 Def, 244 SpA, 244 SpD, 244 Spe"
+    },
+    {
+      "setName": "Jolteon-6",
+      "species": "Jolteon",
+      "setNumber": 6,
+      "item": "Polvo Brillo",
+      "move1": "Rayo",
+      "move2": "Rugido",
+      "move3": "Onda Trueno",
+      "move4": "Cola Férrea",
+      "level": 100,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 173 Spe"
+    },
+    {
+      "setName": "Tauros-6",
+      "species": "Tauros",
+      "setNumber": 6,
+      "item": "Roca del Rey",
+      "move1": "Híper Rayo",
+      "move2": "Terremoto",
+      "move3": "Cola Férrea",
+      "move4": "Rayo",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Arcanine-5",
+      "species": "Arcanine",
+      "setNumber": 5,
+      "item": "Restos",
+      "move1": "Lanzallamas",
+      "move2": "Vel. Extrema",
+      "move3": "Cola Férrea",
+      "move4": "Híper Rayo",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "234 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Charizard-3",
+      "species": "Charizard",
+      "setNumber": 3,
+      "item": "Periscopio",
+      "move1": "Lanzallamas",
+      "move2": "Terremoto",
+      "move3": "Cuchillada",
+      "move4": "Vuelo",
+      "level": 100,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 234 Def, 234 SpA, 234 SpD, 234 Spe"
+    },
+    {
+      "setName": "Electrode-4",
+      "species": "Electrode",
+      "setNumber": 4,
+      "item": "Polvo Brillo",
+      "move1": "Onda Trueno",
+      "move2": "Rayo",
+      "move3": "Explosión",
+      "move4": "Manto Espejo",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 212 Spe"
+    },
+    {
+      "setName": "Rhydon-2",
+      "species": "Rhydon",
+      "setNumber": 2,
+      "item": "Baya Milagro",
+      "move1": "Surf",
+      "move2": "Terremoto",
+      "move3": "Híper Rayo",
+      "move4": "Avalancha",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "234 HP, 223 Atk, 234 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Steelix-4",
+      "species": "Steelix",
+      "setNumber": 4,
+      "item": "Restos",
+      "move1": "Terremoto",
+      "move2": "Híper Rayo",
+      "move3": "Contoneo",
+      "move4": "Triturar",
+      "level": 100,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 234 Def, 223 SpA, 223 SpD, 244 Spe"
+    },
+    {
+      "setName": "Fearow-2",
+      "species": "Fearow",
+      "setNumber": 2,
+      "item": "Roca del Rey",
+      "move1": "Pico Taladro",
+      "move2": "Ala De Acero",
+      "move3": "Híper Rayo",
+      "move4": "Bofetón-Lodo",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 12,
+        "spc": 15
+      },
+      "EVs": "234 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Misdreavus-2",
+      "species": "Misdreavus",
+      "setNumber": 2,
+      "item": "Cinta Aguante",
+      "move1": "Canto Mortal",
+      "move2": "Mal De Ojo",
+      "move3": "Divide Dolor",
+      "move4": "Bola Sombra",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "212 HP, 223 Atk, 234 Def, 234 SpA, 234 SpD, 223 Spe"
+    },
+    {
+      "setName": "Sneasel-2",
+      "species": "Sneasel",
+      "setNumber": 2,
+      "item": "Periscopio",
+      "move1": "Cuchillada",
+      "move2": "Ventisca",
+      "move3": "Come Sueños",
+      "move4": "Finta",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 219 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Scizor-4",
+      "species": "Scizor",
+      "setNumber": 4,
+      "item": "Garra Rápida",
+      "move1": "Ala De Acero",
+      "move2": "Híper Rayo",
+      "move3": "Cuchillada",
+      "move4": "Tóxico",
+      "level": 100,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 11,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Blissey-7",
+      "species": "Blissey",
+      "setNumber": 7,
+      "item": "Restos",
+      "move1": "Rayo",
+      "move2": "Ventisca",
+      "move3": "Llamarada",
+      "move4": "Amortiguador",
+      "level": 100,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Piloswine-1",
+      "species": "Piloswine",
+      "setNumber": 1,
+      "item": "Baya Menta",
+      "move1": "Descanso",
+      "move2": "Ventisca",
+      "move3": "Híper Rayo",
+      "move4": "Terremoto",
+      "level": 100,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Exeggutor-5",
+      "species": "Exeggutor",
+      "setNumber": 5,
+      "item": "Garra Rápida",
+      "move1": "Psíquico",
+      "move2": "Tóxico",
+      "move3": "Explosión",
+      "move4": "Giga-Drenado",
+      "level": 100,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Omastar-2",
+      "species": "Omastar",
+      "setNumber": 2,
+      "item": "Restos",
+      "move1": "Surf",
+      "move2": "Poder Pasado",
+      "move3": "Ventisca",
+      "move4": "Tóxico",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Golem-3",
+      "species": "Golem",
+      "setNumber": 3,
+      "item": "Polvo Brillo",
+      "move1": "Explosión",
+      "move2": "Terremoto",
+      "move3": "Avalancha",
+      "move4": "Llamarada",
+      "level": 100,
+      "DVs": {
+        "hp": 8,
+        "atk": 7,
+        "def": 4,
+        "spe": 4,
+        "spc": 6
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Hitmonchan-2",
+      "species": "Hitmonchan",
+      "setNumber": 2,
+      "item": "Cinta Aguante",
+      "move1": "Contador",
+      "move2": "Puño Fuego",
+      "move3": "Puño-Trueno",
+      "move4": "Puño Hielo",
+      "level": 100,
+      "DVs": {
+        "hp": 6,
+        "atk": 6,
+        "def": 7,
+        "spe": 7,
+        "spc": 6
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Lanturn-2",
+      "species": "Lanturn",
+      "setNumber": 2,
+      "item": "Garra Rápida",
+      "move1": "Surf",
+      "move2": "Danza Lluvia",
+      "move3": "Electrocañón",
+      "move4": "Rayo Confuso",
+      "level": 100,
+      "DVs": {
+        "hp": 11,
+        "atk": 7,
+        "def": 6,
+        "spe": 5,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    }
+  ]
+}

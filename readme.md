@@ -15,7 +15,7 @@ Currently covers:
 
 ## Credits
 
-- Trainer and set data taken directly from game data thanks to [SilverstarStream](https://github.com/SilverstarStream) for Gens 5, 6 and 7, to [Mow](https://github.com/taxicat1) and chloe for Gen 4, and to [pret](https://github.com/pret/pokeemerald) for Gen 3.
+- Trainer and set data taken directly from game data thanks to [SilverstarStream](https://github.com/SilverstarStream) for Gens 5, 6 and 7, to [Mow](https://github.com/taxicat1) and chloe for Gen 4, and to pret for [Gen 3](https://github.com/pret/pokeemerald) and [Gen 2](https://github.com/pret/pokecrystal).
 - Localized names, trainer dialogue, and other game text sourced from
   [Poké Corpus](https://github.com/abcboy101/poke-corpus) by
   [abcboy101](https://github.com/abcboy101) — a searchable corpus of official Pokémon game text in all languages.

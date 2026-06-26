@@ -1,0 +1,3996 @@
+{
+  "sets": [
+    {
+      "setName": "Voltali-1",
+      "species": "Voltali",
+      "setNumber": 1,
+      "item": "Baie Miracle",
+      "move1": "Tonnerre",
+      "move2": "Ultralaser",
+      "move3": "Ball'Ombre",
+      "move4": "Hurlement",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 11,
+        "spc": 13
+      },
+      "EVs": "223 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 187 Spe"
+    },
+    {
+      "setName": "Mentali-1",
+      "species": "Mentali",
+      "setNumber": 1,
+      "item": "Restes",
+      "move1": "Coud'Boue",
+      "move2": "Psyko",
+      "move3": "Boost",
+      "move4": "Toxik",
+      "level": 10,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 13,
+        "spe": 15,
+        "spc": 11
+      },
+      "EVs": "200 HP, 223 Atk, 187 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "Noctali-1",
+      "species": "Noctali",
+      "setNumber": 1,
+      "item": "Baie Dorée",
+      "move1": "Ball'Ombre",
+      "move2": "Queue De Fer",
+      "move3": "Boost",
+      "move4": "Toxik",
+      "level": 10,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 11,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "200 HP, 200 Atk, 212 Def, 200 SpA, 200 SpD, 223 Spe"
+    },
+    {
+      "setName": "Qulbutoke-1",
+      "species": "Qulbutoke",
+      "setNumber": 1,
+      "item": "Bandeau",
+      "move1": "Riposte",
+      "move2": "Voile Miroir",
+      "move3": "Rune Protect",
+      "move4": "Prlvt Destin",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 7,
+        "def": 15,
+        "spe": 13,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Kangourex-1",
+      "species": "Kangourex",
+      "setNumber": 1,
+      "item": "Baie Miracle",
+      "move1": "Contre",
+      "move2": "Ultralaser",
+      "move3": "Seisme",
+      "move4": "Attraction",
+      "level": 10,
+      "DVs": {
+        "hp": 5,
+        "atk": 14,
+        "def": 15,
+        "spe": 12,
+        "spc": 15
+      },
+      "EVs": "200 HP, 173 Atk, 200 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Corayon-1",
+      "species": "Corayon",
+      "setNumber": 1,
+      "item": "Lentilscope",
+      "move1": "Surf",
+      "move2": "Psyko",
+      "move3": "Soin",
+      "move4": "Pouv.Antique",
+      "level": 10,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "200 HP, 173 Atk, 182 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Ecremeuh-1",
+      "species": "Ecremeuh",
+      "setNumber": 1,
+      "item": "Baie Dorée",
+      "move1": "Blizzard",
+      "move2": "Seisme",
+      "move3": "Ultralaser",
+      "move4": "Toxik",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 11,
+        "def": 11,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 187 SpA, 187 SpD, 173 Spe"
+    },
+    {
+      "setName": "Ptera-1",
+      "species": "Ptera",
+      "setNumber": 1,
+      "item": "Restes",
+      "move1": "Ultralaser",
+      "move2": "Ultrason",
+      "move3": "Seisme",
+      "move4": "Morsure",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 11,
+        "spe": 15,
+        "spc": 11
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Lokhlass-1",
+      "species": "Lokhlass",
+      "setNumber": 1,
+      "item": "Baie Miracle",
+      "move1": "Blizzard",
+      "move2": "Surf",
+      "move3": "Tonnerre",
+      "move4": "Psyko",
+      "level": 10,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Farfuret-1",
+      "species": "Farfuret",
+      "setNumber": 1,
+      "item": "Baie Dorée",
+      "move1": "Tranche",
+      "move2": "Feinte",
+      "move3": "Surf",
+      "move4": "Blizzard",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 11,
+        "spe": 11,
+        "spc": 15
+      },
+      "EVs": "173 HP, 187 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Porygon2-1",
+      "species": "Porygon2",
+      "setNumber": 1,
+      "item": "Poudre Claire",
+      "move1": "Psyko",
+      "move2": "Blizzard",
+      "move3": "Ultralaser",
+      "move4": "Triplattaque",
+      "level": 10,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 11,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "173 HP, 173 Atk, 200 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Feuforeve-1",
+      "species": "Feuforeve",
+      "setNumber": 1,
+      "item": "Bandeau",
+      "move1": "Requiem",
+      "move2": "Regard Noir",
+      "move3": "Balance",
+      "move4": "Ball'Ombre",
+      "level": 10,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Malosse-1",
+      "species": "Malosse",
+      "setNumber": 1,
+      "item": "Baie Dorée",
+      "move1": "Feinte",
+      "move2": "Lance-Soleil",
+      "move3": "Hurlement",
+      "move4": "Zenith",
+      "level": 10,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 181 Spe"
+    },
+    {
+      "setName": "Girafarig-1",
+      "species": "Girafarig",
+      "setNumber": 1,
+      "item": "Roche Royale",
+      "move1": "Rafale Psy",
+      "move2": "Coud'Boue",
+      "move3": "Ball'Ombre",
+      "move4": "Hate",
+      "level": 10,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 13,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Leuphorie-1",
+      "species": "Leuphorie",
+      "setNumber": 1,
+      "item": "Vive Griffe",
+      "move1": "Coup D'Boule",
+      "move2": "Lance-Soleil",
+      "move3": "Roulade",
+      "move4": "Force",
+      "level": 10,
+      "DVs": {
+        "hp": 12,
+        "atk": 13,
+        "def": 15,
+        "spe": 12,
+        "spc": 14
+      },
+      "EVs": "178 HP, 200 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Ronflex-1",
+      "species": "Ronflex",
+      "setNumber": 1,
+      "item": "Baie Miracle",
+      "move1": "Coup D'Boule",
+      "move2": "Abri",
+      "move3": "Ronflement",
+      "move4": "Surf",
+      "level": 10,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Noadkoko-1",
+      "species": "Noadkoko",
+      "setNumber": 1,
+      "item": "Roche Royale",
+      "move1": "Toxik",
+      "move2": "Giga-Sangsue",
+      "move3": "Larcin",
+      "move4": "Choc Mental",
+      "level": 10,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Scarhino-1",
+      "species": "Scarhino",
+      "setNumber": 1,
+      "item": "Baie Dorée",
+      "move1": "Contre",
+      "move2": "Tenacite",
+      "move3": "Riposte",
+      "move4": "Eclate-Roc",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 7,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Zarbi-1",
+      "species": "Zarbi",
+      "setNumber": 1,
+      "item": "Baie",
+      "move1": "Puis. Cachee",
+      "move2": "",
+      "move3": "",
+      "move4": "",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe",
+      "minisprite": "unown-z",
+      "sprite": "unown-z"
+    },
+    {
+      "setName": "Tauros-1",
+      "species": "Tauros",
+      "setNumber": 1,
+      "item": "Roche Royale",
+      "move1": "Coup D'Boule",
+      "move2": "Vantardise",
+      "move3": "Mimi-Queue",
+      "move4": "Vent Glace",
+      "level": 10,
+      "DVs": {
+        "hp": 7,
+        "atk": 6,
+        "def": 5,
+        "spe": 5,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "M.Mime-1",
+      "species": "M.Mime",
+      "setNumber": 1,
+      "item": "Vive Griffe",
+      "move1": "Toxik",
+      "move2": "Boost",
+      "move3": "Poing De Feu",
+      "move4": "Coup D'Boule",
+      "level": 10,
+      "DVs": {
+        "hp": 13,
+        "atk": 7,
+        "def": 3,
+        "spe": 6,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Noctali-2",
+      "species": "Noctali",
+      "setNumber": 2,
+      "item": "Restes",
+      "move1": "Abri",
+      "move2": "Toxik",
+      "move3": "Coud'Boue",
+      "move4": "Attraction",
+      "level": 20,
+      "DVs": {
+        "hp": 6,
+        "atk": 12,
+        "def": 15,
+        "spe": 11,
+        "spc": 12
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Staross-1",
+      "species": "Staross",
+      "setNumber": 1,
+      "item": "Baie Dorée",
+      "move1": "Soin",
+      "move2": "Psyko",
+      "move3": "Surf",
+      "move4": "Boost",
+      "level": 20,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 11,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Leviator-1",
+      "species": "Leviator",
+      "setNumber": 1,
+      "item": "Baie Miracle",
+      "move1": "Ultralaser",
+      "move2": "Draco-Rage",
+      "move3": "Tonnerre",
+      "move4": "Deflagration",
+      "level": 20,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 10,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Steelix-1",
+      "species": "Steelix",
+      "setNumber": 1,
+      "item": "Baie Dorée",
+      "move1": "Hurlement",
+      "move2": "Queue De Fer",
+      "move3": "Vantardise",
+      "move4": "Seisme",
+      "level": 20,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 173 Spe"
+    },
+    {
+      "setName": "Alakazam-1",
+      "species": "Alakazam",
+      "setNumber": 1,
+      "item": "Jus de Baie",
+      "move1": "Psyko",
+      "move2": "Boost",
+      "move3": "Toxik",
+      "move4": "Poing-Eclair",
+      "level": 20,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 173 Def, 200 SpA, 200 SpD, 223 Spe"
+    },
+    {
+      "setName": "Arcanin-1",
+      "species": "Arcanin",
+      "setNumber": 1,
+      "item": "Poudre Claire",
+      "move1": "Lance-Flamme",
+      "move2": "Hurlement",
+      "move3": "Ultralaser",
+      "move4": "Queue De Fer",
+      "level": 20,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 11,
+        "spe": 15,
+        "spc": 11
+      },
+      "EVs": "187 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Scarhino-2",
+      "species": "Scarhino",
+      "setNumber": 2,
+      "item": "Bandeau",
+      "move1": "Tenacite",
+      "move2": "Contre",
+      "move3": "Megacorne",
+      "move4": "Seisme",
+      "level": 20,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 173 Atk, 212 Def, 212 SpA, 212 SpD, 173 Spe"
+    },
+    {
+      "setName": "Noadkoko-2",
+      "species": "Noadkoko",
+      "setNumber": 2,
+      "item": "Restes",
+      "move1": "Ultralaser",
+      "move2": "Psyko",
+      "move3": "Toxik",
+      "move4": "Devoreve",
+      "level": 20,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 212 Spe"
+    },
+    {
+      "setName": "Ptera-2",
+      "species": "Ptera",
+      "setNumber": 2,
+      "item": "Baie Dorée",
+      "move1": "Repos",
+      "move2": "Ultralaser",
+      "move3": "Seisme",
+      "move4": "Draco-Rage",
+      "level": 20,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 11,
+        "spe": 11,
+        "spc": 11
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Leuphorie-2",
+      "species": "Leuphorie",
+      "setNumber": 2,
+      "item": "Poudre Claire",
+      "move1": "Psyko",
+      "move2": "Sacrifice",
+      "move3": "E-Coque",
+      "move4": "Riposte",
+      "level": 20,
+      "DVs": {
+        "hp": 14,
+        "atk": 11,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 173 Def, 223 SpA, 223 SpD, 173 Spe"
+    },
+    {
+      "setName": "Lokhlass-2",
+      "species": "Lokhlass",
+      "setNumber": 2,
+      "item": "Baie Dorée",
+      "move1": "Psyko",
+      "move2": "Tonnerre",
+      "move3": "Blizzard",
+      "move4": "Onde Folie",
+      "level": 20,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 13,
+        "spc": 7
+      },
+      "EVs": "234 HP, 173 Atk, 200 Def, 173 SpA, 173 SpD, 234 Spe"
+    },
+    {
+      "setName": "Pikachu-1",
+      "species": "Pikachu",
+      "setNumber": 1,
+      "item": "Balle Lumière",
+      "move1": "Tonnerre",
+      "move2": "Cage-Eclair",
+      "move3": "Force",
+      "move4": "Toxik",
+      "level": 20,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 12,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "212 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Cizayox-1",
+      "species": "Cizayox",
+      "setNumber": 1,
+      "item": "Bandeau",
+      "move1": "Aile D'Acier",
+      "move2": "Tranche",
+      "move3": "Toxik",
+      "move4": "Tempetesable",
+      "level": 20,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "200 HP, 212 Atk, 200 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Tygnon-1",
+      "species": "Tygnon",
+      "setNumber": 1,
+      "item": "Baie Dorée",
+      "move1": "Poing-Eclair",
+      "move2": "Poinglace",
+      "move3": "Poing De Feu",
+      "move4": "Ultimapoing",
+      "level": 20,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 11,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "223 HP, 212 Atk, 187 Def, 173 SpA, 173 SpD, 223 Spe"
+    },
+    {
+      "setName": "Tauros-2",
+      "species": "Tauros",
+      "setNumber": 2,
+      "item": "Poudre Claire",
+      "move1": "Tonnerre",
+      "move2": "Seisme",
+      "move3": "Ultralaser",
+      "move4": "Blizzard",
+      "level": 20,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Azumarill-1",
+      "species": "Azumarill",
+      "setNumber": 1,
+      "item": "Eau Mystique",
+      "move1": "Surf",
+      "move2": "Blizzard",
+      "move3": "Attraction",
+      "move4": "Danse Pluie",
+      "level": 20,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 13,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "200 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "Ecremeuh-2",
+      "species": "Ecremeuh",
+      "setNumber": 2,
+      "item": "Roche Royale",
+      "move1": "Seisme",
+      "move2": "Fatal-Foudre",
+      "move3": "Attraction",
+      "move4": "Surf",
+      "level": 20,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "200 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "Grodoudou-1",
+      "species": "Grodoudou",
+      "setNumber": 1,
+      "item": "Baie Dorée",
+      "move1": "Ultralaser",
+      "move2": "Blizzard",
+      "move3": "Deflagration",
+      "move4": "Attraction",
+      "level": 20,
+      "DVs": {
+        "hp": 6,
+        "atk": 12,
+        "def": 7,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "200 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "Grodoudou-2",
+      "species": "Grodoudou",
+      "setNumber": 2,
+      "item": "Ruban Rose",
+      "move1": "Psyko",
+      "move2": "Vantardise",
+      "move3": "Boost",
+      "move4": "Coup D'Boule",
+      "level": 20,
+      "DVs": {
+        "hp": 7,
+        "atk": 12,
+        "def": 7,
+        "spe": 7,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Nidoking-1",
+      "species": "Nidoking",
+      "setNumber": 1,
+      "item": "Baie",
+      "move1": "Blizzard",
+      "move2": "Seisme",
+      "move3": "Surf",
+      "move4": "Poing-Eclair",
+      "level": 20,
+      "DVs": {
+        "hp": 8,
+        "atk": 5,
+        "def": 6,
+        "spe": 4,
+        "spc": 6
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Maraiste-1",
+      "species": "Maraiste",
+      "setNumber": 1,
+      "item": "Vive Griffe",
+      "move1": "Amnesie",
+      "move2": "Seisme",
+      "move3": "Surf",
+      "move4": "Danse Pluie",
+      "level": 20,
+      "DVs": {
+        "hp": 13,
+        "atk": 5,
+        "def": 5,
+        "spe": 4,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Voltali-2",
+      "species": "Voltali",
+      "setNumber": 2,
+      "item": "Baie Miracle",
+      "move1": "Tonnerre",
+      "move2": "Cage-Eclair",
+      "move3": "Hurlement",
+      "move4": "Coud'Boue",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 11,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 234 SpA, 234 SpD, 223 Spe"
+    },
+    {
+      "setName": "Tartard-1",
+      "species": "Tartard",
+      "setNumber": 1,
+      "item": "Poudre Claire",
+      "move1": "Reflet",
+      "move2": "Surf",
+      "move3": "Abime",
+      "move4": "Sacrifice",
+      "level": 30,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 11
+      },
+      "EVs": "223 HP, 234 Atk, 234 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Staross-2",
+      "species": "Staross",
+      "setNumber": 2,
+      "item": "Restes",
+      "move1": "Cage-Eclair",
+      "move2": "Psyko",
+      "move3": "Soin",
+      "move4": "Surf",
+      "level": 30,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Lippoutou-1",
+      "species": "Lippoutou",
+      "setNumber": 1,
+      "item": "Baie Dorée",
+      "move1": "Blizzard",
+      "move2": "Grobisou",
+      "move3": "Devoreve",
+      "move4": "Attraction",
+      "level": 30,
+      "DVs": {
+        "hp": 12,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 173 Spe"
+    },
+    {
+      "setName": "Triopikeur-1",
+      "species": "Triopikeur",
+      "setNumber": 1,
+      "item": "Roche Royale",
+      "move1": "Seisme",
+      "move2": "Bomb-Beurk",
+      "move3": "Tranche",
+      "move4": "Coud'Boue",
+      "level": 30,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 173 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Joliflor-1",
+      "species": "Joliflor",
+      "setNumber": 1,
+      "item": "Poudre Claire",
+      "move1": "Giga-Sangsue",
+      "move2": "Zenith",
+      "move3": "Lance-Soleil",
+      "move4": "Reflet",
+      "level": 30,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "212 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Leuphorie-3",
+      "species": "Leuphorie",
+      "setNumber": 3,
+      "item": "Restes",
+      "move1": "Toxik",
+      "move2": "Protection",
+      "move3": "E-Coque",
+      "move4": "Abri",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 173 Atk, 212 Def, 212 SpA, 212 SpD, 173 Spe"
+    },
+    {
+      "setName": "Demolosse-1",
+      "species": "Demolosse",
+      "setNumber": 1,
+      "item": "Charbon",
+      "move1": "Lance-Flamme",
+      "move2": "Machouille",
+      "move3": "Ball'Ombre",
+      "move4": "Devoreve",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 212 Spe"
+    },
+    {
+      "setName": "Mackogneur-1",
+      "species": "Mackogneur",
+      "setNumber": 1,
+      "item": "Baie Miracle",
+      "move1": "Coup-Croix",
+      "move2": "Poinglace",
+      "move3": "Seisme",
+      "move4": "Deflagration",
+      "level": 30,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 11,
+        "spc": 14
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Nostenfer-1",
+      "species": "Nostenfer",
+      "setNumber": 1,
+      "item": "Baie Dorée",
+      "move1": "Attraction",
+      "move2": "Onde Folie",
+      "move3": "Toxik",
+      "move4": "Cru-Aile",
+      "level": 30,
+      "DVs": {
+        "hp": 6,
+        "atk": 14,
+        "def": 15,
+        "spe": 13,
+        "spc": 12
+      },
+      "EVs": "223 HP, 223 Atk, 173 Def, 223 SpA, 223 SpD, 173 Spe"
+    },
+    {
+      "setName": "Porygon2-2",
+      "species": "Porygon2",
+      "setNumber": 2,
+      "item": "Poudre Claire",
+      "move1": "Psyko",
+      "move2": "Soin",
+      "move3": "Ultralaser",
+      "move4": "Triplattaque",
+      "level": 30,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "234 HP, 173 Atk, 200 Def, 173 SpA, 173 SpD, 234 Spe"
+    },
+    {
+      "setName": "Ossatueur-1",
+      "species": "Ossatueur",
+      "setNumber": 1,
+      "item": "Masse Os",
+      "move1": "Seisme",
+      "move2": "Retour",
+      "move3": "Ultralaser",
+      "move4": "Osmerang",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "212 HP, 223 Atk, 212 Def, 173 SpA, 173 SpD, 223 Spe"
+    },
+    {
+      "setName": "Electrode-1",
+      "species": "Electrode",
+      "setNumber": 1,
+      "item": "Poudre Claire",
+      "move1": "Mur Lumiere",
+      "move2": "Tonnerre",
+      "move3": "Abri",
+      "move4": "Fatal-Foudre",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "200 HP, 212 Atk, 200 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Lokhlass-3",
+      "species": "Lokhlass",
+      "setNumber": 3,
+      "item": "Restes",
+      "move1": "Danse Pluie",
+      "move2": "Pistolet A O",
+      "move3": "Vent Glace",
+      "move4": "Force",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "223 HP, 212 Atk, 187 Def, 173 SpA, 173 SpD, 223 Spe"
+    },
+    {
+      "setName": "Lanturn-1",
+      "species": "Lanturn",
+      "setNumber": 1,
+      "item": "Baie Dorée",
+      "move1": "Danse Pluie",
+      "move2": "Fatal-Foudre",
+      "move3": "Surf",
+      "move4": "Fleau",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Mentali-2",
+      "species": "Mentali",
+      "setNumber": 2,
+      "item": "Baie Miracle",
+      "move1": "Choc Mental",
+      "move2": "Meteores",
+      "move3": "Toxik",
+      "move4": "Boost",
+      "level": 30,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Tentacruel-1",
+      "species": "Tentacruel",
+      "setNumber": 1,
+      "item": "Roche Royale",
+      "move1": "Ligotage",
+      "move2": "Toxik",
+      "move3": "Bomb-Beurk",
+      "move4": "Bulles D'O",
+      "level": 30,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 212 SpA, 212 SpD, 216 Spe"
+    },
+    {
+      "setName": "Ectoplasma-1",
+      "species": "Ectoplasma",
+      "setNumber": 1,
+      "item": "Baie Dorée",
+      "move1": "Larcin",
+      "move2": "Lechouille",
+      "move3": "Tenebres",
+      "move4": "Giga-Sangsue",
+      "level": 30,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 7,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Ursaring-1",
+      "species": "Ursaring",
+      "setNumber": 1,
+      "item": "Baie Dorée",
+      "move1": "Coup D'Boule",
+      "move2": "Abri",
+      "move3": "Hurlement",
+      "move4": "Groz'Yeux",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 7,
+        "def": 7,
+        "spe": 4,
+        "spc": 5
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Rapasdepic-1",
+      "species": "Rapasdepic",
+      "setNumber": 1,
+      "item": "Poudre Claire",
+      "move1": "Mimique",
+      "move2": "Poursuite",
+      "move3": "Picpic",
+      "move4": "Meteores",
+      "level": 30,
+      "DVs": {
+        "hp": 7,
+        "atk": 6,
+        "def": 7,
+        "spe": 7,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Colossinge-1",
+      "species": "Colossinge",
+      "setNumber": 1,
+      "item": "Baie Miracle",
+      "move1": "Balayage",
+      "move2": "Poing-Karate",
+      "move3": "Contre",
+      "move4": "Puissance",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 7,
+        "def": 7,
+        "spe": 6,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Tauros-3",
+      "species": "Tauros",
+      "setNumber": 3,
+      "item": "Baie Dorée",
+      "move1": "Retour",
+      "move2": "Ultralaser",
+      "move3": "Seisme",
+      "move4": "Queue De Fer",
+      "level": 40,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Hyporoi-1",
+      "species": "Hyporoi",
+      "setNumber": 1,
+      "item": "Restes",
+      "move1": "Surf",
+      "move2": "Dracosouffle",
+      "move3": "Ultralaser",
+      "move4": "Blizzard",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Ronflex-2",
+      "species": "Ronflex",
+      "setNumber": 2,
+      "item": "Vive Griffe",
+      "move1": "Attraction",
+      "move2": "Plaquage",
+      "move3": "Boost",
+      "move4": "Seisme",
+      "level": 40,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Lokhlass-4",
+      "species": "Lokhlass",
+      "setNumber": 4,
+      "item": "Restes",
+      "move1": "Tonnerre",
+      "move2": "Laser Glace",
+      "move3": "Onde Folie",
+      "move4": "Surf",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Steelix-2",
+      "species": "Steelix",
+      "setNumber": 2,
+      "item": "Baie Dorée",
+      "move1": "Tempetesable",
+      "move2": "Queue De Fer",
+      "move3": "Seisme",
+      "move4": "Toxik",
+      "level": 40,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Alakazam-2",
+      "species": "Alakazam",
+      "setNumber": 2,
+      "item": "Roche Royale",
+      "move1": "Psyko",
+      "move2": "Poing-Eclair",
+      "move3": "Soin",
+      "move4": "Poing De Feu",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Staross-3",
+      "species": "Staross",
+      "setNumber": 3,
+      "item": "Restes",
+      "move1": "Blizzard",
+      "move2": "Tonnerre",
+      "move3": "Surf",
+      "move4": "Psyko",
+      "level": 40,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 11,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Qulbutoke-2",
+      "species": "Qulbutoke",
+      "setNumber": 2,
+      "item": "Baie Dorée",
+      "move1": "Riposte",
+      "move2": "Voile Miroir",
+      "move3": "Rune Protect",
+      "move4": "Prlvt Destin",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 15,
+        "spe": 14,
+        "spc": 7
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Grolem-1",
+      "species": "Grolem",
+      "setNumber": 1,
+      "item": "Bandeau",
+      "move1": "Explosion",
+      "move2": "Seisme",
+      "move3": "Ultimapoing",
+      "move4": "Eboulement",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Cizayox-2",
+      "species": "Cizayox",
+      "setNumber": 2,
+      "item": "Lentilscope",
+      "move1": "Tranche",
+      "move2": "Aile D'Acier",
+      "move3": "Poursuite",
+      "move4": "Ultralaser",
+      "level": 40,
+      "DVs": {
+        "hp": 14,
+        "atk": 11,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "Triopikeur-2",
+      "species": "Triopikeur",
+      "setNumber": 2,
+      "item": "Roche Royale",
+      "move1": "Seisme",
+      "move2": "Ultralaser",
+      "move3": "Bomb-Beurk",
+      "move4": "Coud'Boue",
+      "level": 40,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 11,
+        "spc": 11
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Flagadoss-1",
+      "species": "Flagadoss",
+      "setNumber": 1,
+      "item": "Baie Miracle",
+      "move1": "Surf",
+      "move2": "Psyko",
+      "move3": "Seisme",
+      "move4": "Blizzard",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 15,
+        "spe": 12,
+        "spc": 15
+      },
+      "EVs": "212 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Porygon2-3",
+      "species": "Porygon2",
+      "setNumber": 3,
+      "item": "None",
+      "move1": "Adaptation2",
+      "move2": "Adaptation",
+      "move3": "Rafale Psy",
+      "move4": "Larcin",
+      "level": 40,
+      "DVs": {
+        "hp": 9,
+        "atk": 11,
+        "def": 12,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Arcanin-2",
+      "species": "Arcanin",
+      "setNumber": 2,
+      "item": "Charbon",
+      "move1": "Roue De Feu",
+      "move2": "Groz'Yeux",
+      "move3": "Plaquage",
+      "move4": "Hurlement",
+      "level": 40,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 11,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Foretress-1",
+      "species": "Foretress",
+      "setNumber": 1,
+      "item": "Restes",
+      "move1": "Tour Rapide",
+      "move2": "Abri",
+      "move3": "Toxik",
+      "move4": "Tempetesable",
+      "level": 40,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 10,
+        "spe": 7,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Amonistar-1",
+      "species": "Amonistar",
+      "setNumber": 1,
+      "item": "Baie Dorée",
+      "move1": "Malediction",
+      "move2": "Pistolet A O",
+      "move3": "Pouv.Antique",
+      "move4": "Eclate-Roc",
+      "level": 40,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Dracaufeu-1",
+      "species": "Dracaufeu",
+      "setNumber": 1,
+      "item": "Roche Royale",
+      "move1": "Danseflamme",
+      "move2": "Draco-Rage",
+      "move3": "Vol",
+      "move4": "Tranche",
+      "level": 40,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Noadkoko-3",
+      "species": "Noadkoko",
+      "setNumber": 3,
+      "item": "Poudre Claire",
+      "move1": "Bomb'Oeuf",
+      "move2": "Ecrasement",
+      "move3": "Boost",
+      "move4": "Choc Mental",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 7,
+        "spe": 14,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Hypnomade-1",
+      "species": "Hypnomade",
+      "setNumber": 1,
+      "item": "Poudre Claire",
+      "move1": "Choc Mental",
+      "move2": "Poing-Eclair",
+      "move3": "Coup D'Boule",
+      "move4": "Entrave",
+      "level": 40,
+      "DVs": {
+        "hp": 14,
+        "atk": 7,
+        "def": 7,
+        "spe": 7,
+        "spc": 10
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Grotadmorv-1",
+      "species": "Grotadmorv",
+      "setNumber": 1,
+      "item": "Vive Griffe",
+      "move1": "Grincement",
+      "move2": "Toxik",
+      "move3": "Detritus",
+      "move4": "Armure",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 7,
+        "def": 5,
+        "spe": 6,
+        "spc": 11
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Elektek-1",
+      "species": "Elektek",
+      "setNumber": 1,
+      "item": "Roche Royale",
+      "move1": "Mur Lumiere",
+      "move2": "Poing-Eclair",
+      "move3": "Meteores",
+      "move4": "Ronflement",
+      "level": 40,
+      "DVs": {
+        "hp": 7,
+        "atk": 6,
+        "def": 5,
+        "spe": 7,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Hyporoi-2",
+      "species": "Hyporoi",
+      "setNumber": 2,
+      "item": "Baie Dorée",
+      "move1": "Surf",
+      "move2": "Ultralaser",
+      "move3": "Blizzard",
+      "move4": "Dracosouffle",
+      "level": 50,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "234 HP, 234 Atk, 244 Def, 234 SpA, 234 SpD, 223 Spe"
+    },
+    {
+      "setName": "Demolosse-2",
+      "species": "Demolosse",
+      "setNumber": 2,
+      "item": "Baie Miracle",
+      "move1": "Repos",
+      "move2": "Machouille",
+      "move3": "Devoreve",
+      "move4": "Lance-Flamme",
+      "level": 50,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 12
+      },
+      "EVs": "234 HP, 223 Atk, 244 Def, 244 SpA, 244 SpD, 244 Spe"
+    },
+    {
+      "setName": "Caratroc-1",
+      "species": "Caratroc",
+      "setNumber": 1,
+      "item": "Restes",
+      "move1": "Tempetesable",
+      "move2": "Repos",
+      "move3": "Toxik",
+      "move4": "Ligotage",
+      "level": 50,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 12,
+        "spc": 15
+      },
+      "EVs": "244 HP, 244 Atk, 244 Def, 234 SpA, 234 SpD, 244 Spe"
+    },
+    {
+      "setName": "Ronflex-3",
+      "species": "Ronflex",
+      "setNumber": 3,
+      "item": "Restes",
+      "move1": "Ultralaser",
+      "move2": "Seisme",
+      "move3": "Surf",
+      "move4": "Boost",
+      "level": 50,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "244 HP, 234 Atk, 234 Def, 234 SpA, 234 SpD, 244 Spe"
+    },
+    {
+      "setName": "Lokhlass-5",
+      "species": "Lokhlass",
+      "setNumber": 5,
+      "item": "Baie Dorée",
+      "move1": "Tonnerre",
+      "move2": "Surf",
+      "move3": "Onde Folie",
+      "move4": "Blizzard",
+      "level": 50,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "234 HP, 244 Atk, 244 Def, 244 SpA, 244 SpD, 234 Spe"
+    },
+    {
+      "setName": "Voltali-3",
+      "species": "Voltali",
+      "setNumber": 3,
+      "item": "Roche Royale",
+      "move1": "Tonnerre",
+      "move2": "Cage-Eclair",
+      "move3": "Ball'Ombre",
+      "move4": "Puis. Cachee",
+      "level": 50,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 13,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "234 HP, 244 Atk, 238 Def, 234 SpA, 234 SpD, 234 Spe"
+    },
+    {
+      "setName": "Cizayox-3",
+      "species": "Cizayox",
+      "setNumber": 3,
+      "item": "Restes",
+      "move1": "Ultralaser",
+      "move2": "Tranche",
+      "move3": "Hate",
+      "move4": "Griffe Acier",
+      "level": 50,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 15,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Roigada-1",
+      "species": "Roigada",
+      "setNumber": 1,
+      "item": "Baie Menthe",
+      "move1": "Repos",
+      "move2": "Surf",
+      "move3": "Psyko",
+      "move4": "Amnesie",
+      "level": 50,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 200 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Mackogneur-2",
+      "species": "Mackogneur",
+      "setNumber": 2,
+      "item": "Baie Dorée",
+      "move1": "Coup-Croix",
+      "move2": "Seisme",
+      "move3": "Deflagration",
+      "move4": "Poing-Eclair",
+      "level": 50,
+      "DVs": {
+        "hp": 12,
+        "atk": 15,
+        "def": 15,
+        "spe": 14,
+        "spc": 12
+      },
+      "EVs": "200 HP, 212 Atk, 223 Def, 209 SpA, 209 SpD, 200 Spe"
+    },
+    {
+      "setName": "Staross-4",
+      "species": "Staross",
+      "setNumber": 4,
+      "item": "Lentilscope",
+      "move1": "Cage-Eclair",
+      "move2": "Soin",
+      "move3": "Tonnerre",
+      "move4": "Surf",
+      "level": 50,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "212 HP, 209 Atk, 200 Def, 200 SpA, 200 SpD, 212 Spe"
+    },
+    {
+      "setName": "Triopikeur-3",
+      "species": "Triopikeur",
+      "setNumber": 3,
+      "item": "Roche Royale",
+      "move1": "Seisme",
+      "move2": "Tranche",
+      "move3": "Ultralaser",
+      "move4": "Bomb-Beurk",
+      "level": 50,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 7,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "212 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Electrode-2",
+      "species": "Electrode",
+      "setNumber": 2,
+      "item": "Baie Miracle",
+      "move1": "Tonnerre",
+      "move2": "Explosion",
+      "move3": "Voile Miroir",
+      "move4": "Repos",
+      "level": 50,
+      "DVs": {
+        "hp": 14,
+        "atk": 7,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 212 Atk, 232 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "Ptera-3",
+      "species": "Ptera",
+      "setNumber": 3,
+      "item": "Roche Royale",
+      "move1": "Ultralaser",
+      "move2": "Seisme",
+      "move3": "Deflagration",
+      "move4": "Queue De Fer",
+      "level": 50,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 212 Spe"
+    },
+    {
+      "setName": "Nostenfer-2",
+      "species": "Nostenfer",
+      "setNumber": 2,
+      "item": "Restes",
+      "move1": "Onde Folie",
+      "move2": "Attraction",
+      "move3": "Ultralaser",
+      "move4": "Toxik",
+      "level": 50,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "212 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "Electhor-1",
+      "species": "Electhor",
+      "setNumber": 1,
+      "item": "Baie Miracle",
+      "move1": "Bec Vrille",
+      "move2": "Tonnerre",
+      "move3": "Cage-Eclair",
+      "move4": "Ultralaser",
+      "level": 50,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "212 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "Airmure-1",
+      "species": "Airmure",
+      "setNumber": 1,
+      "item": "Baie Dorée",
+      "move1": "Tempetesable",
+      "move2": "Vol",
+      "move3": "Aile D'Acier",
+      "move4": "Toxik",
+      "level": 50,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 7,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 200 SpA, 200 SpD, 223 Spe"
+    },
+    {
+      "setName": "Foretress-2",
+      "species": "Foretress",
+      "setNumber": 2,
+      "item": "Restes",
+      "move1": "Tempetesable",
+      "move2": "Toxik",
+      "move3": "Explosion",
+      "move4": "Vantardise",
+      "level": 50,
+      "DVs": {
+        "hp": 7,
+        "atk": 12,
+        "def": 15,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 234 Def, 200 SpA, 200 SpD, 212 Spe"
+    },
+    {
+      "setName": "Steelix-3",
+      "species": "Steelix",
+      "setNumber": 3,
+      "item": "Baie Miracle",
+      "move1": "Tempetesable",
+      "move2": "Queue De Fer",
+      "move3": "Repos",
+      "move4": "Seisme",
+      "level": 50,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 200 Spe"
+    },
+    {
+      "setName": "Girafarig-2",
+      "species": "Girafarig",
+      "setNumber": 2,
+      "item": "Lentilscope",
+      "move1": "Devoreve",
+      "move2": "Machouille",
+      "move3": "Psyko",
+      "move4": "Seisme",
+      "level": 50,
+      "DVs": {
+        "hp": 6,
+        "atk": 4,
+        "def": 5,
+        "spe": 5,
+        "spc": 6
+      },
+      "EVs": "200 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "Leviator-2",
+      "species": "Leviator",
+      "setNumber": 2,
+      "item": "Baie Miracle",
+      "move1": "Ultralaser",
+      "move2": "Surf",
+      "move3": "Danse Pluie",
+      "move4": "Elecanon",
+      "level": 50,
+      "DVs": {
+        "hp": 13,
+        "atk": 7,
+        "def": 5,
+        "spe": 6,
+        "spc": 5
+      },
+      "EVs": "200 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "Artikodin-1",
+      "species": "Artikodin",
+      "setNumber": 1,
+      "item": "Baie Dorée",
+      "move1": "Blizzard",
+      "move2": "Ultralaser",
+      "move3": "Hurlement",
+      "move4": "Vent Glace",
+      "level": 50,
+      "DVs": {
+        "hp": 6,
+        "atk": 4,
+        "def": 5,
+        "spe": 5,
+        "spc": 6
+      },
+      "EVs": "200 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "Hyporoi-3",
+      "species": "Hyporoi",
+      "setNumber": 3,
+      "item": "Restes",
+      "move1": "Dracosouffle",
+      "move2": "Surf",
+      "move3": "Ultralaser",
+      "move4": "Blizzard",
+      "level": 60,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "234 HP, 234 Atk, 223 Def, 244 SpA, 244 SpD, 244 Spe"
+    },
+    {
+      "setName": "Tyranocif-1",
+      "species": "Tyranocif",
+      "setNumber": 1,
+      "item": "Baie Dorée",
+      "move1": "Machouille",
+      "move2": "Seisme",
+      "move3": "Eboulement",
+      "move4": "Ultralaser",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "234 HP, 244 Atk, 234 Def, 234 SpA, 234 SpD, 244 Spe"
+    },
+    {
+      "setName": "Demolosse-3",
+      "species": "Demolosse",
+      "setNumber": 3,
+      "item": "Baie Miracle",
+      "move1": "Lance-Flamme",
+      "move2": "Machouille",
+      "move3": "Devoreve",
+      "move4": "Repos",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "244 HP, 234 Atk, 234 Def, 234 SpA, 234 SpD, 244 Spe"
+    },
+    {
+      "setName": "Porygon2-4",
+      "species": "Porygon2",
+      "setNumber": 4,
+      "item": "Restes",
+      "move1": "Blizzard",
+      "move2": "Soin",
+      "move3": "Toxik",
+      "move4": "Psyko",
+      "level": 60,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 13,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "234 HP, 223 Atk, 223 Def, 234 SpA, 234 SpD, 223 Spe"
+    },
+    {
+      "setName": "Mackogneur-3",
+      "species": "Mackogneur",
+      "setNumber": 3,
+      "item": "Vive Griffe",
+      "move1": "Poing De Feu",
+      "move2": "Coup-Croix",
+      "move3": "Poing-Eclair",
+      "move4": "Seisme",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Electhor-2",
+      "species": "Electhor",
+      "setNumber": 2,
+      "item": "Baie Menthe",
+      "move1": "Repos",
+      "move2": "Bec Vrille",
+      "move3": "Tonnerre",
+      "move4": "Cage-Eclair",
+      "level": 60,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Qulbutoke-3",
+      "species": "Qulbutoke",
+      "setNumber": 3,
+      "item": "Baie Dorée",
+      "move1": "Riposte",
+      "move2": "Voile Miroir",
+      "move3": "Prlvt Destin",
+      "move4": "Rune Protect",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Ptera-4",
+      "species": "Ptera",
+      "setNumber": 4,
+      "item": "Restes",
+      "move1": "Ultralaser",
+      "move2": "Ultrason",
+      "move3": "Seisme",
+      "move4": "Morsure",
+      "level": 60,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 212 Spe"
+    },
+    {
+      "setName": "Dracolosse-1",
+      "species": "Dracolosse",
+      "setNumber": 1,
+      "item": "Baie Miracle",
+      "move1": "Ultralaser",
+      "move2": "Vent Glace",
+      "move3": "Tonnerre",
+      "move4": "Surf",
+      "level": 60,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Noctali-3",
+      "species": "Noctali",
+      "setNumber": 3,
+      "item": "Baie Dorée",
+      "move1": "Coud'Boue",
+      "move2": "Rayon Lune",
+      "move3": "Psyko",
+      "move4": "Feinte",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Arcanin-3",
+      "species": "Arcanin",
+      "setNumber": 3,
+      "item": "Charbon",
+      "move1": "Lance-Flamme",
+      "move2": "Machouille",
+      "move3": "Vit.Extreme",
+      "move4": "Queue De Fer",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "234 HP, 223 Atk, 200 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Airmure-2",
+      "species": "Airmure",
+      "setNumber": 2,
+      "item": "Baie Miracle",
+      "move1": "Aile D'Acier",
+      "move2": "Vol",
+      "move3": "Toxik",
+      "move4": "Abri",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Leuphorie-4",
+      "species": "Leuphorie",
+      "setNumber": 4,
+      "item": "Restes",
+      "move1": "E-Coque",
+      "move2": "Toxik",
+      "move3": "Abri",
+      "move4": "Psyko",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 12,
+        "spc": 13
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Ronflex-4",
+      "species": "Ronflex",
+      "setNumber": 4,
+      "item": "Ruban Rose",
+      "move1": "Eboulement",
+      "move2": "Surf",
+      "move3": "Plaquage",
+      "move4": "Seisme",
+      "level": 60,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 10,
+        "spe": 15,
+        "spc": 12
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Scarhino-3",
+      "species": "Scarhino",
+      "setNumber": 3,
+      "item": "Bandeau",
+      "move1": "Contre",
+      "move2": "Megacorne",
+      "move3": "Seisme",
+      "move4": "Riposte",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 15,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Lippoutou-2",
+      "species": "Lippoutou",
+      "setNumber": 2,
+      "item": "Baie Miracle",
+      "move1": "Blizzard",
+      "move2": "Psyko",
+      "move3": "Ball'Ombre",
+      "move4": "Vent Glace",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 15,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Tortank-1",
+      "species": "Tortank",
+      "setNumber": 1,
+      "item": "Baie Dorée",
+      "move1": "Surf",
+      "move2": "Seisme",
+      "move3": "Tour Rapide",
+      "move4": "Blizzard",
+      "level": 60,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Rhinoferos-1",
+      "species": "Rhinoferos",
+      "setNumber": 1,
+      "item": "Vive Griffe",
+      "move1": "Seisme",
+      "move2": "Surf",
+      "move3": "Queue De Fer",
+      "move4": "Eboulement",
+      "level": 60,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 11,
+        "spe": 15,
+        "spc": 10
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Sablaireau-1",
+      "species": "Sablaireau",
+      "setNumber": 1,
+      "item": "Lentilscope",
+      "move1": "Seisme",
+      "move2": "Tranche",
+      "move3": "Ultralaser",
+      "move4": "Ronflement",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 7,
+        "spe": 6,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Parasect-1",
+      "species": "Parasect",
+      "setNumber": 1,
+      "item": "Baie Dorée",
+      "move1": "Spore",
+      "move2": "Giga-Sangsue",
+      "move3": "Ultralaser",
+      "move4": "Bomb-Beurk",
+      "level": 60,
+      "DVs": {
+        "hp": 3,
+        "atk": 6,
+        "def": 6,
+        "spe": 5,
+        "spc": 15
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Grolem-2",
+      "species": "Grolem",
+      "setNumber": 2,
+      "item": "Poudre Claire",
+      "move1": "Explosion",
+      "move2": "Seisme",
+      "move3": "Poing De Feu",
+      "move4": "Frustration",
+      "level": 60,
+      "DVs": {
+        "hp": 11,
+        "atk": 7,
+        "def": 6,
+        "spe": 5,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Voltali-4",
+      "species": "Voltali",
+      "setNumber": 4,
+      "item": "Baie Miracle",
+      "move1": "Tonnerre",
+      "move2": "Ultralaser",
+      "move3": "Ball'Ombre",
+      "move4": "Hurlement",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "244 HP, 236 Atk, 234 Def, 244 SpA, 244 SpD, 223 Spe"
+    },
+    {
+      "setName": "Aquali-1",
+      "species": "Aquali",
+      "setNumber": 1,
+      "item": "Restes",
+      "move1": "Blizzard",
+      "move2": "Ball'Ombre",
+      "move3": "Surf",
+      "move4": "Coud'Boue",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 15,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 244 Def, 223 SpA, 223 SpD, 244 Spe"
+    },
+    {
+      "setName": "Noctali-4",
+      "species": "Noctali",
+      "setNumber": 4,
+      "item": "Baie Dorée",
+      "move1": "Feinte",
+      "move2": "Rayon Lune",
+      "move3": "Boost",
+      "move4": "Toxik",
+      "level": 70,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "232 HP, 244 Atk, 234 Def, 240 SpA, 240 SpD, 223 Spe"
+    },
+    {
+      "setName": "Leuphorie-5",
+      "species": "Leuphorie",
+      "setNumber": 5,
+      "item": "Baie Dorée",
+      "move1": "Riposte",
+      "move2": "E-Coque",
+      "move3": "Ball'Ombre",
+      "move4": "Tonnerre",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 15,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "234 HP, 234 Atk, 234 Def, 223 SpA, 223 SpD, 240 Spe"
+    },
+    {
+      "setName": "Ronflex-5",
+      "species": "Ronflex",
+      "setNumber": 5,
+      "item": "Restes",
+      "move1": "Eboulement",
+      "move2": "Seisme",
+      "move3": "Blizzard",
+      "move4": "Ball'Ombre",
+      "level": 70,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "234 HP, 234 Atk, 244 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Demolosse-4",
+      "species": "Demolosse",
+      "setNumber": 4,
+      "item": "Roche Royale",
+      "move1": "Machouille",
+      "move2": "Lance-Flamme",
+      "move3": "Feinte",
+      "move4": "Hurlement",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 12,
+        "spc": 13
+      },
+      "EVs": "240 HP, 223 Atk, 234 Def, 234 SpA, 234 SpD, 244 Spe"
+    },
+    {
+      "setName": "Tyranocif-2",
+      "species": "Tyranocif",
+      "setNumber": 2,
+      "item": "Restes",
+      "move1": "Seisme",
+      "move2": "Machouille",
+      "move3": "Eboulement",
+      "move4": "Ultralaser",
+      "level": 70,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 11,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "223 HP, 212 Atk, 212 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Electhor-3",
+      "species": "Electhor",
+      "setNumber": 3,
+      "item": "Baie Dorée",
+      "move1": "Tonnerre",
+      "move2": "Bec Vrille",
+      "move3": "Cage-Eclair",
+      "move4": "Ultralaser",
+      "level": 70,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 11,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 212 Spe"
+    },
+    {
+      "setName": "Noadkoko-4",
+      "species": "Noadkoko",
+      "setNumber": 4,
+      "item": "Baie Miracle",
+      "move1": "Repos",
+      "move2": "Explosion",
+      "move3": "Psyko",
+      "move4": "Giga-Sangsue",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Noctali-5",
+      "species": "Noctali",
+      "setNumber": 5,
+      "item": "Baie Dorée",
+      "move1": "Rayon Lune",
+      "move2": "Feinte",
+      "move3": "Psyko",
+      "move4": "Ball'Ombre",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Leviator-3",
+      "species": "Leviator",
+      "setNumber": 3,
+      "item": "Poudre Claire",
+      "move1": "Surf",
+      "move2": "Tonnerre",
+      "move3": "Ultralaser",
+      "move4": "Hurlement",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 11,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "234 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Maraiste-2",
+      "species": "Maraiste",
+      "setNumber": 2,
+      "item": "Baie Miracle",
+      "move1": "Seisme",
+      "move2": "Surf",
+      "move3": "Bomb-Beurk",
+      "move4": "Queue De Fer",
+      "level": 70,
+      "DVs": {
+        "hp": 11,
+        "atk": 13,
+        "def": 14,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Ursaring-2",
+      "species": "Ursaring",
+      "setNumber": 2,
+      "item": "Lentilscope",
+      "move1": "Tranche",
+      "move2": "Seisme",
+      "move3": "Ultralaser",
+      "move4": "Poing-Eclair",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "M.Mime-2",
+      "species": "M.Mime",
+      "setNumber": 2,
+      "item": "Roche Royale",
+      "move1": "Protection",
+      "move2": "Poing De Feu",
+      "move3": "Psyko",
+      "move4": "Encore",
+      "level": 70,
+      "DVs": {
+        "hp": 15,
+        "atk": 11,
+        "def": 13,
+        "spe": 15,
+        "spc": 11
+      },
+      "EVs": "223 HP, 212 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Colossinge-2",
+      "species": "Colossinge",
+      "setNumber": 2,
+      "item": "Vive Griffe",
+      "move1": "Coup-Croix",
+      "move2": "Poinglace",
+      "move3": "Poing-Eclair",
+      "move4": "Eboulement",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Girafarig-3",
+      "species": "Girafarig",
+      "setNumber": 3,
+      "item": "Baie Dorée",
+      "move1": "Hate",
+      "move2": "Relais",
+      "move3": "Machouille",
+      "move4": "Seisme",
+      "level": 70,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Kicklee-1",
+      "species": "Kicklee",
+      "setNumber": 1,
+      "item": "Bandeau",
+      "move1": "Contre",
+      "move2": "Tenacite",
+      "move3": "Plaquage",
+      "move4": "Ultimawashi",
+      "level": 70,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Scarhino-4",
+      "species": "Scarhino",
+      "setNumber": 4,
+      "item": "Poudre Claire",
+      "move1": "Contre",
+      "move2": "Tenacite",
+      "move3": "Megacorne",
+      "move4": "Seisme",
+      "level": 70,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 7,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Florizarre-1",
+      "species": "Florizarre",
+      "setNumber": 1,
+      "item": "Poudre Claire",
+      "move1": "Zenith",
+      "move2": "Lance-Soleil",
+      "move3": "Synthese",
+      "move4": "Ultralaser",
+      "level": 70,
+      "DVs": {
+        "hp": 8,
+        "atk": 7,
+        "def": 6,
+        "spe": 4,
+        "spc": 4
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Dracaufeu-2",
+      "species": "Dracaufeu",
+      "setNumber": 2,
+      "item": "Lentilscope",
+      "move1": "Tranche",
+      "move2": "Seisme",
+      "move3": "Ultralaser",
+      "move4": "Lance-Flamme",
+      "level": 70,
+      "DVs": {
+        "hp": 8,
+        "atk": 5,
+        "def": 6,
+        "spe": 4,
+        "spc": 4
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Tortank-2",
+      "species": "Tortank",
+      "setNumber": 2,
+      "item": "Vive Griffe",
+      "move1": "Hydrocanon",
+      "move2": "Poinglace",
+      "move3": "Ultralaser",
+      "move4": "Queue De Fer",
+      "level": 70,
+      "DVs": {
+        "hp": 8,
+        "atk": 7,
+        "def": 6,
+        "spe": 6,
+        "spc": 4
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Voltali-5",
+      "species": "Voltali",
+      "setNumber": 5,
+      "item": "Baie Miracle",
+      "move1": "Cage-Eclair",
+      "move2": "Tonnerre",
+      "move3": "Queue De Fer",
+      "move4": "Hurlement",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "244 HP, 234 Atk, 244 Def, 234 SpA, 234 SpD, 234 Spe"
+    },
+    {
+      "setName": "Ronflex-6",
+      "species": "Ronflex",
+      "setNumber": 6,
+      "item": "Restes",
+      "move1": "Repos",
+      "move2": "Cognobidon",
+      "move3": "Ronflement",
+      "move4": "Seisme",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 11,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "244 HP, 234 Atk, 223 Def, 244 SpA, 244 SpD, 235 Spe"
+    },
+    {
+      "setName": "Demolosse-5",
+      "species": "Demolosse",
+      "setNumber": 5,
+      "item": "Baie Menthe",
+      "move1": "Repos",
+      "move2": "Machouille",
+      "move3": "Lance-Flamme",
+      "move4": "Zenith",
+      "level": 80,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "234 HP, 223 Atk, 234 Def, 234 SpA, 234 SpD, 234 Spe"
+    },
+    {
+      "setName": "Tauros-4",
+      "species": "Tauros",
+      "setNumber": 4,
+      "item": "Baie Dorée",
+      "move1": "Seisme",
+      "move2": "Plaquage",
+      "move3": "Queue De Fer",
+      "move4": "Ultralaser",
+      "level": 80,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 173 Spe"
+    },
+    {
+      "setName": "Lokhlass-6",
+      "species": "Lokhlass",
+      "setNumber": 6,
+      "item": "Baie Menthe",
+      "move1": "Repos",
+      "move2": "Surf",
+      "move3": "Onde Folie",
+      "move4": "Psyko",
+      "level": 80,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Tyranocif-3",
+      "species": "Tyranocif",
+      "setNumber": 3,
+      "item": "Baie Miracle",
+      "move1": "Repos",
+      "move2": "Machouille",
+      "move3": "Seisme",
+      "move4": "Eboulement",
+      "level": 80,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "223 HP, 234 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Ectoplasma-2",
+      "species": "Ectoplasma",
+      "setNumber": 2,
+      "item": "None",
+      "move1": "Tonnerre",
+      "move2": "Ball'Ombre",
+      "move3": "Onde Folie",
+      "move4": "Larcin",
+      "level": 80,
+      "DVs": {
+        "hp": 11,
+        "atk": 13,
+        "def": 14,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Foretress-3",
+      "species": "Foretress",
+      "setNumber": 3,
+      "item": "Restes",
+      "move1": "Explosion",
+      "move2": "Toxik",
+      "move3": "Lance-Soleil",
+      "move4": "Vantardise",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Hyporoi-4",
+      "species": "Hyporoi",
+      "setNumber": 4,
+      "item": "Baie Menthe",
+      "move1": "Repos",
+      "move2": "Surf",
+      "move3": "Blizzard",
+      "move4": "Dracosouffle",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Dracolosse-2",
+      "species": "Dracolosse",
+      "setNumber": 2,
+      "item": "Baie Dorée",
+      "move1": "Cage-Eclair",
+      "move2": "Surf",
+      "move3": "Tonnerre",
+      "move4": "Colere",
+      "level": 80,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Porygon2-5",
+      "species": "Porygon2",
+      "setNumber": 5,
+      "item": "Restes",
+      "move1": "Psyko",
+      "move2": "Soin",
+      "move3": "Ultralaser",
+      "move4": "Triplattaque",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 15,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "234 HP, 223 Atk, 200 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Lippoutou-3",
+      "species": "Lippoutou",
+      "setNumber": 3,
+      "item": "Vive Griffe",
+      "move1": "Grobisou",
+      "move2": "Blizzard",
+      "move3": "Devoreve",
+      "move4": "Psyko",
+      "level": 80,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "234 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Demanta-1",
+      "species": "Demanta",
+      "setNumber": 1,
+      "item": "Baie Dorée",
+      "move1": "Surf",
+      "move2": "Onde Folie",
+      "move3": "Blizzard",
+      "move4": "Cru-Aile",
+      "level": 80,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 12
+      },
+      "EVs": "200 HP, 212 Atk, 200 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Airmure-3",
+      "species": "Airmure",
+      "setNumber": 3,
+      "item": "Vive Griffe",
+      "move1": "Aile D'Acier",
+      "move2": "Vol",
+      "move3": "Coud'Boue",
+      "move4": "Toxik",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 212 Atk, 187 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Sulfura-1",
+      "species": "Sulfura",
+      "setNumber": 1,
+      "item": "Charbon",
+      "move1": "Lance-Flamme",
+      "move2": "Pique",
+      "move3": "Aile D'Acier",
+      "move4": "Ultralaser",
+      "level": 80,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "Ptera-5",
+      "species": "Ptera",
+      "setNumber": 5,
+      "item": "Baie Miracle",
+      "move1": "Ultralaser",
+      "move2": "Repos",
+      "move3": "Seisme",
+      "move4": "Hurlement",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 15,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "Electrode-3",
+      "species": "Electrode",
+      "setNumber": 3,
+      "item": "Roche Royale",
+      "move1": "Tonnerre",
+      "move2": "Explosion",
+      "move3": "Voile Miroir",
+      "move4": "Toxik",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 15,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 200 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "Triopikeur-4",
+      "species": "Triopikeur",
+      "setNumber": 4,
+      "item": "Lentilscope",
+      "move1": "Tranche",
+      "move2": "Seisme",
+      "move3": "Larcin",
+      "move4": "Coud'Boue",
+      "level": 80,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 200 Def, 200 SpA, 200 SpD, 223 Spe"
+    },
+    {
+      "setName": "Empiflor-1",
+      "species": "Empiflor",
+      "setNumber": 1,
+      "item": "Vive Griffe",
+      "move1": "Giga-Sangsue",
+      "move2": "Bomb-Beurk",
+      "move3": "Ultralaser",
+      "move4": "Toxik",
+      "level": 80,
+      "DVs": {
+        "hp": 5,
+        "atk": 6,
+        "def": 5,
+        "spe": 6,
+        "spc": 5
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Scarabrute-1",
+      "species": "Scarabrute",
+      "setNumber": 1,
+      "item": "Baie Dorée",
+      "move1": "Ultralaser",
+      "move2": "Sacrifice",
+      "move3": "Force",
+      "move4": "Toxik",
+      "level": 80,
+      "DVs": {
+        "hp": 8,
+        "atk": 7,
+        "def": 4,
+        "spe": 6,
+        "spc": 4
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Granbull-1",
+      "species": "Granbull",
+      "setNumber": 1,
+      "item": "Poudre Claire",
+      "move1": "Hurlement",
+      "move2": "Ball'Ombre",
+      "move3": "Ultralaser",
+      "move4": "Poing-Eclair",
+      "level": 80,
+      "DVs": {
+        "hp": 11,
+        "atk": 7,
+        "def": 6,
+        "spe": 5,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Noctali-6",
+      "species": "Noctali",
+      "setNumber": 6,
+      "item": "Roche Royale",
+      "move1": "Feinte",
+      "move2": "Coud'Boue",
+      "move3": "Rayon Lune",
+      "move4": "Onde Folie",
+      "level": 90,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "244 HP, 244 Atk, 234 Def, 234 SpA, 234 SpD, 244 Spe"
+    },
+    {
+      "setName": "Dracolosse-3",
+      "species": "Dracolosse",
+      "setNumber": 3,
+      "item": "Vive Griffe",
+      "move1": "Deflagration",
+      "move2": "Ultralaser",
+      "move3": "Colere",
+      "move4": "Blizzard",
+      "level": 90,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "252 HP, 223 Atk, 236 Def, 244 SpA, 244 SpD, 244 Spe"
+    },
+    {
+      "setName": "Staross-5",
+      "species": "Staross",
+      "setNumber": 5,
+      "item": "Restes",
+      "move1": "Soin",
+      "move2": "Tonnerre",
+      "move3": "Surf",
+      "move4": "Psyko",
+      "level": 90,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "244 HP, 244 Atk, 244 Def, 244 SpA, 244 SpD, 234 Spe"
+    },
+    {
+      "setName": "Crustabri-1",
+      "species": "Crustabri",
+      "setNumber": 1,
+      "item": "Restes",
+      "move1": "Explosion",
+      "move2": "Blizzard",
+      "move3": "Surf",
+      "move4": "Vent Glace",
+      "level": 90,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 11,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Nostenfer-3",
+      "species": "Nostenfer",
+      "setNumber": 3,
+      "item": "Baie Dorée",
+      "move1": "Cru-Aile",
+      "move2": "Buee Noire",
+      "move3": "Ultralaser",
+      "move4": "Giga-Sangsue",
+      "level": 90,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 12,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Porygon2-6",
+      "species": "Porygon2",
+      "setNumber": 6,
+      "item": "Vive Griffe",
+      "move1": "Toxik",
+      "move2": "Psyko",
+      "move3": "Soin",
+      "move4": "Abri",
+      "level": 90,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Hyporoi-5",
+      "species": "Hyporoi",
+      "setNumber": 5,
+      "item": "Restes",
+      "move1": "Dracosouffle",
+      "move2": "Surf",
+      "move3": "Ultralaser",
+      "move4": "Blizzard",
+      "level": 90,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 234 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Tyranocif-4",
+      "species": "Tyranocif",
+      "setNumber": 4,
+      "item": "Vive Griffe",
+      "move1": "Ultralaser",
+      "move2": "Machouille",
+      "move3": "Seisme",
+      "move4": "Eboulement",
+      "level": 90,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 234 Atk, 223 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Lokhlass-7",
+      "species": "Lokhlass",
+      "setNumber": 7,
+      "item": "Baie Menthe",
+      "move1": "Repos",
+      "move2": "Surf",
+      "move3": "Tonnerre",
+      "move4": "Psyko",
+      "level": 90,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 234 SpA, 234 SpD, 223 Spe"
+    },
+    {
+      "setName": "Mentali-3",
+      "species": "Mentali",
+      "setNumber": 3,
+      "item": "Baie Dorée",
+      "move1": "Psyko",
+      "move2": "Ball'Ombre",
+      "move3": "Zenith",
+      "move4": "Aurore",
+      "level": 90,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "234 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Mackogneur-4",
+      "species": "Mackogneur",
+      "setNumber": 4,
+      "item": "Vive Griffe",
+      "move1": "Coup-Croix",
+      "move2": "Corps Perdu",
+      "move3": "Deflagration",
+      "move4": "Seisme",
+      "level": 90,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "234 HP, 234 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Ronflex-7",
+      "species": "Ronflex",
+      "setNumber": 7,
+      "item": "Baie Miracle",
+      "move1": "Deflagration",
+      "move2": "Surf",
+      "move3": "Seisme",
+      "move4": "Ultralaser",
+      "level": 90,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 234 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Arcanin-4",
+      "species": "Arcanin",
+      "setNumber": 4,
+      "item": "Baie Menthe",
+      "move1": "Zenith",
+      "move2": "Lance-Flamme",
+      "move3": "Vit.Extreme",
+      "move4": "Repos",
+      "level": 90,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 234 SpA, 234 SpD, 212 Spe"
+    },
+    {
+      "setName": "Leuphorie-6",
+      "species": "Leuphorie",
+      "setNumber": 6,
+      "item": "Restes",
+      "move1": "Lance-Soleil",
+      "move2": "Zenith",
+      "move3": "E-Coque",
+      "move4": "Deflagration",
+      "level": 90,
+      "DVs": {
+        "hp": 14,
+        "atk": 11,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Demolosse-6",
+      "species": "Demolosse",
+      "setNumber": 6,
+      "item": "Poudre Claire",
+      "move1": "Lance-Flamme",
+      "move2": "Machouille",
+      "move3": "Zenith",
+      "move4": "Lance-Soleil",
+      "level": 90,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 11,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Airmure-4",
+      "species": "Airmure",
+      "setNumber": 4,
+      "item": "Vive Griffe",
+      "move1": "Tempetesable",
+      "move2": "Aile D'Acier",
+      "move3": "Toxik",
+      "move4": "Retour",
+      "level": 90,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Caratroc-2",
+      "species": "Caratroc",
+      "setNumber": 2,
+      "item": "Restes",
+      "move1": "Toxik",
+      "move2": "Ligotage",
+      "move3": "Abri",
+      "move4": "Encore",
+      "level": 90,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Pyroli-1",
+      "species": "Pyroli",
+      "setNumber": 1,
+      "item": "Baie Menthe",
+      "move1": "Ultralaser",
+      "move2": "Lance-Flamme",
+      "move3": "Ball'Ombre",
+      "move4": "Hurlement",
+      "level": 90,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 7,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Ecremeuh-3",
+      "species": "Ecremeuh",
+      "setNumber": 3,
+      "item": "Restes",
+      "move1": "Lait A Boire",
+      "move2": "Seisme",
+      "move3": "Attraction",
+      "move4": "Plaquage",
+      "level": 90,
+      "DVs": {
+        "hp": 7,
+        "atk": 4,
+        "def": 7,
+        "spe": 5,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Tauros-5",
+      "species": "Tauros",
+      "setNumber": 5,
+      "item": "Ruban Rose",
+      "move1": "Tonnerre",
+      "move2": "Ultralaser",
+      "move3": "Attraction",
+      "move4": "Seisme",
+      "level": 90,
+      "DVs": {
+        "hp": 6,
+        "atk": 6,
+        "def": 5,
+        "spe": 7,
+        "spc": 6
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Grotadmorv-2",
+      "species": "Grotadmorv",
+      "setNumber": 2,
+      "item": "Vive Griffe",
+      "move1": "Toxik",
+      "move2": "Bomb-Beurk",
+      "move3": "Attraction",
+      "move4": "Giga-Sangsue",
+      "level": 90,
+      "DVs": {
+        "hp": 8,
+        "atk": 5,
+        "def": 4,
+        "spe": 4,
+        "spc": 4
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Demolosse-7",
+      "species": "Demolosse",
+      "setNumber": 7,
+      "item": "Baie Menthe",
+      "move1": "Machouille",
+      "move2": "Lance-Flamme",
+      "move3": "Hurlement",
+      "move4": "Repos",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "244 HP, 244 Atk, 244 Def, 244 SpA, 244 SpD, 244 Spe"
+    },
+    {
+      "setName": "Mackogneur-5",
+      "species": "Mackogneur",
+      "setNumber": 5,
+      "item": "Vive Griffe",
+      "move1": "Coup-Croix",
+      "move2": "Seisme",
+      "move3": "Ultralaser",
+      "move4": "Corps Perdu",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "244 HP, 244 Atk, 244 Def, 244 SpA, 244 SpD, 244 Spe"
+    },
+    {
+      "setName": "Hyporoi-6",
+      "species": "Hyporoi",
+      "setNumber": 6,
+      "item": "Restes",
+      "move1": "Surf",
+      "move2": "Dracosouffle",
+      "move3": "Repos",
+      "move4": "Toxik",
+      "level": 100,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "244 HP, 244 Atk, 244 Def, 244 SpA, 244 SpD, 244 Spe"
+    },
+    {
+      "setName": "Voltali-6",
+      "species": "Voltali",
+      "setNumber": 6,
+      "item": "Poudre Claire",
+      "move1": "Tonnerre",
+      "move2": "Hurlement",
+      "move3": "Cage-Eclair",
+      "move4": "Queue De Fer",
+      "level": 100,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 173 Spe"
+    },
+    {
+      "setName": "Tauros-6",
+      "species": "Tauros",
+      "setNumber": 6,
+      "item": "Roche Royale",
+      "move1": "Ultralaser",
+      "move2": "Seisme",
+      "move3": "Queue De Fer",
+      "move4": "Tonnerre",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Arcanin-5",
+      "species": "Arcanin",
+      "setNumber": 5,
+      "item": "Restes",
+      "move1": "Lance-Flamme",
+      "move2": "Vit.Extreme",
+      "move3": "Queue De Fer",
+      "move4": "Ultralaser",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "234 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Dracaufeu-3",
+      "species": "Dracaufeu",
+      "setNumber": 3,
+      "item": "Lentilscope",
+      "move1": "Lance-Flamme",
+      "move2": "Seisme",
+      "move3": "Tranche",
+      "move4": "Vol",
+      "level": 100,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 234 Def, 234 SpA, 234 SpD, 234 Spe"
+    },
+    {
+      "setName": "Electrode-4",
+      "species": "Electrode",
+      "setNumber": 4,
+      "item": "Poudre Claire",
+      "move1": "Cage-Eclair",
+      "move2": "Tonnerre",
+      "move3": "Explosion",
+      "move4": "Voile Miroir",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 212 Spe"
+    },
+    {
+      "setName": "Rhinoferos-2",
+      "species": "Rhinoferos",
+      "setNumber": 2,
+      "item": "Baie Miracle",
+      "move1": "Surf",
+      "move2": "Seisme",
+      "move3": "Ultralaser",
+      "move4": "Eboulement",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "234 HP, 223 Atk, 234 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Steelix-4",
+      "species": "Steelix",
+      "setNumber": 4,
+      "item": "Restes",
+      "move1": "Seisme",
+      "move2": "Ultralaser",
+      "move3": "Vantardise",
+      "move4": "Machouille",
+      "level": 100,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 234 Def, 223 SpA, 223 SpD, 244 Spe"
+    },
+    {
+      "setName": "Rapasdepic-2",
+      "species": "Rapasdepic",
+      "setNumber": 2,
+      "item": "Roche Royale",
+      "move1": "Bec Vrille",
+      "move2": "Aile D'Acier",
+      "move3": "Ultralaser",
+      "move4": "Coud'Boue",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 12,
+        "spc": 15
+      },
+      "EVs": "234 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Feuforeve-2",
+      "species": "Feuforeve",
+      "setNumber": 2,
+      "item": "Bandeau",
+      "move1": "Requiem",
+      "move2": "Regard Noir",
+      "move3": "Balance",
+      "move4": "Ball'Ombre",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "212 HP, 223 Atk, 234 Def, 234 SpA, 234 SpD, 223 Spe"
+    },
+    {
+      "setName": "Farfuret-2",
+      "species": "Farfuret",
+      "setNumber": 2,
+      "item": "Lentilscope",
+      "move1": "Tranche",
+      "move2": "Blizzard",
+      "move3": "Devoreve",
+      "move4": "Feinte",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 219 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Cizayox-4",
+      "species": "Cizayox",
+      "setNumber": 4,
+      "item": "Vive Griffe",
+      "move1": "Aile D'Acier",
+      "move2": "Ultralaser",
+      "move3": "Tranche",
+      "move4": "Toxik",
+      "level": 100,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 11,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Leuphorie-7",
+      "species": "Leuphorie",
+      "setNumber": 7,
+      "item": "Restes",
+      "move1": "Tonnerre",
+      "move2": "Blizzard",
+      "move3": "Deflagration",
+      "move4": "E-Coque",
+      "level": 100,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Cochignon-1",
+      "species": "Cochignon",
+      "setNumber": 1,
+      "item": "Baie Menthe",
+      "move1": "Repos",
+      "move2": "Blizzard",
+      "move3": "Ultralaser",
+      "move4": "Seisme",
+      "level": 100,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Noadkoko-5",
+      "species": "Noadkoko",
+      "setNumber": 5,
+      "item": "Vive Griffe",
+      "move1": "Psyko",
+      "move2": "Toxik",
+      "move3": "Explosion",
+      "move4": "Giga-Sangsue",
+      "level": 100,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Amonistar-2",
+      "species": "Amonistar",
+      "setNumber": 2,
+      "item": "Restes",
+      "move1": "Surf",
+      "move2": "Pouv.Antique",
+      "move3": "Blizzard",
+      "move4": "Toxik",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Grolem-3",
+      "species": "Grolem",
+      "setNumber": 3,
+      "item": "Poudre Claire",
+      "move1": "Explosion",
+      "move2": "Seisme",
+      "move3": "Eboulement",
+      "move4": "Deflagration",
+      "level": 100,
+      "DVs": {
+        "hp": 8,
+        "atk": 7,
+        "def": 4,
+        "spe": 4,
+        "spc": 6
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Tygnon-2",
+      "species": "Tygnon",
+      "setNumber": 2,
+      "item": "Bandeau",
+      "move1": "Riposte",
+      "move2": "Poing De Feu",
+      "move3": "Poing-Eclair",
+      "move4": "Poinglace",
+      "level": 100,
+      "DVs": {
+        "hp": 6,
+        "atk": 6,
+        "def": 7,
+        "spe": 7,
+        "spc": 6
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Lanturn-2",
+      "species": "Lanturn",
+      "setNumber": 2,
+      "item": "Vive Griffe",
+      "move1": "Surf",
+      "move2": "Danse Pluie",
+      "move3": "Elecanon",
+      "move4": "Onde Folie",
+      "level": 100,
+      "DVs": {
+        "hp": 11,
+        "atk": 7,
+        "def": 6,
+        "spe": 5,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    }
+  ]
+}

@@ -112,6 +112,15 @@
     "jp": "バトルフロンティア",
     "ko": "배틀프런티어"
   },
+  "game-crystal": {
+    "en": "Battle Tower",
+    "fr": "Tour de Combat",
+    "it": "Torre Lotta",
+    "de": "Duellturm",
+    "es": "Torre Batalla",
+    "jp": "バトルタワー",
+    "ko": "Battle Tower"
+  },
   "facility-tower": {
     "en": "Tower",
     "fr": "Tour",

@@ -1,0 +1,3996 @@
+{
+  "sets": [
+    {
+      "setName": "Blitza-1",
+      "species": "Blitza",
+      "setNumber": 1,
+      "item": "Wunderbeere",
+      "move1": "Donnerblitz",
+      "move2": "Hyperstrahl",
+      "move3": "Spukball",
+      "move4": "Brüller",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 11,
+        "spc": 13
+      },
+      "EVs": "223 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 187 Spe"
+    },
+    {
+      "setName": "Psiana-1",
+      "species": "Psiana",
+      "setNumber": 1,
+      "item": "Überreste",
+      "move1": "Lehmschelle",
+      "move2": "Psychokinese",
+      "move3": "Psycho-Plus",
+      "move4": "Toxin",
+      "level": 10,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 13,
+        "spe": 15,
+        "spc": 11
+      },
+      "EVs": "200 HP, 223 Atk, 187 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "Nachtara-1",
+      "species": "Nachtara",
+      "setNumber": 1,
+      "item": "Goldbeere",
+      "move1": "Spukball",
+      "move2": "Eisenschweif",
+      "move3": "Psycho-Plus",
+      "move4": "Toxin",
+      "level": 10,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 11,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "200 HP, 200 Atk, 212 Def, 200 SpA, 200 SpD, 223 Spe"
+    },
+    {
+      "setName": "Woingenau-1",
+      "species": "Woingenau",
+      "setNumber": 1,
+      "item": "Fokusband",
+      "move1": "Konter",
+      "move2": "Spiegelcape",
+      "move3": "Bodyguard",
+      "move4": "Abgangsbund",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 7,
+        "def": 15,
+        "spe": 13,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Kangama-1",
+      "species": "Kangama",
+      "setNumber": 1,
+      "item": "Wunderbeere",
+      "move1": "Gegenschlag",
+      "move2": "Hyperstrahl",
+      "move3": "Erdbeben",
+      "move4": "Anziehung",
+      "level": 10,
+      "DVs": {
+        "hp": 5,
+        "atk": 14,
+        "def": 15,
+        "spe": 12,
+        "spc": 15
+      },
+      "EVs": "200 HP, 173 Atk, 200 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Corasonn-1",
+      "species": "Corasonn",
+      "setNumber": 1,
+      "item": "Scope-Linse",
+      "move1": "Surfer",
+      "move2": "Psychokinese",
+      "move3": "Genesung",
+      "move4": "Antik-Kraft",
+      "level": 10,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "200 HP, 173 Atk, 182 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Miltank-1",
+      "species": "Miltank",
+      "setNumber": 1,
+      "item": "Goldbeere",
+      "move1": "Blizzard",
+      "move2": "Erdbeben",
+      "move3": "Hyperstrahl",
+      "move4": "Toxin",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 11,
+        "def": 11,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 187 SpA, 187 SpD, 173 Spe"
+    },
+    {
+      "setName": "Aerodactyl-1",
+      "species": "Aerodactyl",
+      "setNumber": 1,
+      "item": "Überreste",
+      "move1": "Hyperstrahl",
+      "move2": "Superschall",
+      "move3": "Erdbeben",
+      "move4": "Biss",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 11,
+        "spe": 15,
+        "spc": 11
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Lapras-1",
+      "species": "Lapras",
+      "setNumber": 1,
+      "item": "Wunderbeere",
+      "move1": "Blizzard",
+      "move2": "Surfer",
+      "move3": "Donnerblitz",
+      "move4": "Psychokinese",
+      "level": 10,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Sniebel-1",
+      "species": "Sniebel",
+      "setNumber": 1,
+      "item": "Goldbeere",
+      "move1": "Schlitzer",
+      "move2": "Finte",
+      "move3": "Surfer",
+      "move4": "Blizzard",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 11,
+        "spe": 11,
+        "spc": 15
+      },
+      "EVs": "173 HP, 187 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Porygon2-1",
+      "species": "Porygon2",
+      "setNumber": 1,
+      "item": "Blendpuder",
+      "move1": "Psychokinese",
+      "move2": "Blizzard",
+      "move3": "Hyperstrahl",
+      "move4": "Triplette",
+      "level": 10,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 11,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "173 HP, 173 Atk, 200 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Traunfugil-1",
+      "species": "Traunfugil",
+      "setNumber": 1,
+      "item": "Fokusband",
+      "move1": "Abgesang",
+      "move2": "Horrorblick",
+      "move3": "Leidteiler",
+      "move4": "Spukball",
+      "level": 10,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Hunduster-1",
+      "species": "Hunduster",
+      "setNumber": 1,
+      "item": "Goldbeere",
+      "move1": "Finte",
+      "move2": "Solarstrahl",
+      "move3": "Brüller",
+      "move4": "Sonnentag",
+      "level": 10,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 181 Spe"
+    },
+    {
+      "setName": "Girafarig-1",
+      "species": "Girafarig",
+      "setNumber": 1,
+      "item": "King-Stein",
+      "move1": "Psystrahl",
+      "move2": "Lehmschelle",
+      "move3": "Spukball",
+      "move4": "Agilität",
+      "level": 10,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 13,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Heiteira-1",
+      "species": "Heiteira",
+      "setNumber": 1,
+      "item": "Flinkklaue",
+      "move1": "Kopfnuss",
+      "move2": "Solarstrahl",
+      "move3": "Walzer",
+      "move4": "Stärke",
+      "level": 10,
+      "DVs": {
+        "hp": 12,
+        "atk": 13,
+        "def": 15,
+        "spe": 12,
+        "spc": 14
+      },
+      "EVs": "178 HP, 200 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Relaxo-1",
+      "species": "Relaxo",
+      "setNumber": 1,
+      "item": "Wunderbeere",
+      "move1": "Kopfnuss",
+      "move2": "Schutzschild",
+      "move3": "Schnarcher",
+      "move4": "Surfer",
+      "level": 10,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Kokowei-1",
+      "species": "Kokowei",
+      "setNumber": 1,
+      "item": "King-Stein",
+      "move1": "Toxin",
+      "move2": "Gigasauger",
+      "move3": "Raub",
+      "move4": "Konfusion",
+      "level": 10,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Skaraborn-1",
+      "species": "Skaraborn",
+      "setNumber": 1,
+      "item": "Goldbeere",
+      "move1": "Gegenschlag",
+      "move2": "Ausdauer",
+      "move3": "Konter",
+      "move4": "Zertrümmerer",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 7,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Icognito-1",
+      "species": "Icognito",
+      "setNumber": 1,
+      "item": "Beere",
+      "move1": "Kraftreserve",
+      "move2": "",
+      "move3": "",
+      "move4": "",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe",
+      "minisprite": "unown-z",
+      "sprite": "unown-z"
+    },
+    {
+      "setName": "Tauros-1",
+      "species": "Tauros",
+      "setNumber": 1,
+      "item": "King-Stein",
+      "move1": "Kopfnuss",
+      "move2": "Angeberei",
+      "move3": "Rutenschlag",
+      "move4": "Eissturm",
+      "level": 10,
+      "DVs": {
+        "hp": 7,
+        "atk": 6,
+        "def": 5,
+        "spe": 5,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Pantimos-1",
+      "species": "Pantimos",
+      "setNumber": 1,
+      "item": "Flinkklaue",
+      "move1": "Toxin",
+      "move2": "Psycho-Plus",
+      "move3": "Feuerschlag",
+      "move4": "Kopfnuss",
+      "level": 10,
+      "DVs": {
+        "hp": 13,
+        "atk": 7,
+        "def": 3,
+        "spe": 6,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Nachtara-2",
+      "species": "Nachtara",
+      "setNumber": 2,
+      "item": "Überreste",
+      "move1": "Schutzschild",
+      "move2": "Toxin",
+      "move3": "Lehmschelle",
+      "move4": "Anziehung",
+      "level": 20,
+      "DVs": {
+        "hp": 6,
+        "atk": 12,
+        "def": 15,
+        "spe": 11,
+        "spc": 12
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Starmie-1",
+      "species": "Starmie",
+      "setNumber": 1,
+      "item": "Goldbeere",
+      "move1": "Genesung",
+      "move2": "Psychokinese",
+      "move3": "Surfer",
+      "move4": "Psycho-Plus",
+      "level": 20,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 11,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Garados-1",
+      "species": "Garados",
+      "setNumber": 1,
+      "item": "Wunderbeere",
+      "move1": "Hyperstrahl",
+      "move2": "Drachenwut",
+      "move3": "Donnerblitz",
+      "move4": "Feuersturm",
+      "level": 20,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 10,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Stahlos-1",
+      "species": "Stahlos",
+      "setNumber": 1,
+      "item": "Goldbeere",
+      "move1": "Brüller",
+      "move2": "Eisenschweif",
+      "move3": "Angeberei",
+      "move4": "Erdbeben",
+      "level": 20,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 173 Spe"
+    },
+    {
+      "setName": "Simsala-1",
+      "species": "Simsala",
+      "setNumber": 1,
+      "item": "Beerensaft",
+      "move1": "Psychokinese",
+      "move2": "Psycho-Plus",
+      "move3": "Toxin",
+      "move4": "Donnerschlag",
+      "level": 20,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 173 Def, 200 SpA, 200 SpD, 223 Spe"
+    },
+    {
+      "setName": "Arkani-1",
+      "species": "Arkani",
+      "setNumber": 1,
+      "item": "Blendpuder",
+      "move1": "Flammenwurf",
+      "move2": "Brüller",
+      "move3": "Hyperstrahl",
+      "move4": "Eisenschweif",
+      "level": 20,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 11,
+        "spe": 15,
+        "spc": 11
+      },
+      "EVs": "187 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Skaraborn-2",
+      "species": "Skaraborn",
+      "setNumber": 2,
+      "item": "Fokusband",
+      "move1": "Ausdauer",
+      "move2": "Gegenschlag",
+      "move3": "Vielender",
+      "move4": "Erdbeben",
+      "level": 20,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 173 Atk, 212 Def, 212 SpA, 212 SpD, 173 Spe"
+    },
+    {
+      "setName": "Kokowei-2",
+      "species": "Kokowei",
+      "setNumber": 2,
+      "item": "Überreste",
+      "move1": "Hyperstrahl",
+      "move2": "Psychokinese",
+      "move3": "Toxin",
+      "move4": "Traumfresser",
+      "level": 20,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 212 Spe"
+    },
+    {
+      "setName": "Aerodactyl-2",
+      "species": "Aerodactyl",
+      "setNumber": 2,
+      "item": "Goldbeere",
+      "move1": "Erholung",
+      "move2": "Hyperstrahl",
+      "move3": "Erdbeben",
+      "move4": "Drachenwut",
+      "level": 20,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 11,
+        "spe": 11,
+        "spc": 11
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Heiteira-2",
+      "species": "Heiteira",
+      "setNumber": 2,
+      "item": "Blendpuder",
+      "move1": "Psychokinese",
+      "move2": "Überroller",
+      "move3": "Weichei",
+      "move4": "Konter",
+      "level": 20,
+      "DVs": {
+        "hp": 14,
+        "atk": 11,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 173 Def, 223 SpA, 223 SpD, 173 Spe"
+    },
+    {
+      "setName": "Lapras-2",
+      "species": "Lapras",
+      "setNumber": 2,
+      "item": "Goldbeere",
+      "move1": "Psychokinese",
+      "move2": "Donnerblitz",
+      "move3": "Blizzard",
+      "move4": "Konfustrahl",
+      "level": 20,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 13,
+        "spc": 7
+      },
+      "EVs": "234 HP, 173 Atk, 200 Def, 173 SpA, 173 SpD, 234 Spe"
+    },
+    {
+      "setName": "Pikachu-1",
+      "species": "Pikachu",
+      "setNumber": 1,
+      "item": "Kugelblitz",
+      "move1": "Donnerblitz",
+      "move2": "Donnerwelle",
+      "move3": "Stärke",
+      "move4": "Toxin",
+      "level": 20,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 12,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "212 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Scherox-1",
+      "species": "Scherox",
+      "setNumber": 1,
+      "item": "Fokusband",
+      "move1": "Stahlflügel",
+      "move2": "Schlitzer",
+      "move3": "Toxin",
+      "move4": "Sandsturm",
+      "level": 20,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "200 HP, 212 Atk, 200 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Nockchan-1",
+      "species": "Nockchan",
+      "setNumber": 1,
+      "item": "Goldbeere",
+      "move1": "Donnerschlag",
+      "move2": "Eishieb",
+      "move3": "Feuerschlag",
+      "move4": "Megahieb",
+      "level": 20,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 11,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "223 HP, 212 Atk, 187 Def, 173 SpA, 173 SpD, 223 Spe"
+    },
+    {
+      "setName": "Tauros-2",
+      "species": "Tauros",
+      "setNumber": 2,
+      "item": "Blendpuder",
+      "move1": "Donnerblitz",
+      "move2": "Erdbeben",
+      "move3": "Hyperstrahl",
+      "move4": "Blizzard",
+      "level": 20,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Azumarill-1",
+      "species": "Azumarill",
+      "setNumber": 1,
+      "item": "Zauberwasser",
+      "move1": "Surfer",
+      "move2": "Blizzard",
+      "move3": "Anziehung",
+      "move4": "Regentanz",
+      "level": 20,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 13,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "200 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "Miltank-2",
+      "species": "Miltank",
+      "setNumber": 2,
+      "item": "King-Stein",
+      "move1": "Erdbeben",
+      "move2": "Donner",
+      "move3": "Anziehung",
+      "move4": "Surfer",
+      "level": 20,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "200 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "Knuddeluff-1",
+      "species": "Knuddeluff",
+      "setNumber": 1,
+      "item": "Goldbeere",
+      "move1": "Hyperstrahl",
+      "move2": "Blizzard",
+      "move3": "Feuersturm",
+      "move4": "Anziehung",
+      "level": 20,
+      "DVs": {
+        "hp": 6,
+        "atk": 12,
+        "def": 7,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "200 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "Knuddeluff-2",
+      "species": "Knuddeluff",
+      "setNumber": 2,
+      "item": "Rosa Band",
+      "move1": "Psychokinese",
+      "move2": "Angeberei",
+      "move3": "Psycho-Plus",
+      "move4": "Kopfnuss",
+      "level": 20,
+      "DVs": {
+        "hp": 7,
+        "atk": 12,
+        "def": 7,
+        "spe": 7,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Nidoking-1",
+      "species": "Nidoking",
+      "setNumber": 1,
+      "item": "Beere",
+      "move1": "Blizzard",
+      "move2": "Erdbeben",
+      "move3": "Surfer",
+      "move4": "Donnerschlag",
+      "level": 20,
+      "DVs": {
+        "hp": 8,
+        "atk": 5,
+        "def": 6,
+        "spe": 4,
+        "spc": 6
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Morlord-1",
+      "species": "Morlord",
+      "setNumber": 1,
+      "item": "Flinkklaue",
+      "move1": "Amnesie",
+      "move2": "Erdbeben",
+      "move3": "Surfer",
+      "move4": "Regentanz",
+      "level": 20,
+      "DVs": {
+        "hp": 13,
+        "atk": 5,
+        "def": 5,
+        "spe": 4,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Blitza-2",
+      "species": "Blitza",
+      "setNumber": 2,
+      "item": "Wunderbeere",
+      "move1": "Donnerblitz",
+      "move2": "Donnerwelle",
+      "move3": "Brüller",
+      "move4": "Lehmschelle",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 11,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 234 SpA, 234 SpD, 223 Spe"
+    },
+    {
+      "setName": "Quappo-1",
+      "species": "Quappo",
+      "setNumber": 1,
+      "item": "Blendpuder",
+      "move1": "Doppelteam",
+      "move2": "Surfer",
+      "move3": "Geofissur",
+      "move4": "Überroller",
+      "level": 30,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 11
+      },
+      "EVs": "223 HP, 234 Atk, 234 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Starmie-2",
+      "species": "Starmie",
+      "setNumber": 2,
+      "item": "Überreste",
+      "move1": "Donnerwelle",
+      "move2": "Psychokinese",
+      "move3": "Genesung",
+      "move4": "Surfer",
+      "level": 30,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Rossana-1",
+      "species": "Rossana",
+      "setNumber": 1,
+      "item": "Goldbeere",
+      "move1": "Blizzard",
+      "move2": "Todeskuss",
+      "move3": "Traumfresser",
+      "move4": "Anziehung",
+      "level": 30,
+      "DVs": {
+        "hp": 12,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 173 Spe"
+    },
+    {
+      "setName": "Digdri-1",
+      "species": "Digdri",
+      "setNumber": 1,
+      "item": "King-Stein",
+      "move1": "Erdbeben",
+      "move2": "Matschbombe",
+      "move3": "Schlitzer",
+      "move4": "Lehmschelle",
+      "level": 30,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 173 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Blubella-1",
+      "species": "Blubella",
+      "setNumber": 1,
+      "item": "Blendpuder",
+      "move1": "Gigasauger",
+      "move2": "Sonnentag",
+      "move3": "Solarstrahl",
+      "move4": "Doppelteam",
+      "level": 30,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "212 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Heiteira-3",
+      "species": "Heiteira",
+      "setNumber": 3,
+      "item": "Überreste",
+      "move1": "Toxin",
+      "move2": "Reflektor",
+      "move3": "Weichei",
+      "move4": "Schutzschild",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 173 Atk, 212 Def, 212 SpA, 212 SpD, 173 Spe"
+    },
+    {
+      "setName": "Hundemon-1",
+      "species": "Hundemon",
+      "setNumber": 1,
+      "item": "Holzkohle",
+      "move1": "Flammenwurf",
+      "move2": "Knirscher",
+      "move3": "Spukball",
+      "move4": "Traumfresser",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 212 Spe"
+    },
+    {
+      "setName": "Machomei-1",
+      "species": "Machomei",
+      "setNumber": 1,
+      "item": "Wunderbeere",
+      "move1": "Kreuzhieb",
+      "move2": "Eishieb",
+      "move3": "Erdbeben",
+      "move4": "Feuersturm",
+      "level": 30,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 11,
+        "spc": 14
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Iksbat-1",
+      "species": "Iksbat",
+      "setNumber": 1,
+      "item": "Goldbeere",
+      "move1": "Anziehung",
+      "move2": "Konfustrahl",
+      "move3": "Toxin",
+      "move4": "Flügelschlag",
+      "level": 30,
+      "DVs": {
+        "hp": 6,
+        "atk": 14,
+        "def": 15,
+        "spe": 13,
+        "spc": 12
+      },
+      "EVs": "223 HP, 223 Atk, 173 Def, 223 SpA, 223 SpD, 173 Spe"
+    },
+    {
+      "setName": "Porygon2-2",
+      "species": "Porygon2",
+      "setNumber": 2,
+      "item": "Blendpuder",
+      "move1": "Psychokinese",
+      "move2": "Genesung",
+      "move3": "Hyperstrahl",
+      "move4": "Triplette",
+      "level": 30,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "234 HP, 173 Atk, 200 Def, 173 SpA, 173 SpD, 234 Spe"
+    },
+    {
+      "setName": "Knogga-1",
+      "species": "Knogga",
+      "setNumber": 1,
+      "item": "Kampfknochen",
+      "move1": "Erdbeben",
+      "move2": "Rückkehr",
+      "move3": "Hyperstrahl",
+      "move4": "Knochmerang",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "212 HP, 223 Atk, 212 Def, 173 SpA, 173 SpD, 223 Spe"
+    },
+    {
+      "setName": "Lektrobal-1",
+      "species": "Lektrobal",
+      "setNumber": 1,
+      "item": "Blendpuder",
+      "move1": "Lichtschild",
+      "move2": "Donnerblitz",
+      "move3": "Schutzschild",
+      "move4": "Donner",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "200 HP, 212 Atk, 200 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Lapras-3",
+      "species": "Lapras",
+      "setNumber": 3,
+      "item": "Überreste",
+      "move1": "Regentanz",
+      "move2": "Aquaknarre",
+      "move3": "Eissturm",
+      "move4": "Stärke",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "223 HP, 212 Atk, 187 Def, 173 SpA, 173 SpD, 223 Spe"
+    },
+    {
+      "setName": "Lanturn-1",
+      "species": "Lanturn",
+      "setNumber": 1,
+      "item": "Goldbeere",
+      "move1": "Regentanz",
+      "move2": "Donner",
+      "move3": "Surfer",
+      "move4": "Dreschflegel",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Psiana-2",
+      "species": "Psiana",
+      "setNumber": 2,
+      "item": "Wunderbeere",
+      "move1": "Konfusion",
+      "move2": "Sternschauer",
+      "move3": "Toxin",
+      "move4": "Psycho-Plus",
+      "level": 30,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Tentoxa-1",
+      "species": "Tentoxa",
+      "setNumber": 1,
+      "item": "King-Stein",
+      "move1": "Wickel",
+      "move2": "Toxin",
+      "move3": "Matschbombe",
+      "move4": "Blubbstrahl",
+      "level": 30,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 212 SpA, 212 SpD, 216 Spe"
+    },
+    {
+      "setName": "Gengar-1",
+      "species": "Gengar",
+      "setNumber": 1,
+      "item": "Goldbeere",
+      "move1": "Raub",
+      "move2": "Schlecker",
+      "move3": "Nachtnebel",
+      "move4": "Gigasauger",
+      "level": 30,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 7,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Ursaring-1",
+      "species": "Ursaring",
+      "setNumber": 1,
+      "item": "Goldbeere",
+      "move1": "Kopfnuss",
+      "move2": "Schutzschild",
+      "move3": "Brüller",
+      "move4": "Silberblick",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 7,
+        "def": 7,
+        "spe": 4,
+        "spc": 5
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Ibitak-1",
+      "species": "Ibitak",
+      "setNumber": 1,
+      "item": "Blendpuder",
+      "move1": "Spiegeltrick",
+      "move2": "Verfolgung",
+      "move3": "Schnabel",
+      "move4": "Sternschauer",
+      "level": 30,
+      "DVs": {
+        "hp": 7,
+        "atk": 6,
+        "def": 7,
+        "spe": 7,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Rasaff-1",
+      "species": "Rasaff",
+      "setNumber": 1,
+      "item": "Wunderbeere",
+      "move1": "Fusskick",
+      "move2": "Karateschlag",
+      "move3": "Gegenschlag",
+      "move4": "Energiefokus",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 7,
+        "def": 7,
+        "spe": 6,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Tauros-3",
+      "species": "Tauros",
+      "setNumber": 3,
+      "item": "Goldbeere",
+      "move1": "Rückkehr",
+      "move2": "Hyperstrahl",
+      "move3": "Erdbeben",
+      "move4": "Eisenschweif",
+      "level": 40,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Seedraking-1",
+      "species": "Seedraking",
+      "setNumber": 1,
+      "item": "Überreste",
+      "move1": "Surfer",
+      "move2": "Feuerodem",
+      "move3": "Hyperstrahl",
+      "move4": "Blizzard",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Relaxo-2",
+      "species": "Relaxo",
+      "setNumber": 2,
+      "item": "Flinkklaue",
+      "move1": "Anziehung",
+      "move2": "Bodyslam",
+      "move3": "Psycho-Plus",
+      "move4": "Erdbeben",
+      "level": 40,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Lapras-4",
+      "species": "Lapras",
+      "setNumber": 4,
+      "item": "Überreste",
+      "move1": "Donnerblitz",
+      "move2": "Eisstrahl",
+      "move3": "Konfustrahl",
+      "move4": "Surfer",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Stahlos-2",
+      "species": "Stahlos",
+      "setNumber": 2,
+      "item": "Goldbeere",
+      "move1": "Sandsturm",
+      "move2": "Eisenschweif",
+      "move3": "Erdbeben",
+      "move4": "Toxin",
+      "level": 40,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Simsala-2",
+      "species": "Simsala",
+      "setNumber": 2,
+      "item": "King-Stein",
+      "move1": "Psychokinese",
+      "move2": "Donnerschlag",
+      "move3": "Genesung",
+      "move4": "Feuerschlag",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Starmie-3",
+      "species": "Starmie",
+      "setNumber": 3,
+      "item": "Überreste",
+      "move1": "Blizzard",
+      "move2": "Donnerblitz",
+      "move3": "Surfer",
+      "move4": "Psychokinese",
+      "level": 40,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 11,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Woingenau-2",
+      "species": "Woingenau",
+      "setNumber": 2,
+      "item": "Goldbeere",
+      "move1": "Konter",
+      "move2": "Spiegelcape",
+      "move3": "Bodyguard",
+      "move4": "Abgangsbund",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 15,
+        "spe": 14,
+        "spc": 7
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Geowaz-1",
+      "species": "Geowaz",
+      "setNumber": 1,
+      "item": "Fokusband",
+      "move1": "Explosion",
+      "move2": "Erdbeben",
+      "move3": "Megahieb",
+      "move4": "Steinhagel",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Scherox-2",
+      "species": "Scherox",
+      "setNumber": 2,
+      "item": "Scope-Linse",
+      "move1": "Schlitzer",
+      "move2": "Stahlflügel",
+      "move3": "Verfolgung",
+      "move4": "Hyperstrahl",
+      "level": 40,
+      "DVs": {
+        "hp": 14,
+        "atk": 11,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "Digdri-2",
+      "species": "Digdri",
+      "setNumber": 2,
+      "item": "King-Stein",
+      "move1": "Erdbeben",
+      "move2": "Hyperstrahl",
+      "move3": "Matschbombe",
+      "move4": "Lehmschelle",
+      "level": 40,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 11,
+        "spc": 11
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Lahmus-1",
+      "species": "Lahmus",
+      "setNumber": 1,
+      "item": "Wunderbeere",
+      "move1": "Surfer",
+      "move2": "Psychokinese",
+      "move3": "Erdbeben",
+      "move4": "Blizzard",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 15,
+        "spe": 12,
+        "spc": 15
+      },
+      "EVs": "212 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Porygon2-3",
+      "species": "Porygon2",
+      "setNumber": 3,
+      "item": "None",
+      "move1": "Umwandlung2",
+      "move2": "Umwandlung",
+      "move3": "Psystrahl",
+      "move4": "Raub",
+      "level": 40,
+      "DVs": {
+        "hp": 9,
+        "atk": 11,
+        "def": 12,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Arkani-2",
+      "species": "Arkani",
+      "setNumber": 2,
+      "item": "Holzkohle",
+      "move1": "Flammenrad",
+      "move2": "Silberblick",
+      "move3": "Bodyslam",
+      "move4": "Brüller",
+      "level": 40,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 11,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Forstellka-1",
+      "species": "Forstellka",
+      "setNumber": 1,
+      "item": "Überreste",
+      "move1": "Turbodreher",
+      "move2": "Schutzschild",
+      "move3": "Toxin",
+      "move4": "Sandsturm",
+      "level": 40,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 10,
+        "spe": 7,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Amoroso-1",
+      "species": "Amoroso",
+      "setNumber": 1,
+      "item": "Goldbeere",
+      "move1": "Fluch",
+      "move2": "Aquaknarre",
+      "move3": "Antik-Kraft",
+      "move4": "Zertrümmerer",
+      "level": 40,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Glurak-1",
+      "species": "Glurak",
+      "setNumber": 1,
+      "item": "King-Stein",
+      "move1": "Feuerwirbel",
+      "move2": "Drachenwut",
+      "move3": "Fliegen",
+      "move4": "Schlitzer",
+      "level": 40,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Kokowei-3",
+      "species": "Kokowei",
+      "setNumber": 3,
+      "item": "Blendpuder",
+      "move1": "Eierbombe",
+      "move2": "Stampfer",
+      "move3": "Psycho-Plus",
+      "move4": "Konfusion",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 7,
+        "spe": 14,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Hypno-1",
+      "species": "Hypno",
+      "setNumber": 1,
+      "item": "Blendpuder",
+      "move1": "Konfusion",
+      "move2": "Donnerschlag",
+      "move3": "Kopfnuss",
+      "move4": "Aussetzer",
+      "level": 40,
+      "DVs": {
+        "hp": 14,
+        "atk": 7,
+        "def": 7,
+        "spe": 7,
+        "spc": 10
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Sleimok-1",
+      "species": "Sleimok",
+      "setNumber": 1,
+      "item": "Flinkklaue",
+      "move1": "Kreideschrei",
+      "move2": "Toxin",
+      "move3": "Schlammbad",
+      "move4": "Härtner",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 7,
+        "def": 5,
+        "spe": 6,
+        "spc": 11
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Elektek-1",
+      "species": "Elektek",
+      "setNumber": 1,
+      "item": "King-Stein",
+      "move1": "Lichtschild",
+      "move2": "Donnerschlag",
+      "move3": "Sternschauer",
+      "move4": "Schnarcher",
+      "level": 40,
+      "DVs": {
+        "hp": 7,
+        "atk": 6,
+        "def": 5,
+        "spe": 7,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Seedraking-2",
+      "species": "Seedraking",
+      "setNumber": 2,
+      "item": "Goldbeere",
+      "move1": "Surfer",
+      "move2": "Hyperstrahl",
+      "move3": "Blizzard",
+      "move4": "Feuerodem",
+      "level": 50,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "234 HP, 234 Atk, 244 Def, 234 SpA, 234 SpD, 223 Spe"
+    },
+    {
+      "setName": "Hundemon-2",
+      "species": "Hundemon",
+      "setNumber": 2,
+      "item": "Wunderbeere",
+      "move1": "Erholung",
+      "move2": "Knirscher",
+      "move3": "Traumfresser",
+      "move4": "Flammenwurf",
+      "level": 50,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 12
+      },
+      "EVs": "234 HP, 223 Atk, 244 Def, 244 SpA, 244 SpD, 244 Spe"
+    },
+    {
+      "setName": "Pottrott-1",
+      "species": "Pottrott",
+      "setNumber": 1,
+      "item": "Überreste",
+      "move1": "Sandsturm",
+      "move2": "Erholung",
+      "move3": "Toxin",
+      "move4": "Wickel",
+      "level": 50,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 12,
+        "spc": 15
+      },
+      "EVs": "244 HP, 244 Atk, 244 Def, 234 SpA, 234 SpD, 244 Spe"
+    },
+    {
+      "setName": "Relaxo-3",
+      "species": "Relaxo",
+      "setNumber": 3,
+      "item": "Überreste",
+      "move1": "Hyperstrahl",
+      "move2": "Erdbeben",
+      "move3": "Surfer",
+      "move4": "Psycho-Plus",
+      "level": 50,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "244 HP, 234 Atk, 234 Def, 234 SpA, 234 SpD, 244 Spe"
+    },
+    {
+      "setName": "Lapras-5",
+      "species": "Lapras",
+      "setNumber": 5,
+      "item": "Goldbeere",
+      "move1": "Donnerblitz",
+      "move2": "Surfer",
+      "move3": "Konfustrahl",
+      "move4": "Blizzard",
+      "level": 50,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "234 HP, 244 Atk, 244 Def, 244 SpA, 244 SpD, 234 Spe"
+    },
+    {
+      "setName": "Blitza-3",
+      "species": "Blitza",
+      "setNumber": 3,
+      "item": "King-Stein",
+      "move1": "Donnerblitz",
+      "move2": "Donnerwelle",
+      "move3": "Spukball",
+      "move4": "Kraftreserve",
+      "level": 50,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 13,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "234 HP, 244 Atk, 238 Def, 234 SpA, 234 SpD, 234 Spe"
+    },
+    {
+      "setName": "Scherox-3",
+      "species": "Scherox",
+      "setNumber": 3,
+      "item": "Überreste",
+      "move1": "Hyperstrahl",
+      "move2": "Schlitzer",
+      "move3": "Agilität",
+      "move4": "Metallklaue",
+      "level": 50,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 15,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Laschoking-1",
+      "species": "Laschoking",
+      "setNumber": 1,
+      "item": "Minzbeere",
+      "move1": "Erholung",
+      "move2": "Surfer",
+      "move3": "Psychokinese",
+      "move4": "Amnesie",
+      "level": 50,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 200 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Machomei-2",
+      "species": "Machomei",
+      "setNumber": 2,
+      "item": "Goldbeere",
+      "move1": "Kreuzhieb",
+      "move2": "Erdbeben",
+      "move3": "Feuersturm",
+      "move4": "Donnerschlag",
+      "level": 50,
+      "DVs": {
+        "hp": 12,
+        "atk": 15,
+        "def": 15,
+        "spe": 14,
+        "spc": 12
+      },
+      "EVs": "200 HP, 212 Atk, 223 Def, 209 SpA, 209 SpD, 200 Spe"
+    },
+    {
+      "setName": "Starmie-4",
+      "species": "Starmie",
+      "setNumber": 4,
+      "item": "Scope-Linse",
+      "move1": "Donnerwelle",
+      "move2": "Genesung",
+      "move3": "Donnerblitz",
+      "move4": "Surfer",
+      "level": 50,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "212 HP, 209 Atk, 200 Def, 200 SpA, 200 SpD, 212 Spe"
+    },
+    {
+      "setName": "Digdri-3",
+      "species": "Digdri",
+      "setNumber": 3,
+      "item": "King-Stein",
+      "move1": "Erdbeben",
+      "move2": "Schlitzer",
+      "move3": "Hyperstrahl",
+      "move4": "Matschbombe",
+      "level": 50,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 7,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "212 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Lektrobal-2",
+      "species": "Lektrobal",
+      "setNumber": 2,
+      "item": "Wunderbeere",
+      "move1": "Donnerblitz",
+      "move2": "Explosion",
+      "move3": "Spiegelcape",
+      "move4": "Erholung",
+      "level": 50,
+      "DVs": {
+        "hp": 14,
+        "atk": 7,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 212 Atk, 232 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "Aerodactyl-3",
+      "species": "Aerodactyl",
+      "setNumber": 3,
+      "item": "King-Stein",
+      "move1": "Hyperstrahl",
+      "move2": "Erdbeben",
+      "move3": "Feuersturm",
+      "move4": "Eisenschweif",
+      "level": 50,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 212 Spe"
+    },
+    {
+      "setName": "Iksbat-2",
+      "species": "Iksbat",
+      "setNumber": 2,
+      "item": "Überreste",
+      "move1": "Konfustrahl",
+      "move2": "Anziehung",
+      "move3": "Hyperstrahl",
+      "move4": "Toxin",
+      "level": 50,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "212 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "Zapdos-1",
+      "species": "Zapdos",
+      "setNumber": 1,
+      "item": "Wunderbeere",
+      "move1": "Bohrschnabel",
+      "move2": "Donnerblitz",
+      "move3": "Donnerwelle",
+      "move4": "Hyperstrahl",
+      "level": 50,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "212 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "Panzaeron-1",
+      "species": "Panzaeron",
+      "setNumber": 1,
+      "item": "Goldbeere",
+      "move1": "Sandsturm",
+      "move2": "Fliegen",
+      "move3": "Stahlflügel",
+      "move4": "Toxin",
+      "level": 50,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 7,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 200 SpA, 200 SpD, 223 Spe"
+    },
+    {
+      "setName": "Forstellka-2",
+      "species": "Forstellka",
+      "setNumber": 2,
+      "item": "Überreste",
+      "move1": "Sandsturm",
+      "move2": "Toxin",
+      "move3": "Explosion",
+      "move4": "Angeberei",
+      "level": 50,
+      "DVs": {
+        "hp": 7,
+        "atk": 12,
+        "def": 15,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 234 Def, 200 SpA, 200 SpD, 212 Spe"
+    },
+    {
+      "setName": "Stahlos-3",
+      "species": "Stahlos",
+      "setNumber": 3,
+      "item": "Wunderbeere",
+      "move1": "Sandsturm",
+      "move2": "Eisenschweif",
+      "move3": "Erholung",
+      "move4": "Erdbeben",
+      "level": 50,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 200 Spe"
+    },
+    {
+      "setName": "Girafarig-2",
+      "species": "Girafarig",
+      "setNumber": 2,
+      "item": "Scope-Linse",
+      "move1": "Traumfresser",
+      "move2": "Knirscher",
+      "move3": "Psychokinese",
+      "move4": "Erdbeben",
+      "level": 50,
+      "DVs": {
+        "hp": 6,
+        "atk": 4,
+        "def": 5,
+        "spe": 5,
+        "spc": 6
+      },
+      "EVs": "200 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "Garados-2",
+      "species": "Garados",
+      "setNumber": 2,
+      "item": "Wunderbeere",
+      "move1": "Hyperstrahl",
+      "move2": "Surfer",
+      "move3": "Regentanz",
+      "move4": "Blitzkanone",
+      "level": 50,
+      "DVs": {
+        "hp": 13,
+        "atk": 7,
+        "def": 5,
+        "spe": 6,
+        "spc": 5
+      },
+      "EVs": "200 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "Arktos-1",
+      "species": "Arktos",
+      "setNumber": 1,
+      "item": "Goldbeere",
+      "move1": "Blizzard",
+      "move2": "Hyperstrahl",
+      "move3": "Brüller",
+      "move4": "Eissturm",
+      "level": 50,
+      "DVs": {
+        "hp": 6,
+        "atk": 4,
+        "def": 5,
+        "spe": 5,
+        "spc": 6
+      },
+      "EVs": "200 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "Seedraking-3",
+      "species": "Seedraking",
+      "setNumber": 3,
+      "item": "Überreste",
+      "move1": "Feuerodem",
+      "move2": "Surfer",
+      "move3": "Hyperstrahl",
+      "move4": "Blizzard",
+      "level": 60,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "234 HP, 234 Atk, 223 Def, 244 SpA, 244 SpD, 244 Spe"
+    },
+    {
+      "setName": "Despotar-1",
+      "species": "Despotar",
+      "setNumber": 1,
+      "item": "Goldbeere",
+      "move1": "Knirscher",
+      "move2": "Erdbeben",
+      "move3": "Steinhagel",
+      "move4": "Hyperstrahl",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "234 HP, 244 Atk, 234 Def, 234 SpA, 234 SpD, 244 Spe"
+    },
+    {
+      "setName": "Hundemon-3",
+      "species": "Hundemon",
+      "setNumber": 3,
+      "item": "Wunderbeere",
+      "move1": "Flammenwurf",
+      "move2": "Knirscher",
+      "move3": "Traumfresser",
+      "move4": "Erholung",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "244 HP, 234 Atk, 234 Def, 234 SpA, 234 SpD, 244 Spe"
+    },
+    {
+      "setName": "Porygon2-4",
+      "species": "Porygon2",
+      "setNumber": 4,
+      "item": "Überreste",
+      "move1": "Blizzard",
+      "move2": "Genesung",
+      "move3": "Toxin",
+      "move4": "Psychokinese",
+      "level": 60,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 13,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "234 HP, 223 Atk, 223 Def, 234 SpA, 234 SpD, 223 Spe"
+    },
+    {
+      "setName": "Machomei-3",
+      "species": "Machomei",
+      "setNumber": 3,
+      "item": "Flinkklaue",
+      "move1": "Feuerschlag",
+      "move2": "Kreuzhieb",
+      "move3": "Donnerschlag",
+      "move4": "Erdbeben",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Zapdos-2",
+      "species": "Zapdos",
+      "setNumber": 2,
+      "item": "Minzbeere",
+      "move1": "Erholung",
+      "move2": "Bohrschnabel",
+      "move3": "Donnerblitz",
+      "move4": "Donnerwelle",
+      "level": 60,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Woingenau-3",
+      "species": "Woingenau",
+      "setNumber": 3,
+      "item": "Goldbeere",
+      "move1": "Konter",
+      "move2": "Spiegelcape",
+      "move3": "Abgangsbund",
+      "move4": "Bodyguard",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Aerodactyl-4",
+      "species": "Aerodactyl",
+      "setNumber": 4,
+      "item": "Überreste",
+      "move1": "Hyperstrahl",
+      "move2": "Superschall",
+      "move3": "Erdbeben",
+      "move4": "Biss",
+      "level": 60,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 212 Spe"
+    },
+    {
+      "setName": "Dragoran-1",
+      "species": "Dragoran",
+      "setNumber": 1,
+      "item": "Wunderbeere",
+      "move1": "Hyperstrahl",
+      "move2": "Eissturm",
+      "move3": "Donnerblitz",
+      "move4": "Surfer",
+      "level": 60,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Nachtara-3",
+      "species": "Nachtara",
+      "setNumber": 3,
+      "item": "Goldbeere",
+      "move1": "Lehmschelle",
+      "move2": "Mondschein",
+      "move3": "Psychokinese",
+      "move4": "Finte",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Arkani-3",
+      "species": "Arkani",
+      "setNumber": 3,
+      "item": "Holzkohle",
+      "move1": "Flammenwurf",
+      "move2": "Knirscher",
+      "move3": "Turbotempo",
+      "move4": "Eisenschweif",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "234 HP, 223 Atk, 200 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Panzaeron-2",
+      "species": "Panzaeron",
+      "setNumber": 2,
+      "item": "Wunderbeere",
+      "move1": "Stahlflügel",
+      "move2": "Fliegen",
+      "move3": "Toxin",
+      "move4": "Schutzschild",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Heiteira-4",
+      "species": "Heiteira",
+      "setNumber": 4,
+      "item": "Überreste",
+      "move1": "Weichei",
+      "move2": "Toxin",
+      "move3": "Schutzschild",
+      "move4": "Psychokinese",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 12,
+        "spc": 13
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Relaxo-4",
+      "species": "Relaxo",
+      "setNumber": 4,
+      "item": "Rosa Band",
+      "move1": "Steinhagel",
+      "move2": "Surfer",
+      "move3": "Bodyslam",
+      "move4": "Erdbeben",
+      "level": 60,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 10,
+        "spe": 15,
+        "spc": 12
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Skaraborn-3",
+      "species": "Skaraborn",
+      "setNumber": 3,
+      "item": "Fokusband",
+      "move1": "Gegenschlag",
+      "move2": "Vielender",
+      "move3": "Erdbeben",
+      "move4": "Konter",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 15,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Rossana-2",
+      "species": "Rossana",
+      "setNumber": 2,
+      "item": "Wunderbeere",
+      "move1": "Blizzard",
+      "move2": "Psychokinese",
+      "move3": "Spukball",
+      "move4": "Eissturm",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 15,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Turtok-1",
+      "species": "Turtok",
+      "setNumber": 1,
+      "item": "Goldbeere",
+      "move1": "Surfer",
+      "move2": "Erdbeben",
+      "move3": "Turbodreher",
+      "move4": "Blizzard",
+      "level": 60,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Rizeros-1",
+      "species": "Rizeros",
+      "setNumber": 1,
+      "item": "Flinkklaue",
+      "move1": "Erdbeben",
+      "move2": "Surfer",
+      "move3": "Eisenschweif",
+      "move4": "Steinhagel",
+      "level": 60,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 11,
+        "spe": 15,
+        "spc": 10
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Sandamer-1",
+      "species": "Sandamer",
+      "setNumber": 1,
+      "item": "Scope-Linse",
+      "move1": "Erdbeben",
+      "move2": "Schlitzer",
+      "move3": "Hyperstrahl",
+      "move4": "Schnarcher",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 7,
+        "spe": 6,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Parasek-1",
+      "species": "Parasek",
+      "setNumber": 1,
+      "item": "Goldbeere",
+      "move1": "Pilzspore",
+      "move2": "Gigasauger",
+      "move3": "Hyperstrahl",
+      "move4": "Matschbombe",
+      "level": 60,
+      "DVs": {
+        "hp": 3,
+        "atk": 6,
+        "def": 6,
+        "spe": 5,
+        "spc": 15
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Geowaz-2",
+      "species": "Geowaz",
+      "setNumber": 2,
+      "item": "Blendpuder",
+      "move1": "Explosion",
+      "move2": "Erdbeben",
+      "move3": "Feuerschlag",
+      "move4": "Frustration",
+      "level": 60,
+      "DVs": {
+        "hp": 11,
+        "atk": 7,
+        "def": 6,
+        "spe": 5,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Blitza-4",
+      "species": "Blitza",
+      "setNumber": 4,
+      "item": "Wunderbeere",
+      "move1": "Donnerblitz",
+      "move2": "Hyperstrahl",
+      "move3": "Spukball",
+      "move4": "Brüller",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "244 HP, 236 Atk, 234 Def, 244 SpA, 244 SpD, 223 Spe"
+    },
+    {
+      "setName": "Aquana-1",
+      "species": "Aquana",
+      "setNumber": 1,
+      "item": "Überreste",
+      "move1": "Blizzard",
+      "move2": "Spukball",
+      "move3": "Surfer",
+      "move4": "Lehmschelle",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 15,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 244 Def, 223 SpA, 223 SpD, 244 Spe"
+    },
+    {
+      "setName": "Nachtara-4",
+      "species": "Nachtara",
+      "setNumber": 4,
+      "item": "Goldbeere",
+      "move1": "Finte",
+      "move2": "Mondschein",
+      "move3": "Psycho-Plus",
+      "move4": "Toxin",
+      "level": 70,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "232 HP, 244 Atk, 234 Def, 240 SpA, 240 SpD, 223 Spe"
+    },
+    {
+      "setName": "Heiteira-5",
+      "species": "Heiteira",
+      "setNumber": 5,
+      "item": "Goldbeere",
+      "move1": "Konter",
+      "move2": "Weichei",
+      "move3": "Spukball",
+      "move4": "Donnerblitz",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 15,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "234 HP, 234 Atk, 234 Def, 223 SpA, 223 SpD, 240 Spe"
+    },
+    {
+      "setName": "Relaxo-5",
+      "species": "Relaxo",
+      "setNumber": 5,
+      "item": "Überreste",
+      "move1": "Steinhagel",
+      "move2": "Erdbeben",
+      "move3": "Blizzard",
+      "move4": "Spukball",
+      "level": 70,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "234 HP, 234 Atk, 244 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Hundemon-4",
+      "species": "Hundemon",
+      "setNumber": 4,
+      "item": "King-Stein",
+      "move1": "Knirscher",
+      "move2": "Flammenwurf",
+      "move3": "Finte",
+      "move4": "Brüller",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 12,
+        "spc": 13
+      },
+      "EVs": "240 HP, 223 Atk, 234 Def, 234 SpA, 234 SpD, 244 Spe"
+    },
+    {
+      "setName": "Despotar-2",
+      "species": "Despotar",
+      "setNumber": 2,
+      "item": "Überreste",
+      "move1": "Erdbeben",
+      "move2": "Knirscher",
+      "move3": "Steinhagel",
+      "move4": "Hyperstrahl",
+      "level": 70,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 11,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "223 HP, 212 Atk, 212 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Zapdos-3",
+      "species": "Zapdos",
+      "setNumber": 3,
+      "item": "Goldbeere",
+      "move1": "Donnerblitz",
+      "move2": "Bohrschnabel",
+      "move3": "Donnerwelle",
+      "move4": "Hyperstrahl",
+      "level": 70,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 11,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 212 Spe"
+    },
+    {
+      "setName": "Kokowei-4",
+      "species": "Kokowei",
+      "setNumber": 4,
+      "item": "Wunderbeere",
+      "move1": "Erholung",
+      "move2": "Explosion",
+      "move3": "Psychokinese",
+      "move4": "Gigasauger",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Nachtara-5",
+      "species": "Nachtara",
+      "setNumber": 5,
+      "item": "Goldbeere",
+      "move1": "Mondschein",
+      "move2": "Finte",
+      "move3": "Psychokinese",
+      "move4": "Spukball",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Garados-3",
+      "species": "Garados",
+      "setNumber": 3,
+      "item": "Blendpuder",
+      "move1": "Surfer",
+      "move2": "Donnerblitz",
+      "move3": "Hyperstrahl",
+      "move4": "Brüller",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 11,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "234 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Morlord-2",
+      "species": "Morlord",
+      "setNumber": 2,
+      "item": "Wunderbeere",
+      "move1": "Erdbeben",
+      "move2": "Surfer",
+      "move3": "Matschbombe",
+      "move4": "Eisenschweif",
+      "level": 70,
+      "DVs": {
+        "hp": 11,
+        "atk": 13,
+        "def": 14,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Ursaring-2",
+      "species": "Ursaring",
+      "setNumber": 2,
+      "item": "Scope-Linse",
+      "move1": "Schlitzer",
+      "move2": "Erdbeben",
+      "move3": "Hyperstrahl",
+      "move4": "Donnerschlag",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Pantimos-2",
+      "species": "Pantimos",
+      "setNumber": 2,
+      "item": "King-Stein",
+      "move1": "Reflektor",
+      "move2": "Feuerschlag",
+      "move3": "Psychokinese",
+      "move4": "Zugabe",
+      "level": 70,
+      "DVs": {
+        "hp": 15,
+        "atk": 11,
+        "def": 13,
+        "spe": 15,
+        "spc": 11
+      },
+      "EVs": "223 HP, 212 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Rasaff-2",
+      "species": "Rasaff",
+      "setNumber": 2,
+      "item": "Flinkklaue",
+      "move1": "Kreuzhieb",
+      "move2": "Eishieb",
+      "move3": "Donnerschlag",
+      "move4": "Steinhagel",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Girafarig-3",
+      "species": "Girafarig",
+      "setNumber": 3,
+      "item": "Goldbeere",
+      "move1": "Agilität",
+      "move2": "Staffette",
+      "move3": "Knirscher",
+      "move4": "Erdbeben",
+      "level": 70,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Kicklee-1",
+      "species": "Kicklee",
+      "setNumber": 1,
+      "item": "Fokusband",
+      "move1": "Gegenschlag",
+      "move2": "Ausdauer",
+      "move3": "Bodyslam",
+      "move4": "Megakick",
+      "level": 70,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Skaraborn-4",
+      "species": "Skaraborn",
+      "setNumber": 4,
+      "item": "Blendpuder",
+      "move1": "Gegenschlag",
+      "move2": "Ausdauer",
+      "move3": "Vielender",
+      "move4": "Erdbeben",
+      "level": 70,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 7,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Bisaflor-1",
+      "species": "Bisaflor",
+      "setNumber": 1,
+      "item": "Blendpuder",
+      "move1": "Sonnentag",
+      "move2": "Solarstrahl",
+      "move3": "Synthese",
+      "move4": "Hyperstrahl",
+      "level": 70,
+      "DVs": {
+        "hp": 8,
+        "atk": 7,
+        "def": 6,
+        "spe": 4,
+        "spc": 4
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Glurak-2",
+      "species": "Glurak",
+      "setNumber": 2,
+      "item": "Scope-Linse",
+      "move1": "Schlitzer",
+      "move2": "Erdbeben",
+      "move3": "Hyperstrahl",
+      "move4": "Flammenwurf",
+      "level": 70,
+      "DVs": {
+        "hp": 8,
+        "atk": 5,
+        "def": 6,
+        "spe": 4,
+        "spc": 4
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Turtok-2",
+      "species": "Turtok",
+      "setNumber": 2,
+      "item": "Flinkklaue",
+      "move1": "Hydropumpe",
+      "move2": "Eishieb",
+      "move3": "Hyperstrahl",
+      "move4": "Eisenschweif",
+      "level": 70,
+      "DVs": {
+        "hp": 8,
+        "atk": 7,
+        "def": 6,
+        "spe": 6,
+        "spc": 4
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Blitza-5",
+      "species": "Blitza",
+      "setNumber": 5,
+      "item": "Wunderbeere",
+      "move1": "Donnerwelle",
+      "move2": "Donnerblitz",
+      "move3": "Eisenschweif",
+      "move4": "Brüller",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "244 HP, 234 Atk, 244 Def, 234 SpA, 234 SpD, 234 Spe"
+    },
+    {
+      "setName": "Relaxo-6",
+      "species": "Relaxo",
+      "setNumber": 6,
+      "item": "Überreste",
+      "move1": "Erholung",
+      "move2": "Bauchtrommel",
+      "move3": "Schnarcher",
+      "move4": "Erdbeben",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 11,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "244 HP, 234 Atk, 223 Def, 244 SpA, 244 SpD, 235 Spe"
+    },
+    {
+      "setName": "Hundemon-5",
+      "species": "Hundemon",
+      "setNumber": 5,
+      "item": "Minzbeere",
+      "move1": "Erholung",
+      "move2": "Knirscher",
+      "move3": "Flammenwurf",
+      "move4": "Sonnentag",
+      "level": 80,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "234 HP, 223 Atk, 234 Def, 234 SpA, 234 SpD, 234 Spe"
+    },
+    {
+      "setName": "Tauros-4",
+      "species": "Tauros",
+      "setNumber": 4,
+      "item": "Goldbeere",
+      "move1": "Erdbeben",
+      "move2": "Bodyslam",
+      "move3": "Eisenschweif",
+      "move4": "Hyperstrahl",
+      "level": 80,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 173 Spe"
+    },
+    {
+      "setName": "Lapras-6",
+      "species": "Lapras",
+      "setNumber": 6,
+      "item": "Minzbeere",
+      "move1": "Erholung",
+      "move2": "Surfer",
+      "move3": "Konfustrahl",
+      "move4": "Psychokinese",
+      "level": 80,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Despotar-3",
+      "species": "Despotar",
+      "setNumber": 3,
+      "item": "Wunderbeere",
+      "move1": "Erholung",
+      "move2": "Knirscher",
+      "move3": "Erdbeben",
+      "move4": "Steinhagel",
+      "level": 80,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "223 HP, 234 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Gengar-2",
+      "species": "Gengar",
+      "setNumber": 2,
+      "item": "None",
+      "move1": "Donnerblitz",
+      "move2": "Spukball",
+      "move3": "Konfustrahl",
+      "move4": "Raub",
+      "level": 80,
+      "DVs": {
+        "hp": 11,
+        "atk": 13,
+        "def": 14,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Forstellka-3",
+      "species": "Forstellka",
+      "setNumber": 3,
+      "item": "Überreste",
+      "move1": "Explosion",
+      "move2": "Toxin",
+      "move3": "Solarstrahl",
+      "move4": "Angeberei",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Seedraking-4",
+      "species": "Seedraking",
+      "setNumber": 4,
+      "item": "Minzbeere",
+      "move1": "Erholung",
+      "move2": "Surfer",
+      "move3": "Blizzard",
+      "move4": "Feuerodem",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Dragoran-2",
+      "species": "Dragoran",
+      "setNumber": 2,
+      "item": "Goldbeere",
+      "move1": "Donnerwelle",
+      "move2": "Surfer",
+      "move3": "Donnerblitz",
+      "move4": "Wutanfall",
+      "level": 80,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Porygon2-5",
+      "species": "Porygon2",
+      "setNumber": 5,
+      "item": "Überreste",
+      "move1": "Psychokinese",
+      "move2": "Genesung",
+      "move3": "Hyperstrahl",
+      "move4": "Triplette",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 15,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "234 HP, 223 Atk, 200 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Rossana-3",
+      "species": "Rossana",
+      "setNumber": 3,
+      "item": "Flinkklaue",
+      "move1": "Todeskuss",
+      "move2": "Blizzard",
+      "move3": "Traumfresser",
+      "move4": "Psychokinese",
+      "level": 80,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "234 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Mantax-1",
+      "species": "Mantax",
+      "setNumber": 1,
+      "item": "Goldbeere",
+      "move1": "Surfer",
+      "move2": "Konfustrahl",
+      "move3": "Blizzard",
+      "move4": "Flügelschlag",
+      "level": 80,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 12
+      },
+      "EVs": "200 HP, 212 Atk, 200 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Panzaeron-3",
+      "species": "Panzaeron",
+      "setNumber": 3,
+      "item": "Flinkklaue",
+      "move1": "Stahlflügel",
+      "move2": "Fliegen",
+      "move3": "Lehmschelle",
+      "move4": "Toxin",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 212 Atk, 187 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Lavados-1",
+      "species": "Lavados",
+      "setNumber": 1,
+      "item": "Holzkohle",
+      "move1": "Flammenwurf",
+      "move2": "Himmelsfeger",
+      "move3": "Stahlflügel",
+      "move4": "Hyperstrahl",
+      "level": 80,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "Aerodactyl-5",
+      "species": "Aerodactyl",
+      "setNumber": 5,
+      "item": "Wunderbeere",
+      "move1": "Hyperstrahl",
+      "move2": "Erholung",
+      "move3": "Erdbeben",
+      "move4": "Brüller",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 15,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "Lektrobal-3",
+      "species": "Lektrobal",
+      "setNumber": 3,
+      "item": "King-Stein",
+      "move1": "Donnerblitz",
+      "move2": "Explosion",
+      "move3": "Spiegelcape",
+      "move4": "Toxin",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 15,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 200 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "Digdri-4",
+      "species": "Digdri",
+      "setNumber": 4,
+      "item": "Scope-Linse",
+      "move1": "Schlitzer",
+      "move2": "Erdbeben",
+      "move3": "Raub",
+      "move4": "Lehmschelle",
+      "level": 80,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 200 Def, 200 SpA, 200 SpD, 223 Spe"
+    },
+    {
+      "setName": "Sarzenia-1",
+      "species": "Sarzenia",
+      "setNumber": 1,
+      "item": "Flinkklaue",
+      "move1": "Gigasauger",
+      "move2": "Matschbombe",
+      "move3": "Hyperstrahl",
+      "move4": "Toxin",
+      "level": 80,
+      "DVs": {
+        "hp": 5,
+        "atk": 6,
+        "def": 5,
+        "spe": 6,
+        "spc": 5
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Pinsir-1",
+      "species": "Pinsir",
+      "setNumber": 1,
+      "item": "Goldbeere",
+      "move1": "Hyperstrahl",
+      "move2": "Überroller",
+      "move3": "Stärke",
+      "move4": "Toxin",
+      "level": 80,
+      "DVs": {
+        "hp": 8,
+        "atk": 7,
+        "def": 4,
+        "spe": 6,
+        "spc": 4
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Granbull-1",
+      "species": "Granbull",
+      "setNumber": 1,
+      "item": "Blendpuder",
+      "move1": "Brüller",
+      "move2": "Spukball",
+      "move3": "Hyperstrahl",
+      "move4": "Donnerschlag",
+      "level": 80,
+      "DVs": {
+        "hp": 11,
+        "atk": 7,
+        "def": 6,
+        "spe": 5,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Nachtara-6",
+      "species": "Nachtara",
+      "setNumber": 6,
+      "item": "King-Stein",
+      "move1": "Finte",
+      "move2": "Lehmschelle",
+      "move3": "Mondschein",
+      "move4": "Konfustrahl",
+      "level": 90,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "244 HP, 244 Atk, 234 Def, 234 SpA, 234 SpD, 244 Spe"
+    },
+    {
+      "setName": "Dragoran-3",
+      "species": "Dragoran",
+      "setNumber": 3,
+      "item": "Flinkklaue",
+      "move1": "Feuersturm",
+      "move2": "Hyperstrahl",
+      "move3": "Wutanfall",
+      "move4": "Blizzard",
+      "level": 90,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "252 HP, 223 Atk, 236 Def, 244 SpA, 244 SpD, 244 Spe"
+    },
+    {
+      "setName": "Starmie-5",
+      "species": "Starmie",
+      "setNumber": 5,
+      "item": "Überreste",
+      "move1": "Genesung",
+      "move2": "Donnerblitz",
+      "move3": "Surfer",
+      "move4": "Psychokinese",
+      "level": 90,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "244 HP, 244 Atk, 244 Def, 244 SpA, 244 SpD, 234 Spe"
+    },
+    {
+      "setName": "Austos-1",
+      "species": "Austos",
+      "setNumber": 1,
+      "item": "Überreste",
+      "move1": "Explosion",
+      "move2": "Blizzard",
+      "move3": "Surfer",
+      "move4": "Eissturm",
+      "level": 90,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 11,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Iksbat-3",
+      "species": "Iksbat",
+      "setNumber": 3,
+      "item": "Goldbeere",
+      "move1": "Flügelschlag",
+      "move2": "Dunkelnebel",
+      "move3": "Hyperstrahl",
+      "move4": "Gigasauger",
+      "level": 90,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 12,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Porygon2-6",
+      "species": "Porygon2",
+      "setNumber": 6,
+      "item": "Flinkklaue",
+      "move1": "Toxin",
+      "move2": "Psychokinese",
+      "move3": "Genesung",
+      "move4": "Schutzschild",
+      "level": 90,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Seedraking-5",
+      "species": "Seedraking",
+      "setNumber": 5,
+      "item": "Überreste",
+      "move1": "Feuerodem",
+      "move2": "Surfer",
+      "move3": "Hyperstrahl",
+      "move4": "Blizzard",
+      "level": 90,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 234 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Despotar-4",
+      "species": "Despotar",
+      "setNumber": 4,
+      "item": "Flinkklaue",
+      "move1": "Hyperstrahl",
+      "move2": "Knirscher",
+      "move3": "Erdbeben",
+      "move4": "Steinhagel",
+      "level": 90,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 234 Atk, 223 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Lapras-7",
+      "species": "Lapras",
+      "setNumber": 7,
+      "item": "Minzbeere",
+      "move1": "Erholung",
+      "move2": "Surfer",
+      "move3": "Donnerblitz",
+      "move4": "Psychokinese",
+      "level": 90,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 234 SpA, 234 SpD, 223 Spe"
+    },
+    {
+      "setName": "Psiana-3",
+      "species": "Psiana",
+      "setNumber": 3,
+      "item": "Goldbeere",
+      "move1": "Psychokinese",
+      "move2": "Spukball",
+      "move3": "Sonnentag",
+      "move4": "Morgengrauen",
+      "level": 90,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "234 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Machomei-4",
+      "species": "Machomei",
+      "setNumber": 4,
+      "item": "Flinkklaue",
+      "move1": "Kreuzhieb",
+      "move2": "Überwurf",
+      "move3": "Feuersturm",
+      "move4": "Erdbeben",
+      "level": 90,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "234 HP, 234 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Relaxo-7",
+      "species": "Relaxo",
+      "setNumber": 7,
+      "item": "Wunderbeere",
+      "move1": "Feuersturm",
+      "move2": "Surfer",
+      "move3": "Erdbeben",
+      "move4": "Hyperstrahl",
+      "level": 90,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 234 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Arkani-4",
+      "species": "Arkani",
+      "setNumber": 4,
+      "item": "Minzbeere",
+      "move1": "Sonnentag",
+      "move2": "Flammenwurf",
+      "move3": "Turbotempo",
+      "move4": "Erholung",
+      "level": 90,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 234 SpA, 234 SpD, 212 Spe"
+    },
+    {
+      "setName": "Heiteira-6",
+      "species": "Heiteira",
+      "setNumber": 6,
+      "item": "Überreste",
+      "move1": "Solarstrahl",
+      "move2": "Sonnentag",
+      "move3": "Weichei",
+      "move4": "Feuersturm",
+      "level": 90,
+      "DVs": {
+        "hp": 14,
+        "atk": 11,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Hundemon-6",
+      "species": "Hundemon",
+      "setNumber": 6,
+      "item": "Blendpuder",
+      "move1": "Flammenwurf",
+      "move2": "Knirscher",
+      "move3": "Sonnentag",
+      "move4": "Solarstrahl",
+      "level": 90,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 11,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Panzaeron-4",
+      "species": "Panzaeron",
+      "setNumber": 4,
+      "item": "Flinkklaue",
+      "move1": "Sandsturm",
+      "move2": "Stahlflügel",
+      "move3": "Toxin",
+      "move4": "Rückkehr",
+      "level": 90,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Pottrott-2",
+      "species": "Pottrott",
+      "setNumber": 2,
+      "item": "Überreste",
+      "move1": "Toxin",
+      "move2": "Wickel",
+      "move3": "Schutzschild",
+      "move4": "Zugabe",
+      "level": 90,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Flamara-1",
+      "species": "Flamara",
+      "setNumber": 1,
+      "item": "Minzbeere",
+      "move1": "Hyperstrahl",
+      "move2": "Flammenwurf",
+      "move3": "Spukball",
+      "move4": "Brüller",
+      "level": 90,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 7,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Miltank-3",
+      "species": "Miltank",
+      "setNumber": 3,
+      "item": "Überreste",
+      "move1": "Milchgetränk",
+      "move2": "Erdbeben",
+      "move3": "Anziehung",
+      "move4": "Bodyslam",
+      "level": 90,
+      "DVs": {
+        "hp": 7,
+        "atk": 4,
+        "def": 7,
+        "spe": 5,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Tauros-5",
+      "species": "Tauros",
+      "setNumber": 5,
+      "item": "Rosa Band",
+      "move1": "Donnerblitz",
+      "move2": "Hyperstrahl",
+      "move3": "Anziehung",
+      "move4": "Erdbeben",
+      "level": 90,
+      "DVs": {
+        "hp": 6,
+        "atk": 6,
+        "def": 5,
+        "spe": 7,
+        "spc": 6
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Sleimok-2",
+      "species": "Sleimok",
+      "setNumber": 2,
+      "item": "Flinkklaue",
+      "move1": "Toxin",
+      "move2": "Matschbombe",
+      "move3": "Anziehung",
+      "move4": "Gigasauger",
+      "level": 90,
+      "DVs": {
+        "hp": 8,
+        "atk": 5,
+        "def": 4,
+        "spe": 4,
+        "spc": 4
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Hundemon-7",
+      "species": "Hundemon",
+      "setNumber": 7,
+      "item": "Minzbeere",
+      "move1": "Knirscher",
+      "move2": "Flammenwurf",
+      "move3": "Brüller",
+      "move4": "Erholung",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "244 HP, 244 Atk, 244 Def, 244 SpA, 244 SpD, 244 Spe"
+    },
+    {
+      "setName": "Machomei-5",
+      "species": "Machomei",
+      "setNumber": 5,
+      "item": "Flinkklaue",
+      "move1": "Kreuzhieb",
+      "move2": "Erdbeben",
+      "move3": "Hyperstrahl",
+      "move4": "Überwurf",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "244 HP, 244 Atk, 244 Def, 244 SpA, 244 SpD, 244 Spe"
+    },
+    {
+      "setName": "Seedraking-6",
+      "species": "Seedraking",
+      "setNumber": 6,
+      "item": "Überreste",
+      "move1": "Surfer",
+      "move2": "Feuerodem",
+      "move3": "Erholung",
+      "move4": "Toxin",
+      "level": 100,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "244 HP, 244 Atk, 244 Def, 244 SpA, 244 SpD, 244 Spe"
+    },
+    {
+      "setName": "Blitza-6",
+      "species": "Blitza",
+      "setNumber": 6,
+      "item": "Blendpuder",
+      "move1": "Donnerblitz",
+      "move2": "Brüller",
+      "move3": "Donnerwelle",
+      "move4": "Eisenschweif",
+      "level": 100,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 173 Spe"
+    },
+    {
+      "setName": "Tauros-6",
+      "species": "Tauros",
+      "setNumber": 6,
+      "item": "King-Stein",
+      "move1": "Hyperstrahl",
+      "move2": "Erdbeben",
+      "move3": "Eisenschweif",
+      "move4": "Donnerblitz",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Arkani-5",
+      "species": "Arkani",
+      "setNumber": 5,
+      "item": "Überreste",
+      "move1": "Flammenwurf",
+      "move2": "Turbotempo",
+      "move3": "Eisenschweif",
+      "move4": "Hyperstrahl",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "234 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Glurak-3",
+      "species": "Glurak",
+      "setNumber": 3,
+      "item": "Scope-Linse",
+      "move1": "Flammenwurf",
+      "move2": "Erdbeben",
+      "move3": "Schlitzer",
+      "move4": "Fliegen",
+      "level": 100,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 234 Def, 234 SpA, 234 SpD, 234 Spe"
+    },
+    {
+      "setName": "Lektrobal-4",
+      "species": "Lektrobal",
+      "setNumber": 4,
+      "item": "Blendpuder",
+      "move1": "Donnerwelle",
+      "move2": "Donnerblitz",
+      "move3": "Explosion",
+      "move4": "Spiegelcape",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 212 Spe"
+    },
+    {
+      "setName": "Rizeros-2",
+      "species": "Rizeros",
+      "setNumber": 2,
+      "item": "Wunderbeere",
+      "move1": "Surfer",
+      "move2": "Erdbeben",
+      "move3": "Hyperstrahl",
+      "move4": "Steinhagel",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "234 HP, 223 Atk, 234 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Stahlos-4",
+      "species": "Stahlos",
+      "setNumber": 4,
+      "item": "Überreste",
+      "move1": "Erdbeben",
+      "move2": "Hyperstrahl",
+      "move3": "Angeberei",
+      "move4": "Knirscher",
+      "level": 100,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 234 Def, 223 SpA, 223 SpD, 244 Spe"
+    },
+    {
+      "setName": "Ibitak-2",
+      "species": "Ibitak",
+      "setNumber": 2,
+      "item": "King-Stein",
+      "move1": "Bohrschnabel",
+      "move2": "Stahlflügel",
+      "move3": "Hyperstrahl",
+      "move4": "Lehmschelle",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 12,
+        "spc": 15
+      },
+      "EVs": "234 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Traunfugil-2",
+      "species": "Traunfugil",
+      "setNumber": 2,
+      "item": "Fokusband",
+      "move1": "Abgesang",
+      "move2": "Horrorblick",
+      "move3": "Leidteiler",
+      "move4": "Spukball",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "212 HP, 223 Atk, 234 Def, 234 SpA, 234 SpD, 223 Spe"
+    },
+    {
+      "setName": "Sniebel-2",
+      "species": "Sniebel",
+      "setNumber": 2,
+      "item": "Scope-Linse",
+      "move1": "Schlitzer",
+      "move2": "Blizzard",
+      "move3": "Traumfresser",
+      "move4": "Finte",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 219 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Scherox-4",
+      "species": "Scherox",
+      "setNumber": 4,
+      "item": "Flinkklaue",
+      "move1": "Stahlflügel",
+      "move2": "Hyperstrahl",
+      "move3": "Schlitzer",
+      "move4": "Toxin",
+      "level": 100,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 11,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Heiteira-7",
+      "species": "Heiteira",
+      "setNumber": 7,
+      "item": "Überreste",
+      "move1": "Donnerblitz",
+      "move2": "Blizzard",
+      "move3": "Feuersturm",
+      "move4": "Weichei",
+      "level": 100,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Keifel-1",
+      "species": "Keifel",
+      "setNumber": 1,
+      "item": "Minzbeere",
+      "move1": "Erholung",
+      "move2": "Blizzard",
+      "move3": "Hyperstrahl",
+      "move4": "Erdbeben",
+      "level": 100,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Kokowei-5",
+      "species": "Kokowei",
+      "setNumber": 5,
+      "item": "Flinkklaue",
+      "move1": "Psychokinese",
+      "move2": "Toxin",
+      "move3": "Explosion",
+      "move4": "Gigasauger",
+      "level": 100,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Amoroso-2",
+      "species": "Amoroso",
+      "setNumber": 2,
+      "item": "Überreste",
+      "move1": "Surfer",
+      "move2": "Antik-Kraft",
+      "move3": "Blizzard",
+      "move4": "Toxin",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Geowaz-3",
+      "species": "Geowaz",
+      "setNumber": 3,
+      "item": "Blendpuder",
+      "move1": "Explosion",
+      "move2": "Erdbeben",
+      "move3": "Steinhagel",
+      "move4": "Feuersturm",
+      "level": 100,
+      "DVs": {
+        "hp": 8,
+        "atk": 7,
+        "def": 4,
+        "spe": 4,
+        "spc": 6
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Nockchan-2",
+      "species": "Nockchan",
+      "setNumber": 2,
+      "item": "Fokusband",
+      "move1": "Konter",
+      "move2": "Feuerschlag",
+      "move3": "Donnerschlag",
+      "move4": "Eishieb",
+      "level": 100,
+      "DVs": {
+        "hp": 6,
+        "atk": 6,
+        "def": 7,
+        "spe": 7,
+        "spc": 6
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Lanturn-2",
+      "species": "Lanturn",
+      "setNumber": 2,
+      "item": "Flinkklaue",
+      "move1": "Surfer",
+      "move2": "Regentanz",
+      "move3": "Blitzkanone",
+      "move4": "Konfustrahl",
+      "level": 100,
+      "DVs": {
+        "hp": 11,
+        "atk": 7,
+        "def": 6,
+        "spe": 5,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    }
+  ]
+}

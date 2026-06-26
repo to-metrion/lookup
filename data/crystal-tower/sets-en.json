@@ -1,0 +1,3996 @@
+{
+  "sets": [
+    {
+      "setName": "Jolteon-1",
+      "species": "Jolteon",
+      "setNumber": 1,
+      "item": "Miracle Berry",
+      "move1": "Thunderbolt",
+      "move2": "Hyper Beam",
+      "move3": "Shadow Ball",
+      "move4": "Roar",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 11,
+        "spc": 13
+      },
+      "EVs": "223 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 187 Spe"
+    },
+    {
+      "setName": "Espeon-1",
+      "species": "Espeon",
+      "setNumber": 1,
+      "item": "Leftovers",
+      "move1": "Mud-Slap",
+      "move2": "Psychic",
+      "move3": "Psych Up",
+      "move4": "Toxic",
+      "level": 10,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 13,
+        "spe": 15,
+        "spc": 11
+      },
+      "EVs": "200 HP, 223 Atk, 187 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "Umbreon-1",
+      "species": "Umbreon",
+      "setNumber": 1,
+      "item": "Gold Berry",
+      "move1": "Shadow Ball",
+      "move2": "Iron Tail",
+      "move3": "Psych Up",
+      "move4": "Toxic",
+      "level": 10,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 11,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "200 HP, 200 Atk, 212 Def, 200 SpA, 200 SpD, 223 Spe"
+    },
+    {
+      "setName": "Wobbuffet-1",
+      "species": "Wobbuffet",
+      "setNumber": 1,
+      "item": "Focus Band",
+      "move1": "Counter",
+      "move2": "Mirror Coat",
+      "move3": "Safeguard",
+      "move4": "Destiny Bond",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 7,
+        "def": 15,
+        "spe": 13,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Kangaskhan-1",
+      "species": "Kangaskhan",
+      "setNumber": 1,
+      "item": "Miracle Berry",
+      "move1": "Reversal",
+      "move2": "Hyper Beam",
+      "move3": "Earthquake",
+      "move4": "Attract",
+      "level": 10,
+      "DVs": {
+        "hp": 5,
+        "atk": 14,
+        "def": 15,
+        "spe": 12,
+        "spc": 15
+      },
+      "EVs": "200 HP, 173 Atk, 200 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Corsola-1",
+      "species": "Corsola",
+      "setNumber": 1,
+      "item": "Scope Lens",
+      "move1": "Surf",
+      "move2": "Psychic",
+      "move3": "Recover",
+      "move4": "Ancient Power",
+      "level": 10,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "200 HP, 173 Atk, 182 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Miltank-1",
+      "species": "Miltank",
+      "setNumber": 1,
+      "item": "Gold Berry",
+      "move1": "Blizzard",
+      "move2": "Earthquake",
+      "move3": "Hyper Beam",
+      "move4": "Toxic",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 11,
+        "def": 11,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 187 SpA, 187 SpD, 173 Spe"
+    },
+    {
+      "setName": "Aerodactyl-1",
+      "species": "Aerodactyl",
+      "setNumber": 1,
+      "item": "Leftovers",
+      "move1": "Hyper Beam",
+      "move2": "Supersonic",
+      "move3": "Earthquake",
+      "move4": "Bite",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 11,
+        "spe": 15,
+        "spc": 11
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Lapras-1",
+      "species": "Lapras",
+      "setNumber": 1,
+      "item": "Miracle Berry",
+      "move1": "Blizzard",
+      "move2": "Surf",
+      "move3": "Thunderbolt",
+      "move4": "Psychic",
+      "level": 10,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Sneasel-1",
+      "species": "Sneasel",
+      "setNumber": 1,
+      "item": "Gold Berry",
+      "move1": "Slash",
+      "move2": "Feint Attack",
+      "move3": "Surf",
+      "move4": "Blizzard",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 11,
+        "spe": 11,
+        "spc": 15
+      },
+      "EVs": "173 HP, 187 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Porygon2-1",
+      "species": "Porygon2",
+      "setNumber": 1,
+      "item": "Bright Powder",
+      "move1": "Psychic",
+      "move2": "Blizzard",
+      "move3": "Hyper Beam",
+      "move4": "Tri Attack",
+      "level": 10,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 11,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "173 HP, 173 Atk, 200 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Misdreavus-1",
+      "species": "Misdreavus",
+      "setNumber": 1,
+      "item": "Focus Band",
+      "move1": "Perish Song",
+      "move2": "Mean Look",
+      "move3": "Pain Split",
+      "move4": "Shadow Ball",
+      "level": 10,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Houndour-1",
+      "species": "Houndour",
+      "setNumber": 1,
+      "item": "Gold Berry",
+      "move1": "Feint Attack",
+      "move2": "Solar Beam",
+      "move3": "Roar",
+      "move4": "Sunny Day",
+      "level": 10,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 181 Spe"
+    },
+    {
+      "setName": "Girafarig-1",
+      "species": "Girafarig",
+      "setNumber": 1,
+      "item": "King's Rock",
+      "move1": "Psybeam",
+      "move2": "Mud-Slap",
+      "move3": "Shadow Ball",
+      "move4": "Agility",
+      "level": 10,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 13,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Blissey-1",
+      "species": "Blissey",
+      "setNumber": 1,
+      "item": "Quick Claw",
+      "move1": "Headbutt",
+      "move2": "Solar Beam",
+      "move3": "Rollout",
+      "move4": "Strength",
+      "level": 10,
+      "DVs": {
+        "hp": 12,
+        "atk": 13,
+        "def": 15,
+        "spe": 12,
+        "spc": 14
+      },
+      "EVs": "178 HP, 200 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Snorlax-1",
+      "species": "Snorlax",
+      "setNumber": 1,
+      "item": "Miracle Berry",
+      "move1": "Headbutt",
+      "move2": "Protect",
+      "move3": "Snore",
+      "move4": "Surf",
+      "level": 10,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Exeggutor-1",
+      "species": "Exeggutor",
+      "setNumber": 1,
+      "item": "King's Rock",
+      "move1": "Toxic",
+      "move2": "Giga Drain",
+      "move3": "Thief",
+      "move4": "Confusion",
+      "level": 10,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Heracross-1",
+      "species": "Heracross",
+      "setNumber": 1,
+      "item": "Gold Berry",
+      "move1": "Reversal",
+      "move2": "Endure",
+      "move3": "Counter",
+      "move4": "Rock Smash",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 7,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Unown-1",
+      "species": "Unown",
+      "setNumber": 1,
+      "item": "Berry",
+      "move1": "Hidden Power Dark",
+      "move2": "",
+      "move3": "",
+      "move4": "",
+      "level": 10,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe",
+      "minisprite": "unown-z",
+      "sprite": "unown-z"
+    },
+    {
+      "setName": "Tauros-1",
+      "species": "Tauros",
+      "setNumber": 1,
+      "item": "King's Rock",
+      "move1": "Headbutt",
+      "move2": "Swagger",
+      "move3": "Tail Whip",
+      "move4": "Icy Wind",
+      "level": 10,
+      "DVs": {
+        "hp": 7,
+        "atk": 6,
+        "def": 5,
+        "spe": 5,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Mr. Mime-1",
+      "species": "Mr. Mime",
+      "setNumber": 1,
+      "item": "Quick Claw",
+      "move1": "Toxic",
+      "move2": "Psych Up",
+      "move3": "Fire Punch",
+      "move4": "Headbutt",
+      "level": 10,
+      "DVs": {
+        "hp": 13,
+        "atk": 7,
+        "def": 3,
+        "spe": 6,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Umbreon-2",
+      "species": "Umbreon",
+      "setNumber": 2,
+      "item": "Leftovers",
+      "move1": "Protect",
+      "move2": "Toxic",
+      "move3": "Mud-Slap",
+      "move4": "Attract",
+      "level": 20,
+      "DVs": {
+        "hp": 6,
+        "atk": 12,
+        "def": 15,
+        "spe": 11,
+        "spc": 12
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Starmie-1",
+      "species": "Starmie",
+      "setNumber": 1,
+      "item": "Gold Berry",
+      "move1": "Recover",
+      "move2": "Psychic",
+      "move3": "Surf",
+      "move4": "Psych Up",
+      "level": 20,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 11,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Gyarados-1",
+      "species": "Gyarados",
+      "setNumber": 1,
+      "item": "Miracle Berry",
+      "move1": "Hyper Beam",
+      "move2": "Dragon Rage",
+      "move3": "Thunderbolt",
+      "move4": "Fire Blast",
+      "level": 20,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 10,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Steelix-1",
+      "species": "Steelix",
+      "setNumber": 1,
+      "item": "Gold Berry",
+      "move1": "Roar",
+      "move2": "Iron Tail",
+      "move3": "Swagger",
+      "move4": "Earthquake",
+      "level": 20,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 173 Spe"
+    },
+    {
+      "setName": "Alakazam-1",
+      "species": "Alakazam",
+      "setNumber": 1,
+      "item": "Berry Juice",
+      "move1": "Psychic",
+      "move2": "Psych Up",
+      "move3": "Toxic",
+      "move4": "Thunder Punch",
+      "level": 20,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 173 Def, 200 SpA, 200 SpD, 223 Spe"
+    },
+    {
+      "setName": "Arcanine-1",
+      "species": "Arcanine",
+      "setNumber": 1,
+      "item": "Bright Powder",
+      "move1": "Flamethrower",
+      "move2": "Roar",
+      "move3": "Hyper Beam",
+      "move4": "Iron Tail",
+      "level": 20,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 11,
+        "spe": 15,
+        "spc": 11
+      },
+      "EVs": "187 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Heracross-2",
+      "species": "Heracross",
+      "setNumber": 2,
+      "item": "Focus Band",
+      "move1": "Endure",
+      "move2": "Reversal",
+      "move3": "Megahorn",
+      "move4": "Earthquake",
+      "level": 20,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 173 Atk, 212 Def, 212 SpA, 212 SpD, 173 Spe"
+    },
+    {
+      "setName": "Exeggutor-2",
+      "species": "Exeggutor",
+      "setNumber": 2,
+      "item": "Leftovers",
+      "move1": "Hyper Beam",
+      "move2": "Psychic",
+      "move3": "Toxic",
+      "move4": "Dream Eater",
+      "level": 20,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 212 Spe"
+    },
+    {
+      "setName": "Aerodactyl-2",
+      "species": "Aerodactyl",
+      "setNumber": 2,
+      "item": "Gold Berry",
+      "move1": "Rest",
+      "move2": "Hyper Beam",
+      "move3": "Earthquake",
+      "move4": "Dragon Rage",
+      "level": 20,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 11,
+        "spe": 11,
+        "spc": 11
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Blissey-2",
+      "species": "Blissey",
+      "setNumber": 2,
+      "item": "Bright Powder",
+      "move1": "Psychic",
+      "move2": "Submission",
+      "move3": "Soft-Boiled",
+      "move4": "Counter",
+      "level": 20,
+      "DVs": {
+        "hp": 14,
+        "atk": 11,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 173 Def, 223 SpA, 223 SpD, 173 Spe"
+    },
+    {
+      "setName": "Lapras-2",
+      "species": "Lapras",
+      "setNumber": 2,
+      "item": "Gold Berry",
+      "move1": "Psychic",
+      "move2": "Thunderbolt",
+      "move3": "Blizzard",
+      "move4": "Confuse Ray",
+      "level": 20,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 13,
+        "spc": 7
+      },
+      "EVs": "234 HP, 173 Atk, 200 Def, 173 SpA, 173 SpD, 234 Spe"
+    },
+    {
+      "setName": "Pikachu-1",
+      "species": "Pikachu",
+      "setNumber": 1,
+      "item": "Light Ball",
+      "move1": "Thunderbolt",
+      "move2": "Thunder Wave",
+      "move3": "Strength",
+      "move4": "Toxic",
+      "level": 20,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 12,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "212 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Scizor-1",
+      "species": "Scizor",
+      "setNumber": 1,
+      "item": "Focus Band",
+      "move1": "Steel Wing",
+      "move2": "Slash",
+      "move3": "Toxic",
+      "move4": "Sandstorm",
+      "level": 20,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "200 HP, 212 Atk, 200 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Hitmonchan-1",
+      "species": "Hitmonchan",
+      "setNumber": 1,
+      "item": "Gold Berry",
+      "move1": "Thunder Punch",
+      "move2": "Ice Punch",
+      "move3": "Fire Punch",
+      "move4": "Mega Punch",
+      "level": 20,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 11,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "223 HP, 212 Atk, 187 Def, 173 SpA, 173 SpD, 223 Spe"
+    },
+    {
+      "setName": "Tauros-2",
+      "species": "Tauros",
+      "setNumber": 2,
+      "item": "Bright Powder",
+      "move1": "Thunderbolt",
+      "move2": "Earthquake",
+      "move3": "Hyper Beam",
+      "move4": "Blizzard",
+      "level": 20,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Azumarill-1",
+      "species": "Azumarill",
+      "setNumber": 1,
+      "item": "Mystic Water",
+      "move1": "Surf",
+      "move2": "Blizzard",
+      "move3": "Attract",
+      "move4": "Rain Dance",
+      "level": 20,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 13,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "200 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "Miltank-2",
+      "species": "Miltank",
+      "setNumber": 2,
+      "item": "King's Rock",
+      "move1": "Earthquake",
+      "move2": "Thunder",
+      "move3": "Attract",
+      "move4": "Surf",
+      "level": 20,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "200 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "Wigglytuff-1",
+      "species": "Wigglytuff",
+      "setNumber": 1,
+      "item": "Gold Berry",
+      "move1": "Hyper Beam",
+      "move2": "Blizzard",
+      "move3": "Fire Blast",
+      "move4": "Attract",
+      "level": 20,
+      "DVs": {
+        "hp": 6,
+        "atk": 12,
+        "def": 7,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "200 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "Wigglytuff-2",
+      "species": "Wigglytuff",
+      "setNumber": 2,
+      "item": "Pink Bow",
+      "move1": "Psychic",
+      "move2": "Swagger",
+      "move3": "Psych Up",
+      "move4": "Headbutt",
+      "level": 20,
+      "DVs": {
+        "hp": 7,
+        "atk": 12,
+        "def": 7,
+        "spe": 7,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Nidoking-1",
+      "species": "Nidoking",
+      "setNumber": 1,
+      "item": "Berry",
+      "move1": "Blizzard",
+      "move2": "Earthquake",
+      "move3": "Surf",
+      "move4": "Thunder Punch",
+      "level": 20,
+      "DVs": {
+        "hp": 8,
+        "atk": 5,
+        "def": 6,
+        "spe": 4,
+        "spc": 6
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Quagsire-1",
+      "species": "Quagsire",
+      "setNumber": 1,
+      "item": "Quick Claw",
+      "move1": "Amnesia",
+      "move2": "Earthquake",
+      "move3": "Surf",
+      "move4": "Rain Dance",
+      "level": 20,
+      "DVs": {
+        "hp": 13,
+        "atk": 5,
+        "def": 5,
+        "spe": 4,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Jolteon-2",
+      "species": "Jolteon",
+      "setNumber": 2,
+      "item": "Miracle Berry",
+      "move1": "Thunderbolt",
+      "move2": "Thunder Wave",
+      "move3": "Roar",
+      "move4": "Mud-Slap",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 11,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 234 SpA, 234 SpD, 223 Spe"
+    },
+    {
+      "setName": "Poliwrath-1",
+      "species": "Poliwrath",
+      "setNumber": 1,
+      "item": "Bright Powder",
+      "move1": "Double Team",
+      "move2": "Surf",
+      "move3": "Fissure",
+      "move4": "Submission",
+      "level": 30,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 11
+      },
+      "EVs": "223 HP, 234 Atk, 234 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Starmie-2",
+      "species": "Starmie",
+      "setNumber": 2,
+      "item": "Leftovers",
+      "move1": "Thunder Wave",
+      "move2": "Psychic",
+      "move3": "Recover",
+      "move4": "Surf",
+      "level": 30,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Jynx-1",
+      "species": "Jynx",
+      "setNumber": 1,
+      "item": "Gold Berry",
+      "move1": "Blizzard",
+      "move2": "Lovely Kiss",
+      "move3": "Dream Eater",
+      "move4": "Attract",
+      "level": 30,
+      "DVs": {
+        "hp": 12,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 173 Spe"
+    },
+    {
+      "setName": "Dugtrio-1",
+      "species": "Dugtrio",
+      "setNumber": 1,
+      "item": "King's Rock",
+      "move1": "Earthquake",
+      "move2": "Sludge Bomb",
+      "move3": "Slash",
+      "move4": "Mud-Slap",
+      "level": 30,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 173 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Bellossom-1",
+      "species": "Bellossom",
+      "setNumber": 1,
+      "item": "Bright Powder",
+      "move1": "Giga Drain",
+      "move2": "Sunny Day",
+      "move3": "Solar Beam",
+      "move4": "Double Team",
+      "level": 30,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "212 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Blissey-3",
+      "species": "Blissey",
+      "setNumber": 3,
+      "item": "Leftovers",
+      "move1": "Toxic",
+      "move2": "Reflect",
+      "move3": "Soft-Boiled",
+      "move4": "Protect",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 173 Atk, 212 Def, 212 SpA, 212 SpD, 173 Spe"
+    },
+    {
+      "setName": "Houndoom-1",
+      "species": "Houndoom",
+      "setNumber": 1,
+      "item": "Charcoal",
+      "move1": "Flamethrower",
+      "move2": "Crunch",
+      "move3": "Shadow Ball",
+      "move4": "Dream Eater",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 212 Spe"
+    },
+    {
+      "setName": "Machamp-1",
+      "species": "Machamp",
+      "setNumber": 1,
+      "item": "Miracle Berry",
+      "move1": "Cross Chop",
+      "move2": "Ice Punch",
+      "move3": "Earthquake",
+      "move4": "Fire Blast",
+      "level": 30,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 11,
+        "spc": 14
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Crobat-1",
+      "species": "Crobat",
+      "setNumber": 1,
+      "item": "Gold Berry",
+      "move1": "Attract",
+      "move2": "Confuse Ray",
+      "move3": "Toxic",
+      "move4": "Wing Attack",
+      "level": 30,
+      "DVs": {
+        "hp": 6,
+        "atk": 14,
+        "def": 15,
+        "spe": 13,
+        "spc": 12
+      },
+      "EVs": "223 HP, 223 Atk, 173 Def, 223 SpA, 223 SpD, 173 Spe"
+    },
+    {
+      "setName": "Porygon2-2",
+      "species": "Porygon2",
+      "setNumber": 2,
+      "item": "Bright Powder",
+      "move1": "Psychic",
+      "move2": "Recover",
+      "move3": "Hyper Beam",
+      "move4": "Tri Attack",
+      "level": 30,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "234 HP, 173 Atk, 200 Def, 173 SpA, 173 SpD, 234 Spe"
+    },
+    {
+      "setName": "Marowak-1",
+      "species": "Marowak",
+      "setNumber": 1,
+      "item": "Thick Club",
+      "move1": "Earthquake",
+      "move2": "Return",
+      "move3": "Hyper Beam",
+      "move4": "Bonemerang",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "212 HP, 223 Atk, 212 Def, 173 SpA, 173 SpD, 223 Spe"
+    },
+    {
+      "setName": "Electrode-1",
+      "species": "Electrode",
+      "setNumber": 1,
+      "item": "Bright Powder",
+      "move1": "Light Screen",
+      "move2": "Thunderbolt",
+      "move3": "Protect",
+      "move4": "Thunder",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "200 HP, 212 Atk, 200 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Lapras-3",
+      "species": "Lapras",
+      "setNumber": 3,
+      "item": "Leftovers",
+      "move1": "Rain Dance",
+      "move2": "Water Gun",
+      "move3": "Icy Wind",
+      "move4": "Strength",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "223 HP, 212 Atk, 187 Def, 173 SpA, 173 SpD, 223 Spe"
+    },
+    {
+      "setName": "Lanturn-1",
+      "species": "Lanturn",
+      "setNumber": 1,
+      "item": "Gold Berry",
+      "move1": "Rain Dance",
+      "move2": "Thunder",
+      "move3": "Surf",
+      "move4": "Flail",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Espeon-2",
+      "species": "Espeon",
+      "setNumber": 2,
+      "item": "Miracle Berry",
+      "move1": "Confusion",
+      "move2": "Swift",
+      "move3": "Toxic",
+      "move4": "Psych Up",
+      "level": 30,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Tentacruel-1",
+      "species": "Tentacruel",
+      "setNumber": 1,
+      "item": "King's Rock",
+      "move1": "Wrap",
+      "move2": "Toxic",
+      "move3": "Sludge Bomb",
+      "move4": "Bubble Beam",
+      "level": 30,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 212 SpA, 212 SpD, 216 Spe"
+    },
+    {
+      "setName": "Gengar-1",
+      "species": "Gengar",
+      "setNumber": 1,
+      "item": "Gold Berry",
+      "move1": "Thief",
+      "move2": "Lick",
+      "move3": "Night Shade",
+      "move4": "Giga Drain",
+      "level": 30,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 7,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Ursaring-1",
+      "species": "Ursaring",
+      "setNumber": 1,
+      "item": "Gold Berry",
+      "move1": "Headbutt",
+      "move2": "Protect",
+      "move3": "Roar",
+      "move4": "Leer",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 7,
+        "def": 7,
+        "spe": 4,
+        "spc": 5
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Fearow-1",
+      "species": "Fearow",
+      "setNumber": 1,
+      "item": "Bright Powder",
+      "move1": "Mirror Move",
+      "move2": "Pursuit",
+      "move3": "Peck",
+      "move4": "Swift",
+      "level": 30,
+      "DVs": {
+        "hp": 7,
+        "atk": 6,
+        "def": 7,
+        "spe": 7,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Primeape-1",
+      "species": "Primeape",
+      "setNumber": 1,
+      "item": "Miracle Berry",
+      "move1": "Low Kick",
+      "move2": "Karate Chop",
+      "move3": "Reversal",
+      "move4": "Focus Energy",
+      "level": 30,
+      "DVs": {
+        "hp": 13,
+        "atk": 7,
+        "def": 7,
+        "spe": 6,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Tauros-3",
+      "species": "Tauros",
+      "setNumber": 3,
+      "item": "Gold Berry",
+      "move1": "Return",
+      "move2": "Hyper Beam",
+      "move3": "Earthquake",
+      "move4": "Iron Tail",
+      "level": 40,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Kingdra-1",
+      "species": "Kingdra",
+      "setNumber": 1,
+      "item": "Leftovers",
+      "move1": "Surf",
+      "move2": "Dragon Breath",
+      "move3": "Hyper Beam",
+      "move4": "Blizzard",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Snorlax-2",
+      "species": "Snorlax",
+      "setNumber": 2,
+      "item": "Quick Claw",
+      "move1": "Attract",
+      "move2": "Body Slam",
+      "move3": "Psych Up",
+      "move4": "Earthquake",
+      "level": 40,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Lapras-4",
+      "species": "Lapras",
+      "setNumber": 4,
+      "item": "Leftovers",
+      "move1": "Thunderbolt",
+      "move2": "Ice Beam",
+      "move3": "Confuse Ray",
+      "move4": "Surf",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Steelix-2",
+      "species": "Steelix",
+      "setNumber": 2,
+      "item": "Gold Berry",
+      "move1": "Sandstorm",
+      "move2": "Iron Tail",
+      "move3": "Earthquake",
+      "move4": "Toxic",
+      "level": 40,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Alakazam-2",
+      "species": "Alakazam",
+      "setNumber": 2,
+      "item": "King's Rock",
+      "move1": "Psychic",
+      "move2": "Thunder Punch",
+      "move3": "Recover",
+      "move4": "Fire Punch",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Starmie-3",
+      "species": "Starmie",
+      "setNumber": 3,
+      "item": "Leftovers",
+      "move1": "Blizzard",
+      "move2": "Thunderbolt",
+      "move3": "Surf",
+      "move4": "Psychic",
+      "level": 40,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 11,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Wobbuffet-2",
+      "species": "Wobbuffet",
+      "setNumber": 2,
+      "item": "Gold Berry",
+      "move1": "Counter",
+      "move2": "Mirror Coat",
+      "move3": "Safeguard",
+      "move4": "Destiny Bond",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 15,
+        "spe": 14,
+        "spc": 7
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Golem-1",
+      "species": "Golem",
+      "setNumber": 1,
+      "item": "Focus Band",
+      "move1": "Explosion",
+      "move2": "Earthquake",
+      "move3": "Mega Punch",
+      "move4": "Rock Slide",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Scizor-2",
+      "species": "Scizor",
+      "setNumber": 2,
+      "item": "Scope Lens",
+      "move1": "Slash",
+      "move2": "Steel Wing",
+      "move3": "Pursuit",
+      "move4": "Hyper Beam",
+      "level": 40,
+      "DVs": {
+        "hp": 14,
+        "atk": 11,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "Dugtrio-2",
+      "species": "Dugtrio",
+      "setNumber": 2,
+      "item": "King's Rock",
+      "move1": "Earthquake",
+      "move2": "Hyper Beam",
+      "move3": "Sludge Bomb",
+      "move4": "Mud-Slap",
+      "level": 40,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 11,
+        "spc": 11
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Slowbro-1",
+      "species": "Slowbro",
+      "setNumber": 1,
+      "item": "Miracle Berry",
+      "move1": "Surf",
+      "move2": "Psychic",
+      "move3": "Earthquake",
+      "move4": "Blizzard",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 15,
+        "spe": 12,
+        "spc": 15
+      },
+      "EVs": "212 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Porygon2-3",
+      "species": "Porygon2",
+      "setNumber": 3,
+      "item": "None",
+      "move1": "Conversion 2",
+      "move2": "Conversion",
+      "move3": "Psybeam",
+      "move4": "Thief",
+      "level": 40,
+      "DVs": {
+        "hp": 9,
+        "atk": 11,
+        "def": 12,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Arcanine-2",
+      "species": "Arcanine",
+      "setNumber": 2,
+      "item": "Charcoal",
+      "move1": "Flame Wheel",
+      "move2": "Leer",
+      "move3": "Body Slam",
+      "move4": "Roar",
+      "level": 40,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 11,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Forretress-1",
+      "species": "Forretress",
+      "setNumber": 1,
+      "item": "Leftovers",
+      "move1": "Rapid Spin",
+      "move2": "Protect",
+      "move3": "Toxic",
+      "move4": "Sandstorm",
+      "level": 40,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 10,
+        "spe": 7,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Omastar-1",
+      "species": "Omastar",
+      "setNumber": 1,
+      "item": "Gold Berry",
+      "move1": "Curse",
+      "move2": "Water Gun",
+      "move3": "Ancient Power",
+      "move4": "Rock Smash",
+      "level": 40,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Charizard-1",
+      "species": "Charizard",
+      "setNumber": 1,
+      "item": "King's Rock",
+      "move1": "Fire Spin",
+      "move2": "Dragon Rage",
+      "move3": "Fly",
+      "move4": "Slash",
+      "level": 40,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Exeggutor-3",
+      "species": "Exeggutor",
+      "setNumber": 3,
+      "item": "Bright Powder",
+      "move1": "Egg Bomb",
+      "move2": "Stomp",
+      "move3": "Psych Up",
+      "move4": "Confusion",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 7,
+        "spe": 14,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Hypno-1",
+      "species": "Hypno",
+      "setNumber": 1,
+      "item": "Bright Powder",
+      "move1": "Confusion",
+      "move2": "Thunder Punch",
+      "move3": "Headbutt",
+      "move4": "Disable",
+      "level": 40,
+      "DVs": {
+        "hp": 14,
+        "atk": 7,
+        "def": 7,
+        "spe": 7,
+        "spc": 10
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Muk-1",
+      "species": "Muk",
+      "setNumber": 1,
+      "item": "Quick Claw",
+      "move1": "Screech",
+      "move2": "Toxic",
+      "move3": "Sludge",
+      "move4": "Harden",
+      "level": 40,
+      "DVs": {
+        "hp": 13,
+        "atk": 7,
+        "def": 5,
+        "spe": 6,
+        "spc": 11
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Electabuzz-1",
+      "species": "Electabuzz",
+      "setNumber": 1,
+      "item": "King's Rock",
+      "move1": "Light Screen",
+      "move2": "Thunder Punch",
+      "move3": "Swift",
+      "move4": "Snore",
+      "level": 40,
+      "DVs": {
+        "hp": 7,
+        "atk": 6,
+        "def": 5,
+        "spe": 7,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Kingdra-2",
+      "species": "Kingdra",
+      "setNumber": 2,
+      "item": "Gold Berry",
+      "move1": "Surf",
+      "move2": "Hyper Beam",
+      "move3": "Blizzard",
+      "move4": "Dragon Breath",
+      "level": 50,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "234 HP, 234 Atk, 244 Def, 234 SpA, 234 SpD, 223 Spe"
+    },
+    {
+      "setName": "Houndoom-2",
+      "species": "Houndoom",
+      "setNumber": 2,
+      "item": "Miracle Berry",
+      "move1": "Rest",
+      "move2": "Crunch",
+      "move3": "Dream Eater",
+      "move4": "Flamethrower",
+      "level": 50,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 12
+      },
+      "EVs": "234 HP, 223 Atk, 244 Def, 244 SpA, 244 SpD, 244 Spe"
+    },
+    {
+      "setName": "Shuckle-1",
+      "species": "Shuckle",
+      "setNumber": 1,
+      "item": "Leftovers",
+      "move1": "Sandstorm",
+      "move2": "Rest",
+      "move3": "Toxic",
+      "move4": "Wrap",
+      "level": 50,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 12,
+        "spc": 15
+      },
+      "EVs": "244 HP, 244 Atk, 244 Def, 234 SpA, 234 SpD, 244 Spe"
+    },
+    {
+      "setName": "Snorlax-3",
+      "species": "Snorlax",
+      "setNumber": 3,
+      "item": "Leftovers",
+      "move1": "Hyper Beam",
+      "move2": "Earthquake",
+      "move3": "Surf",
+      "move4": "Psych Up",
+      "level": 50,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "244 HP, 234 Atk, 234 Def, 234 SpA, 234 SpD, 244 Spe"
+    },
+    {
+      "setName": "Lapras-5",
+      "species": "Lapras",
+      "setNumber": 5,
+      "item": "Gold Berry",
+      "move1": "Thunderbolt",
+      "move2": "Surf",
+      "move3": "Confuse Ray",
+      "move4": "Blizzard",
+      "level": 50,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "234 HP, 244 Atk, 244 Def, 244 SpA, 244 SpD, 234 Spe"
+    },
+    {
+      "setName": "Jolteon-3",
+      "species": "Jolteon",
+      "setNumber": 3,
+      "item": "King's Rock",
+      "move1": "Thunderbolt",
+      "move2": "Thunder Wave",
+      "move3": "Shadow Ball",
+      "move4": "Hidden Power Water",
+      "level": 50,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 13,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "234 HP, 244 Atk, 238 Def, 234 SpA, 234 SpD, 234 Spe"
+    },
+    {
+      "setName": "Scizor-3",
+      "species": "Scizor",
+      "setNumber": 3,
+      "item": "Leftovers",
+      "move1": "Hyper Beam",
+      "move2": "Slash",
+      "move3": "Agility",
+      "move4": "Metal Claw",
+      "level": 50,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 15,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Slowking-1",
+      "species": "Slowking",
+      "setNumber": 1,
+      "item": "Mint Berry",
+      "move1": "Rest",
+      "move2": "Surf",
+      "move3": "Psychic",
+      "move4": "Amnesia",
+      "level": 50,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 200 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Machamp-2",
+      "species": "Machamp",
+      "setNumber": 2,
+      "item": "Gold Berry",
+      "move1": "Cross Chop",
+      "move2": "Earthquake",
+      "move3": "Fire Blast",
+      "move4": "Thunder Punch",
+      "level": 50,
+      "DVs": {
+        "hp": 12,
+        "atk": 15,
+        "def": 15,
+        "spe": 14,
+        "spc": 12
+      },
+      "EVs": "200 HP, 212 Atk, 223 Def, 209 SpA, 209 SpD, 200 Spe"
+    },
+    {
+      "setName": "Starmie-4",
+      "species": "Starmie",
+      "setNumber": 4,
+      "item": "Scope Lens",
+      "move1": "Thunder Wave",
+      "move2": "Recover",
+      "move3": "Thunderbolt",
+      "move4": "Surf",
+      "level": 50,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 15,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "212 HP, 209 Atk, 200 Def, 200 SpA, 200 SpD, 212 Spe"
+    },
+    {
+      "setName": "Dugtrio-3",
+      "species": "Dugtrio",
+      "setNumber": 3,
+      "item": "King's Rock",
+      "move1": "Earthquake",
+      "move2": "Slash",
+      "move3": "Hyper Beam",
+      "move4": "Sludge Bomb",
+      "level": 50,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 7,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "212 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Electrode-2",
+      "species": "Electrode",
+      "setNumber": 2,
+      "item": "Miracle Berry",
+      "move1": "Thunderbolt",
+      "move2": "Explosion",
+      "move3": "Mirror Coat",
+      "move4": "Rest",
+      "level": 50,
+      "DVs": {
+        "hp": 14,
+        "atk": 7,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 212 Atk, 232 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "Aerodactyl-3",
+      "species": "Aerodactyl",
+      "setNumber": 3,
+      "item": "King's Rock",
+      "move1": "Hyper Beam",
+      "move2": "Earthquake",
+      "move3": "Fire Blast",
+      "move4": "Iron Tail",
+      "level": 50,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 212 Spe"
+    },
+    {
+      "setName": "Crobat-2",
+      "species": "Crobat",
+      "setNumber": 2,
+      "item": "Leftovers",
+      "move1": "Confuse Ray",
+      "move2": "Attract",
+      "move3": "Hyper Beam",
+      "move4": "Toxic",
+      "level": 50,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 15,
+        "spc": 15
+      },
+      "EVs": "212 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "Zapdos-1",
+      "species": "Zapdos",
+      "setNumber": 1,
+      "item": "Miracle Berry",
+      "move1": "Drill Peck",
+      "move2": "Thunderbolt",
+      "move3": "Thunder Wave",
+      "move4": "Hyper Beam",
+      "level": 50,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "212 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "Skarmory-1",
+      "species": "Skarmory",
+      "setNumber": 1,
+      "item": "Gold Berry",
+      "move1": "Sandstorm",
+      "move2": "Fly",
+      "move3": "Steel Wing",
+      "move4": "Toxic",
+      "level": 50,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 7,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 200 SpA, 200 SpD, 223 Spe"
+    },
+    {
+      "setName": "Forretress-2",
+      "species": "Forretress",
+      "setNumber": 2,
+      "item": "Leftovers",
+      "move1": "Sandstorm",
+      "move2": "Toxic",
+      "move3": "Explosion",
+      "move4": "Swagger",
+      "level": 50,
+      "DVs": {
+        "hp": 7,
+        "atk": 12,
+        "def": 15,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 234 Def, 200 SpA, 200 SpD, 212 Spe"
+    },
+    {
+      "setName": "Steelix-3",
+      "species": "Steelix",
+      "setNumber": 3,
+      "item": "Miracle Berry",
+      "move1": "Sandstorm",
+      "move2": "Iron Tail",
+      "move3": "Rest",
+      "move4": "Earthquake",
+      "level": 50,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 200 Spe"
+    },
+    {
+      "setName": "Girafarig-2",
+      "species": "Girafarig",
+      "setNumber": 2,
+      "item": "Scope Lens",
+      "move1": "Dream Eater",
+      "move2": "Crunch",
+      "move3": "Psychic",
+      "move4": "Earthquake",
+      "level": 50,
+      "DVs": {
+        "hp": 6,
+        "atk": 4,
+        "def": 5,
+        "spe": 5,
+        "spc": 6
+      },
+      "EVs": "200 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "Gyarados-2",
+      "species": "Gyarados",
+      "setNumber": 2,
+      "item": "Miracle Berry",
+      "move1": "Hyper Beam",
+      "move2": "Surf",
+      "move3": "Rain Dance",
+      "move4": "Zap Cannon",
+      "level": 50,
+      "DVs": {
+        "hp": 13,
+        "atk": 7,
+        "def": 5,
+        "spe": 6,
+        "spc": 5
+      },
+      "EVs": "200 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "Articuno-1",
+      "species": "Articuno",
+      "setNumber": 1,
+      "item": "Gold Berry",
+      "move1": "Blizzard",
+      "move2": "Hyper Beam",
+      "move3": "Roar",
+      "move4": "Icy Wind",
+      "level": 50,
+      "DVs": {
+        "hp": 6,
+        "atk": 4,
+        "def": 5,
+        "spe": 5,
+        "spc": 6
+      },
+      "EVs": "200 HP, 200 Atk, 200 Def, 200 SpA, 200 SpD, 200 Spe"
+    },
+    {
+      "setName": "Kingdra-3",
+      "species": "Kingdra",
+      "setNumber": 3,
+      "item": "Leftovers",
+      "move1": "Dragon Breath",
+      "move2": "Surf",
+      "move3": "Hyper Beam",
+      "move4": "Blizzard",
+      "level": 60,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "234 HP, 234 Atk, 223 Def, 244 SpA, 244 SpD, 244 Spe"
+    },
+    {
+      "setName": "Tyranitar-1",
+      "species": "Tyranitar",
+      "setNumber": 1,
+      "item": "Gold Berry",
+      "move1": "Crunch",
+      "move2": "Earthquake",
+      "move3": "Rock Slide",
+      "move4": "Hyper Beam",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "234 HP, 244 Atk, 234 Def, 234 SpA, 234 SpD, 244 Spe"
+    },
+    {
+      "setName": "Houndoom-3",
+      "species": "Houndoom",
+      "setNumber": 3,
+      "item": "Miracle Berry",
+      "move1": "Flamethrower",
+      "move2": "Crunch",
+      "move3": "Dream Eater",
+      "move4": "Rest",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "244 HP, 234 Atk, 234 Def, 234 SpA, 234 SpD, 244 Spe"
+    },
+    {
+      "setName": "Porygon2-4",
+      "species": "Porygon2",
+      "setNumber": 4,
+      "item": "Leftovers",
+      "move1": "Blizzard",
+      "move2": "Recover",
+      "move3": "Toxic",
+      "move4": "Psychic",
+      "level": 60,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 13,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "234 HP, 223 Atk, 223 Def, 234 SpA, 234 SpD, 223 Spe"
+    },
+    {
+      "setName": "Machamp-3",
+      "species": "Machamp",
+      "setNumber": 3,
+      "item": "Quick Claw",
+      "move1": "Fire Punch",
+      "move2": "Cross Chop",
+      "move3": "Thunder Punch",
+      "move4": "Earthquake",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Zapdos-2",
+      "species": "Zapdos",
+      "setNumber": 2,
+      "item": "Mint Berry",
+      "move1": "Rest",
+      "move2": "Drill Peck",
+      "move3": "Thunderbolt",
+      "move4": "Thunder Wave",
+      "level": 60,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Wobbuffet-3",
+      "species": "Wobbuffet",
+      "setNumber": 3,
+      "item": "Gold Berry",
+      "move1": "Counter",
+      "move2": "Mirror Coat",
+      "move3": "Destiny Bond",
+      "move4": "Safeguard",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Aerodactyl-4",
+      "species": "Aerodactyl",
+      "setNumber": 4,
+      "item": "Leftovers",
+      "move1": "Hyper Beam",
+      "move2": "Supersonic",
+      "move3": "Earthquake",
+      "move4": "Bite",
+      "level": 60,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 212 Spe"
+    },
+    {
+      "setName": "Dragonite-1",
+      "species": "Dragonite",
+      "setNumber": 1,
+      "item": "Miracle Berry",
+      "move1": "Hyper Beam",
+      "move2": "Icy Wind",
+      "move3": "Thunderbolt",
+      "move4": "Surf",
+      "level": 60,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Umbreon-3",
+      "species": "Umbreon",
+      "setNumber": 3,
+      "item": "Gold Berry",
+      "move1": "Mud-Slap",
+      "move2": "Moonlight",
+      "move3": "Psychic",
+      "move4": "Feint Attack",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Arcanine-3",
+      "species": "Arcanine",
+      "setNumber": 3,
+      "item": "Charcoal",
+      "move1": "Flamethrower",
+      "move2": "Crunch",
+      "move3": "Extreme Speed",
+      "move4": "Iron Tail",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "234 HP, 223 Atk, 200 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Skarmory-2",
+      "species": "Skarmory",
+      "setNumber": 2,
+      "item": "Miracle Berry",
+      "move1": "Steel Wing",
+      "move2": "Fly",
+      "move3": "Toxic",
+      "move4": "Protect",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Blissey-4",
+      "species": "Blissey",
+      "setNumber": 4,
+      "item": "Leftovers",
+      "move1": "Soft-Boiled",
+      "move2": "Toxic",
+      "move3": "Protect",
+      "move4": "Psychic",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 12,
+        "spc": 13
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Snorlax-4",
+      "species": "Snorlax",
+      "setNumber": 4,
+      "item": "Pink Bow",
+      "move1": "Rock Slide",
+      "move2": "Surf",
+      "move3": "Body Slam",
+      "move4": "Earthquake",
+      "level": 60,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 10,
+        "spe": 15,
+        "spc": 12
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Heracross-3",
+      "species": "Heracross",
+      "setNumber": 3,
+      "item": "Focus Band",
+      "move1": "Reversal",
+      "move2": "Megahorn",
+      "move3": "Earthquake",
+      "move4": "Counter",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 15,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Jynx-2",
+      "species": "Jynx",
+      "setNumber": 2,
+      "item": "Miracle Berry",
+      "move1": "Blizzard",
+      "move2": "Psychic",
+      "move3": "Shadow Ball",
+      "move4": "Icy Wind",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 15,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Blastoise-1",
+      "species": "Blastoise",
+      "setNumber": 1,
+      "item": "Gold Berry",
+      "move1": "Surf",
+      "move2": "Earthquake",
+      "move3": "Rapid Spin",
+      "move4": "Blizzard",
+      "level": 60,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Rhydon-1",
+      "species": "Rhydon",
+      "setNumber": 1,
+      "item": "Quick Claw",
+      "move1": "Earthquake",
+      "move2": "Surf",
+      "move3": "Iron Tail",
+      "move4": "Rock Slide",
+      "level": 60,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 11,
+        "spe": 15,
+        "spc": 10
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Sandslash-1",
+      "species": "Sandslash",
+      "setNumber": 1,
+      "item": "Scope Lens",
+      "move1": "Earthquake",
+      "move2": "Slash",
+      "move3": "Hyper Beam",
+      "move4": "Snore",
+      "level": 60,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 7,
+        "spe": 6,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Parasect-1",
+      "species": "Parasect",
+      "setNumber": 1,
+      "item": "Gold Berry",
+      "move1": "Spore",
+      "move2": "Giga Drain",
+      "move3": "Hyper Beam",
+      "move4": "Sludge Bomb",
+      "level": 60,
+      "DVs": {
+        "hp": 3,
+        "atk": 6,
+        "def": 6,
+        "spe": 5,
+        "spc": 15
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Golem-2",
+      "species": "Golem",
+      "setNumber": 2,
+      "item": "Bright Powder",
+      "move1": "Explosion",
+      "move2": "Earthquake",
+      "move3": "Fire Punch",
+      "move4": "Frustration",
+      "level": 60,
+      "DVs": {
+        "hp": 11,
+        "atk": 7,
+        "def": 6,
+        "spe": 5,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Jolteon-4",
+      "species": "Jolteon",
+      "setNumber": 4,
+      "item": "Miracle Berry",
+      "move1": "Thunderbolt",
+      "move2": "Hyper Beam",
+      "move3": "Shadow Ball",
+      "move4": "Roar",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "244 HP, 236 Atk, 234 Def, 244 SpA, 244 SpD, 223 Spe"
+    },
+    {
+      "setName": "Vaporeon-1",
+      "species": "Vaporeon",
+      "setNumber": 1,
+      "item": "Leftovers",
+      "move1": "Blizzard",
+      "move2": "Shadow Ball",
+      "move3": "Surf",
+      "move4": "Mud-Slap",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 15,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 244 Def, 223 SpA, 223 SpD, 244 Spe"
+    },
+    {
+      "setName": "Umbreon-4",
+      "species": "Umbreon",
+      "setNumber": 4,
+      "item": "Gold Berry",
+      "move1": "Feint Attack",
+      "move2": "Moonlight",
+      "move3": "Psych Up",
+      "move4": "Toxic",
+      "level": 70,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "232 HP, 244 Atk, 234 Def, 240 SpA, 240 SpD, 223 Spe"
+    },
+    {
+      "setName": "Blissey-5",
+      "species": "Blissey",
+      "setNumber": 5,
+      "item": "Gold Berry",
+      "move1": "Counter",
+      "move2": "Soft-Boiled",
+      "move3": "Shadow Ball",
+      "move4": "Thunderbolt",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 15,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "234 HP, 234 Atk, 234 Def, 223 SpA, 223 SpD, 240 Spe"
+    },
+    {
+      "setName": "Snorlax-5",
+      "species": "Snorlax",
+      "setNumber": 5,
+      "item": "Leftovers",
+      "move1": "Rock Slide",
+      "move2": "Earthquake",
+      "move3": "Blizzard",
+      "move4": "Shadow Ball",
+      "level": 70,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "234 HP, 234 Atk, 244 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Houndoom-4",
+      "species": "Houndoom",
+      "setNumber": 4,
+      "item": "King's Rock",
+      "move1": "Crunch",
+      "move2": "Flamethrower",
+      "move3": "Feint Attack",
+      "move4": "Roar",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 12,
+        "spc": 13
+      },
+      "EVs": "240 HP, 223 Atk, 234 Def, 234 SpA, 234 SpD, 244 Spe"
+    },
+    {
+      "setName": "Tyranitar-2",
+      "species": "Tyranitar",
+      "setNumber": 2,
+      "item": "Leftovers",
+      "move1": "Earthquake",
+      "move2": "Crunch",
+      "move3": "Rock Slide",
+      "move4": "Hyper Beam",
+      "level": 70,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 11,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "223 HP, 212 Atk, 212 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Zapdos-3",
+      "species": "Zapdos",
+      "setNumber": 3,
+      "item": "Gold Berry",
+      "move1": "Thunderbolt",
+      "move2": "Drill Peck",
+      "move3": "Thunder Wave",
+      "move4": "Hyper Beam",
+      "level": 70,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 11,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 212 Spe"
+    },
+    {
+      "setName": "Exeggutor-4",
+      "species": "Exeggutor",
+      "setNumber": 4,
+      "item": "Miracle Berry",
+      "move1": "Rest",
+      "move2": "Explosion",
+      "move3": "Psychic",
+      "move4": "Giga Drain",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Umbreon-5",
+      "species": "Umbreon",
+      "setNumber": 5,
+      "item": "Gold Berry",
+      "move1": "Moonlight",
+      "move2": "Feint Attack",
+      "move3": "Psychic",
+      "move4": "Shadow Ball",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Gyarados-3",
+      "species": "Gyarados",
+      "setNumber": 3,
+      "item": "Bright Powder",
+      "move1": "Surf",
+      "move2": "Thunderbolt",
+      "move3": "Hyper Beam",
+      "move4": "Roar",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 11,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "234 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Quagsire-2",
+      "species": "Quagsire",
+      "setNumber": 2,
+      "item": "Miracle Berry",
+      "move1": "Earthquake",
+      "move2": "Surf",
+      "move3": "Sludge Bomb",
+      "move4": "Iron Tail",
+      "level": 70,
+      "DVs": {
+        "hp": 11,
+        "atk": 13,
+        "def": 14,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Ursaring-2",
+      "species": "Ursaring",
+      "setNumber": 2,
+      "item": "Scope Lens",
+      "move1": "Slash",
+      "move2": "Earthquake",
+      "move3": "Hyper Beam",
+      "move4": "Thunder Punch",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Mr. Mime-2",
+      "species": "Mr. Mime",
+      "setNumber": 2,
+      "item": "King's Rock",
+      "move1": "Reflect",
+      "move2": "Fire Punch",
+      "move3": "Psychic",
+      "move4": "Encore",
+      "level": 70,
+      "DVs": {
+        "hp": 15,
+        "atk": 11,
+        "def": 13,
+        "spe": 15,
+        "spc": 11
+      },
+      "EVs": "223 HP, 212 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Primeape-2",
+      "species": "Primeape",
+      "setNumber": 2,
+      "item": "Quick Claw",
+      "move1": "Cross Chop",
+      "move2": "Ice Punch",
+      "move3": "Thunder Punch",
+      "move4": "Rock Slide",
+      "level": 70,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Girafarig-3",
+      "species": "Girafarig",
+      "setNumber": 3,
+      "item": "Gold Berry",
+      "move1": "Agility",
+      "move2": "Baton Pass",
+      "move3": "Crunch",
+      "move4": "Earthquake",
+      "level": 70,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Hitmonlee-1",
+      "species": "Hitmonlee",
+      "setNumber": 1,
+      "item": "Focus Band",
+      "move1": "Reversal",
+      "move2": "Endure",
+      "move3": "Body Slam",
+      "move4": "Mega Kick",
+      "level": 70,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Heracross-4",
+      "species": "Heracross",
+      "setNumber": 4,
+      "item": "Bright Powder",
+      "move1": "Reversal",
+      "move2": "Endure",
+      "move3": "Megahorn",
+      "move4": "Earthquake",
+      "level": 70,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 7,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Venusaur-1",
+      "species": "Venusaur",
+      "setNumber": 1,
+      "item": "Bright Powder",
+      "move1": "Sunny Day",
+      "move2": "Solar Beam",
+      "move3": "Synthesis",
+      "move4": "Hyper Beam",
+      "level": 70,
+      "DVs": {
+        "hp": 8,
+        "atk": 7,
+        "def": 6,
+        "spe": 4,
+        "spc": 4
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Charizard-2",
+      "species": "Charizard",
+      "setNumber": 2,
+      "item": "Scope Lens",
+      "move1": "Slash",
+      "move2": "Earthquake",
+      "move3": "Hyper Beam",
+      "move4": "Flamethrower",
+      "level": 70,
+      "DVs": {
+        "hp": 8,
+        "atk": 5,
+        "def": 6,
+        "spe": 4,
+        "spc": 4
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Blastoise-2",
+      "species": "Blastoise",
+      "setNumber": 2,
+      "item": "Quick Claw",
+      "move1": "Hydro Pump",
+      "move2": "Ice Punch",
+      "move3": "Hyper Beam",
+      "move4": "Iron Tail",
+      "level": 70,
+      "DVs": {
+        "hp": 8,
+        "atk": 7,
+        "def": 6,
+        "spe": 6,
+        "spc": 4
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Jolteon-5",
+      "species": "Jolteon",
+      "setNumber": 5,
+      "item": "Miracle Berry",
+      "move1": "Thunder Wave",
+      "move2": "Thunderbolt",
+      "move3": "Iron Tail",
+      "move4": "Roar",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 11
+      },
+      "EVs": "244 HP, 234 Atk, 244 Def, 234 SpA, 234 SpD, 234 Spe"
+    },
+    {
+      "setName": "Snorlax-6",
+      "species": "Snorlax",
+      "setNumber": 6,
+      "item": "Leftovers",
+      "move1": "Rest",
+      "move2": "Belly Drum",
+      "move3": "Snore",
+      "move4": "Earthquake",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 11,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "244 HP, 234 Atk, 223 Def, 244 SpA, 244 SpD, 235 Spe"
+    },
+    {
+      "setName": "Houndoom-5",
+      "species": "Houndoom",
+      "setNumber": 5,
+      "item": "Mint Berry",
+      "move1": "Rest",
+      "move2": "Crunch",
+      "move3": "Flamethrower",
+      "move4": "Sunny Day",
+      "level": 80,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "234 HP, 223 Atk, 234 Def, 234 SpA, 234 SpD, 234 Spe"
+    },
+    {
+      "setName": "Tauros-4",
+      "species": "Tauros",
+      "setNumber": 4,
+      "item": "Gold Berry",
+      "move1": "Earthquake",
+      "move2": "Body Slam",
+      "move3": "Iron Tail",
+      "move4": "Hyper Beam",
+      "level": 80,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 173 Spe"
+    },
+    {
+      "setName": "Lapras-6",
+      "species": "Lapras",
+      "setNumber": 6,
+      "item": "Mint Berry",
+      "move1": "Rest",
+      "move2": "Surf",
+      "move3": "Confuse Ray",
+      "move4": "Psychic",
+      "level": 80,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Tyranitar-3",
+      "species": "Tyranitar",
+      "setNumber": 3,
+      "item": "Miracle Berry",
+      "move1": "Rest",
+      "move2": "Crunch",
+      "move3": "Earthquake",
+      "move4": "Rock Slide",
+      "level": 80,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 11
+      },
+      "EVs": "223 HP, 234 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Gengar-2",
+      "species": "Gengar",
+      "setNumber": 2,
+      "item": "None",
+      "move1": "Thunderbolt",
+      "move2": "Shadow Ball",
+      "move3": "Confuse Ray",
+      "move4": "Thief",
+      "level": 80,
+      "DVs": {
+        "hp": 11,
+        "atk": 13,
+        "def": 14,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Forretress-3",
+      "species": "Forretress",
+      "setNumber": 3,
+      "item": "Leftovers",
+      "move1": "Explosion",
+      "move2": "Toxic",
+      "move3": "Solar Beam",
+      "move4": "Swagger",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Kingdra-4",
+      "species": "Kingdra",
+      "setNumber": 4,
+      "item": "Mint Berry",
+      "move1": "Rest",
+      "move2": "Surf",
+      "move3": "Blizzard",
+      "move4": "Dragon Breath",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 200 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Dragonite-2",
+      "species": "Dragonite",
+      "setNumber": 2,
+      "item": "Gold Berry",
+      "move1": "Thunder Wave",
+      "move2": "Surf",
+      "move3": "Thunderbolt",
+      "move4": "Outrage",
+      "level": 80,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Porygon2-5",
+      "species": "Porygon2",
+      "setNumber": 5,
+      "item": "Leftovers",
+      "move1": "Psychic",
+      "move2": "Recover",
+      "move3": "Hyper Beam",
+      "move4": "Tri Attack",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 15,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "234 HP, 223 Atk, 200 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Jynx-3",
+      "species": "Jynx",
+      "setNumber": 3,
+      "item": "Quick Claw",
+      "move1": "Lovely Kiss",
+      "move2": "Blizzard",
+      "move3": "Dream Eater",
+      "move4": "Psychic",
+      "level": 80,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "234 HP, 223 Atk, 212 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Mantine-1",
+      "species": "Mantine",
+      "setNumber": 1,
+      "item": "Gold Berry",
+      "move1": "Surf",
+      "move2": "Confuse Ray",
+      "move3": "Blizzard",
+      "move4": "Wing Attack",
+      "level": 80,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 12
+      },
+      "EVs": "200 HP, 212 Atk, 200 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Skarmory-3",
+      "species": "Skarmory",
+      "setNumber": 3,
+      "item": "Quick Claw",
+      "move1": "Steel Wing",
+      "move2": "Fly",
+      "move3": "Mud-Slap",
+      "move4": "Toxic",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 212 Atk, 187 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Moltres-1",
+      "species": "Moltres",
+      "setNumber": 1,
+      "item": "Charcoal",
+      "move1": "Flamethrower",
+      "move2": "Sky Attack",
+      "move3": "Steel Wing",
+      "move4": "Hyper Beam",
+      "level": 80,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "Aerodactyl-5",
+      "species": "Aerodactyl",
+      "setNumber": 5,
+      "item": "Miracle Berry",
+      "move1": "Hyper Beam",
+      "move2": "Rest",
+      "move3": "Earthquake",
+      "move4": "Roar",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 15,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "Electrode-3",
+      "species": "Electrode",
+      "setNumber": 3,
+      "item": "King's Rock",
+      "move1": "Thunderbolt",
+      "move2": "Explosion",
+      "move3": "Mirror Coat",
+      "move4": "Toxic",
+      "level": 80,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 15,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 200 Def, 223 SpA, 223 SpD, 200 Spe"
+    },
+    {
+      "setName": "Dugtrio-4",
+      "species": "Dugtrio",
+      "setNumber": 4,
+      "item": "Scope Lens",
+      "move1": "Slash",
+      "move2": "Earthquake",
+      "move3": "Thief",
+      "move4": "Mud-Slap",
+      "level": 80,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "223 HP, 223 Atk, 200 Def, 200 SpA, 200 SpD, 223 Spe"
+    },
+    {
+      "setName": "Victreebel-1",
+      "species": "Victreebel",
+      "setNumber": 1,
+      "item": "Quick Claw",
+      "move1": "Giga Drain",
+      "move2": "Sludge Bomb",
+      "move3": "Hyper Beam",
+      "move4": "Toxic",
+      "level": 80,
+      "DVs": {
+        "hp": 5,
+        "atk": 6,
+        "def": 5,
+        "spe": 6,
+        "spc": 5
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Pinsir-1",
+      "species": "Pinsir",
+      "setNumber": 1,
+      "item": "Gold Berry",
+      "move1": "Hyper Beam",
+      "move2": "Submission",
+      "move3": "Strength",
+      "move4": "Toxic",
+      "level": 80,
+      "DVs": {
+        "hp": 8,
+        "atk": 7,
+        "def": 4,
+        "spe": 6,
+        "spc": 4
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Granbull-1",
+      "species": "Granbull",
+      "setNumber": 1,
+      "item": "Bright Powder",
+      "move1": "Roar",
+      "move2": "Shadow Ball",
+      "move3": "Hyper Beam",
+      "move4": "Thunder Punch",
+      "level": 80,
+      "DVs": {
+        "hp": 11,
+        "atk": 7,
+        "def": 6,
+        "spe": 5,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Umbreon-6",
+      "species": "Umbreon",
+      "setNumber": 6,
+      "item": "King's Rock",
+      "move1": "Feint Attack",
+      "move2": "Mud-Slap",
+      "move3": "Moonlight",
+      "move4": "Confuse Ray",
+      "level": 90,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "244 HP, 244 Atk, 234 Def, 234 SpA, 234 SpD, 244 Spe"
+    },
+    {
+      "setName": "Dragonite-3",
+      "species": "Dragonite",
+      "setNumber": 3,
+      "item": "Quick Claw",
+      "move1": "Fire Blast",
+      "move2": "Hyper Beam",
+      "move3": "Outrage",
+      "move4": "Blizzard",
+      "level": 90,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "252 HP, 223 Atk, 236 Def, 244 SpA, 244 SpD, 244 Spe"
+    },
+    {
+      "setName": "Starmie-5",
+      "species": "Starmie",
+      "setNumber": 5,
+      "item": "Leftovers",
+      "move1": "Recover",
+      "move2": "Thunderbolt",
+      "move3": "Surf",
+      "move4": "Psychic",
+      "level": 90,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 13
+      },
+      "EVs": "244 HP, 244 Atk, 244 Def, 244 SpA, 244 SpD, 234 Spe"
+    },
+    {
+      "setName": "Cloyster-1",
+      "species": "Cloyster",
+      "setNumber": 1,
+      "item": "Leftovers",
+      "move1": "Explosion",
+      "move2": "Blizzard",
+      "move3": "Surf",
+      "move4": "Icy Wind",
+      "level": 90,
+      "DVs": {
+        "hp": 15,
+        "atk": 13,
+        "def": 11,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Crobat-3",
+      "species": "Crobat",
+      "setNumber": 3,
+      "item": "Gold Berry",
+      "move1": "Wing Attack",
+      "move2": "Haze",
+      "move3": "Hyper Beam",
+      "move4": "Giga Drain",
+      "level": 90,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 12,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Porygon2-6",
+      "species": "Porygon2",
+      "setNumber": 6,
+      "item": "Quick Claw",
+      "move1": "Toxic",
+      "move2": "Psychic",
+      "move3": "Recover",
+      "move4": "Protect",
+      "level": 90,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Kingdra-5",
+      "species": "Kingdra",
+      "setNumber": 5,
+      "item": "Leftovers",
+      "move1": "Dragon Breath",
+      "move2": "Surf",
+      "move3": "Hyper Beam",
+      "move4": "Blizzard",
+      "level": 90,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 234 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Tyranitar-4",
+      "species": "Tyranitar",
+      "setNumber": 4,
+      "item": "Quick Claw",
+      "move1": "Hyper Beam",
+      "move2": "Crunch",
+      "move3": "Earthquake",
+      "move4": "Rock Slide",
+      "level": 90,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 234 Atk, 223 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Lapras-7",
+      "species": "Lapras",
+      "setNumber": 7,
+      "item": "Mint Berry",
+      "move1": "Rest",
+      "move2": "Surf",
+      "move3": "Thunderbolt",
+      "move4": "Psychic",
+      "level": 90,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 234 SpA, 234 SpD, 223 Spe"
+    },
+    {
+      "setName": "Espeon-3",
+      "species": "Espeon",
+      "setNumber": 3,
+      "item": "Gold Berry",
+      "move1": "Psychic",
+      "move2": "Shadow Ball",
+      "move3": "Sunny Day",
+      "move4": "Morning Sun",
+      "level": 90,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "234 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Machamp-4",
+      "species": "Machamp",
+      "setNumber": 4,
+      "item": "Quick Claw",
+      "move1": "Cross Chop",
+      "move2": "Vital Throw",
+      "move3": "Fire Blast",
+      "move4": "Earthquake",
+      "level": 90,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "234 HP, 234 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Snorlax-7",
+      "species": "Snorlax",
+      "setNumber": 7,
+      "item": "Miracle Berry",
+      "move1": "Fire Blast",
+      "move2": "Surf",
+      "move3": "Earthquake",
+      "move4": "Hyper Beam",
+      "level": 90,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 13
+      },
+      "EVs": "212 HP, 223 Atk, 234 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Arcanine-4",
+      "species": "Arcanine",
+      "setNumber": 4,
+      "item": "Mint Berry",
+      "move1": "Sunny Day",
+      "move2": "Flamethrower",
+      "move3": "Extreme Speed",
+      "move4": "Rest",
+      "level": 90,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 234 SpA, 234 SpD, 212 Spe"
+    },
+    {
+      "setName": "Blissey-6",
+      "species": "Blissey",
+      "setNumber": 6,
+      "item": "Leftovers",
+      "move1": "Solar Beam",
+      "move2": "Sunny Day",
+      "move3": "Soft-Boiled",
+      "move4": "Fire Blast",
+      "level": 90,
+      "DVs": {
+        "hp": 14,
+        "atk": 11,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 212 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Houndoom-6",
+      "species": "Houndoom",
+      "setNumber": 6,
+      "item": "Bright Powder",
+      "move1": "Flamethrower",
+      "move2": "Crunch",
+      "move3": "Sunny Day",
+      "move4": "Solar Beam",
+      "level": 90,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 11,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Skarmory-4",
+      "species": "Skarmory",
+      "setNumber": 4,
+      "item": "Quick Claw",
+      "move1": "Sandstorm",
+      "move2": "Steel Wing",
+      "move3": "Toxic",
+      "move4": "Return",
+      "level": 90,
+      "DVs": {
+        "hp": 7,
+        "atk": 14,
+        "def": 15,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Shuckle-2",
+      "species": "Shuckle",
+      "setNumber": 2,
+      "item": "Leftovers",
+      "move1": "Toxic",
+      "move2": "Wrap",
+      "move3": "Protect",
+      "move4": "Encore",
+      "level": 90,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Flareon-1",
+      "species": "Flareon",
+      "setNumber": 1,
+      "item": "Mint Berry",
+      "move1": "Hyper Beam",
+      "move2": "Flamethrower",
+      "move3": "Shadow Ball",
+      "move4": "Roar",
+      "level": 90,
+      "DVs": {
+        "hp": 15,
+        "atk": 15,
+        "def": 7,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Miltank-3",
+      "species": "Miltank",
+      "setNumber": 3,
+      "item": "Leftovers",
+      "move1": "Milk Drink",
+      "move2": "Earthquake",
+      "move3": "Attract",
+      "move4": "Body Slam",
+      "level": 90,
+      "DVs": {
+        "hp": 7,
+        "atk": 4,
+        "def": 7,
+        "spe": 5,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Tauros-5",
+      "species": "Tauros",
+      "setNumber": 5,
+      "item": "Pink Bow",
+      "move1": "Thunderbolt",
+      "move2": "Hyper Beam",
+      "move3": "Attract",
+      "move4": "Earthquake",
+      "level": 90,
+      "DVs": {
+        "hp": 6,
+        "atk": 6,
+        "def": 5,
+        "spe": 7,
+        "spc": 6
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Muk-2",
+      "species": "Muk",
+      "setNumber": 2,
+      "item": "Quick Claw",
+      "move1": "Toxic",
+      "move2": "Sludge Bomb",
+      "move3": "Attract",
+      "move4": "Giga Drain",
+      "level": 90,
+      "DVs": {
+        "hp": 8,
+        "atk": 5,
+        "def": 4,
+        "spe": 4,
+        "spc": 4
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Houndoom-7",
+      "species": "Houndoom",
+      "setNumber": 7,
+      "item": "Mint Berry",
+      "move1": "Crunch",
+      "move2": "Flamethrower",
+      "move3": "Roar",
+      "move4": "Rest",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 13
+      },
+      "EVs": "244 HP, 244 Atk, 244 Def, 244 SpA, 244 SpD, 244 Spe"
+    },
+    {
+      "setName": "Machamp-5",
+      "species": "Machamp",
+      "setNumber": 5,
+      "item": "Quick Claw",
+      "move1": "Cross Chop",
+      "move2": "Earthquake",
+      "move3": "Hyper Beam",
+      "move4": "Vital Throw",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "244 HP, 244 Atk, 244 Def, 244 SpA, 244 SpD, 244 Spe"
+    },
+    {
+      "setName": "Kingdra-6",
+      "species": "Kingdra",
+      "setNumber": 6,
+      "item": "Leftovers",
+      "move1": "Surf",
+      "move2": "Dragon Breath",
+      "move3": "Rest",
+      "move4": "Toxic",
+      "level": 100,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 15,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "244 HP, 244 Atk, 244 Def, 244 SpA, 244 SpD, 244 Spe"
+    },
+    {
+      "setName": "Jolteon-6",
+      "species": "Jolteon",
+      "setNumber": 6,
+      "item": "Bright Powder",
+      "move1": "Thunderbolt",
+      "move2": "Roar",
+      "move3": "Thunder Wave",
+      "move4": "Iron Tail",
+      "level": 100,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 173 Spe"
+    },
+    {
+      "setName": "Tauros-6",
+      "species": "Tauros",
+      "setNumber": 6,
+      "item": "King's Rock",
+      "move1": "Hyper Beam",
+      "move2": "Earthquake",
+      "move3": "Iron Tail",
+      "move4": "Thunderbolt",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Arcanine-5",
+      "species": "Arcanine",
+      "setNumber": 5,
+      "item": "Leftovers",
+      "move1": "Flamethrower",
+      "move2": "Extreme Speed",
+      "move3": "Iron Tail",
+      "move4": "Hyper Beam",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 13,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "234 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Charizard-3",
+      "species": "Charizard",
+      "setNumber": 3,
+      "item": "Scope Lens",
+      "move1": "Flamethrower",
+      "move2": "Earthquake",
+      "move3": "Slash",
+      "move4": "Fly",
+      "level": 100,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 13,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 234 Def, 234 SpA, 234 SpD, 234 Spe"
+    },
+    {
+      "setName": "Electrode-4",
+      "species": "Electrode",
+      "setNumber": 4,
+      "item": "Bright Powder",
+      "move1": "Thunder Wave",
+      "move2": "Thunderbolt",
+      "move3": "Explosion",
+      "move4": "Mirror Coat",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "212 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 212 Spe"
+    },
+    {
+      "setName": "Rhydon-2",
+      "species": "Rhydon",
+      "setNumber": 2,
+      "item": "Miracle Berry",
+      "move1": "Surf",
+      "move2": "Earthquake",
+      "move3": "Hyper Beam",
+      "move4": "Rock Slide",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "234 HP, 223 Atk, 234 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Steelix-4",
+      "species": "Steelix",
+      "setNumber": 4,
+      "item": "Leftovers",
+      "move1": "Earthquake",
+      "move2": "Hyper Beam",
+      "move3": "Swagger",
+      "move4": "Crunch",
+      "level": 100,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 13,
+        "spe": 13,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 234 Def, 223 SpA, 223 SpD, 244 Spe"
+    },
+    {
+      "setName": "Fearow-2",
+      "species": "Fearow",
+      "setNumber": 2,
+      "item": "King's Rock",
+      "move1": "Drill Peck",
+      "move2": "Steel Wing",
+      "move3": "Hyper Beam",
+      "move4": "Mud-Slap",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 12,
+        "spc": 15
+      },
+      "EVs": "234 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 234 Spe"
+    },
+    {
+      "setName": "Misdreavus-2",
+      "species": "Misdreavus",
+      "setNumber": 2,
+      "item": "Focus Band",
+      "move1": "Perish Song",
+      "move2": "Mean Look",
+      "move3": "Pain Split",
+      "move4": "Shadow Ball",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 11,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "212 HP, 223 Atk, 234 Def, 234 SpA, 234 SpD, 223 Spe"
+    },
+    {
+      "setName": "Sneasel-2",
+      "species": "Sneasel",
+      "setNumber": 2,
+      "item": "Scope Lens",
+      "move1": "Slash",
+      "move2": "Blizzard",
+      "move3": "Dream Eater",
+      "move4": "Feint Attack",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 13,
+        "spe": 14,
+        "spc": 15
+      },
+      "EVs": "223 HP, 223 Atk, 219 Def, 223 SpA, 223 SpD, 212 Spe"
+    },
+    {
+      "setName": "Scizor-4",
+      "species": "Scizor",
+      "setNumber": 4,
+      "item": "Quick Claw",
+      "move1": "Steel Wing",
+      "move2": "Hyper Beam",
+      "move3": "Slash",
+      "move4": "Toxic",
+      "level": 100,
+      "DVs": {
+        "hp": 14,
+        "atk": 15,
+        "def": 11,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 212 SpA, 212 SpD, 223 Spe"
+    },
+    {
+      "setName": "Blissey-7",
+      "species": "Blissey",
+      "setNumber": 7,
+      "item": "Leftovers",
+      "move1": "Thunderbolt",
+      "move2": "Blizzard",
+      "move3": "Fire Blast",
+      "move4": "Soft-Boiled",
+      "level": 100,
+      "DVs": {
+        "hp": 14,
+        "atk": 13,
+        "def": 13,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 200 Atk, 223 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Piloswine-1",
+      "species": "Piloswine",
+      "setNumber": 1,
+      "item": "Mint Berry",
+      "move1": "Rest",
+      "move2": "Blizzard",
+      "move3": "Hyper Beam",
+      "move4": "Earthquake",
+      "level": 100,
+      "DVs": {
+        "hp": 11,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Exeggutor-5",
+      "species": "Exeggutor",
+      "setNumber": 5,
+      "item": "Quick Claw",
+      "move1": "Psychic",
+      "move2": "Toxic",
+      "move3": "Explosion",
+      "move4": "Giga Drain",
+      "level": 100,
+      "DVs": {
+        "hp": 10,
+        "atk": 15,
+        "def": 14,
+        "spe": 15,
+        "spc": 14
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Omastar-2",
+      "species": "Omastar",
+      "setNumber": 2,
+      "item": "Leftovers",
+      "move1": "Surf",
+      "move2": "Ancient Power",
+      "move3": "Blizzard",
+      "move4": "Toxic",
+      "level": 100,
+      "DVs": {
+        "hp": 13,
+        "atk": 15,
+        "def": 11,
+        "spe": 14,
+        "spc": 7
+      },
+      "EVs": "223 HP, 223 Atk, 223 Def, 223 SpA, 223 SpD, 223 Spe"
+    },
+    {
+      "setName": "Golem-3",
+      "species": "Golem",
+      "setNumber": 3,
+      "item": "Bright Powder",
+      "move1": "Explosion",
+      "move2": "Earthquake",
+      "move3": "Rock Slide",
+      "move4": "Fire Blast",
+      "level": 100,
+      "DVs": {
+        "hp": 8,
+        "atk": 7,
+        "def": 4,
+        "spe": 4,
+        "spc": 6
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Hitmonchan-2",
+      "species": "Hitmonchan",
+      "setNumber": 2,
+      "item": "Focus Band",
+      "move1": "Counter",
+      "move2": "Fire Punch",
+      "move3": "Thunder Punch",
+      "move4": "Ice Punch",
+      "level": 100,
+      "DVs": {
+        "hp": 6,
+        "atk": 6,
+        "def": 7,
+        "spe": 7,
+        "spc": 6
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    },
+    {
+      "setName": "Lanturn-2",
+      "species": "Lanturn",
+      "setNumber": 2,
+      "item": "Quick Claw",
+      "move1": "Surf",
+      "move2": "Rain Dance",
+      "move3": "Zap Cannon",
+      "move4": "Confuse Ray",
+      "level": 100,
+      "DVs": {
+        "hp": 11,
+        "atk": 7,
+        "def": 6,
+        "spe": 5,
+        "spc": 7
+      },
+      "EVs": "173 HP, 173 Atk, 173 Def, 173 SpA, 173 SpD, 173 Spe"
+    }
+  ]
+}

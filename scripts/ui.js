@@ -32,6 +32,26 @@ function minispriteUrl(species) {
     return `assets/images/minisprites/${english.toLowerCase()}.png`;
 }
 
+// A species can carry a form-specific minisprite via a set's optional `minisprite`
+// field (gen-2 Crystal Tower: Unown's letter is fixed by its DVs → "unown-z").
+// Memoized species → override filename per data load.
+let minispriteOverrideSource = null;
+let minispriteOverrideMap = null;
+
+function speciesMinispriteUrl(species) {
+    if (minispriteOverrideSource !== state.data.sets) {
+        minispriteOverrideSource = state.data.sets;
+        minispriteOverrideMap = new Map();
+        for (const set of state.data.sets) {
+            if (set.minisprite && !minispriteOverrideMap.has(set.species)) {
+                minispriteOverrideMap.set(set.species, set.minisprite);
+            }
+        }
+    }
+    const override = minispriteOverrideMap.get(species);
+    return override ? `assets/images/minisprites/${override}.png` : minispriteUrl(species);
+}
+
 export function isLateTrainer(trainer) {
     return String(trainer.late ?? '').trim() === '1';
 }
@@ -344,9 +364,10 @@ export function populateTrainerDropdown(side, onSelect) {
     const $dropdown = $(`#trainer-dropdown-${side}`).empty();
     $dropdown.append(`<option value="" disabled selected></option>`);
 
-    // gen-3 Factory: keep the data order (battle arrays 1-7 … 50+, then Noland);
-    // alphabetical sort would scramble the numeric ranges.
-    const trainers = state.variant.factory3
+    // gen-3 Factory (battle arrays 1-7 … 50+, then Noland) and gen-2 Crystal Tower
+    // ("Level 10".."Level 100") keep their DATA order — an alphabetical sort would
+    // scramble the numeric ranges ("Level 10, Level 100, Level 20, …").
+    const trainers = (state.variant.factory3 || state.variant.orderedTrainers)
         ? [...trainerPool()]
         : [...trainerPool()].sort((a, b) => trainerName(a).localeCompare(trainerName(b)));
     for (const trainer of trainers) {
@@ -511,7 +532,7 @@ function renderSpeciesListInto(slot, trainer, onPick) {
     for (const species of ordered) {
         if (!dexEntry(species)) continue;
         const img = document.createElement('img');
-        img.src = minispriteUrl(species);
+        img.src = speciesMinispriteUrl(species);
         img.alt = species;
         img.dataset.slot = slot;
         img.classList.add('pokemon-sprite');
@@ -634,7 +655,7 @@ function populateOneMenu(slot, trainer, onSelect) {
         ? base : base.sort((a, b) => a.localeCompare(b));
     for (const sp of species) {
         const option = new Option(sp, sp, false, false);
-        $(option).attr('data-icon', minispriteUrl(sp));
+        $(option).attr('data-icon', speciesMinispriteUrl(sp));
         $menu.append(option);
     }
     initSelect2(`#pokemon-menu-${slot}`, {
@@ -697,7 +718,8 @@ export function showPokemonSets(slot, species) {
         row.appendChild(itemCell(set.item));
         // DP randomizes natures → don't list one (frees space for the 3-way speed).
         // Pike wild Pokémon also have no fixed nature (random) → blank nature cell.
-        if (!state.variant?.randomNature)
+        // Gen 2 has no natures at all → drop the column entirely.
+        if (!state.variant?.randomNature && state.variant?.gen !== 2)
             row.appendChild(textCell(set.wild ? '' : set.nature, 'set-nature'));
         row.appendChild(movesCell(set));
         row.appendChild(speedCell(set, ivForSlot(slot)));
@@ -956,7 +978,7 @@ function showSetDetails(slot, set) {
     const natureText = natureData ? natureData[`stats-${state.language}`] : '';
 
     const details = document.createElement('div');
-    details.className = 'set-details';
+    details.className = (state.variant?.gen === 2) ? 'set-details gen2' : 'set-details';
 
     const typeIcons = [
         typeIconHtml(speciesData.type1),
@@ -972,6 +994,7 @@ function showSetDetails(slot, set) {
     // 3-way speed (−/neutral/+ nature) under the moves instead of one value.
     const randomNature = Boolean(state.variant?.randomNature);
     const wild = Boolean(set.wild);   // Pike wild Pokémon: random IVs, no nature/EVs
+    const gen2 = state.variant?.gen === 2;   // DVs/Stat-Exp, no nature/ability
     const speedIcon = '<img src="assets/images/speed.png" alt="Speed" class="speed-icon" />';
     const triple = randomNature ? speedTriple(set, slotIV) : null;
     const range = wild ? speedRange(set) : null;
@@ -991,7 +1014,7 @@ function showSetDetails(slot, set) {
            </div>`
         : speedValue ? `<div class="speed">${speedIcon}${speedValue}</div>` : '';
     const speedBlock = speedInner ? `<div class="separator"></div>${speedInner}` : '';
-    const natureBlock = (randomNature || wild) ? '' : `
+    const natureBlock = (randomNature || wild || gen2) ? '' : `
             <div class="nature">
                 <b>${set.nature}</b>
                 <br/><span class="nature-text">${natureText}</span>
@@ -999,13 +1022,33 @@ function showSetDetails(slot, set) {
             <div class="separator"></div>`;
 
     // Battle Hall: the faced Pokémon's level (from the player's inputs); Pike wild
-    // Pokémon: their player-relative level — shown above the abilities separator.
+    // Pokémon: their player-relative level; gen-2 Crystal Tower: the set's pool level
+    // (10-100) — shown above the abilities/DVs separator.
     const facedLevel = state.variant?.hall ? hallFacedLevel() : null;
     const levelHtml = facedLevel != null
         ? `<div class="hall-faced-level"><b>${t('hallFacedLevel', 'Lv.')} ${facedLevel}</b></div>`
         : wild
         ? `<div class="hall-faced-level"><b>${t('hallFacedLevel', 'Lv.')} ${wildLevelText(set)}</b></div>`
+        : (gen2 && set.level != null)
+        ? `<div class="hall-faced-level"><b>${t('hallFacedLevel', 'Lv.')} ${set.level}</b></div>`
         : '';
+
+    // Gen 2 has no abilities; the right column shows DVs (0-15) + EVs (the converted
+    // Stat Exp) instead. DVs are HP/Atk/Def/Spe/Spc (one Special DV covers SpA & SpD).
+    const abilitiesHtml = gen2 ? '' : `
+            <div class="separator"></div>
+            <div class="abilities">
+                <span class="abilities-list">${abilities.join('<br/>')}</span>
+                ${megaAbilities ? `<span class="mega-ability-arrow">↓</span><span class="abilities-list">${megaAbilities.join('<br/>')}</span>` : ''}
+            </div>`;
+    const evsHtml = (!wild && set.EVs)
+        ? `<div class="separator"></div><div class="evs">${set.EVs.split(', ').join('<br/>')}</div>` : '';
+    // DVs sit in the MIDDLE column (between moves and speed) — the gen-2 right column
+    // already carries the long EVs list + level, and stacking DVs there overlapped the
+    // copy button. The middle column has more room (no nature/abilities in gen 2).
+    const dvsHtml = (gen2 && set.DVs)
+        ? `<div class="separator"></div><div class="dvs" title="HP / Atk / Def / Spe / Spc">DVs ${set.DVs.hp}/${set.DVs.atk}/${set.DVs.def}/${set.DVs.spe}/${set.DVs.spc}</div>` : '';
+    const ivsHtml = (wild || gen2) ? '' : ivsLine(set, slotIV);
 
     details.innerHTML = `
         <div class="left-column">
@@ -1017,17 +1060,14 @@ function showSetDetails(slot, set) {
         <div class="middle-column">
             ${natureBlock}
             <div class="moves">${moveLines.join('')}</div>
+            ${dvsHtml}
             ${speedBlock}
         </div>
         <div class="right-column">
             ${levelHtml}
-            <div class="separator"></div>
-            <div class="abilities">
-                <span class="abilities-list">${abilities.join('<br/>')}</span>
-                ${megaAbilities ? `<span class="mega-ability-arrow">↓</span><span class="abilities-list">${megaAbilities.join('<br/>')}</span>` : ''}
-            </div>
-            ${(!wild && set.EVs) ? `<div class="separator"></div><div class="evs">${set.EVs.split(', ').join('<br/>')}</div>` : ''}
-            ${wild ? '' : ivsLine(set, slotIV)}
+            ${abilitiesHtml}
+            ${evsHtml}
+            ${ivsHtml}
         </div>
         <div class="copy">
             <span role="button" title="Copy set (Showdown format)" class="icon-mask icon-copy copy-icon"></span>
@@ -1121,6 +1161,7 @@ function showdownFormat(set, abilities, ivOverride = null) {
     const item = state.variant?.noItems ? null : set.item;
     const abils = (abilities || []).map(a => a.trim()).filter(Boolean);
     const wild = Boolean(set.wild);   // Pike wild: random IVs, no nature/EVs, own level
+    const gen2 = state.variant?.gen === 2;   // DVs→IVs, Stat-Exp→EVs, no nature/ability
     const lines = [item && item !== 'None' ? `${set.species} @ ${item}` : set.species];
     // Include an explicit level when it's not the implicit 50: Battle Hall (the faced
     // level varies), gen-3 Tower Open Level (player's chosen level), and Pike wild
@@ -1136,6 +1177,8 @@ function showdownFormat(set, abilities, ivOverride = null) {
             : (state.variant?.openLevel && state.openMode) ? state.openLevelValue
             // Factory Open + RS Lv 100 are level 100 (Lv 50 is the implicit default).
             : ((state.variant?.factory || state.variant?.factory3 || state.variant?.rsTower) && state.factoryOpen) ? 100
+            // Gen-2 Crystal Tower: each set's pool level (omit when it's the implicit 50).
+            : (gen2 && set.level !== 50) ? set.level
             : null;
     }
     if (facedLevel != null) lines.push(`Level: ${facedLevel}`);
@@ -1145,13 +1188,22 @@ function showdownFormat(set, abilities, ivOverride = null) {
     // rather than guess at the first one.
     if (abils.length === 1) lines.push(`Ability: ${abils[0]}`);
     if (set.EVs) lines.push(`EVs: ${set.EVs.split(', ').join(' / ')}`);
-    // IVs are uniform across stats here; export them only when not the default 31
-    // (same precedence as the speed calc: per-set > trainer/rank > variant > 31).
-    // Wild Pokémon have random IVs → none to state.
-    const iv = set.IVs ?? ivOverride ?? state.variant?.speedIVs ?? 31;
-    if (!wild && iv !== 31) lines.push(`IVs: ${IV_STATS.map(s => `${iv} ${s}`).join(' / ')}`);
-    // DP randomizes natures, as do wild Pokémon → none to state.
-    if (!state.variant?.randomNature && !wild) lines.push(`${set.nature} Nature`);
+    if (gen2) {
+        // Gen 2: convert DVs (0-15) to Showdown IVs (Showdown floors IV/2 back to the
+        // DV, so IV = 2·DV reproduces it). The Special DV covers both SpA and SpD.
+        const dv = set.DVs || { hp: 15, atk: 15, def: 15, spe: 15, spc: 15 };
+        const byStat = { HP: 2 * dv.hp, Atk: 2 * dv.atk, Def: 2 * dv.def,
+                         SpA: 2 * dv.spc, SpD: 2 * dv.spc, Spe: 2 * dv.spe };
+        lines.push(`IVs: ${IV_STATS.map(s => `${byStat[s]} ${s}`).join(' / ')}`);
+    } else {
+        // IVs are uniform across stats here; export them only when not the default 31
+        // (same precedence as the speed calc: per-set > trainer/rank > variant > 31).
+        // Wild Pokémon have random IVs → none to state.
+        const iv = set.IVs ?? ivOverride ?? state.variant?.speedIVs ?? 31;
+        if (!wild && iv !== 31) lines.push(`IVs: ${IV_STATS.map(s => `${iv} ${s}`).join(' / ')}`);
+    }
+    // DP randomizes natures, wild Pokémon are random, gen 2 has no natures → none to state.
+    if (!state.variant?.randomNature && !wild && !gen2) lines.push(`${set.nature} Nature`);
     for (const move of effMoves(set)) {
         if (move) lines.push(`- ${move}`);
     }
