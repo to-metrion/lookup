@@ -1,0 +1,210 @@
+{
+  "remove": [
+    [
+      "Alakazam",
+      5
+    ],
+    [
+      "Entei",
+      7
+    ],
+    [
+      "Snorlax",
+      9
+    ],
+    [
+      "Raikou",
+      7
+    ],
+    [
+      "Latios",
+      9
+    ],
+    [
+      "Snorlax",
+      10
+    ]
+  ],
+  "sets": [
+    {
+      "setName": "Seviper-3",
+      "species": "Seviper",
+      "setNumber": 3,
+      "nature": "Audaz",
+      "item": "Garra Rápida",
+      "move1": "Contoneo",
+      "move2": "Triturar",
+      "move3": "Colmillo Ven",
+      "move4": "Gigadrenado",
+      "EVs": "252 HP, 252 Def, 6 SpA",
+      "brain": true
+    },
+    {
+      "setName": "Shuckle-5",
+      "species": "Shuckle",
+      "setNumber": 5,
+      "nature": "Osada",
+      "item": "Baya Atania",
+      "move1": "Tóxico",
+      "move2": "Torm. Arena",
+      "move3": "Protección",
+      "move4": "Descanso",
+      "EVs": "252 HP, 106 SpA, 252 SpD",
+      "brain": true
+    },
+    {
+      "setName": "Milotic-5",
+      "species": "Milotic",
+      "setNumber": 5,
+      "nature": "Modesta",
+      "item": "Restos",
+      "move1": "Rayo Hielo",
+      "move2": "Manto Espejo",
+      "move3": "Surf",
+      "move4": "Recuperación",
+      "EVs": "152 HP, 100 Def, 152 SpA, 106 SpD",
+      "brain": true
+    },
+    {
+      "setName": "Seviper-4",
+      "species": "Seviper",
+      "setNumber": 4,
+      "nature": "Osada",
+      "item": "Cinta Aguante",
+      "move1": "Contoneo",
+      "move2": "Triturar",
+      "move3": "Bomba Lodo",
+      "move4": "Gigadrenado",
+      "EVs": "252 HP, 252 SpA, 6 SpD",
+      "brain": true
+    },
+    {
+      "setName": "Steelix-5",
+      "species": "Steelix",
+      "setNumber": 5,
+      "nature": "Audaz",
+      "item": "Polvo Brillo",
+      "move1": "Terremoto",
+      "move2": "Avalancha",
+      "move3": "Explosión",
+      "move4": "Chirrido",
+      "EVs": "252 HP, 6 SpA, 252 SpD",
+      "brain": true
+    },
+    {
+      "setName": "Gyarados-5",
+      "species": "Gyarados",
+      "setNumber": 5,
+      "nature": "Firme",
+      "item": "Baya Atania",
+      "move1": "Danza Dragón",
+      "move2": "Retroceso",
+      "move3": "Rugido",
+      "move4": "Descanso",
+      "EVs": "252 HP, 6 Atk, 252 SpD",
+      "brain": true
+    },
+    {
+      "setName": "Seviper-5",
+      "species": "Seviper",
+      "setNumber": 5,
+      "nature": "",
+      "item": "None",
+      "move1": "Tóxico",
+      "move2": "Deslumbrar",
+      "move3": "Golpe Cuerpo",
+      "move4": "Bomba Lodo",
+      "EVs": "",
+      "wild": true,
+      "levelOffset": 4,
+      "movesOpen": [
+        "Tóxico",
+        "Deslumbrar",
+        "Colmillo Ven",
+        "Bomba Lodo"
+      ]
+    },
+    {
+      "setName": "Milotic-6",
+      "species": "Milotic",
+      "setNumber": 6,
+      "nature": "",
+      "item": "None",
+      "move1": "Tóxico",
+      "move2": "Hipnosis",
+      "move3": "Golpe Cuerpo",
+      "move4": "Surf",
+      "EVs": "",
+      "wild": true,
+      "levelOffset": 4,
+      "movesOpen": [
+        "Tóxico",
+        "Hipnosis",
+        "Golpe Cuerpo",
+        "Rayo Hielo"
+      ]
+    },
+    {
+      "setName": "Dusclops-5",
+      "species": "Dusclops",
+      "setNumber": 5,
+      "nature": "",
+      "item": "None",
+      "move1": "Fuego Fatuo",
+      "move2": "Mal De Ojo",
+      "move3": "Tóxico",
+      "move4": "Puño Sombra",
+      "EVs": "",
+      "wild": true,
+      "levelOffset": 5,
+      "movesOpen": [
+        "Fuego Fatuo",
+        "Mal De Ojo",
+        "Tóxico",
+        "Rayo Hielo"
+      ]
+    },
+    {
+      "setName": "Electrode-5",
+      "species": "Electrode",
+      "setNumber": 5,
+      "nature": "",
+      "item": "None",
+      "move1": "Explosión",
+      "move2": "Autodestruc",
+      "move3": "Trueno",
+      "move4": "Tóxico",
+      "EVs": "",
+      "wild": true,
+      "levelOffset": 5
+    },
+    {
+      "setName": "Breloom-5",
+      "species": "Breloom",
+      "setNumber": 5,
+      "nature": "",
+      "item": "None",
+      "move1": "Espora",
+      "move2": "Paralizador",
+      "move3": "Polvo Veneno",
+      "move4": "Poder Oculto",
+      "EVs": "",
+      "wild": true,
+      "levelOffset": 5
+    },
+    {
+      "setName": "Wobbuffet-3",
+      "species": "Wobbuffet",
+      "setNumber": 3,
+      "nature": "",
+      "item": "None",
+      "move1": "Contador",
+      "move2": "Manto Espejo",
+      "move3": "Velo Sagrado",
+      "move4": "Mismodestino",
+      "EVs": "",
+      "wild": true,
+      "levelOffset": 5
+    }
+  ]
+}

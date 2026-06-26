@@ -1,0 +1,84 @@
+{
+  "rounds": [
+    {
+      "round": 1,
+      "quote": "Vedo uno zampillo di scintille… In questo zampillo, i tuoi POKéMON subiranno gli effetti della paralisi…"
+    },
+    {
+      "round": 2,
+      "quote": "Vedo del veleno… I tuoi POKéMON soffriranno a causa degli effetti dell'avvelenamento…"
+    },
+    {
+      "round": 3,
+      "quote": "Vedo fiammate di un rosso acceso… I tuoi POKéMON soffriranno a causa delle scottature…"
+    },
+    {
+      "round": 4,
+      "quote": "Vedo un accesso di rabbia incontenibile… È una maledizione… I tuoi POKéMON con i PUNTI POTENZA azzerati dovranno ricorrere a SCONTRO…"
+    },
+    {
+      "round": 5,
+      "quote": "Vedo POKéMON elevarsi in volo… I tuoi POKéMON saranno in difficoltà perché le mosse di tipo TERRA risulteranno inefficaci…"
+    },
+    {
+      "round": 6,
+      "quote": "Sento un'energia potentissima sprigionarsi dal terreno… I tuoi POKéMON saranno incapaci di reagire a tanta potenza…"
+    },
+    {
+      "round": 7,
+      "quote": "Vedo POKéMON di tipo GHIACCIO… I tuoi POKéMON lotteranno contro gli effetti ibernanti del congelamento…"
+    },
+    {
+      "round": 8,
+      "quote": "Vedo una raffica di mosse che mettono in pericolo chi le usa… I tuoi POKéMON soccomberanno a tali mosse…"
+    },
+    {
+      "round": 9,
+      "quote": "Vedo POKéMON di tipo PSICO… I tuoi POKéMON saranno tormentati da mosse di tipo PSICO…"
+    },
+    {
+      "round": 10,
+      "quote": "Vedo POKéMON di tipo ROCCIA… I tuoi POKéMON saranno colpiti da mosse di tipo ROCCIA…"
+    },
+    {
+      "round": 11,
+      "quote": "Vedo POKéMON di tipo LOTTA… I tuoi POKéMON saranno colpiti da mosse di tipo LOTTA…"
+    },
+    {
+      "round": 12,
+      "quote": "PIOGGIADANZA… GIORNODISOLE… TERREMPESTA… GRANDINE… I POKéMON si rafforzeranno con le condizioni atmosferiche… I tuoi POKéMON saranno confusi da tipi differenti di mosse…"
+    },
+    {
+      "round": 13,
+      "quote": "Vedo POKéMON di tipo COLEOTTERO… I tuoi POKéMON saranno bersaglio di diversi tipi di attacchi.…"
+    },
+    {
+      "round": 14,
+      "quote": "Vedo POKéMON di tipo BUIO… I tuoi POKéMON saranno colpiti da mosse di tipo BUIO…"
+    },
+    {
+      "round": 15,
+      "quote": "Vedo POKéMON di tipo ACQUA… I tuoi POKéMON saranno colpiti da mosse di tipo ACQUA…"
+    },
+    {
+      "round": 16,
+      "quote": "Vedo POKéMON di tipo SPETTRO… I tuoi POKéMON saranno colpiti da mosse di tipo SPETTRO…"
+    },
+    {
+      "round": 17,
+      "quote": "Vedo POKéMON di tipo ACCIAIO… I tuoi POKéMON saranno colpiti da mosse estremamente potenti…"
+    },
+    {
+      "round": 18,
+      "quote": "Vedo POKéMON di tipo VOLANTE… I tuoi POKéMON saranno colpiti da mosse estremamente potenti…"
+    },
+    {
+      "round": 19,
+      "quote": "Vedo le specie che si sono evolute grazie al potere delle pietre… Vedo fuoco, acqua ed elettricità… I tuoi POKéMON saranno colpiti da questi tre poteri…"
+    },
+    {
+      "round": 20,
+      "quote": "Vedo POKéMON di tipo NORMALE… I tuoi POKéMON saranno colpiti da mosse estremamente potenti…"
+    }
+  ]
+}

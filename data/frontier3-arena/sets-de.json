@@ -1,0 +1,108 @@
+{
+  "remove": [
+    [
+      "Simsala",
+      5
+    ],
+    [
+      "Entei",
+      7
+    ],
+    [
+      "Relaxo",
+      9
+    ],
+    [
+      "Raikou",
+      7
+    ],
+    [
+      "Latios",
+      9
+    ],
+    [
+      "Relaxo",
+      10
+    ]
+  ],
+  "sets": [
+    {
+      "setName": "Skaraborn-5",
+      "species": "Skaraborn",
+      "setNumber": 5,
+      "nature": "Froh",
+      "item": "Salkabeere",
+      "move1": "Vielender",
+      "move2": "Felsgrab",
+      "move3": "Ausdauer",
+      "move4": "Gegenschlag",
+      "EVs": "106 HP, 152 Atk, 100 SpD, 152 Spe",
+      "brain": true
+    },
+    {
+      "setName": "Nachtara-5",
+      "species": "Nachtara",
+      "setNumber": 5,
+      "nature": "Still",
+      "item": "Überreste",
+      "move1": "Bodyslam",
+      "move2": "Konfustrahl",
+      "move3": "Psychokinese",
+      "move4": "Finte",
+      "EVs": "152 HP, 100 Def, 152 SpA, 106 SpD",
+      "brain": true
+    },
+    {
+      "setName": "Ninjatom-2",
+      "species": "Ninjatom",
+      "setNumber": 2,
+      "nature": "Hart",
+      "item": "Blendpuder",
+      "move1": "Spukball",
+      "move2": "Rückkehr",
+      "move3": "Konfustrahl",
+      "move4": "Aero-Ass",
+      "EVs": "252 Atk, 6 Def, 252 Spe",
+      "brain": true
+    },
+    {
+      "setName": "Nachtara-6",
+      "species": "Nachtara",
+      "setNumber": 6,
+      "nature": "Still",
+      "item": "Maronbeere",
+      "move1": "Risikotackle",
+      "move2": "Konfustrahl",
+      "move3": "Erholung",
+      "move4": "Psychokinese",
+      "EVs": "252 HP, 252 SpA, 6 SpD",
+      "brain": true
+    },
+    {
+      "setName": "Gengar-9",
+      "species": "Gengar",
+      "setNumber": 9,
+      "nature": "Mäßig",
+      "item": "Überreste",
+      "move1": "Psychokinese",
+      "move2": "Hypnose",
+      "move3": "Traumfresser",
+      "move4": "Abgangsbund",
+      "EVs": "252 HP, 252 Def, 6 SpA",
+      "brain": true
+    },
+    {
+      "setName": "Kapilz-5",
+      "species": "Kapilz",
+      "setNumber": 5,
+      "nature": "Froh",
+      "item": "Prunusbeere",
+      "move1": "Pilzspore",
+      "move2": "Power-Punch",
+      "move3": "Gigasauger",
+      "move4": "Kopfnuss",
+      "EVs": "6 HP, 252 Atk, 252 Spe",
+      "brain": true
+    }
+  ]
+}

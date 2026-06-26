@@ -1,0 +1,34 @@
+{
+  "remove": [
+    "Cathy (35)",
+    "Cathy"
+  ],
+  "trainers": [
+    {
+      "name": "Takim (35)",
+      "class": "Star du Dome",
+      "roster": "Laggron-5, Drattak-9, Dracaufeu-5",
+      "species": "Laggron, Drattak, Dracaufeu",
+      "iv": 20,
+      "late": "",
+      "quote": "Ah, ah, ah! Tu entends ça? Le public est déchaîné! Ils veulent voir notre combat! Ah, ah, ah! Je parie que tu trembles de peur! Eh bien, tu as raison… Le combat sera difficile! Je suis la star du DOME DE COMBAT! Moi, TAKIM, la STAR DU DOME, je vais t'en mettre plein les yeux!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/tucker.png",
+      "brain": true
+    },
+    {
+      "name": "Takim",
+      "class": "Star du Dome",
+      "roster": "Laggron-6, Métalosse-9, Latias-9",
+      "species": "Laggron, Métalosse, Latias",
+      "iv": 31,
+      "late": "1",
+      "quote": "Ah… L'enthousiasme du public… Tout ça me fait chaud au cœur… C'est un endroit merveilleux… Pour eux, je suis la STAR DU DOME… Ils placent tous leurs espoirs en moi… Je ne peux pas les décevoir! Je vais rayonner! Je vais mettre le feu! Je vais enflammer la salle!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/tucker.png",
+      "brain": true
+    }
+  ]
+}

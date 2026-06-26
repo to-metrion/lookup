@@ -333,6 +333,23 @@ button:focus {
     min-width: 0;
 }
 
+/* Battle Pyramid wild filter: a wide round-quote select + small Round + Floor
+   selects, occupying the quote row when the "Wild Pokémon" entry is selected. */
+.pyramid-wild-filter {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    gap: 10px;
+}
+.pyramid-wild-filter .pwf-quote {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+.pyramid-wild-filter .pwf-small {
+    flex: 0 0 auto;
+    width: 120px;
+}
+
 /* Battle mode control: the current mode's glyph shown big (⚀ ⚁ ⚂ ⟳, accent
    colored — alt accent on 3rd/4th modes), with a small slider track under it.
    One notch per mode; the knob slides to the active one. */
@@ -398,6 +415,48 @@ button:focus {
     justify-content: space-between;
     flex-wrap: wrap;
     row-gap: 18px; /* breathing room when columns stack (mobile multis) */
+    position: relative; /* anchor for the absolutely-positioned swap button */
+}
+
+/* Swap button between the two columns (doubles/multis). Absolutely positioned +
+   centered on the boundary so it doesn't widen the columns or split the rows
+   below; positionSwap() (ui.js) sets `top` to align it with the species menus. */
+#swap-slots {
+    position: absolute;        /* on <body>; positionSwap() sets left/top (page coords) */
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    background-color: var(--surface);
+    color: var(--accent);
+    font-size: 16px;
+    line-height: 1;
+    cursor: pointer;
+    box-shadow: 0 0 4px var(--sprite-shadow);
+    transition: background-color 0.15s ease, color 0.15s ease;
+}
+#swap-slots:hover {
+    background-color: var(--accent);
+    color: var(--on-accent);
+}
+
+/* Open a real gap between the two species menus for the swap button — shrink each
+   menu inward (only the menus; the minisprite lists above and sets panels below
+   keep full column width). */
+#pokemon-menus.swap-gap #pokemon-menu-container-1 .select2-container {
+    width: calc(100% - 18px) !important;
+}
+#pokemon-menus.swap-gap #pokemon-menu-container-2 .select2-container {
+    width: calc(100% - 18px) !important;
+    margin-left: 26px;
+}
+/* Multis: widen the gap between the two trainer menus so the swap button (anchored
+   to them there) sits between them rather than on top. */
+.trainer-select-container.swap-gap {
+    gap: 40px;
 }
 
 .pokemon-menu-container {
@@ -427,8 +486,8 @@ button:focus {
    Select2 styling
    ============================================================ */
 #game-select + .select2-container {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 0;   /* the version/facility/level rows each carry ~15px top */
 }
 
 /* Big game select: trainer-style (small-caps, tall) but more modest, so the
@@ -699,54 +758,64 @@ button:focus {
     box-shadow: 0 0 0 2px var(--highlight);
 }
 
-/* Facility picker: small text pills, clearly subordinate to the game select. */
-#variant-pills {
+/* Sub-facility pickers. The FACILITY row (Tower/Dome/… in all games, plus the
+   single-axis variant row) uses the Lv50/Open SEGMENTED-TOGGLE look — joined
+   segments, active filled with the accent, matching the level toggle's font
+   (regular, bold; NOT the Futura title font). The VERSION row of two-axis games
+   (Emerald / HGSS / Platinum / DP) keeps the larger rounded-pill look — it's
+   marked `.version-row` by app.js. All rows share ~12px vertical spacing. */
+#facility-pills,
+#variant-pills:not(.version-row) {
+    display: inline-flex;
+    flex-wrap: wrap;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    overflow: hidden;
+    vertical-align: top;
+}
+#variant-pills { margin: 15px 0 0; }
+#facility-pills { margin: 15px 0 0; }
+
+#facility-pills .facility-pill,
+#variant-pills:not(.version-row) .variant-pill {
+    padding: 0 16px;
+    height: 28px;
+    border: none;
+    background-color: var(--surface);
+    color: var(--text-muted);
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+#facility-pills .facility-pill + .facility-pill,
+#variant-pills:not(.version-row) .variant-pill + .variant-pill {
+    border-left: 1px solid var(--border);
+}
+#facility-pills .facility-pill.active,
+#variant-pills:not(.version-row) .variant-pill.active {
+    background-color: var(--accent);
+    color: var(--on-accent);
+}
+
+/* Version row (two-axis games): larger rounded pills, Futura small-caps. */
+#variant-pills.version-row {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-    margin: 10px 0;
 }
-
-.variant-pill {
-    padding: 6px 16px;
+#variant-pills.version-row .variant-pill {
+    padding: 6px 18px;
     border: 1px solid var(--border);
     border-radius: 999px;
     background-color: var(--surface);
     color: var(--text);
     font-family: 'Futura', sans-serif;
     font-variant-caps: small-caps;
-    font-size: 16px;
+    font-size: 17px;
     cursor: pointer;
 }
-
-.variant-pill.active {
-    border-color: var(--highlight);
-    box-shadow: 0 0 0 1px var(--highlight);
-    color: var(--highlight);
-}
-
-/* gen-4 Frontier: facility pills sit under the version pills — visually
-   subordinate (smaller, tighter) to the version row above them. */
-#facility-pills {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-    margin: 0 0 10px 0;
-}
-
-.facility-pill {
-    padding: 4px 12px;
-    border: 1px solid var(--border);
-    border-radius: 999px;
-    background-color: var(--surface);
-    color: var(--text);
-    font-family: 'Futura', sans-serif;
-    font-variant-caps: small-caps;
-    font-size: 13px;
-    cursor: pointer;
-}
-
-.facility-pill.active {
+#variant-pills.version-row .variant-pill.active {
     border-color: var(--highlight);
     box-shadow: 0 0 0 1px var(--highlight);
     color: var(--highlight);
@@ -773,7 +842,7 @@ button:focus {
 .modal {
     display: none;
     position: fixed;
-    z-index: 1;
+    z-index: 100;   /* above the swap button (z-index 5) and page content */
     left: 0;
     top: 0;
     width: 100%;
@@ -879,12 +948,15 @@ button:focus {
    pills; deliberately short — it's a sub-choice of the Factory facility). */
 .factory-level-toggle {
     display: inline-flex;
-    margin: 8px 0 2px;
     border: 1px solid var(--border);
     border-radius: 4px;
     overflow: hidden;
 }
-.factory-level-opt {
+/* The level rows carry the ~12px vertical rhythm of the settings section. */
+#factory-level-row { margin-top: 15px; }
+#factory-streak-row { margin-top: 15px; }   /* gen-3 Factory streak input — same rhythm */
+.factory-level-opt,
+.open-level-opt {
     padding: 0 14px;
     height: 22px;
     font-size: 12px;
@@ -895,12 +967,62 @@ button:focus {
     cursor: pointer;
     transition: background-color 0.2s ease, color 0.2s ease;
 }
-.factory-level-opt + .factory-level-opt {
+.factory-level-opt + .factory-level-opt,
+.open-level-opt + .open-level-opt {
     border-left: 1px solid var(--border);
 }
-.factory-level-opt.active {
+.factory-level-opt.active,
+.open-level-opt.active {
     background-color: var(--accent);
     color: var(--on-accent);
+}
+
+/* Gen-3 Tower Lv 50 / Open Level toggle + the Open-Level level input. */
+#open-level-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4px 12px;
+    margin: 15px 0 0;
+}
+#open-level-row .factory-level-toggle {
+    margin: 0;                  /* so the toggle and the level input share a baseline */
+}
+.open-level-input {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--text);
+    font-size: 12px;
+}
+.open-level-input input {
+    width: 3.5em;
+    padding: 3px 6px;
+    background-color: var(--surface);
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+/* External helper-tool links for the selected facility (e.g. Dome Assistant). */
+#facility-links {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin: 15px 0 0;
+}
+.facility-link {
+    font-size: 15px;
+    color: var(--accent);
+    text-decoration: none;
+    width: fit-content;
+}
+.facility-link::after {
+    content: " \2197";   /* ↗ external-link arrow */
+}
+.facility-link:hover {
+    text-decoration: underline;
 }
 
 /* ============================================================
@@ -1152,6 +1274,11 @@ button:focus {
     height: 2em;
     vertical-align: middle;
 }
+/* Breathing room between the speed (running-man) icon and the value — the item
+   line already has a literal space, but the speed value follows the icon directly. */
+.speed-icon {
+    margin-right: 0.35em;
+}
 
 .nature {
     font-variant-caps: small-caps;
@@ -1263,6 +1390,28 @@ button:focus {
     margin-right: 1px;
 }
 
+/* Pike wild Pokémon: random IVs → a 0-IV / 31-IV speed range stacked in details
+   (mirrors the speed-triple). Each line is tagged with its IV. */
+.speed-range {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.speed-range .speed {
+    font-size: 0.95em;
+    line-height: 1.1;
+}
+.speed-range .speed-icon {
+    width: 1.35em;
+    height: 1.35em;
+}
+.iv-tag {
+    font-size: 0.75em;
+    font-weight: bold;
+    opacity: 0.75;
+    margin-right: 3px;
+}
+
 .abilities {
     font-size: 0.9em;
 }
@@ -1367,6 +1516,13 @@ button:focus {
     .select2-container--trainer .select2-selection--single .select2-selection__arrow b {
         height: 24px !important;
         width: 24px !important;
+    }
+
+    /* Battle Hall type menu uses the trainer container, so its 40px-tall menu was
+       still showing the 52px type icon (cut off). Scale it down on mobile. */
+    .select2-container--hall-type .game-icon {
+        height: 28px;
+        margin-right: 8px;
     }
 
     .quote-select-container {

@@ -1,0 +1,108 @@
+{
+  "remove": [
+    [
+      "Alakazam",
+      5
+    ],
+    [
+      "Entei",
+      7
+    ],
+    [
+      "Ronflex",
+      9
+    ],
+    [
+      "Raikou",
+      7
+    ],
+    [
+      "Latios",
+      9
+    ],
+    [
+      "Ronflex",
+      10
+    ]
+  ],
+  "sets": [
+    {
+      "setName": "Nostenfer-5",
+      "species": "Nostenfer",
+      "setNumber": 5,
+      "nature": "Rigide",
+      "item": "Poudre Claire",
+      "move1": "Onde Folie",
+      "move2": "Reflet",
+      "move3": "Toxik",
+      "move4": "Vol",
+      "EVs": "152 HP, 100 SpA, 106 SpD, 152 Spe",
+      "brain": true
+    },
+    {
+      "setName": "Monaflèmit-5",
+      "species": "Monaflèmit",
+      "setNumber": 5,
+      "nature": "Hardi",
+      "item": "Lentilscope",
+      "move1": "Seisme",
+      "move2": "Vantardise",
+      "move3": "Ball'Ombre",
+      "move4": "Casse-Brique",
+      "EVs": "152 HP, 152 Atk, 100 SpA, 106 Spe",
+      "brain": true
+    },
+    {
+      "setName": "Lokhlass-9",
+      "species": "Lokhlass",
+      "setNumber": 9,
+      "nature": "Discret",
+      "item": "Vive Griffe",
+      "move1": "Laser Glace",
+      "move2": "Empal'Korne",
+      "move3": "Onde Folie",
+      "move4": "Abri",
+      "EVs": "252 Def, 106 SpA, 152 SpD",
+      "brain": true
+    },
+    {
+      "setName": "Arcanin-5",
+      "species": "Arcanin",
+      "setNumber": 5,
+      "nature": "Pressé",
+      "item": "Herbe Blanche",
+      "move1": "Surchauffe",
+      "move2": "Vit.Extreme",
+      "move3": "Hurlement",
+      "move4": "Abri",
+      "EVs": "6 HP, 252 Atk, 252 Def",
+      "brain": true
+    },
+    {
+      "setName": "Monaflèmit-6",
+      "species": "Monaflèmit",
+      "setNumber": 6,
+      "nature": "Hardi",
+      "item": "Lentilscope",
+      "move1": "Ultralaser",
+      "move2": "Seisme",
+      "move3": "Ball'Ombre",
+      "move4": "Baillement",
+      "EVs": "6 HP, 252 Atk, 252 Spe",
+      "brain": true
+    },
+    {
+      "setName": "Suicune-7",
+      "species": "Suicune",
+      "setNumber": 7,
+      "nature": "Pressé",
+      "item": "Roche Royale",
+      "move1": "Blizzard",
+      "move2": "Surf",
+      "move3": "Morsure",
+      "move4": "Plenitude",
+      "EVs": "252 HP, 252 Def, 6 Spe",
+      "brain": true
+    }
+  ]
+}

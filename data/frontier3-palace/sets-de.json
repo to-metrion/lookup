@@ -1,0 +1,108 @@
+{
+  "remove": [
+    [
+      "Simsala",
+      5
+    ],
+    [
+      "Entei",
+      7
+    ],
+    [
+      "Relaxo",
+      9
+    ],
+    [
+      "Raikou",
+      7
+    ],
+    [
+      "Latios",
+      9
+    ],
+    [
+      "Relaxo",
+      10
+    ]
+  ],
+  "sets": [
+    {
+      "setName": "Iksbat-5",
+      "species": "Iksbat",
+      "setNumber": 5,
+      "nature": "Hart",
+      "item": "Blendpuder",
+      "move1": "Konfustrahl",
+      "move2": "Doppelteam",
+      "move3": "Toxin",
+      "move4": "Fliegen",
+      "EVs": "152 HP, 100 SpA, 106 SpD, 152 Spe",
+      "brain": true
+    },
+    {
+      "setName": "Letarking-5",
+      "species": "Letarking",
+      "setNumber": 5,
+      "nature": "Robust",
+      "item": "Scope-Linse",
+      "move1": "Erdbeben",
+      "move2": "Angeberei",
+      "move3": "Spukball",
+      "move4": "Durchbruch",
+      "EVs": "152 HP, 152 Atk, 100 SpA, 106 Spe",
+      "brain": true
+    },
+    {
+      "setName": "Lapras-9",
+      "species": "Lapras",
+      "setNumber": 9,
+      "nature": "Ruhig",
+      "item": "Flinkklaue",
+      "move1": "Eisstrahl",
+      "move2": "Hornbohrer",
+      "move3": "Konfustrahl",
+      "move4": "Schutzschild",
+      "EVs": "252 Def, 106 SpA, 152 SpD",
+      "brain": true
+    },
+    {
+      "setName": "Arkani-5",
+      "species": "Arkani",
+      "setNumber": 5,
+      "nature": "Hastig",
+      "item": "Schlohkraut",
+      "move1": "Hitzekoller",
+      "move2": "Turbotempo",
+      "move3": "Brüller",
+      "move4": "Schutzschild",
+      "EVs": "6 HP, 252 Atk, 252 Def",
+      "brain": true
+    },
+    {
+      "setName": "Letarking-6",
+      "species": "Letarking",
+      "setNumber": 6,
+      "nature": "Robust",
+      "item": "Scope-Linse",
+      "move1": "Hyperstrahl",
+      "move2": "Erdbeben",
+      "move3": "Spukball",
+      "move4": "Gähner",
+      "EVs": "6 HP, 252 Atk, 252 Spe",
+      "brain": true
+    },
+    {
+      "setName": "Suicune-7",
+      "species": "Suicune",
+      "setNumber": 7,
+      "nature": "Hastig",
+      "item": "King-Stein",
+      "move1": "Blizzard",
+      "move2": "Surfer",
+      "move3": "Biss",
+      "move4": "Gedankengut",
+      "EVs": "252 HP, 252 Def, 6 Spe",
+      "brain": true
+    }
+  ]
+}

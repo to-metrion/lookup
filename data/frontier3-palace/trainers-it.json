@@ -1,0 +1,34 @@
+{
+  "remove": [
+    "Alberta (35)",
+    "Alberta"
+  ],
+  "trainers": [
+    {
+      "name": "Spartaco (21)",
+      "class": "Sire Palazzo",
+      "roster": "Crobat-5, Slaking-5, Lapras-9",
+      "species": "Crobat, Slaking, Lapras",
+      "iv": 16,
+      "late": "",
+      "quote": "I POKéMON sono la mia vita! Il mio cuore batte all'unisono con il loro! ALLENATORE in erba! Credi nei tuoi POKéMON? Hai una fiducia cieca in loro? Se il legame che ti unisce a loro è fragile, non riuscirai a battere i miei fratelli!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/spenser.png",
+      "brain": true
+    },
+    {
+      "name": "Spartaco",
+      "class": "Sire Palazzo",
+      "roster": "Arcanine-5, Slaking-6, Suicune-7",
+      "species": "Arcanine, Slaking, Suicune",
+      "iv": 31,
+      "late": "1",
+      "quote": "Ahahah! Ce l'hai fatta anche questa volta? Devi aver sviluppato un legame incredibile con i tuoi POKéMON. Andiamo al sodo! Cercherò di lottare in modo equilibrato. Questa volta non si scherza. Te la senti di iniziare? Preparati a una sonora sconfitta!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/spenser.png",
+      "brain": true
+    }
+  ]
+}

@@ -129,6 +129,22 @@
     "es": "Cúpula",
     "jp": "ドーム"
   },
+  "facility-palace": {
+    "en": "Palace",
+    "fr": "Palace",
+    "it": "Palazzo",
+    "de": "Palast",
+    "es": "Palacio",
+    "jp": "パレス"
+  },
+  "facility-arena": {
+    "en": "Arena",
+    "fr": "Dojo",
+    "it": "Dojo",
+    "de": "Ring",
+    "es": "Dojo",
+    "jp": "アリーナ"
+  },
   "facility-arcade": {
     "en": "Arcade",
     "fr": "Arcade",
@@ -165,6 +181,72 @@
     "jp": "ファクトリー",
     "ko": "팩토리"
   },
+  "facility-pike": {
+    "en": "Pike",
+    "fr": "Reptile",
+    "it": "Serpe",
+    "de": "Ipitis",
+    "es": "Sierpe",
+    "jp": "チューブ",
+    "ko": "파이크"
+  },
+  "facility-pyramid": {
+    "en": "Pyramid",
+    "fr": "Pyramide",
+    "it": "Piramide",
+    "de": "Pyramide",
+    "es": "Pirámide",
+    "jp": "ピラミッド",
+    "ko": "피라미드"
+  },
+  "wild-pokemon": {
+    "en": "Wild Pokémon",
+    "fr": "Pokémon sauvage",
+    "it": "Pokémon selvatico",
+    "de": "Wildes Pokémon",
+    "es": "Pokémon salvaje",
+    "jp": "やせいのポケモン",
+    "ko": "야생 포켓몬"
+  },
+  "pyramidRound": {
+    "en": "Round", "fr": "Manche", "it": "Round", "de": "Runde", "es": "Ronda", "jp": "ラウンド", "ko": "라운드"
+  },
+  "pyramidFloor": {
+    "en": "Floor", "fr": "Étage", "it": "Piano", "de": "Etage", "es": "Piso", "jp": "フロア", "ko": "층"
+  },
+  "pyramidAllRounds": {
+    "en": "All rounds", "fr": "Toutes les manches", "it": "Tutti i round", "de": "Alle Runden", "es": "Todas las rondas", "jp": "全ラウンド", "ko": "모든 라운드"
+  },
+  "pyramidAllFloors": {
+    "en": "All floors", "fr": "Tous les étages", "it": "Tutti i piani", "de": "Alle Etagen", "es": "Todos los pisos", "jp": "全フロア", "ko": "모든 층"
+  },
+  "factory-battles": {
+    "en": "Battles",
+    "fr": "Combats",
+    "it": "Lotte",
+    "de": "Kämpfe",
+    "es": "Combates",
+    "jp": "バトル",
+    "ko": "배틀"
+  },
+  "factoryStreakLabel": {
+    "en": "Current Tower streak",
+    "fr": "Série actuelle à la Tour",
+    "it": "Serie attuale alla Torre",
+    "de": "Aktuelle Turm-Serie",
+    "es": "Racha actual en la Torre",
+    "jp": "現在のタワー連勝数",
+    "ko": "현재 타워 연승"
+  },
+  "factoryStreakInfo": {
+    "en": "Your current win count in Tower is used to determine the Factory's opponents IVs.",
+    "fr": "Votre nombre de victoires actuel à la Tour détermine les IV des adversaires de l’Usine.",
+    "it": "Il tuo numero di vittorie attuale alla Torre determina gli IV degli avversari dell’Azienda.",
+    "de": "Deine aktuelle Siegesanzahl im Turm bestimmt die DVs der Gegner in der Fabrik.",
+    "es": "Tu número de victorias actual en la Torre determina los IV de los rivales de la Fábrica.",
+    "jp": "タワーでの現在の連勝数によって、ファクトリーの相手の個体値が決まります。",
+    "ko": "타워에서의 현재 승수에 따라 팩토리 상대의 개체값이 결정됩니다."
+  },
   "hallType": {
     "en": "Type",
     "fr": "Type",
@@ -200,6 +282,15 @@
     "es": "Nivel libre",
     "jp": "オープンレベル",
     "ko": "오픈 레벨"
+  },
+  "level-100": {
+    "en": "Level 100",
+    "fr": "Niveau 100",
+    "it": "L. 100",
+    "de": "Level 100",
+    "es": "Nivel 100",
+    "jp": "レベル１００",
+    "ko": "레벨 100"
   },
   "hallLevelLabel": {
     "en": "Level",

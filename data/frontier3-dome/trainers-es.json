@@ -1,0 +1,34 @@
+{
+  "remove": [
+    "Destra (35)",
+    "Destra"
+  ],
+  "trainers": [
+    {
+      "name": "Tactio (35)",
+      "class": "Astro Cúpula",
+      "roster": "Swampert-5, Salamence-9, Charizard-5",
+      "species": "Swampert, Salamence, Charizard",
+      "iv": 20,
+      "late": "",
+      "quote": "¡Ja, ja, ja, ja! ¿Los oyes? ¡Me adoran! ¡Están deseando ver nuestro combate! ¡Ja, ja, ja, ja! ¡Seguro que te tiemblan las piernas sólo de pensar en enfrentarte a mí! Bueno, no tienes que preocuparte. ¡Yo soy el n.º 1 de la CÚPULA BATALLA! ¡Yo, TACTIO, el ASTRO de la CÚPULA, te mostraré mi resplandor!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/tucker.png",
+      "brain": true
+    },
+    {
+      "name": "Tactio",
+      "class": "Astro Cúpula",
+      "roster": "Swampert-6, Metagross-9, Latias-9",
+      "species": "Swampert, Metagross, Latias",
+      "iv": 31,
+      "late": "1",
+      "quote": "Ah… El rugido del público… La sangre hirviéndole en las venas… Qué lugar tan extraordinario… Para ellos, soy el ASTRO de la CÚPULA… Yo soy su esperanza y su sueño… No puedo permitirme defraudarlos… ¡Tengo que dar el máximo de mí! ¡Brillar más, resplandecer más! ¡Debo deslumbrar a mi público!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/tucker.png",
+      "brain": true
+    }
+  ]
+}

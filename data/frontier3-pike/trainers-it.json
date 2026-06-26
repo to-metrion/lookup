@@ -1,0 +1,47 @@
+{
+  "remove": [
+    "Alberta (35)",
+    "Alberta"
+  ],
+  "trainers": [
+    {
+      "name": "Fortunata (28)",
+      "class": "Regina Serpe",
+      "roster": "Seviper-3, Shuckle-5, Milotic-5",
+      "species": "Seviper, Shuckle, Milotic",
+      "iv": 16,
+      "late": "",
+      "quote": "Mi chiamo FORTUNATA. Qui comando io. In veste di REGINA SERPE… Come tu ben sai, per avanzare devi sconfiggermi… Basta con le chiacchiere inutili! Non c'è tempo da perdere…",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/lucy.png",
+      "brain": true
+    },
+    {
+      "name": "Fortunata",
+      "class": "Regina Serpe",
+      "roster": "Seviper-4, Steelix-5, Gyarados-5",
+      "species": "Seviper, Steelix, Gyarados",
+      "iv": 31,
+      "late": "1",
+      "quote": "Di nuovo tu… … … … … … … Ho dovuto superare mille avversità per diventare quella che sono… Non voglio continuare a perdere contro lo stesso avversario… … … … … … … Bene… siamo alla resa dei conti…",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/lucy.png",
+      "brain": true
+    },
+    {
+      "name": "Pokémon selvatico",
+      "class": "",
+      "roster": "Seviper-5, Milotic-6, Dusclops-5, Electrode-5, Breloom-5, Wobbuffet-3",
+      "species": "Seviper, Milotic, Dusclops, Electrode, Breloom, Wobbuffet",
+      "iv": 0,
+      "late": "1",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/wildgrass.png",
+      "wild": true
+    }
+  ]
+}

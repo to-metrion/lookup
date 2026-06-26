@@ -1,0 +1,47 @@
+{
+  "remove": [
+    "Anabel (35)",
+    "Anabel"
+  ],
+  "trainers": [
+    {
+      "name": "Lucy (28)",
+      "class": "Pike Queen",
+      "roster": "Seviper-3, Shuckle-5, Milotic-5",
+      "species": "Seviper, Shuckle, Milotic",
+      "iv": 16,
+      "late": "",
+      "quote": "I am LUCY… I am the law here… For I am the PIKE QUEEN… You already know it, but to advance, you must defeat me… …I'm not one for idle chatter. Hurry. Come on…",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/lucy.png",
+      "brain": true
+    },
+    {
+      "name": "Lucy",
+      "class": "Pike Queen",
+      "roster": "Seviper-4, Steelix-5, Gyarados-5",
+      "species": "Seviper, Steelix, Gyarados",
+      "iv": 31,
+      "late": "1",
+      "quote": "…You again… … … … … … … …I've trampled flowers and braved storms to get to where I am… I don't feel any compulsion to keep losing to the same opponent… … … … … … … Fine… I'll do it…",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/lucy.png",
+      "brain": true
+    },
+    {
+      "name": "Wild Pokémon",
+      "class": "",
+      "roster": "Seviper-5, Milotic-6, Dusclops-5, Electrode-5, Breloom-5, Wobbuffet-3",
+      "species": "Seviper, Milotic, Dusclops, Electrode, Breloom, Wobbuffet",
+      "iv": 0,
+      "late": "1",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/wildgrass.png",
+      "wild": true
+    }
+  ]
+}

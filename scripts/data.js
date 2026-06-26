@@ -90,13 +90,15 @@ export async function loadSets(variant, language) {
 // Showdown export resolve through the English counterpart set, and having
 // them up front keeps rendering synchronous.
 export async function loadVariantData(variant, language) {
-    const [trainersAndSets, enSets, pokedex, natures, items, moves] = await Promise.all([
+    const [trainersAndSets, enSets, pokedex, natures, items, moves, rounds] = await Promise.all([
         loadTrainersAndSets(variant, language),
         language === 'en' ? null : loadTrainersAndSets(variant, 'en'),
         fetchJSON(variant.pokedex),
         fetchJSON('data/natures.json'),
         fetchJSON('data/items.json'),
         fetchJSON('data/moves.json'),
+        // Gen-3 Pyramid wild filter: the 20 round quotes (Hex Maniac hints).
+        variant.pyramidWild ? fetchJSON(`data/${variant.dataDir}/rounds-${language}.json`) : null,
     ]);
     return {
         ...trainersAndSets,
@@ -105,5 +107,6 @@ export async function loadVariantData(variant, language) {
         natures: natures.natures,
         items: items.items,
         moves: moves.moves,
+        rounds: rounds?.rounds ?? null,
     };
 }

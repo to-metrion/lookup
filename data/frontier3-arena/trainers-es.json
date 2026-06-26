@@ -1,0 +1,34 @@
+{
+  "remove": [
+    "Destra (35)",
+    "Destra"
+  ],
+  "trainers": [
+    {
+      "name": "Coro (28)",
+      "class": "Maestra Dojo",
+      "roster": "Heracross-5, Umbreon-5, Shedinja-2",
+      "species": "Heracross, Umbreon, Shedinja",
+      "iv": 20,
+      "late": "",
+      "quote": "¡Eh! ¿Cómo te va? ¿Eres tú quien osa retarme?",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/greta.png",
+      "brain": true
+    },
+    {
+      "name": "Coro",
+      "class": "Maestra Dojo",
+      "roster": "Umbreon-6, Gengar-9, Breloom-5",
+      "species": "Umbreon, Gengar, Breloom",
+      "iv": 31,
+      "late": "1",
+      "quote": "¡Eh! ¿Cómo te va? ¡Me preocupaba que tardases tanto! ¡Tenía muchas ganas de volver a verte!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/greta.png",
+      "brain": true
+    }
+  ]
+}

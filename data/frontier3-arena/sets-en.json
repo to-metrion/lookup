@@ -1,0 +1,108 @@
+{
+  "remove": [
+    [
+      "Alakazam",
+      5
+    ],
+    [
+      "Entei",
+      7
+    ],
+    [
+      "Snorlax",
+      9
+    ],
+    [
+      "Raikou",
+      7
+    ],
+    [
+      "Latios",
+      9
+    ],
+    [
+      "Snorlax",
+      10
+    ]
+  ],
+  "sets": [
+    {
+      "setName": "Heracross-5",
+      "species": "Heracross",
+      "setNumber": 5,
+      "nature": "Jolly",
+      "item": "Salac Berry",
+      "move1": "Megahorn",
+      "move2": "Rock Tomb",
+      "move3": "Endure",
+      "move4": "Reversal",
+      "EVs": "106 HP, 152 Atk, 100 SpD, 152 Spe",
+      "brain": true
+    },
+    {
+      "setName": "Umbreon-5",
+      "species": "Umbreon",
+      "setNumber": 5,
+      "nature": "Calm",
+      "item": "Leftovers",
+      "move1": "Body Slam",
+      "move2": "Confuse Ray",
+      "move3": "Psychic",
+      "move4": "Feint Attack",
+      "EVs": "152 HP, 100 Def, 152 SpA, 106 SpD",
+      "brain": true
+    },
+    {
+      "setName": "Shedinja-2",
+      "species": "Shedinja",
+      "setNumber": 2,
+      "nature": "Adamant",
+      "item": "Bright Powder",
+      "move1": "Shadow Ball",
+      "move2": "Return",
+      "move3": "Confuse Ray",
+      "move4": "Aerial Ace",
+      "EVs": "252 Atk, 6 Def, 252 Spe",
+      "brain": true
+    },
+    {
+      "setName": "Umbreon-6",
+      "species": "Umbreon",
+      "setNumber": 6,
+      "nature": "Calm",
+      "item": "Chesto Berry",
+      "move1": "Double-Edge",
+      "move2": "Confuse Ray",
+      "move3": "Rest",
+      "move4": "Psychic",
+      "EVs": "252 HP, 252 SpA, 6 SpD",
+      "brain": true
+    },
+    {
+      "setName": "Gengar-9",
+      "species": "Gengar",
+      "setNumber": 9,
+      "nature": "Modest",
+      "item": "Leftovers",
+      "move1": "Psychic",
+      "move2": "Hypnosis",
+      "move3": "Dream Eater",
+      "move4": "Destiny Bond",
+      "EVs": "252 HP, 252 Def, 6 SpA",
+      "brain": true
+    },
+    {
+      "setName": "Breloom-5",
+      "species": "Breloom",
+      "setNumber": 5,
+      "nature": "Jolly",
+      "item": "Lum Berry",
+      "move1": "Spore",
+      "move2": "Focus Punch",
+      "move3": "Giga Drain",
+      "move4": "Headbutt",
+      "EVs": "6 HP, 252 Atk, 252 Spe",
+      "brain": true
+    }
+  ]
+}

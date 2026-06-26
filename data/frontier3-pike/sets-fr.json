@@ -1,0 +1,210 @@
+{
+  "remove": [
+    [
+      "Alakazam",
+      5
+    ],
+    [
+      "Entei",
+      7
+    ],
+    [
+      "Ronflex",
+      9
+    ],
+    [
+      "Raikou",
+      7
+    ],
+    [
+      "Latios",
+      9
+    ],
+    [
+      "Ronflex",
+      10
+    ]
+  ],
+  "sets": [
+    {
+      "setName": "Séviper-3",
+      "species": "Séviper",
+      "setNumber": 3,
+      "nature": "Brave",
+      "item": "Vive Griffe",
+      "move1": "Vantardise",
+      "move2": "Machouille",
+      "move3": "Crochetvenin",
+      "move4": "Giga-Sangsue",
+      "EVs": "252 HP, 252 Def, 6 SpA",
+      "brain": true
+    },
+    {
+      "setName": "Caratroc-5",
+      "species": "Caratroc",
+      "setNumber": 5,
+      "nature": "Assuré",
+      "item": "Baie Maron",
+      "move1": "Toxik",
+      "move2": "Tempetesable",
+      "move3": "Abri",
+      "move4": "Repos",
+      "EVs": "252 HP, 106 SpA, 252 SpD",
+      "brain": true
+    },
+    {
+      "setName": "Milobellus-5",
+      "species": "Milobellus",
+      "setNumber": 5,
+      "nature": "Modeste",
+      "item": "Restes",
+      "move1": "Laser Glace",
+      "move2": "Voile Miroir",
+      "move3": "Surf",
+      "move4": "Soin",
+      "EVs": "152 HP, 100 Def, 152 SpA, 106 SpD",
+      "brain": true
+    },
+    {
+      "setName": "Séviper-4",
+      "species": "Séviper",
+      "setNumber": 4,
+      "nature": "Assuré",
+      "item": "Bandeau",
+      "move1": "Vantardise",
+      "move2": "Machouille",
+      "move3": "Bomb-Beurk",
+      "move4": "Giga-Sangsue",
+      "EVs": "252 HP, 252 SpA, 6 SpD",
+      "brain": true
+    },
+    {
+      "setName": "Steelix-5",
+      "species": "Steelix",
+      "setNumber": 5,
+      "nature": "Brave",
+      "item": "Poudre Claire",
+      "move1": "Seisme",
+      "move2": "Eboulement",
+      "move3": "Explosion",
+      "move4": "Grincement",
+      "EVs": "252 HP, 6 SpA, 252 SpD",
+      "brain": true
+    },
+    {
+      "setName": "Léviator-5",
+      "species": "Léviator",
+      "setNumber": 5,
+      "nature": "Rigide",
+      "item": "Baie Maron",
+      "move1": "Danse Draco",
+      "move2": "Retour",
+      "move3": "Hurlement",
+      "move4": "Repos",
+      "EVs": "252 HP, 6 Atk, 252 SpD",
+      "brain": true
+    },
+    {
+      "setName": "Séviper-5",
+      "species": "Séviper",
+      "setNumber": 5,
+      "nature": "",
+      "item": "None",
+      "move1": "Toxik",
+      "move2": "Intimidation",
+      "move3": "Plaquage",
+      "move4": "Bomb-Beurk",
+      "EVs": "",
+      "wild": true,
+      "levelOffset": 4,
+      "movesOpen": [
+        "Toxik",
+        "Intimidation",
+        "Crochetvenin",
+        "Bomb-Beurk"
+      ]
+    },
+    {
+      "setName": "Milobellus-6",
+      "species": "Milobellus",
+      "setNumber": 6,
+      "nature": "",
+      "item": "None",
+      "move1": "Toxik",
+      "move2": "Hypnose",
+      "move3": "Plaquage",
+      "move4": "Surf",
+      "EVs": "",
+      "wild": true,
+      "levelOffset": 4,
+      "movesOpen": [
+        "Toxik",
+        "Hypnose",
+        "Plaquage",
+        "Laser Glace"
+      ]
+    },
+    {
+      "setName": "Téraclope-5",
+      "species": "Téraclope",
+      "setNumber": 5,
+      "nature": "",
+      "item": "None",
+      "move1": "Feu Follet",
+      "move2": "Regard Noir",
+      "move3": "Toxik",
+      "move4": "Poing Ombre",
+      "EVs": "",
+      "wild": true,
+      "levelOffset": 5,
+      "movesOpen": [
+        "Feu Follet",
+        "Regard Noir",
+        "Toxik",
+        "Laser Glace"
+      ]
+    },
+    {
+      "setName": "Électrode-5",
+      "species": "Électrode",
+      "setNumber": 5,
+      "nature": "",
+      "item": "None",
+      "move1": "Explosion",
+      "move2": "Destruction",
+      "move3": "Fatal-Foudre",
+      "move4": "Toxik",
+      "EVs": "",
+      "wild": true,
+      "levelOffset": 5
+    },
+    {
+      "setName": "Chapignon-5",
+      "species": "Chapignon",
+      "setNumber": 5,
+      "nature": "",
+      "item": "None",
+      "move1": "Spore",
+      "move2": "Para-Spore",
+      "move3": "Poudre Toxik",
+      "move4": "Puis. Cachee",
+      "EVs": "",
+      "wild": true,
+      "levelOffset": 5
+    },
+    {
+      "setName": "Qulbutoké-3",
+      "species": "Qulbutoké",
+      "setNumber": 3,
+      "nature": "",
+      "item": "None",
+      "move1": "Riposte",
+      "move2": "Voile Miroir",
+      "move3": "Rune Protect",
+      "move4": "Prlvt Destin",
+      "EVs": "",
+      "wild": true,
+      "levelOffset": 5
+    }
+  ]
+}

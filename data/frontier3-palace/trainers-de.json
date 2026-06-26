@@ -1,0 +1,34 @@
+{
+  "remove": [
+    "Anabel (35)",
+    "Anabel"
+  ],
+  "trainers": [
+    {
+      "name": "Serenus (21)",
+      "class": "Palastregent",
+      "roster": "Iksbat-5, Letarking-5, Lapras-9",
+      "species": "Iksbat, Letarking, Lapras",
+      "iv": 16,
+      "late": "",
+      "quote": "Mein Leben dreht sich um meine POKéMON. Immer und ausschließlich! Unsere Herzen schlagen im gleichen Takt! Junger TRAINER! Glaubst du an deine POKéMON? Kannst du aus tiefstem Herzen und voller Überzeugung an sie glauben? Ist euer Band schwach, wirst du mich und meine Gefährten niemals besiegen!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/spenser.png",
+      "brain": true
+    },
+    {
+      "name": "Serenus",
+      "class": "Palastregent",
+      "roster": "Arkani-5, Letarking-6, Suicune-7",
+      "species": "Arkani, Letarking, Suicune",
+      "iv": 31,
+      "late": "1",
+      "quote": "Uahahahaha! Du hast dich bis hierher durchgekämpft? Dich muss ein wahrhaft starkes Band mit deinen POKéMON verbinden! Also gut! Dieses Mal werde ich dich nicht ein- schüchtern, mich aber auch nicht zurückhalten! Kein Spielchen, sondern ein wahrer Kampf erwartet dich! Bist du bereit? Deine Niederlage wartet auf dich!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/spenser.png",
+      "brain": true
+    }
+  ]
+}

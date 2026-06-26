@@ -13,8 +13,9 @@
 //                    localized (SwSh Battle Tower / Restricted Sparring); the
 //                    universal short codes (USUM/SM/...) carry no nameKey
 //   default          (variants) true → selected when the game is picked.
-//                    Variants are LISTED chronologically (SM before USUM,
-//                    XY before ORAS); the default is independent of order.
+//                    Variants/versions are LISTED newest-first (USUM before SM,
+//                    ORAS before XY, like the other menus); the default is
+//                    independent of order (set it explicitly with `default`).
 //   dataDir          data files live in data/<dataDir>/trainers-<lang>.json
 //                    and data/<dataDir>/sets-<lang>.json
 //   base             optional: dataDir of another variant whose files serve as
@@ -93,23 +94,13 @@ export const GAMES = [
         code: 'tree',
         name: 'Battle Tree',
         default: true,   // tool opens on Battle Tree even though SwSh lists first
+        // The variant row picks a game VERSION (SM / USUM), so it uses the larger
+        // rounded version-pill style (like gen-3/4), not the facility toggle.
+        versionPills: true,
         icons: ['assets/images/games/us.png', 'assets/images/games/um.png'],
+        // Newest game listed first (USUM before SM) to match the other menus; the
+        // default (`default: true`) is independent of order.
         variants: [
-            {
-                code: 'tree-sm',
-                name: 'Sun / Moon',
-                short: 'SM',
-                icons: ['assets/images/games/s.png', 'assets/images/games/m.png'],
-                dataDir: 'tree-sm',
-                base: 'tree',   // delta files on top of the USUM data
-                pokedex: 'data/pokedex-7.json',
-                gen: 7,
-                languages: ['en', 'fr', 'it', 'de', 'es', 'jp', 'ko', 'chs', 'cht'],
-                modes: ['singles', 'doubles', 'multis'],
-                hasTrainers: true,
-                showMinisprites: true,
-                lateCutoff: 40,
-            },
             {
                 code: 'tree-usum',
                 name: 'Ultra Sun / Ultra Moon',
@@ -125,20 +116,38 @@ export const GAMES = [
                 showMinisprites: true,
                 lateCutoff: 40,
             },
+            {
+                code: 'tree-sm',
+                name: 'Sun / Moon',
+                short: 'SM',
+                icons: ['assets/images/games/s.png', 'assets/images/games/m.png'],
+                dataDir: 'tree-sm',
+                base: 'tree',   // delta files on top of the USUM data
+                pokedex: 'data/pokedex-7.json',
+                gen: 7,
+                languages: ['en', 'fr', 'it', 'de', 'es', 'jp', 'ko', 'chs', 'cht'],
+                modes: ['singles', 'doubles', 'multis'],
+                hasTrainers: true,
+                showMinisprites: true,
+                lateCutoff: 40,
+            },
         ],
     },
     {
         code: 'maison',
         name: 'Battle Maison',
+        versionPills: true,   // variant row = game version (XY / ORAS) → big pills
         icons: ['assets/images/games/or.png', 'assets/images/games/as.png'],
+        // Newest game listed first (ORAS before XY) to match the other menus; the
+        // default (`default: true`) is independent of order.
         variants: [
             {
-                code: 'maison-xy',
-                name: 'X / Y',
-                short: 'XY',
-                icons: ['assets/images/games/x.png', 'assets/images/games/y.png'],
-                dataDir: 'maison-xy',
-                base: 'maison',   // delta files on top of the ORAS data
+                code: 'maison-oras',
+                name: 'Omega Ruby / Alpha Sapphire',
+                short: 'ORAS',
+                default: true,
+                icons: ['assets/images/games/or.png', 'assets/images/games/as.png'],
+                dataDir: 'maison',
                 pokedex: 'data/pokedex-6.json',
                 gen: 6,
                 languages: ['en', 'fr', 'it', 'de', 'es', 'jp', 'ko'],
@@ -148,12 +157,12 @@ export const GAMES = [
                 lateCutoff: 40,
             },
             {
-                code: 'maison-oras',
-                name: 'Omega Ruby / Alpha Sapphire',
-                short: 'ORAS',
-                default: true,
-                icons: ['assets/images/games/or.png', 'assets/images/games/as.png'],
-                dataDir: 'maison',
+                code: 'maison-xy',
+                name: 'X / Y',
+                short: 'XY',
+                icons: ['assets/images/games/x.png', 'assets/images/games/y.png'],
+                dataDir: 'maison-xy',
+                base: 'maison',   // delta files on top of the ORAS data
                 pokedex: 'data/pokedex-6.json',
                 gen: 6,
                 languages: ['en', 'fr', 'it', 'de', 'es', 'jp', 'ko'],
@@ -217,7 +226,164 @@ export const GAMES = [
         ],
         variants: frontier4Variants(),
     },
+    {
+        // Gen-3 (Emerald) Battle Frontier. Same two-axis menu shape as gen-4: a
+        // VERSION (Emerald for now; Ruby/Sapphire later) and a FACILITY. Only the
+        // Battle Tower is built so far; Palace/Factory/Pyramid/Dome/Arena/Pike
+        // come one at a time. Listed LAST (oldest gen). Differentiated from gen-4
+        // "Battle Frontier" by its Emerald logo (the game select keys on `code`).
+        //
+        // Tower quirks: IVs are PER-TRAINER (trainerIVs, tiers 3..21/31 by index);
+        // OPEN LEVEL (`openLevel`) opponents match the player's strongest Pokémon
+        // (60-100, not a flat 100), so the settings level toggle is "Lv 50 / Open"
+        // with a level input; and the strongest legendary sets (`highTier` on the
+        // set) only appear in Open Level — filtered from rosters at Lv 50.
+        code: 'frontier3',
+        name: 'Battle Frontier',
+        icons: ['assets/images/games/e.png'],
+        versions: [
+            { code: 'emerald', short: 'Emerald', default: true,
+              icons: ['assets/images/games/e.png'] },
+            // Ruby/Sapphire: only the Battle Tower (its own dataset; no brain, singles
+            // only, Lv 50 / Lv 100, random natures → 3-way speed). See frontier3-rs-tower.
+            { code: 'rs', short: 'RS',
+              icons: ['assets/images/games/r.png', 'assets/images/games/sa.png'] },
+        ],
+        variants: frontier3Variants(),
+    },
 ];
+
+// Gen-3 Battle Frontier variants (version × facility). Add facilities to
+// FACILITIES as they're built (validate.py + smoke too). All gen-3 facilities
+// share: 6 langs (no ko/Chinese), per-trainer IVs, Open Level, the 50+ late
+// filter, and English-only quotes (gen-3 quotes are Easy Chat).
+function frontier3Variants() {
+    const VERSIONS = [
+        { code: 'emerald', short: 'Emerald' },
+    ];
+    const FACILITIES = [
+        { key: 'tower', label: 'Tower', nameKey: 'facility-tower', dataDir: 'frontier3-tower',
+          modes: ['singles', 'doubles', 'multis'], default: true },
+        // Dome: same 300 trainers + pools as the Tower (delta — only the brain,
+        // Tucker, differs). But every NON-Tucker Pokémon has 3 IVs (the Dome bug),
+        // applied at render via `forcedIV` (Tucker keeps his 20/31 via trainer.iv).
+        // Singles + Doubles (3 entered, 2 brought — we show the full roster).
+        { key: 'dome', label: 'Dome', nameKey: 'facility-dome', dataDir: 'frontier3-dome',
+          base: 'frontier3-tower', modes: ['singles', 'doubles'], forcedIV: 3,
+          links: [{ text: 'Battle Dome Assistant by Mow',
+                    url: 'https://pokemow.com/Gen3/DomeAssistantWeb/' }] },
+        // Palace: identical to the Tower (same 300 trainers + pools, normal IVs) — a
+        // plain delta swapping the brain to Spenser. All three modes.
+        { key: 'palace', label: 'Palace', nameKey: 'facility-palace', dataDir: 'frontier3-palace',
+          base: 'frontier3-tower', modes: ['singles', 'doubles', 'multis'] },
+        // Arena: SINGLES only (the mode selector auto-hides for a single mode), delta
+        // swapping the brain to Greta. Arena forces ENTERED-order send-out, so the
+        // brain's team is shown in roster order (`fixedTeamOrder`), not dex-sorted.
+        { key: 'arena', label: 'Arena', nameKey: 'facility-arena', dataDir: 'frontier3-arena',
+          base: 'frontier3-tower', modes: ['singles'], fixedTeamOrder: true },
+        // Factory: STANDALONE (no base) — the 882 tier-tagged sets, but the
+        // "trainers" are the 8 battle-number arrays + Noland ×2. Each entry's roster
+        // is derived at runtime from the tier tags × the level mode (`factory3`).
+        // Lv50 / Open (Open = level 100, no input — unlike the Tower's Open). IVs for
+        // the battle arrays come from the player's current Tower STREAK (a glitch) —
+        // the settings panel asks for it; Noland uses 15 (battle 21) / 31 (battle 42).
+        // Singles + Doubles (no multis). No 50+ late filter (the arrays ARE the
+        // battle ranges). Minisprites on for now (a lot of species — under review).
+        { key: 'factory', label: 'Factory', nameKey: 'facility-factory', dataDir: 'frontier3-factory',
+          modes: ['singles', 'doubles'], factory3: true,
+          links: [{ text: 'Battle Factory Buddy by Dave Glorbus',
+                    url: 'https://battlefactorybuddy.com' }] },
+        // Pike: delta on the Tower (brain Anabel → Lucy) plus a "Wild Pokémon" entry
+        // (some rooms field wild Pokémon — wild sets carry random IVs → an IV-range
+        // speed, and a player-relative level). Singles + Doubles, but DEFAULTS to
+        // Doubles (`defaultMode`) since most runs stay in one view. The Pike streak
+        // counts selection rooms too (~2× battles), so the late cutoff is 99+.
+        { key: 'pike', label: 'Pike', nameKey: 'facility-pike', dataDir: 'frontier3-pike',
+          base: 'frontier3-tower', modes: ['singles', 'doubles'], defaultMode: 'doubles',
+          lateCutoff: 99 },
+        // Pyramid: delta on the Tower (brain Anabel → Brandon). Singles + Doubles
+        // (defaults to Doubles like Pike), normal IVs, plain 50+ late (default cutoff).
+        // `pyramidWild`: the "Wild Pokémon" entry opens a round/floor filter (the quote
+        // menu becomes a round-quote filter) and a 140+ IV toggle in settings.
+        { key: 'pyramid', label: 'Pyramid', nameKey: 'facility-pyramid', dataDir: 'frontier3-pyramid',
+          base: 'frontier3-tower', modes: ['singles', 'doubles'], defaultMode: 'doubles',
+          pyramidWild: true },
+    ];
+    const out = [];
+    for (const v of VERSIONS) {
+        for (const f of FACILITIES) {
+            const variant = {
+                code: `f3-${v.code}-${f.key}`,
+                name: `${v.short} — ${f.label}`,
+                version: v.code,
+                facility: f.key,
+                facilityShort: f.label,
+                facilityNameKey: f.nameKey,
+                dataDir: f.dataDir,
+                pokedex: 'data/pokedex-3.json',
+                gen: 3,
+                languages: ['en', 'fr', 'it', 'de', 'es', 'jp'],   // gen-3: no ko/Chinese
+                modes: f.modes,
+                hasTrainers: true,
+                showMinisprites: true,
+                trainerIVs: true,    // IV comes from the selected trainer (tier by index)
+                openLevel: true,     // Lv 50 / Open (level input) toggle
+                lateCutoff: 50,      // "50+" filter (Battle Girl Kay..Gretel + the brain)
+                enOnlyQuotes: true,  // gen-3 quotes are English-only (Easy Chat)
+                icons: ['assets/images/games/e.png'],
+            };
+            if (f.base) variant.base = f.base;
+            if (f.forcedIV != null) {
+                // Dome 3-IV bug: non-brain trainers use this IV (browse too); the
+                // brain (Tucker) keeps his own iv via the trainer record.
+                variant.forcedIV = f.forcedIV;
+                variant.speedIVs = f.forcedIV;
+            }
+            if (f.links) variant.links = f.links;   // external helper-tool links
+            if (f.fixedTeamOrder) variant.fixedTeamOrder = true;  // Arena: brain in team order
+            if (f.defaultMode) variant.defaultMode = f.defaultMode;  // Pike: default to Doubles
+            if (f.lateCutoff != null) variant.lateCutoff = f.lateCutoff;  // Pike: 99+ (room-count)
+            if (f.pyramidWild) variant.pyramidWild = true;  // Pyramid: wild round/floor filter
+            if (f.factory3) {
+                // Factory: flat Lv50/Open toggle (Open = 100, no input — drop the
+                // Tower's openLevel input), streak-driven IVs, no 50+ late filter.
+                variant.factory3 = true;
+                variant.openLevel = false;
+                variant.hasQuotes = false;   // the arrays aren't trainers; Noland has none here
+                delete variant.lateCutoff;
+            }
+            if (f.default) variant.default = true;
+            out.push(variant);
+        }
+    }
+    // Ruby/Sapphire Battle Tower — a 2nd version, Tower only. STANDALONE dataset with
+    // TWO mon pools (Lv 50 / Lv 100) selected by a flat level toggle (`rsTower` →
+    // roster/rosterOpen + a per-set `pool`). No brain, SINGLES only, random natures
+    // (`randomNature` → 3-way speed), per-trainer IVs, 50+ late = the IV-31 trainers.
+    out.push({
+        code: 'f3-rs-tower',
+        name: 'RS — Tower',
+        version: 'rs',
+        facility: 'tower',
+        facilityShort: 'Tower',
+        facilityNameKey: 'facility-tower',
+        dataDir: 'frontier3-rs-tower',
+        pokedex: 'data/pokedex-3.json',
+        gen: 3,
+        languages: ['en', 'fr', 'it', 'de', 'es', 'jp'],
+        modes: ['singles'],
+        hasTrainers: true,
+        showMinisprites: true,
+        trainerIVs: true,
+        randomNature: true,         // RS randomizes natures (3-way speed display)
+        rsTower: true,              // two-pool Lv50/Lv100 roster + per-set pool filter
+        openLabel: 'level-100',     // the level toggle's 2nd option reads "Level 100"
+        lateCutoff: 50,             // "50+" = the IV-31 trainers (Oliver..Gillian)
+        enOnlyQuotes: true,         // gen-3 quotes are Easy Chat (English only)
+        icons: ['assets/images/games/r.png', 'assets/images/games/sa.png'],
+    });
+    return out;
+}
 
 // Builds the 6 gen-4 variants (2 versions × 3 facilities) — HGSS and Platinum
 // share data files (sets+regular trainers identical), so both versions of a
@@ -239,7 +405,9 @@ function frontier4Variants() {
     const FACILITIES = [
         { key: 'tower',  label: 'Tower',  nameKey: 'facility-tower',  dataDir: 'frontier4-tower' },
         { key: 'arcade', label: 'Arcade', nameKey: 'facility-arcade', dataDir: 'frontier4-arcade', base: 'frontier4-tower', noItems: true },
-        { key: 'castle', label: 'Castle', nameKey: 'facility-castle', dataDir: 'frontier4-castle', base: 'frontier4-tower' },
+        { key: 'castle', label: 'Castle', nameKey: 'facility-castle', dataDir: 'frontier4-castle', base: 'frontier4-tower',
+          links: [{ text: 'Battle Castle Assistant by potatobagel',
+                    url: 'https://echen52.github.io/battle-castle-assistant/' }] },
         // Hall: no trainers — the player faces a random Pokémon from a pool keyed
         // by TYPE + RANK (see `hall` flag → type/rank selector UI in app.js).
         // Singles only; its own sets file; no 43+ late filter.
@@ -281,6 +449,7 @@ function frontier4Variants() {
             if (f.hall) variant.hall = true;        // type/rank selector instead of trainers
             else variant.lateCutoff = 43;           // "43+" toggle (Tower/Arcade/Castle/Factory)
             if (f.factory) variant.factory = true;  // runtime roster generation + Lv50/Open
+            if (f.links) variant.links = f.links;   // external helper-tool links
             if (f.base) variant.base = f.base;
             // DP Tower is its OWN standalone dataset and randomizes natures.
             if (v.code === 'dp' && f.key === 'tower') {
@@ -341,7 +510,7 @@ export const THEMES = [
 
 // Appended to every data fetch (?v=...) so browsers pick up new data after a
 // deploy instead of serving stale cached JSON. Bump when data files change.
-export const DATA_VERSION = '2026-06-15g';
+export const DATA_VERSION = '2026-06-25d';
 
 export const LANGUAGE_NAMES = {
     en: 'English',

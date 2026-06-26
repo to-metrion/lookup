@@ -1,0 +1,108 @@
+{
+  "remove": [
+    [
+      "Alakazam",
+      5
+    ],
+    [
+      "Entei",
+      7
+    ],
+    [
+      "Snorlax",
+      9
+    ],
+    [
+      "Raikou",
+      7
+    ],
+    [
+      "Latios",
+      9
+    ],
+    [
+      "Snorlax",
+      10
+    ]
+  ],
+  "sets": [
+    {
+      "setName": "Crobat-5",
+      "species": "Crobat",
+      "setNumber": 5,
+      "nature": "Adamant",
+      "item": "Bright Powder",
+      "move1": "Confuse Ray",
+      "move2": "Double Team",
+      "move3": "Toxic",
+      "move4": "Fly",
+      "EVs": "152 HP, 100 SpA, 106 SpD, 152 Spe",
+      "brain": true
+    },
+    {
+      "setName": "Slaking-5",
+      "species": "Slaking",
+      "setNumber": 5,
+      "nature": "Hardy",
+      "item": "Scope Lens",
+      "move1": "Earthquake",
+      "move2": "Swagger",
+      "move3": "Shadow Ball",
+      "move4": "Brick Break",
+      "EVs": "152 HP, 152 Atk, 100 SpA, 106 Spe",
+      "brain": true
+    },
+    {
+      "setName": "Lapras-9",
+      "species": "Lapras",
+      "setNumber": 9,
+      "nature": "Quiet",
+      "item": "Quick Claw",
+      "move1": "Ice Beam",
+      "move2": "Horn Drill",
+      "move3": "Confuse Ray",
+      "move4": "Protect",
+      "EVs": "252 Def, 106 SpA, 152 SpD",
+      "brain": true
+    },
+    {
+      "setName": "Arcanine-5",
+      "species": "Arcanine",
+      "setNumber": 5,
+      "nature": "Hasty",
+      "item": "White Herb",
+      "move1": "Overheat",
+      "move2": "Extreme Speed",
+      "move3": "Roar",
+      "move4": "Protect",
+      "EVs": "6 HP, 252 Atk, 252 Def",
+      "brain": true
+    },
+    {
+      "setName": "Slaking-6",
+      "species": "Slaking",
+      "setNumber": 6,
+      "nature": "Hardy",
+      "item": "Scope Lens",
+      "move1": "Hyper Beam",
+      "move2": "Earthquake",
+      "move3": "Shadow Ball",
+      "move4": "Yawn",
+      "EVs": "6 HP, 252 Atk, 252 Spe",
+      "brain": true
+    },
+    {
+      "setName": "Suicune-7",
+      "species": "Suicune",
+      "setNumber": 7,
+      "nature": "Hasty",
+      "item": "King's Rock",
+      "move1": "Blizzard",
+      "move2": "Surf",
+      "move3": "Bite",
+      "move4": "Calm Mind",
+      "EVs": "252 HP, 252 Def, 6 Spe",
+      "brain": true
+    }
+  ]
+}

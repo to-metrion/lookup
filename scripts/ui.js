@@ -5,7 +5,7 @@
 // slot(s). Slot ownership per mode comes from slotSide() in config.js.
 
 import { state } from './state.js';
-import { speedDisplay, speedTriple, megaEntry, hallFacedLevel } from './speed.js';
+import { speedDisplay, speedTriple, speedRange, wildLevelText, megaEntry, hallFacedLevel } from './speed.js';
 import { MODES, MAX_SLOTS, MAX_SIDES, modeSlots, slotSide, variantMaxSlots } from './config.js';
 
 /* ---------- lookup helpers ---------- */
@@ -229,7 +229,65 @@ export function buildSlotContainers() {
         `;
         menus.appendChild(container);
     }
+    // Swap button: shown only with two columns (doubles / multis). It lives on
+    // <body> and is positioned via getBoundingClientRect (positionSwap) so it can
+    // anchor to whichever pair of menus is relevant without layout coupling.
+    if (!document.getElementById('swap-slots')) {
+        const swap = document.createElement('button');
+        swap.id = 'swap-slots';
+        swap.type = 'button';
+        swap.style.display = 'none';
+        swap.setAttribute('aria-label', 'Swap sides');
+        swap.innerHTML = '⇄';
+        document.body.appendChild(swap);
+        window.addEventListener('resize', positionSwap);
+    }
+    if (typeof ResizeObserver !== 'undefined' && !menus._swapObserver) {
+        menus._swapObserver = new ResizeObserver(() => positionSwap());
+        menus._swapObserver.observe(menus);
+    }
     state.activeSets = {};
+}
+
+// Show/position the swap button (visible only with two columns). DOUBLES: centered
+// between the two species menus (a `swap-gap` class shrinks them to open room).
+// MULTIS: centered between the two TRAINER menus in the header — their height is
+// fixed, unlike the per-side rosters whose variable height made the species-menu
+// anchor jump around. Rect-based so async-loading minisprites can't misplace it.
+export function positionSwap() {
+    const btn = document.getElementById('swap-slots');
+    if (!btn) return;
+    const menus = document.getElementById('pokemon-menus');
+    const trainerCont = document.querySelector('.trainer-select-container');
+    const twoColumns = modeSlots(state.mode) === 2;
+    const multi = MODES[state.mode].sides > 1;
+    if (!twoColumns) {
+        btn.style.display = 'none';
+        menus.classList.remove('swap-gap');
+        trainerCont?.classList.remove('swap-gap');
+        return;
+    }
+    menus.classList.toggle('swap-gap', !multi);          // doubles: gap the species menus
+    trainerCont?.classList.toggle('swap-gap', multi);    // multis: gap the trainer menus
+    const a = document.querySelector(multi
+        ? '#trainer-side-1 .select2-container' : '#pokemon-menu-container-1 .select2-container');
+    const b = document.querySelector(multi
+        ? '#trainer-side-2 .select2-container' : '#pokemon-menu-container-2 .select2-container');
+    if (!a || !b) { btn.style.display = 'none'; return; }
+    // Position from layout rects when available (jsdom has none → just stay visible
+    // so the smoke tests can assert visibility).
+    const ra = a.getBoundingClientRect(), rb = b.getBoundingClientRect();
+    if (ra.width && rb.width) {
+        // Hide in compact mode (the mode toggle is display:none ≤768px) or when the
+        // two menus aren't side by side anymore (columns/trainer menus stacked) — the
+        // button would otherwise float out of place. Reappears when widened.
+        const modeHidden = document.getElementById('mode-control')?.offsetParent === null;
+        const sideBySide = rb.left > ra.left + 4 && Math.abs(rb.top - ra.top) < ra.height;
+        if (modeHidden || !sideBySide) { btn.style.display = 'none'; return; }
+        btn.style.left = `${(ra.right + rb.left) / 2 + window.scrollX}px`;
+        btn.style.top = `${ra.top + ra.height / 2 + window.scrollY}px`;
+    }
+    btn.style.display = '';
 }
 
 /* ---------- trainer & quote dropdowns (per side) ---------- */
@@ -286,8 +344,11 @@ export function populateTrainerDropdown(side, onSelect) {
     const $dropdown = $(`#trainer-dropdown-${side}`).empty();
     $dropdown.append(`<option value="" disabled selected></option>`);
 
-    const trainers = [...trainerPool()].sort(
-        (a, b) => trainerName(a).localeCompare(trainerName(b)));
+    // gen-3 Factory: keep the data order (battle arrays 1-7 … 50+, then Noland);
+    // alphabetical sort would scramble the numeric ranges.
+    const trainers = state.variant.factory3
+        ? [...trainerPool()]
+        : [...trainerPool()].sort((a, b) => trainerName(a).localeCompare(trainerName(b)));
     for (const trainer of trainers) {
         const index = state.data.trainers.indexOf(trainer);
         const option = new Option(trainerName(trainer), String(index), false, false);
@@ -330,6 +391,41 @@ export function populateQuoteDropdown(side, onSelect) {
     $dropdown.off('select2:select').on('select2:select', event => {
         onSelect(side, state.data.trainers[Number(event.params.data.id)]);
     });
+}
+
+// Battle Pyramid wild filter: the quote menu becomes a round-quote filter, with a
+// small Round + Floor filter to its right. `onChange(kind, id)` — kind 'round' (set
+// from EITHER the quote or the round menu — they mirror each other) or 'floor'; id is
+// the value string ('' = all). Each menu's first option is an "All …" entry.
+export function populatePyramidWildFilter(onChange) {
+    const rounds = state.data.rounds || [];
+    const allRounds = t('pyramidAllRounds', 'All rounds');
+    const allFloors = t('pyramidAllFloors', 'All floors');
+    const $q = $('#pwf-quote').empty().append(new Option(allRounds, ''));
+    rounds.forEach(r => $q.append(new Option(r.quote, String(r.round))));
+    const $r = $('#pwf-round').empty().append(new Option(allRounds, ''));
+    rounds.forEach(r => $r.append(new Option(`${t('pyramidRound', 'Round')} ${r.round}`, String(r.round))));
+    const $f = $('#pwf-floor').empty().append(new Option(allFloors, ''));
+    for (let i = 1; i <= 7; i++) $f.append(new Option(`${t('pyramidFloor', 'Floor')} ${i}`, String(i)));
+
+    // Use the default (quote/Pokémon-menu) select2 style — not the big trainer style.
+    // The "All …" entry is the first option (no allowClear ×, which covered the arrow).
+    initSelect2('#pwf-quote', {});
+    initSelect2('#pwf-round', { search: false });
+    initSelect2('#pwf-floor', { search: false });
+    $q.off('select2:select').on('select2:select', e => onChange('round', e.params.data.id));
+    $r.off('select2:select').on('select2:select', e => onChange('round', e.params.data.id));
+    $f.off('select2:select').on('select2:select', e => onChange('floor', e.params.data.id));
+    syncPyramidWildFilter();
+}
+
+// Reflect state.pyramidRound/Floor into the three menus (no handler firing).
+export function syncPyramidWildFilter() {
+    const rv = state.pyramidRound ? String(state.pyramidRound) : '';
+    const fv = state.pyramidFloor ? String(state.pyramidFloor) : '';
+    $('#pwf-quote').val(rv).trigger('change.select2');
+    $('#pwf-round').val(rv).trigger('change.select2');
+    $('#pwf-floor').val(fv).trigger('change.select2');
 }
 
 // Refreshes placeholders (e.g. "Trainer" vs "Trainer 1/2") without losing the
@@ -395,13 +491,23 @@ function dexIndex(species) {
     return dexIndexMap.get(species) ?? Number.MAX_SAFE_INTEGER;
 }
 
+// Battle Arena forces trainers to send their team in ENTERED order, so the brain's
+// (Greta's) lineup is predictable — show her species in roster order instead of the
+// usual dex sort. Applies only to brain trainers in a `fixedTeamOrder` variant.
+function keepTeamOrder(trainer) {
+    return Boolean(state.variant?.fixedTeamOrder && trainer?.brain);
+}
+
 function renderSpeciesListInto(slot, trainer, onPick) {
     // Argenta (battle 50) draws from the WHOLE Hall pool — too many to show as a
     // minisprite grid, so the synthetic selection sets `noMinisprites`.
     if (!trainer || trainer.noMinisprites) return;
     const container = document.getElementById(`slot-species-${slot}`);
-    const ordered = trainer.species.split(', ')
-        .sort((a, b) => dexIndex(a) - dexIndex(b));
+    // trainerVisibleSpecies drops high-tier-only species at Lv 50 (gen-3), so
+    // their minisprites don't show as unclickable (no sets) entries.
+    const visible = trainerVisibleSpecies(trainer);
+    const ordered = keepTeamOrder(trainer)   // Arena brain: keep send-out order
+        ? visible : visible.sort((a, b) => dexIndex(a) - dexIndex(b));
     for (const species of ordered) {
         if (!dexEntry(species)) continue;
         const img = document.createElement('img');
@@ -411,6 +517,9 @@ function renderSpeciesListInto(slot, trainer, onPick) {
         img.classList.add('pokemon-sprite');
         img.onerror = () => img.remove();
         img.onclick = () => onPick(slot, species);
+        // Minisprites load async and grow the list height (pushing the species menu
+        // down) — reposition the swap button once each settles (doubles anchor).
+        img.addEventListener('load', () => requestAnimationFrame(positionSwap));
         container.appendChild(img);
     }
 }
@@ -432,25 +541,76 @@ let facilitySpeciesList = null;
 function facilitySpecies() {
     if (facilitySpeciesSource !== state.data.sets) {
         facilitySpeciesSource = state.data.sets;
-        facilitySpeciesList = [...new Set(state.data.sets.map(set => set.species))];
+        // Browse lists the facility POOL only — exclude brain-only / wild-only sets
+        // (e.g. a Pike wild species with no regular set would otherwise be a dead entry).
+        facilitySpeciesList = [...new Set(
+            state.data.sets.filter(s => !s.brain && !s.wild).map(set => set.species))];
     }
     return facilitySpeciesList;
+}
+
+// Gen-3 Tower: "high-tier" sets (Dragonite/Tyranitar/the strongest legendary
+// sets, `highTier` on the set) only appear in Open Level — at Lv 50 they're
+// filtered out of rosters, browse menus and the sets panel. Always true for
+// other variants.
+function setAllowedAtLevel(set) {
+    // RS Tower: each set belongs to the Lv50 or Lv100 mon pool; show only the active one.
+    if (state.variant?.rsTower) return set.pool === (state.factoryOpen ? '100' : '50');
+    return !(state.variant?.openLevel && !state.openMode && set.highTier);
+}
+
+// A trainer's selectable species, dropping any that have only high-tier sets on
+// their roster when Lv 50 is active (gen-3 Tower).
+function trainerVisibleSpecies(trainer) {
+    const all = trainer.species.split(', ');
+    if (!state.variant?.openLevel || state.openMode) return all;
+    const ok = new Set();
+    for (const tok of (trainer.roster || '').split(', ')) {
+        const [sp, n] = tok.split(/-(?=\d+$)/);
+        const set = state.data.sets.find(s => s.species === sp && s.setNumber === +n);
+        if (set && setAllowedAtLevel(set)) ok.add(sp);
+    }
+    return all.filter(sp => ok.has(sp));
 }
 
 // Species offered in BROWSE mode (no trainer). With a late filter active (43+,
 // Factory 21+/49+), restrict to species fielded by a trainer that passes the
 // filter — so species only on excluded (non-late) rosters disappear too.
 function browseSpecies() {
+    // RS Tower: browse the active level's mon pool (Lv50 / Lv100). With the 50+ filter
+    // on, restrict to the IV-31 trainers' rosters for that level.
+    if (state.variant?.rsTower) {
+        if (state.lateOnly) {
+            const key = state.factoryOpen ? 'rosterOpen' : 'roster';
+            const out = new Set();
+            for (const t of trainerPool())
+                for (const tok of (t[key] || '').split(', '))
+                    if (tok) out.add(tok.split(/-(?=\d+$)/)[0]);
+            return [...out];
+        }
+        const pool = state.factoryOpen ? '100' : '50';
+        return [...new Set(state.data.sets.filter(s => s.pool === pool).map(s => s.species))];
+    }
     const lateActive = (state.lateOnly && state.variant.lateCutoff)
         || (state.variant.factory && state.factoryLate);
-    if (!lateActive) return facilitySpecies();
-    const out = new Set();
-    for (const t of trainerPool()) {
-        for (const tok of (t.roster || '').split(', ')) {
-            if (tok) out.add(tok.split(/-(?=\d+$)/)[0]);
+    let list;
+    if (!lateActive) {
+        list = facilitySpecies();
+    } else {
+        const out = new Set();
+        for (const t of trainerPool()) {
+            for (const tok of (t.roster || '').split(', ')) {
+                if (tok) out.add(tok.split(/-(?=\d+$)/)[0]);
+            }
         }
+        list = [...out];
     }
-    return [...out];
+    // Gen-3 Lv 50: drop species whose only sets are high-tier (Dragonite/Tyranitar).
+    if (state.variant?.openLevel && !state.openMode) {
+        const allowed = new Set(state.data.sets.filter(setAllowedAtLevel).map(s => s.species));
+        list = list.filter(sp => allowed.has(sp));
+    }
+    return list;
 }
 
 // (Re)populates every visible slot's menu — from its owning trainer's roster, or
@@ -468,9 +628,10 @@ export function populatePokemonMenus(onSelect) {
 function populateOneMenu(slot, trainer, onSelect) {
     const $menu = $(`#pokemon-menu-${slot}`).empty();
     $menu.append(new Option('', '', true, true));
-    const species = (trainer ? trainer.species.split(', ') : browseSpecies())
-        .filter(sp => dexEntry(sp))
-        .sort((a, b) => a.localeCompare(b));
+    const base = (trainer ? trainerVisibleSpecies(trainer) : browseSpecies())
+        .filter(sp => dexEntry(sp));
+    const species = keepTeamOrder(trainer)   // Arena brain: keep send-out order
+        ? base : base.sort((a, b) => a.localeCompare(b));
     for (const sp of species) {
         const option = new Option(sp, sp, false, false);
         $(option).attr('data-icon', minispriteUrl(sp));
@@ -492,7 +653,12 @@ function populateOneMenu(slot, trainer, onSelect) {
 // null for non-trainer-IV variants or browse mode (no trainer on that side).
 function ivForSlot(slot) {
     if (!state.variant.trainerIVs) return null;
-    return state.trainers[slotSide(state.mode, slot)]?.iv ?? null;
+    const trainer = state.trainers[slotSide(state.mode, slot)];
+    if (!trainer) return null;
+    // Battle Dome 3-IV bug: every non-brain trainer's Pokémon use `forcedIV` (3),
+    // regardless of their tier IV; the brain (Tucker) keeps his own iv (20/31).
+    if (state.variant.forcedIV != null && !trainer.brain) return state.variant.forcedIV;
+    return trainer.iv ?? null;
 }
 
 export function showPokemonSets(slot, species) {
@@ -512,8 +678,12 @@ export function showPokemonSets(slot, species) {
         sets = state.data.sets.filter(set =>
             set.species === species && setNumbers.includes(set.setNumber));
     } else {
-        sets = state.data.sets.filter(set => set.species === species);
+        // Browse (no trainer): show every set the species has — except brain-only
+        // (Anabel's custom teams) and wild-only (Pike) sets, which appear only when
+        // their owner (the brain / the "Wild Pokémon" entry) is selected.
+        sets = state.data.sets.filter(set => set.species === species && !set.brain && !set.wild);
     }
+    sets = sets.filter(setAllowedAtLevel);   // gen-3 Lv 50: hide Open-only sets
 
     const list = document.createElement('div');
     list.className = 'sets-table';
@@ -526,7 +696,9 @@ export function showPokemonSets(slot, species) {
         row.appendChild(setNumCell(set));
         row.appendChild(itemCell(set.item));
         // DP randomizes natures → don't list one (frees space for the 3-way speed).
-        if (!state.variant?.randomNature) row.appendChild(textCell(set.nature, 'set-nature'));
+        // Pike wild Pokémon also have no fixed nature (random) → blank nature cell.
+        if (!state.variant?.randomNature)
+            row.appendChild(textCell(set.wild ? '' : set.nature, 'set-nature'));
         row.appendChild(movesCell(set));
         row.appendChild(speedCell(set, ivForSlot(slot)));
 
@@ -630,18 +802,27 @@ function itemCell(itemName) {
     return cell;
 }
 
+// Pike wild Pokémon swap one move in Open Level (`movesOpen`); all other sets use
+// their four stored move slots. Returns a [m1,m2,m3,m4] array.
+function effMoves(set) {
+    return (state.openMode && set.movesOpen)
+        ? set.movesOpen
+        : [set.move1, set.move2, set.move3, set.move4];
+}
+
 // The four moves as a compact 2×2 grid (two 13px lines stack to roughly the
 // item icon's height, so the row stays flat) with gen-aware type icons.
 function movesCell(set) {
     const grid = document.createElement('div');
     grid.className = 'set-moves';
-    const enSet = enCounterpart(set);
-    for (let i = 1; i <= 4; i++) {
+    const moves = effMoves(set);
+    const enMoves = effMoves(enCounterpart(set));
+    for (let i = 0; i < 4; i++) {
         const cell = document.createElement('span');
         cell.className = 'set-move';
-        const text = set[`move${i}`];
+        const text = moves[i];
         if (text && text !== '-') {
-            const type = moveType(enSet[`move${i}`], state.variant.gen);
+            const type = moveType(enMoves[i], state.variant.gen);
             if (type) {
                 const icon = document.createElement('img');
                 icon.src = `assets/images/types/${type.toLowerCase()}.png`;
@@ -690,6 +871,15 @@ function speedCell(set, iv = null) {
         }
         return cell;
     }
+    // Pike wild Pokémon: random IVs → show the 0-IV→31-IV speed range "lo – hi".
+    if (set.wild) {
+        const r = speedRange(set);
+        if (r) {
+            cell.appendChild(icon());
+            cell.appendChild(document.createTextNode(`${r.lo} – ${r.hi}`));
+        }
+        return cell;
+    }
     // Hall without a determined faced level → no speed (empty cell, no icon).
     const text = speedDisplay(set, iv);
     if (text) {
@@ -734,7 +924,10 @@ function showSetDetails(slot, set) {
     }
 
     const english = speciesData.en.toLowerCase();
-    const abilities = (speciesData[`abilities-${state.language}`] || '').split(', ');
+    // Pyramid wild sets are locked to a specific ability (or a known pair) — show that
+    // instead of the species' full ability list.
+    const abilities = (set.ability || speciesData[`abilities-${state.language}`] || '')
+        .split(', ').filter(Boolean);
     // Arcade/Castle: opponents hold no items → no item, no Mega Evolution.
     const noItems = Boolean(state.variant?.noItems);
     const itemEnglish = itemEntry(set.item)?.en ?? set.item;
@@ -744,12 +937,14 @@ function showSetDetails(slot, set) {
         : null;
 
     // English move names drive the type lookup (counterpart set, preloaded).
-    const enSet = enCounterpart(set);
+    // effMoves applies the Pike wild Pokémon's Open-Level move swap.
+    const moves = effMoves(set);
+    const enMoves = effMoves(enCounterpart(set));
     const moveLines = [];
-    for (let i = 1; i <= 4; i++) {
-        const text = set[`move${i}`];
+    for (let i = 0; i < 4; i++) {
+        const text = moves[i];
         if (!text || text === '-') continue;
-        const type = moveType(enSet[`move${i}`], state.variant.gen);
+        const type = moveType(enMoves[i], state.variant.gen);
         const bullet = type
             ? `<img src="assets/images/types/${type.toLowerCase()}.png" alt="${type}" class="move-type-icon" onerror="this.remove()" />`
             : '<span class="move-bullet">-</span>';
@@ -776,31 +971,40 @@ function showSetDetails(slot, set) {
     // DP randomizes natures: drop the nature block (+ its separator) and show a
     // 3-way speed (−/neutral/+ nature) under the moves instead of one value.
     const randomNature = Boolean(state.variant?.randomNature);
+    const wild = Boolean(set.wild);   // Pike wild Pokémon: random IVs, no nature/EVs
     const speedIcon = '<img src="assets/images/speed.png" alt="Speed" class="speed-icon" />';
     const triple = randomNature ? speedTriple(set, slotIV) : null;
-    const speedValue = randomNature ? null : speedDisplay(set, slotIV);
+    const range = wild ? speedRange(set) : null;
+    const speedValue = (randomNature || wild) ? null : speedDisplay(set, slotIV);
     // No speed to show (Hall before a level is determined) → omit the block + its
-    // leading separator entirely.
+    // leading separator entirely. Wild → a 0-IV/31-IV range (two lines).
     const speedInner = (randomNature && triple)
         ? `<div class="speed-triple">
                 <div class="speed spd-plus"><span class="speed-sign">+</span>${speedIcon}${triple.plus}</div>
                 <div class="speed spd-neutral">${speedIcon}${triple.neutral}</div>
                 <div class="speed spd-minus"><span class="speed-sign">−</span>${speedIcon}${triple.minus}</div>
            </div>`
+        : (wild && range)
+        ? `<div class="speed-range">
+                <div class="speed"><span class="iv-tag">0 IV−</span>${speedIcon}${range.lo}</div>
+                <div class="speed"><span class="iv-tag">31 IV+</span>${speedIcon}${range.hi}</div>
+           </div>`
         : speedValue ? `<div class="speed">${speedIcon}${speedValue}</div>` : '';
     const speedBlock = speedInner ? `<div class="separator"></div>${speedInner}` : '';
-    const natureBlock = randomNature ? '' : `
+    const natureBlock = (randomNature || wild) ? '' : `
             <div class="nature">
                 <b>${set.nature}</b>
                 <br/><span class="nature-text">${natureText}</span>
             </div>
             <div class="separator"></div>`;
 
-    // Battle Hall: the faced Pokémon's level (from the player's inputs), shown
-    // above the abilities separator with a title font (like the nature).
+    // Battle Hall: the faced Pokémon's level (from the player's inputs); Pike wild
+    // Pokémon: their player-relative level — shown above the abilities separator.
     const facedLevel = state.variant?.hall ? hallFacedLevel() : null;
-    const hallLevelHtml = facedLevel != null
+    const levelHtml = facedLevel != null
         ? `<div class="hall-faced-level"><b>${t('hallFacedLevel', 'Lv.')} ${facedLevel}</b></div>`
+        : wild
+        ? `<div class="hall-faced-level"><b>${t('hallFacedLevel', 'Lv.')} ${wildLevelText(set)}</b></div>`
         : '';
 
     details.innerHTML = `
@@ -816,17 +1020,14 @@ function showSetDetails(slot, set) {
             ${speedBlock}
         </div>
         <div class="right-column">
-            ${hallLevelHtml}
+            ${levelHtml}
             <div class="separator"></div>
             <div class="abilities">
                 <span class="abilities-list">${abilities.join('<br/>')}</span>
                 ${megaAbilities ? `<span class="mega-ability-arrow">↓</span><span class="abilities-list">${megaAbilities.join('<br/>')}</span>` : ''}
             </div>
-            <div class="separator"></div>
-            <div class="evs">
-                ${set.EVs.split(', ').join('<br/>')}
-            </div>
-            ${ivsLine(set, slotIV)}
+            ${(!wild && set.EVs) ? `<div class="separator"></div><div class="evs">${set.EVs.split(', ').join('<br/>')}</div>` : ''}
+            ${wild ? '' : ivsLine(set, slotIV)}
         </div>
         <div class="copy">
             <span role="button" title="Copy set (Showdown format)" class="icon-mask icon-copy copy-icon"></span>
@@ -907,8 +1108,10 @@ function typeIconHtml(type, isTera = false) {
 // the English sets file — every localized set has an English counterpart with
 // the same (English species name, set number) key.
 function showdownExport(set, speciesData, slotIV = null) {
-    const englishAbilities = (speciesData['abilities-en'] || '').split(', ');
-    return showdownFormat(enCounterpart(set), englishAbilities, slotIV);
+    const enSet = enCounterpart(set);
+    // Wild sets carry a locked ability (or pair) → export that, not the full list.
+    const englishAbilities = (enSet.ability || speciesData['abilities-en'] || '').split(', ');
+    return showdownFormat(enSet, englishAbilities, slotIV);
 }
 
 const IV_STATS = ['HP', 'Atk', 'Def', 'SpA', 'SpD', 'Spe'];
@@ -917,10 +1120,24 @@ function showdownFormat(set, abilities, ivOverride = null) {
     // Arcade (variant.noItems) opponents hold no item — omit it from the export too.
     const item = state.variant?.noItems ? null : set.item;
     const abils = (abilities || []).map(a => a.trim()).filter(Boolean);
+    const wild = Boolean(set.wild);   // Pike wild: random IVs, no nature/EVs, own level
     const lines = [item && item !== 'None' ? `${set.species} @ ${item}` : set.species];
-    // Battle Hall: include the faced level once it's been determined (it varies;
-    // other facilities are level 50 and left implicit).
-    const facedLevel = state.variant?.hall ? hallFacedLevel() : null;
+    // Include an explicit level when it's not the implicit 50: Battle Hall (the faced
+    // level varies), gen-3 Tower Open Level (player's chosen level), and Pike wild
+    // Pokémon (a player-relative level, even at Lv 50 — e.g. 46/45).
+    // Wild: a single player-relative level (Pike) is exported; a Pyramid level BAND
+    // can't be one Showdown level, so it's omitted (the range is in the UI).
+    let facedLevel = null;
+    if (wild) {
+        const lt = wildLevelText(set);
+        if (!lt.includes('–')) facedLevel = lt;
+    } else {
+        facedLevel = state.variant?.hall ? hallFacedLevel()
+            : (state.variant?.openLevel && state.openMode) ? state.openLevelValue
+            // Factory Open + RS Lv 100 are level 100 (Lv 50 is the implicit default).
+            : ((state.variant?.factory || state.variant?.factory3 || state.variant?.rsTower) && state.factoryOpen) ? 100
+            : null;
+    }
     if (facedLevel != null) lines.push(`Level: ${facedLevel}`);
     if (set.tera) lines.push(`Tera Type: ${set.tera}`);
     // Only state the ability when it's unambiguous (a single possibility). When a
@@ -930,11 +1147,12 @@ function showdownFormat(set, abilities, ivOverride = null) {
     if (set.EVs) lines.push(`EVs: ${set.EVs.split(', ').join(' / ')}`);
     // IVs are uniform across stats here; export them only when not the default 31
     // (same precedence as the speed calc: per-set > trainer/rank > variant > 31).
+    // Wild Pokémon have random IVs → none to state.
     const iv = set.IVs ?? ivOverride ?? state.variant?.speedIVs ?? 31;
-    if (iv !== 31) lines.push(`IVs: ${IV_STATS.map(s => `${iv} ${s}`).join(' / ')}`);
-    // DP randomizes natures → none to state.
-    if (!state.variant?.randomNature) lines.push(`${set.nature} Nature`);
-    for (const move of [set.move1, set.move2, set.move3, set.move4]) {
+    if (!wild && iv !== 31) lines.push(`IVs: ${IV_STATS.map(s => `${iv} ${s}`).join(' / ')}`);
+    // DP randomizes natures, as do wild Pokémon → none to state.
+    if (!state.variant?.randomNature && !wild) lines.push(`${set.nature} Nature`);
+    for (const move of effMoves(set)) {
         if (move) lines.push(`- ${move}`);
     }
     return lines.join('\n');
@@ -985,16 +1203,29 @@ export function updateLayout() {
     const multi = sides() > 1;
     // Battle Hall replaces the trainer menu with type+rank selectors.
     const hall = Boolean(state.variant.hall);
-    // Battle Factory: the Lv50/Open level toggle lives in the settings menu.
+    // Battle Pyramid: when the "Wild Pokémon" entry is selected, the quote menu becomes
+    // a round/floor filter.
+    const pyrWild = Boolean(state.variant.pyramidWild && state.trainers[1]?.wild);
+    document.getElementById('pyramid-wild-filter').style.display = pyrWild ? '' : 'none';
+    // Battle Factory (gen-4 + gen-3) + RS Tower: the flat level toggle (settings menu).
     document.getElementById('factory-level-row').style.display =
-        state.variant.factory ? '' : 'none';
+        (state.variant.factory || state.variant.factory3 || state.variant.rsTower) ? '' : 'none';
+    // Gen-3 Factory: the "Current Tower streak" input (drives opponent IVs).
+    document.getElementById('factory-streak-row').style.display =
+        state.variant.factory3 ? '' : 'none';
+    // Gen-3 Tower: the Lv 50 / Open Level toggle (settings menu).
+    document.getElementById('open-level-row').style.display =
+        state.variant.openLevel ? '' : 'none';
     document.getElementById('hall-select-container').style.display = hall ? '' : 'none';
     // Hide the whole normal trainer container in Hall mode — otherwise its empty
     // flex-grow box keeps claiming half the toolbar row and the Hall menus shrink.
     document.getElementById('trainer-side-1').parentElement.style.display = hall ? 'none' : '';
     document.getElementById('trainer-side-1').style.display = hall ? 'none' : '';
     // Facilities without quote data (e.g. SwSh) hide the quote dropdown(s).
-    const quotes = state.variant.hasQuotes !== false && !hall;
+    // `enOnlyQuotes` (gen-3 Tower) has English-only quotes (Easy Chat can't be
+    // localized from the corpus), so the quote menu is hidden outside English.
+    const quotes = state.variant.hasQuotes !== false && !hall && !pyrWild
+        && !(state.variant.enOnlyQuotes && state.language !== 'en');
     document.getElementById('quote-side-1').style.display = quotes ? '' : 'none';
     document.getElementById('trainer-side-2').style.display = multi ? '' : 'none';
     document.getElementById('quote-side-2').style.display = (multi && quotes) ? '' : 'none';
@@ -1015,6 +1246,7 @@ export function updateLayout() {
             if (multi && side === 2) container.classList.add('side-2');
         }
     }
+    positionSwap();
 }
 
 export function applyStaticTranslations() {

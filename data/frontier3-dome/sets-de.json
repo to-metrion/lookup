@@ -1,0 +1,108 @@
+{
+  "remove": [
+    [
+      "Simsala",
+      5
+    ],
+    [
+      "Entei",
+      7
+    ],
+    [
+      "Relaxo",
+      9
+    ],
+    [
+      "Raikou",
+      7
+    ],
+    [
+      "Latios",
+      9
+    ],
+    [
+      "Relaxo",
+      10
+    ]
+  ],
+  "sets": [
+    {
+      "setName": "Sumpex-5",
+      "species": "Sumpex",
+      "setNumber": 5,
+      "nature": "Mutig",
+      "item": "Fokusband",
+      "move1": "Surfer",
+      "move2": "Erdbeben",
+      "move3": "Eisstrahl",
+      "move4": "Konter",
+      "EVs": "152 HP, 152 Atk, 106 Def, 100 SpA",
+      "brain": true
+    },
+    {
+      "setName": "Brutalanda-9",
+      "species": "Brutalanda",
+      "setNumber": 9,
+      "nature": "Hart",
+      "item": "Prunusbeere",
+      "move1": "Erdbeben",
+      "move2": "Durchbruch",
+      "move3": "Drachenklaue",
+      "move4": "Aero-Ass",
+      "EVs": "152 HP, 152 Atk, 106 Def, 100 Spe",
+      "brain": true
+    },
+    {
+      "setName": "Glurak-5",
+      "species": "Glurak",
+      "setNumber": 5,
+      "nature": "Ruhig",
+      "item": "Schlohkraut",
+      "move1": "Hitzekoller",
+      "move2": "Steinhagel",
+      "move3": "Aero-Ass",
+      "move4": "Erdbeben",
+      "EVs": "100 HP, 152 Atk, 106 Def, 152 Spe",
+      "brain": true
+    },
+    {
+      "setName": "Sumpex-6",
+      "species": "Sumpex",
+      "setNumber": 6,
+      "nature": "Mutig",
+      "item": "Überreste",
+      "move1": "Surfer",
+      "move2": "Erdbeben",
+      "move3": "Eisstrahl",
+      "move4": "Spiegelcape",
+      "EVs": "252 HP, 252 Atk, 6 Def",
+      "brain": true
+    },
+    {
+      "setName": "Metagross-9",
+      "species": "Metagross",
+      "setNumber": 9,
+      "nature": "Mutig",
+      "item": "Flinkklaue",
+      "move1": "Psychokinese",
+      "move2": "Sternenhieb",
+      "move3": "Erdbeben",
+      "move4": "Schutzschild",
+      "EVs": "252 HP, 252 Atk, 6 Def",
+      "brain": true
+    },
+    {
+      "setName": "Latias-9",
+      "species": "Latias",
+      "setNumber": 9,
+      "nature": "Mäßig",
+      "item": "Maronbeere",
+      "move1": "Donnerblitz",
+      "move2": "Psychokinese",
+      "move3": "Gedankengut",
+      "move4": "Erholung",
+      "EVs": "252 HP, 252 Def, 6 Spe",
+      "brain": true
+    }
+  ]
+}

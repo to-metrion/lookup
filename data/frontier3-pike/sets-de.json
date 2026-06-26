@@ -1,0 +1,210 @@
+{
+  "remove": [
+    [
+      "Simsala",
+      5
+    ],
+    [
+      "Entei",
+      7
+    ],
+    [
+      "Relaxo",
+      9
+    ],
+    [
+      "Raikou",
+      7
+    ],
+    [
+      "Latios",
+      9
+    ],
+    [
+      "Relaxo",
+      10
+    ]
+  ],
+  "sets": [
+    {
+      "setName": "Vipitis-3",
+      "species": "Vipitis",
+      "setNumber": 3,
+      "nature": "Mutig",
+      "item": "Flinkklaue",
+      "move1": "Angeberei",
+      "move2": "Knirscher",
+      "move3": "Giftzahn",
+      "move4": "Gigasauger",
+      "EVs": "252 HP, 252 Def, 6 SpA",
+      "brain": true
+    },
+    {
+      "setName": "Pottrott-5",
+      "species": "Pottrott",
+      "setNumber": 5,
+      "nature": "Kühn",
+      "item": "Maronbeere",
+      "move1": "Toxin",
+      "move2": "Sandsturm",
+      "move3": "Schutzschild",
+      "move4": "Erholung",
+      "EVs": "252 HP, 106 SpA, 252 SpD",
+      "brain": true
+    },
+    {
+      "setName": "Milotic-5",
+      "species": "Milotic",
+      "setNumber": 5,
+      "nature": "Mäßig",
+      "item": "Überreste",
+      "move1": "Eisstrahl",
+      "move2": "Spiegelcape",
+      "move3": "Surfer",
+      "move4": "Genesung",
+      "EVs": "152 HP, 100 Def, 152 SpA, 106 SpD",
+      "brain": true
+    },
+    {
+      "setName": "Vipitis-4",
+      "species": "Vipitis",
+      "setNumber": 4,
+      "nature": "Kühn",
+      "item": "Fokusband",
+      "move1": "Angeberei",
+      "move2": "Knirscher",
+      "move3": "Matschbombe",
+      "move4": "Gigasauger",
+      "EVs": "252 HP, 252 SpA, 6 SpD",
+      "brain": true
+    },
+    {
+      "setName": "Stahlos-5",
+      "species": "Stahlos",
+      "setNumber": 5,
+      "nature": "Mutig",
+      "item": "Blendpuder",
+      "move1": "Erdbeben",
+      "move2": "Steinhagel",
+      "move3": "Explosion",
+      "move4": "Kreideschrei",
+      "EVs": "252 HP, 6 SpA, 252 SpD",
+      "brain": true
+    },
+    {
+      "setName": "Garados-5",
+      "species": "Garados",
+      "setNumber": 5,
+      "nature": "Hart",
+      "item": "Maronbeere",
+      "move1": "Drachentanz",
+      "move2": "Rückkehr",
+      "move3": "Brüller",
+      "move4": "Erholung",
+      "EVs": "252 HP, 6 Atk, 252 SpD",
+      "brain": true
+    },
+    {
+      "setName": "Vipitis-5",
+      "species": "Vipitis",
+      "setNumber": 5,
+      "nature": "",
+      "item": "None",
+      "move1": "Toxin",
+      "move2": "Giftblick",
+      "move3": "Bodyslam",
+      "move4": "Matschbombe",
+      "EVs": "",
+      "wild": true,
+      "levelOffset": 4,
+      "movesOpen": [
+        "Toxin",
+        "Giftblick",
+        "Giftzahn",
+        "Matschbombe"
+      ]
+    },
+    {
+      "setName": "Milotic-6",
+      "species": "Milotic",
+      "setNumber": 6,
+      "nature": "",
+      "item": "None",
+      "move1": "Toxin",
+      "move2": "Hypnose",
+      "move3": "Bodyslam",
+      "move4": "Surfer",
+      "EVs": "",
+      "wild": true,
+      "levelOffset": 4,
+      "movesOpen": [
+        "Toxin",
+        "Hypnose",
+        "Bodyslam",
+        "Eisstrahl"
+      ]
+    },
+    {
+      "setName": "Zwirrklop-5",
+      "species": "Zwirrklop",
+      "setNumber": 5,
+      "nature": "",
+      "item": "None",
+      "move1": "Irrlicht",
+      "move2": "Horrorblick",
+      "move3": "Toxin",
+      "move4": "Finsterfaust",
+      "EVs": "",
+      "wild": true,
+      "levelOffset": 5,
+      "movesOpen": [
+        "Irrlicht",
+        "Horrorblick",
+        "Toxin",
+        "Eisstrahl"
+      ]
+    },
+    {
+      "setName": "Lektrobal-5",
+      "species": "Lektrobal",
+      "setNumber": 5,
+      "nature": "",
+      "item": "None",
+      "move1": "Explosion",
+      "move2": "Finale",
+      "move3": "Donner",
+      "move4": "Toxin",
+      "EVs": "",
+      "wild": true,
+      "levelOffset": 5
+    },
+    {
+      "setName": "Kapilz-5",
+      "species": "Kapilz",
+      "setNumber": 5,
+      "nature": "",
+      "item": "None",
+      "move1": "Pilzspore",
+      "move2": "Stachelspore",
+      "move3": "Giftpuder",
+      "move4": "Kraftreserve",
+      "EVs": "",
+      "wild": true,
+      "levelOffset": 5
+    },
+    {
+      "setName": "Woingenau-3",
+      "species": "Woingenau",
+      "setNumber": 3,
+      "nature": "",
+      "item": "None",
+      "move1": "Konter",
+      "move2": "Spiegelcape",
+      "move3": "Bodyguard",
+      "move4": "Abgangsbund",
+      "EVs": "",
+      "wild": true,
+      "levelOffset": 5
+    }
+  ]
+}

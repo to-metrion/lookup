@@ -1,0 +1,108 @@
+{
+  "remove": [
+    [
+      "フーディン",
+      5
+    ],
+    [
+      "エンテイ",
+      7
+    ],
+    [
+      "カビゴン",
+      9
+    ],
+    [
+      "ライコウ",
+      7
+    ],
+    [
+      "ラティオス",
+      9
+    ],
+    [
+      "カビゴン",
+      10
+    ]
+  ],
+  "sets": [
+    {
+      "setName": "ヘラクロス-5",
+      "species": "ヘラクロス",
+      "setNumber": 5,
+      "nature": "ようき",
+      "item": "カムラのみ",
+      "move1": "メガホーン",
+      "move2": "がんせきふうじ",
+      "move3": "こらえる",
+      "move4": "きしかいせい",
+      "EVs": "106 HP, 152 Atk, 100 SpD, 152 Spe",
+      "brain": true
+    },
+    {
+      "setName": "ブラッキー-5",
+      "species": "ブラッキー",
+      "setNumber": 5,
+      "nature": "おだやか",
+      "item": "たべのこし",
+      "move1": "のしかかり",
+      "move2": "あやしいひかり",
+      "move3": "サイコキネシス",
+      "move4": "だましうち",
+      "EVs": "152 HP, 100 Def, 152 SpA, 106 SpD",
+      "brain": true
+    },
+    {
+      "setName": "ヌケニン-2",
+      "species": "ヌケニン",
+      "setNumber": 2,
+      "nature": "いじっぱり",
+      "item": "ひかりのこな",
+      "move1": "シャドーボール",
+      "move2": "おんがえし",
+      "move3": "あやしいひかり",
+      "move4": "つばめがえし",
+      "EVs": "252 Atk, 6 Def, 252 Spe",
+      "brain": true
+    },
+    {
+      "setName": "ブラッキー-6",
+      "species": "ブラッキー",
+      "setNumber": 6,
+      "nature": "おだやか",
+      "item": "カゴのみ",
+      "move1": "すてみタックル",
+      "move2": "あやしいひかり",
+      "move3": "ねむる",
+      "move4": "サイコキネシス",
+      "EVs": "252 HP, 252 SpA, 6 SpD",
+      "brain": true
+    },
+    {
+      "setName": "ゲンガー-9",
+      "species": "ゲンガー",
+      "setNumber": 9,
+      "nature": "ひかえめ",
+      "item": "たべのこし",
+      "move1": "サイコキネシス",
+      "move2": "さいみんじゅつ",
+      "move3": "ゆめくい",
+      "move4": "みちづれ",
+      "EVs": "252 HP, 252 Def, 6 SpA",
+      "brain": true
+    },
+    {
+      "setName": "キノガッサ-5",
+      "species": "キノガッサ",
+      "setNumber": 5,
+      "nature": "ようき",
+      "item": "ラムのみ",
+      "move1": "キノコのほうし",
+      "move2": "きあいパンチ",
+      "move3": "ギガドレイン",
+      "move4": "ずつき",
+      "EVs": "6 HP, 252 Atk, 252 Spe",
+      "brain": true
+    }
+  ]
+}

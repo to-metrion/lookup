@@ -1,0 +1,47 @@
+{
+  "remove": [
+    "Cathy (35)",
+    "Cathy"
+  ],
+  "trainers": [
+    {
+      "name": "Charline (28)",
+      "class": "Reine Venin",
+      "roster": "Séviper-3, Caratroc-5, Milobellus-5",
+      "species": "Séviper, Caratroc, Milobellus",
+      "iv": 16,
+      "late": "",
+      "quote": "Je suis CHARLINE… C'est moi qui commande ici… On m'appelle la REINE VENIN… Comme tu dois le savoir, tu vas devoir essayer de me battre… Bon, ne reste pas là à bayer aux corneilles. Dépêche-toi, voyons…",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/lucy.png",
+      "brain": true
+    },
+    {
+      "name": "Charline",
+      "class": "Reine Venin",
+      "roster": "Séviper-4, Steelix-5, Léviator-5",
+      "species": "Séviper, Steelix, Léviator",
+      "iv": 31,
+      "late": "1",
+      "quote": "Encore toi… … … … … … … J'ai dû en écraser plus d'un pour arriver là où je suis… Je ne me sens pas obligée de continuer à perdre contre toi… … … … … … … Bien… Allons-y…",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/lucy.png",
+      "brain": true
+    },
+    {
+      "name": "Pokémon sauvage",
+      "class": "",
+      "roster": "Séviper-5, Milobellus-6, Téraclope-5, Électrode-5, Chapignon-5, Qulbutoké-3",
+      "species": "Séviper, Milobellus, Téraclope, Électrode, Chapignon, Qulbutoké",
+      "iv": 0,
+      "late": "1",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/wildgrass.png",
+      "wild": true
+    }
+  ]
+}

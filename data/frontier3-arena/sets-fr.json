@@ -1,0 +1,108 @@
+{
+  "remove": [
+    [
+      "Alakazam",
+      5
+    ],
+    [
+      "Entei",
+      7
+    ],
+    [
+      "Ronflex",
+      9
+    ],
+    [
+      "Raikou",
+      7
+    ],
+    [
+      "Latios",
+      9
+    ],
+    [
+      "Ronflex",
+      10
+    ]
+  ],
+  "sets": [
+    {
+      "setName": "Scarhino-5",
+      "species": "Scarhino",
+      "setNumber": 5,
+      "nature": "Jovial",
+      "item": "Baie Sailak",
+      "move1": "Megacorne",
+      "move2": "Tomberoche",
+      "move3": "Tenacite",
+      "move4": "Contre",
+      "EVs": "106 HP, 152 Atk, 100 SpD, 152 Spe",
+      "brain": true
+    },
+    {
+      "setName": "Noctali-5",
+      "species": "Noctali",
+      "setNumber": 5,
+      "nature": "Calme",
+      "item": "Restes",
+      "move1": "Plaquage",
+      "move2": "Onde Folie",
+      "move3": "Psyko",
+      "move4": "Feinte",
+      "EVs": "152 HP, 100 Def, 152 SpA, 106 SpD",
+      "brain": true
+    },
+    {
+      "setName": "Munja-2",
+      "species": "Munja",
+      "setNumber": 2,
+      "nature": "Rigide",
+      "item": "Poudre Claire",
+      "move1": "Ball'Ombre",
+      "move2": "Retour",
+      "move3": "Onde Folie",
+      "move4": "Aeropique",
+      "EVs": "252 Atk, 6 Def, 252 Spe",
+      "brain": true
+    },
+    {
+      "setName": "Noctali-6",
+      "species": "Noctali",
+      "setNumber": 6,
+      "nature": "Calme",
+      "item": "Baie Maron",
+      "move1": "Damocles",
+      "move2": "Onde Folie",
+      "move3": "Repos",
+      "move4": "Psyko",
+      "EVs": "252 HP, 252 SpA, 6 SpD",
+      "brain": true
+    },
+    {
+      "setName": "Ectoplasma-9",
+      "species": "Ectoplasma",
+      "setNumber": 9,
+      "nature": "Modeste",
+      "item": "Restes",
+      "move1": "Psyko",
+      "move2": "Hypnose",
+      "move3": "Devoreve",
+      "move4": "Prlvt Destin",
+      "EVs": "252 HP, 252 Def, 6 SpA",
+      "brain": true
+    },
+    {
+      "setName": "Chapignon-5",
+      "species": "Chapignon",
+      "setNumber": 5,
+      "nature": "Jovial",
+      "item": "Baie Prine",
+      "move1": "Spore",
+      "move2": "Mitra-Poing",
+      "move3": "Giga-Sangsue",
+      "move4": "Coup D'Boule",
+      "EVs": "6 HP, 252 Atk, 252 Spe",
+      "brain": true
+    }
+  ]
+}

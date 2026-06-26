@@ -1,0 +1,108 @@
+{
+  "remove": [
+    [
+      "Alakazam",
+      5
+    ],
+    [
+      "Entei",
+      7
+    ],
+    [
+      "Snorlax",
+      9
+    ],
+    [
+      "Raikou",
+      7
+    ],
+    [
+      "Latios",
+      9
+    ],
+    [
+      "Snorlax",
+      10
+    ]
+  ],
+  "sets": [
+    {
+      "setName": "Swampert-5",
+      "species": "Swampert",
+      "setNumber": 5,
+      "nature": "Brave",
+      "item": "Focus Band",
+      "move1": "Surf",
+      "move2": "Earthquake",
+      "move3": "Ice Beam",
+      "move4": "Counter",
+      "EVs": "152 HP, 152 Atk, 106 Def, 100 SpA",
+      "brain": true
+    },
+    {
+      "setName": "Salamence-9",
+      "species": "Salamence",
+      "setNumber": 9,
+      "nature": "Adamant",
+      "item": "Lum Berry",
+      "move1": "Earthquake",
+      "move2": "Brick Break",
+      "move3": "Dragon Claw",
+      "move4": "Aerial Ace",
+      "EVs": "152 HP, 152 Atk, 106 Def, 100 Spe",
+      "brain": true
+    },
+    {
+      "setName": "Charizard-5",
+      "species": "Charizard",
+      "setNumber": 5,
+      "nature": "Quiet",
+      "item": "White Herb",
+      "move1": "Overheat",
+      "move2": "Rock Slide",
+      "move3": "Aerial Ace",
+      "move4": "Earthquake",
+      "EVs": "100 HP, 152 Atk, 106 Def, 152 Spe",
+      "brain": true
+    },
+    {
+      "setName": "Swampert-6",
+      "species": "Swampert",
+      "setNumber": 6,
+      "nature": "Brave",
+      "item": "Leftovers",
+      "move1": "Surf",
+      "move2": "Earthquake",
+      "move3": "Ice Beam",
+      "move4": "Mirror Coat",
+      "EVs": "252 HP, 252 Atk, 6 Def",
+      "brain": true
+    },
+    {
+      "setName": "Metagross-9",
+      "species": "Metagross",
+      "setNumber": 9,
+      "nature": "Brave",
+      "item": "Quick Claw",
+      "move1": "Psychic",
+      "move2": "Meteor Mash",
+      "move3": "Earthquake",
+      "move4": "Protect",
+      "EVs": "252 HP, 252 Atk, 6 Def",
+      "brain": true
+    },
+    {
+      "setName": "Latias-9",
+      "species": "Latias",
+      "setNumber": 9,
+      "nature": "Modest",
+      "item": "Chesto Berry",
+      "move1": "Thunderbolt",
+      "move2": "Psychic",
+      "move3": "Calm Mind",
+      "move4": "Rest",
+      "EVs": "252 HP, 252 Def, 6 Spe",
+      "brain": true
+    }
+  ]
+}

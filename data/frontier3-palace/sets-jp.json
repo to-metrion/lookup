@@ -1,0 +1,108 @@
+{
+  "remove": [
+    [
+      "フーディン",
+      5
+    ],
+    [
+      "エンテイ",
+      7
+    ],
+    [
+      "カビゴン",
+      9
+    ],
+    [
+      "ライコウ",
+      7
+    ],
+    [
+      "ラティオス",
+      9
+    ],
+    [
+      "カビゴン",
+      10
+    ]
+  ],
+  "sets": [
+    {
+      "setName": "クロバット-5",
+      "species": "クロバット",
+      "setNumber": 5,
+      "nature": "いじっぱり",
+      "item": "ひかりのこな",
+      "move1": "あやしいひかり",
+      "move2": "かげぶんしん",
+      "move3": "どくどく",
+      "move4": "そらをとぶ",
+      "EVs": "152 HP, 100 SpA, 106 SpD, 152 Spe",
+      "brain": true
+    },
+    {
+      "setName": "ケッキング-5",
+      "species": "ケッキング",
+      "setNumber": 5,
+      "nature": "がんばりや",
+      "item": "ピントレンズ",
+      "move1": "じしん",
+      "move2": "いばる",
+      "move3": "シャドーボール",
+      "move4": "かわらわり",
+      "EVs": "152 HP, 152 Atk, 100 SpA, 106 Spe",
+      "brain": true
+    },
+    {
+      "setName": "ラプラス-9",
+      "species": "ラプラス",
+      "setNumber": 9,
+      "nature": "れいせい",
+      "item": "せんせいのツメ",
+      "move1": "れいとうビーム",
+      "move2": "つのドリル",
+      "move3": "あやしいひかり",
+      "move4": "まもる",
+      "EVs": "252 Def, 106 SpA, 152 SpD",
+      "brain": true
+    },
+    {
+      "setName": "ウインディ-5",
+      "species": "ウインディ",
+      "setNumber": 5,
+      "nature": "せっかち",
+      "item": "しろいハーブ",
+      "move1": "オーバーヒート",
+      "move2": "しんそく",
+      "move3": "ほえる",
+      "move4": "まもる",
+      "EVs": "6 HP, 252 Atk, 252 Def",
+      "brain": true
+    },
+    {
+      "setName": "ケッキング-6",
+      "species": "ケッキング",
+      "setNumber": 6,
+      "nature": "がんばりや",
+      "item": "ピントレンズ",
+      "move1": "はかいこうせん",
+      "move2": "じしん",
+      "move3": "シャドーボール",
+      "move4": "あくび",
+      "EVs": "6 HP, 252 Atk, 252 Spe",
+      "brain": true
+    },
+    {
+      "setName": "スイクン-7",
+      "species": "スイクン",
+      "setNumber": 7,
+      "nature": "せっかち",
+      "item": "おうじゃのしるし",
+      "move1": "ふぶき",
+      "move2": "なみのり",
+      "move3": "かみつく",
+      "move4": "めいそう",
+      "EVs": "252 HP, 252 Def, 6 Spe",
+      "brain": true
+    }
+  ]
+}

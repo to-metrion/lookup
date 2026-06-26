@@ -93,11 +93,60 @@ export function hallFacedLevel() {
     return Math.min(Lp, Math.floor(base + types / 2 + (rank - 1) * increment));
 }
 
+// Wild Pokémon level bounds [lo, hi].
+//  • Pike (`levelOffset`): a single player-relative level — 50 − offset at Lv 50, or
+//    max(60, chosen level − offset) in Open (60 floor). Returns [lvl, lvl].
+//  • Pyramid (`levelValue50`/`levelValueOpen`): a 10-wide band. Lv 50 = [v50−5, v50+5];
+//    Open = [max(chosen,60) − vOpen − 5, +10].
+function wildLevelBounds(set) {
+    if (set.levelValue50 != null) {
+        const base = state.openMode
+            ? Math.max(state.openLevelValue ?? 100, 60) - set.levelValueOpen - 5
+            : set.levelValue50 - 5;
+        return [base, base + 10];
+    }
+    const off = set.levelOffset || 0;
+    const lvl = state.openMode ? Math.max(60, (state.openLevelValue ?? 100) - off) : 50 - off;
+    return [lvl, lvl];
+}
+
+// Display string for a wild Pokémon's level: "46" (Pike, single) or "30 – 40" (band).
+export function wildLevelText(set) {
+    const [lo, hi] = wildLevelBounds(set);
+    return lo === hi ? String(lo) : `${lo} – ${hi}`;
+}
+
+// Wild IV bounds. Pyramid: 0–31, or 15–31 from floor 140 (`state.pyramid140`).
+// Pike: always 0–31.
+function wildIvBounds(set) {
+    return (set.levelValue50 != null && state.pyramid140) ? [15, 31] : [0, 31];
+}
+
+// Wild Pokémon have RANDOM IVs, a random nature, AND (Pyramid) a 10-level band → show
+// the full possible speed RANGE: low = lowest level + min IV + −Speed nature; high =
+// highest level + 31 IV + +Speed nature (no EVs, no item). Returns { lo, hi } or null.
+export function speedRange(set) {
+    const dex = state.data.pokedex.find(p => p[state.language] === set.species);
+    if (!dex || dex.spe == null) return null;
+    const [loLvl, hiLvl] = wildLevelBounds(set);
+    const [loIv, hiIv] = wildIvBounds(set);
+    return {
+        lo: computeSpeed({ base: dex.spe, ev: 0, natureMod: 0.9, itemMod: 1, level: loLvl, iv: loIv }),
+        hi: computeSpeed({ base: dex.spe, ev: 0, natureMod: 1.1, itemMod: 1, level: hiLvl, iv: hiIv }),
+    };
+}
+
 // The level used for the speed calc. Hall: the computed faced level, or null when
 // it can't be determined yet (no rank selected) → speed is then not shown at all.
 function speedLevel() {
     if (state.variant?.hall) return hallFacedLevel();
-    if (state.variant?.factory && state.factoryOpen) return 100;   // Open Level
+    // gen-4 Factory and gen-3 Factory both use a flat Lv50 / Open(=100) toggle.
+    if ((state.variant?.factory || state.variant?.factory3) && state.factoryOpen) return 100;
+    // RS Battle Tower: a flat Level 50 / Level 100 toggle (reuses factoryOpen).
+    if (state.variant?.rsTower) return state.factoryOpen ? 100 : 50;
+    // Gen-3 Tower Open Level: opponents match the player's strongest Pokémon
+    // (60-100, chosen by the user). Lv 50 mode uses 50.
+    if (state.variant?.openLevel) return state.openMode ? (state.openLevelValue ?? 100) : 50;
     return state.variant?.speedLevel ?? 50;
 }
 
@@ -107,7 +156,7 @@ function speedLevel() {
 function speedCore(set, ivOverride) {
     const dex = state.data.pokedex.find(p => p[state.language] === set.species);
     if (!dex || dex.spe == null) return null;
-    const level = speedLevel();
+    const level = set.wild ? wildLevelBounds(set)[0] : speedLevel();
     if (level == null) return null;   // Hall with no determined faced level → no speed
     const noItems = Boolean(state.variant?.noItems);
     const enItem = (!noItems && set.item)

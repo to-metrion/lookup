@@ -1,0 +1,108 @@
+{
+  "remove": [
+    [
+      "Alakazam",
+      5
+    ],
+    [
+      "Entei",
+      7
+    ],
+    [
+      "Snorlax",
+      9
+    ],
+    [
+      "Raikou",
+      7
+    ],
+    [
+      "Latios",
+      9
+    ],
+    [
+      "Snorlax",
+      10
+    ]
+  ],
+  "sets": [
+    {
+      "setName": "Crobat-5",
+      "species": "Crobat",
+      "setNumber": 5,
+      "nature": "Firme",
+      "item": "Polvo Brillo",
+      "move1": "Rayo Confuso",
+      "move2": "Doble Equipo",
+      "move3": "Tóxico",
+      "move4": "Vuelo",
+      "EVs": "152 HP, 100 SpA, 106 SpD, 152 Spe",
+      "brain": true
+    },
+    {
+      "setName": "Slaking-5",
+      "species": "Slaking",
+      "setNumber": 5,
+      "nature": "Fuerte",
+      "item": "Periscopio",
+      "move1": "Terremoto",
+      "move2": "Contoneo",
+      "move3": "Bola Sombra",
+      "move4": "Demolición",
+      "EVs": "152 HP, 152 Atk, 100 SpA, 106 Spe",
+      "brain": true
+    },
+    {
+      "setName": "Lapras-9",
+      "species": "Lapras",
+      "setNumber": 9,
+      "nature": "Mansa",
+      "item": "Garra Rápida",
+      "move1": "Rayo Hielo",
+      "move2": "Perforador",
+      "move3": "Rayo Confuso",
+      "move4": "Protección",
+      "EVs": "252 Def, 106 SpA, 152 SpD",
+      "brain": true
+    },
+    {
+      "setName": "Arcanine-5",
+      "species": "Arcanine",
+      "setNumber": 5,
+      "nature": "Activa",
+      "item": "Hierba Blanca",
+      "move1": "Sofoco",
+      "move2": "Vel. Extrema",
+      "move3": "Rugido",
+      "move4": "Protección",
+      "EVs": "6 HP, 252 Atk, 252 Def",
+      "brain": true
+    },
+    {
+      "setName": "Slaking-6",
+      "species": "Slaking",
+      "setNumber": 6,
+      "nature": "Fuerte",
+      "item": "Periscopio",
+      "move1": "Hiperrayo",
+      "move2": "Terremoto",
+      "move3": "Bola Sombra",
+      "move4": "Bostezo",
+      "EVs": "6 HP, 252 Atk, 252 Spe",
+      "brain": true
+    },
+    {
+      "setName": "Suicune-7",
+      "species": "Suicune",
+      "setNumber": 7,
+      "nature": "Activa",
+      "item": "Roca del Rey",
+      "move1": "Ventisca",
+      "move2": "Surf",
+      "move3": "Mordisco",
+      "move4": "Paz Mental",
+      "EVs": "252 HP, 252 Def, 6 Spe",
+      "brain": true
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "remove": [
+    "リラ (35)",
+    "リラ"
+  ],
+  "trainers": [
+    {
+      "name": "アザミ (28)",
+      "class": "チューブクイーン",
+      "roster": "ハブネーク-3, ツボツボ-5, ミロカロス-5",
+      "species": "ハブネーク, ツボツボ, ミロカロス",
+      "iv": 16,
+      "late": "",
+      "quote": "あたしは アザミ‥‥ ここの あるじ‥‥ チューブクイーン‥‥ ‥‥ まあ わかると おもうけど あたしを たおさなきゃ このさき すすめないよ‥‥ ‥‥ おしゃべりは すきじゃ ないからね さっさと かかっといで‥‥",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/lucy.png",
+      "brain": true
+    },
+    {
+      "name": "アザミ",
+      "class": "チューブクイーン",
+      "roster": "ハブネーク-4, ハガネール-5, ギャラドス-5",
+      "species": "ハブネーク, ハガネール, ギャラドス",
+      "iv": 31,
+      "late": "1",
+      "quote": "‥‥ また あんたか‥‥ ‥‥ ‥‥ ‥‥ ‥‥ ‥‥ ‥‥ はなも あらしも ふみこえて いきてきた この あたし‥‥ ‥‥ そうそう おなじ あいてに まけて やる ひつようも ないね‥‥ ‥‥ ‥‥ ‥‥ ‥‥ いいわ‥‥ やって やるよ‥‥ ‥‥ ‥‥ ‥‥",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/lucy.png",
+      "brain": true
+    },
+    {
+      "name": "やせいのポケモン",
+      "class": "",
+      "roster": "ハブネーク-5, ミロカロス-6, サマヨール-5, マルマイン-5, キノガッサ-5, ソーナンス-3",
+      "species": "ハブネーク, ミロカロス, サマヨール, マルマイン, キノガッサ, ソーナンス",
+      "iv": 0,
+      "late": "1",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/wildgrass.png",
+      "wild": true
+    }
+  ]
+}

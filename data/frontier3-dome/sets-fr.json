@@ -1,0 +1,108 @@
+{
+  "remove": [
+    [
+      "Alakazam",
+      5
+    ],
+    [
+      "Entei",
+      7
+    ],
+    [
+      "Ronflex",
+      9
+    ],
+    [
+      "Raikou",
+      7
+    ],
+    [
+      "Latios",
+      9
+    ],
+    [
+      "Ronflex",
+      10
+    ]
+  ],
+  "sets": [
+    {
+      "setName": "Laggron-5",
+      "species": "Laggron",
+      "setNumber": 5,
+      "nature": "Brave",
+      "item": "Bandeau",
+      "move1": "Surf",
+      "move2": "Seisme",
+      "move3": "Laser Glace",
+      "move4": "Riposte",
+      "EVs": "152 HP, 152 Atk, 106 Def, 100 SpA",
+      "brain": true
+    },
+    {
+      "setName": "Drattak-9",
+      "species": "Drattak",
+      "setNumber": 9,
+      "nature": "Rigide",
+      "item": "Baie Prine",
+      "move1": "Seisme",
+      "move2": "Casse-Brique",
+      "move3": "Dracogriffe",
+      "move4": "Aeropique",
+      "EVs": "152 HP, 152 Atk, 106 Def, 100 Spe",
+      "brain": true
+    },
+    {
+      "setName": "Dracaufeu-5",
+      "species": "Dracaufeu",
+      "setNumber": 5,
+      "nature": "Discret",
+      "item": "Herbe Blanche",
+      "move1": "Surchauffe",
+      "move2": "Eboulement",
+      "move3": "Aeropique",
+      "move4": "Seisme",
+      "EVs": "100 HP, 152 Atk, 106 Def, 152 Spe",
+      "brain": true
+    },
+    {
+      "setName": "Laggron-6",
+      "species": "Laggron",
+      "setNumber": 6,
+      "nature": "Brave",
+      "item": "Restes",
+      "move1": "Surf",
+      "move2": "Seisme",
+      "move3": "Laser Glace",
+      "move4": "Voile Miroir",
+      "EVs": "252 HP, 252 Atk, 6 Def",
+      "brain": true
+    },
+    {
+      "setName": "Métalosse-9",
+      "species": "Métalosse",
+      "setNumber": 9,
+      "nature": "Brave",
+      "item": "Vive Griffe",
+      "move1": "Psyko",
+      "move2": "Poing Meteor",
+      "move3": "Seisme",
+      "move4": "Abri",
+      "EVs": "252 HP, 252 Atk, 6 Def",
+      "brain": true
+    },
+    {
+      "setName": "Latias-9",
+      "species": "Latias",
+      "setNumber": 9,
+      "nature": "Modeste",
+      "item": "Baie Maron",
+      "move1": "Tonnerre",
+      "move2": "Psyko",
+      "move3": "Plenitude",
+      "move4": "Repos",
+      "EVs": "252 HP, 252 Def, 6 Spe",
+      "brain": true
+    }
+  ]
+}

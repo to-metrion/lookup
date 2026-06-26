@@ -1,0 +1,210 @@
+{
+  "remove": [
+    [
+      "フーディン",
+      5
+    ],
+    [
+      "エンテイ",
+      7
+    ],
+    [
+      "カビゴン",
+      9
+    ],
+    [
+      "ライコウ",
+      7
+    ],
+    [
+      "ラティオス",
+      9
+    ],
+    [
+      "カビゴン",
+      10
+    ]
+  ],
+  "sets": [
+    {
+      "setName": "ハブネーク-3",
+      "species": "ハブネーク",
+      "setNumber": 3,
+      "nature": "ゆうかん",
+      "item": "せんせいのツメ",
+      "move1": "いばる",
+      "move2": "かみくだく",
+      "move3": "どくどくのキバ",
+      "move4": "ギガドレイン",
+      "EVs": "252 HP, 252 Def, 6 SpA",
+      "brain": true
+    },
+    {
+      "setName": "ツボツボ-5",
+      "species": "ツボツボ",
+      "setNumber": 5,
+      "nature": "ずぶとい",
+      "item": "カゴのみ",
+      "move1": "どくどく",
+      "move2": "すなあらし",
+      "move3": "まもる",
+      "move4": "ねむる",
+      "EVs": "252 HP, 106 SpA, 252 SpD",
+      "brain": true
+    },
+    {
+      "setName": "ミロカロス-5",
+      "species": "ミロカロス",
+      "setNumber": 5,
+      "nature": "ひかえめ",
+      "item": "たべのこし",
+      "move1": "れいとうビーム",
+      "move2": "ミラーコート",
+      "move3": "なみのり",
+      "move4": "じこさいせい",
+      "EVs": "152 HP, 100 Def, 152 SpA, 106 SpD",
+      "brain": true
+    },
+    {
+      "setName": "ハブネーク-4",
+      "species": "ハブネーク",
+      "setNumber": 4,
+      "nature": "ずぶとい",
+      "item": "きあいのハチマキ",
+      "move1": "いばる",
+      "move2": "かみくだく",
+      "move3": "ヘドロばくだん",
+      "move4": "ギガドレイン",
+      "EVs": "252 HP, 252 SpA, 6 SpD",
+      "brain": true
+    },
+    {
+      "setName": "ハガネール-5",
+      "species": "ハガネール",
+      "setNumber": 5,
+      "nature": "ゆうかん",
+      "item": "ひかりのこな",
+      "move1": "じしん",
+      "move2": "いわなだれ",
+      "move3": "だいばくはつ",
+      "move4": "いやなおと",
+      "EVs": "252 HP, 6 SpA, 252 SpD",
+      "brain": true
+    },
+    {
+      "setName": "ギャラドス-5",
+      "species": "ギャラドス",
+      "setNumber": 5,
+      "nature": "いじっぱり",
+      "item": "カゴのみ",
+      "move1": "りゅうのまい",
+      "move2": "おんがえし",
+      "move3": "ほえる",
+      "move4": "ねむる",
+      "EVs": "252 HP, 6 Atk, 252 SpD",
+      "brain": true
+    },
+    {
+      "setName": "ハブネーク-5",
+      "species": "ハブネーク",
+      "setNumber": 5,
+      "nature": "",
+      "item": "None",
+      "move1": "どくどく",
+      "move2": "へびにらみ",
+      "move3": "のしかかり",
+      "move4": "ヘドロばくだん",
+      "EVs": "",
+      "wild": true,
+      "levelOffset": 4,
+      "movesOpen": [
+        "どくどく",
+        "へびにらみ",
+        "どくどくのキバ",
+        "ヘドロばくだん"
+      ]
+    },
+    {
+      "setName": "ミロカロス-6",
+      "species": "ミロカロス",
+      "setNumber": 6,
+      "nature": "",
+      "item": "None",
+      "move1": "どくどく",
+      "move2": "さいみんじゅつ",
+      "move3": "のしかかり",
+      "move4": "なみのり",
+      "EVs": "",
+      "wild": true,
+      "levelOffset": 4,
+      "movesOpen": [
+        "どくどく",
+        "さいみんじゅつ",
+        "のしかかり",
+        "れいとうビーム"
+      ]
+    },
+    {
+      "setName": "サマヨール-5",
+      "species": "サマヨール",
+      "setNumber": 5,
+      "nature": "",
+      "item": "None",
+      "move1": "おにび",
+      "move2": "くろいまなざし",
+      "move3": "どくどく",
+      "move4": "シャドーパンチ",
+      "EVs": "",
+      "wild": true,
+      "levelOffset": 5,
+      "movesOpen": [
+        "おにび",
+        "くろいまなざし",
+        "どくどく",
+        "れいとうビーム"
+      ]
+    },
+    {
+      "setName": "マルマイン-5",
+      "species": "マルマイン",
+      "setNumber": 5,
+      "nature": "",
+      "item": "None",
+      "move1": "だいばくはつ",
+      "move2": "じばく",
+      "move3": "かみなり",
+      "move4": "どくどく",
+      "EVs": "",
+      "wild": true,
+      "levelOffset": 5
+    },
+    {
+      "setName": "キノガッサ-5",
+      "species": "キノガッサ",
+      "setNumber": 5,
+      "nature": "",
+      "item": "None",
+      "move1": "キノコのほうし",
+      "move2": "しびれごな",
+      "move3": "どくのこな",
+      "move4": "めざめるパワー",
+      "EVs": "",
+      "wild": true,
+      "levelOffset": 5
+    },
+    {
+      "setName": "ソーナンス-3",
+      "species": "ソーナンス",
+      "setNumber": 3,
+      "nature": "",
+      "item": "None",
+      "move1": "カウンター",
+      "move2": "ミラーコート",
+      "move3": "しんぴのまもり",
+      "move4": "みちづれ",
+      "EVs": "",
+      "wild": true,
+      "levelOffset": 5
+    }
+  ]
+}

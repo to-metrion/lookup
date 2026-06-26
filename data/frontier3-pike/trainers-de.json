@@ -1,0 +1,47 @@
+{
+  "remove": [
+    "Anabel (35)",
+    "Anabel"
+  ],
+  "trainers": [
+    {
+      "name": "Lotte (28)",
+      "class": "Pfipitistin",
+      "roster": "Vipitis-3, Pottrott-5, Milotic-5",
+      "species": "Vipitis, Pottrott, Milotic",
+      "iv": 16,
+      "late": "",
+      "quote": "Ich bin LOTTE… Ich bin hier das Gesetz… Ich bin die PFIPITISTIN… Du weißt das bestimmt schon, aber um weitergehen zu können, musst du erst an mir vorbei… Smalltalk liegt mir nicht… Los, lass uns kämpfen…",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/lucy.png",
+      "brain": true
+    },
+    {
+      "name": "Lotte",
+      "class": "Pfipitistin",
+      "roster": "Vipitis-4, Stahlos-5, Garados-5",
+      "species": "Vipitis, Stahlos, Garados",
+      "iv": 31,
+      "late": "1",
+      "quote": "Du schon wieder… … … … … … … Ich habe Berge bezwungen und Stürme überstanden, um so weit zu kommen… Irgendwie habe ich nicht das Bedürfnis, wieder gegen denselben Gegner zu verlieren… … … … … … … Also gut… Kämpfen wir…",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/lucy.png",
+      "brain": true
+    },
+    {
+      "name": "Wildes Pokémon",
+      "class": "",
+      "roster": "Vipitis-5, Milotic-6, Zwirrklop-5, Lektrobal-5, Kapilz-5, Woingenau-3",
+      "species": "Vipitis, Milotic, Zwirrklop, Lektrobal, Kapilz, Woingenau",
+      "iv": 0,
+      "late": "1",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/wildgrass.png",
+      "wild": true
+    }
+  ]
+}

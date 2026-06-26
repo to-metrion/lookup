@@ -1,0 +1,47 @@
+{
+  "remove": [
+    "Cathy (35)",
+    "Cathy"
+  ],
+  "trainers": [
+    {
+      "name": "Bayar (28)",
+      "class": "Roi Pyramide",
+      "roster": "Regirock-7, Registeel-7, Regice-7",
+      "species": "Regirock, Registeel, Regice",
+      "iv": 16,
+      "late": "",
+      "quote": "Oui, c'est une vie grandiose! Oui, grandiose! Je suis BAYAR! Je suis le ROI PYRAMIDE! C'est moi qui m'occupe de cet endroit. Tout le monde m'appelle le chef! Si tu es là, c'est que tu ne manques pas de confiance en toi. Je me trompe? Ah, ah, ah! On va bien s'amuser!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/brandon.png",
+      "brain": true
+    },
+    {
+      "name": "Bayar",
+      "class": "Roi Pyramide",
+      "roster": "Artikodin-7, Électhor-7, Sulfura-7",
+      "species": "Artikodin, Électhor, Sulfura",
+      "iv": 31,
+      "late": "1",
+      "quote": "Tu es enfin de retour… Ta soif d'aventure émane du plus profond de ton cœur… Oui… J'étais comme toi quand j'avais ton âge… … … … Ah… Nous allons nous battre… passionnément! Dangereusement! Désespérément! En route vers l'aventure, au péril de nos vies…",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/brandon.png",
+      "brain": true
+    },
+    {
+      "name": "Pokémon sauvage",
+      "class": "",
+      "roster": "Posipi-3, Négapi-3, Pikachu-2, Élektek-5, Rafflesia-5, Élecsprint-5, Chapignon-5, Voltali-5, Gloupti-2, Rosélia-3, Papilusion-2, Séviper-3, Airmure-5, Ludicolo-5, Nostenfer-5, Ectoplasma-9, Caninos-2, Goupix-2, Volcaropod-3, Feunard-5, Charmina-5, Smogogo-5, Téraclope-5, Démolosse-5, Insolourdo-3, Branette-3, Feuforêve-5, Feunard-6, Absol-3, Téraclope-6, Munja-2, Ectoplasma-10, Spectrum-3, Éoko-3, Solaroc-3, Feuforêve-6, Kaorine-5, Smogogo-6, Libégon-5, Ectoplasma-11, Taupiqueur-2, Kraknoix-2, Okéoké-2, Taupiqueur-3, Kraknoix-3, Okéoké-3, Qulbutoké-3, Triopikeur-5, Oniglali-5, Farfuret-3, Lamantine-5, Cochignon-3, Lippoutou-5, Crustabri-3, Kaimorse-5, Lokhlass-9, Smogogo-7, Électrode-5, Ectoplasma-12, Grolem-5, Pomdepik-2, Solaroc-4, Foretress-5, Tengalice-5, Qulbutoké-4, Métang-3, Noadkoko-5, Roigada-5, Xatu-5, Alakazam-6, Staross-9, Mentali-5, Grolem-6, Steelix-5, Amonistar-3, Séléroc-3, Caratroc-5, Armaldo-5, Vacilys-5, Ptéra-5, Tartard-3, Hariyama-5, Chapignon-6, Charmina-6, Tygnon-3, Kicklee-3, Scarhino-5, Mackogneur-9, Maraiste-5, Tropius-3, Ymphect-3, Lokhlass-10, Cacturne-3, Pyroli-5, Kaimorse-6, Léviator-5, Pomdepik-3, Caratroc-6, Aéromite-3, Cizayox-5, Scarhino-6, Foretress-6, Armaldo-6, Munja-3, Ténéfix-3, Farfuret-4, Colhomard-3, Tengalice-6, Cacturne-4, Absol-4, Démolosse-6, Noctali-5, Octillery-3, Lamantine-6, Bekipan-3, Maraiste-6, Ludicolo-6, Roigada-6, Staross-10, Tortank-5, Skelénox-2, Spectrum-4, Branette-4, Feuforêve-7, Ténéfix-4, Téraclope-7, Munja-4, Ectoplasma-13, Mysdibule-2, Magnéton-3, Steelix-6, Cizayox-6, Foretress-7, Airmure-6, Galeking-5, Métalosse-9, Draco-3, Vibraninf-2, Altaria-5, Libégon-6, Ptéra-6, Léviator-6, Hyporoi-5, Dracaufeu-5, Arcanin-5, Tartard-4, Raichu-5, Aquali-5, Voltali-6, Pyroli-6, Feunard-7, Staross-11, Kangourex-5, Hélédelle-3, Ursaring-9, Porygon2-5, Tauros-5, Rapasdepic-5, Ronflex-11, Monaflèmit-5",
+      "species": "Posipi, Négapi, Pikachu, Élektek, Rafflesia, Élecsprint, Chapignon, Voltali, Gloupti, Rosélia, Papilusion, Séviper, Airmure, Ludicolo, Nostenfer, Ectoplasma, Caninos, Goupix, Volcaropod, Feunard, Charmina, Smogogo, Téraclope, Démolosse, Insolourdo, Branette, Feuforêve, Absol, Munja, Spectrum, Éoko, Solaroc, Kaorine, Libégon, Taupiqueur, Kraknoix, Okéoké, Qulbutoké, Triopikeur, Oniglali, Farfuret, Lamantine, Cochignon, Lippoutou, Crustabri, Kaimorse, Lokhlass, Électrode, Grolem, Pomdepik, Foretress, Tengalice, Métang, Noadkoko, Roigada, Xatu, Alakazam, Staross, Mentali, Steelix, Amonistar, Séléroc, Caratroc, Armaldo, Vacilys, Ptéra, Tartard, Hariyama, Tygnon, Kicklee, Scarhino, Mackogneur, Maraiste, Tropius, Ymphect, Cacturne, Pyroli, Léviator, Aéromite, Cizayox, Ténéfix, Colhomard, Noctali, Octillery, Bekipan, Tortank, Skelénox, Mysdibule, Magnéton, Galeking, Métalosse, Draco, Vibraninf, Altaria, Hyporoi, Dracaufeu, Arcanin, Raichu, Aquali, Kangourex, Hélédelle, Ursaring, Porygon2, Tauros, Rapasdepic, Ronflex, Monaflèmit",
+      "iv": 0,
+      "late": "1",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/wildgrass.png",
+      "wild": true
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "remove": [
+    "Destra (35)",
+    "Destra"
+  ],
+  "trainers": [
+    {
+      "name": "Fortunia (28)",
+      "class": "Reina Sierpe",
+      "roster": "Seviper-3, Shuckle-5, Milotic-5",
+      "species": "Seviper, Shuckle, Milotic",
+      "iv": 16,
+      "late": "",
+      "quote": "Soy FORTUNIA… Y aquí mando yo. No en vano soy la REINA de la SIERPE… Ya sé que lo sabes, pero para poder continuar, antes deberás derrotarme… Bueno, basta de cháchara. Venga, adelante…",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/lucy.png",
+      "brain": true
+    },
+    {
+      "name": "Fortunia",
+      "class": "Reina Sierpe",
+      "roster": "Seviper-4, Steelix-5, Gyarados-5",
+      "species": "Seviper, Steelix, Gyarados",
+      "iv": 31,
+      "late": "1",
+      "quote": "¿Otra vez?… Ufff… He pisoteado muchas flores y soportado muchas tormentas para llegar aquí… No tengo la menor intención de perder dos veces contra el mismo rival… Mmm… En fin… Adelante…",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/lucy.png",
+      "brain": true
+    },
+    {
+      "name": "Pokémon salvaje",
+      "class": "",
+      "roster": "Seviper-5, Milotic-6, Dusclops-5, Electrode-5, Breloom-5, Wobbuffet-3",
+      "species": "Seviper, Milotic, Dusclops, Electrode, Breloom, Wobbuffet",
+      "iv": 0,
+      "late": "1",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/wildgrass.png",
+      "wild": true
+    }
+  ]
+}

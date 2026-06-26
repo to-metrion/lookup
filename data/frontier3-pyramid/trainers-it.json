@@ -1,0 +1,47 @@
+{
+  "remove": [
+    "Alberta (35)",
+    "Alberta"
+  ],
+  "trainers": [
+    {
+      "name": "Baldo (28)",
+      "class": "Re Piramide",
+      "roster": "Regirock-7, Registeel-7, Regice-7",
+      "species": "Regirock, Registeel, Regice",
+      "iv": 16,
+      "late": "",
+      "quote": "La vita dell'esploratore è fantastica! Grandiosa! Non trovi? Mi chiamo BALDO! Sono il RE PIRAMIDE, il sovrano di questo luogo. La maggior parte delle persone mi chiama maestà! Per aver fatto così tanta strada, devi avere molta fiducia nelle tue capacità, giusto? Ahahah! Se ne vedranno delle belle!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/brandon.png",
+      "brain": true
+    },
+    {
+      "name": "Baldo",
+      "class": "Re Piramide",
+      "roster": "Articuno-7, Zapdos-7, Moltres-7",
+      "species": "Articuno, Zapdos, Moltres",
+      "iv": 31,
+      "late": "1",
+      "quote": "Finalmente hai fatto ritorno, giovane promessa… Il tuo amore per l'avventura sembra giungere dal profondo del cuore… Mi ricordi gli anni della mia gioventù… Ah… La passione! Il coraggio! Ma anche l'abbattimento! Mi sembra di tornare ai giorni temerari e gioiosi della mia giovinezza…",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/brandon.png",
+      "brain": true
+    },
+    {
+      "name": "Pokémon selvatico",
+      "class": "",
+      "roster": "Plusle-3, Minun-3, Pikachu-2, Electabuzz-5, Vileplume-5, Manectric-5, Breloom-5, Jolteon-5, Gulpin-2, Roselia-3, Butterfree-2, Seviper-3, Skarmory-5, Ludicolo-5, Crobat-5, Gengar-9, Growlithe-2, Vulpix-2, Magcargo-3, Ninetales-5, Medicham-5, Weezing-5, Dusclops-5, Houndoom-5, Dunsparce-3, Banette-3, Misdreavus-5, Ninetales-6, Absol-3, Dusclops-6, Shedinja-2, Gengar-10, Haunter-3, Chimecho-3, Solrock-3, Misdreavus-6, Claydol-5, Weezing-6, Flygon-5, Gengar-11, Diglett-2, Trapinch-2, Wynaut-2, Diglett-3, Trapinch-3, Wynaut-3, Wobbuffet-3, Dugtrio-5, Glalie-5, Sneasel-3, Dewgong-5, Piloswine-3, Jynx-5, Cloyster-3, Walrein-5, Lapras-9, Weezing-7, Electrode-5, Gengar-12, Golem-5, Pineco-2, Solrock-4, Forretress-5, Shiftry-5, Wobbuffet-4, Metang-3, Exeggutor-5, Slowking-5, Xatu-5, Alakazam-6, Starmie-9, Espeon-5, Golem-6, Steelix-5, Omastar-3, Lunatone-3, Shuckle-5, Armaldo-5, Cradily-5, Aerodactyl-5, Poliwrath-3, Hariyama-5, Breloom-6, Medicham-6, Hitmonchan-3, Hitmonlee-3, Heracross-5, Machamp-9, Quagsire-5, Tropius-3, Pupitar-3, Lapras-10, Cacturne-3, Flareon-5, Walrein-6, Gyarados-5, Pineco-3, Shuckle-6, Venomoth-3, Scizor-5, Heracross-6, Forretress-6, Armaldo-6, Shedinja-3, Sableye-3, Sneasel-4, Crawdaunt-3, Shiftry-6, Cacturne-4, Absol-4, Houndoom-6, Umbreon-5, Octillery-3, Dewgong-6, Pelipper-3, Quagsire-6, Ludicolo-6, Slowking-6, Starmie-10, Blastoise-5, Duskull-2, Haunter-4, Banette-4, Misdreavus-7, Sableye-4, Dusclops-7, Shedinja-4, Gengar-13, Mawile-2, Magneton-3, Steelix-6, Scizor-6, Forretress-7, Skarmory-6, Aggron-5, Metagross-9, Dragonair-3, Vibrava-2, Altaria-5, Flygon-6, Aerodactyl-6, Gyarados-6, Kingdra-5, Charizard-5, Arcanine-5, Poliwrath-4, Raichu-5, Vaporeon-5, Jolteon-6, Flareon-6, Ninetales-7, Starmie-11, Kangaskhan-5, Swellow-3, Ursaring-9, Porygon2-5, Tauros-5, Fearow-5, Snorlax-11, Slaking-5",
+      "species": "Plusle, Minun, Pikachu, Electabuzz, Vileplume, Manectric, Breloom, Jolteon, Gulpin, Roselia, Butterfree, Seviper, Skarmory, Ludicolo, Crobat, Gengar, Growlithe, Vulpix, Magcargo, Ninetales, Medicham, Weezing, Dusclops, Houndoom, Dunsparce, Banette, Misdreavus, Absol, Shedinja, Haunter, Chimecho, Solrock, Claydol, Flygon, Diglett, Trapinch, Wynaut, Wobbuffet, Dugtrio, Glalie, Sneasel, Dewgong, Piloswine, Jynx, Cloyster, Walrein, Lapras, Electrode, Golem, Pineco, Forretress, Shiftry, Metang, Exeggutor, Slowking, Xatu, Alakazam, Starmie, Espeon, Steelix, Omastar, Lunatone, Shuckle, Armaldo, Cradily, Aerodactyl, Poliwrath, Hariyama, Hitmonchan, Hitmonlee, Heracross, Machamp, Quagsire, Tropius, Pupitar, Cacturne, Flareon, Gyarados, Venomoth, Scizor, Sableye, Crawdaunt, Umbreon, Octillery, Pelipper, Blastoise, Duskull, Mawile, Magneton, Aggron, Metagross, Dragonair, Vibrava, Altaria, Kingdra, Charizard, Arcanine, Raichu, Vaporeon, Kangaskhan, Swellow, Ursaring, Porygon2, Tauros, Fearow, Snorlax, Slaking",
+      "iv": 0,
+      "late": "1",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/wildgrass.png",
+      "wild": true
+    }
+  ]
+}

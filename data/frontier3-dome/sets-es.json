@@ -1,0 +1,108 @@
+{
+  "remove": [
+    [
+      "Alakazam",
+      5
+    ],
+    [
+      "Entei",
+      7
+    ],
+    [
+      "Snorlax",
+      9
+    ],
+    [
+      "Raikou",
+      7
+    ],
+    [
+      "Latios",
+      9
+    ],
+    [
+      "Snorlax",
+      10
+    ]
+  ],
+  "sets": [
+    {
+      "setName": "Swampert-5",
+      "species": "Swampert",
+      "setNumber": 5,
+      "nature": "Audaz",
+      "item": "Cinta Aguante",
+      "move1": "Surf",
+      "move2": "Terremoto",
+      "move3": "Rayo Hielo",
+      "move4": "Contador",
+      "EVs": "152 HP, 152 Atk, 106 Def, 100 SpA",
+      "brain": true
+    },
+    {
+      "setName": "Salamence-9",
+      "species": "Salamence",
+      "setNumber": 9,
+      "nature": "Firme",
+      "item": "Baya Ziuela",
+      "move1": "Terremoto",
+      "move2": "Demolición",
+      "move3": "Garra Dragón",
+      "move4": "Golpe Aéreo",
+      "EVs": "152 HP, 152 Atk, 106 Def, 100 Spe",
+      "brain": true
+    },
+    {
+      "setName": "Charizard-5",
+      "species": "Charizard",
+      "setNumber": 5,
+      "nature": "Mansa",
+      "item": "Hierba Blanca",
+      "move1": "Sofoco",
+      "move2": "Avalancha",
+      "move3": "Golpe Aéreo",
+      "move4": "Terremoto",
+      "EVs": "100 HP, 152 Atk, 106 Def, 152 Spe",
+      "brain": true
+    },
+    {
+      "setName": "Swampert-6",
+      "species": "Swampert",
+      "setNumber": 6,
+      "nature": "Audaz",
+      "item": "Restos",
+      "move1": "Surf",
+      "move2": "Terremoto",
+      "move3": "Rayo Hielo",
+      "move4": "Manto Espejo",
+      "EVs": "252 HP, 252 Atk, 6 Def",
+      "brain": true
+    },
+    {
+      "setName": "Metagross-9",
+      "species": "Metagross",
+      "setNumber": 9,
+      "nature": "Audaz",
+      "item": "Garra Rápida",
+      "move1": "Psíquico",
+      "move2": "Puño Meteoro",
+      "move3": "Terremoto",
+      "move4": "Protección",
+      "EVs": "252 HP, 252 Atk, 6 Def",
+      "brain": true
+    },
+    {
+      "setName": "Latias-9",
+      "species": "Latias",
+      "setNumber": 9,
+      "nature": "Modesta",
+      "item": "Baya Atania",
+      "move1": "Rayo",
+      "move2": "Psíquico",
+      "move3": "Paz Mental",
+      "move4": "Descanso",
+      "EVs": "252 HP, 252 Def, 6 Spe",
+      "brain": true
+    }
+  ]
+}

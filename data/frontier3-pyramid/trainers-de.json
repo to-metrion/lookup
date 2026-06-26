@@ -1,0 +1,47 @@
+{
+  "remove": [
+    "Anabel (35)",
+    "Anabel"
+  ],
+  "trainers": [
+    {
+      "name": "Brian (28)",
+      "class": "Pyrakönig",
+      "roster": "Regirock-7, Registeel-7, Regice-7",
+      "species": "Regirock, Registeel, Regice",
+      "iv": 16,
+      "late": "",
+      "quote": "Oh ja, das Leben ist einfach großartig! Ja, ja! Bitte?!? Ich heiße BRIAN! Ich bin der PYRAKÖNIG, was bedeutet, dass ich die Verantwortung hier trage! Die meisten nennen mich einfach Chef! Du besitzt ein starkes Selbstver- trauen, da du es bis hierher geschafft hast. Hahaha! Das wird ein Riesenspaß!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/brandon.png",
+      "brain": true
+    },
+    {
+      "name": "Brian",
+      "class": "Pyrakönig",
+      "roster": "Arktos-7, Zapdos-7, Lavados-7",
+      "species": "Arktos, Zapdos, Lavados",
+      "iv": 31,
+      "late": "1",
+      "quote": "… Endlich sehen wir uns wieder, junger Forschergeist! Deine Liebe für Abenteuer scheint aus tiefstem Herzen zu kommen… Ja… Als ich in deinem Alter war, war ich genauso… … … … … Leidenschaftlich! Gefährlich! Verzweifelt! Endlich ist es wieder Zeit für todes- verachtende, lebensbejahende Abenteuer…",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/brandon.png",
+      "brain": true
+    },
+    {
+      "name": "Wildes Pokémon",
+      "class": "",
+      "roster": "Plusle-3, Minun-3, Pikachu-2, Elektek-5, Giflor-5, Voltenso-5, Kapilz-5, Blitza-5, Schluppuck-2, Roselia-3, Smettbo-2, Vipitis-3, Panzaeron-5, Kappalores-5, Iksbat-5, Gengar-9, Fukano-2, Vulpix-2, Magcargo-3, Vulnona-5, Meditalis-5, Smogmog-5, Zwirrklop-5, Hundemon-5, Dummisel-3, Banette-3, Traunfugil-5, Vulnona-6, Absol-3, Zwirrklop-6, Ninjatom-2, Gengar-10, Alpollo-3, Palimpalim-3, Sonnfel-3, Traunfugil-6, Lepumentas-5, Smogmog-6, Libelldra-5, Gengar-11, Digda-2, Knacklion-2, Isso-2, Digda-3, Knacklion-3, Isso-3, Woingenau-3, Digdri-5, Firnontor-5, Sniebel-3, Jugong-5, Keifel-3, Rossana-5, Austos-3, Walraisa-5, Lapras-9, Smogmog-7, Lektrobal-5, Gengar-12, Geowaz-5, Tannza-2, Sonnfel-4, Forstellka-5, Tengulist-5, Woingenau-4, Metang-3, Kokowei-5, Laschoking-5, Xatu-5, Simsala-6, Starmie-9, Psiana-5, Geowaz-6, Stahlos-5, Amoroso-3, Lunastein-3, Pottrott-5, Armaldo-5, Wielie-5, Aerodactyl-5, Quappo-3, Hariyama-5, Kapilz-6, Meditalis-6, Nockchan-3, Kicklee-3, Skaraborn-5, Machomei-9, Morlord-5, Tropius-3, Pupitar-3, Lapras-10, Noktuska-3, Flamara-5, Walraisa-6, Garados-5, Tannza-3, Pottrott-6, Omot-3, Scherox-5, Skaraborn-6, Forstellka-6, Armaldo-6, Ninjatom-3, Zobiris-3, Sniebel-4, Krebutack-3, Tengulist-6, Noktuska-4, Absol-4, Hundemon-6, Nachtara-5, Octillery-3, Jugong-6, Pelipper-3, Morlord-6, Kappalores-6, Laschoking-6, Starmie-10, Turtok-5, Zwirrlicht-2, Alpollo-4, Banette-4, Traunfugil-7, Zobiris-4, Zwirrklop-7, Ninjatom-4, Gengar-13, Flunkifer-2, Magneton-3, Stahlos-6, Scherox-6, Forstellka-7, Panzaeron-6, Stolloss-5, Metagross-9, Dragonir-3, Vibrava-2, Altaria-5, Libelldra-6, Aerodactyl-6, Garados-6, Seedraking-5, Glurak-5, Arkani-5, Quappo-4, Raichu-5, Aquana-5, Blitza-6, Flamara-6, Vulnona-7, Starmie-11, Kangama-5, Schwalboss-3, Ursaring-9, Porygon2-5, Tauros-5, Ibitak-5, Relaxo-11, Letarking-5",
+      "species": "Plusle, Minun, Pikachu, Elektek, Giflor, Voltenso, Kapilz, Blitza, Schluppuck, Roselia, Smettbo, Vipitis, Panzaeron, Kappalores, Iksbat, Gengar, Fukano, Vulpix, Magcargo, Vulnona, Meditalis, Smogmog, Zwirrklop, Hundemon, Dummisel, Banette, Traunfugil, Absol, Ninjatom, Alpollo, Palimpalim, Sonnfel, Lepumentas, Libelldra, Digda, Knacklion, Isso, Woingenau, Digdri, Firnontor, Sniebel, Jugong, Keifel, Rossana, Austos, Walraisa, Lapras, Lektrobal, Geowaz, Tannza, Forstellka, Tengulist, Metang, Kokowei, Laschoking, Xatu, Simsala, Starmie, Psiana, Stahlos, Amoroso, Lunastein, Pottrott, Armaldo, Wielie, Aerodactyl, Quappo, Hariyama, Nockchan, Kicklee, Skaraborn, Machomei, Morlord, Tropius, Pupitar, Noktuska, Flamara, Garados, Omot, Scherox, Zobiris, Krebutack, Nachtara, Octillery, Pelipper, Turtok, Zwirrlicht, Flunkifer, Magneton, Stolloss, Metagross, Dragonir, Vibrava, Altaria, Seedraking, Glurak, Arkani, Raichu, Aquana, Kangama, Schwalboss, Ursaring, Porygon2, Tauros, Ibitak, Relaxo, Letarking",
+      "iv": 0,
+      "late": "1",
+      "quote": "",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/wildgrass.png",
+      "wild": true
+    }
+  ]
+}

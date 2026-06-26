@@ -1,0 +1,34 @@
+{
+  "remove": [
+    "Cathy (35)",
+    "Cathy"
+  ],
+  "trainers": [
+    {
+      "name": "Esteban (21)",
+      "class": "Capt. Palace",
+      "roster": "Nostenfer-5, Monaflèmit-5, Lokhlass-9",
+      "species": "Nostenfer, Monaflèmit, Lokhlass",
+      "iv": 16,
+      "late": "",
+      "quote": "Je ne fais qu'un avec mes POKéMON! Mon cœur et celui de mes POKéMON battent à l'unisson! Dis-moi, DRESSEUR en herbe! Crois-tu en tes POKéMON? Est-ce que tu crois en eux, quoi qu'il arrive? La confiance qui te lie à tes POKéMON devra être à toute épreuve!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/spenser.png",
+      "brain": true
+    },
+    {
+      "name": "Esteban",
+      "class": "Capt. Palace",
+      "roster": "Arcanin-5, Monaflèmit-6, Suicune-7",
+      "species": "Arcanin, Monaflèmit, Suicune",
+      "iv": 31,
+      "late": "1",
+      "quote": "Ahhhhh!!! Te voilà? Tu as dû développer un lien unique avec tes POKéMON. Battons-nous! Cette fois, je ne vais pas faire le malin! Cette fois, je vais gagner! On peut commencer? Prépare-toi à perdre!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/spenser.png",
+      "brain": true
+    }
+  ]
+}

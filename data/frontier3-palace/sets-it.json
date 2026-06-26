@@ -1,0 +1,108 @@
+{
+  "remove": [
+    [
+      "Alakazam",
+      5
+    ],
+    [
+      "Entei",
+      7
+    ],
+    [
+      "Snorlax",
+      9
+    ],
+    [
+      "Raikou",
+      7
+    ],
+    [
+      "Latios",
+      9
+    ],
+    [
+      "Snorlax",
+      10
+    ]
+  ],
+  "sets": [
+    {
+      "setName": "Crobat-5",
+      "species": "Crobat",
+      "setNumber": 5,
+      "nature": "Decisa",
+      "item": "Luminpolvere",
+      "move1": "Stordiraggio",
+      "move2": "Doppioteam",
+      "move3": "Tossina",
+      "move4": "Volo",
+      "EVs": "152 HP, 100 SpA, 106 SpD, 152 Spe",
+      "brain": true
+    },
+    {
+      "setName": "Slaking-5",
+      "species": "Slaking",
+      "setNumber": 5,
+      "nature": "Ardita",
+      "item": "Mirino",
+      "move1": "Terremoto",
+      "move2": "Bullo",
+      "move3": "Palla Ombra",
+      "move4": "Breccia",
+      "EVs": "152 HP, 152 Atk, 100 SpA, 106 Spe",
+      "brain": true
+    },
+    {
+      "setName": "Lapras-9",
+      "species": "Lapras",
+      "setNumber": 9,
+      "nature": "Quieta",
+      "item": "Rapidartiglio",
+      "move1": "Geloraggio",
+      "move2": "Perforcorno",
+      "move3": "Stordiraggio",
+      "move4": "Protezione",
+      "EVs": "252 Def, 106 SpA, 152 SpD",
+      "brain": true
+    },
+    {
+      "setName": "Arcanine-5",
+      "species": "Arcanine",
+      "setNumber": 5,
+      "nature": "Lesta",
+      "item": "Erbachiara",
+      "move1": "Vampata",
+      "move2": "Extrarapido",
+      "move3": "Boato",
+      "move4": "Protezione",
+      "EVs": "6 HP, 252 Atk, 252 Def",
+      "brain": true
+    },
+    {
+      "setName": "Slaking-6",
+      "species": "Slaking",
+      "setNumber": 6,
+      "nature": "Ardita",
+      "item": "Mirino",
+      "move1": "Iper Raggio",
+      "move2": "Terremoto",
+      "move3": "Palla Ombra",
+      "move4": "Sbadiglio",
+      "EVs": "6 HP, 252 Atk, 252 Spe",
+      "brain": true
+    },
+    {
+      "setName": "Suicune-7",
+      "species": "Suicune",
+      "setNumber": 7,
+      "nature": "Lesta",
+      "item": "Roccia di re",
+      "move1": "Bora",
+      "move2": "Surf",
+      "move3": "Morso",
+      "move4": "Calmamente",
+      "EVs": "252 HP, 252 Def, 6 Spe",
+      "brain": true
+    }
+  ]
+}

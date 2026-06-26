@@ -1,0 +1,108 @@
+{
+  "remove": [
+    [
+      "Alakazam",
+      5
+    ],
+    [
+      "Entei",
+      7
+    ],
+    [
+      "Snorlax",
+      9
+    ],
+    [
+      "Raikou",
+      7
+    ],
+    [
+      "Latios",
+      9
+    ],
+    [
+      "Snorlax",
+      10
+    ]
+  ],
+  "sets": [
+    {
+      "setName": "Heracross-5",
+      "species": "Heracross",
+      "setNumber": 5,
+      "nature": "Allegra",
+      "item": "Baccasalak",
+      "move1": "Megacorno",
+      "move2": "Rocciotomba",
+      "move3": "Resistenza",
+      "move4": "Contropiede",
+      "EVs": "106 HP, 152 Atk, 100 SpD, 152 Spe",
+      "brain": true
+    },
+    {
+      "setName": "Umbreon-5",
+      "species": "Umbreon",
+      "setNumber": 5,
+      "nature": "Calma",
+      "item": "Avanzi",
+      "move1": "Corposcontro",
+      "move2": "Stordiraggio",
+      "move3": "Psichico",
+      "move4": "Finta",
+      "EVs": "152 HP, 100 Def, 152 SpA, 106 SpD",
+      "brain": true
+    },
+    {
+      "setName": "Shedinja-2",
+      "species": "Shedinja",
+      "setNumber": 2,
+      "nature": "Decisa",
+      "item": "Luminpolvere",
+      "move1": "Palla Ombra",
+      "move2": "Ritorno",
+      "move3": "Stordiraggio",
+      "move4": "Aeroassalto",
+      "EVs": "252 Atk, 6 Def, 252 Spe",
+      "brain": true
+    },
+    {
+      "setName": "Umbreon-6",
+      "species": "Umbreon",
+      "setNumber": 6,
+      "nature": "Calma",
+      "item": "Baccastagna",
+      "move1": "Sdoppiatore",
+      "move2": "Stordiraggio",
+      "move3": "Riposo",
+      "move4": "Psichico",
+      "EVs": "252 HP, 252 SpA, 6 SpD",
+      "brain": true
+    },
+    {
+      "setName": "Gengar-9",
+      "species": "Gengar",
+      "setNumber": 9,
+      "nature": "Modesta",
+      "item": "Avanzi",
+      "move1": "Psichico",
+      "move2": "Ipnosi",
+      "move3": "Mangiasogni",
+      "move4": "Destinobbl.",
+      "EVs": "252 HP, 252 Def, 6 SpA",
+      "brain": true
+    },
+    {
+      "setName": "Breloom-5",
+      "species": "Breloom",
+      "setNumber": 5,
+      "nature": "Allegra",
+      "item": "Baccaprugna",
+      "move1": "Spora",
+      "move2": "Centripugno",
+      "move3": "Gigassorbim.",
+      "move4": "Bottintesta",
+      "EVs": "6 HP, 252 Atk, 252 Spe",
+      "brain": true
+    }
+  ]
+}

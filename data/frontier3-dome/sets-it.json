@@ -1,0 +1,108 @@
+{
+  "remove": [
+    [
+      "Alakazam",
+      5
+    ],
+    [
+      "Entei",
+      7
+    ],
+    [
+      "Snorlax",
+      9
+    ],
+    [
+      "Raikou",
+      7
+    ],
+    [
+      "Latios",
+      9
+    ],
+    [
+      "Snorlax",
+      10
+    ]
+  ],
+  "sets": [
+    {
+      "setName": "Swampert-5",
+      "species": "Swampert",
+      "setNumber": 5,
+      "nature": "Audace",
+      "item": "Bandana",
+      "move1": "Surf",
+      "move2": "Terremoto",
+      "move3": "Geloraggio",
+      "move4": "Contatore",
+      "EVs": "152 HP, 152 Atk, 106 Def, 100 SpA",
+      "brain": true
+    },
+    {
+      "setName": "Salamence-9",
+      "species": "Salamence",
+      "setNumber": 9,
+      "nature": "Decisa",
+      "item": "Baccaprugna",
+      "move1": "Terremoto",
+      "move2": "Breccia",
+      "move3": "Dragartigli",
+      "move4": "Aeroassalto",
+      "EVs": "152 HP, 152 Atk, 106 Def, 100 Spe",
+      "brain": true
+    },
+    {
+      "setName": "Charizard-5",
+      "species": "Charizard",
+      "setNumber": 5,
+      "nature": "Quieta",
+      "item": "Erbachiara",
+      "move1": "Vampata",
+      "move2": "Frana",
+      "move3": "Aeroassalto",
+      "move4": "Terremoto",
+      "EVs": "100 HP, 152 Atk, 106 Def, 152 Spe",
+      "brain": true
+    },
+    {
+      "setName": "Swampert-6",
+      "species": "Swampert",
+      "setNumber": 6,
+      "nature": "Audace",
+      "item": "Avanzi",
+      "move1": "Surf",
+      "move2": "Terremoto",
+      "move3": "Geloraggio",
+      "move4": "Specchiovelo",
+      "EVs": "252 HP, 252 Atk, 6 Def",
+      "brain": true
+    },
+    {
+      "setName": "Metagross-9",
+      "species": "Metagross",
+      "setNumber": 9,
+      "nature": "Audace",
+      "item": "Rapidartiglio",
+      "move1": "Psichico",
+      "move2": "Meteorpugno",
+      "move3": "Terremoto",
+      "move4": "Protezione",
+      "EVs": "252 HP, 252 Atk, 6 Def",
+      "brain": true
+    },
+    {
+      "setName": "Latias-9",
+      "species": "Latias",
+      "setNumber": 9,
+      "nature": "Modesta",
+      "item": "Baccastagna",
+      "move1": "Fulmine",
+      "move2": "Psichico",
+      "move3": "Calmamente",
+      "move4": "Riposo",
+      "EVs": "252 HP, 252 Def, 6 Spe",
+      "brain": true
+    }
+  ]
+}

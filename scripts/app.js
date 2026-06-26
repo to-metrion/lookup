@@ -14,6 +14,7 @@ import {
     resetSlotsOfSide, resetPokemonUI, resetSelections,
     updateLayout, applyStaticTranslations, t,
     trainerPool, isLateTrainer,
+    populatePyramidWildFilter, syncPyramidWildFilter,
 } from './ui.js';
 
 /* ---------- settings (game, variant, language, theme) ---------- */
@@ -64,6 +65,11 @@ function populateVariantPills() {
     // Games with a version axis (gen-4 Frontier) put VERSION pills here (HGSS /
     // Platinum / …); the facility pills go in the second row below.
     const versions = gameVersions(state.game);
+    // `.version-row` keeps the larger rounded-pill style for the version axis
+    // (two-axis games) AND single-axis games whose variant row picks a game version
+    // (Tree SM/USUM, Maison XY/ORAS — `versionPills`). Facility rows (SwSh Tower/RS,
+    // the gen-3/4 facility row) use the segmented toggle.
+    pills.classList.toggle('version-row', versions.length > 0 || Boolean(state.game.versionPills));
     if (versions.length) {
         for (const version of versions) {
             const pill = document.createElement('button');
@@ -77,7 +83,10 @@ function populateVariantPills() {
             });
             pills.appendChild(pill);
         }
-        row.style.display = versions.length > 1 ? '' : 'none';
+        // Always show the version row for versioned games — even with a single
+        // version (gen-3 = Emerald only for now), so the axis is visible and
+        // ready for more versions (Ruby/Sapphire). Mirrors the facility row.
+        row.style.display = '';
         populateFacilityPills();
         return;
     }
@@ -191,16 +200,21 @@ function updateLateFilterRow() {
     const btn = document.getElementById('late-filter');
     const f21 = document.getElementById('factory-late-21');
     const f49 = document.getElementById('factory-late-49');
+    const p140 = document.getElementById('pyramid-140');
     if (state.variant.factory) {
         row.style.display = '';
         btn.style.display = 'none';
         f21.style.display = ''; f49.style.display = '';
         f21.classList.toggle('active', state.factoryLate === 21);
         f49.classList.toggle('active', state.factoryLate === 49);
+        p140.style.display = 'none';
         return;
     }
     btn.style.display = ''; f21.style.display = 'none'; f49.style.display = 'none';
-    row.style.display = state.variant.lateCutoff ? '' : 'none';
+    // Pyramid wild: a 140+ toggle (wild IVs become 15-31) alongside the 50+ filter.
+    p140.style.display = state.variant.pyramidWild ? '' : 'none';
+    p140.classList.toggle('active', state.pyramid140);
+    row.style.display = (state.variant.lateCutoff || state.variant.pyramidWild) ? '' : 'none';
     btn.textContent = `${state.variant.lateCutoff ?? ''}+`;
     btn.classList.toggle('active', state.lateOnly);
 }
@@ -232,13 +246,44 @@ function onSpritesToggled() {
 // Factory; the level changes generated rosters, IVs, AND the speed level.
 function updateFactoryLevelRow() {
     const row = document.getElementById('factory-level-row');
-    row.style.display = state.variant.factory ? '' : 'none';
-    if (!state.variant.factory) return;
+    // gen-4/gen-3 Factory + RS Tower all use this flat 2-position level toggle.
+    const show = state.variant.factory || state.variant.factory3 || state.variant.rsTower;
+    row.style.display = show ? '' : 'none';
+    if (!show) return;
     const opts = row.querySelectorAll('.factory-level-opt');
     opts[0].textContent = t('factory-lv50', 'Level 50');
-    opts[1].textContent = t('factory-open', 'Open Level');
+    // RS labels its 2nd option "Level 100"; Factory uses "Open Level".
+    opts[1].textContent = t(state.variant.openLabel ?? 'factory-open', 'Open Level');
     opts[0].classList.toggle('active', !state.factoryOpen);
     opts[1].classList.toggle('active', state.factoryOpen);
+}
+
+// Gen-3 Factory: the "Current Tower streak" input (settings) — a glitch links the
+// opponents' IVs to the player's current Battle Tower streak. Shown only for the
+// gen-3 Factory; the (i) tooltip explains what it controls.
+function updateFactoryStreakRow() {
+    const row = document.getElementById('factory-streak-row');
+    const show = Boolean(state.variant.factory3);
+    row.style.display = show ? '' : 'none';
+    if (!show) return;
+    document.getElementById('factory-streak-label').textContent =
+        t('factoryStreakLabel', 'Current Tower streak');
+    document.getElementById('factory-streak-info').title =
+        t('factoryStreakInfo', 'A glitch ties the opponents’ IVs to your current Battle Tower win streak.');
+    document.getElementById('factory-streak').value = state.factoryStreak ?? 0;
+}
+
+// Streak only changes the battle arrays' IVs (and thus the speed) → re-derive +
+// re-render the current selection (same pattern as the level toggle).
+function onFactoryStreakInput(raw, commit) {
+    const n = clampInt(raw, 0, 9999);
+    if (n !== null) state.factoryStreak = n;
+    if (commit) {
+        if (n === null) state.factoryStreak = 0;
+        document.getElementById('factory-streak').value = state.factoryStreak;
+    }
+    localStorage.setItem('factoryStreak', state.factoryStreak);
+    restoreSelection(captureSelection());
 }
 
 function onFactoryLevelChanged(open) {
@@ -246,9 +291,75 @@ function onFactoryLevelChanged(open) {
     state.factoryOpen = open;
     localStorage.setItem('factoryOpen', open ? '1' : '');
     updateFactoryLevelRow();
-    // Level drives the generated rosters, IVs and speed → re-derive + re-render
-    // the current selection (same pattern as a language switch).
-    restoreSelection(captureSelection());
+    // Level drives the generated rosters, IVs/speed AND (RS) which mon pool is shown →
+    // re-derive the selection and refresh browse menus + species lists.
+    const snapshot = captureSelection();
+    populatePokemonMenus(onMenuSelected);
+    renderSpeciesLists(onSpeciesPicked);
+    restoreSelection(snapshot);
+    highlightSelectedSprites();
+}
+
+// Gen-3 Tower Lv 50 / Open Level toggle + the Open-Level level input (settings).
+// Open Level opponents match the player's strongest Pokémon (60-100).
+function updateOpenLevelRow() {
+    const row = document.getElementById('open-level-row');
+    row.style.display = state.variant.openLevel ? '' : 'none';
+    if (!state.variant.openLevel) return;
+    const opts = row.querySelectorAll('.open-level-opt');
+    opts[0].textContent = t('factory-lv50', 'Level 50');
+    opts[1].textContent = t('factory-open', 'Open Level');
+    opts[0].classList.toggle('active', !state.openMode);
+    opts[1].classList.toggle('active', state.openMode);
+    document.getElementById('open-level-label').textContent = t('hallLevelLabel', 'Level');
+    document.getElementById('open-level-input-wrap').style.display = state.openMode ? '' : 'none';
+    const input = document.getElementById('open-level-value');
+    input.value = state.openLevelValue ?? '';
+    input.placeholder = t('hallLevelLabel', 'Level');
+}
+
+// External helper-tool links for the selected facility (settings, under the level
+// rows) — e.g. the Battle Dome Assistant. Hidden when the variant has none.
+function updateFacilityLinks() {
+    const row = document.getElementById('facility-links');
+    const links = state.variant.links || [];
+    row.innerHTML = '';
+    row.style.display = links.length ? '' : 'none';
+    for (const link of links) {
+        const a = document.createElement('a');
+        a.href = link.url;
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer';
+        a.className = 'facility-link';
+        a.textContent = link.text;
+        row.appendChild(a);
+    }
+}
+
+// Lv 50 ↔ Open changes the high-tier filter (which species/sets show), the speed
+// level, and (in browse) the species menu — refresh menus + lists, then restore.
+function onOpenLevelModeChanged(open) {
+    if (open === state.openMode) return;
+    state.openMode = open;
+    localStorage.setItem('openMode', open ? '1' : '');
+    updateOpenLevelRow();
+    const snapshot = captureSelection();
+    populatePokemonMenus(onMenuSelected);
+    renderSpeciesLists(onSpeciesPicked);
+    restoreSelection(snapshot);
+    highlightSelectedSprites();
+}
+
+// Only the speed numbers change with the level value → re-render the open sets.
+function onOpenLevelInput(raw, commit) {
+    const n = clampInt(raw, 60, 100);
+    if (n !== null) state.openLevelValue = n;
+    if (commit) {
+        if (n === null) state.openLevelValue = 100;
+        document.getElementById('open-level-value').value = state.openLevelValue;
+    }
+    localStorage.setItem('openLevelValue', state.openLevelValue);
+    rerenderOpenSets();
 }
 
 function onGameChanged(code) {
@@ -283,10 +394,21 @@ function applyVariant(variant) {
     state.hallType = null;   // fresh Hall selection per variant (kept across language switches)
     state.hallRank = null;
     state.factoryLate = null; // fresh Factory trainer filter per variant
+    state.pyramidRound = null; // fresh Pyramid wild filter per variant
+    state.pyramidFloor = null;
     localStorage.setItem('selectedGame', state.game.code);
     localStorage.setItem('selectedVariant', variant.code);
 
-    if (!variant.modes.includes(state.mode)) {
+    // Most variants keep the current mode if it's valid; a variant may declare a
+    // `defaultMode` to force on entry (Pike → Doubles, since runs stay in one view).
+    // Skip the forced default on mobile, where Doubles isn't a selectable mode.
+    const onMobile = window.matchMedia('(max-width: 768px)').matches;
+    const forced = variant.defaultMode && variant.modes.includes(variant.defaultMode)
+        && (!onMobile || ['singles', 'multis'].includes(variant.defaultMode))
+        ? variant.defaultMode : null;
+    if (forced) {
+        setMode(forced);
+    } else if (!variant.modes.includes(state.mode)) {
         setMode(variant.modes[0]);
     }
     buildModeSwitch();
@@ -298,6 +420,9 @@ function applyVariant(variant) {
     updateMultisRow();
     updateSpritesRow();
     updateFactoryLevelRow();
+    updateFactoryStreakRow();
+    updateOpenLevelRow();
+    updateFacilityLinks();
     updateHallLevelTool();
     applyStaticTranslations();
     loadAndRender();
@@ -315,6 +440,8 @@ function onLanguageChanged(code) {
     populateVariantPills();  // re-localize facility pill labels (nameKey)
     updateGameSelectIcons(); // localized game names
     updateFactoryLevelRow(); // re-localize Lv50/Open labels
+    updateFactoryStreakRow(); // re-localize the streak label/tooltip
+    updateOpenLevelRow();    // re-localize gen-3 Lv50/Open labels
     updateHallLevelTool();   // re-localize Hall level-tool labels/tooltip
     applyStaticTranslations();
     loadAndRender().then(() => restoreSelection(snapshot));
@@ -424,6 +551,31 @@ function restoreSelection(snapshot) {
     }
 }
 
+// Swap the two columns: in doubles, swap the two slots' picked Pokémon; in multis,
+// swap the two trainers (and their picks) wholesale. Reuses capture/restore with
+// the two sides exchanged in the snapshot.
+function swapSides() {
+    if (!state.data) return;
+    const snapshot = captureSelection();
+    if (!snapshot) return;
+    const swap = obj => {
+        const a = obj[1], b = obj[2];
+        if (b === undefined) delete obj[1]; else obj[1] = b;
+        if (a === undefined) delete obj[2]; else obj[2] = a;
+    };
+    if (MODES[state.mode].sides > 1) {       // multis: exchange the trainers too
+        swap(snapshot.trainerIndexes);
+        for (let side = 1; side <= MAX_SIDES; side++) {
+            state.trainers[side] = null;
+            syncTrainerDropdowns(side, null);
+        }
+    }
+    swap(snapshot.slots);                     // both modes: exchange the two columns' picks
+    resetPokemonUI();
+    restoreSelection(snapshot);
+    highlightSelectedSprites();
+}
+
 /* ---------- data loading ---------- */
 
 async function loadAndRender() {
@@ -441,6 +593,11 @@ async function loadAndRender() {
     // Browse mode: the Pokémon menus list every facility species until a
     // trainer is picked, so sets can be looked up with no trainer selected.
     populatePokemonMenus(onMenuSelected);
+    if (state.variant.pyramidWild) {
+        // Battle Pyramid: build the wild round/floor filter (shown once the "Wild
+        // Pokémon" entry is selected).
+        populatePyramidWildFilter(onPyramidFilterChanged);
+    }
     if (state.variant.hall) {
         // Battle Hall: type/rank selectors instead of trainers; reapply the
         // current selection (kept across language switches).
@@ -460,6 +617,12 @@ function onTrainerSelected(side, trainer) {
     // from the trainer's group (their index) and the Lv50/Open level.
     const derived = state.variant.factory
         ? factoryTrainer(trainer, state.data.trainers.indexOf(trainer))
+        : state.variant.factory3
+        ? factory3Trainer(trainer, state.data.trainers.indexOf(trainer))
+        : (state.variant.pyramidWild && trainer.wild)
+        ? pyramidWildTrainer(trainer)
+        : state.variant.rsTower
+        ? rsTowerTrainer(trainer)
         : trainer;
     state.trainers[side] = derived;
     syncTrainerDropdowns(side, trainer);   // sync with the ORIGINAL (carries the index)
@@ -543,6 +706,121 @@ function factoryTrainer(trainer, idx) {
     return { ...trainer, srcIndex: idx, iv,
              roster: pool.map(s => `${s.species}-${s.setNumber}`).join(', '),
              species: species.join(', ') };
+}
+
+/* ---------- gen-3 Battle Factory: battle-array rosters (tier group × level) ---------- */
+// The gen-3 Factory's "trainers" are 8 battle-number ARRAYS + Noland ×2 (carrying
+// `factoryRule`). Each draws from tier groups (`tier` on each set: low1/low2/mid1/
+// mid2/high1-4/legend, in set-data order) that depend on the level (Lv50 / Open).
+// Group keys: a plain tier; 'mid1<=Furret-1' = mid1 up to & incl Furret-1; 'HL_ALL'
+// = high1-4 + legend (all); 'HL_NOHT' = the same minus the high-tier (Open-only) sets.
+const FACTORY3_RULES = {
+    b1:  { lv50: ['low2', 'mid1<=Furret-1'], open: ['high1'] },
+    b8:  { lv50: ['mid1'],    open: ['high2'] },
+    b15: { lv50: ['mid2'],    open: ['high3'] },
+    b22: { lv50: ['high1'],   open: ['high4'] },
+    b29: { lv50: ['high2'],   open: ['HL_ALL'] },
+    b36: { lv50: ['high3'],   open: ['HL_ALL'] },
+    b43: { lv50: ['high4'],   open: ['HL_ALL'] },
+    b50: { lv50: ['HL_NOHT'], open: ['HL_ALL'] },
+    noland21: { lv50: ['mid2'],  open: ['high3'] },
+    noland42: { lv50: ['high3'], open: ['HL_ALL'] },
+};
+const FACTORY3_HL_TIERS = ['high1', 'high2', 'high3', 'high4', 'legend'];
+
+// The battle arrays' IVs are linked to the player's current Battle TOWER streak (a
+// known glitch). Default streak 0 → IV 3. (Noland uses his own fixed IV instead.)
+function factory3StreakIV(streak) {
+    const s = streak || 0;
+    if (s <= 6) return 3;
+    if (s <= 13) return 6;
+    if (s <= 20) return 9;
+    if (s <= 27) return 12;
+    if (s <= 34) return 15;
+    if (s <= 41) return 21;
+    return 31;
+}
+
+function factory3Pool(groups) {
+    const sets = state.data.sets;
+    const out = [];
+    for (const g of groups) {
+        if (g === 'HL_ALL' || g === 'HL_NOHT') {
+            for (const s of sets)
+                if (FACTORY3_HL_TIERS.includes(s.tier) && (g === 'HL_ALL' || !s.highTier))
+                    out.push(s);
+        } else if (g.includes('<=')) {
+            const [tier, last] = g.split('<=');
+            let stop = false;
+            for (const s of sets) {
+                if (s.tier !== tier || stop) continue;
+                out.push(s);
+                if (`${s.species}-${s.setNumber}` === last) stop = true;
+            }
+        } else {
+            for (const s of sets) if (s.tier === g) out.push(s);
+        }
+    }
+    return out;
+}
+
+function factory3Trainer(trainer, idx) {
+    const rule = FACTORY3_RULES[trainer.factoryRule];
+    const pool = factory3Pool(state.factoryOpen ? rule.open : rule.lv50);
+    const iv = trainer.streakIV ? factory3StreakIV(state.factoryStreak) : trainer.iv;
+    const species = [...new Set(pool.map(s => s.species))];
+    return { ...trainer, srcIndex: idx, iv,
+             roster: pool.map(s => `${s.species}-${s.setNumber}`).join(', '),
+             species: species.join(', ') };
+}
+
+/* ---------- RS Battle Tower: Lv50 / Lv100 mon pools ---------- */
+// The trainer's possible roster is precomputed per level (roster = Lv50, rosterOpen
+// = Lv100); the level toggle (factoryOpen) picks which, plus the matching pool's sets.
+function rsTowerTrainer(trainer) {
+    const open = state.factoryOpen;
+    return { ...trainer, srcIndex: state.data.trainers.indexOf(trainer),
+             roster: open ? trainer.rosterOpen : trainer.roster,
+             species: open ? trainer.speciesOpen : trainer.species };
+}
+
+/* ---------- gen-3 Pyramid: wild-Pokémon round/floor filter ---------- */
+// The "Wild Pokémon" entry derives its roster from the round/floor filter: all wild
+// sets whose round matches (if a round is picked) and whose floors include the picked
+// floor. No round/floor → the whole wild pool. srcIndex points back at the stored
+// "Wild Pokémon" record (for captureSelection / language switches).
+function pyramidWildTrainer(base) {
+    const round = state.pyramidRound, floor = state.pyramidFloor;
+    const pool = state.data.sets.filter(s => s.wild
+        && (round == null || s.round === round)
+        && (floor == null || (s.floors || []).includes(floor)));
+    const species = [...new Set(pool.map(s => s.species))];
+    return { ...base, srcIndex: state.data.trainers.indexOf(base),
+             roster: pool.map(s => `${s.species}-${s.setNumber}`).join(', '),
+             species: species.join(', ') };
+}
+
+// Quote/Round menus both set the round (they mirror each other); Floor sets the floor.
+// Re-derive the wild roster + re-render if the Wild entry is currently selected.
+function onPyramidFilterChanged(kind, idRaw) {
+    const id = idRaw ? Number(idRaw) : null;
+    if (kind === 'round') {
+        state.pyramidRound = id;
+        state.pyramidFloor = null;   // changing round = entering a new round → reset Floor to All
+    } else {
+        state.pyramidFloor = id;
+    }
+    syncPyramidWildFilter();
+    const wildBase = state.data.trainers.find(tr => tr.wild);
+    if (wildBase && state.trainers[1]?.wild) onTrainerSelected(1, wildBase);
+}
+
+// Floor 140+ toggle: wild IVs become 15-31 (else 0-31) → only the speed ranges change.
+function onPyramid140Changed() {
+    state.pyramid140 = !state.pyramid140;
+    localStorage.setItem('pyramid140', state.pyramid140 ? '1' : '');
+    updateLateFilterRow();
+    restoreSelection(captureSelection());
 }
 
 // A mini-sprite was clicked: each list sits above one menu and fills exactly
@@ -827,6 +1105,12 @@ async function init() {
 
     state.lateOnly = localStorage.getItem('lateOnly') === '1';
     state.factoryOpen = localStorage.getItem('factoryOpen') === '1'; // Factory: Lv50 default
+    const fstreak = parseInt(localStorage.getItem('factoryStreak'), 10);
+    state.factoryStreak = Number.isFinite(fstreak) ? Math.max(0, fstreak) : 0; // gen-3 Factory
+    state.pyramid140 = localStorage.getItem('pyramid140') === '1';   // gen-3 Pyramid wild IVs 15-31
+    state.openMode = localStorage.getItem('openMode') === '1';       // Gen-3 Tower: Lv50 default
+    const olv = parseInt(localStorage.getItem('openLevelValue'), 10);
+    state.openLevelValue = Number.isFinite(olv) ? Math.min(100, Math.max(60, olv)) : 100;
     const hl = parseInt(localStorage.getItem('hallLevel'), 10);
     state.hallLevel = Number.isFinite(hl) ? Math.min(100, Math.max(30, hl)) : 100;  // default 100
     const hr2 = parseInt(localStorage.getItem('hallRank2'), 10);
@@ -853,6 +1137,9 @@ async function init() {
     updateMultisRow();
     updateSpritesRow();
     updateFactoryLevelRow();
+    updateFactoryStreakRow();
+    updateOpenLevelRow();
+    updateFacilityLinks();
     updateHallLevelTool();
     applyStaticTranslations();
 
@@ -863,17 +1150,27 @@ async function init() {
     document.getElementById('late-filter').addEventListener('click', () => onLateFilterChanged(!state.lateOnly));
     document.getElementById('factory-late-21').addEventListener('click', () => onFactoryLateChanged(21));
     document.getElementById('factory-late-49').addEventListener('click', () => onFactoryLateChanged(49));
+    document.getElementById('pyramid-140').addEventListener('click', onPyramid140Changed);
     document.getElementById('multis-toggle').addEventListener('click',
         () => setMode(state.mode === 'multis' ? 'singles' : 'multis'));
     document.getElementById('sprites-toggle').addEventListener('click', onSpritesToggled);
     document.querySelectorAll('#factory-level .factory-level-opt').forEach(opt =>
         opt.addEventListener('click', () => onFactoryLevelChanged(opt.dataset.open === '1')));
+    document.querySelectorAll('#open-level .open-level-opt').forEach(opt =>
+        opt.addEventListener('click', () => onOpenLevelModeChanged(opt.dataset.open === '1')));
+    const olvEl = document.getElementById('open-level-value');
+    olvEl.addEventListener('input', e => onOpenLevelInput(e.target.value, false));
+    olvEl.addEventListener('change', e => onOpenLevelInput(e.target.value, true));
+    const fsEl = document.getElementById('factory-streak');
+    fsEl.addEventListener('input', e => onFactoryStreakInput(e.target.value, false));
+    fsEl.addEventListener('change', e => onFactoryStreakInput(e.target.value, true));
     const lvlEl = document.getElementById('hall-player-level');
     lvlEl.addEventListener('input', e => onHallLevelInput(e.target.value, false));
     lvlEl.addEventListener('change', e => onHallLevelInput(e.target.value, true));
     const r2El = document.getElementById('hall-rank2');
     r2El.addEventListener('input', e => onHallRank2Input(e.target.value, false));
     r2El.addEventListener('change', e => onHallRank2Input(e.target.value, true));
+    document.getElementById('swap-slots').addEventListener('click', swapSides);
     document.getElementById('mode-glyph').addEventListener('click', cycleMode);
     document.getElementById('settings-btn').addEventListener('click', openSettings);
     document.getElementById('reset-btn').addEventListener('click', () => {

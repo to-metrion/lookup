@@ -4940,6 +4940,18 @@
                 "Normal"
             ]
         ],
+        "Bubble": [
+            [
+                1,
+                "Water"
+            ]
+        ],
+        "Horn Attack": [
+            [
+                1,
+                "Normal"
+            ]
+        ],
         "Faint Attack": [
             [
                 2,

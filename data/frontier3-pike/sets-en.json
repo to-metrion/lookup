@@ -1,0 +1,210 @@
+{
+  "remove": [
+    [
+      "Alakazam",
+      5
+    ],
+    [
+      "Entei",
+      7
+    ],
+    [
+      "Snorlax",
+      9
+    ],
+    [
+      "Raikou",
+      7
+    ],
+    [
+      "Latios",
+      9
+    ],
+    [
+      "Snorlax",
+      10
+    ]
+  ],
+  "sets": [
+    {
+      "setName": "Seviper-3",
+      "species": "Seviper",
+      "setNumber": 3,
+      "nature": "Brave",
+      "item": "Quick Claw",
+      "move1": "Swagger",
+      "move2": "Crunch",
+      "move3": "Poison Fang",
+      "move4": "Giga Drain",
+      "EVs": "252 HP, 252 Def, 6 SpA",
+      "brain": true
+    },
+    {
+      "setName": "Shuckle-5",
+      "species": "Shuckle",
+      "setNumber": 5,
+      "nature": "Bold",
+      "item": "Chesto Berry",
+      "move1": "Toxic",
+      "move2": "Sandstorm",
+      "move3": "Protect",
+      "move4": "Rest",
+      "EVs": "252 HP, 106 SpA, 252 SpD",
+      "brain": true
+    },
+    {
+      "setName": "Milotic-5",
+      "species": "Milotic",
+      "setNumber": 5,
+      "nature": "Modest",
+      "item": "Leftovers",
+      "move1": "Ice Beam",
+      "move2": "Mirror Coat",
+      "move3": "Surf",
+      "move4": "Recover",
+      "EVs": "152 HP, 100 Def, 152 SpA, 106 SpD",
+      "brain": true
+    },
+    {
+      "setName": "Seviper-4",
+      "species": "Seviper",
+      "setNumber": 4,
+      "nature": "Bold",
+      "item": "Focus Band",
+      "move1": "Swagger",
+      "move2": "Crunch",
+      "move3": "Sludge Bomb",
+      "move4": "Giga Drain",
+      "EVs": "252 HP, 252 SpA, 6 SpD",
+      "brain": true
+    },
+    {
+      "setName": "Steelix-5",
+      "species": "Steelix",
+      "setNumber": 5,
+      "nature": "Brave",
+      "item": "Bright Powder",
+      "move1": "Earthquake",
+      "move2": "Rock Slide",
+      "move3": "Explosion",
+      "move4": "Screech",
+      "EVs": "252 HP, 6 SpA, 252 SpD",
+      "brain": true
+    },
+    {
+      "setName": "Gyarados-5",
+      "species": "Gyarados",
+      "setNumber": 5,
+      "nature": "Adamant",
+      "item": "Chesto Berry",
+      "move1": "Dragon Dance",
+      "move2": "Return",
+      "move3": "Roar",
+      "move4": "Rest",
+      "EVs": "252 HP, 6 Atk, 252 SpD",
+      "brain": true
+    },
+    {
+      "setName": "Seviper-5",
+      "species": "Seviper",
+      "setNumber": 5,
+      "nature": "",
+      "item": "None",
+      "move1": "Toxic",
+      "move2": "Glare",
+      "move3": "Body Slam",
+      "move4": "Sludge Bomb",
+      "EVs": "",
+      "wild": true,
+      "levelOffset": 4,
+      "movesOpen": [
+        "Toxic",
+        "Glare",
+        "Poison Fang",
+        "Sludge Bomb"
+      ]
+    },
+    {
+      "setName": "Milotic-6",
+      "species": "Milotic",
+      "setNumber": 6,
+      "nature": "",
+      "item": "None",
+      "move1": "Toxic",
+      "move2": "Hypnosis",
+      "move3": "Body Slam",
+      "move4": "Surf",
+      "EVs": "",
+      "wild": true,
+      "levelOffset": 4,
+      "movesOpen": [
+        "Toxic",
+        "Hypnosis",
+        "Body Slam",
+        "Ice Beam"
+      ]
+    },
+    {
+      "setName": "Dusclops-5",
+      "species": "Dusclops",
+      "setNumber": 5,
+      "nature": "",
+      "item": "None",
+      "move1": "Will-O-Wisp",
+      "move2": "Mean Look",
+      "move3": "Toxic",
+      "move4": "Shadow Punch",
+      "EVs": "",
+      "wild": true,
+      "levelOffset": 5,
+      "movesOpen": [
+        "Will-O-Wisp",
+        "Mean Look",
+        "Toxic",
+        "Ice Beam"
+      ]
+    },
+    {
+      "setName": "Electrode-5",
+      "species": "Electrode",
+      "setNumber": 5,
+      "nature": "",
+      "item": "None",
+      "move1": "Explosion",
+      "move2": "Self-Destruct",
+      "move3": "Thunder",
+      "move4": "Toxic",
+      "EVs": "",
+      "wild": true,
+      "levelOffset": 5
+    },
+    {
+      "setName": "Breloom-5",
+      "species": "Breloom",
+      "setNumber": 5,
+      "nature": "",
+      "item": "None",
+      "move1": "Spore",
+      "move2": "Stun Spore",
+      "move3": "Poison Powder",
+      "move4": "Hidden Power",
+      "EVs": "",
+      "wild": true,
+      "levelOffset": 5
+    },
+    {
+      "setName": "Wobbuffet-3",
+      "species": "Wobbuffet",
+      "setNumber": 3,
+      "nature": "",
+      "item": "None",
+      "move1": "Counter",
+      "move2": "Mirror Coat",
+      "move3": "Safeguard",
+      "move4": "Destiny Bond",
+      "EVs": "",
+      "wild": true,
+      "levelOffset": 5
+    }
+  ]
+}

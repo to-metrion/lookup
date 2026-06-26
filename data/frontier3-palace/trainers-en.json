@@ -1,0 +1,34 @@
+{
+  "remove": [
+    "Anabel (35)",
+    "Anabel"
+  ],
+  "trainers": [
+    {
+      "name": "Spenser (21)",
+      "class": "Palace Maven",
+      "roster": "Crobat-5, Slaking-5, Lapras-9",
+      "species": "Crobat, Slaking, Lapras",
+      "iv": 16,
+      "late": "",
+      "quote": "My physical being is with POKéMON always! My heart beats as one with POKéMON always! Young one of a TRAINER! Do you believe in your POKéMON? Can you believe them through and through? If your bonds of trust are frail, you will never beat my brethren!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/spenser.png",
+      "brain": true
+    },
+    {
+      "name": "Spenser",
+      "class": "Palace Maven",
+      "roster": "Arcanine-5, Slaking-6, Suicune-7",
+      "species": "Arcanine, Slaking, Suicune",
+      "iv": 31,
+      "late": "1",
+      "quote": "Gwahahah! You've battled your way up again? You must have developed a truly formidable bond with your POKéMON. So be it! This time, I won't bluster or hold back. This time, there's no fooling around. Ready now? Prepare to lose!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/gen3trainers/spenser.png",
+      "brain": true
+    }
+  ]
+}
