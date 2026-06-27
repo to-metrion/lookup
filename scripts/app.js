@@ -15,6 +15,7 @@ import {
     updateLayout, applyStaticTranslations, t,
     trainerPool, isLateTrainer,
     populatePyramidWildFilter, syncPyramidWildFilter,
+    renderBdspTrainer, isDuoDoubles, resetDuoSelection, positionSwap,
 } from './ui.js';
 
 /* ---------- settings (game, variant, language, theme) ---------- */
@@ -258,6 +259,16 @@ function updateFactoryLevelRow() {
     opts[1].classList.toggle('active', state.factoryOpen);
 }
 
+// Info (ⓘ) icons show their text via a CSS tooltip on hover/focus (desktop) and on
+// tap (mobile, where there's no hover) — the tap toggles `.info-open` (see init).
+// The message lives in data-tip (not title, which has no mobile tap behavior and
+// would double up with the CSS bubble); aria-label mirrors it for screen readers.
+function setInfoTip(el, text) {
+    el.dataset.tip = text;
+    el.setAttribute('aria-label', text);
+    el.removeAttribute('title');
+}
+
 // Gen-3 Factory: the "Current Tower streak" input (settings) — a glitch links the
 // opponents' IVs to the player's current Battle Tower streak. Shown only for the
 // gen-3 Factory; the (i) tooltip explains what it controls.
@@ -268,8 +279,8 @@ function updateFactoryStreakRow() {
     if (!show) return;
     document.getElementById('factory-streak-label').textContent =
         t('factoryStreakLabel', 'Current Tower streak');
-    document.getElementById('factory-streak-info').title =
-        t('factoryStreakInfo', 'A glitch ties the opponents’ IVs to your current Battle Tower win streak.');
+    setInfoTip(document.getElementById('factory-streak-info'),
+        t('factoryStreakInfo', 'A glitch ties the opponents’ IVs to your current Battle Tower win streak.'));
     document.getElementById('factory-streak').value = state.factoryStreak ?? 0;
 }
 
@@ -406,10 +417,11 @@ function applyVariant(variant) {
     const forced = variant.defaultMode && variant.modes.includes(variant.defaultMode)
         && (!onMobile || ['singles', 'multis'].includes(variant.defaultMode))
         ? variant.defaultMode : null;
+    // reload=false: applyVariant calls loadAndRender itself at the end.
     if (forced) {
-        setMode(forced);
+        setMode(forced, false);
     } else if (!variant.modes.includes(state.mode)) {
-        setMode(variant.modes[0]);
+        setMode(variant.modes[0], false);
     }
     buildModeSwitch();
     populateVariantPills();
@@ -578,11 +590,34 @@ function swapSides() {
 
 /* ---------- data loading ---------- */
 
+// BDSP singles/doubles are separate datasets — resolve the variant's dataDir for
+// the current mode (other variants are returned unchanged).
+function effectiveVariant() {
+    const v = state.variant;
+    const dir = v.modeDataDirs && v.modeDataDirs[state.mode];
+    if (!dir) return v;
+    const ev = { ...v, dataDir: dir };
+    // Master Doubles is STANDALONE (duo records can't go through the name+sprite delta
+    // merge — it would collapse duos sharing a first trainer).
+    if (v.duoDoubles && state.mode === 'doubles') ev.base = undefined;
+    return ev;
+}
+
 async function loadAndRender() {
+    const variant = effectiveVariant();
     try {
-        state.data = await loadVariantData(state.variant, state.language);
+        state.data = await loadVariantData(variant, state.language);
+        state.loadedDataDir = variant.dataDir;
     } catch (error) {
         console.error('Error loading facility data:', error);
+        return;
+    }
+    // BDSP Master Doubles (duos): the two trainer/quote menus pick whole duos /
+    // individuals with partner filtering — its own population path.
+    if (isDuoDoubles()) {
+        state.trainers = { 1: null, 2: null };
+        resetDuoSelection();
+        updateLayout();
         return;
     }
     for (let side = 1; side <= MAX_SIDES; side++) {
@@ -592,7 +627,17 @@ async function loadAndRender() {
     resetSelections();
     // Browse mode: the Pokémon menus list every facility species until a
     // trainer is picked, so sets can be looked up with no trainer selected.
-    populatePokemonMenus(onMenuSelected);
+    // BDSP team view has no browse menus (pick a trainer to see their teams) —
+    // clear any slot menus left over from the previous game.
+    if (!state.variant.teamView) {
+        populatePokemonMenus(onMenuSelected);
+        // resetSelections() above positioned the doubles swap button before these
+        // menus existed; re-anchor it now they do (esp. when arriving from BDSP's
+        // team view, whose grid layout doesn't trigger the menus' resize observer).
+        positionSwap();
+    } else {
+        for (let slot = 1; slot <= 3; slot++) $(`#pokemon-menu-${slot}`).empty();
+    }
     if (state.variant.pyramidWild) {
         // Battle Pyramid: build the wild round/floor filter (shown once the "Wild
         // Pokémon" entry is selected).
@@ -626,6 +671,13 @@ function onTrainerSelected(side, trainer) {
         : trainer;
     state.trainers[side] = derived;
     syncTrainerDropdowns(side, trainer);   // sync with the ORIGINAL (carries the index)
+    // BDSP team view: render the trainer's teams (preview rows / side-by-side
+    // details) instead of the minisprite/menu/set-table flow.
+    if (state.variant.teamView) {
+        updateLayout();
+        renderBdspTrainer(derived);
+        return;
+    }
     renderSpeciesLists(onSpeciesPicked);
     populatePokemonMenus(onMenuSelected);
     resetSlotsOfSide(side);
@@ -946,8 +998,8 @@ function updateHallLevelTool() {
     if (!state.variant.hall) return;
     document.getElementById('hall-level-label').textContent = t('hallLevelLabel', 'Level');
     document.getElementById('hall-rank2-label').textContent = t('hallRank2Label', '# rank 2+');
-    document.getElementById('hall-rank2-info').title =
-        t('hallRank2Info', 'Number of types where you have cleared rank 1');
+    setInfoTip(document.getElementById('hall-rank2-info'),
+        t('hallRank2Info', 'Number of types where you have cleared rank 1'));
     const lvl = document.getElementById('hall-player-level');
     const r2 = document.getElementById('hall-rank2');
     lvl.value = state.hallLevel ?? '';
@@ -993,7 +1045,10 @@ function onHallRank2Input(raw, commit) {
 
 /* ---------- mode (singles/doubles/multis/triples/rotation) ---------- */
 
-function setMode(mode) {
+// `reload` is false during applyVariant/init (which load data themselves); a
+// user-driven mode switch keeps it true so BDSP can swap its singles/doubles
+// dataset (they have different trainers) when the mode changes.
+function setMode(mode, reload = true) {
     const previous = state.mode;
     state.mode = state.variant.modes.includes(mode) ? mode : state.variant.modes[0];
     localStorage.setItem('mode', state.mode);
@@ -1018,6 +1073,13 @@ function setMode(mode) {
     updateModeSwitch();
     updateMultisRow();
     updateLayout();
+
+    // BDSP: switching singles ↔ doubles changes the dataset (different trainers) →
+    // reload when the resolved dataDir differs from what's currently loaded.
+    if (reload && state.data && state.variant.modeDataDirs) {
+        const want = state.variant.modeDataDirs[state.mode];
+        if (want && want !== state.loadedDataDir) loadAndRender();
+    }
 }
 
 // Multi-position slider switch under the big mode glyph (see styles.css).
@@ -1123,7 +1185,9 @@ async function init() {
     // Mobile has no mode switch: singles by default, multis via settings.
     const isMobile = window.matchMedia('(max-width: 768px)').matches;
     const savedMode = localStorage.getItem('mode');
-    const mobileOk = mode => !isMobile || ['singles', 'multis'].includes(mode);
+    // On mobile only singles/multis are normally reachable; BDSP (teamView) also
+    // exposes its Doubles via the mode slider, so allow any of its modes there.
+    const mobileOk = mode => !isMobile || state.variant.teamView || ['singles', 'multis'].includes(mode);
     buildModeSwitch();
     setMode(state.variant.modes.includes(savedMode) && mobileOk(savedMode)
         ? savedMode
@@ -1144,6 +1208,15 @@ async function init() {
     applyStaticTranslations();
 
     // Event wiring.
+    // Info (ⓘ) icons: tap toggles the tooltip on mobile (no hover); a tap anywhere
+    // else closes it. Delegated so it covers icons in hidden rows once they show.
+    document.addEventListener('click', e => {
+        const info = e.target.closest('.hall-info');
+        document.querySelectorAll('.hall-info.info-open').forEach(el => {
+            if (el !== info) el.classList.remove('info-open');
+        });
+        if (info) info.classList.toggle('info-open');
+    });
     // Select2 fires jQuery 'change' events (not native ones), so bind via jQuery.
     $('#game-select').on('change', e => onGameChanged(e.target.value));
     // (variant pills and language flags bind their own click handlers)
@@ -1175,6 +1248,7 @@ async function init() {
     document.getElementById('settings-btn').addEventListener('click', openSettings);
     document.getElementById('reset-btn').addEventListener('click', () => {
         resetSelections();
+        if (isDuoDoubles()) resetDuoSelection();   // clear the BDSP duo selection + menus
         populatePokemonMenus(onMenuSelected);  // back to browsing all species
         if (state.variant.hall) {              // also clear the Hall type/rank selection
             state.hallType = null;

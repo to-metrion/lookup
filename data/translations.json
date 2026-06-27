@@ -96,21 +96,32 @@
   },
   "game-frontier4": {
     "en": "Battle Frontier",
-    "fr": "Battle Frontier",
-    "it": "Battle Frontier",
-    "de": "Battle Frontier",
-    "es": "Battle Frontier",
+    "fr": "Zone de Combat",
+    "it": "Parco Lotta",
+    "de": "Kampfzone",
+    "es": "Frente Batalla",
     "jp": "バトルフロンティア",
     "ko": "배틀프런티어"
   },
   "game-frontier3": {
     "en": "Battle Frontier",
-    "fr": "Battle Frontier",
-    "it": "Battle Frontier",
-    "de": "Battle Frontier",
-    "es": "Battle Frontier",
+    "fr": "Zone de Combat",
+    "it": "Parco Lotta",
+    "de": "Kampfzone",
+    "es": "Frente Batalla",
     "jp": "バトルフロンティア",
     "ko": "배틀프런티어"
+  },
+  "game-bdsp": {
+    "en": "Battle Tower",
+    "fr": "Tour de Combat",
+    "it": "Torre Lotta",
+    "de": "Duellturm",
+    "es": "Torre Batalla",
+    "jp": "バトルタワー",
+    "ko": "배틀타워",
+    "chs": "对战塔",
+    "cht": "對戰塔"
   },
   "game-crystal": {
     "en": "Battle Tower",
@@ -358,6 +369,28 @@
     "ko": "제한대련",
     "chs": "制约比试",
     "cht": "制約比試"
+  },
+  "variant-bdsp-master": {
+    "en": "Master",
+    "fr": "Expert",
+    "it": "Master",
+    "de": "Meister",
+    "es": "Experto",
+    "jp": "マスター",
+    "ko": "마스터",
+    "chs": "大师",
+    "cht": "大師"
+  },
+  "variant-bdsp-normal": {
+    "en": "Normal",
+    "fr": "Normal",
+    "it": "Normale",
+    "de": "Normal",
+    "es": "Normal",
+    "jp": "ノーマル",
+    "ko": "일반",
+    "chs": "普通",
+    "cht": "普通"
   },
   "hall-argenta": {
     "en": "Argenta",

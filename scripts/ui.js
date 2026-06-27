@@ -169,6 +169,7 @@ function trainerTemplate(option) {
     const fb = el.data('icon-fb');
     const $img = $('<img>').attr('src', icon).addClass('trainer-sprite-select2');
     if (fb) $img.one('error', function () { this.src = fb; });  // -pt missing → shared
+    else $img.one('error', function () { $(this).remove(); });  // missing art → no icon
     $span.append($img);
     const icon2 = el.data('icon2');
     if (icon2) {
@@ -202,7 +203,8 @@ export function iconTemplate(option) {
     return $span.append(document.createTextNode(' ' + option.text));
 }
 
-export function initSelect2(selector, { placeholder, template, containerClass, search = true,
+export function initSelect2(selector, { placeholder, template, templateResult, templateSelection,
+                                        containerClass, search = true,
                                         matcher, allowClear = false } = {}) {
     const $el = $(selector);
     if ($el.hasClass('select2-hidden-accessible')) {
@@ -211,8 +213,10 @@ export function initSelect2(selector, { placeholder, template, containerClass, s
     $el.select2({
         placeholder,
         allowClear,   // shows an "×" to clear back to the placeholder
-        templateResult: template,
-        templateSelection: template,
+        // The duo trainer menu shows both names in the list but only its side's member
+        // when selected, so result/selection templates can differ (default: same).
+        templateResult: templateResult || template,
+        templateSelection: templateSelection || template,
         width: '100%',
         // search: false hides the search box (short, fixed lists)
         minimumResultsForSearch: search ? 0 : Infinity,
@@ -279,6 +283,15 @@ export function positionSwap() {
     if (!btn) return;
     const menus = document.getElementById('pokemon-menus');
     const trainerCont = document.querySelector('.trainer-select-container');
+    // BDSP team view has its own team rendering — no column swap. Its doubles mode
+    // is 2-slot, which would otherwise show the swap button (at a stale position
+    // left over from a previous Multis game), so hide it and drop the gap classes.
+    if (state.variant?.teamView) {
+        btn.style.display = 'none';
+        menus?.classList.remove('swap-gap');
+        trainerCont?.classList.remove('swap-gap');
+        return;
+    }
     const twoColumns = modeSlots(state.mode) === 2;
     const multi = MODES[state.mode].sides > 1;
     if (!twoColumns) {
@@ -335,6 +348,17 @@ function trainerMatcher(params, data) {
         if (fold(trainer?.class).includes(term)) return data;
     }
     return null;
+}
+
+// Quote search ignores punctuation (and case/diacritics) so e.g. "oh you have"
+// finds "Oh! You have...". Punctuation is dropped (apostrophes too) and runs of
+// whitespace collapse, on BOTH the term and the option text.
+const foldQuote = s => fold(s).replace(/[^a-z0-9\s]/g, '').replace(/\s+/g, ' ').trim();
+
+function quoteMatcher(params, data) {
+    const term = foldQuote(params.term);
+    if (!term) return data;
+    return foldQuote(data.text).includes(term) ? data : null;
 }
 
 // Set keys ("species|setNumber") whose Pokémon can Dynamax — used to badge
@@ -407,6 +431,7 @@ export function populateQuoteDropdown(side, onSelect) {
     initSelect2(`#quote-dropdown-${side}`, {
         placeholder: sideLabel(t('quoteDropdownPlaceholder', 'Quote'), side),
         template: textTemplate,
+        matcher: quoteMatcher,
     });
 
     $dropdown.off('select2:select').on('select2:select', event => {
@@ -462,6 +487,7 @@ export function refreshSidePlaceholders() {
         initSelect2(`#quote-dropdown-${side}`, {
             placeholder: sideLabel(t('quoteDropdownPlaceholder', 'Quote'), side),
             template: textTemplate,
+            matcher: quoteMatcher,
         });
     }
 }
@@ -978,7 +1004,8 @@ function showSetDetails(slot, set) {
     const natureText = natureData ? natureData[`stats-${state.language}`] : '';
 
     const details = document.createElement('div');
-    details.className = (state.variant?.gen === 2) ? 'set-details gen2' : 'set-details';
+    details.className = (state.variant?.gen === 2) ? 'set-details gen2'
+        : state.variant?.teamView ? 'set-details bdsp' : 'set-details';
 
     const typeIcons = [
         typeIconHtml(speciesData.type1),
@@ -1048,7 +1075,13 @@ function showSetDetails(slot, set) {
     // copy button. The middle column has more room (no nature/abilities in gen 2).
     const dvsHtml = (gen2 && set.DVs)
         ? `<div class="separator"></div><div class="dvs" title="HP / Atk / Def / Spe / Spc">DVs ${set.DVs.hp}/${set.DVs.atk}/${set.DVs.def}/${set.DVs.spe}/${set.DVs.spc}</div>` : '';
-    const ivsHtml = (wild || gen2) ? '' : ivsLine(set, slotIV);
+    // BDSP sets carry a per-stat IV SPREAD (some stats 0, the rest 31) rather than a
+    // single uniform IV — stack the non-31 stats like the EVs block, in a smaller
+    // font so the right column stays short (unlabelled, like EVs — self-explanatory).
+    const ivsHtml = (wild || gen2) ? ''
+        : set.ivSpread
+        ? `<div class="separator"></div><div class="ivs ivs-spread">${set.ivSpread.split(', ').join('<br/>')}</div>`
+        : ivsLine(set, slotIV);
 
     details.innerHTML = `
         <div class="left-column">
@@ -1195,6 +1228,10 @@ function showdownFormat(set, abilities, ivOverride = null) {
         const byStat = { HP: 2 * dv.hp, Atk: 2 * dv.atk, Def: 2 * dv.def,
                          SpA: 2 * dv.spc, SpD: 2 * dv.spc, Spe: 2 * dv.spe };
         lines.push(`IVs: ${IV_STATS.map(s => `${byStat[s]} ${s}`).join(' / ')}`);
+    } else if (set.ivSpread) {
+        // BDSP: a per-stat IV spread (non-31 stats listed; Showdown defaults the rest
+        // to 31). Stored as "0 Atk, 10 SpD, 10 Spe" → "0 Atk / 10 SpD / 10 Spe".
+        lines.push(`IVs: ${set.ivSpread.split(', ').join(' / ')}`);
     } else {
         // IVs are uniform across stats here; export them only when not the default 31
         // (same precedence as the speed calc: per-set > trainer/rank > variant > 31).
@@ -1208,6 +1245,396 @@ function showdownFormat(set, abilities, ivOverride = null) {
         if (move) lines.push(`- ${move}`);
     }
     return lines.join('\n');
+}
+
+/* ---------- BDSP team view (ordered teams; no minisprite pool) ---------- */
+// BDSP singles is presented per-TEAM, not per-Pokémon: a trainer can field several
+// ordered teams. With >1 team we list compact preview ROWS (minisprites in lead
+// order + item + nature, separated); clicking one renders its 3 sets side-by-side
+// (reusing the triples layout — the same slot containers, menus/minisprites hidden).
+// With a single team (e.g. Palmer) we skip the rows and show the details directly.
+
+function setForRef(ref) {
+    const [sp, n] = ref.split(/-(?=\d+$)/);
+    return state.data.sets.find(s => s.species === sp && s.setNumber === +n);
+}
+
+function trainerTeams(trainer) {
+    return (trainer.teams && trainer.teams.length) ? trainer.teams : [trainer.roster];
+}
+
+// Show `count` slot containers as detail-only panels (w-N columns, like triples);
+// the unused menu + minisprite list inside each are hidden via the body class.
+function showBdspPanels(count) {
+    for (let slot = 1; slot <= MAX_SLOTS; slot++) {
+        const c = document.getElementById(`pokemon-menu-container-${slot}`);
+        const on = slot <= count;
+        c.style.display = on ? 'block' : 'none';
+        c.style.order = '';   // reset; the detail renderers re-tag by team-data order (mobile stack)
+        c.classList.remove('w-1', 'w-2', 'w-3', 'side-2');
+        if (on) c.classList.add(`w-${count}`);
+    }
+}
+
+function clearBdspPanels() {
+    state.activeSets = {};
+    for (let slot = 1; slot <= MAX_SLOTS; slot++) {
+        document.getElementById(`pokemon-sets-${slot}`).innerHTML = '';
+    }
+}
+
+// Render one ordered team's detail panels. Singles (3) → a row of 3. Doubles (4) →
+// a 2×2 grid where the opponent's LEAD (member 1) sits TOP-RIGHT (slot 2) and member
+// 2 TOP-LEFT (slot 1) — the panels are laid out exactly as the player sees the
+// opponent's side on the field (they send out top-right first) — then the bottom row
+// is members 3 → 4 left→right (slots 3, 4). The grid flow is slot 1,2,3,4 = TL,TR,BL,BR.
+export function renderBdspTeamDetail(teamString) {
+    const refs = teamString.split(', ').filter(Boolean);
+    clearBdspPanels();
+    showBdspPanels(refs.length);
+    const slotOf = refs.length === 4 ? [2, 1, 3, 4] : [1, 2, 3];
+    refs.forEach((ref, i) => {
+        const set = setForRef(ref);
+        if (set) showSetDetails(slotOf[i], set);
+        // Tag each panel with its team-data index so the phone single-column stack
+        // reads in team order; the 2×2 grid neutralizes this (CSS) and keeps its
+        // spatial placement.
+        document.getElementById(`pokemon-menu-container-${slotOf[i]}`).style.order = i;
+    });
+}
+
+// One compact preview row per team: each member = minisprite (lead order) + item +
+// nature, with a vertical separator between members. Clicking calls onPick(index).
+function renderBdspTeamRows(teams, onPick, order) {
+    const host = document.getElementById('team-rows');
+    host.innerHTML = '';
+    const table = document.createElement('div');
+    table.className = 'team-rows-table';
+    teams.forEach((teamString, ti) => {
+        const row = document.createElement('div');
+        row.className = `team-row ${ti % 2 === 0 ? 'even-row' : 'odd-row'}`;
+        row.dataset.team = ti;
+        // `order` maps display position → team index. Default: normal doubles swaps
+        // the first two (lead shows 2nd / top-right — the on-field order); singles
+        // keep order. Duos pass an explicit order ([2,0,3,1]).
+        const refs = teamString.split(', ').filter(Boolean);
+        const ord = order || (refs.length === 4 ? [1, 0, 2, 3] : refs.map((_, i) => i));
+        const display = ord.map(i => refs[i]).filter(Boolean);
+        display.forEach((ref, i) => {
+            if (i) {
+                const sep = document.createElement('div');
+                sep.className = 'team-sep';
+                row.appendChild(sep);
+            }
+            const set = setForRef(ref);
+            const species = set ? set.species : ref.split(/-(?=\d+$)/)[0];
+            const member = document.createElement('div');
+            member.className = 'team-member';
+            const mini = document.createElement('img');
+            mini.className = 'team-mini';
+            mini.src = speciesMinispriteUrl(species);
+            mini.alt = species;
+            mini.onerror = () => mini.remove();
+            member.appendChild(mini);
+            if (set && set.item && set.item !== 'None') {
+                const item = document.createElement('img');
+                item.className = 'team-item';
+                item.src = itemImageUrl(set.item);
+                item.alt = set.item;
+                item.title = set.item;
+                item.onerror = () => item.remove();
+                member.appendChild(item);
+            }
+            // Fill the row with the full moveset (same 2×2 grid + type icons as the
+            // compact set preview). Nature is omitted here to keep the rows breathing
+            // when squeezed / on mobile (it's still shown in the expanded detail);
+            // the moves compress gracefully down to just their 4 type icons.
+            if (set) member.appendChild(movesCell(set));
+            row.appendChild(member);
+        });
+        row.onclick = () => onPick(ti);
+        table.appendChild(row);
+    });
+    host.appendChild(table);
+    // Stack the move grids to 2×2 uniformly if any name would truncate (as set rows do).
+    fitMoveGrids(host);
+    if (typeof ResizeObserver !== 'undefined' && !host._movesObserver) {
+        host._movesObserver = new ResizeObserver(() => fitMoveGrids(host));
+        host._movesObserver.observe(host);
+    }
+}
+
+function highlightTeamRow(ti) {
+    document.querySelectorAll('#team-rows .team-row').forEach(r =>
+        r.classList.toggle('selected', Number(r.dataset.team) === ti));
+}
+
+// Entry point: render a BDSP trainer's team view. Multi-team → preview rows (details
+// appear once a row is clicked); single team → details immediately.
+export function renderBdspTrainer(trainer) {
+    const host = document.getElementById('team-rows');
+    const teams = trainerTeams(trainer);
+    if (teams.length > 1) {
+        renderBdspTeamRows(teams, ti => {
+            renderBdspTeamDetail(teams[ti]);
+            highlightTeamRow(ti);
+        });
+        host.style.display = '';
+        clearBdspPanels();
+        showBdspPanels(0);
+    } else {
+        host.innerHTML = '';
+        host.style.display = 'none';
+        renderBdspTeamDetail(teams[0]);
+    }
+}
+
+export function clearBdspView() {
+    document.getElementById('team-rows').innerHTML = '';
+    clearBdspPanels();
+    showBdspPanels(0);
+}
+
+/* ---------- BDSP Master Doubles: duo view (multis of duos) ---------- */
+// Two trainer menus + two quote menus. The TRAINER menu searches/picks whole DUOS
+// (fills both sides; canonical order = data name1 → RIGHT/side 2, name2 → LEFT/side 1).
+// The QUOTE menu picks INDIVIDUALS (one side); with exactly one side set, the other
+// menus filter to that trainer's partners. Completing a duo re-snaps to canonical
+// order. Each duo's data record carries both trainers + its teams (data order
+// t1p1,t1p2,t2p1,t2p2). Display order for a team is t2p1, t1p1, t2p2, t1p2 — each
+// Pokémon under its trainer's column (t2 left, t1 right).
+
+export function isDuoDoubles() {
+    return Boolean(state.variant?.duoDoubles) && state.mode === 'doubles';
+}
+
+function pairKey(a, b) { return [a, b].sort().join('|'); }
+
+let duoIndexSource = null, duoIdx = null;
+function duoIndex() {
+    if (duoIndexSource !== state.data.trainers) {
+        duoIndexSource = state.data.trainers;
+        const individuals = new Map();   // name -> {name, cls, sprite, quote}
+        const partners = new Map();      // name -> [partner names]
+        const byPair = new Map();        // "a|b" (sorted) -> rec
+        const recIndex = new Map();      // rec -> index
+        state.data.trainers.forEach((rec, i) => {
+            recIndex.set(rec, i);
+            const t1 = { name: rec.name, cls: rec.class, sprite: rec.sprite, quote: rec.quote };
+            const t2 = { name: rec.name2, cls: rec.class2, sprite: rec.sprite2, quote: rec.quote2 };
+            for (const t of [t1, t2]) if (!individuals.has(t.name)) individuals.set(t.name, t);
+            if (!partners.has(t1.name)) partners.set(t1.name, []);
+            if (!partners.has(t2.name)) partners.set(t2.name, []);
+            partners.get(t1.name).push(t2.name);
+            partners.get(t2.name).push(t1.name);
+            byPair.set(pairKey(rec.name, rec.name2), rec);
+        });
+        duoIdx = { individuals, partners, byPair, recIndex };
+    }
+    return duoIdx;
+}
+
+function duoResolve() {
+    const { l, r } = state.bdspDuo;
+    return (l && r) ? (duoIndex().byPair.get(pairKey(l, r)) ?? null) : null;
+}
+
+// Render the duo's teams (preview rows when >1, else the one team's 2×2 grid).
+function renderDuo(rec) {
+    const host = document.getElementById('team-rows');
+    const teams = rec?.teams || [];
+    if (teams.length > 1) {
+        renderBdspTeamRows(teams, ti => { renderDuoDetail(teams[ti]); highlightTeamRow(ti); },
+                           [2, 0, 3, 1]);   // t2p1, t1p1, t2p2, t1p2
+        host.style.display = '';
+        clearBdspPanels();
+        showBdspPanels(0);
+    } else if (teams.length === 1) {
+        host.innerHTML = ''; host.style.display = 'none';
+        renderDuoDetail(teams[0]);
+    } else {
+        clearBdspView();
+    }
+}
+
+// 2×2 grid placed under each trainer's column: t2p1 TL(slot1), t1p1 TR(slot2),
+// t2p2 BL(slot3), t1p2 BR(slot4). Team data order is [t1p1, t1p2, t2p1, t2p2].
+function renderDuoDetail(teamString) {
+    const refs = teamString.split(', ').filter(Boolean);
+    clearBdspPanels();
+    showBdspPanels(4);
+    const slotOf = [2, 4, 1, 3];   // team index → slot (container)
+    const rowOrder = [2, 0, 3, 1]; // preview-row order: t2p1, t1p1, t2p2, t1p2 (two leads first)
+    refs.forEach((ref, i) => {
+        const set = setForRef(ref);
+        if (set) showSetDetails(slotOf[i], set);
+        // phone stack follows the preview-row order so the two LEADS show first
+        document.getElementById(`pokemon-menu-container-${slotOf[i]}`).style.order = rowOrder.indexOf(i);
+    });
+}
+
+// --- selection actions ---
+function selectDuoRecord(rec) {
+    state.bdspDuo.l = rec.name2;   // canonical: name2 left, name1 right
+    state.bdspDuo.r = rec.name;   // record field for the first trainer is `name`
+    renderDuo(rec);
+    populateDuoMenus();
+}
+
+function setDuoIndividual(side, name) {
+    state.bdspDuo[side === 1 ? 'l' : 'r'] = name;
+    const rec = duoResolve();
+    if (rec) {
+        selectDuoRecord(rec);      // both sides set & a valid duo → render (re-snaps order)
+    } else {
+        clearBdspView();           // only one side set → wait for the partner
+        populateDuoMenus();
+    }
+}
+
+export function resetDuoSelection() {
+    state.bdspDuo = { l: null, r: null };
+    clearBdspView();
+    populateDuoMenus();
+}
+
+// --- menu population ---
+const fold2 = s => fold(s);   // alias for clarity
+
+export function populateDuoMenus() {
+    for (let side = 1; side <= 2; side++) {
+        populateDuoTrainer(side);
+        populateDuoQuote(side);
+    }
+}
+
+function duoTrainerResult(option) {
+    if (!option.id) return option.text;
+    const el = $(option.element);
+    const $span = $('<span></span>');
+    const add = src => src && $span.append($('<img>').attr('src', src)
+        .addClass('trainer-sprite-select2').on('error', function () { $(this).remove(); }));
+    if (el.data('kind') === 'duo') {
+        // Dropdown list shows the duo in ORIGINAL data order (t1 & t2); the inversion
+        // (t2 left / t1 right) only happens in the per-side selection display.
+        add(el.data('icon2')); add(el.data('icon'));   // t1 sprite, then t2 sprite
+        $span.append(document.createTextNode(` ${el.data('n1')} & ${el.data('n2')}`));
+    } else {
+        add(el.data('icon'));
+        $span.append(document.createTextNode(' ' + el.data('name')));
+    }
+    return $span;
+}
+
+// Selection display shows only this SIDE's member of a duo (side 1 = name2/left).
+function duoTrainerSelection(side) {
+    return option => {
+        if (!option.id) return option.text;
+        const el = $(option.element);
+        const $span = $('<span></span>');
+        const add = src => src && $span.append($('<img>').attr('src', src)
+            .addClass('trainer-sprite-select2').on('error', function () { $(this).remove(); }));
+        if (el.data('kind') === 'duo') {
+            const name = side === 1 ? el.data('n2') : el.data('n1');
+            const sprite = side === 1 ? el.data('icon') : el.data('icon2');
+            add(sprite);
+            $span.append(document.createTextNode(' ' + name));
+        } else {
+            add(el.data('icon'));
+            $span.append(document.createTextNode(' ' + el.data('name')));
+        }
+        return $span;
+    };
+}
+
+function duoTrainerMatcher(params, data) {
+    const term = fold2(params.term).trim();
+    if (!term) return data;
+    const el = data.element ? $(data.element) : null;
+    if (el && el.data('kind') === 'duo') {
+        return (fold2(el.data('n1')).includes(term) || fold2(el.data('n2')).includes(term)) ? data : null;
+    }
+    return fold2(data.text).includes(term) ? data : null;
+}
+
+function populateDuoTrainer(side) {
+    const { individuals, partners, recIndex } = duoIndex();
+    const cur = side === 1 ? state.bdspDuo.l : state.bdspDuo.r;
+    const other = side === 1 ? state.bdspDuo.r : state.bdspDuo.l;
+    const oneOnly = Boolean(state.bdspDuo.l) + Boolean(state.bdspDuo.r) === 1;
+    const $dd = $(`#trainer-dropdown-${side}`).empty();
+    $dd.append('<option value="" disabled selected></option>');
+
+    const addInd = name => {
+        const ind = individuals.get(name); if (!ind) return;
+        const o = new Option(name, `ind:${name}`, false, false);
+        $(o).attr('data-kind', 'ind').attr('data-name', name);
+        if (ind.sprite) $(o).attr('data-icon', ind.sprite);
+        $dd.append(o);
+    };
+    const addDuo = rec => {
+        const o = new Option(`${rec.name2} ${rec.name}`, `duo:${recIndex.get(rec)}`, false, false);
+        $(o).attr('data-kind', 'duo').attr('data-n1', rec.name).attr('data-n2', rec.name2);
+        if (rec.sprite) $(o).attr('data-icon2', rec.sprite);     // name1 (right) sprite
+        if (rec.sprite2) $(o).attr('data-icon', rec.sprite2);    // name2 (left) sprite
+        $dd.append(o);
+    };
+
+    let value = '';
+    if (oneOnly && !cur) {
+        // partner mode: this side empty, other side set → list the other's partners
+        const seen = new Set();
+        for (const p of (partners.get(other) || [])) if (!seen.has(p)) { seen.add(p); addInd(p); }
+    } else {
+        for (const rec of state.data.trainers) addDuo(rec);
+        const rec = cur && other ? duoIndex().byPair.get(pairKey(cur, other)) : null;
+        if (rec) value = `duo:${recIndex.get(rec)}`;           // resolved → show duo member
+        else if (cur) { addInd(cur); value = `ind:${cur}`; }   // intermediate (set via quote)
+    }
+
+    initSelect2(`#trainer-dropdown-${side}`, {
+        placeholder: t('trainerDropdownPlaceholder', 'Trainer'),
+        templateResult: duoTrainerResult,
+        templateSelection: duoTrainerSelection(side),
+        containerClass: 'select2-container--trainer',
+        matcher: duoTrainerMatcher,
+    });
+    $dd.val(value).trigger('change.select2');
+    $dd.off('select2:select').on('select2:select', e => {
+        const id = e.params.data.id;
+        if (id.startsWith('duo:')) selectDuoRecord(state.data.trainers[Number(id.slice(4))]);
+        else if (id.startsWith('ind:')) setDuoIndividual(side, id.slice(4));
+    });
+}
+
+function populateDuoQuote(side) {
+    const { individuals, partners } = duoIndex();
+    const cur = side === 1 ? state.bdspDuo.l : state.bdspDuo.r;
+    const other = side === 1 ? state.bdspDuo.r : state.bdspDuo.l;
+    const oneOnly = Boolean(state.bdspDuo.l) + Boolean(state.bdspDuo.r) === 1;
+    const $dd = $(`#quote-dropdown-${side}`).empty();
+    $dd.append('<option value="" disabled selected></option>');
+
+    const add = name => {
+        const ind = individuals.get(name);
+        if (!ind || !ind.quote) return;   // only individuals with a quote are searchable here
+        $dd.append(new Option(ind.quote, `ind:${name}`, false, false));
+    };
+    if (oneOnly && !cur) {
+        const seen = new Set();
+        for (const p of (partners.get(other) || [])) if (!seen.has(p)) { seen.add(p); add(p); }
+    } else {
+        for (const name of individuals.keys()) add(name);
+    }
+    const value = cur && individuals.get(cur)?.quote ? `ind:${cur}` : '';
+
+    initSelect2(`#quote-dropdown-${side}`, {
+        placeholder: t('quoteDropdownPlaceholder', 'Quote'),
+        template: textTemplate,
+        matcher: quoteMatcher,
+    });
+    $dd.val(value).trigger('change.select2');
+    $dd.off('select2:select').on('select2:select', e => setDuoIndividual(side, e.params.data.id.slice(4)));
 }
 
 /* ---------- resets & visibility ---------- */
@@ -1253,6 +1680,21 @@ export function resetSelections() {
 // Shows/hides the side-2 menus and the slot containers for the current mode.
 export function updateLayout() {
     const multi = sides() > 1;
+    // BDSP team view: no Pokémon menus / minisprite pool — the detail panels are
+    // driven by renderBdspTrainer. Hide the slot menus (body class) and, when no
+    // trainer is selected, clear the team rows + panels.
+    const teamView = Boolean(state.variant.teamView);
+    document.body.classList.toggle('bdsp-team-view', teamView);
+    // Clear the BDSP team rows when leaving team view (switching to another game) or
+    // when nothing is selected. Duos track selection in state.bdspDuo (a resolved duo),
+    // single-trainer modes in state.trainers[1].
+    const nothingSelected = isDuoDoubles() ? !duoResolve() : !state.trainers[1];
+    if (!teamView) {
+        document.getElementById('team-rows').innerHTML = '';
+    } else if (nothingSelected) {
+        document.getElementById('team-rows').innerHTML = '';
+        showBdspPanels(0);
+    }
     // Battle Hall replaces the trainer menu with type+rank selectors.
     const hall = Boolean(state.variant.hall);
     // Battle Pyramid: when the "Wild Pokémon" entry is selected, the quote menu becomes
@@ -1279,23 +1721,28 @@ export function updateLayout() {
     const quotes = state.variant.hasQuotes !== false && !hall && !pyrWild
         && !(state.variant.enOnlyQuotes && state.language !== 'en');
     document.getElementById('quote-side-1').style.display = quotes ? '' : 'none';
-    document.getElementById('trainer-side-2').style.display = multi ? '' : 'none';
-    document.getElementById('quote-side-2').style.display = (multi && quotes) ? '' : 'none';
+    // BDSP Master Doubles (duos) shows TWO trainer + quote menus like multis.
+    const duoDoubles = isDuoDoubles();
+    document.getElementById('trainer-side-2').style.display = (multi || duoDoubles) ? '' : 'none';
+    document.getElementById('quote-side-2').style.display = ((multi || duoDoubles) && quotes) ? '' : 'none';
     // Battle Hall has no quotes — the faced-level calculator takes that space.
     document.getElementById('hall-level-tool').style.display = hall ? '' : 'none';
 
+    // BDSP manages its own detail panels (showBdspPanels); skip the slot loop.
     const total = modeSlots(state.mode);
-    for (let slot = 1; slot <= MAX_SLOTS; slot++) {
-        const container = document.getElementById(`pokemon-menu-container-${slot}`);
-        const side = slotSide(state.mode, slot);
-        // Slots for the current mode are always shown — the menu lists all
-        // facility species until a trainer narrows it to their roster.
-        const visible = slot <= total;
-        container.style.display = visible ? 'block' : 'none';
-        container.classList.remove('w-1', 'w-2', 'w-3', 'side-2');
-        if (visible) {
-            container.classList.add(`w-${total}`);
-            if (multi && side === 2) container.classList.add('side-2');
+    if (!teamView) {
+        for (let slot = 1; slot <= MAX_SLOTS; slot++) {
+            const container = document.getElementById(`pokemon-menu-container-${slot}`);
+            const side = slotSide(state.mode, slot);
+            // Slots for the current mode are always shown — the menu lists all
+            // facility species until a trainer narrows it to their roster.
+            const visible = slot <= total;
+            container.style.display = visible ? 'block' : 'none';
+            container.classList.remove('w-1', 'w-2', 'w-3', 'side-2');
+            if (visible) {
+                container.classList.add(`w-${total}`);
+                if (multi && side === 2) container.classList.add('side-2');
+            }
         }
     }
     positionSwap();

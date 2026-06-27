@@ -10,7 +10,9 @@ export const state = {
     spritesOn: true,   // minisprite lists toggle (settings)
     translations: {},
     data: null,        // { trainers, sets, pokedex, natures, items }
+    loadedDataDir: null, // dataDir currently loaded (BDSP: singles/doubles differ by mode)
     trainers: { 1: null, 2: null },  // selected trainer per side (multis uses 2)
+    bdspDuo: { l: null, r: null },   // BDSP Master Doubles: individual trainer names left/right
     activeSets: {},    // selected set per slot number
     hallType: null,    // Battle Hall: selected type code / 'argenta50' / 'argenta170'
     hallRank: null,    // Battle Hall: selected rank 1-10 (drives BST filter + IV)

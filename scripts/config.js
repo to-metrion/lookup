@@ -46,6 +46,69 @@
 
 export const GAMES = [
     {
+        // BDSP Battle Tower (gen-8 engine, Sinnoh roster). Newest game → listed
+        // first; `tree` keeps `default: true` so the tool still opens on Battle Tree.
+        //
+        // BDSP is presented differently from every other facility (`teamView`):
+        // its singles teams are ORDERED (the lead is fixed) and a trainer can field
+        // SEVERAL possible teams, so instead of the minisprite/Pokémon-menu/set-table
+        // flow we show a trainer's teams as compact preview ROWS; picking one shows
+        // its 3 sets side-by-side (like Maison triples). Sets carry per-stat IVs
+        // (`ivSpread`; `IVs` is the Speed IV for the speed calc) and a fixed `ability`.
+        //
+        // Sub-facilities Normal / Master are VARIANT pills (default Master). Singles
+        // and Doubles are SEPARATE datasets (different trainers), so each variant maps
+        // each mode to its own dataDir (`modeDataDirs`); the mode toggle reloads the
+        // matching trainers. Master Doubles is the MULTIS (duo) case — `duoDoubles` —
+        // added with its own UI in a later step; Master is singles-only for now.
+        code: 'bdsp',
+        name: 'Battle Tower',   // the facility's real name (game-bdsp localizes it); the
+                                // bd/sp logos differentiate it from the SwSh Battle Tower
+        icons: ['assets/images/games/bd.png', 'assets/images/games/sp.png'],
+        variants: [
+            {
+                code: 'bdsp-master',
+                name: 'Master',
+                short: 'Master',
+                nameKey: 'variant-bdsp-master',   // "Master Class" (corpus), localized
+                default: true,            // the tool opens BDSP on Master
+                dataDir: 'bdsp-master-singles',
+                modeDataDirs: { singles: 'bdsp-master-singles',
+                                doubles: 'bdsp-master-doubles' },
+                base: 'bdsp-tower',
+                pokedex: 'data/pokedex-bdsp.json',
+                gen: 8,
+                languages: ['en', 'fr', 'it', 'de', 'es', 'jp', 'ko', 'chs', 'cht'],
+                modes: ['singles', 'doubles'],
+                hasTrainers: true,
+                showMinisprites: false,
+                teamView: true,
+                // Master Doubles = MULTIS (duos): two trainer menus, each duo record
+                // carries both trainers + teams; the trainer menu picks whole DUOS,
+                // the quote menu picks individuals (with partner filtering). See the
+                // duo-view section in ui.js.
+                duoDoubles: true,
+            },
+            {
+                code: 'bdsp-normal',
+                name: 'Normal',
+                short: 'Normal',
+                nameKey: 'variant-bdsp-normal',   // no official name; "Normal" self-translated
+                dataDir: 'bdsp-normal-singles',
+                modeDataDirs: { singles: 'bdsp-normal-singles',
+                                doubles: 'bdsp-normal-doubles' },
+                base: 'bdsp-tower',
+                pokedex: 'data/pokedex-bdsp.json',
+                gen: 8,
+                languages: ['en', 'fr', 'it', 'de', 'es', 'jp', 'ko', 'chs', 'cht'],
+                modes: ['singles', 'doubles'],
+                hasTrainers: true,
+                showMinisprites: false,
+                teamView: true,
+            },
+        ],
+    },
+    {
         // SwSh groups two facilities: Battle Tower (standard) and Restricted
         // Sparring (one opponent, the Master Dojo Student). Sets carry gen-8
         // quirks read by the renderer: per-set `IVs`, `dmax` (the dmax.png
@@ -508,7 +571,9 @@ export const MODES = {
     multis:  { icon: '⚃', sides: 2, slots: 1 },
 };
 
-export const MAX_SLOTS = 3;
+// 4 so BDSP doubles can show a 4-Pokémon team as a 2×2 grid of detail panels;
+// no battle MODE exceeds 3 slots, so the 4th container stays hidden elsewhere.
+export const MAX_SLOTS = 4;
 export const MAX_SIDES = 2;
 
 // Total visible slots for a mode.
@@ -543,7 +608,7 @@ export const THEMES = [
 
 // Appended to every data fetch (?v=...) so browsers pick up new data after a
 // deploy instead of serving stale cached JSON. Bump when data files change.
-export const DATA_VERSION = '2026-06-26a';
+export const DATA_VERSION = '2026-06-26l';
 
 export const LANGUAGE_NAMES = {
     en: 'English',

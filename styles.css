@@ -787,6 +787,13 @@ button:focus {
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.2s ease, color 0.2s ease;
+    /* When the segments wrap to a 2nd row (narrow / mobile screens), the shrink-to-fit
+       container fills the available width while the buttons don't — leaving bordered
+       empty space after the last button in each row. Letting the buttons grow makes
+       each row fill the width, so the border always hugs actual buttons. This is a
+       no-op on a single row that fits (an inline-flex container is sized to content,
+       so there's no free space to distribute). */
+    flex: 1 1 auto;
 }
 #facility-pills .facility-pill + .facility-pill,
 #variant-pills:not(.version-row) .variant-pill + .variant-pill {
@@ -896,7 +903,10 @@ button:focus {
 .theme-swatch img {
     width: 36px;
     height: 36px;
-    image-rendering: pixelated;
+    /* The Trozei theme sprites are smooth 128px images shown at 36px — let the
+       browser DOWNSCALE them smoothly. `pixelated` (nearest-neighbour) was dropping
+       pixels and causing artifacts; `auto` is the high-quality smooth filter. */
+    image-rendering: auto;
     display: block;
 }
 
@@ -1173,6 +1183,88 @@ button:focus {
 }
 
 /* ============================================================
+   BDSP team view
+   ============================================================ */
+/* In team view the slot containers are reused as detail-only panels (the
+   triples w-N layout), so hide their Pokémon menu + minisprite list. */
+.bdsp-team-view .pokemon-menu-container > select,
+.bdsp-team-view .pokemon-menu-container .select2-container,
+.bdsp-team-view .slot-species {
+    display: none !important;
+}
+
+#team-rows { margin-top: 16px; }
+#team-rows:empty { display: none; }
+
+/* BDSP doubles: 4 detail panels in a 2×2 grid (the slot containers flow row-major
+   = TL, TR, BL, BR; renderBdspTeamDetail places the lead top-right). */
+.bdsp-team-view.doubles-mode #pokemon-menus {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 16px;
+    align-items: start;
+}
+.bdsp-team-view.doubles-mode .pokemon-menu-container {
+    width: auto !important;
+    padding: 0;
+    /* Grid cells default to min-width:auto, which refuses to shrink below the
+       panel's (nowrap) content — the grid would overflow and get cut off instead
+       of the panel shrinking. min-width:0 lets the cell narrow, which makes the
+       detail panel overflow its box and triggers fitDetailsFont's auto-shrink
+       (same as the flex/triples layout). */
+    min-width: 0;
+}
+/* The panels carry an inline `order` (team-data index) so the phone single-column
+   stack (≤600px) reads in team order; on the 2×2 grid neutralize it so the spatial
+   slot placement (lead top-right) governs the layout instead. */
+@media (min-width: 601px) {
+    .bdsp-team-view.doubles-mode .pokemon-menu-container { order: 0 !important; }
+}
+
+.team-rows-table {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    font-size: 0.8em;   /* compact — the rows now carry the full moveset too */
+}
+
+/* Compact, clickable team preview row (mirrors the set-row look). */
+.team-row {
+    display: flex;
+    align-items: center;
+    padding: 6px 8px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    transition: background-color 0.2s ease, border 0.2s ease;
+}
+.team-row.even-row { background-color: var(--surface); }
+.team-row.odd-row { background-color: var(--surface-alt); }
+.team-row:hover { background-color: var(--hover); }
+.team-row.selected { background-color: var(--selected); border-color: var(--highlight); }
+
+.team-member {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex: 1 1 0;
+    min-width: 0;
+}
+.team-mini { width: 40px; height: 40px; object-fit: contain; flex: none; }
+.team-item { width: 22px; height: 22px; flex: none; }
+/* The moveset fills the rest of each member's width (2×2 when names would truncate,
+   and down to just the 4 type icons when very squeezed). */
+.team-member .set-moves { flex: 1 1 0; padding: 0 6px; }
+/* Vertical separator before each Pokémon after the first. */
+.team-sep {
+    width: 1px;
+    align-self: stretch;
+    background-color: var(--border);
+    margin: 2px 8px;
+    flex: none;
+}
+
+/* ============================================================
    Set details panel
    ============================================================ */
 /* Always three side-by-side columns (no wrapping). Hybrid squeeze handling:
@@ -1221,6 +1313,14 @@ button:focus {
 .set-details.gen2 .right-column {
     justify-content: flex-start;
 }
+
+/* BDSP IV spread: stacked like the EVs but smaller (unlabelled), so the right
+   column stays compact. Two classes (.ivs.ivs-spread) to outrank the later
+   `.ivs { font-size: 1.2em }` rule regardless of source order. */
+.ivs.ivs-spread { font-size: 0.7em; line-height: 1.2; }
+/* Top-align the BDSP right column so the (shorter) content clears the
+   bottom-right copy button instead of centering down onto it. */
+.set-details.bdsp .right-column { justify-content: flex-start; }
 
 .left-column .large-sprite {
     width: 7.8em; /* 125px at full size; scales with the fitted font */
@@ -1326,13 +1426,47 @@ button:focus {
     font-size: 0.95em;
 }
 .hall-info {
-    cursor: help;
+    position: relative;
+    cursor: pointer;   /* tappable on mobile (no hover there) */
     color: var(--text-muted);
     font-size: 1.1em;
     line-height: 1;
     user-select: none;
 }
 .hall-info:hover { color: var(--text); }
+
+/* Tooltip bubble (the message text lives in data-tip). Shown on hover and keyboard
+   focus (desktop) AND when tapped → `.info-open` toggled in app.js (mobile). */
+.hall-info::after {
+    content: attr(data-tip);
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 7px);
+    transform: translateX(-50%);
+    width: max-content;
+    max-width: 220px;
+    white-space: normal;
+    text-align: center;
+    background-color: var(--surface-alt);
+    color: var(--text);
+    border: 1px solid var(--highlight);
+    border-radius: 6px;
+    padding: 6px 9px;
+    font-size: 0.72rem;
+    line-height: 1.35;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.15s ease;
+    z-index: 300;
+    pointer-events: none;
+}
+.hall-info:hover::after,
+.hall-info:focus::after,
+.hall-info.info-open::after {
+    opacity: 1;
+    visibility: visible;
+}
 
 .nature-text {
     font-size: 0.7em;
@@ -1477,6 +1611,13 @@ button:focus {
         display: none !important; /* singles by default; multis via settings */
     }
 
+    /* BDSP is the one game whose Doubles holds UNIQUE data (different trainers, not
+       just a 2nd slot), so mobile users must be able to switch into it — keep the
+       mode slider visible for BDSP (other games still route 2-trainer via settings). */
+    body.bdsp-team-view #mode-control {
+        display: flex !important;
+    }
+
     .multis-mode .slot-species {
         display: none; /* too much scrolling on small screens */
     }
@@ -1570,5 +1711,40 @@ button:focus {
        mobile-specific overrides needed.) */
     :is(.singles-mode, .multis-mode) .sets-table {
         font-size: 0.7em;
+    }
+
+    /* BDSP Doubles on a phone: the 2×2 detail grid is too cramped at this width, so
+       stack the four panels into one column. They read in team order via the inline
+       `order` set by renderBdspTeamDetail/renderDuoDetail (no longer neutralized
+       here — the ≥601px rule that zeroes it doesn't apply). */
+    .bdsp-team-view.doubles-mode #pokemon-menus {
+        grid-template-columns: 1fr;
+    }
+
+    /* Master Doubles (duos) shows two trainer + two quote menus side by side — stack
+       each pair vertically so they fit (mirrors the multis-mode treatment). For
+       Normal Doubles there's only one menu, so this is a harmless no-op. */
+    .bdsp-team-view.doubles-mode .trainer-select-container,
+    .bdsp-team-view.doubles-mode .quote-select-container {
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    /* The two stacked trainer menus are taller than the fixed 60px mobile header, so
+       let it grow to contain them (like .multis-mode does) instead of overflowing. */
+    .bdsp-team-view.doubles-mode header {
+        height: auto;
+        min-height: 60px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    /* The mode slider's die glyph is sized for the 80px desktop header (56px tall),
+       which overflows the 60px mobile header; shrink it so the control fits. (BDSP is
+       the only game that shows the slider on mobile, hence the team-view scope.) */
+    body.bdsp-team-view #mode-glyph {
+        font-size: 44px;
+        height: 30px;
+        transform: translateY(-3px);
     }
 }

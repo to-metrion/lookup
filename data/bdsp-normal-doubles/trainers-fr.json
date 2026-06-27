@@ -1,0 +1,3903 @@
+{
+  "remove": [],
+  "trainers": [
+    {
+      "name": "Abigail",
+      "class": "Topdresseur",
+      "roster": "Scarabrute-1, Élekable-1, Jungko-2, Gardevoir-1, Nidoking-1, Monaflèmit-1, Laggron-2, Luxray-1",
+      "species": "Scarabrute, Élekable, Jungko, Gardevoir, Nidoking, Monaflèmit, Laggron, Luxray",
+      "teams": [
+        "Scarabrute-1, Élekable-1, Jungko-2, Gardevoir-1",
+        "Nidoking-1, Monaflèmit-1, Laggron-2, Luxray-1"
+      ],
+      "late": "",
+      "quote": "Salut ! Amusons-nous un peu !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/acetrainer-f.png"
+    },
+    {
+      "name": "Agnès",
+      "class": "Garçon à la Bouée",
+      "roster": "Tylton-1, Carapuce-2, Psykokwak-1, Blizzi-1, Tiplouf-1, Éoko-2, Voltorbe-1, Ramoloss-1, Sabelette-1, Cheniti-1, Coquiperl-1, Étourvol-1, Chaglam-1, Écrapince-1, Loupio-1, Tentacool-1",
+      "species": "Tylton, Carapuce, Psykokwak, Blizzi, Tiplouf, Éoko, Voltorbe, Ramoloss, Sabelette, Cheniti, Coquiperl, Étourvol, Chaglam, Écrapince, Loupio, Tentacool",
+      "teams": [
+        "Tylton-1, Carapuce-2, Psykokwak-1, Blizzi-1",
+        "Tiplouf-1, Éoko-2, Voltorbe-1, Ramoloss-1",
+        "Sabelette-1, Cheniti-1, Coquiperl-1, Étourvol-1",
+        "Chaglam-1, Écrapince-1, Loupio-1, Tentacool-1"
+      ],
+      "late": "",
+      "quote": "Plif, plouf !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/tuber-f.png"
+    },
+    {
+      "name": "Régine",
+      "class": "Topdresseur",
+      "roster": "Octillery-1, Laggron-1, Ossatueur-1, Serpang-1, Lanturn-1, Tortank-1, Oniglali-1, Momartik-1, Archéodong-1, Méganium-1, Scorvol-1, Chapignon-1",
+      "species": "Octillery, Laggron, Ossatueur, Serpang, Lanturn, Tortank, Oniglali, Momartik, Archéodong, Méganium, Scorvol, Chapignon",
+      "teams": [
+        "Octillery-1, Laggron-1, Ossatueur-1, Serpang-1",
+        "Lanturn-1, Tortank-1, Oniglali-1, Momartik-1",
+        "Archéodong-1, Méganium-1, Scorvol-1, Chapignon-1"
+      ],
+      "late": "",
+      "quote": "Il est pas super, mon manteau ? Le hic, c'est qu'il m'empêche un peu de bouger.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/acetrainer-f.png"
+    },
+    {
+      "name": "Séréna",
+      "class": "Star",
+      "roster": "Amonita-1, Boskara-1, Kecleon-1, Fouinar-1, Hélédelle-1, Ceriflor-1, Saquedeneu-1, Galifeu-1, Arbok-1, Amonistar-1, Motisma-1, Persian-1",
+      "species": "Amonita, Boskara, Kecleon, Fouinar, Hélédelle, Ceriflor, Saquedeneu, Galifeu, Arbok, Amonistar, Motisma, Persian",
+      "teams": [
+        "Amonita-1, Boskara-1, Kecleon-1, Fouinar-1",
+        "Hélédelle-1, Ceriflor-1, Saquedeneu-1, Galifeu-1",
+        "Arbok-1, Amonistar-1, Motisma-1, Persian-1"
+      ],
+      "late": "",
+      "quote": "Mes Pokémon et moi, on est des stars !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/idol.png"
+    },
+    {
+      "name": "Alyssa",
+      "class": "Canon",
+      "roster": "Mysdibule-1, Parasect-1, Dardargnan-1, Wailmer-1, Goinfrex-1, Ouisticram-2, Kabuto-1, Charmillon-1, Ténéfix-1, Scorplane-1, Feurisson-1, Spinda-1",
+      "species": "Mysdibule, Parasect, Dardargnan, Wailmer, Goinfrex, Ouisticram, Kabuto, Charmillon, Ténéfix, Scorplane, Feurisson, Spinda",
+      "teams": [
+        "Mysdibule-1, Parasect-1, Dardargnan-1, Wailmer-1",
+        "Goinfrex-1, Ouisticram-2, Kabuto-1, Charmillon-1",
+        "Ténéfix-1, Scorplane-1, Feurisson-1, Spinda-1"
+      ],
+      "late": "",
+      "quote": "Ça va peut-être faire mal... mais serre les dents, ça ne durera pas longtemps !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/beauty.png"
+    },
+    {
+      "name": "Elisa",
+      "class": "Serveuse",
+      "roster": "Papilusion-1, Delcatty-1, Gravalanch-1, Corayon-1, Excelangue-1, Dardargnan-1, Mustébouée-1, Yanma-1, Papilord-1, Solaroc-1, Ceriflor-1, Ymphect-1",
+      "species": "Papilusion, Delcatty, Gravalanch, Corayon, Excelangue, Dardargnan, Mustébouée, Yanma, Papilord, Solaroc, Ceriflor, Ymphect",
+      "teams": [
+        "Papilusion-1, Delcatty-1, Gravalanch-1, Corayon-1",
+        "Excelangue-1, Dardargnan-1, Mustébouée-1, Yanma-1",
+        "Papilord-1, Solaroc-1, Ceriflor-1, Ymphect-1"
+      ],
+      "late": "",
+      "quote": "Tu es fort, toi, non?",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/waitress.png"
+    },
+    {
+      "name": "Aurora",
+      "class": "Kinésiste",
+      "roster": "Volcaropod-1, Crustabri-1, Leveinard-1, Herbizarre-1, Aéromite-1, Camérupt-1, Cochignon-1, Motisma-1, Serpang-1, Étouraptor-1, Laggron-1, Kabutops-1",
+      "species": "Volcaropod, Crustabri, Leveinard, Herbizarre, Aéromite, Camérupt, Cochignon, Motisma, Serpang, Étouraptor, Laggron, Kabutops",
+      "teams": [
+        "Volcaropod-1, Crustabri-1, Leveinard-1, Herbizarre-1",
+        "Aéromite-1, Camérupt-1, Cochignon-1, Motisma-1",
+        "Serpang-1, Étouraptor-1, Laggron-1, Kabutops-1"
+      ],
+      "late": "",
+      "quote": "Prépare-toi !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/psychic-f.png"
+    },
+    {
+      "name": "Tess",
+      "class": "Élève",
+      "roster": "Barbicha-1, Nosferalto-1, Laggron-1, Lanturn-1, Noarfang-1, Tengalice-1, Grolem-1, Camérupt-1, Staross-1, Akwakwak-1, Nidoking-1, Roigada-1",
+      "species": "Barbicha, Nosferalto, Laggron, Lanturn, Noarfang, Tengalice, Grolem, Camérupt, Staross, Akwakwak, Nidoking, Roigada",
+      "teams": [
+        "Barbicha-1, Nosferalto-1, Laggron-1, Lanturn-1",
+        "Noarfang-1, Tengalice-1, Grolem-1, Camérupt-1",
+        "Staross-1, Akwakwak-1, Nidoking-1, Roigada-1"
+      ],
+      "late": "",
+      "quote": "Mon prof m'a donné des conseils sur les combats.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/schoolkid-f.png"
+    },
+    {
+      "name": "Cathy",
+      "class": "Kinésiste",
+      "roster": "Typhlosion-2, Scorvol-1, Pyroli-1, Gardevoir-1, Alakazam-1, Leuphorie-1, Porygon-Z-1, Cizayox-1",
+      "species": "Typhlosion, Scorvol, Pyroli, Gardevoir, Alakazam, Leuphorie, Porygon-Z, Cizayox",
+      "teams": [
+        "Typhlosion-2, Scorvol-1, Pyroli-1, Gardevoir-1",
+        "Alakazam-1, Leuphorie-1, Porygon-Z-1, Cizayox-1"
+      ],
+      "late": "",
+      "quote": "Mon grand frère m'a donné une astuce : il faut viser les yeux !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/psychic-f.png"
+    },
+    {
+      "name": "Anatole",
+      "class": "Dracologue",
+      "roster": "Léviator-1, Tartard-1, Phyllali-1, Blizzaroi-1, Aquali-1, Simiabraz-2, Typhlosion-2, Mammochon-1",
+      "species": "Léviator, Tartard, Phyllali, Blizzaroi, Aquali, Simiabraz, Typhlosion, Mammochon",
+      "teams": [
+        "Léviator-1, Tartard-1, Phyllali-1, Blizzaroi-1",
+        "Aquali-1, Simiabraz-2, Typhlosion-2, Mammochon-1"
+      ],
+      "late": "",
+      "quote": "Fouhahaha ! Je suis ton prochain adversaire !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/dragontamer.png"
+    },
+    {
+      "name": "Alessio",
+      "class": "Fermier",
+      "roster": "Givrali-1, Galeking-1, Mentali-1, Milobellus-2, Kaimorse-1, Tortank-2, Braségali-2, Torterra-2",
+      "species": "Givrali, Galeking, Mentali, Milobellus, Kaimorse, Tortank, Braségali, Torterra",
+      "teams": [
+        "Givrali-1, Galeking-1, Mentali-1, Milobellus-2",
+        "Kaimorse-1, Tortank-2, Braségali-2, Torterra-2"
+      ],
+      "late": "",
+      "quote": "À la ferme, tout le monde est logé à la même enseigne ! Et en combat, c'est pareil !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/rancher.png"
+    },
+    {
+      "name": "Chantal",
+      "class": "Cowgirl",
+      "roster": "Crocrodil-1, Lainergie-1, Feurisson-1, Tarinor-1, Capumain-1, Massko-1, Kecleon-1, Spectrum-1, Cacturne-1, Élektek-1, Tygnon-1, Poissoroy-1",
+      "species": "Crocrodil, Lainergie, Feurisson, Tarinor, Capumain, Massko, Kecleon, Spectrum, Cacturne, Élektek, Tygnon, Poissoroy",
+      "teams": [
+        "Crocrodil-1, Lainergie-1, Feurisson-1, Tarinor-1",
+        "Capumain-1, Massko-1, Kecleon-1, Spectrum-1",
+        "Cacturne-1, Élektek-1, Tygnon-1, Poissoroy-1"
+      ],
+      "late": "",
+      "quote": "Tu vois, ça, ce sont mes Pokémon. Je les ai élevés avec maman et papa.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/cowgirl.png"
+    },
+    {
+      "name": "Rufus",
+      "class": "Vénérable",
+      "roster": "Pyroli-1, Laggron-2, Braségali-2, Jungko-2",
+      "species": "Pyroli, Laggron, Braségali, Jungko",
+      "teams": [
+        "Pyroli-1, Laggron-2, Braségali-2, Jungko-2"
+      ],
+      "late": "",
+      "quote": "Bon, que les choses soient claires, tu ne me battras jamais !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/veteran.png"
+    },
+    {
+      "name": "Ephraïm",
+      "class": "Ouvrier",
+      "roster": "Reptincel-1, Arbok-1, Castorno-1, Grodoudou-1, Lumivole-1, Carmache-1, Boskara-1, Ponyta-1, Nosferalto-1, Mélodelfe-1, Colossinge-1, Xatu-1",
+      "species": "Reptincel, Arbok, Castorno, Grodoudou, Lumivole, Carmache, Boskara, Ponyta, Nosferalto, Mélodelfe, Colossinge, Xatu",
+      "teams": [
+        "Reptincel-1, Arbok-1, Castorno-1, Grodoudou-1",
+        "Lumivole-1, Carmache-1, Boskara-1, Ponyta-1",
+        "Nosferalto-1, Mélodelfe-1, Colossinge-1, Xatu-1"
+      ],
+      "late": "",
+      "quote": "C'est moi qui ai bâti les bâtiments que tu peux voir dans le coin.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/worker.png"
+    },
+    {
+      "name": "Selina",
+      "class": "Fillette",
+      "roster": "Gobou-1, Sabelette-1, Écayon-1, Étourvol-1, Stalgamin-1, Archéomire-1, Stari-1, Vibraninf-1, Cornèbre-1, Mélokrik-1, Delcatty-1, Ténéfix-1",
+      "species": "Gobou, Sabelette, Écayon, Étourvol, Stalgamin, Archéomire, Stari, Vibraninf, Cornèbre, Mélokrik, Delcatty, Ténéfix",
+      "teams": [
+        "Gobou-1, Sabelette-1, Écayon-1, Étourvol-1",
+        "Stalgamin-1, Archéomire-1, Stari-1, Vibraninf-1",
+        "Cornèbre-1, Mélokrik-1, Delcatty-1, Ténéfix-1"
+      ],
+      "late": "",
+      "quote": "Je suis à la recherche de jolis habits.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/lass.png"
+    },
+    {
+      "name": "Aitor",
+      "class": "Scout",
+      "roster": "Triopikeur-1, Magmar-1, Aligatueur-1, Airmure-1, M. Mime-1, Torterra-1, Lockpin-1, Méganium-1, Dimoret-1, Charmina-1, Tartard-1, Bastiodon-1",
+      "species": "Triopikeur, Magmar, Aligatueur, Airmure, M. Mime, Torterra, Lockpin, Méganium, Dimoret, Charmina, Tartard, Bastiodon",
+      "teams": [
+        "Triopikeur-1, Magmar-1, Aligatueur-1, Airmure-1",
+        "M. Mime-1, Torterra-1, Lockpin-1, Méganium-1",
+        "Dimoret-1, Charmina-1, Tartard-1, Bastiodon-1"
+      ],
+      "late": "",
+      "quote": "Miam miam... Je suis en train de prendre mon goûter !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/bugcatcher.png"
+    },
+    {
+      "name": "Antton",
+      "class": "Guitariste",
+      "roster": "Salamèche-1, Tortipouss-2, Pifeuil-1, Caninos-1, Snubbull-1, Éoko-2, Coquiperl-1, Spoink-1, Griknot-1, Germignon-2, Otaria-1, Ténéfix-1, Tadmorv-1, Cornèbre-1, Blizzi-1",
+      "species": "Salamèche, Tortipouss, Pifeuil, Caninos, Snubbull, Éoko, Coquiperl, Spoink, Griknot, Germignon, Otaria, Ténéfix, Tadmorv, Cornèbre, Blizzi",
+      "teams": [
+        "Salamèche-1, Tortipouss-2, Pifeuil-1, Caninos-1",
+        "Snubbull-1, Éoko-2, Coquiperl-1, Spoink-1",
+        "Griknot-1, Germignon-2, Pifeuil-1, Otaria-1",
+        "Ténéfix-1, Tadmorv-1, Cornèbre-1, Blizzi-1"
+      ],
+      "late": "",
+      "quote": "Yeah ! Écoute ce son ! On est sur la même longueur d'onde !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/guitarist.png"
+    },
+    {
+      "name": "Iñaki",
+      "class": "Scientifique",
+      "roster": "Avaltout-1, Boskara-1, Magmar-1, Ymphect-1, Simularbre-1, Sablaireau-1, Xatu-1, Éoko-3, Rhinoféros-1, Relicanth-1, Lanturn-1, Hariyama-1",
+      "species": "Avaltout, Boskara, Magmar, Ymphect, Simularbre, Sablaireau, Xatu, Éoko, Rhinoféros, Relicanth, Lanturn, Hariyama",
+      "teams": [
+        "Avaltout-1, Boskara-1, Magmar-1, Ymphect-1",
+        "Simularbre-1, Sablaireau-1, Xatu-1, Éoko-3",
+        "Rhinoféros-1, Relicanth-1, Lanturn-1, Hariyama-1"
+      ],
+      "late": "",
+      "quote": "Mes lunettes sont toutes sales ! Je n'y vois plus rien !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/scientist.png"
+    },
+    {
+      "name": "Alix",
+      "class": "Canon",
+      "roster": "Lovdisc-1, Cornèbre-1, Charmillon-1, Cacnea-1, Corayon-1, Ortide-1, Natu-1, Carabaffe-1, Porygon-1, Rattatac-1, Fouinar-1",
+      "species": "Lovdisc, Cornèbre, Charmillon, Cacnea, Corayon, Ortide, Natu, Carabaffe, Porygon, Rattatac, Fouinar",
+      "teams": [
+        "Lovdisc-1, Cornèbre-1, Charmillon-1, Cacnea-1",
+        "Cacnea-1, Corayon-1, Ortide-1, Natu-1",
+        "Carabaffe-1, Porygon-1, Rattatac-1, Fouinar-1"
+      ],
+      "late": "",
+      "quote": "J'ai horreur des Dresseurs novices !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/beauty.png"
+    },
+    {
+      "name": "Ramunxo",
+      "class": "Gamin",
+      "roster": "Germignon-1, Apitrini-1, Mime Jr.-1, Smogo-1, Crikzik-1, Ouisticram-2, Rapion-1, Mélokrik-1, Coxyclaque-1, Azumarill-1, Magby-1",
+      "species": "Germignon, Apitrini, Mime Jr., Smogo, Crikzik, Ouisticram, Rapion, Mélokrik, Coxyclaque, Azumarill, Magby",
+      "teams": [
+        "Germignon-1, Apitrini-1, Mime Jr.-1, Smogo-1",
+        "Crikzik-1, Ouisticram-2, Rapion-1, Smogo-1",
+        "Mélokrik-1, Coxyclaque-1, Azumarill-1, Magby-1"
+      ],
+      "late": "",
+      "quote": "Hé, minus ! Montre-moi ce que tu sais faire !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/youngster.png"
+    },
+    {
+      "name": "Aledrik",
+      "class": "Arlequin",
+      "roster": "Vortente-1, Chartor-1, Élektek-1, Serpang-1, Torterra-1, Absol-1, Aligatueur-1, Smogogo-1",
+      "species": "Vortente, Chartor, Élektek, Serpang, Torterra, Absol, Aligatueur, Smogogo",
+      "teams": [
+        "Vortente-1, Chartor-1, Élektek-1, Serpang-1",
+        "Torterra-1, Absol-1, Aligatueur-1, Smogogo-1"
+      ],
+      "late": "",
+      "quote": "Attention, mesdames et messieurs, voici mon fabulifiant spectacle Pokémon !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/clown.png"
+    },
+    {
+      "name": "Yanni",
+      "class": "Fisherman",
+      "roster": "Delcatty-1, Papinox-1, Natu-1, Gravalanch-1, Grahyèna-1, Herbizarre-1, Ceriflor-1, Cheniselle-1",
+      "species": "Delcatty, Papinox, Natu, Gravalanch, Grahyèna, Herbizarre, Ceriflor, Cheniselle",
+      "teams": [
+        "Delcatty-1, Papinox-1, Natu-1, Gravalanch-1",
+        "Grahyèna-1, Herbizarre-1, Ceriflor-1, Cheniselle-1"
+      ],
+      "late": "",
+      "quote": "Oui, bien sûr qu'on va se battre, mais c'est pas la peine d'en faire tout un plat.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/fisher.png"
+    },
+    {
+      "name": "Firmin",
+      "class": "Karatéka",
+      "roster": "Florizarre-2, Donphan-1, Carchacrok-1, Mentali-1",
+      "species": "Florizarre, Donphan, Carchacrok, Mentali",
+      "teams": [
+        "Florizarre-2, Donphan-1, Carchacrok-1, Mentali-1"
+      ],
+      "late": "",
+      "quote": "Combattre est une affaire sérieuse, il faut être attentif du début à la fin !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/blackbelt.png"
+    },
+    {
+      "name": "Aiman",
+      "class": "Marin",
+      "roster": "Dimoret-1, Lockpin-1, Grodrive-1, Raichu-1, Nidoking-1, Kangourex-1, Gallame-1, Airmure-1, Bouldeneu-1, Steelix-1, Milobellus-2, Givrali-1",
+      "species": "Dimoret, Lockpin, Grodrive, Raichu, Nidoking, Kangourex, Gallame, Airmure, Bouldeneu, Steelix, Milobellus, Givrali",
+      "teams": [
+        "Dimoret-1, Lockpin-1, Grodrive-1, Raichu-1",
+        "Nidoking-1, Kangourex-1, Gallame-1, Airmure-1",
+        "Bouldeneu-1, Steelix-1, Milobellus-2, Givrali-1"
+      ],
+      "late": "",
+      "quote": "Quand je regarde la mer, je me remémore les joies de mon enfance...",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/sailor.png"
+    },
+    {
+      "name": "Dario",
+      "class": "Éleveur",
+      "roster": "Drattak-1, Vacilys-1, Nostenfer-1, Tarinorme-1, Mentali-1, Ronflex-1, Noctunoir-1, Braségali-2",
+      "species": "Drattak, Vacilys, Nostenfer, Tarinorme, Mentali, Ronflex, Noctunoir, Braségali",
+      "teams": [
+        "Drattak-1, Vacilys-1, Nostenfer-1, Tarinorme-1",
+        "Mentali-1, Ronflex-1, Noctunoir-1, Braségali-2"
+      ],
+      "late": "",
+      "quote": "Laisse-moi te présenter mes petits compagnons !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/pokemonbreeder-m.png"
+    },
+    {
+      "name": "Eneko",
+      "class": "Pokémon Ranger",
+      "roster": "Ossatueur-1, Jungko-1, Lanturn-1, Momartik-1, Brouhabam-1, Tritosor-1, Absol-1, Simiabraz-1, Gardevoir-1, Altaria-1, Galopa-1, Roserade-1",
+      "species": "Ossatueur, Jungko, Lanturn, Momartik, Brouhabam, Tritosor, Absol, Simiabraz, Gardevoir, Altaria, Galopa, Roserade",
+      "teams": [
+        "Ossatueur-1, Jungko-1, Lanturn-1, Momartik-1",
+        "Brouhabam-1, Tritosor-1, Absol-1, Simiabraz-1",
+        "Gardevoir-1, Altaria-1, Galopa-1, Roserade-1"
+      ],
+      "late": "",
+      "quote": "Mon amour de la nature et des Pokémon m'a poussé à devenir un Pokémon Ranger !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/pokemonranger-m.png"
+    },
+    {
+      "name": "Elsa",
+      "class": "Pokefan (F)",
+      "roster": "Lixy-1, Draby-1, Blizzi-1, Krabby-1, Griknot-1, Laporeille-1, Roucoups-1, Négapi-1, Ymphect-1, Persian-1, Charmillon-1",
+      "species": "Lixy, Draby, Blizzi, Krabby, Griknot, Laporeille, Roucoups, Négapi, Ymphect, Persian, Charmillon",
+      "teams": [
+        "Lixy-1, Draby-1, Blizzi-1, Krabby-1",
+        "Draby-1, Griknot-1, Laporeille-1, Roucoups-1",
+        "Négapi-1, Ymphect-1, Persian-1, Charmillon-1"
+      ],
+      "late": "",
+      "quote": "Mes Pokémon sont mignons, mais ils ne sont pas très forts !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/pokefan-f.png"
+    },
+    {
+      "name": "Avraham",
+      "class": "Fisherman",
+      "roster": "Têtarte-1, Racaillou-1, Coxyclaque-1, Goinfrex-1, Herbizarre-1, Persian-1, Simularbre-1, Galifeu-1",
+      "species": "Têtarte, Racaillou, Coxyclaque, Goinfrex, Herbizarre, Persian, Simularbre, Galifeu",
+      "teams": [
+        "Têtarte-1, Racaillou-1, Coxyclaque-1, Goinfrex-1",
+        "Herbizarre-1, Persian-1, Simularbre-1, Galifeu-1"
+      ],
+      "late": "",
+      "quote": "Pêcher, pêcher, pêcher... C'est mon activité préférée !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/fisher.png"
+    },
+    {
+      "name": "Florine",
+      "class": "Pokémon Ranger",
+      "roster": "Kangourex-1, Magmar-1, Typhlosion-1, Torterra-1, Lockpin-1, Colossinge-1, Absol-1, Tritosor-1, Brouhabam-1, Grodrive-1, Nidoqueen-1, Étouraptor-1",
+      "species": "Kangourex, Magmar, Typhlosion, Torterra, Lockpin, Colossinge, Absol, Tritosor, Brouhabam, Grodrive, Nidoqueen, Étouraptor",
+      "teams": [
+        "Kangourex-1, Magmar-1, Typhlosion-1, Torterra-1",
+        "Lockpin-1, Colossinge-1, Absol-1, Tritosor-1",
+        "Brouhabam-1, Grodrive-1, Nidoqueen-1, Étouraptor-1"
+      ],
+      "late": "",
+      "quote": "Protéger la nature et les Pokémon qu'elle abrite, telle est ma mission !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/pokemonranger-f.png"
+    },
+    {
+      "name": "Annie",
+      "class": "Socialite",
+      "roster": "Noarfang-1, Castorno-1, Ninjask-1, Luminéon-1, Cerfrousse-1, Feurisson-1, Mangriff-1, Magmar-1, Lamantine-1, Colossinge-1, Brouhabam-1, Démanta-1",
+      "species": "Noarfang, Castorno, Ninjask, Luminéon, Cerfrousse, Feurisson, Mangriff, Magmar, Lamantine, Colossinge, Brouhabam, Démanta",
+      "teams": [
+        "Noarfang-1, Castorno-1, Ninjask-1, Luminéon-1",
+        "Cerfrousse-1, Feurisson-1, Mangriff-1, Magmar-1",
+        "Lamantine-1, Colossinge-1, Brouhabam-1, Démanta-1"
+      ],
+      "late": "",
+      "quote": "Être riche, ça ne met pas à l'abri des soucis...",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/madame.png"
+    },
+    {
+      "name": "Briac",
+      "class": "Fisherman",
+      "roster": "Écrémeuh-1, Oniglali-1, Dimoret-1, Braségali-1, Bastiodon-1, Mustéflott-1, Drascore-1, Scarabrute-1, Scorvol-1, Méganium-2, Noctali-1, Ectoplasma-1",
+      "species": "Écrémeuh, Oniglali, Dimoret, Braségali, Bastiodon, Mustéflott, Drascore, Scarabrute, Scorvol, Méganium, Noctali, Ectoplasma",
+      "teams": [
+        "Écrémeuh-1, Oniglali-1, Dimoret-1, Braségali-1",
+        "Bastiodon-1, Mustéflott-1, Drascore-1, Scarabrute-1",
+        "Scorvol-1, Méganium-2, Noctali-1, Ectoplasma-1"
+      ],
+      "late": "",
+      "quote": "Les autres pêcheurs me surnomment Jean Pêche !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/fisher.png"
+    },
+    {
+      "name": "Mikel",
+      "class": "Pokefan (M)",
+      "roster": "Posipi-1, Sancoki-1, Ponyta-1, Stari-1, Spectrum-1, Spinda-1, Caninos-1, Mysdibule-1, Pijako-1, Massko-1, Nidorina-1",
+      "species": "Posipi, Sancoki, Ponyta, Stari, Spectrum, Spinda, Caninos, Mysdibule, Pijako, Massko, Nidorina",
+      "teams": [
+        "Posipi-1, Sancoki-1, Ponyta-1, Stari-1",
+        "Spectrum-1, Spinda-1, Caninos-1, Mysdibule-1",
+        "Spectrum-1, Pijako-1, Massko-1, Nidorina-1"
+      ],
+      "late": "",
+      "quote": "Je te préviens, mes Pokémon sont plutôt coriaces.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/pokefan-m.png"
+    },
+    {
+      "name": "Kerstin",
+      "class": "Reporter",
+      "roster": "Prinplouf-1, Fouinar-1, Persian-1, Métang-1, Ymphect-1, Maskadra-1, Vigoroth-1, Farfuret-1, Roucarnage-1, Amonistar-1, Sharpedo-1, Cotovol-1",
+      "species": "Prinplouf, Fouinar, Persian, Métang, Ymphect, Maskadra, Vigoroth, Farfuret, Roucarnage, Amonistar, Sharpedo, Cotovol",
+      "teams": [
+        "Prinplouf-1, Fouinar-1, Persian-1, Métang-1",
+        "Ymphect-1, Maskadra-1, Vigoroth-1, Farfuret-1",
+        "Roucarnage-1, Amonistar-1, Sharpedo-1, Cotovol-1"
+      ],
+      "late": "",
+      "quote": "C'est pour un sondage : que penses-tu de moi ?",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/reporter.png"
+    },
+    {
+      "name": "Abdel",
+      "class": "Fisherman",
+      "roster": "Galopa-1, Altaria-1, Tentacruel-1, Grotadmorv-1, Wailord-1, Grolem-1, Yanmega-1, Scarabrute-1, Monaflèmit-1, Corboss-1, Ronflex-1, Luxray-1",
+      "species": "Galopa, Altaria, Tentacruel, Grotadmorv, Wailord, Grolem, Yanmega, Scarabrute, Monaflèmit, Corboss, Ronflex, Luxray",
+      "teams": [
+        "Galopa-1, Altaria-1, Tentacruel-1, Grotadmorv-1",
+        "Wailord-1, Grolem-1, Yanmega-1, Scarabrute-1",
+        "Monaflèmit-1, Corboss-1, Ronflex-1, Luxray-1"
+      ],
+      "late": "",
+      "quote": "Quand on est aussi fort que moi, on gagne facilement, même en dormant.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/fisher.png"
+    },
+    {
+      "name": "Désirée",
+      "class": "Mademoiselle",
+      "roster": "Skelénox-1, Chaglam-1, Blizzi-1, Soporifik-1, Salamèche-1, Lixy-2, Floravol-1, Cadoizo-1, Onix-1, Smogo-1, Rosélia-1, Noeunoeuf-1",
+      "species": "Skelénox, Chaglam, Blizzi, Soporifik, Salamèche, Lixy, Floravol, Cadoizo, Onix, Smogo, Rosélia, Noeunoeuf",
+      "teams": [
+        "Skelénox-1, Chaglam-1, Blizzi-1, Soporifik-1",
+        "Salamèche-1, Lixy-2, Floravol-1, Cadoizo-1",
+        "Onix-1, Smogo-1, Rosélia-1, Noeunoeuf-1"
+      ],
+      "late": "",
+      "quote": "Ah, oui, c'est vrai. Je dois passer à l'attaque.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/lady.png"
+    },
+    {
+      "name": "Colleen",
+      "class": "Serveuse",
+      "roster": "Tarinor-1, Porygon-1, Sancoki-1, Lainergie-1, Bulbizarre-1, Négapi-1, Noeunoeuf-1, Teddiursa-1, Gravalanch-1, Chimpenfeu-1, Simularbre-1, Lumivole-1",
+      "species": "Tarinor, Porygon, Sancoki, Lainergie, Bulbizarre, Négapi, Noeunoeuf, Teddiursa, Gravalanch, Chimpenfeu, Simularbre, Lumivole",
+      "teams": [
+        "Tarinor-1, Porygon-1, Sancoki-1, Lainergie-1",
+        "Bulbizarre-1, Négapi-1, Noeunoeuf-1, Teddiursa-1",
+        "Gravalanch-1, Chimpenfeu-1, Simularbre-1, Lumivole-1"
+      ],
+      "late": "",
+      "quote": "Mon travail est de servir les clients, mais je ne suis pas là pour travailler !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/waitress.png"
+    },
+    {
+      "name": "Olana",
+      "class": "Star",
+      "roster": "Chimpenfeu-1, Machopeur-1, Massko-1, Dardargnan-1, Macronium-1, Arbok-1, Séléroc-1, Métang-1, Magmar-1, Luminéon-1, Magnéton-1, Insécateur-1",
+      "species": "Chimpenfeu, Machopeur, Massko, Dardargnan, Macronium, Arbok, Séléroc, Métang, Magmar, Luminéon, Magnéton, Insécateur",
+      "teams": [
+        "Chimpenfeu-1, Machopeur-1, Massko-1, Dardargnan-1",
+        "Macronium-1, Arbok-1, Séléroc-1, Métang-1",
+        "Magmar-1, Luminéon-1, Magnéton-1, Insécateur-1"
+      ],
+      "late": "",
+      "quote": "Regardez-moi ! Adorez-moi !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/idol.png"
+    },
+    {
+      "name": "Matilde",
+      "class": "Pokefan (F)",
+      "roster": "Dracaufeu-2, Métalosse-1, Magnézone-1, Bouldeneu-1, Ossatueur-2, Carchacrok-1, Aligatueur-2, Écrémeuh-1",
+      "species": "Dracaufeu, Métalosse, Magnézone, Bouldeneu, Ossatueur, Carchacrok, Aligatueur, Écrémeuh",
+      "teams": [
+        "Dracaufeu-2, Métalosse-1, Magnézone-1, Bouldeneu-1",
+        "Ossatueur-2, Carchacrok-1, Aligatueur-2, Écrémeuh-1"
+      ],
+      "late": "",
+      "quote": "On ne dirait pas comme ça, mais j'étais la reine de la fête dans ma jeunesse.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/pokefan-f.png"
+    },
+    {
+      "name": "Luna",
+      "class": "Serveuse",
+      "roster": "Carvanha-1, Gobou-2, Natu-1, Coquiperl-1, Skelénox-1, Keunotor-2, Caninos-1, Blizzi-1, Persian-1, Reptincel-1, Draco-1, Prinplouf-1",
+      "species": "Carvanha, Gobou, Natu, Coquiperl, Skelénox, Keunotor, Caninos, Blizzi, Persian, Reptincel, Draco, Prinplouf",
+      "teams": [
+        "Carvanha-1, Gobou-2, Natu-1, Coquiperl-1",
+        "Skelénox-1, Keunotor-2, Caninos-1, Blizzi-1",
+        "Persian-1, Reptincel-1, Draco-1, Prinplouf-1"
+      ],
+      "late": "",
+      "quote": "Que penses-tu de mon uniforme ? Il est mignon, n'est-ce pas ?",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/waitress.png"
+    },
+    {
+      "name": "Erick",
+      "class": "Pokefan (M)",
+      "roster": "Galopa-1, Corboss-1, Armaldo-1, Coatox-1, Coudlangue-1, Braségali-2, Maganon-1, Feunard-2",
+      "species": "Galopa, Corboss, Armaldo, Coatox, Coudlangue, Braségali, Maganon, Feunard",
+      "teams": [
+        "Galopa-1, Corboss-1, Armaldo-1, Coatox-1",
+        "Coudlangue-1, Braségali-2, Maganon-1, Feunard-2"
+      ],
+      "late": "",
+      "quote": "Vivre avec les Pokémon, c'est ce qu'il y a de plus beau au monde.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/pokefan-m.png"
+    },
+    {
+      "name": "Léonie",
+      "class": "Élève",
+      "roster": "Carvanha-1, Ceribou-1, Blizzi-1, Dinoclier-1, Écrapince-1, Draby-1, Mime Jr.-1, Babimanta-1, Tortipouss-1, Embrylex-2, Hippopotas-1, Moufouette-1, Qulbutoké-1, Spinda-1, Onix-1, Boustiflor-1",
+      "species": "Carvanha, Ceribou, Blizzi, Dinoclier, Écrapince, Draby, Mime Jr., Babimanta, Tortipouss, Embrylex, Hippopotas, Moufouette, Qulbutoké, Spinda, Onix, Boustiflor",
+      "teams": [
+        "Carvanha-1, Ceribou-1, Blizzi-1, Dinoclier-1",
+        "Écrapince-1, Draby-1, Mime Jr.-1, Babimanta-1",
+        "Tortipouss-1, Embrylex-2, Hippopotas-1, Moufouette-1",
+        "Qulbutoké-1, Spinda-1, Onix-1, Boustiflor-1"
+      ],
+      "late": "",
+      "quote": "T'as l'air un peu nul, toi... J'ai une chance de gagner!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/schoolkid-f.png"
+    },
+    {
+      "name": "Gaiane",
+      "class": "Topdresseur",
+      "roster": "Monaflèmit-1, Vacilys-2, Togekiss-1, Méganium-2, Triopikeur-2, Typhlosion-2, Noctunoir-1, Arcanin-1",
+      "species": "Monaflèmit, Vacilys, Togekiss, Méganium, Triopikeur, Typhlosion, Noctunoir, Arcanin",
+      "teams": [
+        "Monaflèmit-1, Vacilys-2, Togekiss-1, Méganium-2",
+        "Triopikeur-2, Typhlosion-2, Noctunoir-1, Arcanin-1"
+      ],
+      "late": "",
+      "quote": "Tu vas devoir tout donner contre moi !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/acetrainer-f.png"
+    },
+    {
+      "name": "Arnold",
+      "class": "Élève",
+      "roster": "Bulbizarre-1, Riolu-1, Blizzi-1, Étourvol-1, Doduo-1, Étourmi-2, Écayon-1, Loupio-1, Keunotor-1, Crikzik-1, Canarticho-1, Noeunoeuf-1, Tiplouf-2, Laporeille-1, Osselait-1",
+      "species": "Bulbizarre, Riolu, Blizzi, Étourvol, Doduo, Étourmi, Écayon, Loupio, Keunotor, Crikzik, Canarticho, Noeunoeuf, Tiplouf, Laporeille, Osselait",
+      "teams": [
+        "Bulbizarre-1, Riolu-1, Blizzi-1, Étourvol-1",
+        "Doduo-1, Étourmi-2, Écayon-1, Loupio-1",
+        "Keunotor-1, Crikzik-1, Canarticho-1, Noeunoeuf-1",
+        "Crikzik-1, Tiplouf-2, Laporeille-1, Osselait-1"
+      ],
+      "late": "",
+      "quote": "Je voudrais essayer un truc que j'ai appris à l'école.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/schoolkid-m.png"
+    },
+    {
+      "name": "Eva",
+      "class": "Socialite",
+      "roster": "Volcaropod-1, Joliflor-1, Vortente-1, Kecleon-1, Rosabyss-1, Relicanth-1, Séviper-1, Kicklee-1, Momartik-1, Amonistar-1, Grolem-1, Nosferalto-1",
+      "species": "Volcaropod, Joliflor, Vortente, Kecleon, Rosabyss, Relicanth, Séviper, Kicklee, Momartik, Amonistar, Grolem, Nosferalto",
+      "teams": [
+        "Volcaropod-1, Joliflor-1, Vortente-1, Kecleon-1",
+        "Rosabyss-1, Relicanth-1, Séviper-1, Kicklee-1",
+        "Momartik-1, Amonistar-1, Grolem-1, Nosferalto-1"
+      ],
+      "late": "",
+      "quote": "Haaa-yaaah !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/madame.png"
+    },
+    {
+      "name": "Juliana",
+      "class": "Mademoiselle",
+      "roster": "Maraiste-1, Élecsprint-1, Apireine-1, Chapignon-1, Pingoléon-1, Séviper-1, Braségali-1, Hypnomade-1, Roserade-1, Ossatueur-1, Roigada-1, Yanmega-1",
+      "species": "Maraiste, Élecsprint, Apireine, Chapignon, Pingoléon, Séviper, Braségali, Hypnomade, Roserade, Ossatueur, Roigada, Yanmega",
+      "teams": [
+        "Maraiste-1, Élecsprint-1, Apireine-1, Chapignon-1",
+        "Pingoléon-1, Séviper-1, Braségali-1, Hypnomade-1",
+        "Roserade-1, Ossatueur-1, Roigada-1, Yanmega-1"
+      ],
+      "late": "",
+      "quote": "Je vais régler ton cas illico !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/lady.png"
+    },
+    {
+      "name": "Lara",
+      "class": "Élève",
+      "roster": "Hypnomade-1, Magmar-1, Simiabraz-1, Mélodelfe-1, Amonistar-1, Maraiste-1, Lippoutou-1, Ninjask-1, Galopa-1, Tritosor-1, Démolosse-1, Alakazam-1",
+      "species": "Hypnomade, Magmar, Simiabraz, Mélodelfe, Amonistar, Maraiste, Lippoutou, Ninjask, Galopa, Tritosor, Démolosse, Alakazam",
+      "teams": [
+        "Hypnomade-1, Magmar-1, Simiabraz-1, Mélodelfe-1",
+        "Amonistar-1, Maraiste-1, Lippoutou-1, Ninjask-1",
+        "Galopa-1, Tritosor-1, Démolosse-1, Alakazam-1"
+      ],
+      "late": "",
+      "quote": "Mais pourquoi nous battons-nous ? Je ne comprends pas.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/schoolkid-f.png"
+    },
+    {
+      "name": "Rozenn",
+      "class": "Kinésiste",
+      "roster": "Aligatueur-2, Tarpaud-1, Dracolosse-2, Archéodong-1",
+      "species": "Aligatueur, Tarpaud, Dracolosse, Archéodong",
+      "teams": [
+        "Aligatueur-2, Tarpaud-1, Dracolosse-2, Archéodong-1"
+      ],
+      "late": "",
+      "quote": "Regarde comme je fais tourner ma Poké Ball...",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/psychic-f.png"
+    },
+    {
+      "name": "André",
+      "class": "Fan de Camping",
+      "roster": "Polichombr-1, Skelénox-1, Caninos-1, Tadmorv-1, Apitrini-1, Éoko-2, Galekid-1, Phanpy-1, Héricendre-1, Étourmi-2, Vibraninf-1, Coquiperl-1, Sabelette-1, Munja-2, Roucoups-1",
+      "species": "Polichombr, Skelénox, Caninos, Tadmorv, Apitrini, Éoko, Galekid, Phanpy, Héricendre, Étourmi, Vibraninf, Coquiperl, Sabelette, Munja, Roucoups",
+      "teams": [
+        "Polichombr-1, Skelénox-1, Caninos-1, Tadmorv-1",
+        "Apitrini-1, Éoko-2, Galekid-1, Phanpy-1",
+        "Héricendre-1, Étourmi-2, Vibraninf-1, Coquiperl-1",
+        "Sabelette-1, Munja-2, Roucoups-1, Vibraninf-1"
+      ],
+      "late": "",
+      "quote": "Voilà mes Pokémon ! Attention, ils s'entraînent tout le temps dans la forêt !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/camper.png"
+    },
+    {
+      "name": "Miranda",
+      "class": "Star",
+      "roster": "Tartard-1, Écrémeuh-1, Mustéflott-1, Coudlangue-1, Carchacrok-1, Gardevoir-3, Ossatueur-2, Léviator-1",
+      "species": "Tartard, Écrémeuh, Mustéflott, Coudlangue, Carchacrok, Gardevoir, Ossatueur, Léviator",
+      "teams": [
+        "Tartard-1, Écrémeuh-1, Mustéflott-1, Coudlangue-1",
+        "Carchacrok-1, Gardevoir-3, Ossatueur-2, Léviator-1"
+      ],
+      "late": "",
+      "quote": "Allez, amusons-nous ! Mais attention, je suis douillette.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/idol.png"
+    },
+    {
+      "name": "Amadou",
+      "class": "Garçon à la Bouée",
+      "roster": "Chaglam-1, Germignon-2, Mystherbe-1, Canarticho-1, Mimitoss-1, Lippouti-2, Osselait-1, Tentacool-1, Stalgamin-1, Polichombr-1, Ramoloss-1, Mime Jr.-1, Caninos-1, Machopeur-1, Qulbutoké-1",
+      "species": "Chaglam, Germignon, Mystherbe, Canarticho, Mimitoss, Lippouti, Osselait, Tentacool, Stalgamin, Polichombr, Ramoloss, Mime Jr., Caninos, Machopeur, Qulbutoké",
+      "teams": [
+        "Chaglam-1, Germignon-2, Mystherbe-1, Canarticho-1",
+        "Mimitoss-1, Lippouti-2, Osselait-1, Tentacool-1",
+        "Stalgamin-1, Polichombr-1, Ramoloss-1, Mime Jr.-1",
+        "Caninos-1, Machopeur-1, Qulbutoké-1, Osselait-1"
+      ],
+      "late": "",
+      "quote": "Je préfère les rivières à la mer. Et toi ?",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/tuber-m.png"
+    },
+    {
+      "name": "Sabri",
+      "class": "Kinésiste",
+      "roster": "Voltali-1, Grotadmorv-1, Hippodocus-1, Bastiodon-1, Kaorine-1, Carchacrok-1, Méganium-2, Gallame-1",
+      "species": "Voltali, Grotadmorv, Hippodocus, Bastiodon, Kaorine, Carchacrok, Méganium, Gallame",
+      "teams": [
+        "Voltali-1, Grotadmorv-1, Hippodocus-1, Bastiodon-1",
+        "Kaorine-1, Carchacrok-1, Méganium-2, Gallame-1"
+      ],
+      "late": "",
+      "quote": "Admire le pouvoir mystique du Kinésiste !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/psychic-m.png"
+    },
+    {
+      "name": "Léo-Pol",
+      "class": "Caméraman",
+      "roster": "Cornèbre-1, Maskadra-1, Reptincel-1, Lilia-1, Simularbre-1, Migalos-1, Héliatronc-1, Rosélia-1, Cochignon-1, Groret-1, Serpang-1, Poissoroy-1",
+      "species": "Cornèbre, Maskadra, Reptincel, Lilia, Simularbre, Migalos, Héliatronc, Rosélia, Cochignon, Groret, Serpang, Poissoroy",
+      "teams": [
+        "Cornèbre-1, Maskadra-1, Reptincel-1, Lilia-1",
+        "Simularbre-1, Migalos-1, Héliatronc-1, Rosélia-1",
+        "Cochignon-1, Groret-1, Serpang-1, Poissoroy-1"
+      ],
+      "late": "",
+      "quote": "Gros plan sur toi !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/cameraman.png"
+    },
+    {
+      "name": "Rick",
+      "class": "Dracologue",
+      "roster": "Charmina-1, Branette-1, Hariyama-1, Sablaireau-1, Magnéton-1, Maraiste-1, Momartik-1, Krabboss-1, Gardevoir-1, Simiabraz-1, Ectoplasma-1, Braségali-1",
+      "species": "Charmina, Branette, Hariyama, Sablaireau, Magnéton, Maraiste, Momartik, Krabboss, Gardevoir, Simiabraz, Ectoplasma, Braségali",
+      "teams": [
+        "Charmina-1, Branette-1, Hariyama-1, Sablaireau-1",
+        "Magnéton-1, Maraiste-1, Momartik-1, Krabboss-1",
+        "Gardevoir-1, Simiabraz-1, Ectoplasma-1, Braségali-1"
+      ],
+      "late": "",
+      "quote": "Hé, regarde là-bas ! Un Pokémon rare !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/dragontamer.png"
+    },
+    {
+      "name": "Alban",
+      "class": "Ninja Amateur",
+      "roster": "Kaiminus-1, Tortipouss-2, Rhinocorne-1, Lovdisc-1, Farfuret-1, Ortide-1, Draco-1, Phogleur-1",
+      "species": "Kaiminus, Tortipouss, Rhinocorne, Lovdisc, Farfuret, Ortide, Draco, Phogleur",
+      "teams": [
+        "Kaiminus-1, Tortipouss-2, Rhinocorne-1, Lovdisc-1",
+        "Farfuret-1, Ortide-1, Draco-1, Phogleur-1"
+      ],
+      "late": "",
+      "quote": "Prépare-toi à goûter à mon ninpô !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/ninjaboy.png"
+    },
+    {
+      "name": "Henry",
+      "class": "Cycliste",
+      "roster": "Éoko-3, Tarinor-1, Bekipan-1, Crocrodil-1, Ponyta-1, Linéon-1, Flobio-1, Capumain-1, Élektek-1, Hypocéan-1, Chaffreux-1, Solaroc-1",
+      "species": "Éoko, Tarinor, Bekipan, Crocrodil, Ponyta, Linéon, Flobio, Capumain, Élektek, Hypocéan, Chaffreux, Solaroc",
+      "teams": [
+        "Éoko-3, Tarinor-1, Bekipan-1, Crocrodil-1",
+        "Ponyta-1, Linéon-1, Flobio-1, Capumain-1",
+        "Élektek-1, Hypocéan-1, Chaffreux-1, Solaroc-1"
+      ],
+      "late": "",
+      "quote": "Allez, viens, on fait la course !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/cyclist-m.png"
+    },
+    {
+      "name": "Darrius",
+      "class": "Richard",
+      "roster": "Poussifeu-1, Rémoraid-2, Kranidos-1, Cadoizo-1, Lixy-1, Gobou-2, Pifeuil-1, Voltorbe-1, Archéomire-1, Bulbizarre-2, Smogo-1, Hippopotas-1, Anorith-1, Lainergie-1, Coxyclaque-1, Lumivole-1",
+      "species": "Poussifeu, Rémoraid, Kranidos, Cadoizo, Lixy, Gobou, Pifeuil, Voltorbe, Archéomire, Bulbizarre, Smogo, Hippopotas, Anorith, Lainergie, Coxyclaque, Lumivole",
+      "teams": [
+        "Poussifeu-1, Rémoraid-2, Kranidos-1, Cadoizo-1",
+        "Lixy-1, Gobou-2, Pifeuil-1, Voltorbe-1",
+        "Archéomire-1, Bulbizarre-2, Smogo-1, Hippopotas-1",
+        "Anorith-1, Lainergie-1, Coxyclaque-1, Lumivole-1"
+      ],
+      "late": "",
+      "quote": "Je suis riche !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/richboy.png"
+    },
+    {
+      "name": "Maiténa",
+      "class": "Topdresseur",
+      "roster": "Scarhino-1, Noctali-1, Hyporoi-1, Feunard-1, Triopikeur-2, Ptéra-1, Tarinorme-1, Cizayox-1",
+      "species": "Scarhino, Noctali, Hyporoi, Feunard, Triopikeur, Ptéra, Tarinorme, Cizayox",
+      "teams": [
+        "Scarhino-1, Noctali-1, Hyporoi-1, Feunard-1",
+        "Triopikeur-2, Ptéra-1, Tarinorme-1, Cizayox-1"
+      ],
+      "late": "",
+      "quote": "Je t'attends !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/acetrainer-f.png"
+    },
+    {
+      "name": "Hugolin",
+      "class": "Vénérable",
+      "roster": "Xatu-1, Serpang-1, Groret-1, Cochignon-1, Macronium-1, Poissoroy-1, Avaltout-1, Rattatac-1, Pingoléon-1, Étouraptor-1, Airmure-1, Lockpin-1",
+      "species": "Xatu, Serpang, Groret, Cochignon, Macronium, Poissoroy, Avaltout, Rattatac, Pingoléon, Étouraptor, Airmure, Lockpin",
+      "teams": [
+        "Xatu-1, Serpang-1, Groret-1, Cochignon-1",
+        "Macronium-1, Poissoroy-1, Avaltout-1, Rattatac-1",
+        "Pingoléon-1, Étouraptor-1, Airmure-1, Lockpin-1"
+      ],
+      "late": "",
+      "quote": "Ça fait 75 ans que je suis Dresseur. Tu crois pouvoir me battre ?",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/veteran.png"
+    },
+    {
+      "name": "Élie",
+      "class": "Pokémon Ranger",
+      "roster": "Jungko-1, Lockpin-1, Raichu-1, Tauros-1, Tengalice-1, Colossinge-1, Aligatueur-1, Hariyama-1, Alakazam-1, Porygon2-1, Scorvol-1, Pharamp-1",
+      "species": "Jungko, Lockpin, Raichu, Tauros, Tengalice, Colossinge, Aligatueur, Hariyama, Alakazam, Porygon2, Scorvol, Pharamp",
+      "teams": [
+        "Jungko-1, Lockpin-1, Raichu-1, Tauros-1",
+        "Tengalice-1, Colossinge-1, Aligatueur-1, Hariyama-1",
+        "Alakazam-1, Porygon2-1, Scorvol-1, Pharamp-1"
+      ],
+      "late": "",
+      "quote": "Salut ! Tu as déjà pensé à devenir Pokémon Ranger ?",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/pokemonranger-m.png"
+    },
+    {
+      "name": "Fortuné",
+      "class": "Topdresseur",
+      "roster": "Ronflex-1, Regigigas-1, Voltali-1, Cizayox-1, Léviator-1, Tyranocif-1, Simiabraz-2, Monaflèmit-1",
+      "species": "Ronflex, Regigigas, Voltali, Cizayox, Léviator, Tyranocif, Simiabraz, Monaflèmit",
+      "teams": [
+        "Ronflex-1, Regigigas-1, Voltali-1, Cizayox-1",
+        "Léviator-1, Tyranocif-1, Simiabraz-2, Monaflèmit-1"
+      ],
+      "late": "",
+      "quote": "Tu n'as pas le niveau, je vais t'apprendre deux ou trois choses.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/acetrainer-m.png"
+    },
+    {
+      "name": "Amand",
+      "class": "Joggeur",
+      "roster": "Dimoret-1, Corboss-1, Roigada-1, Caratroc-1, Lanturn-1, Cizayox-1, Feunard-1, Typhlosion-1, Jungko-2, Phyllali-1, Ursaring-1",
+      "species": "Dimoret, Corboss, Roigada, Caratroc, Lanturn, Cizayox, Feunard, Typhlosion, Jungko, Phyllali, Ursaring",
+      "teams": [
+        "Dimoret-1, Corboss-1, Roigada-1, Caratroc-1",
+        "Lanturn-1, Cizayox-1, Feunard-1, Typhlosion-1",
+        "Dimoret-1, Jungko-2, Phyllali-1, Ursaring-1"
+      ],
+      "late": "",
+      "quote": "Cours ! Ne réfléchis pas ! Cours !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/jogger.png"
+    },
+    {
+      "name": "Armella",
+      "class": "Combattante",
+      "roster": "Ninjask-1, Tropius-1, Joliflor-1, Mélodelfe-1, Branette-1, Motisma-1, Poissoroy-1, Aéromite-1, Barbicha-1, Absol-1, Ossatueur-1, Granbull-1",
+      "species": "Ninjask, Tropius, Joliflor, Mélodelfe, Branette, Motisma, Poissoroy, Aéromite, Barbicha, Absol, Ossatueur, Granbull",
+      "teams": [
+        "Ninjask-1, Tropius-1, Joliflor-1, Mélodelfe-1",
+        "Branette-1, Motisma-1, Poissoroy-1, Aéromite-1",
+        "Barbicha-1, Absol-1, Ossatueur-1, Granbull-1"
+      ],
+      "late": "",
+      "quote": "En combat comme en amour, je n'ai jamais connu l'échec !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/battlegirl.png"
+    },
+    {
+      "name": "Odeline",
+      "class": "Pokémon Ranger",
+      "roster": "Mammochon-1, Givrali-1, Triopikeur-2, Mentali-1, Galeking-1, Gardevoir-1, Dracaufeu-2, Tortank-2",
+      "species": "Mammochon, Givrali, Triopikeur, Mentali, Galeking, Gardevoir, Dracaufeu, Tortank",
+      "teams": [
+        "Mammochon-1, Givrali-1, Triopikeur-2, Mentali-1",
+        "Galeking-1, Gardevoir-1, Dracaufeu-2, Tortank-2"
+      ],
+      "late": "",
+      "quote": "Laisse-moi te montrer le pouvoir de la nature !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/pokemonranger-f.png"
+    },
+    {
+      "name": "Martin",
+      "class": "Serveur",
+      "roster": "Polichombr-1, Balbuto-2, Roucoups-1, Baudrive-1, Wailmer-1, Excelangue-1, Laporeille-1, Mysdibule-1, Saquedeneu-1, Carabaffe-1, Rattatac-1, Herbizarre-1",
+      "species": "Polichombr, Balbuto, Roucoups, Baudrive, Wailmer, Excelangue, Laporeille, Mysdibule, Saquedeneu, Carabaffe, Rattatac, Herbizarre",
+      "teams": [
+        "Polichombr-1, Balbuto-2, Roucoups-1, Baudrive-1",
+        "Wailmer-1, Excelangue-1, Laporeille-1, Mysdibule-1",
+        "Saquedeneu-1, Carabaffe-1, Rattatac-1, Herbizarre-1"
+      ],
+      "late": "",
+      "quote": "Puis-je prendre votre commande ?",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/waiter.png"
+    },
+    {
+      "name": "Alfonse",
+      "class": "Karatéka",
+      "roster": "Florizarre-2, Alakazam-1, Rhinastoc-2, Ectoplasma-1, Hippodocus-1, Nostenfer-1, Phyllali-1, Élekable-1",
+      "species": "Florizarre, Alakazam, Rhinastoc, Ectoplasma, Hippodocus, Nostenfer, Phyllali, Élekable",
+      "teams": [
+        "Florizarre-2, Alakazam-1, Rhinastoc-2, Ectoplasma-1",
+        "Hippodocus-1, Nostenfer-1, Phyllali-1, Élekable-1"
+      ],
+      "late": "",
+      "quote": "Ha-yaaa !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/blackbelt.png"
+    },
+    {
+      "name": "Ylan",
+      "class": "Pokémon Ranger",
+      "roster": "Kangourex-1, Groret-1, Florizarre-1, Cotovol-1, Torterra-1, Dracaufeu-1, Typhlosion-1, Hypnomade-1, Noadkoko-1, Kaorine-1, Archéodong-1, Bastiodon-1",
+      "species": "Kangourex, Groret, Florizarre, Cotovol, Torterra, Dracaufeu, Typhlosion, Hypnomade, Noadkoko, Kaorine, Archéodong, Bastiodon",
+      "teams": [
+        "Kangourex-1, Groret-1, Florizarre-1, Cotovol-1",
+        "Torterra-1, Dracaufeu-1, Typhlosion-1, Hypnomade-1",
+        "Noadkoko-1, Kaorine-1, Archéodong-1, Bastiodon-1"
+      ],
+      "late": "",
+      "quote": "Qu'il se solde par une victoire ou une défaite, un combat n'arrive qu'une seule fois !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/pokemonranger-m.png"
+    },
+    {
+      "name": "Timothy",
+      "class": "Scout",
+      "roster": "Florizarre-1, Nosferalto-1, Capidextre-1, Démanta-1, Coatox-1, Rafflesia-1, Tartard-1, Scarabrute-1",
+      "species": "Florizarre, Nosferalto, Capidextre, Démanta, Coatox, Rafflesia, Tartard, Scarabrute",
+      "teams": [
+        "Florizarre-1, Nosferalto-1, Capidextre-1, Démanta-1",
+        "Coatox-1, Rafflesia-1, Tartard-1, Scarabrute-1"
+      ],
+      "late": "",
+      "quote": "Je vais te montrer la voie du Scout ! Prends garde à toi !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/bugcatcher.png"
+    },
+    {
+      "name": "Dramane",
+      "class": "Collectionneur",
+      "roster": "Bulbizarre-1, Lixy-2, Galekid-1, Tadmorv-1, Pijako-1, Drackhaus-1, Hypocéan-1, Volcaropod-1",
+      "species": "Bulbizarre, Lixy, Galekid, Tadmorv, Pijako, Drackhaus, Hypocéan, Volcaropod",
+      "teams": [
+        "Bulbizarre-1, Lixy-2, Galekid-1, Tadmorv-1",
+        "Pijako-1, Drackhaus-1, Hypocéan-1, Volcaropod-1"
+      ],
+      "late": "",
+      "quote": "Puisque tu me le demandes si gentiment, je vais te montrer ma collection privée.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/collector.png"
+    },
+    {
+      "name": "Valéri",
+      "class": "Pokémon Ranger",
+      "roster": "Mustéflott-1, Rhinastoc-2, Leuphorie-1, Gardevoir-1, Lokhlass-1, Hyporoi-1, Pyroli-1",
+      "species": "Mustéflott, Rhinastoc, Leuphorie, Gardevoir, Lokhlass, Hyporoi, Pyroli",
+      "teams": [
+        "Mustéflott-1, Rhinastoc-2, Leuphorie-1, Gardevoir-1",
+        "Rhinastoc-2, Lokhlass-1, Hyporoi-1, Pyroli-1"
+      ],
+      "late": "",
+      "quote": "Pas de chance, je suis ton prochain adversaire. Ha ha ha !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/pokemonranger-m.png"
+    },
+    {
+      "name": "Rosa",
+      "class": "Cycliste",
+      "roster": "Boskara-1, Mysdibule-1, Feuforêve-1, Têtarte-1, Reptincel-1, Linéon-1, Kecleon-1, Herbizarre-1, Xatu-1, Héliatronc-1, Démanta-1, Cerfrousse-1",
+      "species": "Boskara, Mysdibule, Feuforêve, Têtarte, Reptincel, Linéon, Kecleon, Herbizarre, Xatu, Héliatronc, Démanta, Cerfrousse",
+      "teams": [
+        "Boskara-1, Mysdibule-1, Feuforêve-1, Têtarte-1",
+        "Reptincel-1, Linéon-1, Kecleon-1, Herbizarre-1",
+        "Xatu-1, Héliatronc-1, Démanta-1, Cerfrousse-1"
+      ],
+      "late": "",
+      "quote": "Est-ce que tu pourras suivre le rythme effréné de mes Pokémon ?",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/cyclist-m.png"
+    },
+    {
+      "name": "Elliott",
+      "class": "Montagnard",
+      "roster": "Papilusion-1, Papilord-1, Massko-1, Porygon-1, Drackhaus-1, Farfuret-1, Scorplane-1, Carmache-1, Insécateur-1, Cheniselle-1, Vortente-1, Octillery-1",
+      "species": "Papilusion, Papilord, Massko, Porygon, Drackhaus, Farfuret, Scorplane, Carmache, Insécateur, Cheniselle, Vortente, Octillery",
+      "teams": [
+        "Papilusion-1, Papilord-1, Massko-1, Porygon-1",
+        "Drackhaus-1, Farfuret-1, Scorplane-1, Carmache-1",
+        "Insécateur-1, Cheniselle-1, Vortente-1, Octillery-1"
+      ],
+      "late": "",
+      "quote": "Tu devrais adhérer au mode de vie du Montagnard !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/hiker.png"
+    },
+    {
+      "name": "Cerise",
+      "class": "Fillette",
+      "roster": "M. Mime-1, Séviper-1, Élecsprint-1, Xatu-1, Granbull-1, Girafarig-1, Tengalice-1, Sablaireau-1, Rafflesia-1, Ectoplasma-1, Coudlangue-1, Oniglali-1",
+      "species": "M. Mime, Séviper, Élecsprint, Xatu, Granbull, Girafarig, Tengalice, Sablaireau, Rafflesia, Ectoplasma, Coudlangue, Oniglali",
+      "teams": [
+        "M. Mime-1, Séviper-1, Élecsprint-1, Xatu-1",
+        "Granbull-1, Girafarig-1, Tengalice-1, Sablaireau-1",
+        "Rafflesia-1, Ectoplasma-1, Coudlangue-1, Oniglali-1"
+      ],
+      "late": "",
+      "quote": "Euh... Ravie de te connaître.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/lass.png"
+    },
+    {
+      "name": "Ellis",
+      "class": "Loubard",
+      "roster": "Rosabyss-1, Volcaropod-1, Mangriff-1, Carabaffe-1, Fouinar-1, Sharpedo-1, Cotovol-1, Hélédelle-1, Jungko-1, Charmina-1, Raichu-1, Lanturn-1",
+      "species": "Rosabyss, Volcaropod, Mangriff, Carabaffe, Fouinar, Sharpedo, Cotovol, Hélédelle, Jungko, Charmina, Raichu, Lanturn",
+      "teams": [
+        "Rosabyss-1, Volcaropod-1, Mangriff-1, Carabaffe-1",
+        "Fouinar-1, Sharpedo-1, Cotovol-1, Hélédelle-1",
+        "Jungko-1, Charmina-1, Raichu-1, Lanturn-1"
+      ],
+      "late": "",
+      "quote": "Si tu veux rentrer chez ta môman, c'est maintenant ou jamais !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/roughneck.png"
+    },
+    {
+      "name": "Viktor",
+      "class": "Topdresseur",
+      "roster": "Barbicha-1, Braségali-1, M. Mime-1, Lippoutou-1, Granbull-1, Luminéon-1, Smogogo-1, Foretress-1, Charkos-1, Tentacruel-1, Donphan-1, Roserade-1",
+      "species": "Barbicha, Braségali, M. Mime, Lippoutou, Granbull, Luminéon, Smogogo, Foretress, Charkos, Tentacruel, Donphan, Roserade",
+      "teams": [
+        "Barbicha-1, Braségali-1, M. Mime-1, Lippoutou-1",
+        "Granbull-1, Luminéon-1, Smogogo-1, Foretress-1",
+        "Charkos-1, Tentacruel-1, Donphan-1, Roserade-1"
+      ],
+      "late": "",
+      "quote": "J'espère que tu seras à la hauteur... Ne me déçois pas !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/acetrainer-m.png"
+    },
+    {
+      "name": "Giusepe",
+      "class": "Serveur",
+      "roster": "Rémoraid-1, Griknot-1, Mustébouée-1, Canarticho-1, Boustiflor-1, Mystherbe-1, Amonita-1, Magnéti-1, Cheniselle-1, Scorplane-1, Spinda-1",
+      "species": "Rémoraid, Griknot, Mustébouée, Canarticho, Boustiflor, Mystherbe, Amonita, Magnéti, Cheniselle, Scorplane, Spinda",
+      "teams": [
+        "Rémoraid-1, Griknot-1, Mustébouée-1, Canarticho-1",
+        "Boustiflor-1, Mystherbe-1, Amonita-1, Magnéti-1",
+        "Cheniselle-1, Amonita-1, Scorplane-1, Spinda-1"
+      ],
+      "late": "",
+      "quote": "Dire que ce que je voulais, c'était devenir cuisinier...",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/waiter.png"
+    },
+    {
+      "name": "Séverin",
+      "class": "Pokefan (M)",
+      "roster": "Draby-1, Skelénox-1, Voltorbe-1, Natu-1, Gobou-1, Crikzik-1, Évoli-1, Étourvol-1, Rattatac-1, Kadabra-1, Feuforêve-1, Phogleur-1",
+      "species": "Draby, Skelénox, Voltorbe, Natu, Gobou, Crikzik, Évoli, Étourvol, Rattatac, Kadabra, Feuforêve, Phogleur",
+      "teams": [
+        "Draby-1, Skelénox-1, Voltorbe-1, Natu-1",
+        "Gobou-1, Crikzik-1, Évoli-1, Étourvol-1",
+        "Rattatac-1, Kadabra-1, Feuforêve-1, Phogleur-1"
+      ],
+      "late": "",
+      "quote": "Allez, montre-moi quel genre de Pokémon tu aimes !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/pokefan-m.png"
+    },
+    {
+      "name": "Cheryll",
+      "class": "Star",
+      "roster": "Bulbizarre-1, Snubbull-1, Lovdisc-1, Malosse-1, Embrylex-1, Gobou-2, Poissirène-1, Mystherbe-1, Lixy-1, Racaillou-1, Roucoups-1, Cadoizo-1, Éoko-1, Doduo-2, Floravol-1, Mustébouée-1",
+      "species": "Bulbizarre, Snubbull, Lovdisc, Malosse, Embrylex, Gobou, Poissirène, Mystherbe, Lixy, Racaillou, Roucoups, Cadoizo, Éoko, Doduo, Floravol, Mustébouée",
+      "teams": [
+        "Bulbizarre-1, Snubbull-1, Lovdisc-1, Malosse-1",
+        "Embrylex-1, Gobou-2, Poissirène-1, Mystherbe-1",
+        "Lixy-1, Racaillou-1, Roucoups-1, Cadoizo-1",
+        "Éoko-1, Doduo-2, Floravol-1, Mustébouée-1"
+      ],
+      "late": "",
+      "quote": "Oh, bonjour... Qu'est-ce que tu es bien habillé!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/idol.png"
+    },
+    {
+      "name": "Gabby",
+      "class": "Ornithologue",
+      "roster": "Mysdibule-1, Papilord-1, Solaroc-1, Wailmer-1, Ceriflor-1, Mélokrik-1, Vigoroth-1, Delcatty-1, Mélodelfe-1, Relicanth-1, Rosabyss-1, Séviper-1",
+      "species": "Mysdibule, Papilord, Solaroc, Wailmer, Ceriflor, Mélokrik, Vigoroth, Delcatty, Mélodelfe, Relicanth, Rosabyss, Séviper",
+      "teams": [
+        "Mysdibule-1, Papilord-1, Solaroc-1, Wailmer-1",
+        "Ceriflor-1, Mélokrik-1, Vigoroth-1, Delcatty-1",
+        "Mélodelfe-1, Relicanth-1, Rosabyss-1, Séviper-1"
+      ],
+      "late": "",
+      "quote": "Plus haut ! Toujours plus haut ! Envolons-nous vers la victoire !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/birdkeeper.png"
+    },
+    {
+      "name": "Hocine",
+      "class": "Ninja Amateur",
+      "roster": "Tauros-1, Électrode-1, Simiabraz-1, Braségali-1, Chapignon-1, Aéromite-1, Maraiste-1, Granbull-1, Nidoqueen-1, Vacilys-1, Yanmega-1, Wailord-1",
+      "species": "Tauros, Électrode, Simiabraz, Braségali, Chapignon, Aéromite, Maraiste, Granbull, Nidoqueen, Vacilys, Yanmega, Wailord",
+      "teams": [
+        "Tauros-1, Électrode-1, Simiabraz-1, Braségali-1",
+        "Chapignon-1, Aéromite-1, Maraiste-1, Granbull-1",
+        "Nidoqueen-1, Vacilys-1, Yanmega-1, Wailord-1"
+      ],
+      "late": "",
+      "quote": "Ouvre bien les yeux et admire les techniques secrètes de mes ancêtres !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/ninjaboy.png"
+    },
+    {
+      "name": "Margot",
+      "class": "Garçon à la Bouée",
+      "roster": "Ceribou-1, Salamèche-2, Sancoki-1, Magnéti-1, Archéomire-1, Sabelette-1, Lovdisc-1, Loupio-1, Carapuce-1, Cheniti-1, Malosse-1, Blizzi-1, Floravol-1, Posipi-1, Lumivole-1, Laporeille-1",
+      "species": "Ceribou, Salamèche, Sancoki, Magnéti, Archéomire, Sabelette, Lovdisc, Loupio, Carapuce, Cheniti, Malosse, Blizzi, Floravol, Posipi, Lumivole, Laporeille",
+      "teams": [
+        "Ceribou-1, Salamèche-2, Sancoki-1, Magnéti-1",
+        "Archéomire-1, Sabelette-1, Lovdisc-1, Loupio-1",
+        "Carapuce-1, Cheniti-1, Malosse-1, Blizzi-1",
+        "Floravol-1, Posipi-1, Lumivole-1, Laporeille-1"
+      ],
+      "late": "",
+      "quote": "Le sable de la plage est brûlant ! Quand je marche dessus, je fais : « Aïe, ouille, aïe ! »",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/tuber-f.png"
+    },
+    {
+      "name": "Deniel",
+      "class": "Topdresseur",
+      "roster": "Maganon-1, Blizzaroi-1, Kaimorse-1, Libégon-1, Aquali-1, Armaldo-1, Élekable-1, Mentali-1",
+      "species": "Maganon, Blizzaroi, Kaimorse, Libégon, Aquali, Armaldo, Élekable, Mentali",
+      "teams": [
+        "Maganon-1, Blizzaroi-1, Kaimorse-1, Libégon-1",
+        "Aquali-1, Armaldo-1, Élekable-1, Mentali-1"
+      ],
+      "late": "",
+      "quote": "Je vais gagner, un point c'est tout !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/acetrainer-m.png"
+    },
+    {
+      "name": "Aldo",
+      "class": "Richard",
+      "roster": "Élecsprint-1, Grolem-1, Aligatueur-1, Granbull-1, Raichu-1, Avaltout-1, Ludicolo-1, Lippoutou-1, Hariyama-1, Cizayox-1, Vacilys-1",
+      "species": "Élecsprint, Grolem, Aligatueur, Granbull, Raichu, Avaltout, Ludicolo, Lippoutou, Hariyama, Cizayox, Vacilys",
+      "teams": [
+        "Élecsprint-1, Grolem-1, Aligatueur-1, Granbull-1",
+        "Raichu-1, Avaltout-1, Ludicolo-1, Lippoutou-1",
+        "Hariyama-1, Cizayox-1, Vacilys-1, Aligatueur-1"
+      ],
+      "late": "",
+      "quote": "J'ai tellement d'argent que je peux avoir tout ce que je veux... y compris la victoire !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/richboy.png"
+    },
+    {
+      "name": "Elodie",
+      "class": "Fillette",
+      "roster": "Rozbouton-1, Snubbull-1, Spoink-1, Évoli-1, Mimitoss-1, Babimanta-1, Roucoups-1, Lumivole-1, Balbuto-2, Azumarill-1, Ramboum-1",
+      "species": "Rozbouton, Snubbull, Spoink, Évoli, Mimitoss, Babimanta, Roucoups, Lumivole, Balbuto, Azumarill, Ramboum",
+      "teams": [
+        "Rozbouton-1, Snubbull-1, Spoink-1, Évoli-1",
+        "Mimitoss-1, Rozbouton-1, Babimanta-1, Roucoups-1",
+        "Lumivole-1, Balbuto-2, Azumarill-1, Ramboum-1"
+      ],
+      "late": "",
+      "quote": "J'ai pour principe de ne porter que des minijupes !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/lass.png"
+    },
+    {
+      "name": "Mayana",
+      "class": "Éleveur",
+      "roster": "Coudlangue-1, Voltali-1, Magnézone-1, Archéodong-1, Granbull-2, Lucario-1, Noctunoir-1",
+      "species": "Coudlangue, Voltali, Magnézone, Archéodong, Granbull, Lucario, Noctunoir",
+      "teams": [
+        "Coudlangue-1, Voltali-1, Magnézone-1, Archéodong-1",
+        "Magnézone-1, Granbull-2, Lucario-1, Noctunoir-1"
+      ],
+      "late": "",
+      "quote": "Être trop sévère n'apporte rien de bon, et trop couver ses Pokémon non plus...",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/pokemonbreeder-f.png"
+    },
+    {
+      "name": "Loucas",
+      "class": "Joueur",
+      "roster": "Florizarre-1, Tentacruel-1, Magirêve-1, Tauros-1, Givrali-1, Lokhlass-1, Tarinorme-1, Lucario-1",
+      "species": "Florizarre, Tentacruel, Magirêve, Tauros, Givrali, Lokhlass, Tarinorme, Lucario",
+      "teams": [
+        "Florizarre-1, Tentacruel-1, Magirêve-1, Tauros-1",
+        "Givrali-1, Lokhlass-1, Tarinorme-1, Lucario-1"
+      ],
+      "late": "",
+      "quote": "Je vais tout miser sur ce combat, c'est mon dernier espoir !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/pi.png"
+    },
+    {
+      "name": "Tomas",
+      "class": "Dracologue",
+      "roster": "Tortank-1, Grolem-1, Méganium-1, Aligatueur-1, Florizarre-1, Pingoléon-1, Oniglali-1, Électrode-1, Écrémeuh-1, Nidoqueen-1, Bastiodon-1, Maraiste-1",
+      "species": "Tortank, Grolem, Méganium, Aligatueur, Florizarre, Pingoléon, Oniglali, Électrode, Écrémeuh, Nidoqueen, Bastiodon, Maraiste",
+      "teams": [
+        "Tortank-1, Grolem-1, Méganium-1, Aligatueur-1",
+        "Florizarre-1, Pingoléon-1, Oniglali-1, Électrode-1",
+        "Écrémeuh-1, Nidoqueen-1, Bastiodon-1, Maraiste-1"
+      ],
+      "late": "",
+      "quote": "Retiens bien la devise des Dracologues !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/dragontamer.png"
+    },
+    {
+      "name": "Ambre",
+      "class": "Fan de Pique-Nique",
+      "roster": "Rémoraid-1, Goupix-1, Stari-1, Tentacool-1, Germignon-1, Carapuce-2, Rhinocorne-1, Pikachu-1, Ceribou-1, Voltorbe-1, Vibraninf-1, Ténéfix-1, Mimitoss-1, Rosélia-1, Magby-1",
+      "species": "Rémoraid, Goupix, Stari, Tentacool, Germignon, Carapuce, Rhinocorne, Pikachu, Ceribou, Voltorbe, Vibraninf, Ténéfix, Mimitoss, Rosélia, Magby",
+      "teams": [
+        "Rémoraid-1, Goupix-1, Stari-1, Tentacool-1",
+        "Germignon-1, Carapuce-2, Tentacool-1, Rhinocorne-1",
+        "Pikachu-1, Ceribou-1, Voltorbe-1, Vibraninf-1",
+        "Ténéfix-1, Mimitoss-1, Rosélia-1, Magby-1"
+      ],
+      "late": "",
+      "quote": "Ce combat contre toi, ça va être du gâteau !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/picnicker.png"
+    },
+    {
+      "name": "Anissa",
+      "class": "Combattante",
+      "roster": "Démanta-1, Nosferalto-1, Noarfang-1, Tropius-1, Métang-1, Amonistar-1, Kapoera-1, Simularbre-1, Chapignon-1, Oniglali-1, Typhlosion-1, Hariyama-1",
+      "species": "Démanta, Nosferalto, Noarfang, Tropius, Métang, Amonistar, Kapoera, Simularbre, Chapignon, Oniglali, Typhlosion, Hariyama",
+      "teams": [
+        "Démanta-1, Nosferalto-1, Noarfang-1, Tropius-1",
+        "Métang-1, Amonistar-1, Kapoera-1, Simularbre-1",
+        "Chapignon-1, Oniglali-1, Typhlosion-1, Hariyama-1"
+      ],
+      "late": "",
+      "quote": "En garde !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/battlegirl.png"
+    },
+    {
+      "name": "Dillan",
+      "class": "Élève",
+      "roster": "Crikzik-1, Machoc-1, Otaria-1, Galekid-1, Arcko-1, Poussifeu-2, Caninos-1, Vibraninf-1, Bulbizarre-1, Tiplouf-2, Sancoki-1, Spoink-1, Amonita-1, Teddiursa-1, Papinox-1, Osselait-1",
+      "species": "Crikzik, Machoc, Otaria, Galekid, Arcko, Poussifeu, Caninos, Vibraninf, Bulbizarre, Tiplouf, Sancoki, Spoink, Amonita, Teddiursa, Papinox, Osselait",
+      "teams": [
+        "Crikzik-1, Machoc-1, Otaria-1, Galekid-1",
+        "Arcko-1, Poussifeu-2, Caninos-1, Vibraninf-1",
+        "Bulbizarre-1, Tiplouf-2, Sancoki-1, Spoink-1",
+        "Amonita-1, Teddiursa-1, Papinox-1, Osselait-1"
+      ],
+      "late": "",
+      "quote": "Grrr... grrroa !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/schoolkid-m.png"
+    },
+    {
+      "name": "Maxwell",
+      "class": "Gamin",
+      "roster": "Ceribou-1, Kaiminus-2, Teddiursa-1, Sancoki-1, Chamallot-1, Apitrini-1, Soporifik-1, Osselait-1, Ortide-1, Rozbouton-1, Parasect-1, Qulbutoké-1",
+      "species": "Ceribou, Kaiminus, Teddiursa, Sancoki, Chamallot, Apitrini, Soporifik, Osselait, Ortide, Rozbouton, Parasect, Qulbutoké",
+      "teams": [
+        "Ceribou-1, Kaiminus-2, Teddiursa-1, Sancoki-1",
+        "Chamallot-1, Apitrini-1, Soporifik-1, Osselait-1",
+        "Ortide-1, Rozbouton-1, Parasect-1, Qulbutoké-1"
+      ],
+      "late": "",
+      "quote": "Tu sais quoi ? Les shorts, c'est super !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/youngster.png"
+    },
+    {
+      "name": "Klebber",
+      "class": "Fermier",
+      "roster": "Métang-1, Cheniselle-1, Maskadra-1, Qwilfish-1, Volcaropod-1, Têtarte-1, Galifeu-1, Macronium-1, Roucarnage-1, Simularbre-1, Mangriff-1, Persian-1",
+      "species": "Métang, Cheniselle, Maskadra, Qwilfish, Volcaropod, Têtarte, Galifeu, Macronium, Roucarnage, Simularbre, Mangriff, Persian",
+      "teams": [
+        "Métang-1, Cheniselle-1, Maskadra-1, Qwilfish-1",
+        "Volcaropod-1, Têtarte-1, Galifeu-1, Macronium-1",
+        "Roucarnage-1, Simularbre-1, Mangriff-1, Persian-1"
+      ],
+      "late": "",
+      "quote": "Vas-y, donne tout ce que t'as ! J'ai du coffre, je tiendrai le coup !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/rancher.png"
+    },
+    {
+      "name": "Jan",
+      "class": "Élève",
+      "roster": "Aéromite-1, Étouraptor-1, Airmure-1, Avaltout-1, Charmina-1, Absol-1, Rafflesia-1, Apireine-1, Gardevoir-1, Tentacruel-1, Typhlosion-1",
+      "species": "Aéromite, Étouraptor, Airmure, Avaltout, Charmina, Absol, Rafflesia, Apireine, Gardevoir, Tentacruel, Typhlosion",
+      "teams": [
+        "Aéromite-1, Étouraptor-1, Airmure-1, Avaltout-1",
+        "Charmina-1, Absol-1, Rafflesia-1, Apireine-1",
+        "Absol-1, Gardevoir-1, Tentacruel-1, Typhlosion-1"
+      ],
+      "late": "",
+      "quote": "Tu feras un très bon sujet d'étude.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/schoolkid-m.png"
+    },
+    {
+      "name": "Trystan",
+      "class": "Scout",
+      "roster": "Sabelette-1, Balbuto-2, Poissirène-1, Sancoki-1, Stalgamin-1, Munja-2, Malosse-1, Stari-1, Solaroc-1, Papinox-1, Feurisson-1, Scorplane-1",
+      "species": "Sabelette, Balbuto, Poissirène, Sancoki, Stalgamin, Munja, Malosse, Stari, Solaroc, Papinox, Feurisson, Scorplane",
+      "teams": [
+        "Sabelette-1, Balbuto-2, Poissirène-1, Sancoki-1",
+        "Stalgamin-1, Munja-2, Malosse-1, Stari-1",
+        "Solaroc-1, Papinox-1, Feurisson-1, Scorplane-1"
+      ],
+      "late": "",
+      "quote": "J'attrape et j'entraîne toutes sortes de Pokémon.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/bugcatcher.png"
+    },
+    {
+      "name": "Macéo",
+      "class": "Dracologue",
+      "roster": "Octillery-1, Élecsprint-1, Capidextre-1, Avaltout-1, M. Mime-1, Motisma-1, Lockpin-1, Cacturne-1, Magirêve-1, Braségali-1, Démolosse-1, Ptéra-1",
+      "species": "Octillery, Élecsprint, Capidextre, Avaltout, M. Mime, Motisma, Lockpin, Cacturne, Magirêve, Braségali, Démolosse, Ptéra",
+      "teams": [
+        "Octillery-1, Élecsprint-1, Capidextre-1, Avaltout-1",
+        "M. Mime-1, Motisma-1, Lockpin-1, Cacturne-1",
+        "Magirêve-1, Braségali-1, Démolosse-1, Ptéra-1"
+      ],
+      "late": "",
+      "quote": "À moi la puissance des dragons !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/dragontamer.png"
+    },
+    {
+      "name": "Léopold",
+      "class": "Karatéka",
+      "roster": "Insécateur-1, Mangriff-1, Nosferalto-1, Tygnon-1, Galegon-1, Aéromite-1, Roucarnage-1, Kecleon-1, Élecsprint-1, Rafflesia-1, Empiflor-1, Tengalice-1",
+      "species": "Insécateur, Mangriff, Nosferalto, Tygnon, Galegon, Aéromite, Roucarnage, Kecleon, Élecsprint, Rafflesia, Empiflor, Tengalice",
+      "teams": [
+        "Insécateur-1, Mangriff-1, Nosferalto-1, Tygnon-1",
+        "Galegon-1, Aéromite-1, Roucarnage-1, Kecleon-1",
+        "Élecsprint-1, Rafflesia-1, Empiflor-1, Tengalice-1"
+      ],
+      "late": "",
+      "quote": "Euh... Je... je n'ai jamais fait de karaté de ma vie...",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/blackbelt.png"
+    },
+    {
+      "name": "Robbie",
+      "class": "Serveur",
+      "roster": "Négapi-1, Magnéti-1, Kabuto-1, Stari-1, Balbuto-1, Munja-2, Étourvol-1, Osselait-1, Grahyèna-1, Feuforêve-1, Chimpenfeu-1, Carmache-1",
+      "species": "Négapi, Magnéti, Kabuto, Stari, Balbuto, Munja, Étourvol, Osselait, Grahyèna, Feuforêve, Chimpenfeu, Carmache",
+      "teams": [
+        "Négapi-1, Magnéti-1, Kabuto-1, Stari-1",
+        "Balbuto-1, Munja-2, Étourvol-1, Osselait-1",
+        "Grahyèna-1, Feuforêve-1, Chimpenfeu-1, Carmache-1"
+      ],
+      "late": "",
+      "quote": "Quand on se bat, c'est comme quand on sert les clients : faut pas lambiner !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/waiter.png"
+    },
+    {
+      "name": "Bixente",
+      "class": "Ruinophile",
+      "roster": "Papilusion-1, Luxio-1, Lilia-1, Excelangue-1, Tortipouss-1, Doduo-2, Malosse-1, Roucoups-1, Grodoudou-1, Ramboum-1, Séléroc-1, Magby-1",
+      "species": "Papilusion, Luxio, Lilia, Excelangue, Tortipouss, Doduo, Malosse, Roucoups, Grodoudou, Ramboum, Séléroc, Magby",
+      "teams": [
+        "Papilusion-1, Luxio-1, Lilia-1, Excelangue-1",
+        "Tortipouss-1, Doduo-2, Malosse-1, Roucoups-1",
+        "Grodoudou-1, Ramboum-1, Séléroc-1, Magby-1"
+      ],
+      "late": "",
+      "quote": "On a beaucoup bourlingué, mes petits compagnons et moi !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/ruinmaniac.png"
+    },
+    {
+      "name": "Lamia",
+      "class": "Élève",
+      "roster": "Machoc-1, Poussifeu-2, Écayon-1, Mustébouée-1, Poussifeu-1, Lippouti-2, Kranidos-1, Psykokwak-1, Balbuto-1, Cradopaud-1, Ramoloss-1, Parasect-1, Pikachu-1, Gravalanch-1, Charmillon-1",
+      "species": "Machoc, Poussifeu, Écayon, Mustébouée, Lippouti, Kranidos, Psykokwak, Balbuto, Cradopaud, Ramoloss, Parasect, Pikachu, Gravalanch, Charmillon",
+      "teams": [
+        "Machoc-1, Poussifeu-2, Écayon-1, Mustébouée-1",
+        "Poussifeu-1, Lippouti-2, Kranidos-1, Psykokwak-1",
+        "Balbuto-1, Cradopaud-1, Ramoloss-1, Mustébouée-1",
+        "Parasect-1, Pikachu-1, Gravalanch-1, Charmillon-1"
+      ],
+      "late": "",
+      "quote": "Quand je serai grande, je serai Professeure Pokémon !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/schoolkid-f.png"
+    },
+    {
+      "name": "Roméo",
+      "class": "Gentleman",
+      "roster": "Insécateur-1, Amonistar-1, Chaffreux-1, Sharpedo-1, Farfuret-1, Kapoera-1, Octillery-1, Cheniselle-1, Smogogo-1, Dracaufeu-1, Triopikeur-1, Aligatueur-1",
+      "species": "Insécateur, Amonistar, Chaffreux, Sharpedo, Farfuret, Kapoera, Octillery, Cheniselle, Smogogo, Dracaufeu, Triopikeur, Aligatueur",
+      "teams": [
+        "Insécateur-1, Amonistar-1, Chaffreux-1, Sharpedo-1",
+        "Farfuret-1, Kapoera-1, Octillery-1, Cheniselle-1",
+        "Smogogo-1, Dracaufeu-1, Triopikeur-1, Aligatueur-1"
+      ],
+      "late": "",
+      "quote": "J'aime la flamme qui brille dans tes yeux !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/gentleman.png"
+    },
+    {
+      "name": "Gwendal",
+      "class": "Kinésiste",
+      "roster": "Carchacrok-1, Hippodocus-2, Tortank-2, Méganium-2, Kaimorse-1, Caratroc-1, Hyporoi-1, Altaria-1",
+      "species": "Carchacrok, Hippodocus, Tortank, Méganium, Kaimorse, Caratroc, Hyporoi, Altaria",
+      "teams": [
+        "Carchacrok-1, Hippodocus-2, Tortank-2, Méganium-2",
+        "Kaimorse-1, Caratroc-1, Hyporoi-1, Altaria-1"
+      ],
+      "late": "",
+      "quote": "Laisse-moi te présenter ma petite famille !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/psychic-m.png"
+    },
+    {
+      "name": "Tobias",
+      "class": "Topdresseur",
+      "roster": "Dodrio-1, Maraiste-1, Granbull-1, Rosabyss-1, Gallame-1, Corboss-1, Grodrive-1, Ptéra-1",
+      "species": "Dodrio, Maraiste, Granbull, Rosabyss, Gallame, Corboss, Grodrive, Ptéra",
+      "teams": [
+        "Dodrio-1, Maraiste-1, Granbull-1, Rosabyss-1",
+        "Gallame-1, Corboss-1, Grodrive-1, Ptéra-1"
+      ],
+      "late": "",
+      "quote": "J'ai horreur du froid, mais j'adore les combats Pokémon.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/acetrainer-m.png"
+    },
+    {
+      "name": "Walther",
+      "class": "Éleveur",
+      "roster": "Kaorine-1, Togekiss-1, Arcanin-1, Drascore-1, Lokhlass-1, Magnézone-1, Leuphorie-1",
+      "species": "Kaorine, Togekiss, Arcanin, Drascore, Lokhlass, Magnézone, Leuphorie",
+      "teams": [
+        "Kaorine-1, Togekiss-1, Arcanin-1, Drascore-1",
+        "Togekiss-1, Lokhlass-1, Magnézone-1, Leuphorie-1"
+      ],
+      "late": "",
+      "quote": "Il n'y a pas que la victoire qui compte, dans les combats.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/pokemonbreeder-m.png"
+    },
+    {
+      "name": "Elias",
+      "class": "Guitariste",
+      "roster": "Arbok-1, Farfuret-1, Hypocéan-1, Crocrodil-1, Anorith-1, Drackhaus-1, Cornèbre-1, Sablaireau-1, Séviper-1, Rapasdepic-1",
+      "species": "Arbok, Farfuret, Hypocéan, Crocrodil, Anorith, Drackhaus, Cornèbre, Sablaireau, Séviper, Rapasdepic",
+      "teams": [
+        "Arbok-1, Farfuret-1, Hypocéan-1, Crocrodil-1",
+        "Hypocéan-1, Anorith-1, Drackhaus-1, Cornèbre-1",
+        "Sablaireau-1, Arbok-1, Séviper-1, Rapasdepic-1"
+      ],
+      "late": "",
+      "quote": "Écoute les cordes qui hurlent ! Écoute-moi hurler !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/guitarist.png"
+    },
+    {
+      "name": "Tyron",
+      "class": "Topdresseur",
+      "roster": "Rhinoféros-1, Magnéton-1, Ludicolo-1, Méganium-1, Florizarre-1, Lamantine-1, Chaffreux-1, Feunard-1, Grotadmorv-1, Blizzaroi-1, Gardevoir-1",
+      "species": "Rhinoféros, Magnéton, Ludicolo, Méganium, Florizarre, Lamantine, Chaffreux, Feunard, Grotadmorv, Blizzaroi, Gardevoir",
+      "teams": [
+        "Rhinoféros-1, Magnéton-1, Ludicolo-1, Méganium-1",
+        "Florizarre-1, Magnéton-1, Lamantine-1, Chaffreux-1",
+        "Feunard-1, Grotadmorv-1, Blizzaroi-1, Gardevoir-1"
+      ],
+      "late": "",
+      "quote": "Pourquoi passer sa vie à se triturer les méninges ? Mieux vaut s'amuser !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/acetrainer-m.png"
+    },
+    {
+      "name": "Bertold",
+      "class": "Dracologue",
+      "roster": "Mammochon-1, Simiabraz-2, Hippodocus-1, Lokhlass-1",
+      "species": "Mammochon, Simiabraz, Hippodocus, Lokhlass",
+      "teams": [
+        "Mammochon-1, Simiabraz-2, Hippodocus-1, Lokhlass-1"
+      ],
+      "late": "",
+      "quote": "C'en est fini de toi ! Tu vas affronter mon équipe de Pokémon surentraînés.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/dragontamer.png"
+    },
+    {
+      "name": "Alexi",
+      "class": "Fan de Camping",
+      "roster": "Polichombr-1, Riolu-1, Blizzi-1, Lombre-1, Cradopaud-1, Doduo-2, Voltorbe-1, Otaria-1, Apitrini-1, Tylton-1, Laporeille-1, Floravol-1, Kadabra-1, Têtarte-1, Capumain-1",
+      "species": "Polichombr, Riolu, Blizzi, Lombre, Cradopaud, Doduo, Voltorbe, Otaria, Apitrini, Tylton, Laporeille, Floravol, Kadabra, Têtarte, Capumain",
+      "teams": [
+        "Polichombr-1, Riolu-1, Blizzi-1, Lombre-1",
+        "Cradopaud-1, Doduo-2, Voltorbe-1, Otaria-1",
+        "Apitrini-1, Tylton-1, Laporeille-1, Floravol-1",
+        "Kadabra-1, Têtarte-1, Laporeille-1, Capumain-1"
+      ],
+      "late": "",
+      "quote": "Oh ! Toi aussi, tu as une Pokémontre ?",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/camper.png"
+    },
+    {
+      "name": "Fritz",
+      "class": "Marin",
+      "roster": "Luxray-1, Staross-1, Kaorine-1, Feunard-1, Archéodong-1, Triopikeur-1, Magirêve-1, Tarinorme-1, Porygon2-1, Laggron-2, Pingoléon-2",
+      "species": "Luxray, Staross, Kaorine, Feunard, Archéodong, Triopikeur, Magirêve, Tarinorme, Porygon2, Laggron, Pingoléon",
+      "teams": [
+        "Luxray-1, Staross-1, Kaorine-1, Feunard-1",
+        "Archéodong-1, Triopikeur-1, Feunard-1, Magirêve-1",
+        "Tarinorme-1, Porygon2-1, Laggron-2, Pingoléon-2"
+      ],
+      "late": "",
+      "quote": "Viens, montre-moi ce dont tu es capable !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/sailor.png"
+    },
+    {
+      "name": "Regina",
+      "class": "Pokefan (F)",
+      "roster": "Phanpy-1, Lainergie-1, Machopeur-1, Noeunoeuf-1, Manzaï-1, Chaglam-1, Sancoki-1, Stari-1, Grahyèna-1, Insolourdo-1, Arbok-1, Éoko-3",
+      "species": "Phanpy, Lainergie, Machopeur, Noeunoeuf, Manzaï, Chaglam, Sancoki, Stari, Grahyèna, Insolourdo, Arbok, Éoko",
+      "teams": [
+        "Phanpy-1, Lainergie-1, Machopeur-1, Noeunoeuf-1",
+        "Manzaï-1, Chaglam-1, Sancoki-1, Stari-1",
+        "Grahyèna-1, Insolourdo-1, Arbok-1, Éoko-3"
+      ],
+      "late": "",
+      "quote": "Bonjour, jeune Dresseu. Que diriez-vous de rejoindre notre club de fans de Pokémon?",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/pokefan-f.png"
+    },
+    {
+      "name": "Matilda",
+      "class": "Topdresseur",
+      "roster": "Drattak-1, Mustéflott-1, Leuphorie-1, Scorvol-1, Givrali-1, Monaflèmit-1, Dracolosse-2, Florizarre-2",
+      "species": "Drattak, Mustéflott, Leuphorie, Scorvol, Givrali, Monaflèmit, Dracolosse, Florizarre",
+      "teams": [
+        "Drattak-1, Mustéflott-1, Leuphorie-1, Scorvol-1",
+        "Givrali-1, Monaflèmit-1, Dracolosse-2, Florizarre-2"
+      ],
+      "late": "",
+      "quote": "Il est trop tard pour t'échapper. Abandonne !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/acetrainer-f.png"
+    },
+    {
+      "name": "Gino",
+      "class": "Guitariste",
+      "roster": "Salamèche-1, Embrylex-2, Malosse-1, Moufouette-1, Kaiminus-1, Mimitoss-1, Tadmorv-1, Canarticho-1, Sabelette-1, Ptiravi-1, Pifeuil-1, Loupio-1, Capumain-1, Spectrum-1, Kadabra-1, Luxio-1",
+      "species": "Salamèche, Embrylex, Malosse, Moufouette, Kaiminus, Mimitoss, Tadmorv, Canarticho, Sabelette, Ptiravi, Pifeuil, Loupio, Capumain, Spectrum, Kadabra, Luxio",
+      "teams": [
+        "Salamèche-1, Embrylex-2, Malosse-1, Moufouette-1",
+        "Kaiminus-1, Mimitoss-1, Tadmorv-1, Canarticho-1",
+        "Sabelette-1, Ptiravi-1, Pifeuil-1, Loupio-1",
+        "Capumain-1, Spectrum-1, Kadabra-1, Luxio-1"
+      ],
+      "late": "",
+      "quote": "Prépare-toi à écouter un solo qui décoiffe !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/guitarist.png"
+    },
+    {
+      "name": "Ramiro",
+      "class": "Karatéka",
+      "roster": "Noarfang-1, Massko-1, Tropius-1, Métang-1, Serpang-1, Kabutops-1, Cotovol-1, Tauros-1, Motisma-1, Rhinoféros-1, Chartor-1",
+      "species": "Noarfang, Massko, Tropius, Métang, Serpang, Kabutops, Cotovol, Tauros, Motisma, Rhinoféros, Chartor",
+      "teams": [
+        "Noarfang-1, Massko-1, Tropius-1, Métang-1",
+        "Serpang-1, Kabutops-1, Cotovol-1, Tropius-1",
+        "Tauros-1, Motisma-1, Rhinoféros-1, Chartor-1"
+      ],
+      "late": "",
+      "quote": "Hé! Un combat, ça te dit?",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/blackbelt.png"
+    },
+    {
+      "name": "Ricardo",
+      "class": "Gentleman",
+      "roster": "Téraclope-1, Hypocéan-1, Chartor-1, Scorplane-1, Rhinoféros-1, Sablaireau-1, Lippoutou-1, Cacturne-1",
+      "species": "Téraclope, Hypocéan, Chartor, Scorplane, Rhinoféros, Sablaireau, Lippoutou, Cacturne",
+      "teams": [
+        "Téraclope-1, Hypocéan-1, Chartor-1, Scorplane-1",
+        "Rhinoféros-1, Sablaireau-1, Lippoutou-1, Cacturne-1"
+      ],
+      "late": "",
+      "quote": "Quand j'avais ton âge, je n'avais peur de rien.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/gentleman.png"
+    },
+    {
+      "name": "Josse",
+      "class": "Richard",
+      "roster": "Cheniti-1, Mimitoss-1, Blizzi-1, Étourvol-1, Héricendre-1, Rémoraid-2, Teddiursa-1, Roucoups-1, Canarticho-1, Machopeur-1, Migalos-1, Floravol-1",
+      "species": "Cheniti, Mimitoss, Blizzi, Étourvol, Héricendre, Rémoraid, Teddiursa, Roucoups, Canarticho, Machopeur, Migalos, Floravol",
+      "teams": [
+        "Cheniti-1, Mimitoss-1, Blizzi-1, Étourvol-1",
+        "Héricendre-1, Rémoraid-2, Teddiursa-1, Roucoups-1",
+        "Canarticho-1, Machopeur-1, Migalos-1, Floravol-1"
+      ],
+      "late": "",
+      "quote": "Hum... T'es fort, toi, on dirait...",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/richboy.png"
+    },
+    {
+      "name": "Ximun",
+      "class": "Scout",
+      "roster": "Griknot-1, Balbuto-2, Mustébouée-1, Ramoloss-1, Goupix-1, Machoc-1, Smogo-1, Roucoups-1, Hypocéan-1, Dardargnan-1, Herbizarre-1, Ponyta-1",
+      "species": "Griknot, Balbuto, Mustébouée, Ramoloss, Goupix, Machoc, Smogo, Roucoups, Hypocéan, Dardargnan, Herbizarre, Ponyta",
+      "teams": [
+        "Griknot-1, Balbuto-2, Mustébouée-1, Ramoloss-1",
+        "Goupix-1, Machoc-1, Smogo-1, Roucoups-1",
+        "Hypocéan-1, Dardargnan-1, Herbizarre-1, Ponyta-1"
+      ],
+      "late": "",
+      "quote": "Depuis tout à l'heure, je cherche un Scarhino géant...",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/bugcatcher.png"
+    },
+    {
+      "name": "Douglas",
+      "class": "Collectionneur",
+      "roster": "Cheniti-1, Pikachu-1, Kranidos-1, Spoink-1, Apitrini-1, Skelénox-1, Noeunoeuf-1, Blizzi-1, Héliatronc-1, Wailmer-1, Hélédelle-1, Capumain-1",
+      "species": "Cheniti, Pikachu, Kranidos, Spoink, Apitrini, Skelénox, Noeunoeuf, Blizzi, Héliatronc, Wailmer, Hélédelle, Capumain",
+      "teams": [
+        "Cheniti-1, Pikachu-1, Kranidos-1, Spoink-1",
+        "Apitrini-1, Skelénox-1, Noeunoeuf-1, Blizzi-1",
+        "Héliatronc-1, Wailmer-1, Hélédelle-1, Capumain-1"
+      ],
+      "late": "",
+      "quote": "Hé ! Arrête-toi et admire mes Pokémon rares !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/collector.png"
+    },
+    {
+      "name": "Diane",
+      "class": "Topdresseur",
+      "roster": "Branette-1, Momartik-1, Flagadoss-1, Chaffreux-1, Rafflesia-1, Dracaufeu-1, Torterra-1, Hariyama-1, Ursaring-1, Maraiste-1, Blizzaroi-1, Élecsprint-1",
+      "species": "Branette, Momartik, Flagadoss, Chaffreux, Rafflesia, Dracaufeu, Torterra, Hariyama, Ursaring, Maraiste, Blizzaroi, Élecsprint",
+      "teams": [
+        "Branette-1, Momartik-1, Flagadoss-1, Chaffreux-1",
+        "Rafflesia-1, Dracaufeu-1, Torterra-1, Hariyama-1",
+        "Ursaring-1, Maraiste-1, Blizzaroi-1, Élecsprint-1"
+      ],
+      "late": "",
+      "quote": "Père et mère sont de grands Dresseurs, eux aussi.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/acetrainer-f.png"
+    },
+    {
+      "name": "Elena",
+      "class": "Poké Enfant",
+      "roster": "Lilia-1, Machoc-1, Mustébouée-1, Pifeuil-1, Pachirisu-1, Posipi-1, Galekid-1, Négapi-1, Ceriflor-1, Morphéo-1, Chimpenfeu-1, Kecleon-1",
+      "species": "Lilia, Machoc, Mustébouée, Pifeuil, Pachirisu, Posipi, Galekid, Négapi, Ceriflor, Morphéo, Chimpenfeu, Kecleon",
+      "teams": [
+        "Lilia-1, Machoc-1, Mustébouée-1, Pifeuil-1",
+        "Pachirisu-1, Posipi-1, Galekid-1, Négapi-1",
+        "Ceriflor-1, Morphéo-1, Chimpenfeu-1, Kecleon-1"
+      ],
+      "late": "",
+      "quote": "Allez, tout le monde, on va faire de notre mieux !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/pokekid.png"
+    },
+    {
+      "name": "Pietro",
+      "class": "Kinésiste",
+      "roster": "Morphéo-1, Leveinard-1, Kapoera-1, Papilord-1, Métang-1, Kabutops-1, Girafarig-1, Méganium-1, Luminéon-1, Rhinoféros-1, Mangriff-1",
+      "species": "Morphéo, Leveinard, Kapoera, Papilord, Métang, Kabutops, Girafarig, Méganium, Luminéon, Rhinoféros, Mangriff",
+      "teams": [
+        "Morphéo-1, Leveinard-1, Kapoera-1, Papilord-1",
+        "Kapoera-1, Métang-1, Kabutops-1, Girafarig-1",
+        "Méganium-1, Luminéon-1, Rhinoféros-1, Mangriff-1"
+      ],
+      "late": "",
+      "quote": "Tu vas connaître ici ta défaite... et apprendre ce qu'est le combat...",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/psychic-m.png"
+    },
+    {
+      "name": "Giorgio",
+      "class": "Topdresseur",
+      "roster": "Magnézone-1, Lokhlass-1, Bouldeneu-1, Milobellus-2, Feunard-1, Carchacrok-1, Phyllali-1, Mustéflott-1",
+      "species": "Magnézone, Lokhlass, Bouldeneu, Milobellus, Feunard, Carchacrok, Phyllali, Mustéflott",
+      "teams": [
+        "Magnézone-1, Lokhlass-1, Bouldeneu-1, Milobellus-2",
+        "Feunard-1, Carchacrok-1, Phyllali-1, Mustéflott-1"
+      ],
+      "late": "",
+      "quote": "Puissance au maximum ! 100 000 volts !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/acetrainer-m.png"
+    },
+    {
+      "name": "Axelle",
+      "class": "Fillette",
+      "roster": "Lippouti-1, Riolu-1, Étourvol-1, Mustébouée-1, Étourmi-1, Kaiminus-2, Cadoizo-1, Cacnea-1, Rozbouton-1, Archéomire-1, Krabby-1, Kranidos-1, Balbuto-1, Minidraco-1, Malosse-1, Élekid-1",
+      "species": "Lippouti, Riolu, Étourvol, Mustébouée, Étourmi, Kaiminus, Cadoizo, Cacnea, Rozbouton, Archéomire, Krabby, Kranidos, Balbuto, Minidraco, Malosse, Élekid",
+      "teams": [
+        "Lippouti-1, Riolu-1, Étourvol-1, Mustébouée-1",
+        "Étourmi-1, Kaiminus-2, Cadoizo-1, Cacnea-1",
+        "Rozbouton-1, Archéomire-1, Krabby-1, Kranidos-1",
+        "Balbuto-1, Minidraco-1, Malosse-1, Élekid-1"
+      ],
+      "late": "",
+      "quote": "Ma minijupe, elle est trop belle !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/lass.png"
+    },
+    {
+      "name": "Yoel",
+      "class": "Scientifique",
+      "roster": "Rosabyss-1, Avaltout-1, Magnéton-1, Cacturne-1, Smogogo-1, Élektek-1, Pingoléon-1, Cotovol-1",
+      "species": "Rosabyss, Avaltout, Magnéton, Cacturne, Smogogo, Élektek, Pingoléon, Cotovol",
+      "teams": [
+        "Rosabyss-1, Avaltout-1, Magnéton-1, Cacturne-1",
+        "Smogogo-1, Élektek-1, Pingoléon-1, Cotovol-1"
+      ],
+      "late": "",
+      "quote": "Une carrière de Dresseur se construit doucement, mais sûrement.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/scientist.png"
+    },
+    {
+      "name": "Titouan",
+      "class": "Arlequin",
+      "roster": "Kicklee-1, Serpang-1, Roucarnage-1, Dodrio-1, Moufflair-1, Braségali-1, Rhinoféros-1, Apireine-1",
+      "species": "Kicklee, Serpang, Roucarnage, Dodrio, Moufflair, Braségali, Rhinoféros, Apireine",
+      "teams": [
+        "Kicklee-1, Serpang-1, Roucarnage-1, Dodrio-1",
+        "Moufflair-1, Braségali-1, Rhinoféros-1, Apireine-1"
+      ],
+      "late": "",
+      "quote": "Hé hé hé hé...",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/clown.png"
+    },
+    {
+      "name": "Honoré",
+      "class": "Montagnard",
+      "roster": "Steelix-1, Charmina-1, Porygon2-1, Pharamp-1, Tartard-1, Typhlosion-1, Yanmega-1, Ossatueur-1, Grodrive-1, Flagadoss-1, Ursaring-1, Lamantine-1, Wailord-1, Airmure-1, Scarhino-1, Braségali-1, Scorvol-1, Mackogneur-1, Noadkoko-1, Corboss-1, Milobellus-2, Noctali-1, Porygon-Z-1, Bouldeneu-1",
+      "species": "Steelix, Charmina, Porygon2, Pharamp, Tartard, Typhlosion, Yanmega, Ossatueur, Grodrive, Flagadoss, Ursaring, Lamantine, Wailord, Airmure, Scarhino, Braségali, Scorvol, Mackogneur, Noadkoko, Corboss, Milobellus, Noctali, Porygon-Z, Bouldeneu",
+      "teams": [
+        "Steelix-1, Charmina-1, Porygon2-1, Pharamp-1",
+        "Tartard-1, Typhlosion-1, Yanmega-1, Ossatueur-1",
+        "Grodrive-1, Flagadoss-1, Ursaring-1, Lamantine-1",
+        "Wailord-1, Airmure-1, Scarhino-1, Braségali-1",
+        "Scorvol-1, Mackogneur-1, Noadkoko-1, Corboss-1",
+        "Milobellus-2, Noctali-1, Porygon-Z-1, Bouldeneu-1"
+      ],
+      "late": "",
+      "quote": "Houla ! Attends une minute, je ne suis pas prêt !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/hiker.png"
+    },
+    {
+      "name": "Irvin",
+      "class": "Collectionneur",
+      "roster": "Momartik-1, Cizayox-1, Archéodong-1, Florizarre-1, Scarhino-1, Étouraptor-1, Nidoqueen-1, Porygon2-1, Tyranocif-1, Tarpaud-1, Aquali-1, Laggron-2",
+      "species": "Momartik, Cizayox, Archéodong, Florizarre, Scarhino, Étouraptor, Nidoqueen, Porygon2, Tyranocif, Tarpaud, Aquali, Laggron",
+      "teams": [
+        "Momartik-1, Cizayox-1, Archéodong-1, Florizarre-1",
+        "Scarhino-1, Étouraptor-1, Nidoqueen-1, Porygon2-1",
+        "Tyranocif-1, Tarpaud-1, Aquali-1, Laggron-2"
+      ],
+      "late": "",
+      "quote": "Laisse-moi évaluer ta collection.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/collector.png"
+    },
+    {
+      "name": "Siléas",
+      "class": "Guitariste",
+      "roster": "Carmache-1, Pachirisu-1, Kecleon-1, Azumarill-1, Onix-1, Galegon-1, Draco-1, Kadabra-1, Krabboss-1, Maskadra-1, Groret-1, Dodrio-1",
+      "species": "Carmache, Pachirisu, Kecleon, Azumarill, Onix, Galegon, Draco, Kadabra, Krabboss, Maskadra, Groret, Dodrio",
+      "teams": [
+        "Carmache-1, Pachirisu-1, Kecleon-1, Azumarill-1",
+        "Onix-1, Galegon-1, Draco-1, Kadabra-1",
+        "Krabboss-1, Maskadra-1, Groret-1, Dodrio-1"
+      ],
+      "late": "",
+      "quote": "Tu devrais exprimer tes sentiments à travers le chant, baby.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/guitarist.png"
+    },
+    {
+      "name": "Peio",
+      "class": "Karatéka",
+      "roster": "Grodoudou-1, Macronium-1, Flobio-1, Séléroc-1, Crocrodil-1, Morphéo-1, Bekipan-1, Carabaffe-1, Joliflor-1, Nosferalto-1, Ninjask-1, Luminéon-1",
+      "species": "Grodoudou, Macronium, Flobio, Séléroc, Crocrodil, Morphéo, Bekipan, Carabaffe, Joliflor, Nosferalto, Ninjask, Luminéon",
+      "teams": [
+        "Grodoudou-1, Macronium-1, Flobio-1, Séléroc-1",
+        "Crocrodil-1, Morphéo-1, Bekipan-1, Carabaffe-1",
+        "Joliflor-1, Nosferalto-1, Ninjask-1, Luminéon-1"
+      ],
+      "late": "",
+      "quote": "Mon cœur est brûlant, mes poings sont d'acier, ma sueur coule comme un torrent furieux !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/blackbelt.png"
+    },
+    {
+      "name": "Joffrey",
+      "class": "Ninja Amateur",
+      "roster": "Élektek-1, Florizarre-1, Foretress-1, Rosabyss-1, Coudlangue-1, Mustéflott-1, Armaldo-1, Blizzaroi-1",
+      "species": "Élektek, Florizarre, Foretress, Rosabyss, Coudlangue, Mustéflott, Armaldo, Blizzaroi",
+      "teams": [
+        "Élektek-1, Florizarre-1, Foretress-1, Rosabyss-1",
+        "Coudlangue-1, Mustéflott-1, Armaldo-1, Blizzaroi-1"
+      ],
+      "late": "",
+      "quote": "Cible en vue !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/ninjaboy.png"
+    },
+    {
+      "name": "Hermann",
+      "class": "Collectionneur",
+      "roster": "M. Mime-1, Mackogneur-1, Kaorine-1, Brouhabam-1, Yanmega-1, Coudlangue-1, Akwakwak-1, Tarpaud-1, Triopikeur-2, Corboss-1, Voltali-1",
+      "species": "M. Mime, Mackogneur, Kaorine, Brouhabam, Yanmega, Coudlangue, Akwakwak, Tarpaud, Triopikeur, Corboss, Voltali",
+      "teams": [
+        "M. Mime-1, Mackogneur-1, Kaorine-1, Brouhabam-1",
+        "Yanmega-1, Coudlangue-1, Akwakwak-1, Tarpaud-1",
+        "Triopikeur-2, Corboss-1, Voltali-1, Mackogneur-1"
+      ],
+      "late": "",
+      "quote": "Tiens, tiens, tiens !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/collector.png"
+    },
+    {
+      "name": "Pantxoa",
+      "class": "Joggeur",
+      "roster": "Prinplouf-1, Vigoroth-1, Solaroc-1, Morphéo-1, Maskadra-1, Qulbutoké-1, Grahyèna-1, Mélokrik-1, Crustabri-1, Tygnon-1, Camérupt-1, Octillery-1",
+      "species": "Prinplouf, Vigoroth, Solaroc, Morphéo, Maskadra, Qulbutoké, Grahyèna, Mélokrik, Crustabri, Tygnon, Camérupt, Octillery",
+      "teams": [
+        "Prinplouf-1, Vigoroth-1, Solaroc-1, Morphéo-1",
+        "Maskadra-1, Qulbutoké-1, Grahyèna-1, Mélokrik-1",
+        "Crustabri-1, Tygnon-1, Camérupt-1, Octillery-1"
+      ],
+      "late": "",
+      "quote": "Je vais courir sur place pendant notre combat. Je dois garder la forme !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/jogger.png"
+    },
+    {
+      "name": "Eugénie",
+      "class": "Pokémon Ranger",
+      "roster": "Tritosor-2, Monaflèmit-1, Nostenfer-1, Mackogneur-1, Togekiss-1, Arcanin-1, Ronflex-1, Florizarre-2",
+      "species": "Tritosor, Monaflèmit, Nostenfer, Mackogneur, Togekiss, Arcanin, Ronflex, Florizarre",
+      "teams": [
+        "Tritosor-2, Monaflèmit-1, Nostenfer-1, Mackogneur-1",
+        "Togekiss-1, Arcanin-1, Ronflex-1, Florizarre-2"
+      ],
+      "late": "",
+      "quote": "Un combat ? Contre moi ? Mais pour quoi faire ?",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/pokemonranger-f.png"
+    },
+    {
+      "name": "Malorie",
+      "class": "Poké Enfant",
+      "roster": "Mackogneur-1, Yanmega-1, Luxray-1, Corboss-1, Raichu-1, Blizzaroi-1, Kaorine-1, Tengalice-1, Noctali-1, Ursaring-1, Braségali-2, Ossatueur-2",
+      "species": "Mackogneur, Yanmega, Luxray, Corboss, Raichu, Blizzaroi, Kaorine, Tengalice, Noctali, Ursaring, Braségali, Ossatueur",
+      "teams": [
+        "Mackogneur-1, Yanmega-1, Luxray-1, Corboss-1",
+        "Raichu-1, Blizzaroi-1, Kaorine-1, Tengalice-1",
+        "Noctali-1, Ursaring-1, Braségali-2, Ossatueur-2"
+      ],
+      "late": "",
+      "quote": "Pikaaa !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/pokekid.png"
+    },
+    {
+      "name": "Jano",
+      "class": "Fan de Camping",
+      "roster": "Tarpaud-1, Ursaring-1, Luxray-1, Cizayox-1, Bastiodon-1, Hariyama-1, Steelix-1, Roigada-1, Yanmega-1, Milobellus-2, Tarinorme-1, Alakazam-1",
+      "species": "Tarpaud, Ursaring, Luxray, Cizayox, Bastiodon, Hariyama, Steelix, Roigada, Yanmega, Milobellus, Tarinorme, Alakazam",
+      "teams": [
+        "Tarpaud-1, Ursaring-1, Luxray-1, Cizayox-1",
+        "Bastiodon-1, Hariyama-1, Steelix-1, Roigada-1",
+        "Yanmega-1, Milobellus-2, Tarinorme-1, Alakazam-1"
+      ],
+      "late": "",
+      "quote": "Et voici l'infatigable Fan de Camping dans toute sa splendeur !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/camper.png"
+    },
+    {
+      "name": "Samson",
+      "class": "Ouvrier",
+      "roster": "Fouinar-1, Spectrum-1, Carabaffe-1, Lilia-1, Flobio-1, Saquedeneu-1, Bekipan-1, Farfuret-1, Joliflor-1, Ninjask-1, Motisma-1, Crustabri-1",
+      "species": "Fouinar, Spectrum, Carabaffe, Lilia, Flobio, Saquedeneu, Bekipan, Farfuret, Joliflor, Ninjask, Motisma, Crustabri",
+      "teams": [
+        "Fouinar-1, Spectrum-1, Carabaffe-1, Lilia-1",
+        "Flobio-1, Saquedeneu-1, Bekipan-1, Farfuret-1",
+        "Joliflor-1, Ninjask-1, Motisma-1, Crustabri-1"
+      ],
+      "late": "",
+      "quote": "Hors de mon chemin ! J'ai des livraisons à faire !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/worker.png"
+    },
+    {
+      "name": "Othmane",
+      "class": "Cycliste",
+      "roster": "Persian-1, Yanma-1, Galegon-1, Scorplane-1, Colossinge-1, Phogleur-1, Élektek-1, Fouinar-1",
+      "species": "Persian, Yanma, Galegon, Scorplane, Colossinge, Phogleur, Élektek, Fouinar",
+      "teams": [
+        "Persian-1, Yanma-1, Galegon-1, Scorplane-1",
+        "Colossinge-1, Phogleur-1, Élektek-1, Fouinar-1"
+      ],
+      "late": "",
+      "quote": "Changement de vitesse ! Pédalage au max ! On accélère la cadence !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/cyclist-f.png"
+    },
+    {
+      "name": "Isaline",
+      "class": "Socialite",
+      "roster": "Typhlosion-2, Lucario-1, Porygon-Z-1, Noctali-1, Scorvol-1, Dracolosse-2, Libégon-1, Luxray-1",
+      "species": "Typhlosion, Lucario, Porygon-Z, Noctali, Scorvol, Dracolosse, Libégon, Luxray",
+      "teams": [
+        "Typhlosion-2, Lucario-1, Porygon-Z-1, Noctali-1",
+        "Scorvol-1, Dracolosse-2, Libégon-1, Luxray-1"
+      ],
+      "late": "",
+      "quote": "J'aimerais que mes enfants deviennent des Dresseurs prestigieux.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/madame.png"
+    },
+    {
+      "name": "Gloria",
+      "class": "Mademoiselle",
+      "roster": "Électrode-1, Chapignon-1, Typhlosion-1, Hypnomade-1, Rhinoféros-1, Scorvol-1, Tarpaud-1",
+      "species": "Électrode, Chapignon, Typhlosion, Hypnomade, Rhinoféros, Scorvol, Tarpaud",
+      "teams": [
+        "Électrode-1, Chapignon-1, Typhlosion-1, Hypnomade-1",
+        "Rhinoféros-1, Scorvol-1, Tarpaud-1, Typhlosion-1"
+      ],
+      "late": "",
+      "quote": "Je crois que je ne suis vraiment pas faite pour toutes ces mondanités.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/lady.png"
+    },
+    {
+      "name": "Brigit",
+      "class": "Star",
+      "roster": "Drascore-1, Tengalice-1, Roserade-1, Mustéflott-1, Charkos-1, Bastiodon-1, Magirêve-1, Voltali-1, Ossatueur-2, Mammochon-3, Carchacrok-1",
+      "species": "Drascore, Tengalice, Roserade, Mustéflott, Charkos, Bastiodon, Magirêve, Voltali, Ossatueur, Mammochon, Carchacrok",
+      "teams": [
+        "Drascore-1, Tengalice-1, Roserade-1, Mustéflott-1",
+        "Charkos-1, Bastiodon-1, Magirêve-1, Roserade-1",
+        "Voltali-1, Ossatueur-2, Mammochon-3, Carchacrok-1"
+      ],
+      "late": "",
+      "quote": "Être mignonne fait partie de mon travail !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/idol.png"
+    },
+    {
+      "name": "Fostine",
+      "class": "Cycliste",
+      "roster": "Vigoroth-1, Papinox-1, Macronium-1, Insolourdo-1, Tygnon-1, Solaroc-1, Vortente-1, Téraclope-1",
+      "species": "Vigoroth, Papinox, Macronium, Insolourdo, Tygnon, Solaroc, Vortente, Téraclope",
+      "teams": [
+        "Vigoroth-1, Papinox-1, Macronium-1, Insolourdo-1",
+        "Tygnon-1, Solaroc-1, Vortente-1, Téraclope-1"
+      ],
+      "late": "",
+      "quote": "Je préfère pédaler tranquillement plutôt qu'aller à toute vitesse.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/cyclist-f.png"
+    },
+    {
+      "name": "Pamela",
+      "class": "Socialite",
+      "roster": "Girafarig-1, Pijako-1, Téraclope-1, Rattatac-1, Relicanth-1, Crustabri-1, Rapasdepic-1, Kicklee-1, Serpang-1, Flagadoss-1, Raichu-1, Chapignon-1",
+      "species": "Girafarig, Pijako, Téraclope, Rattatac, Relicanth, Crustabri, Rapasdepic, Kicklee, Serpang, Flagadoss, Raichu, Chapignon",
+      "teams": [
+        "Girafarig-1, Pijako-1, Téraclope-1, Rattatac-1",
+        "Relicanth-1, Crustabri-1, Rapasdepic-1, Kicklee-1",
+        "Serpang-1, Flagadoss-1, Raichu-1, Chapignon-1"
+      ],
+      "late": "",
+      "quote": "Ma foi... Quel adorable Dresseu!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/madame.png"
+    },
+    {
+      "name": "Matt",
+      "class": "Fermier",
+      "roster": "Typhlosion-2, Aquali-1, Métalosse-1, Drattak-1, Voltali-1, Rhinastoc-2, Triopikeur-2",
+      "species": "Typhlosion, Aquali, Métalosse, Drattak, Voltali, Rhinastoc, Triopikeur",
+      "teams": [
+        "Typhlosion-2, Aquali-1, Métalosse-1, Drattak-1",
+        "Voltali-1, Rhinastoc-2, Triopikeur-2, Typhlosion-2"
+      ],
+      "late": "",
+      "quote": "Allez mes petits, faites de votre mieux !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/rancher.png"
+    },
+    {
+      "name": "Vincien",
+      "class": "Scout",
+      "roster": "Goupix-1, Stalgamin-1, Magnéti-1, Tentacool-1, Polichombr-1, Ceribou-1, Soporifik-1, Baudrive-1, Magby-1, Ceriflor-1, Grodoudou-1, Spectrum-1",
+      "species": "Goupix, Stalgamin, Magnéti, Tentacool, Polichombr, Ceribou, Soporifik, Baudrive, Magby, Ceriflor, Grodoudou, Spectrum",
+      "teams": [
+        "Goupix-1, Stalgamin-1, Magnéti-1, Tentacool-1",
+        "Polichombr-1, Ceribou-1, Soporifik-1, Baudrive-1",
+        "Magby-1, Ceriflor-1, Grodoudou-1, Spectrum-1"
+      ],
+      "late": "",
+      "quote": "Je vais t'attraper avec mon filet !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/bugcatcher.png"
+    },
+    {
+      "name": "Sébastien",
+      "class": "Joggeur",
+      "roster": "Massko-1, Castorno-1, Carabaffe-1, Reptincel-1, Pijako-1, Dardargnan-1, Feurisson-1, Héliatronc-1, Girafarig-1, Magnéton-1, Colossinge-1, Dodrio-1",
+      "species": "Massko, Castorno, Carabaffe, Reptincel, Pijako, Dardargnan, Feurisson, Héliatronc, Girafarig, Magnéton, Colossinge, Dodrio",
+      "teams": [
+        "Massko-1, Castorno-1, Carabaffe-1, Reptincel-1",
+        "Pijako-1, Dardargnan-1, Feurisson-1, Héliatronc-1",
+        "Girafarig-1, Magnéton-1, Colossinge-1, Dodrio-1"
+      ],
+      "late": "",
+      "quote": "Je cours un marathon tous les matins ! C'est comme ça que j'aime commencer mes journées.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/jogger.png"
+    },
+    {
+      "name": "Duncan",
+      "class": "Marin",
+      "roster": "Crocrodil-1, Saquedeneu-1, Feurisson-1, Qwilfish-1, Linéon-1, Muciole-1, Feuforêve-1, Drackhaus-1, Relicanth-1, Octillery-1, Groret-1, Sharpedo-1",
+      "species": "Crocrodil, Saquedeneu, Feurisson, Qwilfish, Linéon, Muciole, Feuforêve, Drackhaus, Relicanth, Octillery, Groret, Sharpedo",
+      "teams": [
+        "Crocrodil-1, Saquedeneu-1, Feurisson-1, Qwilfish-1",
+        "Linéon-1, Muciole-1, Feuforêve-1, Drackhaus-1",
+        "Relicanth-1, Octillery-1, Groret-1, Sharpedo-1"
+      ],
+      "late": "",
+      "quote": "Je suis le plus marin de tous les Marins ! Je suis même né sur un bateau, c'est dire !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/sailor.png"
+    },
+    {
+      "name": "Elina",
+      "class": "Aromathérapeute",
+      "roster": "Nidorina-1, Porygon-1, Ponyta-1, Magby-1, Bulbizarre-1, Polichombr-1, Phanpy-1, Baudrive-1, Morphéo-1, Excelangue-1, Qwilfish-1, Simularbre-1",
+      "species": "Nidorina, Porygon, Ponyta, Magby, Bulbizarre, Polichombr, Phanpy, Baudrive, Morphéo, Excelangue, Qwilfish, Simularbre",
+      "teams": [
+        "Nidorina-1, Porygon-1, Ponyta-1, Magby-1",
+        "Bulbizarre-1, Polichombr-1, Phanpy-1, Baudrive-1",
+        "Morphéo-1, Excelangue-1, Qwilfish-1, Simularbre-1"
+      ],
+      "late": "",
+      "quote": "*renifle*",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/aromalady.png"
+    },
+    {
+      "name": "Marzia",
+      "class": "Pokémon Ranger",
+      "roster": "Étouraptor-1, Méganium-1, Rafflesia-1, Moufflair-1, Braségali-1, Empiflor-1, Oniglali-1, Électrode-1, Mackogneur-1, Gallame-1, Barbicha-1",
+      "species": "Étouraptor, Méganium, Rafflesia, Moufflair, Braségali, Empiflor, Oniglali, Électrode, Mackogneur, Gallame, Barbicha",
+      "teams": [
+        "Étouraptor-1, Méganium-1, Rafflesia-1, Moufflair-1",
+        "Braségali-1, Empiflor-1, Rafflesia-1, Oniglali-1",
+        "Électrode-1, Mackogneur-1, Gallame-1, Barbicha-1"
+      ],
+      "late": "",
+      "quote": "Mes charmants petits Pokémon voudraient te faire un bisou !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/pokemonranger-f.png"
+    },
+    {
+      "name": "Victor",
+      "class": "Karatéka",
+      "roster": "Goinfrex-1, Grodoudou-1, Volcaropod-1, Nidorina-1, Herbizarre-1, Octillery-1, Kapoera-1, Massko-1",
+      "species": "Goinfrex, Grodoudou, Volcaropod, Nidorina, Herbizarre, Octillery, Kapoera, Massko",
+      "teams": [
+        "Goinfrex-1, Grodoudou-1, Volcaropod-1, Nidorina-1",
+        "Herbizarre-1, Octillery-1, Kapoera-1, Massko-1"
+      ],
+      "late": "",
+      "quote": "Désolé, je ne sais pas retenir mes coups, même contre adversaire plus jeune!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/blackbelt.png"
+    },
+    {
+      "name": "Ramon",
+      "class": "Kinésiste",
+      "roster": "Feurisson-1, Sharpedo-1, Leveinard-1, Qwilfish-1, Ymphect-1, Magnéton-1, Relicanth-1, Rattatac-1, Ossatueur-1, Flagadoss-1, Séviper-1",
+      "species": "Feurisson, Sharpedo, Leveinard, Qwilfish, Ymphect, Magnéton, Relicanth, Rattatac, Ossatueur, Flagadoss, Séviper",
+      "teams": [
+        "Feurisson-1, Sharpedo-1, Leveinard-1, Qwilfish-1",
+        "Ymphect-1, Magnéton-1, Relicanth-1, Rattatac-1",
+        "Magnéton-1, Ossatueur-1, Flagadoss-1, Séviper-1"
+      ],
+      "late": "",
+      "quote": "Regarde-moi dans les yeux !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/psychic-m.png"
+    },
+    {
+      "name": "Esther",
+      "class": "Combattante",
+      "roster": "Givrali-1, Nidoqueen-1, Tortank-2, Gardevoir-1, Libégon-1, Bouldeneu-1, Lucario-1, Simiabraz-2",
+      "species": "Givrali, Nidoqueen, Tortank, Gardevoir, Libégon, Bouldeneu, Lucario, Simiabraz",
+      "teams": [
+        "Givrali-1, Nidoqueen-1, Tortank-2, Gardevoir-1",
+        "Libégon-1, Bouldeneu-1, Lucario-1, Simiabraz-2"
+      ],
+      "late": "",
+      "quote": "Shaaah !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/battlegirl.png"
+    },
+    {
+      "name": "Carol",
+      "class": "Star",
+      "roster": "Momartik-1, Tarpaud-1, Noadkoko-1, Triopikeur-1, Démolosse-1, Moufflair-1, Altaria-1, Feunard-1, Ossatueur-2, Tarinorme-1, Mentali-1, Phyllali-1",
+      "species": "Momartik, Tarpaud, Noadkoko, Triopikeur, Démolosse, Moufflair, Altaria, Feunard, Ossatueur, Tarinorme, Mentali, Phyllali",
+      "teams": [
+        "Momartik-1, Tarpaud-1, Noadkoko-1, Triopikeur-1",
+        "Démolosse-1, Moufflair-1, Altaria-1, Feunard-1",
+        "Ossatueur-2, Tarinorme-1, Mentali-1, Phyllali-1"
+      ],
+      "late": "",
+      "quote": "Je t'autorise à me serrer la main. C'est un grand honneur, tu sais !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/idol.png"
+    },
+    {
+      "name": "Arianne",
+      "class": "Éleveur",
+      "roster": "Insécateur-1, Reptincel-1, Rapasdepic-1, Carmache-1, Colossinge-1, Colhomard-1, Séviper-1, Kicklee-1, Dracaufeu-1, Ossatueur-1, Lamantine-1, Charmina-1",
+      "species": "Insécateur, Reptincel, Rapasdepic, Carmache, Colossinge, Colhomard, Séviper, Kicklee, Dracaufeu, Ossatueur, Lamantine, Charmina",
+      "teams": [
+        "Insécateur-1, Reptincel-1, Rapasdepic-1, Carmache-1",
+        "Colossinge-1, Colhomard-1, Séviper-1, Kicklee-1",
+        "Dracaufeu-1, Ossatueur-1, Lamantine-1, Charmina-1"
+      ],
+      "late": "",
+      "quote": "Ravie de faire ta connaissance. Attention, ne me sous-estime pas !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/pokemonbreeder-f.png"
+    },
+    {
+      "name": "Gabinia",
+      "class": "Fan de Pique-Nique",
+      "roster": "Grotadmorv-1, Tritosor-1, Alakazam-1, Gallame-1, Aligatueur-2, Libégon-1, Maganon-1, Pingoléon-2",
+      "species": "Grotadmorv, Tritosor, Alakazam, Gallame, Aligatueur, Libégon, Maganon, Pingoléon",
+      "teams": [
+        "Grotadmorv-1, Tritosor-1, Alakazam-1, Gallame-1",
+        "Aligatueur-2, Libégon-1, Maganon-1, Pingoléon-2"
+      ],
+      "late": "",
+      "quote": "Peu importe qui perd ou qui gagne, l'important, c'est de s'amuser.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/picnicker.png"
+    },
+    {
+      "name": "Trevor",
+      "class": "Élève",
+      "roster": "Étourmi-1, Écrapince-1, Lombre-1, Spoink-1, Riolu-1, Bulbizarre-2, Natu-1, Hippopotas-1, Éoko-1, Munja-2, Canarticho-1, Évoli-1, Nidorino-1, Babimanta-1, Azumarill-1, Cadoizo-1",
+      "species": "Étourmi, Écrapince, Lombre, Spoink, Riolu, Bulbizarre, Natu, Hippopotas, Éoko, Munja, Canarticho, Évoli, Nidorino, Babimanta, Azumarill, Cadoizo",
+      "teams": [
+        "Étourmi-1, Écrapince-1, Lombre-1, Spoink-1",
+        "Riolu-1, Bulbizarre-2, Natu-1, Hippopotas-1",
+        "Éoko-1, Munja-2, Canarticho-1, Évoli-1",
+        "Nidorino-1, Babimanta-1, Azumarill-1, Cadoizo-1"
+      ],
+      "late": "",
+      "quote": "Tous les jours, j'étudie pour pouvoir travailler dans le monde entier.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/schoolkid-m.png"
+    },
+    {
+      "name": "Camélia",
+      "class": "Éleveur",
+      "roster": "Rapasdepic-1, Boskara-1, Luminéon-1, Héliatronc-1, Krabboss-1, Pijako-1, Colhomard-1, Sablaireau-1, Capidextre-1, Ninjask-1, Tortank-1, Foretress-1",
+      "species": "Rapasdepic, Boskara, Luminéon, Héliatronc, Krabboss, Pijako, Colhomard, Sablaireau, Capidextre, Ninjask, Tortank, Foretress",
+      "teams": [
+        "Rapasdepic-1, Boskara-1, Luminéon-1, Héliatronc-1",
+        "Krabboss-1, Pijako-1, Colhomard-1, Sablaireau-1",
+        "Capidextre-1, Ninjask-1, Tortank-1, Foretress-1"
+      ],
+      "late": "",
+      "quote": "Je me spécialise dans les Pokémon mignons !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/pokemonbreeder-f.png"
+    },
+    {
+      "name": "Stefano",
+      "class": "Fan de Camping",
+      "roster": "Momartik-1, Charkos-1, Kaorine-1, Ossatueur-1, Drascore-1, Donphan-1, Ectoplasma-1, Vacilys-1, Torterra-2, Dracaufeu-2, Maganon-1, Nostenfer-1",
+      "species": "Momartik, Charkos, Kaorine, Ossatueur, Drascore, Donphan, Ectoplasma, Vacilys, Torterra, Dracaufeu, Maganon, Nostenfer",
+      "teams": [
+        "Momartik-1, Charkos-1, Kaorine-1, Ossatueur-1",
+        "Drascore-1, Donphan-1, Ectoplasma-1, Vacilys-1",
+        "Torterra-2, Dracaufeu-2, Maganon-1, Nostenfer-1"
+      ],
+      "late": "",
+      "quote": "Mes chances de gagner sont minces, mais je combattrai quand même.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/camper.png"
+    },
+    {
+      "name": "Anthony",
+      "class": "Vénérable",
+      "roster": "Kabutops-1, Chartor-1, Girafarig-1, Luminéon-1, Joliflor-1, Reptincel-1, Motisma-1, Lockpin-1, Barbicha-1, Apireine-1, Ludicolo-1",
+      "species": "Kabutops, Chartor, Girafarig, Luminéon, Joliflor, Reptincel, Motisma, Lockpin, Barbicha, Apireine, Ludicolo",
+      "teams": [
+        "Kabutops-1, Chartor-1, Girafarig-1, Luminéon-1",
+        "Joliflor-1, Reptincel-1, Motisma-1, Chartor-1",
+        "Lockpin-1, Barbicha-1, Apireine-1, Ludicolo-1"
+      ],
+      "late": "",
+      "quote": "Tout le monde est prêt ?",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/veteran.png"
+    },
+    {
+      "name": "Rénald",
+      "class": "Éleveur",
+      "roster": "Vortente-1, Castorno-1, Leveinard-1, Tygnon-1, Poissoroy-1, Galegon-1, Noarfang-1, Papilord-1, Empiflor-1, Lippoutou-1, Nosferalto-1",
+      "species": "Vortente, Castorno, Leveinard, Tygnon, Poissoroy, Galegon, Noarfang, Papilord, Empiflor, Lippoutou, Nosferalto",
+      "teams": [
+        "Vortente-1, Castorno-1, Leveinard-1, Tygnon-1",
+        "Poissoroy-1, Galegon-1, Noarfang-1, Papilord-1",
+        "Empiflor-1, Tygnon-1, Lippoutou-1, Nosferalto-1"
+      ],
+      "late": "",
+      "quote": "Élever des Pokémon demande beaucoup d'efforts et d'honnêteté !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/pokemonbreeder-m.png"
+    },
+    {
+      "name": "Maritxu",
+      "class": "Star",
+      "roster": "Pachirisu-1, Qwilfish-1, Flobio-1, Négapi-1, Bekipan-1, Fouinar-1, Papilord-1, Drackhaus-1, Camérupt-1, Hélédelle-1, Noarfang-1, Chimpenfeu-1",
+      "species": "Pachirisu, Qwilfish, Flobio, Négapi, Bekipan, Fouinar, Papilord, Drackhaus, Camérupt, Hélédelle, Noarfang, Chimpenfeu",
+      "teams": [
+        "Pachirisu-1, Qwilfish-1, Flobio-1, Négapi-1",
+        "Bekipan-1, Fouinar-1, Papilord-1, Drackhaus-1",
+        "Camérupt-1, Hélédelle-1, Noarfang-1, Chimpenfeu-1"
+      ],
+      "late": "",
+      "quote": "À cause de mon amour pour les combats, je risque de perdre mes contrats de Star...",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/idol.png"
+    },
+    {
+      "name": "Violeta",
+      "class": "Poké Enfant",
+      "roster": "Mélofée-1, Élekid-1, Spectrum-1, Anorith-1, Tylton-1, Ptiravi-1, Mime Jr.-1, Psykokwak-1, Yanma-1, Draco-1, Bekipan-1, Charmillon-1",
+      "species": "Mélofée, Élekid, Spectrum, Anorith, Tylton, Ptiravi, Mime Jr., Psykokwak, Yanma, Draco, Bekipan, Charmillon",
+      "teams": [
+        "Mélofée-1, Élekid-1, Spectrum-1, Anorith-1",
+        "Tylton-1, Ptiravi-1, Mime Jr.-1, Psykokwak-1",
+        "Yanma-1, Draco-1, Bekipan-1, Charmillon-1"
+      ],
+      "late": "",
+      "quote": "Tu veux me faire du mal? T'es trop méchant!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/pokekid.png"
+    },
+    {
+      "name": "João",
+      "class": "Topdresseur",
+      "roster": "Étouraptor-1, Sharpedo-1, Ludicolo-1, Dodrio-1, Smogogo-1, Apireine-1, Électrode-1, Hariyama-1, Ptéra-1, Altaria-1, Ursaring-1, Staross-1",
+      "species": "Étouraptor, Sharpedo, Ludicolo, Dodrio, Smogogo, Apireine, Électrode, Hariyama, Ptéra, Altaria, Ursaring, Staross",
+      "teams": [
+        "Étouraptor-1, Sharpedo-1, Ludicolo-1, Dodrio-1",
+        "Smogogo-1, Apireine-1, Électrode-1, Hariyama-1",
+        "Ptéra-1, Altaria-1, Ursaring-1, Staross-1"
+      ],
+      "late": "",
+      "quote": "Attention, je lâche mes meilleurs Pokémon !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/acetrainer-m.png"
+    },
+    {
+      "name": "Arno",
+      "class": "Topdresseur",
+      "roster": "Yanmega-1, Arcanin-1, Leuphorie-1, Mustéflott-1, Noctunoir-1, Wailord-1, Steelix-1",
+      "species": "Yanmega, Arcanin, Leuphorie, Mustéflott, Noctunoir, Wailord, Steelix",
+      "teams": [
+        "Yanmega-1, Arcanin-1, Leuphorie-1, Mustéflott-1",
+        "Noctunoir-1, Wailord-1, Arcanin-1, Steelix-1"
+      ],
+      "late": "",
+      "quote": "Bouahaha ! Tu crois pouvoir me battre ?",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/acetrainer-m.png"
+    },
+    {
+      "name": "Yvon",
+      "class": "Gamin",
+      "roster": "Poussifeu-1, Skelénox-1, Laporeille-1, Cacnea-1, Snubbull-1, Carapuce-2, Psykokwak-1, Gobou-1, Bulbizarre-2, Voltorbe-1, Anorith-1, Poussifeu-2, Cadoizo-1",
+      "species": "Poussifeu, Skelénox, Laporeille, Cacnea, Snubbull, Carapuce, Psykokwak, Gobou, Bulbizarre, Voltorbe, Anorith, Cadoizo",
+      "teams": [
+        "Poussifeu-1, Skelénox-1, Laporeille-1, Cacnea-1",
+        "Snubbull-1, Carapuce-2, Psykokwak-1, Laporeille-1",
+        "Gobou-1, Bulbizarre-2, Laporeille-1, Voltorbe-1",
+        "Anorith-1, Poussifeu-2, Voltorbe-1, Cadoizo-1"
+      ],
+      "late": "",
+      "quote": "Attention, j'arrive !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/youngster.png"
+    },
+    {
+      "name": "Krysten",
+      "class": "Combattante",
+      "roster": "Mélodelfe-1, Leveinard-1, Rosabyss-1, Rattatac-1, Octillery-1, Solaroc-1, Krabboss-1, Éoko-3, Mangriff-1, Tauros-1, Braségali-1, Crustabri-1",
+      "species": "Mélodelfe, Leveinard, Rosabyss, Rattatac, Octillery, Solaroc, Krabboss, Éoko, Mangriff, Tauros, Braségali, Crustabri",
+      "teams": [
+        "Mélodelfe-1, Leveinard-1, Rosabyss-1, Rattatac-1",
+        "Octillery-1, Solaroc-1, Krabboss-1, Éoko-3",
+        "Mangriff-1, Tauros-1, Braségali-1, Crustabri-1"
+      ],
+      "late": "",
+      "quote": "Ça fait cinq ans que je vis recluse dans la montagne. Mes cheveux ont poussé !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/battlegirl.png"
+    },
+    {
+      "name": "Nawel",
+      "class": "Pokémon Ranger",
+      "roster": "Flagadoss-1, Groret-1, Torterra-1, Cotovol-1, Grolem-1, Tauros-1, Jungko-1, Florizarre-1, Ptéra-1, Steelix-1, Armaldo-1, Alakazam-1",
+      "species": "Flagadoss, Groret, Torterra, Cotovol, Grolem, Tauros, Jungko, Florizarre, Ptéra, Steelix, Armaldo, Alakazam",
+      "teams": [
+        "Flagadoss-1, Groret-1, Torterra-1, Cotovol-1",
+        "Grolem-1, Tauros-1, Jungko-1, Florizarre-1",
+        "Ptéra-1, Steelix-1, Armaldo-1, Alakazam-1"
+      ],
+      "late": "",
+      "quote": "Je tenais tellement à trouver une bonne stratégie que je n'en ai pas dormi de la nuit !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/pokemonranger-f.png"
+    },
+    {
+      "name": "Julie",
+      "class": "Montagnard",
+      "roster": "Séléroc-1, Morphéo-1, Métang-1, Insolourdo-1, Galifeu-1, Qwilfish-1, Hélédelle-1, Tropius-1, Insécateur-1, Rapasdepic-1, Cotovol-1",
+      "species": "Séléroc, Morphéo, Métang, Insolourdo, Galifeu, Qwilfish, Hélédelle, Tropius, Insécateur, Rapasdepic, Cotovol",
+      "teams": [
+        "Séléroc-1, Morphéo-1, Métang-1, Insolourdo-1",
+        "Galifeu-1, Qwilfish-1, Métang-1, Hélédelle-1",
+        "Tropius-1, Insécateur-1, Rapasdepic-1, Cotovol-1"
+      ],
+      "late": "",
+      "quote": "Oooooh hééé !!!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/hiker.png"
+    },
+    {
+      "name": "Nayla",
+      "class": "Star",
+      "roster": "Cizayox-1, Momartik-1, Galopa-1, Barbicha-1, Drascore-1, M. Mime-1, Nidoking-1, Caratroc-1, Mentali-1, Blizzaroi-6, Galeking-1, Hyporoi-1",
+      "species": "Cizayox, Momartik, Galopa, Barbicha, Drascore, M. Mime, Nidoking, Caratroc, Mentali, Blizzaroi, Galeking, Hyporoi",
+      "teams": [
+        "Cizayox-1, Momartik-1, Galopa-1, Barbicha-1",
+        "Drascore-1, M. Mime-1, Nidoking-1, Caratroc-1",
+        "Mentali-1, Blizzaroi-6, Galeking-1, Hyporoi-1"
+      ],
+      "late": "",
+      "quote": "Dans le cadre de mon travail, je dois parfois incarner une Nageuse ou un Canon.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/idol.png"
+    },
+    {
+      "name": "Geffrey",
+      "class": "Guitariste",
+      "roster": "Ptiravi-1, Éoko-2, Spoink-1, Voltorbe-1, Machoc-1, Étourmi-2, Roucoups-1, Griknot-1, Skelénox-1, Loupio-1, Krabby-1, Bulbizarre-1, Carvanha-1, Coquiperl-1, Soporifik-1",
+      "species": "Ptiravi, Éoko, Spoink, Voltorbe, Machoc, Étourmi, Roucoups, Griknot, Skelénox, Loupio, Krabby, Bulbizarre, Carvanha, Coquiperl, Soporifik",
+      "teams": [
+        "Ptiravi-1, Éoko-2, Spoink-1, Voltorbe-1",
+        "Machoc-1, Étourmi-2, Roucoups-1, Voltorbe-1",
+        "Griknot-1, Skelénox-1, Loupio-1, Krabby-1",
+        "Bulbizarre-1, Carvanha-1, Coquiperl-1, Soporifik-1"
+      ],
+      "late": "",
+      "quote": "Rock ? Jazz ? Techno ? Tout me va comme bande-son pour notre combat !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/guitarist.png"
+    },
+    {
+      "name": "Gaétane",
+      "class": "Cowgirl",
+      "roster": "Kaimorse-1, Tortank-2, Pingoléon-2, Méganium-2, Laggron-2, Libégon-1, Noctunoir-1, Hyporoi-1",
+      "species": "Kaimorse, Tortank, Pingoléon, Méganium, Laggron, Libégon, Noctunoir, Hyporoi",
+      "teams": [
+        "Kaimorse-1, Tortank-2, Pingoléon-2, Méganium-2",
+        "Laggron-2, Libégon-1, Noctunoir-1, Hyporoi-1"
+      ],
+      "late": "",
+      "quote": "Ta chevauchée s'arrête ici !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/cowgirl.png"
+    },
+    {
+      "name": "Yasmine",
+      "class": "Pokefan (F)",
+      "roster": "Snubbull-1, Écrapince-1, Teddiursa-1, Otaria-1, Ceribou-1, Stalgamin-1, Sancoki-1, Galekid-1, Solaroc-1, Hypocéan-1, Feuforêve-1, Hélédelle-1",
+      "species": "Snubbull, Écrapince, Teddiursa, Otaria, Ceribou, Stalgamin, Sancoki, Galekid, Solaroc, Hypocéan, Feuforêve, Hélédelle",
+      "teams": [
+        "Snubbull-1, Écrapince-1, Teddiursa-1, Otaria-1",
+        "Ceribou-1, Stalgamin-1, Sancoki-1, Galekid-1",
+        "Solaroc-1, Hypocéan-1, Feuforêve-1, Hélédelle-1"
+      ],
+      "late": "",
+      "quote": "Je bichonne trop mes Pokémon. Est-ce qu'ils vont quand même tenir le coup ?",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/pokefan-f.png"
+    },
+    {
+      "name": "Tatiana",
+      "class": "Mademoiselle",
+      "roster": "Embrylex-1, Chamallot-1, Kranidos-1, Magnéti-1, Goupix-1, Rozbouton-1, Mustébouée-1, Coquiperl-1, Archéomire-1, Noeunoeuf-1, Rapion-1, Amonita-1, Crikzik-1, Nidorina-1, Togetic-1",
+      "species": "Embrylex, Chamallot, Kranidos, Magnéti, Goupix, Rozbouton, Mustébouée, Coquiperl, Archéomire, Noeunoeuf, Rapion, Amonita, Crikzik, Nidorina, Togetic",
+      "teams": [
+        "Embrylex-1, Chamallot-1, Kranidos-1, Magnéti-1",
+        "Goupix-1, Rozbouton-1, Mustébouée-1, Coquiperl-1",
+        "Goupix-1, Archéomire-1, Noeunoeuf-1, Rapion-1",
+        "Amonita-1, Crikzik-1, Nidorina-1, Togetic-1"
+      ],
+      "late": "",
+      "quote": "Quel ennui... !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/lady.png"
+    },
+    {
+      "name": "Flavio",
+      "class": "Guitariste",
+      "roster": "Vacilys-1, Tengalice-1, Armaldo-1, Élecsprint-1, Léviator-1, Rhinoféros-2, Maganon-1, Tyranocif-1",
+      "species": "Vacilys, Tengalice, Armaldo, Élecsprint, Léviator, Rhinoféros, Maganon, Tyranocif",
+      "teams": [
+        "Vacilys-1, Tengalice-1, Armaldo-1, Élecsprint-1",
+        "Léviator-1, Rhinoféros-2, Maganon-1, Tyranocif-1"
+      ],
+      "late": "",
+      "quote": "Les Pokémon, c'est pas que pour les enfants... Je vais te montrer.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/guitarist.png"
+    },
+    {
+      "name": "Noam",
+      "class": "Guitariste",
+      "roster": "Pharamp-1, Drascore-1, Nidoking-1, Dimoret-1, Hippodocus-1, Scarabrute-1, Léviator-1, Alakazam-1",
+      "species": "Pharamp, Drascore, Nidoking, Dimoret, Hippodocus, Scarabrute, Léviator, Alakazam",
+      "teams": [
+        "Pharamp-1, Drascore-1, Nidoking-1, Dimoret-1",
+        "Hippodocus-1, Scarabrute-1, Léviator-1, Alakazam-1"
+      ],
+      "late": "",
+      "quote": "Cet objet que je tiens n'est pas vraiment une guitare.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/guitarist.png"
+    },
+    {
+      "name": "Carla",
+      "class": "Fan de Pique-Nique",
+      "roster": "Cradopaud-1, Rémoraid-2, Mélofée-1, Smogo-1, Kaiminus-1, Draby-1, Kranidos-1, Manzaï-1, Papinox-1, Muciole-1, Ramoloss-1, Kadabra-1",
+      "species": "Cradopaud, Rémoraid, Mélofée, Smogo, Kaiminus, Draby, Kranidos, Manzaï, Papinox, Muciole, Ramoloss, Kadabra",
+      "teams": [
+        "Cradopaud-1, Rémoraid-2, Mélofée-1, Smogo-1",
+        "Kaiminus-1, Draby-1, Kranidos-1, Manzaï-1",
+        "Papinox-1, Muciole-1, Ramoloss-1, Kadabra-1"
+      ],
+      "late": "",
+      "quote": "Tu vas voir, les combats Pokémon, il n'y a rien de plus amusant.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/picnicker.png"
+    },
+    {
+      "name": "Xavière",
+      "class": "Socialite",
+      "roster": "Togekiss-1, Heatran-1, Tyranocif-1, Nidoking-1, Méganium-2, Vacilys-1, Nostenfer-1, Dracolosse-2",
+      "species": "Togekiss, Heatran, Tyranocif, Nidoking, Méganium, Vacilys, Nostenfer, Dracolosse",
+      "teams": [
+        "Togekiss-1, Heatran-1, Tyranocif-1, Nidoking-1",
+        "Méganium-2, Vacilys-1, Nostenfer-1, Dracolosse-2"
+      ],
+      "late": "",
+      "quote": "Que tu es jeune !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/madame.png"
+    },
+    {
+      "name": "Diana",
+      "class": "Fillette",
+      "roster": "Typhlosion-1, Simiabraz-1, Laggron-1, Méganium-1, Brouhabam-1, Tritosor-1, Électrode-1, Ludicolo-1, Akwakwak-1, Vacilys-1, Nidoking-1, Scarabrute-1",
+      "species": "Typhlosion, Simiabraz, Laggron, Méganium, Brouhabam, Tritosor, Électrode, Ludicolo, Akwakwak, Vacilys, Nidoking, Scarabrute",
+      "teams": [
+        "Typhlosion-1, Simiabraz-1, Laggron-1, Méganium-1",
+        "Brouhabam-1, Tritosor-1, Électrode-1, Ludicolo-1",
+        "Akwakwak-1, Vacilys-1, Nidoking-1, Scarabrute-1"
+      ],
+      "late": "",
+      "quote": "C'est parti !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/lass.png"
+    },
+    {
+      "name": "Garance",
+      "class": "Combattante",
+      "roster": "Colhomard-1, Cacturne-1, Luminéon-1, Élektek-1, Girafarig-1, Tropius-1, Kapoera-1, Rosabyss-1, Typhlosion-1, Hypnomade-1, Dracaufeu-1",
+      "species": "Colhomard, Cacturne, Luminéon, Élektek, Girafarig, Tropius, Kapoera, Rosabyss, Typhlosion, Hypnomade, Dracaufeu",
+      "teams": [
+        "Colhomard-1, Cacturne-1, Luminéon-1, Élektek-1",
+        "Girafarig-1, Tropius-1, Kapoera-1, Rosabyss-1",
+        "Typhlosion-1, Rosabyss-1, Hypnomade-1, Dracaufeu-1"
+      ],
+      "late": "",
+      "quote": "Allez, prépare-toi !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/battlegirl.png"
+    },
+    {
+      "name": "Lison",
+      "class": "Kinésiste",
+      "roster": "Colossinge-1, Rattatac-1, Groret-1, Démanta-1, Hypocéan-1, Krabboss-1, Kicklee-1, Fouinar-1, Tropius-1, Moufflair-1, Tengalice-1, Aéromite-1",
+      "species": "Colossinge, Rattatac, Groret, Démanta, Hypocéan, Krabboss, Kicklee, Fouinar, Tropius, Moufflair, Tengalice, Aéromite",
+      "teams": [
+        "Colossinge-1, Rattatac-1, Groret-1, Démanta-1",
+        "Hypocéan-1, Krabboss-1, Kicklee-1, Fouinar-1",
+        "Tropius-1, Moufflair-1, Tengalice-1, Aéromite-1"
+      ],
+      "late": "",
+      "quote": "J'ai des pouvoirs ! Garantis sans trucage !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/psychic-f.png"
+    },
+    {
+      "name": "Norah",
+      "class": "Sœur Parasol",
+      "roster": "Tarinor-1, Galekid-1, Wailmer-1, Otaria-1, Tiplouf-1, Draby-1, Ramoloss-1, Roucoups-1, Macronium-1, Lilia-1, Prinplouf-1, Capumain-1",
+      "species": "Tarinor, Galekid, Wailmer, Otaria, Tiplouf, Draby, Ramoloss, Roucoups, Macronium, Lilia, Prinplouf, Capumain",
+      "teams": [
+        "Tarinor-1, Galekid-1, Wailmer-1, Otaria-1",
+        "Tiplouf-1, Draby-1, Ramoloss-1, Roucoups-1",
+        "Macronium-1, Lilia-1, Prinplouf-1, Capumain-1"
+      ],
+      "late": "",
+      "quote": "Dis-moi, que dit ta météo intérieure ?",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/parasollady.png"
+    },
+    {
+      "name": "Enora",
+      "class": "Sœur Parasol",
+      "roster": "Rosélia-1, Ponyta-1, Muciole-1, Nidorina-1, Griknot-1, Rozbouton-1, Noeunoeuf-1, Blizzi-1, Phogleur-1, Togetic-1, Massko-1, Simularbre-1",
+      "species": "Rosélia, Ponyta, Muciole, Nidorina, Griknot, Rozbouton, Noeunoeuf, Blizzi, Phogleur, Togetic, Massko, Simularbre",
+      "teams": [
+        "Rosélia-1, Ponyta-1, Muciole-1, Nidorina-1",
+        "Griknot-1, Rozbouton-1, Noeunoeuf-1, Blizzi-1",
+        "Phogleur-1, Togetic-1, Massko-1, Simularbre-1"
+      ],
+      "late": "",
+      "quote": "Regarde ! Ça, c'est mon ombrelle préférée, et eux, ce sont mes Pokémon favoris !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/parasollady.png"
+    },
+    {
+      "name": "Jaime",
+      "class": "Vénérable",
+      "roster": "Galeking-1, Kaimorse-1, Léviator-1, Lucario-1",
+      "species": "Galeking, Kaimorse, Léviator, Lucario",
+      "teams": [
+        "Galeking-1, Kaimorse-1, Léviator-1, Lucario-1"
+      ],
+      "late": "",
+      "quote": "Ça fait des années que je viens ici. Je ne me lasserai jamais de cet endroit !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/veteran.png"
+    },
+    {
+      "name": "Roland",
+      "class": "Richard",
+      "roster": "Carapuce-1, Héricendre-2, Moufouette-1, Krabby-1, Ptiravi-1, Snubbull-1, Cacnea-1, Dinoclier-1, Manzaï-1, Chaglam-1, Tentacool-1, Lombre-1, Poussifeu-1, Cheniti-1, Écayon-1, Phanpy-1",
+      "species": "Carapuce, Héricendre, Moufouette, Krabby, Ptiravi, Snubbull, Cacnea, Dinoclier, Manzaï, Chaglam, Tentacool, Lombre, Poussifeu, Cheniti, Écayon, Phanpy",
+      "teams": [
+        "Carapuce-1, Héricendre-2, Moufouette-1, Krabby-1",
+        "Ptiravi-1, Snubbull-1, Cacnea-1, Dinoclier-1",
+        "Manzaï-1, Chaglam-1, Tentacool-1, Lombre-1",
+        "Poussifeu-1, Cheniti-1, Écayon-1, Phanpy-1"
+      ],
+      "late": "",
+      "quote": "Ça va, ça va. Ne dis rien, j'ai compris !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/richboy.png"
+    },
+    {
+      "name": "Rodrigo",
+      "class": "Topdresseur",
+      "roster": "Aéromite-1, Ymphect-1, Branette-1, Crocrodil-1, Ninjask-1, Moufflair-1, Barbicha-1, Sablaireau-1",
+      "species": "Aéromite, Ymphect, Branette, Crocrodil, Ninjask, Moufflair, Barbicha, Sablaireau",
+      "teams": [
+        "Aéromite-1, Ymphect-1, Branette-1, Crocrodil-1",
+        "Ninjask-1, Moufflair-1, Barbicha-1, Sablaireau-1"
+      ],
+      "late": "",
+      "quote": "Je vais t'enseigner tout ce que je sais !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/acetrainer-m.png"
+    },
+    {
+      "name": "Josépha",
+      "class": "Topdresseur",
+      "roster": "M. Mime-1, Simiabraz-1, Tauros-1, Smogogo-1, Tygnon-1, Triopikeur-1, Hypnomade-1, Serpang-1, Braségali-1, Écrémeuh-1, Charkos-1, Méganium-1",
+      "species": "M. Mime, Simiabraz, Tauros, Smogogo, Tygnon, Triopikeur, Hypnomade, Serpang, Braségali, Écrémeuh, Charkos, Méganium",
+      "teams": [
+        "M. Mime-1, Simiabraz-1, Tauros-1, Smogogo-1",
+        "Tygnon-1, Triopikeur-1, Hypnomade-1, Serpang-1",
+        "Braségali-1, Écrémeuh-1, Charkos-1, Méganium-1"
+      ],
+      "late": "",
+      "quote": "Quand je me bats, je fais mon maximum, quoi qu'il arrive !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/acetrainer-f.png"
+    },
+    {
+      "name": "Alan",
+      "class": "Fan de Camping",
+      "roster": "Arcko-1, Sabelette-1, Phanpy-1, Ramoloss-1, Pikachu-1, Ouisticram-2, Loupio-1, Malosse-1, Polichombr-1, Arcko-2, Manzaï-1, Ptiravi-1, Tentacool-1, Écayon-1",
+      "species": "Arcko, Sabelette, Phanpy, Ramoloss, Pikachu, Ouisticram, Loupio, Malosse, Polichombr, Manzaï, Ptiravi, Tentacool, Écayon",
+      "teams": [
+        "Arcko-1, Sabelette-1, Phanpy-1, Ramoloss-1",
+        "Pikachu-1, Ouisticram-2, Loupio-1, Malosse-1",
+        "Polichombr-1, Arcko-2, Ramoloss-1, Loupio-1",
+        "Manzaï-1, Ptiravi-1, Tentacool-1, Écayon-1"
+      ],
+      "late": "",
+      "quote": "Hein ? Hé ! Où est-ce qu'ils sont tous passés ?",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/camper.png"
+    },
+    {
+      "name": "Nicky",
+      "class": "Fan de Pique-Nique",
+      "roster": "Ptiravi-1, Cradopaud-1, Mystherbe-1, Lombre-1, Riolu-1, Embrylex-2, Évoli-1, Kranidos-1, Keunotor-1, Mimitoss-1, Baudrive-1, Coquiperl-1, Osselait-1, Yanma-1, Muciole-1, Lovdisc-1",
+      "species": "Ptiravi, Cradopaud, Mystherbe, Lombre, Riolu, Embrylex, Évoli, Kranidos, Keunotor, Mimitoss, Baudrive, Coquiperl, Osselait, Yanma, Muciole, Lovdisc",
+      "teams": [
+        "Ptiravi-1, Cradopaud-1, Mystherbe-1, Lombre-1",
+        "Riolu-1, Embrylex-2, Évoli-1, Kranidos-1",
+        "Keunotor-1, Mimitoss-1, Baudrive-1, Coquiperl-1",
+        "Osselait-1, Yanma-1, Muciole-1, Lovdisc-1"
+      ],
+      "late": "",
+      "quote": "Lalala ! ♪ Nous voilà !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/picnicker.png"
+    },
+    {
+      "name": "Benito",
+      "class": "Éleveur",
+      "roster": "Cacturne-1, Xatu-1, Branette-1, Mélodelfe-1, Crustabri-1, Cochignon-1, Dodrio-1, Cerfrousse-1, Barbicha-1, Serpang-1, Kangourex-1",
+      "species": "Cacturne, Xatu, Branette, Mélodelfe, Crustabri, Cochignon, Dodrio, Cerfrousse, Barbicha, Serpang, Kangourex",
+      "teams": [
+        "Cacturne-1, Xatu-1, Branette-1, Mélodelfe-1",
+        "Crustabri-1, Cochignon-1, Dodrio-1, Cerfrousse-1",
+        "Barbicha-1, Serpang-1, Kangourex-1, Cochignon-1"
+      ],
+      "late": "",
+      "quote": "Je vis aux côtés des Pokémon.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/pokemonbreeder-m.png"
+    },
+    {
+      "name": "Lucile",
+      "class": "Aromathérapeute",
+      "roster": "Phogleur-1, Négapi-1, Héliatronc-1, Flobio-1, Galifeu-1, Papilusion-1, Castorno-1, Séléroc-1, Leveinard-1, Ymphect-1, Magmar-1, Avaltout-1",
+      "species": "Phogleur, Négapi, Héliatronc, Flobio, Galifeu, Papilusion, Castorno, Séléroc, Leveinard, Ymphect, Magmar, Avaltout",
+      "teams": [
+        "Phogleur-1, Négapi-1, Héliatronc-1, Flobio-1",
+        "Galifeu-1, Papilusion-1, Castorno-1, Séléroc-1",
+        "Leveinard-1, Ymphect-1, Magmar-1, Avaltout-1"
+      ],
+      "late": "",
+      "quote": "Tu vas perdre, mais au moins, tu auras l'occasion de humer mon délicieux parfum !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/aromalady.png"
+    },
+    {
+      "name": "Tifaine",
+      "class": "Combattante",
+      "roster": "Branette-1, Morphéo-1, Ninjask-1, Rattatac-1, Galifeu-1, Dodrio-1, Camérupt-1, Airmure-1, Empiflor-1, Laggron-1, Simiabraz-1",
+      "species": "Branette, Morphéo, Ninjask, Rattatac, Galifeu, Dodrio, Camérupt, Airmure, Empiflor, Laggron, Simiabraz",
+      "teams": [
+        "Branette-1, Morphéo-1, Ninjask-1, Rattatac-1",
+        "Galifeu-1, Dodrio-1, Camérupt-1, Morphéo-1",
+        "Airmure-1, Empiflor-1, Laggron-1, Simiabraz-1"
+      ],
+      "late": "",
+      "quote": "Hé, toi ! Tu viens de te moquer de mes muscles ?!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/battlegirl.png"
+    },
+    {
+      "name": "Éliane",
+      "class": "Ornithologue",
+      "roster": "Scarhino-1, Alakazam-1, Grodrive-1, Charkos-1, Gallame-1, Tritosor-1, Altaria-1, Brouhabam-1, Phyllali-1, Blizzaroi-1, Nostenfer-1, Pyroli-1",
+      "species": "Scarhino, Alakazam, Grodrive, Charkos, Gallame, Tritosor, Altaria, Brouhabam, Phyllali, Blizzaroi, Nostenfer, Pyroli",
+      "teams": [
+        "Scarhino-1, Alakazam-1, Grodrive-1, Charkos-1",
+        "Gallame-1, Tritosor-1, Altaria-1, Brouhabam-1",
+        "Phyllali-1, Blizzaroi-1, Nostenfer-1, Pyroli-1"
+      ],
+      "late": "",
+      "quote": "Allez, on se bat !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/birdkeeper.png"
+    },
+    {
+      "name": "Lambert",
+      "class": "Fermier",
+      "roster": "Phogleur-1, Galifeu-1, Macronium-1, Galegon-1, Hélédelle-1, Kadabra-1, Chimpenfeu-1, Mysdibule-1, Papilord-1, Chaffreux-1, Krabboss-1, Vigoroth-1",
+      "species": "Phogleur, Galifeu, Macronium, Galegon, Hélédelle, Kadabra, Chimpenfeu, Mysdibule, Papilord, Chaffreux, Krabboss, Vigoroth",
+      "teams": [
+        "Phogleur-1, Galifeu-1, Macronium-1, Galegon-1",
+        "Hélédelle-1, Kadabra-1, Chimpenfeu-1, Mysdibule-1",
+        "Papilord-1, Chaffreux-1, Krabboss-1, Vigoroth-1"
+      ],
+      "late": "",
+      "quote": "Je ne rajeunis pas, tu sais. Je dois me ménager.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/rancher.png"
+    },
+    {
+      "name": "Luis",
+      "class": "Éleveur",
+      "roster": "Colhomard-1, Herbizarre-1, Kicklee-1, Krabboss-1, Téraclope-1, Amonistar-1, Avaltout-1, Kabutops-1, Charmina-1, Cerfrousse-1, Kangourex-1, Flagadoss-1",
+      "species": "Colhomard, Herbizarre, Kicklee, Krabboss, Téraclope, Amonistar, Avaltout, Kabutops, Charmina, Cerfrousse, Kangourex, Flagadoss",
+      "teams": [
+        "Colhomard-1, Herbizarre-1, Kicklee-1, Krabboss-1",
+        "Téraclope-1, Amonistar-1, Avaltout-1, Kabutops-1",
+        "Charmina-1, Cerfrousse-1, Kangourex-1, Flagadoss-1"
+      ],
+      "late": "",
+      "quote": "J'ai élevé ces Pokémon avec mon père...",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/pokemonbreeder-m.png"
+    },
+    {
+      "name": "Sylvio",
+      "class": "Joueur",
+      "roster": "Brouhabam-1, Roigada-1, Coudlangue-1, Empiflor-1, Akwakwak-1, Magnézone-1, Lucario-1, Alakazam-1",
+      "species": "Brouhabam, Roigada, Coudlangue, Empiflor, Akwakwak, Magnézone, Lucario, Alakazam",
+      "teams": [
+        "Brouhabam-1, Roigada-1, Coudlangue-1, Empiflor-1",
+        "Akwakwak-1, Magnézone-1, Lucario-1, Alakazam-1"
+      ],
+      "late": "",
+      "quote": "Qui peut dire de quoi demain sera fait ? Tout est une question de hasard.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/pi.png"
+    },
+    {
+      "name": "Albéric",
+      "class": "Richard",
+      "roster": "Kicklee-1, Empiflor-1, Kangourex-1, Amonistar-1, Archéodong-1, Apireine-1, Coatox-1, Électrode-1",
+      "species": "Kicklee, Empiflor, Kangourex, Amonistar, Archéodong, Apireine, Coatox, Électrode",
+      "teams": [
+        "Kicklee-1, Empiflor-1, Kangourex-1, Amonistar-1",
+        "Archéodong-1, Apireine-1, Coatox-1, Électrode-1"
+      ],
+      "late": "",
+      "quote": "Si l'on s'en réfère à leur cote de popularité, mes Pokémon vont remporter la victoire !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/richboy.png"
+    },
+    {
+      "name": "Noël",
+      "class": "Gamin",
+      "roster": "Foretress-1, Colhomard-1, Momartik-1, Capidextre-1, Tortank-1, Laggron-1, Tengalice-1, Gardevoir-1, Démolosse-1, Noadkoko-1, Cizayox-1",
+      "species": "Foretress, Colhomard, Momartik, Capidextre, Tortank, Laggron, Tengalice, Gardevoir, Démolosse, Noadkoko, Cizayox",
+      "teams": [
+        "Foretress-1, Colhomard-1, Momartik-1, Capidextre-1",
+        "Tortank-1, Laggron-1, Tengalice-1, Foretress-1",
+        "Gardevoir-1, Démolosse-1, Noadkoko-1, Cizayox-1"
+      ],
+      "late": "",
+      "quote": "C'est moi le meilleur ! Je suis le roi des gamins en short !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/youngster.png"
+    },
+    {
+      "name": "Arianna",
+      "class": "Topdresseur",
+      "roster": "Charmina-1, Lippoutou-1, Tritosor-1, Triopikeur-1, Roucarnage-1, Brouhabam-1, Lamantine-1, Kabutops-1, Porygon2-1, Raichu-1, Grodrive-1, Grolem-1",
+      "species": "Charmina, Lippoutou, Tritosor, Triopikeur, Roucarnage, Brouhabam, Lamantine, Kabutops, Porygon2, Raichu, Grodrive, Grolem",
+      "teams": [
+        "Charmina-1, Lippoutou-1, Tritosor-1, Triopikeur-1",
+        "Roucarnage-1, Brouhabam-1, Lamantine-1, Kabutops-1",
+        "Porygon2-1, Raichu-1, Grodrive-1, Grolem-1"
+      ],
+      "late": "",
+      "quote": "J'adore la neige ! Elle recouvre tout d'un manteau blanc.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/acetrainer-f.png"
+    },
+    {
+      "name": "Donovan",
+      "class": "Marin",
+      "roster": "Boskara-1, Éoko-3, Linéon-1, Draco-1, Ymphect-1, Pijako-1, Drackhaus-1, Carabaffe-1, Cerfrousse-1, Persian-1, Cochignon-1, Magmar-1",
+      "species": "Boskara, Éoko, Linéon, Draco, Ymphect, Pijako, Drackhaus, Carabaffe, Cerfrousse, Persian, Cochignon, Magmar",
+      "teams": [
+        "Boskara-1, Éoko-3, Linéon-1, Draco-1",
+        "Ymphect-1, Pijako-1, Drackhaus-1, Carabaffe-1",
+        "Cerfrousse-1, Persian-1, Cochignon-1, Magmar-1"
+      ],
+      "late": "",
+      "quote": "La mer, majestueuse et infinie !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/sailor.png"
+    },
+    {
+      "name": "Mirko",
+      "class": "Policeman",
+      "roster": "Pharamp-1, Florizarre-1, Caratroc-1, Lanturn-1, Staross-1, Grotadmorv-1, Steelix-1, Coatox-1, Jungko-2, Drattak-1, Tyranocif-1, Porygon-Z-1",
+      "species": "Pharamp, Florizarre, Caratroc, Lanturn, Staross, Grotadmorv, Steelix, Coatox, Jungko, Drattak, Tyranocif, Porygon-Z",
+      "teams": [
+        "Pharamp-1, Florizarre-1, Caratroc-1, Lanturn-1",
+        "Staross-1, Grotadmorv-1, Steelix-1, Coatox-1",
+        "Jungko-2, Drattak-1, Tyranocif-1, Porygon-Z-1"
+      ],
+      "late": "",
+      "quote": "Je suis devenu Policier car j'adore l'uniforme.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/policeofficer.png"
+    },
+    {
+      "name": "Jessime",
+      "class": "Dracologue",
+      "roster": "Capidextre-1, Cotovol-1, Kangourex-1, Aéromite-1, Brouhabam-1, Tritosor-1, Triopikeur-1, Empiflor-1, Scorvol-1, Aligatueur-1, Kaorine-1, Rafflesia-1",
+      "species": "Capidextre, Cotovol, Kangourex, Aéromite, Brouhabam, Tritosor, Triopikeur, Empiflor, Scorvol, Aligatueur, Kaorine, Rafflesia",
+      "teams": [
+        "Capidextre-1, Cotovol-1, Kangourex-1, Aéromite-1",
+        "Brouhabam-1, Tritosor-1, Triopikeur-1, Empiflor-1",
+        "Scorvol-1, Aligatueur-1, Kaorine-1, Rafflesia-1"
+      ],
+      "late": "",
+      "quote": "Admire ma puissance ! Sens ma puissance ! C'est sans doute le pouvoir ultime !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/dragontamer.png"
+    },
+    {
+      "name": "Magnus",
+      "class": "Garçon à la Bouée",
+      "roster": "Draby-1, Ptiravi-1, Lombre-1, Otaria-1, Ouisticram-1, Griknot-1, Dinoclier-1, Natu-1, Ortide-1, Tarinor-1, Dardargnan-1, Yanma-1",
+      "species": "Draby, Ptiravi, Lombre, Otaria, Ouisticram, Griknot, Dinoclier, Natu, Ortide, Tarinor, Dardargnan, Yanma",
+      "teams": [
+        "Draby-1, Ptiravi-1, Lombre-1, Otaria-1",
+        "Ouisticram-1, Griknot-1, Dinoclier-1, Natu-1",
+        "Ortide-1, Tarinor-1, Dardargnan-1, Yanma-1"
+      ],
+      "late": "",
+      "quote": "Allez, c'est parti !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/tuber-m.png"
+    },
+    {
+      "name": "Hilaire",
+      "class": "Joggeur",
+      "roster": "Tarpaud-1, Wailord-1, Vacilys-1, Ectoplasma-1, Roserade-1, Corboss-1, Steelix-1, Luxray-1, Laggron-2, Démolosse-1, Porygon-Z-1, Charkos-1",
+      "species": "Tarpaud, Wailord, Vacilys, Ectoplasma, Roserade, Corboss, Steelix, Luxray, Laggron, Démolosse, Porygon-Z, Charkos",
+      "teams": [
+        "Tarpaud-1, Wailord-1, Vacilys-1, Ectoplasma-1",
+        "Roserade-1, Corboss-1, Steelix-1, Luxray-1",
+        "Laggron-2, Démolosse-1, Porygon-Z-1, Charkos-1"
+      ],
+      "late": "",
+      "quote": "Salut. Ravi de te connaître.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/jogger.png"
+    },
+    {
+      "name": "Godfroy",
+      "class": "Ruinophile",
+      "roster": "Ursaring-1, Ectoplasma-1, Galopa-1, Tartard-1, Tentacruel-1, Kangourex-1, Armaldo-1, M. Mime-1, Togekiss-1, Ossatueur-2, Tyranocif-1, Métalosse-1",
+      "species": "Ursaring, Ectoplasma, Galopa, Tartard, Tentacruel, Kangourex, Armaldo, M. Mime, Togekiss, Ossatueur, Tyranocif, Métalosse",
+      "teams": [
+        "Ursaring-1, Ectoplasma-1, Galopa-1, Tartard-1",
+        "Tentacruel-1, Kangourex-1, Armaldo-1, M. Mime-1",
+        "Togekiss-1, Ossatueur-2, Tyranocif-1, Métalosse-1"
+      ],
+      "late": "",
+      "quote": "Ma mère et moi, on voyage à la recherche de trésors enfouis.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/ruinmaniac.png"
+    },
+    {
+      "name": "Kenji",
+      "class": "Caméraman",
+      "roster": "Arbok-1, Solaroc-1, Grahyèna-1, Boskara-1, Magmar-1, Téraclope-1, Tygnon-1, Aéromite-1",
+      "species": "Arbok, Solaroc, Grahyèna, Boskara, Magmar, Téraclope, Tygnon, Aéromite",
+      "teams": [
+        "Arbok-1, Solaroc-1, Grahyèna-1, Boskara-1",
+        "Magmar-1, Téraclope-1, Tygnon-1, Aéromite-1"
+      ],
+      "late": "",
+      "quote": "Écoutez-moi bien, je veux de beaux sourires !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/cameraman.png"
+    },
+    {
+      "name": "Assia",
+      "class": "Cowgirl",
+      "roster": "Qwilfish-1, Boustiflor-1, Castorno-1, Maskadra-1, Saquedeneu-1, Reptincel-1, Cheniselle-1, Rattatac-1, Chaffreux-1, Boskara-1, Dodrio-1, Noarfang-1",
+      "species": "Qwilfish, Boustiflor, Castorno, Maskadra, Saquedeneu, Reptincel, Cheniselle, Rattatac, Chaffreux, Boskara, Dodrio, Noarfang",
+      "teams": [
+        "Qwilfish-1, Boustiflor-1, Castorno-1, Maskadra-1",
+        "Saquedeneu-1, Reptincel-1, Cheniselle-1, Rattatac-1",
+        "Chaffreux-1, Boskara-1, Dodrio-1, Noarfang-1"
+      ],
+      "late": "",
+      "quote": "Je te préviens, je ne rigole pas, alors accroche-toi à tes bretelles !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/cowgirl.png"
+    },
+    {
+      "name": "Ilias",
+      "class": "Loubard",
+      "roster": "Motisma-1, Volcaropod-1, Démanta-1, Kabutops-1, Colhomard-1, Carmache-1, Camérupt-1, Hélédelle-1, Raichu-1, Nosferalto-1, Ludicolo-1, Airmure-1",
+      "species": "Motisma, Volcaropod, Démanta, Kabutops, Colhomard, Carmache, Camérupt, Hélédelle, Raichu, Nosferalto, Ludicolo, Airmure",
+      "teams": [
+        "Motisma-1, Volcaropod-1, Démanta-1, Kabutops-1",
+        "Colhomard-1, Carmache-1, Camérupt-1, Hélédelle-1",
+        "Raichu-1, Nosferalto-1, Ludicolo-1, Airmure-1"
+      ],
+      "late": "",
+      "quote": "La violence ne résout rien ! Prends ma main ! Tout n'est qu'amour !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/roughneck.png"
+    },
+    {
+      "name": "Maturin",
+      "class": "Pokémon Ranger",
+      "roster": "Carchacrok-1, Archéodong-1, Élekable-1, Florizarre-2, Leuphorie-1, Métalosse-1, Arcanin-1, Mentali-1",
+      "species": "Carchacrok, Archéodong, Élekable, Florizarre, Leuphorie, Métalosse, Arcanin, Mentali",
+      "teams": [
+        "Carchacrok-1, Archéodong-1, Élekable-1, Florizarre-2",
+        "Leuphorie-1, Métalosse-1, Arcanin-1, Mentali-1"
+      ],
+      "late": "",
+      "quote": "Tu as peur ?",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/pokemonranger-m.png"
+    },
+    {
+      "name": "Clara",
+      "class": "Poké Enfant",
+      "roster": "Arcko-1, Polichombr-1, Laporeille-1, Kranidos-1, Archéomire-1, Salamèche-2, Tadmorv-1, Dinoclier-1, Fouinar-1, Vigoroth-1, Herbizarre-1, Grahyèna-1",
+      "species": "Arcko, Polichombr, Laporeille, Kranidos, Archéomire, Salamèche, Tadmorv, Dinoclier, Fouinar, Vigoroth, Herbizarre, Grahyèna",
+      "teams": [
+        "Arcko-1, Polichombr-1, Laporeille-1, Kranidos-1",
+        "Archéomire-1, Salamèche-2, Tadmorv-1, Dinoclier-1",
+        "Fouinar-1, Vigoroth-1, Herbizarre-1, Grahyèna-1"
+      ],
+      "late": "",
+      "quote": "C'est ma maman qui m'a fait ce déguisement.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/pokekid.png"
+    },
+    {
+      "name": "Solange",
+      "class": "Aromathérapeute",
+      "roster": "Héricendre-1, Minidraco-1, Lombre-1, Magnéti-1, Mimitoss-1, Arcko-2, Poissirène-1, Togetic-1, Morphéo-1, Hypocéan-1, Luxio-1",
+      "species": "Héricendre, Minidraco, Lombre, Magnéti, Mimitoss, Arcko, Poissirène, Togetic, Morphéo, Hypocéan, Luxio",
+      "teams": [
+        "Héricendre-1, Minidraco-1, Lombre-1, Magnéti-1",
+        "Mimitoss-1, Arcko-2, Magnéti-1, Poissirène-1",
+        "Togetic-1, Morphéo-1, Hypocéan-1, Luxio-1"
+      ],
+      "late": "",
+      "quote": "*renifle*... *renifle*...",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/aromalady.png"
+    },
+    {
+      "name": "Loni",
+      "class": "Caméraman",
+      "roster": "Yanma-1, Héliatronc-1, Farfuret-1, Boustiflor-1, Ymphect-1, Tarinor-1, Galegon-1, Métang-1, Cacturne-1, Amonistar-1",
+      "species": "Yanma, Héliatronc, Farfuret, Boustiflor, Ymphect, Tarinor, Galegon, Métang, Cacturne, Amonistar",
+      "teams": [
+        "Yanma-1, Héliatronc-1, Farfuret-1, Boustiflor-1",
+        "Ymphect-1, Tarinor-1, Galegon-1, Yanma-1",
+        "Métang-1, Cacturne-1, Amonistar-1, Farfuret-1"
+      ],
+      "late": "",
+      "quote": "On ne dirait pas comme ça, mais cette caméra est très lourde.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/cameraman.png"
+    },
+    {
+      "name": "Pierrot",
+      "class": "Vénérable",
+      "roster": "Chimpenfeu-1, Cotovol-1, Cerfrousse-1, Maskadra-1, Chaffreux-1, Séviper-1, Élektek-1, Sharpedo-1, Airmure-1, Rafflesia-1, Colhomard-1",
+      "species": "Chimpenfeu, Cotovol, Cerfrousse, Maskadra, Chaffreux, Séviper, Élektek, Sharpedo, Airmure, Rafflesia, Colhomard",
+      "teams": [
+        "Chimpenfeu-1, Cotovol-1, Cerfrousse-1, Maskadra-1",
+        "Cotovol-1, Chaffreux-1, Séviper-1, Élektek-1",
+        "Sharpedo-1, Airmure-1, Rafflesia-1, Colhomard-1"
+      ],
+      "late": "",
+      "quote": "Préparez-vous à l'assaut, soldats ! Chaaargez !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/veteran.png"
+    },
+    {
+      "name": "Anouk",
+      "class": "Topdresseur",
+      "roster": "Tortank-1, Démanta-1, Tritosor-1, Crustabri-1, M. Mime-1, Smogogo-1, Élecsprint-1, Triopikeur-1, Donphan-1, Lippoutou-1, Feunard-1",
+      "species": "Tortank, Démanta, Tritosor, Crustabri, M. Mime, Smogogo, Élecsprint, Triopikeur, Donphan, Lippoutou, Feunard",
+      "teams": [
+        "Tortank-1, Démanta-1, Tritosor-1, Crustabri-1",
+        "M. Mime-1, Smogogo-1, Élecsprint-1, Triopikeur-1",
+        "Donphan-1, Lippoutou-1, Feunard-1, M. Mime-1"
+      ],
+      "late": "",
+      "quote": "C'est enfin l'heure du combat le plus important de toute ma vie ! Je ne peux pas perdre !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/acetrainer-f.png"
+    },
+    {
+      "name": "Sofia",
+      "class": "Star",
+      "roster": "Carvanha-1, Tiplouf-2, Sancoki-1, Galekid-1, Draby-1, Éoko-2, Dinoclier-1, Spoink-1, Crikzik-1, Keunotor-2, Smogo-1, Écayon-1, Ceribou-1, Tortipouss-2, Canarticho-1",
+      "species": "Carvanha, Tiplouf, Sancoki, Galekid, Draby, Éoko, Dinoclier, Spoink, Crikzik, Keunotor, Smogo, Écayon, Ceribou, Tortipouss, Canarticho",
+      "teams": [
+        "Carvanha-1, Tiplouf-2, Sancoki-1, Galekid-1",
+        "Draby-1, Éoko-2, Dinoclier-1, Spoink-1",
+        "Crikzik-1, Keunotor-2, Smogo-1, Écayon-1",
+        "Ceribou-1, Tortipouss-2, Smogo-1, Canarticho-1"
+      ],
+      "late": "",
+      "quote": "La lala lâââ. ♪",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/idol.png"
+    },
+    {
+      "name": "Kiliane",
+      "class": "Pokefan (F)",
+      "roster": "Ectoplasma-1, Archéodong-1, Altaria-1, Grotadmorv-1, Magirêve-1, Blizzaroi-1, Mackogneur-1, Nidoqueen-1, Dracaufeu-2, Hippodocus-2, Lokhlass-1, Cizayox-1",
+      "species": "Ectoplasma, Archéodong, Altaria, Grotadmorv, Magirêve, Blizzaroi, Mackogneur, Nidoqueen, Dracaufeu, Hippodocus, Lokhlass, Cizayox",
+      "teams": [
+        "Ectoplasma-1, Archéodong-1, Altaria-1, Grotadmorv-1",
+        "Magirêve-1, Blizzaroi-1, Mackogneur-1, Nidoqueen-1",
+        "Dracaufeu-2, Hippodocus-2, Lokhlass-1, Cizayox-1"
+      ],
+      "late": "",
+      "quote": "Tant que mes Pokémon sont avec moi, je n'ai besoin de rien de plus.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/pokefan-f.png"
+    },
+    {
+      "name": "Karelle",
+      "class": "Fan de Pique-Nique",
+      "roster": "Coatox-1, Démolosse-1, Porygon2-1, Wailord-1, Luxray-1, Scarabrute-1, Noadkoko-1, Charkos-1, Dracaufeu-2, Pingoléon-2, Gallame-1",
+      "species": "Coatox, Démolosse, Porygon2, Wailord, Luxray, Scarabrute, Noadkoko, Charkos, Dracaufeu, Pingoléon, Gallame",
+      "teams": [
+        "Coatox-1, Démolosse-1, Porygon2-1, Wailord-1",
+        "Luxray-1, Scarabrute-1, Noadkoko-1, Charkos-1",
+        "Dracaufeu-2, Charkos-1, Pingoléon-2, Gallame-1"
+      ],
+      "late": "",
+      "quote": "Je crois que tu m'aimes bien, je me trompe ?",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/picnicker.png"
+    },
+    {
+      "name": "Angèle",
+      "class": "Reporter",
+      "roster": "Cheniselle-1, Anorith-1, Hélédelle-1, Maskadra-1, Kabutops-1, Groret-1, Roucarnage-1, Chaffreux-1",
+      "species": "Cheniselle, Anorith, Hélédelle, Maskadra, Kabutops, Groret, Roucarnage, Chaffreux",
+      "teams": [
+        "Cheniselle-1, Anorith-1, Hélédelle-1, Maskadra-1",
+        "Kabutops-1, Groret-1, Roucarnage-1, Chaffreux-1"
+      ],
+      "late": "",
+      "quote": "Je suis prête à tout pour un scoop !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/reporter.png"
+    },
+    {
+      "name": "Barbara",
+      "class": "Sœur Parasol",
+      "roster": "Têtarte-1, Griknot-1, Spinda-1, Lilia-1, Mélokrik-1, Hypocéan-1, Bekipan-1, Élekid-1",
+      "species": "Têtarte, Griknot, Spinda, Lilia, Mélokrik, Hypocéan, Bekipan, Élekid",
+      "teams": [
+        "Têtarte-1, Griknot-1, Spinda-1, Lilia-1",
+        "Mélokrik-1, Hypocéan-1, Bekipan-1, Élekid-1"
+      ],
+      "late": "",
+      "quote": "As-tu déjà vu un arc-en-ciel ?",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/parasollady.png"
+    },
+    {
+      "name": "Pascale",
+      "class": "Cowgirl",
+      "roster": "Persian-1, Vigoroth-1, Volcaropod-1, Galegon-1, Chimpenfeu-1, Flobio-1, Éoko-3, Boskara-1, Nosferalto-1, Démanta-1, Herbizarre-1",
+      "species": "Persian, Vigoroth, Volcaropod, Galegon, Chimpenfeu, Flobio, Éoko, Boskara, Nosferalto, Démanta, Herbizarre",
+      "teams": [
+        "Persian-1, Vigoroth-1, Volcaropod-1, Galegon-1",
+        "Chimpenfeu-1, Flobio-1, Éoko-3, Volcaropod-1",
+        "Boskara-1, Nosferalto-1, Démanta-1, Herbizarre-1"
+      ],
+      "late": "",
+      "quote": "Hé, toi, là-bas ! C'est entre toi et moi !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/cowgirl.png"
+    },
+    {
+      "name": "Perrine",
+      "class": "Ornithologue",
+      "roster": "Éoko-3, Yanma-1, Papilord-1, Prinplouf-1, Feuforêve-1, Spectrum-1, Linéon-1, Cheniselle-1, Mangriff-1, Relicanth-1, Téraclope-1, Vortente-1",
+      "species": "Éoko, Yanma, Papilord, Prinplouf, Feuforêve, Spectrum, Linéon, Cheniselle, Mangriff, Relicanth, Téraclope, Vortente",
+      "teams": [
+        "Éoko-3, Yanma-1, Papilord-1, Prinplouf-1",
+        "Feuforêve-1, Spectrum-1, Linéon-1, Cheniselle-1",
+        "Mangriff-1, Relicanth-1, Téraclope-1, Vortente-1"
+      ],
+      "late": "",
+      "quote": "Je vais te révéler la devise des Ornithologues...",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/birdkeeper.png"
+    },
+    {
+      "name": "Eudes",
+      "class": "Fermier",
+      "roster": "Boskara-1, Séléroc-1, Carmache-1, Castorno-1, Papilord-1, Cornèbre-1, Scorplane-1, Parasect-1, Macronium-1, Sharpedo-1, Roucarnage-1, Éoko-3",
+      "species": "Boskara, Séléroc, Carmache, Castorno, Papilord, Cornèbre, Scorplane, Parasect, Macronium, Sharpedo, Roucarnage, Éoko",
+      "teams": [
+        "Boskara-1, Séléroc-1, Carmache-1, Castorno-1",
+        "Papilord-1, Cornèbre-1, Scorplane-1, Parasect-1",
+        "Macronium-1, Sharpedo-1, Roucarnage-1, Éoko-3"
+      ],
+      "late": "",
+      "quote": "Tu sens cette odeur ? C'est celle du foin. Elle me suit partout !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/rancher.png"
+    },
+    {
+      "name": "Claudine",
+      "class": "Ornithologue",
+      "roster": "Donphan-1, Granbull-1, Alakazam-1, Ptéra-1, Écrémeuh-1, Dimoret-1, Noadkoko-1, Mustéflott-1, Drattak-1, Noctali-1, Torterra-2, Métalosse-1",
+      "species": "Donphan, Granbull, Alakazam, Ptéra, Écrémeuh, Dimoret, Noadkoko, Mustéflott, Drattak, Noctali, Torterra, Métalosse",
+      "teams": [
+        "Donphan-1, Granbull-1, Alakazam-1, Ptéra-1",
+        "Écrémeuh-1, Dimoret-1, Noadkoko-1, Mustéflott-1",
+        "Drattak-1, Noctali-1, Torterra-2, Métalosse-1"
+      ],
+      "late": "",
+      "quote": "Plongeooon aérieeen !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/birdkeeper.png"
+    },
+    {
+      "name": "Mélodie",
+      "class": "Éleveur",
+      "roster": "Séviper-1, Rattatac-1, Ninjask-1, Sablaireau-1, Colhomard-1, Branette-1, Colossinge-1, Rapasdepic-1, Groret-1, Brouhabam-1, Ossatueur-1, Kicklee-1",
+      "species": "Séviper, Rattatac, Ninjask, Sablaireau, Colhomard, Branette, Colossinge, Rapasdepic, Groret, Brouhabam, Ossatueur, Kicklee",
+      "teams": [
+        "Séviper-1, Rattatac-1, Ninjask-1, Sablaireau-1",
+        "Colhomard-1, Branette-1, Colossinge-1, Rapasdepic-1",
+        "Groret-1, Brouhabam-1, Ossatueur-1, Kicklee-1"
+      ],
+      "late": "",
+      "quote": "Tu veux voir les Pokémon que j'ai élevés ?",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/pokemonbreeder-f.png"
+    },
+    {
+      "name": "Daliane",
+      "class": "Cowgirl",
+      "roster": "Maganon-1, Ursaring-1, Galeking-1, Mammochon-1, Léviator-1, Drattak-1, Pingoléon-2, Aligatueur-2",
+      "species": "Maganon, Ursaring, Galeking, Mammochon, Léviator, Drattak, Pingoléon, Aligatueur",
+      "teams": [
+        "Maganon-1, Ursaring-1, Galeking-1, Mammochon-1",
+        "Léviator-1, Drattak-1, Pingoléon-2, Aligatueur-2"
+      ],
+      "late": "",
+      "quote": "En selle ! La victoire nous attend ! Hue, en avant !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/cowgirl.png"
+    },
+    {
+      "name": "Catia",
+      "class": "Canon",
+      "roster": "Cheniti-1, Arcko-2, Noeunoeuf-1, Mystherbe-1, Insolourdo-1, Amonita-1, Kecleon-1, Héliatronc-1",
+      "species": "Cheniti, Arcko, Noeunoeuf, Mystherbe, Insolourdo, Amonita, Kecleon, Héliatronc",
+      "teams": [
+        "Cheniti-1, Arcko-2, Noeunoeuf-1, Mystherbe-1",
+        "Insolourdo-1, Amonita-1, Kecleon-1, Héliatronc-1"
+      ],
+      "late": "",
+      "quote": "J'ai beaucoup de soucis en ce moment...",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/beauty.png"
+    },
+    {
+      "name": "Mimoun",
+      "class": "Montagnard",
+      "roster": "Oniglali-1, Scarhino-1, Scorvol-1, Raichu-1, Nidoking-1, Caratroc-1, Akwakwak-1, Armaldo-1, Hyporoi-1, Nidoqueen-1, Métalosse-1",
+      "species": "Oniglali, Scarhino, Scorvol, Raichu, Nidoking, Caratroc, Akwakwak, Armaldo, Hyporoi, Nidoqueen, Métalosse",
+      "teams": [
+        "Oniglali-1, Scarhino-1, Scorvol-1, Raichu-1",
+        "Nidoking-1, Caratroc-1, Akwakwak-1, Armaldo-1",
+        "Hyporoi-1, Nidoqueen-1, Métalosse-1, Caratroc-1"
+      ],
+      "late": "",
+      "quote": "Ma boisson préférée, c'est le Lait Meumeu. Tu n'en aurais pas une bouteille ?",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/hiker.png"
+    },
+    {
+      "name": "Louison",
+      "class": "Kinésiste",
+      "roster": "Chartor-1, Reptincel-1, Mangriff-1, Magnéton-1, Aéromite-1, Cerfrousse-1, Joliflor-1, Dracaufeu-1, Maraiste-1, Électrode-1, Capidextre-1",
+      "species": "Chartor, Reptincel, Mangriff, Magnéton, Aéromite, Cerfrousse, Joliflor, Dracaufeu, Maraiste, Électrode, Capidextre",
+      "teams": [
+        "Chartor-1, Reptincel-1, Mangriff-1, Magnéton-1",
+        "Aéromite-1, Cerfrousse-1, Joliflor-1, Magnéton-1",
+        "Dracaufeu-1, Maraiste-1, Électrode-1, Capidextre-1"
+      ],
+      "late": "",
+      "quote": "...",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/psychic-m.png"
+    },
+    {
+      "name": "Sylvie",
+      "class": "Combattante",
+      "roster": "Florizarre-2, Mackogneur-1, Triopikeur-2, Élekable-1, Hippodocus-1, Dracolosse-2, Ronflex-1, Galeking-1",
+      "species": "Florizarre, Mackogneur, Triopikeur, Élekable, Hippodocus, Dracolosse, Ronflex, Galeking",
+      "teams": [
+        "Florizarre-2, Mackogneur-1, Triopikeur-2, Élekable-1",
+        "Hippodocus-1, Dracolosse-2, Ronflex-1, Galeking-1"
+      ],
+      "late": "",
+      "quote": "Je suis forte, « poing » barre.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/battlegirl.png"
+    },
+    {
+      "name": "Gildas",
+      "class": "Pokefan (M)",
+      "roster": "Migalos-1, Boustiflor-1, Ramboum-1, Pachirisu-1, Cradopaud-1, Germignon-2, Lovdisc-1, Rapion-1, Galegon-1, Papinox-1, Draco-1, Éoko-3",
+      "species": "Migalos, Boustiflor, Ramboum, Pachirisu, Cradopaud, Germignon, Lovdisc, Rapion, Galegon, Papinox, Draco, Éoko",
+      "teams": [
+        "Migalos-1, Boustiflor-1, Ramboum-1, Pachirisu-1",
+        "Cradopaud-1, Germignon-2, Lovdisc-1, Rapion-1",
+        "Galegon-1, Papinox-1, Draco-1, Éoko-3"
+      ],
+      "late": "",
+      "quote": "On va voir si tu aimes les Pokémon autant que moi !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/pokefan-m.png"
+    },
+    {
+      "name": "Gérémy",
+      "class": "Guitariste",
+      "roster": "Écrémeuh-1, Smogogo-1, Pharamp-1, Scarhino-1, Démolosse-1, Simiabraz-1, Gardevoir-1, Ossatueur-2, Dracaufeu-2, Simiabraz-2, Aquali-1",
+      "species": "Écrémeuh, Smogogo, Pharamp, Scarhino, Démolosse, Simiabraz, Gardevoir, Ossatueur, Dracaufeu, Aquali",
+      "teams": [
+        "Écrémeuh-1, Smogogo-1, Pharamp-1, Scarhino-1",
+        "Démolosse-1, Simiabraz-1, Pharamp-1, Gardevoir-1",
+        "Ossatueur-2, Dracaufeu-2, Simiabraz-2, Aquali-1"
+      ],
+      "late": "",
+      "quote": "Écoute-moi ce cri qui vient du cœur !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/guitarist.png"
+    },
+    {
+      "name": "Hans",
+      "class": "Pokefan (M)",
+      "roster": "Wailord-1, Rhinoféros-1, Blizzaroi-1, Tarpaud-1, Steelix-1, Noctunoir-1, Torterra-2, Roserade-1",
+      "species": "Wailord, Rhinoféros, Blizzaroi, Tarpaud, Steelix, Noctunoir, Torterra, Roserade",
+      "teams": [
+        "Wailord-1, Rhinoféros-1, Blizzaroi-1, Tarpaud-1",
+        "Steelix-1, Noctunoir-1, Torterra-2, Roserade-1"
+      ],
+      "late": "",
+      "quote": "Avec mes Pokémon préférés, ça va être vite réglé !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/pokefan-m.png"
+    },
+    {
+      "name": "Maëlys",
+      "class": "Mademoiselle",
+      "roster": "Balbuto-1, Ptiravi-1, Hippopotas-1, Baudrive-1, Chaglam-1, Draby-1, Babimanta-1, Malosse-1, Racaillou-1, Écrapince-1, Kranidos-1, Luxio-1, Gobou-2, Migalos-1, Capumain-1",
+      "species": "Balbuto, Ptiravi, Hippopotas, Baudrive, Chaglam, Draby, Babimanta, Malosse, Racaillou, Écrapince, Kranidos, Luxio, Gobou, Migalos, Capumain",
+      "teams": [
+        "Balbuto-1, Ptiravi-1, Hippopotas-1, Baudrive-1",
+        "Chaglam-1, Draby-1, Babimanta-1, Malosse-1",
+        "Racaillou-1, Écrapince-1, Baudrive-1, Kranidos-1",
+        "Luxio-1, Gobou-2, Migalos-1, Capumain-1"
+      ],
+      "late": "",
+      "quote": "De toucher à sa fin, ton aventure est sur le point. Te battre, je vais !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/lady.png"
+    },
+    {
+      "name": "Alice",
+      "class": "Ornithologue",
+      "roster": "Saquedeneu-1, Élekid-1, Crocrodil-1, Solaroc-1, Phogleur-1, Feurisson-1, Volcaropod-1, Prinplouf-1, Xatu-1, Camérupt-1, Serpang-1, Cochignon-1",
+      "species": "Saquedeneu, Élekid, Crocrodil, Solaroc, Phogleur, Feurisson, Volcaropod, Prinplouf, Xatu, Camérupt, Serpang, Cochignon",
+      "teams": [
+        "Saquedeneu-1, Élekid-1, Crocrodil-1, Solaroc-1",
+        "Phogleur-1, Feurisson-1, Volcaropod-1, Prinplouf-1",
+        "Xatu-1, Camérupt-1, Serpang-1, Cochignon-1"
+      ],
+      "late": "",
+      "quote": "Faisons chacun de notre mieux!",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/birdkeeper.png"
+    },
+    {
+      "name": "Wanda",
+      "class": "Éleveur",
+      "roster": "Nidoqueen-1, Torterra-2, Hippodocus-1, Tartard-1, Ronflex-1, Nidoking-1, Kaimorse-1, Archéodong-1",
+      "species": "Nidoqueen, Torterra, Hippodocus, Tartard, Ronflex, Nidoking, Kaimorse, Archéodong",
+      "teams": [
+        "Nidoqueen-1, Torterra-2, Hippodocus-1, Tartard-1",
+        "Ronflex-1, Nidoking-1, Kaimorse-1, Archéodong-1"
+      ],
+      "late": "",
+      "quote": "Je vais te dire si Pokémon bien été.",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/pokemonbreeder-f.png"
+    },
+    {
+      "name": "Léticia",
+      "class": "Kinésiste",
+      "roster": "Démanta-1, Flobio-1, Branette-1, Phogleur-1, Crustabri-1, Chartor-1, Nosferalto-1, Girafarig-1, Tortank-1, Amonistar-1, Oniglali-1, Apireine-1",
+      "species": "Démanta, Flobio, Branette, Phogleur, Crustabri, Chartor, Nosferalto, Girafarig, Tortank, Amonistar, Oniglali, Apireine",
+      "teams": [
+        "Démanta-1, Flobio-1, Branette-1, Phogleur-1",
+        "Crustabri-1, Chartor-1, Nosferalto-1, Girafarig-1",
+        "Tortank-1, Amonistar-1, Oniglali-1, Apireine-1"
+      ],
+      "late": "",
+      "quote": "Ferme les yeux et mets-toi à compter à l'envers... lentement... encore plus lentement...",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/psychic-f.png"
+    },
+    {
+      "name": "Charly",
+      "class": "Gamin",
+      "roster": "Étouraptor-1, Démanta-1, Absol-1, Grolem-1, Jungko-1, Poissoroy-1, Chapignon-1, Foretress-1, Staross-1, Braségali-1, Coudlangue-1, Steelix-1",
+      "species": "Étouraptor, Démanta, Absol, Grolem, Jungko, Poissoroy, Chapignon, Foretress, Staross, Braségali, Coudlangue, Steelix",
+      "teams": [
+        "Étouraptor-1, Démanta-1, Absol-1, Grolem-1",
+        "Jungko-1, Poissoroy-1, Chapignon-1, Foretress-1",
+        "Staross-1, Braségali-1, Coudlangue-1, Steelix-1"
+      ],
+      "late": "",
+      "quote": "C'est moi le meilleur ! Je suis le prince des gamins en short !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/youngster.png"
+    },
+    {
+      "name": "Lou-Ann",
+      "class": "Élève",
+      "roster": "Doduo-1, Minidraco-1, Soporifik-1, Vibraninf-1, Sabelette-1, Germignon-2, Phanpy-1, Racaillou-1, Kaiminus-2, Rapion-1, Malosse-1, Carapuce-1, Tylton-1, Lombre-1",
+      "species": "Doduo, Minidraco, Soporifik, Vibraninf, Sabelette, Germignon, Phanpy, Racaillou, Kaiminus, Rapion, Malosse, Carapuce, Tylton, Lombre",
+      "teams": [
+        "Doduo-1, Minidraco-1, Soporifik-1, Vibraninf-1",
+        "Sabelette-1, Germignon-2, Vibraninf-1, Phanpy-1",
+        "Racaillou-1, Kaiminus-2, Rapion-1, Malosse-1",
+        "Carapuce-1, Tylton-1, Soporifik-1, Lombre-1"
+      ],
+      "late": "",
+      "quote": "Je suis incollable sur les Pokémon !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/schoolkid-f.png"
+    },
+    {
+      "name": "Milos",
+      "class": "Guitariste",
+      "roster": "Ptéra-1, Mustéflott-1, Caratroc-1, Staross-1, Tartard-1, Mackogneur-1, Donphan-1, Cizayox-1, Jungko-2, Aligatueur-2, Tortank-2, Rhinastoc-2",
+      "species": "Ptéra, Mustéflott, Caratroc, Staross, Tartard, Mackogneur, Donphan, Cizayox, Jungko, Aligatueur, Tortank, Rhinastoc",
+      "teams": [
+        "Ptéra-1, Mustéflott-1, Caratroc-1, Staross-1",
+        "Tartard-1, Mackogneur-1, Donphan-1, Cizayox-1",
+        "Jungko-2, Aligatueur-2, Tortank-2, Rhinastoc-2"
+      ],
+      "late": "",
+      "quote": "Un combat ? Quand tu veux, baby !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/guitarist.png"
+    },
+    {
+      "name": "Grégoire",
+      "class": "Ruinophile",
+      "roster": "Typhlosion-1, Grotadmorv-1, Roigada-1, Tortank-1, Ludicolo-1, Nidoqueen-1, Magirêve-1, Tengalice-1, Élekable-1, Rhinastoc-2, Jungko-2, Libégon-1",
+      "species": "Typhlosion, Grotadmorv, Roigada, Tortank, Ludicolo, Nidoqueen, Magirêve, Tengalice, Élekable, Rhinastoc, Jungko, Libégon",
+      "teams": [
+        "Typhlosion-1, Grotadmorv-1, Roigada-1, Tortank-1",
+        "Ludicolo-1, Nidoqueen-1, Magirêve-1, Tengalice-1",
+        "Élekable-1, Rhinastoc-2, Jungko-2, Libégon-1"
+      ],
+      "late": "",
+      "quote": "Gagner, voilà ce que je vais faire aujourd'hui ! Et puis demain aussi !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/ruinmaniac.png"
+    },
+    {
+      "name": "Alexia",
+      "class": "Poké Enfant",
+      "roster": "Absol-1, Tentacruel-1, Ursaring-1, Lamantine-1, Scarabrute-1, Donphan-1, Akwakwak-1, Luxray-1, Milobellus-2, Aligatueur-2, Dracolosse-2, Aquali-1",
+      "species": "Absol, Tentacruel, Ursaring, Lamantine, Scarabrute, Donphan, Akwakwak, Luxray, Milobellus, Aligatueur, Dracolosse, Aquali",
+      "teams": [
+        "Absol-1, Tentacruel-1, Ursaring-1, Lamantine-1",
+        "Scarabrute-1, Donphan-1, Akwakwak-1, Luxray-1",
+        "Milobellus-2, Aligatueur-2, Dracolosse-2, Aquali-1"
+      ],
+      "late": "",
+      "quote": "Un combat ? D'accord, mais y a pas moyen que je perde contre toi !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/pokekid.png"
+    },
+    {
+      "name": "Vivien",
+      "class": "Ninja Amateur",
+      "roster": "Gobou-1, Corayon-1, Roucoups-1, Tadmorv-1, Ceribou-1, Draby-1, Rapion-1, Teddiursa-1, Castorno-1, Tarinor-1, Linéon-1, Rosélia-1",
+      "species": "Gobou, Corayon, Roucoups, Tadmorv, Ceribou, Draby, Rapion, Teddiursa, Castorno, Tarinor, Linéon, Rosélia",
+      "teams": [
+        "Gobou-1, Corayon-1, Roucoups-1, Tadmorv-1",
+        "Ceribou-1, Draby-1, Rapion-1, Teddiursa-1",
+        "Castorno-1, Tarinor-1, Linéon-1, Rosélia-1"
+      ],
+      "late": "",
+      "quote": "Vise un peu mes redoutables techniques de ninja !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/ninjaboy.png"
+    },
+    {
+      "name": "Mélissa",
+      "class": "Garçon à la Bouée",
+      "roster": "Cheniti-1, Gobou-2, Noeunoeuf-1, Mime Jr.-1, Munja-1, Stalgamin-1, Lovdisc-1, Smogo-1, Écrapince-1, Machoc-1, Roucoups-1, Mystherbe-1, Pachirisu-1, Nidorino-1, Canarticho-1",
+      "species": "Cheniti, Gobou, Noeunoeuf, Mime Jr., Munja, Stalgamin, Lovdisc, Smogo, Écrapince, Machoc, Roucoups, Mystherbe, Pachirisu, Nidorino, Canarticho",
+      "teams": [
+        "Cheniti-1, Gobou-2, Noeunoeuf-1, Mime Jr.-1",
+        "Munja-1, Stalgamin-1, Lovdisc-1, Smogo-1",
+        "Écrapince-1, Machoc-1, Roucoups-1, Mystherbe-1",
+        "Pachirisu-1, Mime Jr.-1, Nidorino-1, Canarticho-1"
+      ],
+      "late": "",
+      "quote": "Bonjour ! J'adore cette bouée... et j'adore faire de nouvelles rencontres ! Enchantée !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/tuber-f.png"
+    },
+    {
+      "name": "Aurian",
+      "class": "Policeman",
+      "roster": "Drascore-1, Capidextre-1, Gallame-1, Porygon2-1, Ectoplasma-1, Élecsprint-1, Scarhino-1, Moufflair-1, Pingoléon-2, Coatox-1, Porygon-Z-1, Braségali-2",
+      "species": "Drascore, Capidextre, Gallame, Porygon2, Ectoplasma, Élecsprint, Scarhino, Moufflair, Pingoléon, Coatox, Porygon-Z, Braségali",
+      "teams": [
+        "Drascore-1, Capidextre-1, Gallame-1, Porygon2-1",
+        "Ectoplasma-1, Élecsprint-1, Scarhino-1, Moufflair-1",
+        "Pingoléon-2, Coatox-1, Porygon-Z-1, Braségali-2"
+      ],
+      "late": "",
+      "quote": "Allez, c'est l'heure de faire un bon combat !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/policeofficer.png"
+    },
+    {
+      "name": "Rose",
+      "class": "Reporter",
+      "roster": "Métang-1, Grodoudou-1, Arbok-1, Pijako-1, Rattatac-1, Ortide-1, Insolourdo-1, Posipi-1, Sablaireau-1, Herbizarre-1, Cacturne-1",
+      "species": "Métang, Grodoudou, Arbok, Pijako, Rattatac, Ortide, Insolourdo, Posipi, Sablaireau, Herbizarre, Cacturne",
+      "teams": [
+        "Métang-1, Grodoudou-1, Arbok-1, Pijako-1",
+        "Rattatac-1, Ortide-1, Insolourdo-1, Posipi-1",
+        "Sablaireau-1, Herbizarre-1, Cacturne-1, Pijako-1"
+      ],
+      "late": "",
+      "quote": "Bonjour, futur sujet de reportage ! Tu veux bien m'affronter ?",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/reporter.png"
+    },
+    {
+      "name": "Alvin",
+      "class": "Élève",
+      "roster": "Flagadoss-1, Cotovol-1, Lamantine-1, Lanturn-1, Moufflair-1, Jungko-1, Pingoléon-1, Caratroc-1, Laggron-1, Akwakwak-1, Coatox-1",
+      "species": "Flagadoss, Cotovol, Lamantine, Lanturn, Moufflair, Jungko, Pingoléon, Caratroc, Laggron, Akwakwak, Coatox",
+      "teams": [
+        "Flagadoss-1, Cotovol-1, Lamantine-1, Lanturn-1",
+        "Lamantine-1, Moufflair-1, Jungko-1, Pingoléon-1",
+        "Caratroc-1, Laggron-1, Akwakwak-1, Coatox-1"
+      ],
+      "late": "",
+      "quote": "Toi aussi, tu as des choses à apprendre !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/schoolkid-m.png"
+    },
+    {
+      "name": "Rached",
+      "class": "Karatéka",
+      "roster": "Mélodelfe-1, Drackhaus-1, Poissoroy-1, Chimpenfeu-1, Sablaireau-1, Boskara-1, Avaltout-1, Feuforêve-1, Oniglali-1, Moufflair-1, Pingoléon-1, Raichu-1",
+      "species": "Mélodelfe, Drackhaus, Poissoroy, Chimpenfeu, Sablaireau, Boskara, Avaltout, Feuforêve, Oniglali, Moufflair, Pingoléon, Raichu",
+      "teams": [
+        "Mélodelfe-1, Drackhaus-1, Poissoroy-1, Chimpenfeu-1",
+        "Sablaireau-1, Boskara-1, Avaltout-1, Feuforêve-1",
+        "Oniglali-1, Moufflair-1, Pingoléon-1, Raichu-1"
+      ],
+      "late": "",
+      "quote": "Tu vas sentir la puissance de ma technique suprême !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/blackbelt.png"
+    },
+    {
+      "name": "Henri",
+      "class": "Garçon à la Bouée",
+      "roster": "Manzaï-1, Munja-2, Écayon-1, Sancoki-1, Rémoraid-1, Arcko-2, Phanpy-1, Rhinocorne-1, Tiplouf-1, Keunotor-2, Psykokwak-1, Voltorbe-1, Porygon-1, Élekid-1, Ramboum-1, Togetic-1",
+      "species": "Manzaï, Munja, Écayon, Sancoki, Rémoraid, Arcko, Phanpy, Rhinocorne, Tiplouf, Keunotor, Psykokwak, Voltorbe, Porygon, Élekid, Ramboum, Togetic",
+      "teams": [
+        "Manzaï-1, Munja-2, Écayon-1, Sancoki-1",
+        "Rémoraid-1, Arcko-2, Phanpy-1, Rhinocorne-1",
+        "Tiplouf-1, Keunotor-2, Psykokwak-1, Voltorbe-1",
+        "Porygon-1, Élekid-1, Ramboum-1, Togetic-1"
+      ],
+      "late": "",
+      "quote": "Je... je sais nager ! Je n'ai pas besoin de ma bouée !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/tuber-m.png"
+    },
+    {
+      "name": "Amande",
+      "class": "Star",
+      "roster": "Skelénox-1, Pikachu-1, Vibraninf-1, Roucoups-1, Tylton-1, Carvanha-1, Pifeuil-1, Écayon-1, Minidraco-1, Tortipouss-2, Coquiperl-1, Floravol-1, Togetic-1, Dinoclier-1, Onix-1, Mélokrik-1",
+      "species": "Skelénox, Pikachu, Vibraninf, Roucoups, Tylton, Carvanha, Pifeuil, Écayon, Minidraco, Tortipouss, Coquiperl, Floravol, Togetic, Dinoclier, Onix, Mélokrik",
+      "teams": [
+        "Skelénox-1, Pikachu-1, Vibraninf-1, Roucoups-1",
+        "Tylton-1, Carvanha-1, Pifeuil-1, Écayon-1",
+        "Minidraco-1, Tortipouss-2, Coquiperl-1, Floravol-1",
+        "Togetic-1, Dinoclier-1, Onix-1, Mélokrik-1"
+      ],
+      "late": "",
+      "quote": "Je suis tellement contente que tu fasses partie de mes fans dévoués !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/idol.png"
+    },
+    {
+      "name": "Wilfrid",
+      "class": "Ninja Amateur",
+      "roster": "Ceribou-1, Doduo-2, Psykokwak-1, Loupio-1, Moufouette-1, Papilusion-1, Nidorino-1, Ramoloss-1, Carmache-1, Rattatac-1, Insolourdo-1, Simularbre-1",
+      "species": "Ceribou, Doduo, Psykokwak, Loupio, Moufouette, Papilusion, Nidorino, Ramoloss, Carmache, Rattatac, Insolourdo, Simularbre",
+      "teams": [
+        "Ceribou-1, Doduo-2, Psykokwak-1, Loupio-1",
+        "Moufouette-1, Papilusion-1, Nidorino-1, Ramoloss-1",
+        "Carmache-1, Rattatac-1, Insolourdo-1, Simularbre-1"
+      ],
+      "late": "",
+      "quote": "Quand je serai grand, je serai un vrai ninja !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/ninjaboy.png"
+    },
+    {
+      "name": "Barnard",
+      "class": "Ruinophile",
+      "roster": "Snubbull-1, Ptiravi-1, Laporeille-1, Voltorbe-1, Vibraninf-1, Kabuto-1, Goinfrex-1, Tadmorv-1, Wailmer-1, Pijako-1, Ymphect-1, Kadabra-1",
+      "species": "Snubbull, Ptiravi, Laporeille, Voltorbe, Vibraninf, Kabuto, Goinfrex, Tadmorv, Wailmer, Pijako, Ymphect, Kadabra",
+      "teams": [
+        "Snubbull-1, Ptiravi-1, Laporeille-1, Voltorbe-1",
+        "Vibraninf-1, Kabuto-1, Goinfrex-1, Tadmorv-1",
+        "Wailmer-1, Pijako-1, Ymphect-1, Kadabra-1"
+      ],
+      "late": "",
+      "quote": "Explorer des ruines, ce n'est pas de tout repos, tu sais !",
+      "winQuote": "",
+      "lossQuote": "",
+      "sprite": "assets/images/bdsptrainers/ruinmaniac.png"
+    }
+  ]
+}
