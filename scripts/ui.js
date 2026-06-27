@@ -1369,16 +1369,28 @@ function highlightTeamRow(ti) {
         r.classList.toggle('selected', Number(r.dataset.team) === ti));
 }
 
+// Click a preview row: open its detail + highlight it. Re-clicking the row that's
+// already selected toggles it back OFF (clears the panels) — mirrors the set-row
+// behaviour in the other games, where clicking the open row collapses it.
+function pickTeamRow(ti, renderDetail) {
+    const row = document.querySelector(`#team-rows .team-row[data-team="${ti}"]`);
+    if (row && row.classList.contains('selected')) {
+        highlightTeamRow(-1);   // no row has index -1 → deselect every row
+        clearBdspPanels();
+        showBdspPanels(0);
+    } else {
+        renderDetail();
+        highlightTeamRow(ti);
+    }
+}
+
 // Entry point: render a BDSP trainer's team view. Multi-team → preview rows (details
 // appear once a row is clicked); single team → details immediately.
 export function renderBdspTrainer(trainer) {
     const host = document.getElementById('team-rows');
     const teams = trainerTeams(trainer);
     if (teams.length > 1) {
-        renderBdspTeamRows(teams, ti => {
-            renderBdspTeamDetail(teams[ti]);
-            highlightTeamRow(ti);
-        });
+        renderBdspTeamRows(teams, ti => pickTeamRow(ti, () => renderBdspTeamDetail(teams[ti])));
         host.style.display = '';
         clearBdspPanels();
         showBdspPanels(0);
@@ -1444,7 +1456,7 @@ function renderDuo(rec) {
     const host = document.getElementById('team-rows');
     const teams = rec?.teams || [];
     if (teams.length > 1) {
-        renderBdspTeamRows(teams, ti => { renderDuoDetail(teams[ti]); highlightTeamRow(ti); },
+        renderBdspTeamRows(teams, ti => pickTeamRow(ti, () => renderDuoDetail(teams[ti])),
                            [2, 0, 3, 1]);   // t2p1, t1p1, t2p2, t1p2
         host.style.display = '';
         clearBdspPanels();
