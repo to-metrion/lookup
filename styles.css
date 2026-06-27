@@ -866,11 +866,26 @@ button:focus {
     width: 80%;
 }
 
+/* Game select + close (×) share a row: the menu flexes to fill, the × sits to its
+   right, vertically centred, with a gap (the theme picker that the × used to float
+   against has moved to the bottom). */
+.game-row {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 15px;
+}
+.game-row #game-select + .select2-container {
+    flex: 1;
+    min-width: 0;        /* let the menu shrink to leave room for the × */
+    margin-top: 0;       /* the row carries the top spacing now */
+}
 .close {
+    flex: 0 0 auto;
     color: var(--text-muted);
-    float: right;
     font-size: 28px;
     font-weight: bold;
+    line-height: 1;
 }
 
 .close:hover,
@@ -952,6 +967,25 @@ button:focus {
     background-color: var(--accent);
     color: var(--on-accent);
     border-color: var(--accent);
+}
+
+/* The toggle rows (late / minisprites / multis) flow into ONE horizontal, left-aligned
+   row on every screen size (was 3 stacked rows wasting vertical space). Each row stays a
+   flex item; hidden ones (JS display:none) take no space. */
+#settings-toggles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 14px;
+    align-items: center;
+    margin-top: 10px;
+}
+#settings-toggles > div {
+    display: flex;
+    gap: 8px;
+    margin: 0;
+}
+#settings-toggles .settings-toggle-btn {
+    margin: 0;
 }
 
 /* Battle Factory Lv50 / Open Level segmented toggle (sits under the facility
@@ -1766,7 +1800,7 @@ button:focus {
         border: none;
         overflow: visible;
         gap: 6px 8px;
-        justify-content: center;
+        justify-content: flex-start;
     }
     #facility-pills .facility-pill,
     #variant-pills:not(.version-row) .variant-pill {
@@ -1789,36 +1823,9 @@ button:focus {
         overflow: hidden;
     }
 
-    /* Settings close (×): pin it to the top-right corner with breathing room and start
-       the theme swatches below it (it used to float into the swatches' first row). */
+    /* Wider modal on a phone so the game select (now sharing its row with the ×) and the
+       wrapped pills have room — 80% is cramped at this width. */
     .modal-content {
-        position: relative;
-    }
-    .close {
-        position: absolute;
-        top: 8px;
-        right: 12px;
-        margin: 0;
-    }
-    #theme-swatches {
-        margin-top: 26px;
-    }
-
-    /* Toggle buttons (late / minisprites / multis) each took a full vertical row with
-       empty width. Flow them into ONE horizontal, centered row instead. */
-    #settings-toggles {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px 12px;
-        justify-content: center;
-        align-items: center;
-    }
-    #settings-toggles > div {
-        display: flex;
-        gap: 8px;
-        margin: 0;
-    }
-    #settings-toggles .settings-toggle-btn {
-        margin: 0;
+        width: 92%;
     }
 }
