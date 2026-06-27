@@ -1747,4 +1747,78 @@ button:focus {
         height: 30px;
         transform: translateY(-3px);
     }
+
+    /* BDSP DOUBLES preview rows: four members + their movesets don't fit a phone
+       width (overflow right). Drop the move grids from the preview here — they're
+       still shown in the expanded detail panels. (Singles' 3-member rows keep them.) */
+    .bdsp-team-view.doubles-mode .team-rows-table .set-moves {
+        display: none;
+    }
+
+    /* Facility / single-axis variant pills: on a phone these wrap to 2 rows. The
+       joined-segment look (one bordered container) can't hug two uneven rows — and
+       `flex:1` filling each row leaves a lone last-row button stretched full width
+       (e.g. gen-4's "Factory"). So on mobile drop the container border and give each
+       button its OWN border + radius, letting them wrap and CENTER at natural width:
+       no empty filler, no stretched lone button. */
+    #facility-pills,
+    #variant-pills:not(.version-row) {
+        border: none;
+        overflow: visible;
+        gap: 6px 8px;
+        justify-content: center;
+    }
+    #facility-pills .facility-pill,
+    #variant-pills:not(.version-row) .variant-pill {
+        flex: 0 1 auto;            /* natural width — don't stretch to fill the row */
+        border: 1px solid var(--border);
+        border-radius: 4px;
+    }
+    #facility-pills .facility-pill.active,
+    #variant-pills:not(.version-row) .variant-pill.active {
+        border-color: var(--accent);
+    }
+
+    /* Game select: long (localized) names nearly touch the dropdown arrow. Shrink the
+       text a touch and reserve room for the 35px arrow so there's always a small gap. */
+    .select2-container--game .select2-selection--single {
+        font-size: 23px !important;
+    }
+    .select2-container--game .select2-selection--single .select2-selection__rendered {
+        padding-right: 40px;
+        overflow: hidden;
+    }
+
+    /* Settings close (×): pin it to the top-right corner with breathing room and start
+       the theme swatches below it (it used to float into the swatches' first row). */
+    .modal-content {
+        position: relative;
+    }
+    .close {
+        position: absolute;
+        top: 8px;
+        right: 12px;
+        margin: 0;
+    }
+    #theme-swatches {
+        margin-top: 26px;
+    }
+
+    /* Toggle buttons (late / minisprites / multis) each took a full vertical row with
+       empty width. Flow them into ONE horizontal, centered row instead. */
+    #settings-toggles {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px 12px;
+        justify-content: center;
+        align-items: center;
+    }
+    #settings-toggles > div {
+        display: flex;
+        gap: 8px;
+        margin: 0;
+    }
+    #settings-toggles .settings-toggle-btn {
+        margin: 0;
+    }
 }
