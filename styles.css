@@ -864,6 +864,9 @@ button:focus {
     padding: 20px;
     border: 1px solid var(--border-strong);
     width: 80%;
+    /* border-box so width includes the padding/border — otherwise width:NN% + 20px
+       padding each side can exceed the viewport (horizontal scroll) on mobile. */
+    box-sizing: border-box;
 }
 
 /* Game select + close (×) share a row: the menu flexes to fill, the × sits to its
@@ -882,6 +885,7 @@ button:focus {
 }
 .close {
     flex: 0 0 auto;
+    align-self: flex-start;   /* top-right of the row, not vertically centred on the menu */
     color: var(--text-muted);
     font-size: 28px;
     font-weight: bold;
