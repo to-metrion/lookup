@@ -310,15 +310,17 @@ button:focus {
 
 /* Colored icon buttons brighten to the theme's highlight color on hover (matching the
    reverse-row load arrow). Mask icons are tinted via background-color; the reverse-lookup
-   SVG + mode glyph via color. */
+   SVG via color; the mode control highlights its slider KNOB. Gated to `hover: hover` so a
+   touch TAP doesn't latch the highlight (the on-screen mode slider was keeping it). */
 .icon-mask { transition: background-color 0.2s ease; }
-#settings-btn:hover .icon-mask,
-#reset-btn:hover .icon-mask,
-#reverse-reset:hover .icon-mask { background-color: var(--highlight); }
 #reverse-lookup-btn { transition: color 0.2s ease; }
-#reverse-lookup-btn:hover { color: var(--highlight); }
-/* Hovering the mode control highlights the slider KNOB (not the die glyph). */
-#mode-control:hover #mode-knob { background-color: var(--highlight); }
+@media (hover: hover) {
+    #settings-btn:hover .icon-mask,
+    #reset-btn:hover .icon-mask,
+    #reverse-reset:hover .icon-mask { background-color: var(--highlight); }
+    #reverse-lookup-btn:hover { color: var(--highlight); }
+    #mode-control:hover #mode-knob { background-color: var(--highlight); }
+}
 
 .trainer-select-container {
     flex-grow: 1;
@@ -856,6 +858,7 @@ button:focus {
     right: 20px;
     border-radius: 50%;
     padding: 10px;
+    z-index: 6;   /* keep above content (matches the reverse-lookup button); below modal */
 }
 
 .modal {
@@ -1315,9 +1318,13 @@ button:focus {
 }
 
 /* ============================================================
-   Reverse Lookup (BDSP) — find the trainer from the Pokémon seen
+   Reverse Lookup — find the trainer from the Pokémon seen
    ============================================================ */
-/* Button sits above the reset button (bottom-right). The inline SVG uses
+/* Header wrapper for the settings + reverse buttons. On desktop the reverse button is
+   position:fixed (so this just holds the settings cog); on mobile it goes static and the
+   two stack here (see the ≤600px block). */
+.header-actions { display: flex; align-items: center; }
+/* Desktop: the button sits above the reset button (bottom-right). The inline SVG uses
    currentColor, so setting the button color tints it with the theme accent. */
 #reverse-lookup-btn {
     position: fixed;
@@ -1327,8 +1334,25 @@ button:focus {
     padding: 10px;
     color: var(--accent);
     line-height: 0;
+    /* Above page content (incl. positioned .set-details panels) — it lives early in the
+       DOM (the header) so it needs an explicit z-index to stay on top, like reset does by
+       DOM order. Below the modal (z-index 100). */
+    z-index: 6;
 }
 #reverse-lookup-btn svg { display: block; }
+
+/* The fixed corner buttons can overlap scrolled content on short screens, where their
+   round shape gets lost. A frosted backdrop makes the shape read clearly over content
+   while staying invisible over the plain page: the fill is the bg colour at partial
+   opacity, so over plain bg it matches exactly, and over content the blur frosts it.
+   (If color-mix is unsupported the fill drops out and the blur alone still applies.) */
+#reset-btn,
+#reverse-lookup-btn,
+#reverse-reset {
+    background-color: color-mix(in srgb, var(--bg) 70%, transparent);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
+}
 
 .reverse-header {
     display: flex;
@@ -1919,13 +1943,43 @@ button:focus {
     }
 
     .icon-settings {
-        width: 32px;
-        height: 32px;
+        width: 26px;
+        height: 26px;
     }
 
     #reset-btn {
         visibility: hidden;
     }
+
+    /* Mobile: reset isn't shown bottom-right, and a fixed reverse button there looks out
+       of place + overlaps content. Stack the reverse button UNDER the settings cog in the
+       header instead (both slightly smaller to share the right edge of the trainer menu).
+       The column fills the bar height (align-self:stretch) and space-evenly gives equal
+       space above / between / below the two icons. */
+    .header-actions {
+        flex-direction: column;
+        align-self: stretch;
+        justify-content: space-evenly;
+        /* The trainer menu is flex-grow:1, so it fills all free space and a width on it
+           does nothing — margins here (which grow can't consume) set the gaps. Centre the
+           buttons in the right region: 10px from the menu, and 5px margin + the header's
+           5px right padding = 10px from the screen edge. */
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+    .header-actions button { padding: 0; }
+    #reverse-lookup-btn {
+        position: static;
+        bottom: auto;
+        right: auto;
+        padding: 0;
+        /* In the header (over a solid bar, not page content) the frosted backdrop isn't
+           wanted — drop it so the icon sits plainly next to the cog. */
+        background-color: transparent;
+        -webkit-backdrop-filter: none;
+        backdrop-filter: none;
+    }
+    #reverse-lookup-btn svg { width: 26px; height: 26px; }
 
     /* Multis on mobile: stacked trainer/quote menus, no minisprites */
     .multis-mode header {
