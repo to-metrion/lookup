@@ -308,6 +308,18 @@ button:focus {
     mask-image: url('assets/images/copy.png');
 }
 
+/* Colored icon buttons brighten to the theme's highlight color on hover (matching the
+   reverse-row load arrow). Mask icons are tinted via background-color; the reverse-lookup
+   SVG + mode glyph via color. */
+.icon-mask { transition: background-color 0.2s ease; }
+#settings-btn:hover .icon-mask,
+#reset-btn:hover .icon-mask,
+#reverse-reset:hover .icon-mask { background-color: var(--highlight); }
+#reverse-lookup-btn { transition: color 0.2s ease; }
+#reverse-lookup-btn:hover { color: var(--highlight); }
+/* Hovering the mode control highlights the slider KNOB (not the die glyph). */
+#mode-control:hover #mode-knob { background-color: var(--highlight); }
+
 .trainer-select-container {
     flex-grow: 1;
     margin: 0 10px;
@@ -1300,6 +1312,195 @@ button:focus {
     background-color: var(--border);
     margin: 2px 8px;
     flex: none;
+}
+
+/* ============================================================
+   Reverse Lookup (BDSP) — find the trainer from the Pokémon seen
+   ============================================================ */
+/* Button sits above the reset button (bottom-right). The inline SVG uses
+   currentColor, so setting the button color tints it with the theme accent. */
+#reverse-lookup-btn {
+    position: fixed;
+    bottom: 96px;
+    right: 22px;
+    border-radius: 50%;
+    padding: 10px;
+    color: var(--accent);
+    line-height: 0;
+}
+#reverse-lookup-btn svg { display: block; }
+
+.reverse-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 14px;
+}
+#reverse-lookup-title {
+    margin: 0;
+    color: var(--accent);
+    font-size: 24px;
+}
+/* Reset button: bottom-right, identical to the main page's reset (it sits inside the
+   modal so it shows above the overlay, only while the modal is open). */
+#reverse-reset {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/* One species menu per team slot (its placeholder is the Lead/Backup label), wrapping
+   on narrow widths. */
+#reverse-menus {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 16px 0;
+}
+.reverse-menu { flex: 1 1 150px; min-width: 0; }
+
+#reverse-results { margin-top: 8px; }
+.reverse-rows {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    font-size: 0.8em;   /* compact, like the main team preview rows */
+}
+/* Clicking a row loads that trainer/duo in the main tool (no inline expansion). */
+.reverse-row { cursor: pointer; }
+
+/* The row reuses the .team-row look; a trainer cell leads and a load arrow trails.
+   No movesets here, so the trainer name shows IN FULL (no truncation). */
+.reverse-trainer {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex: 0 0 auto;
+    margin-right: 10px;
+}
+.reverse-trainer-sprite { width: 34px; height: 34px; object-fit: contain; flex: none; }
+.reverse-trainer-name {
+    font-size: 1.15em;
+    white-space: nowrap;
+}
+/* Thick separator between the trainer and their team (heavier than the per-Pokémon
+   .team-sep so the trainer reads as its own group). */
+.reverse-sep-main {
+    width: 4px;
+    align-self: stretch;
+    background-color: var(--border-strong);
+    border-radius: 2px;
+    margin: 2px 12px 2px 4px;
+    flex: none;
+}
+
+/* Members sit at natural width right after the separator; the arrow's auto margin
+   pushes it to the far right of the row. */
+.reverse-row .team-member { flex: 0 0 auto; }
+.reverse-arrow {
+    flex: 0 0 auto;
+    margin-left: auto;
+    padding: 6px 14px;
+    color: var(--accent);
+    font-size: 2em;
+    line-height: 1;
+}
+.reverse-row:hover .reverse-arrow { color: var(--highlight); }
+
+.reverse-empty {
+    padding: 12px 4px;
+    color: var(--text-muted);
+    font-style: italic;
+}
+
+/* --- roster/set model (SwSh etc.): species menu + a set submenu stacked under it --- */
+.reverse-menu-roster {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    flex: 1 1 200px;
+}
+.reverse-set { width: 100%; }
+/* Rich set-option preview in the set dropdown: #num + item + nature on one line, the
+   2×2 move grid below. */
+.reverse-set-opt {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4px 8px;
+    font-size: 0.9em;
+}
+.reverse-set-num { font-weight: bold; }
+/* Moves stack in a single column of 4 so the names get the full menu width (the menu
+   is free to grow taller — see the auto-height selection box below). */
+.reverse-set-opt .set-moves {
+    width: 100%;
+    grid-template-columns: 1fr;
+    gap: 2px 0;
+}
+.reverse-set-opt .team-item { width: 20px; height: 20px; vertical-align: middle; }
+
+/* The chosen set keeps showing its full preview (incl. moves), so let the single-select
+   control grow instead of clipping to one line. */
+.reverse-set-box .select2-selection--single { height: auto; min-height: 36px; }
+/* NB: select2's own `.select2-container--default .select2-selection--single
+   .select2-selection__rendered { line-height: 28px }` (3 classes) outranks a 2-class
+   selector — match its specificity (+ later source order) or the picked set's stacked
+   moves inherit the 28px line-height and balloon vertically (the dropdown options, styled
+   separately, looked fine — which is why it only showed after a set was picked). */
+.reverse-set-box .select2-selection--single .select2-selection__rendered {
+    white-space: normal;
+    line-height: 1.25;
+    padding: 4px 24px 4px 8px;   /* room for the dropdown arrow on the right */
+}
+.reverse-set-box .select2-selection__arrow { top: 6px; }
+
+/* Roster preview: minisprites on a single clipped line + a trailing "…" when cut. */
+.reverse-roster {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 3px;
+    flex: 1 1 0;
+    min-width: 0;
+    overflow: hidden;
+}
+.reverse-mini { width: 30px; height: 30px; flex: none; object-fit: contain; }
+.reverse-more { flex: none; padding: 0 4px; font-weight: bold; color: var(--text-muted); }
+
+/* MULTIS: two independent side filters (one per opponent trainer), divided by a
+   separator. Left side → multi slot 1, right side → slot 2. The wrap must FILL the
+   modal (width:100%) — otherwise it sizes to content and the sides aren't held to 50%,
+   so a wide result row blows the layout past the window. */
+.reverse-multis { display: flex; align-items: flex-start; width: 100%; }
+.reverse-side {
+    flex: 1 1 0;
+    min-width: 0;
+    overflow: hidden;   /* hard-cap each side to its half (the roster preview clips) */
+    display: flex;
+    flex-direction: column;
+    padding: 0 14px;
+}
+.reverse-side:first-child { padding-left: 0; }
+.reverse-side:last-child { padding-right: 0; }
+.reverse-side-sep {
+    flex: none;
+    width: 3px;
+    align-self: stretch;
+    background-color: var(--border-strong);
+    border-radius: 2px;
+}
+.reverse-menus-side { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 12px; }
+.reverse-menus-side .reverse-menu-roster { flex: 1 1 130px; }
+.reverse-results-side { min-width: 0; }
+
+/* On a phone the two sides won't fit abreast — stack them with a horizontal divider. */
+@media (max-width: 600px) {
+    .reverse-multis { flex-direction: column; }
+    .reverse-side { padding: 0; }
+    .reverse-side-sep { width: auto; height: 3px; margin: 8px 0; }
 }
 
 /* ============================================================

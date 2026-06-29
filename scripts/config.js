@@ -83,6 +83,9 @@ export const GAMES = [
                 hasTrainers: true,
                 showMinisprites: false,
                 teamView: true,
+                // Reverse Lookup: find the trainer/duo from the Pokémon seen. Static
+                // ordered rosters make BDSP ideal for it (see ui.js reverse section).
+                reverseLookup: true,
                 // Master Doubles = MULTIS (duos): two trainer menus, each duo record
                 // carries both trainers + teams; the trainer menu picks whole DUOS,
                 // the quote menu picks individuals (with partner filtering). See the
@@ -105,6 +108,7 @@ export const GAMES = [
                 hasTrainers: true,
                 showMinisprites: false,
                 teamView: true,
+                reverseLookup: true,
             },
         ],
     },
@@ -132,6 +136,9 @@ export const GAMES = [
                 modes: ['singles', 'doubles'],
                 hasTrainers: true,
                 showMinisprites: true,
+                // Reverse lookup (roster/set model — see ui.js): pick the Pokémon (and
+                // optionally an exact set) you saw to find which trainer(s) field them.
+                reverseLookup: true,
             },
             {
                 code: 'swsh-rs',
@@ -178,6 +185,7 @@ export const GAMES = [
                 hasTrainers: true,
                 showMinisprites: true,
                 lateCutoff: 40,
+                reverseLookup: true,   // roster/set model; multis splits into two sides
             },
             {
                 code: 'tree-sm',
@@ -193,6 +201,7 @@ export const GAMES = [
                 hasTrainers: true,
                 showMinisprites: true,
                 lateCutoff: 40,
+                reverseLookup: true,
             },
         ],
     },
@@ -218,6 +227,7 @@ export const GAMES = [
                 hasTrainers: true,
                 showMinisprites: true,
                 lateCutoff: 40,
+                reverseLookup: true,   // roster/set model (triples reuses the singles 3-menu config)
             },
             {
                 code: 'maison-xy',
@@ -233,6 +243,7 @@ export const GAMES = [
                 hasTrainers: true,
                 showMinisprites: true,
                 lateCutoff: 40,
+                reverseLookup: true,   // roster/set model (triples reuses the singles 3-menu config)
             },
         ],
     },
@@ -252,6 +263,7 @@ export const GAMES = [
                 hasTrainers: true,
                 showMinisprites: true,
                 lateCutoff: 28,
+                reverseLookup: true,   // roster/set model
             },
         ],
     },
@@ -429,6 +441,9 @@ function frontier3Variants() {
                 icons: ['assets/images/games/e.png'],
             };
             if (f.base) variant.base = f.base;
+            // Reverse lookup (roster/set model) on every fixed-roster facility — NOT
+            // Factory (rosters generated at runtime from tier × level).
+            if (f.key !== 'factory') variant.reverseLookup = true;
             if (f.forcedIV != null) {
                 // Dome 3-IV bug: non-brain trainers use this IV (browse too); the
                 // brain (Tucker) keeps his own iv via the trainer record.
@@ -476,6 +491,7 @@ function frontier3Variants() {
         openLabel: 'level-100',     // the level toggle's 2nd option reads "Level 100"
         lateCutoff: 50,             // "50+" = the IV-31 trainers (Oliver..Gillian)
         enOnlyQuotes: true,         // gen-3 quotes are Easy Chat (English only)
+        reverseLookup: true,        // roster/set model (uses the active Lv50/Lv100 pool)
         icons: ['assets/images/games/r.png', 'assets/images/games/sa.png'],
     });
     return out;
@@ -547,6 +563,10 @@ function frontier4Variants() {
             if (f.factory) variant.factory = true;  // runtime roster generation + Lv50/Open
             if (f.links) variant.links = f.links;   // external helper-tool links
             if (f.base) variant.base = f.base;
+            // Reverse lookup (roster/set model): fixed-roster facilities only — Tower,
+            // Arcade, Castle (every version incl. DP Tower). NOT Hall (no trainers) or
+            // Factory (rosters generated at runtime from tier × level).
+            if (['tower', 'arcade', 'castle'].includes(f.key)) variant.reverseLookup = true;
             // DP Tower is its OWN standalone dataset and randomizes natures.
             if (v.code === 'dp' && f.key === 'tower') {
                 variant.dataDir = 'frontier4-dp';
@@ -608,7 +628,7 @@ export const THEMES = [
 
 // Appended to every data fetch (?v=...) so browsers pick up new data after a
 // deploy instead of serving stale cached JSON. Bump when data files change.
-export const DATA_VERSION = '2026-06-26l';
+export const DATA_VERSION = '2026-06-29b';
 
 export const LANGUAGE_NAMES = {
     en: 'English',

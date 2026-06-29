@@ -16,6 +16,7 @@ import {
     trainerPool, isLateTrainer,
     populatePyramidWildFilter, syncPyramidWildFilter,
     renderBdspTrainer, isDuoDoubles, resetDuoSelection, positionSwap,
+    populateReverseLookup, selectDuo,
 } from './ui.js';
 
 /* ---------- settings (game, variant, language, theme) ---------- */
@@ -1144,6 +1145,39 @@ function closeSettings() {
     document.getElementById('settings-modal').style.display = 'none';
 }
 
+/* ---------- reverse lookup (find the trainer from the Pokémon seen) ---------- */
+
+function openReverseLookup() {
+    // Show before populating so select2 measures the menus at their real width.
+    document.getElementById('reverse-lookup-modal').style.display = 'block';
+    populateReverseLookup(loadReverseResult);
+}
+
+function closeReverseLookup() {
+    document.getElementById('reverse-lookup-modal').style.display = 'none';
+}
+
+// Clicking a result row loads that trainer/duo into the main tool.
+function loadReverseResult(match) {
+    // BDSP (team model): load the trainer/duo and open the matched team's row.
+    if (state.variant.teamView) {
+        closeReverseLookup();
+        if (isDuoDoubles()) selectDuo(match.trainer);
+        else onTrainerSelected(1, match.trainer);
+        const openRow = () => {
+            const row = document.querySelector(`#team-rows .team-row[data-team="${match.teamIndex}"]`);
+            if (row && !row.classList.contains('selected')) row.click();
+        };
+        if (typeof requestAnimationFrame === 'function') requestAnimationFrame(openRow);
+        else openRow();
+        return;
+    }
+    // Roster model: load the trainer into its side. MULTIS picks two opponents (left →
+    // slot 1, right → slot 2), so keep the modal OPEN to fill both; otherwise close.
+    onTrainerSelected(match.side || 1, match.trainer);
+    if (state.mode !== 'multis') closeReverseLookup();
+}
+
 /* ---------- init ---------- */
 
 async function init() {
@@ -1260,6 +1294,14 @@ async function init() {
     document.querySelector('#settings-modal .close').addEventListener('click', closeSettings);
     document.getElementById('settings-modal').addEventListener('click', e => {
         if (e.target.id === 'settings-modal') closeSettings(); // click on backdrop
+    });
+    document.getElementById('reverse-lookup-btn').addEventListener('click', openReverseLookup);
+    // Reset: force a rebuild to an empty search (the default open path reuses the
+    // previous search + results so you can try another result after loading one).
+    document.getElementById('reverse-reset').addEventListener('click', () => populateReverseLookup(null, true));
+    document.querySelector('#reverse-lookup-modal .close').addEventListener('click', closeReverseLookup);
+    document.getElementById('reverse-lookup-modal').addEventListener('click', e => {
+        if (e.target.id === 'reverse-lookup-modal') closeReverseLookup(); // backdrop
     });
 
     // Close any open select2 dropdown when clicking elsewhere on the page.

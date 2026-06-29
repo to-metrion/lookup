@@ -229,16 +229,40 @@
     "ko": "야생 포켓몬"
   },
   "pyramidRound": {
-    "en": "Round", "fr": "Manche", "it": "Round", "de": "Runde", "es": "Ronda", "jp": "ラウンド", "ko": "라운드"
+    "en": "Round",
+    "fr": "Manche",
+    "it": "Round",
+    "de": "Runde",
+    "es": "Ronda",
+    "jp": "ラウンド",
+    "ko": "라운드"
   },
   "pyramidFloor": {
-    "en": "Floor", "fr": "Étage", "it": "Piano", "de": "Etage", "es": "Piso", "jp": "フロア", "ko": "층"
+    "en": "Floor",
+    "fr": "Étage",
+    "it": "Piano",
+    "de": "Etage",
+    "es": "Piso",
+    "jp": "フロア",
+    "ko": "층"
   },
   "pyramidAllRounds": {
-    "en": "All rounds", "fr": "Toutes les manches", "it": "Tutti i round", "de": "Alle Runden", "es": "Todas las rondas", "jp": "全ラウンド", "ko": "모든 라운드"
+    "en": "All rounds",
+    "fr": "Toutes les manches",
+    "it": "Tutti i round",
+    "de": "Alle Runden",
+    "es": "Todas las rondas",
+    "jp": "全ラウンド",
+    "ko": "모든 라운드"
   },
   "pyramidAllFloors": {
-    "en": "All floors", "fr": "Tous les étages", "it": "Tutti i piani", "de": "Alle Etagen", "es": "Todos los pisos", "jp": "全フロア", "ko": "모든 층"
+    "en": "All floors",
+    "fr": "Tous les étages",
+    "it": "Tutti i piani",
+    "de": "Alle Etagen",
+    "es": "Todos los pisos",
+    "jp": "全フロア",
+    "ko": "모든 층"
   },
   "factory-battles": {
     "en": "Battles",
@@ -553,5 +577,71 @@
     "es": "Acero",
     "jp": "はがね",
     "ko": "강철"
+  },
+  "reverseLookup": {
+    "en": "Reverse Lookup",
+    "fr": "Recherche inversée",
+    "it": "Ricerca inversa",
+    "de": "Umgekehrte Suche",
+    "es": "Búsqueda inversa",
+    "jp": "逆引き",
+    "ko": "역검색",
+    "chs": "反向查找",
+    "cht": "反向查找"
+  },
+  "reverseLead": {
+    "en": "Lead",
+    "fr": "Tête",
+    "it": "Capofila",
+    "de": "Leader",
+    "es": "Líder",
+    "jp": "先頭",
+    "ko": "선두",
+    "chs": "首发",
+    "cht": "首發"
+  },
+  "reverseBackup": {
+    "en": "Backup",
+    "fr": "Réserve",
+    "it": "Riserva",
+    "de": "Reserve",
+    "es": "Reserva",
+    "jp": "控え",
+    "ko": "후보",
+    "chs": "替补",
+    "cht": "替補"
+  },
+  "reverseNoResults": {
+    "en": "No matching trainers.",
+    "fr": "Aucun dresseur correspondant.",
+    "it": "Nessun allenatore corrispondente.",
+    "de": "Keine passenden Trainer.",
+    "es": "Ningún entrenador coincide.",
+    "jp": "該当するトレーナーがいません。",
+    "ko": "일치하는 트레이너가 없습니다.",
+    "chs": "没有匹配的训练家。",
+    "cht": "沒有符合的訓練家。"
+  },
+  "reverseLoad": {
+    "en": "Open in lookup",
+    "fr": "Ouvrir dans l'outil",
+    "it": "Apri nello strumento",
+    "de": "Im Tool öffnen",
+    "es": "Abrir en la herramienta",
+    "jp": "ツールで開く",
+    "ko": "도구에서 열기",
+    "chs": "在工具中打开",
+    "cht": "在工具中開啟"
+  },
+  "reverseAllSets": {
+    "en": "All sets",
+    "fr": "Tous les sets",
+    "it": "Tutti i set",
+    "de": "Alle Sets",
+    "es": "Todos los sets",
+    "jp": "全セット",
+    "ko": "모든 세트",
+    "chs": "所有配置",
+    "cht": "所有配置"
   }
 }

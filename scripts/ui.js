@@ -961,14 +961,25 @@ function ivsLine(set, slotIV) {
 }
 
 function showSetDetails(slot, set) {
-    const slotIV = ivForSlot(slot);
     const container = document.getElementById(`pokemon-sets-${slot}`);
     container.querySelector('.set-details')?.remove();
+    const details = buildSetDetail(set, ivForSlot(slot));
+    if (!details) return;
+    container.appendChild(details);
+    fitDetailsFont(details);
+    if (typeof ResizeObserver !== 'undefined') {
+        new ResizeObserver(() => fitDetailsFont(details)).observe(details);
+    }
+}
 
+// Build a set's three-column detail card as a DETACHED element (returned, not inserted),
+// so the caller can place it where needed. Used by showSetDetails (the main #pokemon-sets
+// slots); the refactor that split it out keeps that path unchanged.
+function buildSetDetail(set, slotIV = null) {
     const speciesData = dexEntry(set.species);
     if (!speciesData) {
         console.error('Species data not found for:', set.species);
-        return;
+        return null;
     }
 
     const english = speciesData.en.toLowerCase();
@@ -1143,12 +1154,7 @@ function showSetDetails(slot, set) {
         }
     });
 
-    container.appendChild(details);
-
-    fitDetailsFont(details);
-    if (typeof ResizeObserver !== 'undefined') {
-        new ResizeObserver(() => fitDetailsFont(details)).observe(details);
-    }
+    return details;
 }
 
 // Hybrid squeeze handling: at full size the flex gaps between the columns
@@ -1493,6 +1499,11 @@ function selectDuoRecord(rec) {
     populateDuoMenus();
 }
 
+// Exposed for Reverse Lookup: load a duo record into the main tool (Master Doubles).
+export function selectDuo(rec) {
+    if (rec) selectDuoRecord(rec);
+}
+
 function setDuoIndividual(side, name) {
     state.bdspDuo[side === 1 ? 'l' : 'r'] = name;
     const rec = duoResolve();
@@ -1563,8 +1574,17 @@ function duoTrainerMatcher(params, data) {
     const term = fold2(params.term).trim();
     if (!term) return data;
     const el = data.element ? $(data.element) : null;
+    // The search also matches the trainer CLASS (parity with the other games'
+    // trainerMatcher) — classes come from the duo index (rec.class / rec.class2).
+    const cls = name => duoIndex().individuals.get(name)?.cls;
     if (el && el.data('kind') === 'duo') {
-        return (fold2(el.data('n1')).includes(term) || fold2(el.data('n2')).includes(term)) ? data : null;
+        const n1 = el.data('n1'), n2 = el.data('n2');
+        return (fold2(n1).includes(term) || fold2(n2).includes(term)
+            || fold2(cls(n1)).includes(term) || fold2(cls(n2)).includes(term)) ? data : null;
+    }
+    if (el && el.data('kind') === 'ind') {
+        const name = el.data('name');
+        return (fold2(name).includes(term) || fold2(cls(name)).includes(term)) ? data : null;
     }
     return fold2(data.text).includes(term) ? data : null;
 }
@@ -1647,6 +1667,532 @@ function populateDuoQuote(side) {
     });
     $dd.val(value).trigger('change.select2');
     $dd.off('select2:select').on('select2:select', e => setDuoIndividual(side, e.params.data.id.slice(4)));
+}
+
+/* ---------- Reverse Lookup: identify the trainer from the Pokémon seen ---------- */
+// A modal (#reverse-lookup-modal) with TWO models, dispatched by populateReverseLookup on
+// state.variant.teamView:
+//  • TEAM model (BDSP — fixed ordered teams): one species menu per slot with Lead/Backup
+//    roles (singles 1 Lead + 2 Backup; doubles, a 4-mon team OR a Master duo, 2 Lead +
+//    2 Backup). A team matches if every Lead pick is one of its leads and every Backup
+//    pick any of its non-lead members (UNORDERED within each group). One row per TEAM.
+//  • ROSTER/SET model (every other facility — per-Pokémon sets + rosters): plain species
+//    menus (3 singles / 4 doubles; multis splits into two independent sides), each
+//    revealing a set submenu to optionally pin an exact set. A trainer matches if its
+//    roster holds every chosen species (or exact Species-N). One row per TRAINER, with a
+//    truncated roster-sprite preview. Searches the late-filtered pool (reverseTrainers).
+// Either way, clicking a result row LOADS that trainer/duo in the main tool (app.js
+// loadReverseResult); the search + results persist across reopen (reverseBuilt token).
+
+let reverseOnLoad = null;
+
+// Role of each menu, by current mode.
+function reverseRoles() {
+    return state.mode === 'doubles'
+        ? ['lead', 'lead', 'backup', 'backup']
+        : ['lead', 'backup', 'backup'];
+}
+
+const refSpecies = ref => {
+    const s = setForRef(ref);
+    return s ? s.species : (ref || '').split(/-(?=\d+$)/)[0];
+};
+
+// A team's lead vs backup species, by mode. Singles: lead = member 0. Normal doubles
+// (one 4-mon team): leads = members 0,1. Master duo (team order [t1p1,t1p2,t2p1,t2p2]):
+// leads = each trainer's FIRST mon (members 0,2), backups = members 1,3.
+function teamRoleSpecies(refs) {
+    if (state.mode !== 'doubles') {
+        return { leads: [refSpecies(refs[0])], backups: refs.slice(1).map(refSpecies) };
+    }
+    if (isDuoDoubles()) {
+        return { leads: [refs[0], refs[2]].map(refSpecies), backups: [refs[1], refs[3]].map(refSpecies) };
+    }
+    return { leads: [refs[0], refs[1]].map(refSpecies), backups: [refs[2], refs[3]].map(refSpecies) };
+}
+
+// Display order for a result row's team preview (mirrors the main tool's team rows).
+function reverseDisplayOrder(n) {
+    if (state.mode !== 'doubles') return [0, 1, 2].slice(0, n);
+    return isDuoDoubles() ? [2, 0, 3, 1] : [1, 0, 2, 3];
+}
+
+// Every species fielded by any trainer/duo in the loaded dataset (the menu options).
+function reverseSpeciesPool() {
+    const out = new Set();
+    for (const tr of trainerPool())   // respects the late filter (smaller pool)
+        for (const team of trainerTeams(tr))
+            for (const ref of team.split(', ').filter(Boolean))
+                out.add(refSpecies(ref));
+    return [...out].filter(sp => dexEntry(sp)).sort((a, b) => a.localeCompare(b));
+}
+
+// Tracks what the current menus/results were built for. Opening the modal REUSES them
+// (so a search + its results survive loading a result and reopening to try another);
+// they're rebuilt only when the dataset / mode / language changed, or on an explicit
+// reset (force).
+let reverseBuilt = null;
+
+// Build (or reuse) the species menus. Opening the modal calls this with the loader;
+// the reset button calls it with force=true to clear back to an empty search.
+export function populateReverseLookup(onLoad, force = false) {
+    if (onLoad) reverseOnLoad = onLoad;
+    const fresh = reverseBuilt && reverseBuilt.data === state.data
+        && reverseBuilt.mode === state.mode && reverseBuilt.lang === state.language
+        && reverseBuilt.late === state.lateOnly   // late filter shrinks the searched pool
+        && reverseBuilt.open === state.factoryOpen // RS Tower Lv50/Lv100 swaps the pool
+        && document.getElementById('reverse-menu-0');
+    if (fresh && !force) return;   // reuse the existing search + results
+    reverseBuilt = { data: state.data, mode: state.mode, lang: state.language,
+                     late: state.lateOnly, open: state.factoryOpen };
+    document.getElementById('reverse-lookup-title').textContent = t('reverseLookup', 'Reverse Lookup');
+    document.getElementById('reverse-menus').innerHTML = '';
+    document.getElementById('reverse-results').innerHTML = '';
+    // BDSP uses fixed ordered teams (Lead/Backup); other facilities have per-Pokémon
+    // sets + rosters, so they get the species+set "roster" model instead.
+    if (state.variant.teamView) buildReverseTeamMenus();
+    else buildReverseRosterMenus();
+}
+
+// --- team model (BDSP): one species menu per slot, Lead/Backup roles ---
+function buildReverseTeamMenus() {
+    const roles = reverseRoles();
+    const pool = reverseSpeciesPool();
+    const host = document.getElementById('reverse-menus');
+    roles.forEach((role, i) => {
+        const wrap = document.createElement('div');
+        wrap.className = 'reverse-menu';
+        // The placeholder (shown until a pick is made) labels the slot — no separate
+        // label above. There's no per-menu clear "×" (it crowded the name); the modal's
+        // reset button (fixed bottom-right) clears all menus instead.
+        const labelText = role === 'lead' ? t('reverseLead', 'Lead') : t('reverseBackup', 'Backup');
+        const sel = document.createElement('select');
+        sel.id = `reverse-menu-${i}`;
+        sel.dataset.role = role;
+        wrap.appendChild(sel);
+        host.appendChild(wrap);
+        const $sel = $(sel);
+        $sel.append(new Option('', '', true, true));
+        for (const sp of pool) {
+            const o = new Option(sp, sp, false, false);
+            $(o).attr('data-icon', speciesMinispriteUrl(sp));
+            $sel.append(o);
+        }
+        initSelect2(`#reverse-menu-${i}`, {
+            placeholder: labelText,
+            template: spriteTemplate,
+        });
+        $sel.val('').trigger('change.select2');
+        $sel.off('select2:select select2:clear')
+            .on('select2:select select2:clear', runReverseFilter);
+    });
+    document.getElementById('reverse-results').innerHTML = '';
+    runReverseFilter();
+}
+
+// Read the menu picks, compute matching teams, render the result rows.
+function runReverseFilter() {
+    const host = document.getElementById('reverse-results');
+    host.innerHTML = '';
+    const roles = reverseRoles();
+    const leadSel = [], backupSel = [];
+    roles.forEach((role, i) => {
+        const v = document.getElementById(`reverse-menu-${i}`)?.value;
+        if (!v) return;
+        (role === 'lead' ? leadSel : backupSel).push(v);
+    });
+    if (!leadSel.length && !backupSel.length) return;   // nothing picked → no list yet
+
+    const matches = [];
+    for (const tr of trainerPool()) {
+        trainerTeams(tr).forEach((team, ti) => {
+            const refs = team.split(', ').filter(Boolean);
+            const { leads, backups } = teamRoleSpecies(refs);
+            const leadSet = new Set(leads), backupSet = new Set(backups);
+            if (leadSel.every(s => leadSet.has(s)) && backupSel.every(s => backupSet.has(s)))
+                matches.push({ trainer: tr, team, teamIndex: ti });
+        });
+    }
+    if (!matches.length) {
+        const empty = document.createElement('div');
+        empty.className = 'reverse-empty';
+        empty.textContent = t('reverseNoResults', 'No matching trainers.');
+        host.appendChild(empty);
+        return;
+    }
+    renderReverseResults(matches, host);
+}
+
+// Trainer (or duo) identity cell — sprite(s) + name — leading each result row.
+function reverseTrainerCell(tr) {
+    const cell = document.createElement('div');
+    cell.className = 'reverse-trainer';
+    const addImg = (src, fb) => {
+        if (!src) return;
+        const im = document.createElement('img');
+        im.className = 'reverse-trainer-sprite';
+        im.src = src;
+        im.onerror = fb ? () => { im.onerror = null; im.src = fb; } : () => im.remove();
+        cell.appendChild(im);
+    };
+    const nm = document.createElement('span');
+    nm.className = 'reverse-trainer-name';
+    if (isDuoDoubles()) {
+        const [icon] = trainerSpriteSrc(tr.sprite);
+        addImg(icon);
+        addImg(tr.sprite2);
+        nm.textContent = `${tr.name} & ${tr.name2}`;
+    } else {
+        const [icon, fb] = trainerSpriteSrc(tr.sprite);
+        addImg(icon, fb);
+        nm.textContent = trainerName(tr);
+    }
+    cell.appendChild(nm);
+    return cell;
+}
+
+// Append a team's members (minisprite + item + moves, separated) to a row, in
+// display order. Shared shape with the main team preview rows.
+function appendTeamMembers(row, teamString, order) {
+    const refs = teamString.split(', ').filter(Boolean);
+    const ord = order || (refs.length === 4 ? [1, 0, 2, 3] : refs.map((_, i) => i));
+    ord.map(i => refs[i]).filter(Boolean).forEach((ref, i) => {
+        if (i) {
+            const sep = document.createElement('div');
+            sep.className = 'team-sep';
+            row.appendChild(sep);
+        }
+        const set = setForRef(ref);
+        const species = set ? set.species : refSpecies(ref);
+        const member = document.createElement('div');
+        member.className = 'team-member';
+        const mini = document.createElement('img');
+        mini.className = 'team-mini';
+        mini.src = speciesMinispriteUrl(species);
+        mini.alt = species;
+        mini.onerror = () => mini.remove();
+        member.appendChild(mini);
+        if (set && set.item && set.item !== 'None') {
+            const item = document.createElement('img');
+            item.className = 'team-item';
+            item.src = itemImageUrl(set.item);
+            item.alt = set.item;
+            item.title = set.item;
+            item.onerror = () => item.remove();
+            member.appendChild(item);
+        }
+        // No movesets in the result rows (the minisprites/items identify the team).
+        row.appendChild(member);
+    });
+}
+
+// Result rows. Clicking ANYWHERE on a row loads that trainer/duo in the main tool (same
+// as the arrow) — there's no inline detail expansion; the search + results stay loaded
+// so reopening the modal lets the user try another result instantly.
+function renderReverseResults(matches, host) {
+    const table = document.createElement('div');
+    table.className = 'reverse-rows';
+    matches.forEach((m, ri) => {
+        const refs = m.team.split(', ').filter(Boolean);
+        const order = reverseDisplayOrder(refs.length);
+
+        const row = document.createElement('div');
+        row.className = `reverse-row team-row ${ri % 2 === 0 ? 'even-row' : 'odd-row'}`;
+        row.appendChild(reverseTrainerCell(m.trainer));
+        // A thick separator divides the trainer from their team (heavier than the
+        // per-Pokémon separators).
+        const mainSep = document.createElement('div');
+        mainSep.className = 'reverse-sep-main';
+        row.appendChild(mainSep);
+        appendTeamMembers(row, m.team, order);
+
+        // Visual load affordance (the whole row is clickable; the arrow has no separate
+        // handler — a click on it bubbles to the row).
+        const arrow = document.createElement('span');
+        arrow.className = 'reverse-arrow';
+        arrow.textContent = '➜';
+        arrow.title = t('reverseLoad', 'Open in lookup');
+        row.appendChild(arrow);
+
+        row.onclick = () => { if (reverseOnLoad) reverseOnLoad(m); };
+        table.appendChild(row);
+    });
+    host.appendChild(table);
+}
+
+/* --- roster/set model (SwSh Tower etc.): a species menu + a set submenu per slot --- */
+// No leads/backups: each menu is a plain species picker over every species fielded by
+// the dataset's trainers; choosing a species reveals a set submenu (item/nature/moves
+// preview) to optionally pin an exact set. A trainer matches if its roster contains
+// every chosen species (and the exact set when one is picked). Results = one row per
+// trainer, previewing its roster as sprites (truncated with "…"); a click loads it.
+
+// The trainers the reverse lookup searches: the current pool (respects the late filter)
+// MINUS the Pike/Pyramid "Wild Pokémon" pseudo-trainer (it isn't a trainer to identify).
+function reverseTrainers() {
+    return trainerPool().filter(tr => !tr.wild);
+}
+// A trainer's species / roster for matching. RS Tower has two mon pools (Lv50 vs Lv100),
+// so use whichever the level toggle has active.
+function reverseSpeciesOf(tr) {
+    return (state.variant?.rsTower && state.factoryOpen ? tr.speciesOpen : tr.species) || '';
+}
+function reverseRosterOf(tr) {
+    return (state.variant?.rsTower && state.factoryOpen ? tr.rosterOpen : tr.roster) || '';
+}
+
+function reverseRosterSpeciesPool() {
+    const out = new Set();
+    for (const tr of reverseTrainers())
+        for (const sp of reverseSpeciesOf(tr).split(', ')) if (sp) out.add(sp);
+    return [...out].filter(sp => dexEntry(sp)).sort((a, b) => a.localeCompare(b));
+}
+
+// The set refs (`Species-N`) actually fielded by the current trainer pool — so the set
+// submenu (and matching) drop sets that only exist on filtered-out (e.g. non-late) trainers.
+function reversePoolRefs() {
+    const refs = new Set();
+    for (const tr of reverseTrainers())
+        for (const tok of reverseRosterOf(tr).split(', ')) if (tok) refs.add(tok);
+    return refs;
+}
+
+function reverseSetsForSpecies(sp) {
+    const refs = reversePoolRefs();
+    return state.data.sets
+        .filter(s => s.species === sp && !s.wild && !s.brain
+            && refs.has(`${s.species}-${s.setNumber}`))
+        .sort((a, b) => a.setNumber - b.setNumber);
+}
+
+function buildReverseRosterMenus() {
+    const pool = reverseRosterSpeciesPool();
+    const host = document.getElementById('reverse-menus');
+    // MULTIS: two opponent trainers → split the UI into two independent SIDES (2 species
+    // menus each), each with its own results list; picking a side's result loads that
+    // trainer into the matching multi slot. SINGLES/DOUBLES: one list (3 / 4 menus, one
+    // trainer). The global #reverse-results is used for the single-list modes only.
+    if (state.mode === 'multis') {
+        const wrap = document.createElement('div');
+        wrap.className = 'reverse-multis';
+        const sides = {};
+        const makeCol = side => {
+            const col = document.createElement('div');
+            col.className = 'reverse-side';
+            const menus = document.createElement('div');
+            menus.className = 'reverse-menus-side';
+            const results = document.createElement('div');
+            results.className = 'reverse-results-side';
+            results.id = `reverse-results-${side}`;
+            col.appendChild(menus);
+            col.appendChild(results);
+            sides[side] = { menus, results };
+            return col;
+        };
+        wrap.appendChild(makeCol(1));
+        const sep = document.createElement('div');
+        sep.className = 'reverse-side-sep';   // divider signifying the two sides
+        wrap.appendChild(sep);
+        wrap.appendChild(makeCol(2));
+        // Attach to the document BEFORE initializing select2 — select2 can't render or
+        // bind on a detached <select> (that left the menus unstyled + inert).
+        host.appendChild(wrap);
+        for (const side of [1, 2]) {
+            const indices = side === 1 ? [0, 1] : [2, 3];
+            const onFilter = () => reverseRosterFilter(indices, sides[side].results, side);
+            for (const i of indices) buildReverseSpeciesSlot(i, pool, onFilter, sides[side].menus);
+            reverseRosterFilter(indices, sides[side].results, side);
+        }
+        return;
+    }
+    const count = state.mode === 'doubles' ? 4 : 3;
+    const indices = [...Array(count).keys()];
+    const results = document.getElementById('reverse-results');
+    const onFilter = () => reverseRosterFilter(indices, results, 1);
+    for (const i of indices) buildReverseSpeciesSlot(i, pool, onFilter, host);
+    reverseRosterFilter(indices, results, 1);
+}
+
+// Build slot i's species picker + (hidden) set submenu into `parent`; choosing a
+// species reveals the set submenu and re-runs `onFilter`.
+function buildReverseSpeciesSlot(i, pool, onFilter, parent) {
+    const wrap = document.createElement('div');
+    wrap.className = 'reverse-menu reverse-menu-roster';
+    const spSel = document.createElement('select');
+    spSel.id = `reverse-menu-${i}`;
+    const setSel = document.createElement('select');
+    setSel.id = `reverse-set-${i}`;
+    setSel.className = 'reverse-set';
+    setSel.style.display = 'none';
+    wrap.appendChild(spSel);
+    wrap.appendChild(setSel);
+    parent.appendChild(wrap);
+
+    const $sp = $(spSel);
+    $sp.append(new Option('', '', true, true));
+    for (const sp of pool) {
+        const o = new Option(sp, sp, false, false);
+        $(o).attr('data-icon', speciesMinispriteUrl(sp));
+        $sp.append(o);
+    }
+    initSelect2(`#reverse-menu-${i}`, {
+        placeholder: t('pokemonDropdownPlaceholder', 'Pokémon'),
+        template: spriteTemplate,
+    });
+    $sp.val('').trigger('change.select2');
+    $sp.off('select2:select').on('select2:select', e => {
+        buildReverseSetMenu(i, e.params.data.id, onFilter);
+        onFilter();
+    });
+}
+
+// Build (or rebuild) slot i's set submenu for the chosen species.
+function buildReverseSetMenu(i, species, onFilter) {
+    const setSel = document.getElementById(`reverse-set-${i}`);
+    const $set = $(setSel).empty();
+    $set.append(new Option(t('reverseAllSets', 'All sets'), '', true, true));
+    for (const set of reverseSetsForSpecies(species)) {
+        const o = new Option(set.setName, String(set.setNumber), false, false);
+        $(o).attr('data-species', species);
+        $set.append(o);
+    }
+    initSelect2(`#reverse-set-${i}`, {
+        placeholder: t('reverseAllSets', 'All sets'),
+        templateResult: reverseSetTemplate,
+        templateSelection: reverseSetTemplate,   // keep the full preview when chosen too
+        containerClass: 'reverse-set-box',
+        search: false,
+    });
+    $set.val('').trigger('change.select2');
+    setSel.style.display = '';
+    $set.off('select2:select').on('select2:select', onFilter);
+}
+
+function reverseSetFor(option) {
+    const sp = $(option.element).data('species');
+    return state.data.sets.find(s => s.species === sp && s.setNumber === Number(option.id));
+}
+
+// Rich set preview (set # + item + the 4 moves stacked in ONE column). Used for BOTH the
+// dropdown list AND the selection box, so a chosen set keeps showing its moves. Nature is
+// omitted, and the moves use a single column, to leave the most room for the move names.
+function reverseSetPreview(set) {
+    const $span = $('<span class="reverse-set-opt"></span>');
+    $span.append($('<span class="reverse-set-num"></span>').text(set.setNumber));
+    // Arcade (noItems): opponents hold no items, so don't show one in the preview either.
+    if (set.item && set.item !== 'None' && !state.variant?.noItems)
+        $span.append($('<img class="team-item">').attr('src', itemImageUrl(set.item))
+            .attr('title', set.item).on('error', function () { $(this).remove(); }));
+    const moves = movesCell(set);
+    moves.classList.add('reverse-set-moves');   // 1 column of 4 (CSS) — full move names
+    $span.append(moves);
+    return $span;
+}
+
+function reverseSetTemplate(option) {
+    if (!option.id) return option.text;   // the "All sets" entry
+    const set = reverseSetFor(option);
+    return set ? reverseSetPreview(set) : option.text;
+}
+
+// Filter the dataset's trainers by the species/sets chosen in menus `indices`, render
+// the matching trainers into `host`; clicking a row loads that trainer into `side`.
+function reverseRosterFilter(indices, host, side) {
+    host.innerHTML = '';
+    const constraints = [];
+    for (const i of indices) {
+        const sp = document.getElementById(`reverse-menu-${i}`)?.value;
+        if (!sp) continue;
+        const setVal = document.getElementById(`reverse-set-${i}`)?.value;
+        constraints.push({ species: sp, setNumber: setVal ? Number(setVal) : null });
+    }
+    if (!constraints.length) return;
+
+    const matches = [];
+    for (const tr of reverseTrainers()) {   // current pool, minus wild pseudo-trainers
+        const speciesSet = new Set(reverseSpeciesOf(tr).split(', '));
+        const refSet = new Set(reverseRosterOf(tr).split(', '));
+        const ok = constraints.every(c => c.setNumber == null
+            ? speciesSet.has(c.species)
+            : refSet.has(`${c.species}-${c.setNumber}`));
+        if (ok) matches.push(tr);
+    }
+    matches.sort((a, b) => trainerName(a).localeCompare(trainerName(b)));
+    if (!matches.length) {
+        const empty = document.createElement('div');
+        empty.className = 'reverse-empty';
+        empty.textContent = t('reverseNoResults', 'No matching trainers.');
+        host.appendChild(empty);
+        return;
+    }
+    renderReverseRosterResults(matches, host, side);
+}
+
+function renderReverseRosterResults(matches, host, side) {
+    const table = document.createElement('div');
+    table.className = 'reverse-rows';
+    matches.forEach((tr, ri) => {
+        const row = document.createElement('div');
+        row.className = `reverse-row team-row ${ri % 2 === 0 ? 'even-row' : 'odd-row'}`;
+        row.appendChild(reverseTrainerCell(tr));
+        const sep = document.createElement('div');
+        sep.className = 'reverse-sep-main';
+        row.appendChild(sep);
+        row.appendChild(buildRosterPreview(tr));
+        const arrow = document.createElement('span');
+        arrow.className = 'reverse-arrow';
+        arrow.textContent = '➜';
+        arrow.title = t('reverseLoad', 'Open in lookup');
+        row.appendChild(arrow);
+        row.onclick = () => { if (reverseOnLoad) reverseOnLoad({ trainer: tr, side }); };
+        table.appendChild(row);
+    });
+    host.appendChild(table);
+    fitRosterPreviews(host);
+    if (typeof ResizeObserver !== 'undefined' && !host._rosterObserver) {
+        host._rosterObserver = new ResizeObserver(() => fitRosterPreviews(host));
+        host._rosterObserver.observe(host);
+    }
+}
+
+// Roster preview: minisprites (deduped, roster order) + a trailing "…" shown only when
+// some are clipped. fitRosterPreviews then hides the overflowing sprites.
+function buildRosterPreview(trainer) {
+    const box = document.createElement('div');
+    box.className = 'reverse-roster';
+    const species = [...new Set(reverseSpeciesOf(trainer).split(', ').filter(Boolean))];
+    for (const sp of species) {
+        const im = document.createElement('img');
+        im.className = 'reverse-mini';
+        im.src = speciesMinispriteUrl(sp);
+        im.alt = sp;
+        im.title = sp;
+        im.onerror = () => im.remove();
+        box.appendChild(im);
+    }
+    const more = document.createElement('span');
+    more.className = 'reverse-more';
+    more.textContent = '…';
+    more.style.display = 'none';
+    box.appendChild(more);
+    return box;
+}
+
+function fitRosterPreviews(host) {
+    host.querySelectorAll('.reverse-roster').forEach(box => {
+        const more = box.querySelector('.reverse-more');
+        const minis = [...box.querySelectorAll('.reverse-mini')];
+        minis.forEach(im => { im.style.display = ''; });
+        if (more) more.style.display = 'none';
+        if (!box.clientWidth) return;
+        const limit = box.getBoundingClientRect().right - 22;   // reserve room for "…"
+        let clipped = false;
+        for (const im of minis) {
+            if (clipped) { im.style.display = 'none'; continue; }
+            if (im.getBoundingClientRect().right > limit) { im.style.display = 'none'; clipped = true; }
+        }
+        if (clipped && more) more.style.display = '';
+    });
 }
 
 /* ---------- resets & visibility ---------- */
@@ -1757,6 +2303,9 @@ export function updateLayout() {
             }
         }
     }
+    // Reverse Lookup button: only for variants that support it (BDSP's static rosters).
+    document.getElementById('reverse-lookup-btn').style.display =
+        state.variant.reverseLookup ? '' : 'none';
     positionSwap();
 }
 
