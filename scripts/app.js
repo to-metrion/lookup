@@ -413,16 +413,19 @@ function applyVariant(variant) {
 
     // Most variants keep the current mode if it's valid; a variant may declare a
     // `defaultMode` to force on entry (Pike → Doubles, since runs stay in one view).
-    // Skip the forced default on mobile, where Doubles isn't a selectable mode.
+    // On mobile only singles/multis are reachable (Doubles has no control there) UNLESS
+    // the variant is a team view (BDSP exposes its Doubles via the slider) — so a mode
+    // that isn't reachable on mobile (e.g. leaving BDSP Doubles for another game) must be
+    // reset, not kept, or the tool gets stuck in an unselectable mode.
     const onMobile = window.matchMedia('(max-width: 768px)').matches;
+    const mobileOk = m => !onMobile || variant.teamView || ['singles', 'multis'].includes(m);
     const forced = variant.defaultMode && variant.modes.includes(variant.defaultMode)
-        && (!onMobile || ['singles', 'multis'].includes(variant.defaultMode))
-        ? variant.defaultMode : null;
+        && mobileOk(variant.defaultMode) ? variant.defaultMode : null;
     // reload=false: applyVariant calls loadAndRender itself at the end.
     if (forced) {
         setMode(forced, false);
-    } else if (!variant.modes.includes(state.mode)) {
-        setMode(variant.modes[0], false);
+    } else if (!variant.modes.includes(state.mode) || !mobileOk(state.mode)) {
+        setMode(variant.modes.find(mobileOk) || variant.modes[0], false);
     }
     buildModeSwitch();
     populateVariantPills();

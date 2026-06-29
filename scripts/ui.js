@@ -1904,7 +1904,12 @@ function renderReverseResults(matches, host) {
         const mainSep = document.createElement('div');
         mainSep.className = 'reverse-sep-main';
         row.appendChild(mainSep);
-        appendTeamMembers(row, m.team, order);
+        // The team members go in their own box, so on mobile they can drop to a second
+        // line under the trainer (the row + items don't fit a phone width, esp. doubles).
+        const teamBox = document.createElement('div');
+        teamBox.className = 'reverse-team';
+        appendTeamMembers(teamBox, m.team, order);
+        row.appendChild(teamBox);
 
         // Visual load affordance (the whole row is clickable; the arrow has no separate
         // handler — a click on it bubbles to the row).

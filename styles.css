@@ -1421,7 +1421,9 @@ button:focus {
 }
 
 /* Members sit at natural width right after the separator; the arrow's auto margin
-   pushes it to the far right of the row. */
+   pushes it to the far right of the row. The team box holds the members (BDSP team
+   model) so they can drop to a second line on mobile. */
+.reverse-team { display: flex; align-items: center; flex: 1 1 0; min-width: 0; }
 .reverse-row .team-member { flex: 0 0 auto; }
 .reverse-arrow {
     flex: 0 0 auto;
@@ -1980,6 +1982,21 @@ button:focus {
         backdrop-filter: none;
     }
     #reverse-lookup-btn svg { width: 26px; height: 26px; }
+
+    /* BDSP reverse-lookup result rows: trainer (sprite + name) + a full team + items
+       overflow a phone width (esp. doubles). Stack it — trainer + load arrow on top,
+       the team Pokémon (minisprites only, items dropped) wrapping on a line below. */
+    body.bdsp-team-view .reverse-row { flex-wrap: wrap; align-items: center; }
+    body.bdsp-team-view .reverse-row .reverse-trainer { order: 1; }
+    body.bdsp-team-view .reverse-row .reverse-arrow { order: 2; }
+    body.bdsp-team-view .reverse-row .reverse-sep-main { display: none; }
+    body.bdsp-team-view .reverse-team {
+        order: 3;
+        flex: 1 1 100%;          /* full width → wraps to the line under the trainer */
+        flex-wrap: wrap;
+        margin-top: 6px;
+    }
+    body.bdsp-team-view .reverse-team .team-item { display: none; }   /* no room with items */
 
     /* Multis on mobile: stacked trainer/quote menus, no minisprites */
     .multis-mode header {
