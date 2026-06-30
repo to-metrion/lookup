@@ -1126,7 +1126,7 @@ function buildSetDetail(set, slotIV = null) {
 
     const itemTier = itemWarnTier(set.item);
     const itemName = itemTier
-        ? `<span class="warn-text ${warnClass(String(itemTier))}">${set.item}</span>`
+        ? `<span class="warn-text ${warnClass(String(itemTier))}">${set.item} <span class="warn-sym warn-sym-detail">${warnSymbol(String(itemTier))}</span></span>`
         : set.item;
     // Detail view: the warned item is conveyed by the coloured NAME only (no icon
     // background here — that fill is reserved for the compact preview rows).
