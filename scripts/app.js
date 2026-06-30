@@ -231,6 +231,20 @@ function updateMultisRow() {
         .classList.toggle('active', state.mode === 'multis');
 }
 
+// Collapse the whole "toggles" settings section (late filter / minisprites / 2v2) AND its
+// preceding divider when the current variant exposes none of them — otherwise the menu
+// shows an empty gap between two separators (e.g. BDSP, between language and warnings).
+// Call AFTER the three row-update functions, which set each row's visibility.
+function updateSettingsToggles() {
+    const toggles = document.getElementById('settings-toggles');
+    const anyVisible = [...toggles.children]
+        .some(row => getComputedStyle(row).display !== 'none');
+    toggles.style.display = anyVisible ? '' : 'none';
+    const divider = toggles.previousElementSibling;   // the <hr> just above the section
+    if (divider && divider.classList.contains('settings-divider'))
+        divider.style.display = anyVisible ? '' : 'none';
+}
+
 // Minisprite lists on/off (some users prefer fewer sprites on screen).
 function updateSpritesRow() {
     const row = document.getElementById('sprites-row');
@@ -437,6 +451,7 @@ function applyVariant(variant) {
     updateLateFilterRow();
     updateMultisRow();
     updateSpritesRow();
+    updateSettingsToggles();
     updateFactoryLevelRow();
     updateFactoryStreakRow();
     updateOpenLevelRow();
@@ -1078,6 +1093,7 @@ function setMode(mode, reload = true) {
 
     updateModeSwitch();
     updateMultisRow();
+    updateSettingsToggles();
     updateLayout();
 
     // BDSP: switching singles ↔ doubles changes the dataset (different trainers) →
@@ -1413,6 +1429,7 @@ async function init() {
     updateLateFilterRow();
     updateMultisRow();
     updateSpritesRow();
+    updateSettingsToggles();
     updateFactoryLevelRow();
     updateFactoryStreakRow();
     updateOpenLevelRow();
