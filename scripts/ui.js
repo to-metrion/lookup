@@ -7,6 +7,8 @@
 import { state } from './state.js';
 import { speedDisplay, speedTriple, speedRange, wildLevelText, megaEntry, hallFacedLevel } from './speed.js';
 import { MODES, MAX_SLOTS, MAX_SIDES, modeSlots, slotSide, variantMaxSlots } from './config.js';
+import { tierForPokemon, tierForItem, tierForMove, tierForAbility,
+         worse, warnClass, warnSymbol, hasWarnings } from './warnings.js';
 
 /* ---------- lookup helpers ---------- */
 
@@ -50,6 +52,67 @@ function speciesMinispriteUrl(species) {
     }
     const override = minispriteOverrideMap.get(species);
     return override ? `assets/images/minisprites/${override}.png` : minispriteUrl(species);
+}
+
+/* ---------- warning resolution (localized name -> tier) ---------- */
+// Warnings are stored in English; these resolve the localized names shown in each
+// render path to English and ask warnings.js for the tier. Cheap, but gated on
+// hasWarnings so the common "no warnings of this kind" case costs nothing.
+
+function speciesEnglish(species) {
+    return dexEntry(species)?.en ?? species;
+}
+
+// Tier from a warned ability the species CAN have, using the CURRENT facility's
+// ability list (pokedex abilities are gen/facility-specific).
+function abilityTierForSpecies(species) {
+    if (!hasWarnings('ability')) return 0;
+    const entry = dexEntry(species);
+    const list = (entry?.['abilities-en'] || '').split(', ').filter(Boolean);
+    let tier = 0;
+    for (const a of list) tier = worse(tier, tierForAbility(a));
+    return tier;
+}
+
+// Pokémon-warning tier only (drives the trainer-menu symbol — abilities are
+// excluded there per spec).
+function pokemonWarnTier(species) {
+    if (!hasWarnings('pokemon')) return 0;
+    return tierForPokemon(speciesEnglish(species));
+}
+
+// Pokémon OR ability warning (drives the Pokémon menu name colour + minisprite
+// background + the Pokémon-menu symbol).
+function speciesDisplayTier(species) {
+    return worse(pokemonWarnTier(species), abilityTierForSpecies(species));
+}
+
+// Highest Pokémon-warning tier across a trainer's roster (trainer-menu symbol).
+function trainerWarnTier(trainer) {
+    if (!trainer || !hasWarnings('pokemon')) return 0;
+    const seen = new Set();
+    let tier = 0;
+    for (const sp of String(trainer.species || '').split(', ')) {
+        if (!sp || seen.has(sp)) continue;
+        seen.add(sp);
+        tier = worse(tier, pokemonWarnTier(sp));
+    }
+    return tier;
+}
+
+function itemWarnTier(localizedItem) {
+    if (!localizedItem || localizedItem === 'None' || state.variant?.noItems) return 0;
+    if (!hasWarnings('item')) return 0;
+    return tierForItem(itemEntry(localizedItem)?.en ?? localizedItem);
+}
+
+// A small inline warning-symbol span (used as a leading marker on rows / in menus).
+// `extra` adds a sizing class (e.g. warn-sym-menu — half-size, after the label).
+function warnSymbolSpan(tier, leadingSpace = true, extra = '') {
+    const span = document.createElement('span');
+    span.className = `warn-sym ${warnClass(String(tier))}${extra ? ' ' + extra : ''}`;
+    span.textContent = (leadingSpace ? ' ' : '') + warnSymbol(String(tier));
+    return span;
 }
 
 export function isLateTrainer(trainer) {
@@ -119,9 +182,19 @@ function spriteTemplate(option) {
     if (!option.id) return option.text;
     const icon = $(option.element).data('icon');
     if (!icon) return option.text;
-    return $('<span></span>')
-        .append($('<img>').attr('src', icon).addClass(option._spriteClass || 'pokemon-sprite-select2'))
-        .append(document.createTextNode(' ' + option.text));
+    const $span = $('<span></span>')
+        .append($('<img>').attr('src', icon).addClass(option._spriteClass || 'pokemon-sprite-select2'));
+    // Warned Pokémon (or a Pokémon that can have a warned ability): coloured name +
+    // a half-size symbol AFTER the name.
+    const tier = speciesDisplayTier(option.id);
+    if (tier) {
+        $span.append($('<span></span>').addClass(`warn-text ${warnClass(String(tier))}`)
+            .text(' ' + option.text));
+        $span.append(warnSymbolSpan(tier, true, 'warn-sym-menu'));
+    } else {
+        $span.append(document.createTextNode(' ' + option.text));
+    }
+    return $span;
 }
 
 // Trainers usually have one sprite; the Restricted Sparring opponent carries a
@@ -176,6 +249,9 @@ function trainerTemplate(option) {
         $span.append($('<img>').attr('src', icon2).addClass('trainer-sprite-select2'));
     }
     $span.append(document.createTextNode(' ' + option.text));
+    // Warning marker (a trainer fielding a warned Pokémon): half-size, after the name.
+    const warn = el.data('warn');
+    if (warn) $span.append(warnSymbolSpan(warn, true, 'warn-sym-menu'));
     if (el.data('dmax')) {
         $span.append($('<img>').attr('src', 'assets/images/dmax.png')
             .attr('title', 'Has a Dynamax Pokémon')
@@ -402,6 +478,8 @@ export function populateTrainerDropdown(side, onSelect) {
         if (fb) $(option).attr('data-icon-fb', fb);
         if (trainer.sprite2) $(option).attr('data-icon2', trainer.sprite2);
         if (trainerHasDmax(trainer)) $(option).attr('data-dmax', '1');
+        const wt = trainerWarnTier(trainer);
+        if (wt) $(option).attr('data-warn', wt);
         $dropdown.append(option);
     }
 
@@ -562,6 +640,9 @@ function renderSpeciesListInto(slot, trainer, onPick) {
         img.alt = species;
         img.dataset.slot = slot;
         img.classList.add('pokemon-sprite');
+        // Semi-transparent tier colour behind a warned Pokémon's minisprite.
+        const tier = speciesDisplayTier(species);
+        if (tier) img.classList.add('warn-mini', warnClass(String(tier)));
         img.onerror = () => img.remove();
         img.onclick = () => onPick(slot, species);
         // Minisprites load async and grow the list height (pushing the species menu
@@ -740,8 +821,10 @@ export function showPokemonSets(slot, species) {
         row.className = `set-row ${index % 2 === 0 ? 'even-row' : 'odd-row'}`;
         row.dataset.setNumber = set.setNumber;
 
+        // Warned item/moves are conveyed by the item-icon background + coloured move
+        // names (no leading row symbol — it created an awkward asymmetry between rows).
         row.appendChild(setNumCell(set));
-        row.appendChild(itemCell(set.item));
+        row.appendChild(itemCell(set.item, itemWarnTier(set.item)));
         // DP randomizes natures → don't list one (frees space for the 3-way speed).
         // Pike wild Pokémon also have no fixed nature (random) → blank nature cell.
         // Gen 2 has no natures at all → drop the column entirely.
@@ -834,7 +917,7 @@ function setNumCell(set) {
     return cell;
 }
 
-function itemCell(itemName) {
+function itemCell(itemName, tier = 0) {
     const cell = document.createElement('div');
     cell.className = 'set-cell set-item';
     // Arcade/Castle opponents hold no items — show an empty item column.
@@ -844,6 +927,8 @@ function itemCell(itemName) {
         img.src = itemImageUrl(itemName);
         img.alt = itemName;
         img.title = itemName;
+        // Semi-transparent tier colour behind a warned item's sprite.
+        if (tier) img.classList.add('warn-bg', warnClass(String(tier)));
         img.onerror = () => img.remove();
         cell.appendChild(img);
     }
@@ -881,6 +966,9 @@ function movesCell(set) {
             }
             const name = document.createElement('span');
             name.textContent = text;
+            // Warned move: colour the name (the row's leading symbol shows the tier).
+            const wt = hasWarnings('move') ? tierForMove(enMoves[i]) : 0;
+            if (wt) name.classList.add('warn-text', warnClass(String(wt)));
             cell.appendChild(name);
         }
         grid.appendChild(cell);
@@ -987,6 +1075,13 @@ function buildSetDetail(set, slotIV = null) {
     // instead of the species' full ability list.
     const abilities = (set.ability || speciesData[`abilities-${state.language}`] || '')
         .split(', ').filter(Boolean);
+    // English-aligned ability names (same order) → tier colouring of warned abilities.
+    const enAbilities = (enCounterpart(set).ability || speciesData['abilities-en'] || '')
+        .split(', ').filter(Boolean);
+    const abilitiesListHtml = abilities.map((a, i) => {
+        const wt = hasWarnings('ability') ? tierForAbility(enAbilities[i]) : 0;
+        return wt ? `<span class="warn-text ${warnClass(String(wt))}">${a}</span>` : a;
+    }).join('<br/>');
     // Arcade/Castle: opponents hold no items → no item, no Mega Evolution.
     const noItems = Boolean(state.variant?.noItems);
     const itemEnglish = itemEntry(set.item)?.en ?? set.item;
@@ -1007,7 +1102,12 @@ function buildSetDetail(set, slotIV = null) {
         const bullet = type
             ? `<img src="assets/images/types/${type.toLowerCase()}.png" alt="${type}" class="move-type-icon" onerror="this.remove()" />`
             : '<span class="move-bullet">-</span>';
-        moveLines.push(`<div class="move-line">${bullet}<span>${text}</span></div>`);
+        // Warned move: colour the name + append the tier symbol.
+        const wt = hasWarnings('move') ? tierForMove(enMoves[i]) : 0;
+        const nameHtml = wt
+            ? `<span class="warn-text ${warnClass(String(wt))}">${text} <span class="warn-sym warn-sym-detail">${warnSymbol(String(wt))}</span></span>`
+            : `<span>${text}</span>`;
+        moveLines.push(`<div class="move-line">${bullet}${nameHtml}</div>`);
     }
 
     const natureData = state.data.natures.find(nature =>
@@ -1024,8 +1124,14 @@ function buildSetDetail(set, slotIV = null) {
         set.tera ? typeIconHtml(set.tera, true) : '',
     ].join('');
 
+    const itemTier = itemWarnTier(set.item);
+    const itemName = itemTier
+        ? `<span class="warn-text ${warnClass(String(itemTier))}">${set.item}</span>`
+        : set.item;
+    // Detail view: the warned item is conveyed by the coloured NAME only (no icon
+    // background here — that fill is reserved for the compact preview rows).
     const itemHtml = (!noItems && set.item && set.item !== 'None')
-        ? `<img src="${itemImageUrl(set.item)}" alt="${set.item}" class="item-icon" onerror="this.remove()" /> ${set.item}`
+        ? `<img src="${itemImageUrl(set.item)}" alt="${set.item}" class="item-icon" onerror="this.remove()" /> ${itemName}`
         : '';
 
     // DP randomizes natures: drop the nature block (+ its separator) and show a
@@ -1076,7 +1182,7 @@ function buildSetDetail(set, slotIV = null) {
     const abilitiesHtml = gen2 ? '' : `
             <div class="separator"></div>
             <div class="abilities">
-                <span class="abilities-list">${abilities.join('<br/>')}</span>
+                <span class="abilities-list">${abilitiesListHtml}</span>
                 ${megaAbilities ? `<span class="mega-ability-arrow">↓</span><span class="abilities-list">${megaAbilities.join('<br/>')}</span>` : ''}
             </div>`;
     const evsHtml = (!wild && set.EVs)
@@ -1340,6 +1446,8 @@ function renderBdspTeamRows(teams, onPick, order) {
             mini.className = 'team-mini';
             mini.src = speciesMinispriteUrl(species);
             mini.alt = species;
+            const mtier = speciesDisplayTier(species);
+            if (mtier) mini.classList.add('warn-mini', warnClass(String(mtier)));
             mini.onerror = () => mini.remove();
             member.appendChild(mini);
             if (set && set.item && set.item !== 'None') {
@@ -1348,6 +1456,8 @@ function renderBdspTeamRows(teams, onPick, order) {
                 item.src = itemImageUrl(set.item);
                 item.alt = set.item;
                 item.title = set.item;
+                const itier = itemWarnTier(set.item);
+                if (itier) item.classList.add('warn-bg', warnClass(String(itier)));
                 item.onerror = () => item.remove();
                 member.appendChild(item);
             }
@@ -1436,6 +1546,11 @@ function duoIndex() {
         const partners = new Map();      // name -> [partner names]
         const byPair = new Map();        // "a|b" (sorted) -> rec
         const recIndex = new Map();      // rec -> index
+        const indSpecies = new Map();    // name -> Set(English species) — for warnings
+        const addSp = (name, ref) => {
+            if (!indSpecies.has(name)) indSpecies.set(name, new Set());
+            indSpecies.get(name).add(speciesEnglish(ref.split(/-(?=\d+$)/)[0]));
+        };
         state.data.trainers.forEach((rec, i) => {
             recIndex.set(rec, i);
             const t1 = { name: rec.name, cls: rec.class, sprite: rec.sprite, quote: rec.quote };
@@ -1446,8 +1561,13 @@ function duoIndex() {
             partners.get(t1.name).push(t2.name);
             partners.get(t2.name).push(t1.name);
             byPair.set(pairKey(rec.name, rec.name2), rec);
+            // Team data order is [t1p1, t1p2, t2p1, t2p2] → first two are name's, last two name2's.
+            for (const team of (rec.teams || [])) {
+                team.split(', ').filter(Boolean).forEach((ref, k) =>
+                    addSp(k < 2 ? rec.name : rec.name2, ref));
+            }
         });
-        duoIdx = { individuals, partners, byPair, recIndex };
+        duoIdx = { individuals, partners, byPair, recIndex, indSpecies };
     }
     return duoIdx;
 }
@@ -1455,6 +1575,17 @@ function duoIndex() {
 function duoResolve() {
     const { l, r } = state.bdspDuo;
     return (l && r) ? (duoIndex().byPair.get(pairKey(l, r)) ?? null) : null;
+}
+
+// Highest Pokémon-warning tier across one duo member's Pokémon, and across a whole duo.
+function individualWarnTier(name) {
+    if (!hasWarnings('pokemon')) return 0;
+    let tier = 0;
+    for (const sp of (duoIndex().indSpecies.get(name) || [])) tier = worse(tier, tierForPokemon(sp));
+    return tier;
+}
+function duoWarnTier(rec) {
+    return worse(individualWarnTier(rec.name), individualWarnTier(rec.name2));
 }
 
 // Render the duo's teams (preview rows when >1, else the one team's 2×2 grid).
@@ -1546,6 +1677,8 @@ function duoTrainerResult(option) {
         add(el.data('icon'));
         $span.append(document.createTextNode(' ' + el.data('name')));
     }
+    const warn = el.data('warn');   // duo (whole pair) or individual warning marker
+    if (warn) $span.append(warnSymbolSpan(warn, true, 'warn-sym-menu'));
     return $span;
 }
 
@@ -1566,6 +1699,8 @@ function duoTrainerSelection(side) {
             add(el.data('icon'));
             $span.append(document.createTextNode(' ' + el.data('name')));
         }
+        const warn = el.data('warn');
+        if (warn) $span.append(warnSymbolSpan(warn, true, 'warn-sym-menu'));
         return $span;
     };
 }
@@ -1602,6 +1737,8 @@ function populateDuoTrainer(side) {
         const o = new Option(name, `ind:${name}`, false, false);
         $(o).attr('data-kind', 'ind').attr('data-name', name);
         if (ind.sprite) $(o).attr('data-icon', ind.sprite);
+        const wt = individualWarnTier(name);
+        if (wt) $(o).attr('data-warn', wt);
         $dd.append(o);
     };
     const addDuo = rec => {
@@ -1609,6 +1746,8 @@ function populateDuoTrainer(side) {
         $(o).attr('data-kind', 'duo').attr('data-n1', rec.name).attr('data-n2', rec.name2);
         if (rec.sprite) $(o).attr('data-icon2', rec.sprite);     // name1 (right) sprite
         if (rec.sprite2) $(o).attr('data-icon', rec.sprite2);    // name2 (left) sprite
+        const wt = duoWarnTier(rec);
+        if (wt) $(o).attr('data-warn', wt);
         $dd.append(o);
     };
 

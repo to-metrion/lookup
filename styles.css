@@ -234,6 +234,134 @@
 }
 
 /* ============================================================
+   Warning-system colours (per theme, hand-tuned for visibility)
+   ============================================================ */
+/* Three severity tiers: --warn-1 (‼️ red) > --warn-2 (❗️ orange-red) >
+   --warn-3 (⚠️ orange-yellow). The -bg variants are the semi-transparent fills
+   shown behind warned minisprites/item icons. Tuned per theme so they stay vivid
+   on dark surfaces and deep enough to read on light ones. */
+:root,
+[data-theme="p-luxray"] {
+    --warn-1: #ff5656; --warn-2: #ff8a38; --warn-3: #ffcf45;
+    --warn-1-bg: rgba(255,70,70,.42); --warn-2-bg: rgba(255,130,45,.40); --warn-3-bg: rgba(255,200,65,.36);
+}
+[data-theme="p-bisharp"] {  /* red accent — push warnings brighter/cooler to differ */
+    --warn-1: #ff6a6a; --warn-2: #ff9442; --warn-3: #ffd84d;
+    --warn-1-bg: rgba(255,90,90,.44); --warn-2-bg: rgba(255,140,55,.40); --warn-3-bg: rgba(255,210,70,.36);
+}
+[data-theme="p-chandelure"] {
+    --warn-1: #ff5e6e; --warn-2: #ff8c3c; --warn-3: #ffce4a;
+    --warn-1-bg: rgba(255,80,95,.42); --warn-2-bg: rgba(255,130,50,.40); --warn-3-bg: rgba(255,200,65,.36);
+}
+[data-theme="p-umbreon"] {
+    --warn-1: #ff5555; --warn-2: #ff8636; --warn-3: #ffd24a;
+    --warn-1-bg: rgba(255,70,70,.44); --warn-2-bg: rgba(255,125,45,.42); --warn-3-bg: rgba(255,205,65,.38);
+}
+[data-theme="p-honchkrow"] {  /* navy bg, red accent */
+    --warn-1: #ff6363; --warn-2: #ff9038; --warn-3: #ffd457;
+    --warn-1-bg: rgba(255,85,85,.44); --warn-2-bg: rgba(255,135,50,.42); --warn-3-bg: rgba(255,205,75,.38);
+}
+[data-theme="p-gourgeist"] {  /* orange accent — keep warn-3 yellower */
+    --warn-1: #ff5252; --warn-2: #ff7e2e; --warn-3: #ffdc40;
+    --warn-1-bg: rgba(255,70,70,.42); --warn-2-bg: rgba(255,120,40,.40); --warn-3-bg: rgba(255,215,55,.36);
+}
+[data-theme="p-zygarde"] {  /* near-black, green accent */
+    --warn-1: #ff5555; --warn-2: #ff8636; --warn-3: #ffd24a;
+    --warn-1-bg: rgba(255,70,70,.46); --warn-2-bg: rgba(255,125,45,.44); --warn-3-bg: rgba(255,205,65,.40);
+}
+/* Light themes: deeper, saturated hues so the coloured text/fills read on light bg. */
+[data-theme="p-magnemite"] {
+    --warn-1: #d81e1e; --warn-2: #dd5610; --warn-3: #b07c00;
+    --warn-1-bg: rgba(216,40,40,.30); --warn-2-bg: rgba(224,95,20,.30); --warn-3-bg: rgba(210,160,0,.34);
+}
+[data-theme="p-whimsicott"] {
+    --warn-1: #d52424; --warn-2: #db5912; --warn-3: #ab7c00;
+    --warn-1-bg: rgba(213,40,40,.28); --warn-2-bg: rgba(221,95,22,.28); --warn-3-bg: rgba(205,158,0,.32);
+}
+[data-theme="p-jellicentf"] {
+    --warn-1: #d22038; --warn-2: #d85618; --warn-3: #a87800;
+    --warn-1-bg: rgba(210,40,55,.28); --warn-2-bg: rgba(216,90,25,.28); --warn-3-bg: rgba(200,150,0,.32);
+}
+[data-theme="p-glaceon"] {
+    --warn-1: #cf2230; --warn-2: #d6571a; --warn-3: #a07a00;
+    --warn-1-bg: rgba(207,40,50,.26); --warn-2-bg: rgba(214,90,28,.26); --warn-3-bg: rgba(195,150,0,.30);
+}
+[data-theme="p-gardevoir"] {  /* red highlight — warn-1 a touch deeper to differ */
+    --warn-1: #c41d2c; --warn-2: #d4540f; --warn-3: #9c7600;
+    --warn-1-bg: rgba(196,35,45,.26); --warn-2-bg: rgba(212,88,20,.26); --warn-3-bg: rgba(190,148,0,.30);
+}
+
+/* ---- warning highlight classes (used everywhere warnings appear) ---- */
+/* Coloured text (Pokémon menu names, warned item/move/ability in detail). */
+.warn-text.warn-1 { color: var(--warn-1); font-weight: bold; }
+.warn-text.warn-2 { color: var(--warn-2); font-weight: bold; }
+.warn-text.warn-3 { color: var(--warn-3); font-weight: bold; }
+/* Inline severity symbol (trainer/menu/row markers). */
+.warn-sym { white-space: nowrap; }
+/* In dropdown menus + the detail move line the symbol sits AFTER the label and is
+   ~half the surrounding text size so it reads as a marker, not part of the name. */
+.warn-sym-menu { font-size: 0.55em; vertical-align: middle; }
+.warn-sym-detail { font-size: 0.6em; vertical-align: middle; }
+/* Semi-transparent fill behind a warned minisprite / item icon (the sprites are
+   transparent PNGs, so the rounded fill reads through). */
+.warn-mini.warn-1, .warn-bg.warn-1 { background-color: var(--warn-1-bg); border-radius: 6px; }
+.warn-mini.warn-2, .warn-bg.warn-2 { background-color: var(--warn-2-bg); border-radius: 6px; }
+.warn-mini.warn-3, .warn-bg.warn-3 { background-color: var(--warn-3-bg); border-radius: 6px; }
+
+/* ---- warning settings sub-modal ---- */
+#warnings-row { margin: 12px 0; }
+#open-warnings { font-size: 20px; line-height: 1; }
+.warn-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 4px;
+    border-bottom: 1px solid var(--border);
+}
+.warn-section:last-child { border-bottom: none; }
+.warn-section-head { font-size: 22px; line-height: 1.3; flex: 0 0 auto; padding-top: 2px; }
+.warn-chips {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    flex: 1 1 auto;
+    min-width: 0;
+}
+.warn-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 3px 6px 3px 10px;
+    border-radius: 14px;
+    background-color: var(--surface-alt);
+    border: 1px solid currentColor;
+    font-size: 0.85rem;
+}
+.warn-chip.warn-1 { color: var(--warn-1); }
+.warn-chip.warn-2 { color: var(--warn-2); }
+.warn-chip.warn-3 { color: var(--warn-3); }
+.warn-chip-x {
+    color: inherit;
+    font-size: 1.1em;
+    line-height: 1;
+    padding: 0 2px;
+}
+.warn-chip-x:hover { color: var(--text); }
+.warn-add {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 1px solid var(--border-strong);
+    color: var(--text);
+    font-size: 18px;
+    line-height: 1;
+    background-color: var(--surface);
+}
+.warn-add:hover { border-color: var(--highlight); color: var(--highlight); }
+.warn-add-select { width: 230px; }
+
+/* ============================================================
    General
    ============================================================ */
 body {

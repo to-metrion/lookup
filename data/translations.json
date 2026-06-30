@@ -643,5 +643,104 @@
     "ko": "모든 세트",
     "chs": "所有配置",
     "cht": "所有配置"
+  },
+  "warningSettings": {
+    "en": "Warning settings",
+    "fr": "Réglages d'alerte",
+    "it": "Impostazioni avvisi",
+    "de": "Warnungseinstellungen",
+    "es": "Ajustes de avisos",
+    "jp": "警告設定",
+    "ko": "경고 설정",
+    "chs": "警告设置",
+    "cht": "警告設定"
+  },
+  "warnCatPokemon": {
+    "en": "Pokémon",
+    "fr": "Pokémon",
+    "it": "Pokémon",
+    "de": "Pokémon",
+    "es": "Pokémon",
+    "jp": "ポケモン",
+    "ko": "포켓몬",
+    "chs": "宝可梦",
+    "cht": "寶可夢"
+  },
+  "warnCatItem": {
+    "en": "Items",
+    "fr": "Objets",
+    "it": "Strumenti",
+    "de": "Items",
+    "es": "Objetos",
+    "jp": "どうぐ",
+    "ko": "도구",
+    "chs": "道具",
+    "cht": "道具"
+  },
+  "warnCatMove": {
+    "en": "Moves",
+    "fr": "Capacités",
+    "it": "Mosse",
+    "de": "Attacken",
+    "es": "Movimientos",
+    "jp": "わざ",
+    "ko": "기술",
+    "chs": "招式",
+    "cht": "招式"
+  },
+  "warnCatAbility": {
+    "en": "Abilities",
+    "fr": "Talents",
+    "it": "Abilità",
+    "de": "Fähigkeiten",
+    "es": "Habilidades",
+    "jp": "とくせい",
+    "ko": "특성",
+    "chs": "特性",
+    "cht": "特性"
+  },
+  "warnAdd": {
+    "en": "Add warning",
+    "fr": "Ajouter",
+    "it": "Aggiungi",
+    "de": "Hinzufügen",
+    "es": "Añadir",
+    "jp": "追加",
+    "ko": "추가",
+    "chs": "添加",
+    "cht": "新增"
+  },
+  "warnAddSearch": {
+    "en": "Search…",
+    "fr": "Rechercher…",
+    "it": "Cerca…",
+    "de": "Suchen…",
+    "es": "Buscar…",
+    "jp": "検索…",
+    "ko": "검색…",
+    "chs": "搜索…",
+    "cht": "搜尋…"
+  },
+  "warnRemove": {
+    "en": "Remove",
+    "fr": "Retirer",
+    "it": "Rimuovi",
+    "de": "Entfernen",
+    "es": "Quitar",
+    "jp": "削除",
+    "ko": "삭제",
+    "chs": "移除",
+    "cht": "移除"
+  },
+  "warnSearchHint": {
+    "en": "Please enter {n} or more characters",
+    "fr": "Veuillez saisir {n} caractères ou plus",
+    "it": "Inserisci {n} o più caratteri",
+    "de": "Bitte {n} oder mehr Zeichen eingeben",
+    "es": "Introduce {n} caracteres o más",
+    "jp": "{n}文字以上入力してください",
+    "ko": "{n}자 이상 입력하세요",
+    "chs": "请输入至少 {n} 个字符",
+    "cht": "請輸入至少 {n} 個字元"
   }
 }

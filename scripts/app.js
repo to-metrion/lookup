@@ -1,8 +1,10 @@
 // Application entry point: initialization, settings and event wiring.
 
-import { GAMES, MODES, THEMES, LANGUAGE_NAMES, MAX_SIDES,
+import { GAMES, MODES, THEMES, LANGUAGE_NAMES, MAX_SIDES, DATA_VERSION,
          getGame, getVariant, defaultVariant, modeSlots,
          gameVersions, facilitiesForVersion, variantForVersionFacility } from './config.js';
+import { loadWarnings, getWarnings, addWarning, removeWarning, resetWarnings,
+         TIERS, TIER_SYMBOL, CATEGORIES, warnClass, warnSymbol } from './warnings.js';
 import { loadTranslations, loadVariantData } from './data.js';
 import { state } from './state.js';
 import {
@@ -1181,6 +1183,178 @@ function loadReverseResult(match) {
     if (state.mode !== 'multis') closeReverseLookup();
 }
 
+/* ---------- warning system (settings sub-modal) ---------- */
+// Warnings are stored canonically in English (warnings.js). The "add" picker lists
+// EVERY Pokémon/item/move/ability across all games, localized, from warning-vocab.json
+// (loaded lazily on first open). Each tier section shows its warnings as chips + a +.
+
+const VOCAB_KEY = { pokemon: 'pokemon', item: 'items', move: 'moves', ability: 'abilities' };
+let warningVocab = null;     // raw warning-vocab.json
+let vocabIndex = null;       // { category: Map(en -> entry) }
+
+function escapeHtml(s) {
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+async function ensureWarningVocab() {
+    if (warningVocab) return;
+    const res = await fetch(`data/warning-vocab.json?v=${DATA_VERSION}`);
+    warningVocab = await res.json();
+    vocabIndex = {};
+    for (const cat of CATEGORIES) {
+        const map = new Map();
+        for (const entry of warningVocab[VOCAB_KEY[cat]] || []) map.set(entry.en, entry);
+        vocabIndex[cat] = map;
+    }
+}
+
+// Localized display name for a stored (English) warning; English fallback.
+function localizedWarningName(category, en) {
+    const entry = vocabIndex?.[category]?.get(en);
+    return entry ? (entry[state.language] || entry.en) : en;
+}
+
+// Combined, grouped, localized <option> list for the add menu (cached per language).
+let vocabOptionsHtml = null, vocabOptionsLang = null;
+function buildVocabOptions() {
+    if (vocabOptionsHtml && vocabOptionsLang === state.language) return vocabOptionsHtml;
+    const groups = [
+        ['pokemon', t('warnCatPokemon', 'Pokémon')],
+        ['item', t('warnCatItem', 'Items')],
+        ['move', t('warnCatMove', 'Moves')],
+        ['ability', t('warnCatAbility', 'Abilities')],
+    ];
+    let html = '<option value=""></option>';
+    for (const [cat, label] of groups) {
+        html += `<optgroup label="${escapeHtml(label)}">`;
+        const entries = [...vocabIndex[cat].values()]
+            .map(e => ({ en: e.en, name: e[state.language] || e.en }))
+            .sort((a, b) => a.name.localeCompare(b.name));
+        for (const e of entries)
+            html += `<option value="${escapeHtml(cat + '|' + e.en)}">${escapeHtml(e.name)}</option>`;
+        html += '</optgroup>';
+    }
+    vocabOptionsHtml = html;
+    vocabOptionsLang = state.language;
+    return html;
+}
+
+function makeWarnChip(tier, category, en) {
+    const chip = document.createElement('span');
+    chip.className = `warn-chip ${warnClass(tier)}`;
+    chip.append(document.createTextNode(localizedWarningName(category, en)));
+    const x = document.createElement('button');
+    x.type = 'button';
+    x.className = 'warn-chip-x';
+    x.textContent = '×';
+    x.title = t('warnRemove', 'Remove');
+    x.addEventListener('click', () => {
+        removeWarning(tier, category, en);
+        onWarningsChanged();
+        renderWarningSections();
+    });
+    chip.appendChild(x);
+    return chip;
+}
+
+// Replace the + with a transient, searchable combined menu; a pick adds the warning,
+// closing it without a pick restores the +.
+function openWarnAddMenu(tier, chipsEl, addBtn) {
+    addBtn.style.display = 'none';
+    const select = document.createElement('select');
+    select.className = 'warn-add-select';
+    select.innerHTML = buildVocabOptions();
+    chipsEl.insertBefore(select, addBtn);
+    const $select = $(select);
+    $select.select2({
+        width: '230px',
+        minimumInputLength: 2,   // only search after 2 chars — keeps the big list fast
+        placeholder: t('warnAddSearch', 'Search…'),
+        dropdownParent: $('#warnings-modal'),
+        // Localize select2's built-in "Please enter N or more characters" hint.
+        language: {
+            inputTooShort: args =>
+                t('warnSearchHint', 'Please enter 2 or more characters')
+                    .replace('{n}', args.minimum),
+        },
+    });
+    let picked = false;
+    $select.on('select2:select', event => {
+        picked = true;
+        const sep = event.params.data.id.indexOf('|');
+        addWarning(tier, event.params.data.id.slice(0, sep), event.params.data.id.slice(sep + 1));
+        onWarningsChanged();
+        renderWarningSections();   // rebuilds the section (removing this transient menu)
+    });
+    $select.on('select2:close', () => {
+        if (picked) return;        // a pick already rebuilt the section
+        setTimeout(() => {
+            $select.select2('destroy');
+            select.remove();
+            addBtn.style.display = '';
+        }, 0);
+    });
+    // Auto-focus the search field so the user can type immediately (no extra click).
+    $select.on('select2:open', () => {
+        setTimeout(() => document.querySelector('.select2-dropdown .select2-search__field')?.focus(), 0);
+    });
+    $select.select2('open');
+}
+
+function renderWarningSections() {
+    const host = document.getElementById('warnings-sections');
+    host.innerHTML = '';
+    const w = getWarnings();
+    for (const tier of TIERS) {
+        const section = document.createElement('div');
+        section.className = `warn-section ${warnClass(tier)}`;
+        const head = document.createElement('div');
+        head.className = 'warn-section-head';
+        head.innerHTML = `<span class="warn-sym ${warnClass(tier)}">${TIER_SYMBOL[tier]}</span>`;
+        section.appendChild(head);
+        const chips = document.createElement('div');
+        chips.className = 'warn-chips';
+        for (const category of CATEGORIES)
+            for (const en of w[tier][category]) chips.appendChild(makeWarnChip(tier, category, en));
+        const add = document.createElement('button');
+        add.type = 'button';
+        add.className = 'warn-add';
+        add.textContent = '+';
+        add.title = t('warnAdd', 'Add warning');
+        // stopPropagation: the global "close select2 on outside click" handler (init)
+        // would otherwise fire on THIS click and immediately close the menu we open.
+        add.addEventListener('click', e => { e.stopPropagation(); openWarnAddMenu(tier, chips, add); });
+        chips.appendChild(add);
+        section.appendChild(chips);
+        host.appendChild(section);
+    }
+}
+
+async function openWarnings() {
+    try {
+        await ensureWarningVocab();
+    } catch (error) {
+        console.error('Could not load warning vocabulary:', error);
+        return;
+    }
+    document.getElementById('warnings-title').textContent = t('warningSettings', 'Warning settings');
+    renderWarningSections();
+    document.getElementById('warnings-modal').style.display = 'block';
+}
+
+function closeWarnings() {
+    document.getElementById('warnings-modal').style.display = 'none';
+}
+
+// A warning change re-renders the main view (trainer symbols, menu colours, minisprite
+// backgrounds, set rows + details) by re-running the render with the current selection.
+function onWarningsChanged() {
+    if (!state.data) return;
+    const snapshot = captureSelection();
+    loadAndRender().then(() => restoreSelection(snapshot));
+}
+
 /* ---------- init ---------- */
 
 async function init() {
@@ -1216,6 +1390,7 @@ async function init() {
     state.hallRank2 = Number.isFinite(hr2) ? Math.min(17, Math.max(0, hr2)) : 0;    // default 0
     state.spritesOn = localStorage.getItem('minisprites') !== ''; // default on
     setTheme(localStorage.getItem('theme') || THEMES[0].code);
+    loadWarnings();   // seed defaults on first run + build the lookup maps
 
     buildSlotContainers();
 
@@ -1297,6 +1472,11 @@ async function init() {
     document.querySelector('#settings-modal .close').addEventListener('click', closeSettings);
     document.getElementById('settings-modal').addEventListener('click', e => {
         if (e.target.id === 'settings-modal') closeSettings(); // click on backdrop
+    });
+    document.getElementById('open-warnings').addEventListener('click', openWarnings);
+    document.querySelector('#warnings-modal .close').addEventListener('click', closeWarnings);
+    document.getElementById('warnings-modal').addEventListener('click', e => {
+        if (e.target.id === 'warnings-modal') closeWarnings(); // backdrop
     });
     document.getElementById('reverse-lookup-btn').addEventListener('click', openReverseLookup);
     // Reset: force a rebuild to an empty search (the default open path reuses the

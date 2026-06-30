@@ -628,7 +628,7 @@ export const THEMES = [
 
 // Appended to every data fetch (?v=...) so browsers pick up new data after a
 // deploy instead of serving stale cached JSON. Bump when data files change.
-export const DATA_VERSION = '2026-06-29b';
+export const DATA_VERSION = '2026-06-30c';
 
 export const LANGUAGE_NAMES = {
     en: 'English',
