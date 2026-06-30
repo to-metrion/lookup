@@ -296,10 +296,10 @@
 .warn-text.warn-1 { color: var(--warn-1); font-weight: bold; }
 .warn-text.warn-2 { color: var(--warn-2); font-weight: bold; }
 .warn-text.warn-3 { color: var(--warn-3); font-weight: bold; }
-/* Inline severity symbol (trainer/menu/row markers). */
+/* Inline severity symbol (dropdown-menu markers + the detail item/move symbol). */
 .warn-sym { white-space: nowrap; }
-/* In dropdown menus + the detail move line the symbol sits AFTER the label and is
-   ~half the surrounding text size so it reads as a marker, not part of the name. */
+/* In the dropdown menus + the detail item/move lines the symbol sits AFTER the label
+   and is ~half the surrounding text size so it reads as a marker, not part of the name. */
 .warn-sym-menu { font-size: 0.55em; vertical-align: middle; }
 .warn-sym-detail { font-size: 0.6em; vertical-align: middle; }
 /* Semi-transparent fill behind a warned minisprite / item icon (the sprites are

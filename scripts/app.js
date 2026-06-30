@@ -3,8 +3,8 @@
 import { GAMES, MODES, THEMES, LANGUAGE_NAMES, MAX_SIDES, DATA_VERSION,
          getGame, getVariant, defaultVariant, modeSlots,
          gameVersions, facilitiesForVersion, variantForVersionFacility } from './config.js';
-import { loadWarnings, getWarnings, addWarning, removeWarning, resetWarnings,
-         TIERS, TIER_SYMBOL, CATEGORIES, warnClass, warnSymbol } from './warnings.js';
+import { loadWarnings, getWarnings, addWarning, removeWarning,
+         TIERS, TIER_SYMBOL, CATEGORIES, warnClass } from './warnings.js';
 import { loadTranslations, loadVariantData } from './data.js';
 import { state } from './state.js';
 import {
@@ -1184,9 +1184,10 @@ function loadReverseResult(match) {
 }
 
 /* ---------- warning system (settings sub-modal) ---------- */
-// Warnings are stored canonically in English (warnings.js). The "add" picker lists
-// EVERY Pokémon/item/move/ability across all games, localized, from warning-vocab.json
-// (loaded lazily on first open). Each tier section shows its warnings as chips + a +.
+// Warnings are stored canonically in English (warnings.js). The "add" picker lists every
+// ENCOUNTERABLE Pokémon/item/move/ability across all games (drawn from the sets — see
+// build_warning_vocab.py), localized, from warning-vocab.json (loaded lazily on first
+// open). Each tier section shows its warnings as chips + a +.
 
 const VOCAB_KEY = { pokemon: 'pokemon', item: 'items', move: 'moves', ability: 'abilities' };
 let warningVocab = null;     // raw warning-vocab.json

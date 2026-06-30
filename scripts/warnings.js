@@ -2,9 +2,10 @@
 //
 // Users flag Pokémon / items / moves / abilities at one of three severity tiers.
 // Flagged things are highlighted everywhere in the tool: a symbol next to trainers
-// fielding a warned Pokémon, a coloured Pokémon name + minisprite background, a
-// symbol + coloured item/move in the set rows, and coloured item/move/ability in
-// the set detail panel. Colours are theme-tuned CSS variables (--warn-1/2/3).
+// (and Pokémon menus) fielding a warned Pokémon, a coloured Pokémon name + minisprite
+// background, a coloured item background + coloured move names in the set rows, and
+// coloured item/move/ability (each with its tier symbol) in the set detail panel.
+// Colours are theme-tuned CSS variables (--warn-1/2/3).
 //
 // Storage is CANONICAL ENGLISH (one localStorage blob). Matching is done in English
 // too — every render path already resolves localized names to English (via the
@@ -153,14 +154,6 @@ export function removeWarning(tier, category, en) {
         save();
         rebuildMaps();
     }
-}
-
-// Restore the built-in defaults (used by a "reset to defaults" affordance).
-export function resetWarnings() {
-    warnings = normalize(DEFAULTS);
-    save();
-    rebuildMaps();
-    return warnings;
 }
 
 /* ---------- queries (English canonical names) ---------- */

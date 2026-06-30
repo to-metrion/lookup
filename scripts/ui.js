@@ -106,8 +106,8 @@ function itemWarnTier(localizedItem) {
     return tierForItem(itemEntry(localizedItem)?.en ?? localizedItem);
 }
 
-// A small inline warning-symbol span (used as a leading marker on rows / in menus).
-// `extra` adds a sizing class (e.g. warn-sym-menu — half-size, after the label).
+// A small inline warning-symbol span (the marker shown after a label in the dropdown
+// menus). `extra` adds a sizing class (e.g. warn-sym-menu — half-size, after the label).
 function warnSymbolSpan(tier, leadingSpace = true, extra = '') {
     const span = document.createElement('span');
     span.className = `warn-sym ${warnClass(String(tier))}${extra ? ' ' + extra : ''}`;
@@ -966,7 +966,8 @@ function movesCell(set) {
             }
             const name = document.createElement('span');
             name.textContent = text;
-            // Warned move: colour the name (the row's leading symbol shows the tier).
+            // Warned move: colour the name (preview rows convey the tier by colour only —
+            // no symbol here; the detail view adds the symbol).
             const wt = hasWarnings('move') ? tierForMove(enMoves[i]) : 0;
             if (wt) name.classList.add('warn-text', warnClass(String(wt)));
             cell.appendChild(name);
