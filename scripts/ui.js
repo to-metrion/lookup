@@ -5,10 +5,12 @@
 // slot(s). Slot ownership per mode comes from slotSide() in config.js.
 
 import { state } from './state.js';
-import { speedDisplay, speedTriple, speedRange, wildLevelText, megaEntry, hallFacedLevel } from './speed.js';
+import { speedDisplay, speedTriple, speedRange, speedValues, wildLevelText, megaEntry, hallFacedLevel } from './speed.js';
 import { MODES, MAX_SLOTS, MAX_SIDES, modeSlots, slotSide, variantMaxSlots } from './config.js';
 import { tierForPokemon, tierForItem, tierForMove, tierForAbility,
-         worse, warnClass, warnSymbol, hasWarnings } from './warnings.js';
+         worse, warnClass, warnSymbol, hasWarnings,
+         hasSpeedWarning, speedWarnTierFor } from './warnings.js';
+import { notesEnabled, getNote, setNote } from './notes.js';
 
 /* ---------- lookup helpers ---------- */
 
@@ -104,6 +106,13 @@ function itemWarnTier(localizedItem) {
     if (!localizedItem || localizedItem === 'None' || state.variant?.noItems) return 0;
     if (!hasWarnings('item')) return 0;
     return tierForItem(itemEntry(localizedItem)?.en ?? localizedItem);
+}
+
+// Speed warning: the tier when a set's computed speed matches the configured
+// comparison (≤/=/≥ a threshold). 0 when the warning is off or no match.
+function speedWarnTier(set, iv = null) {
+    if (!hasSpeedWarning()) return 0;
+    return speedWarnTierFor(speedValues(set, iv));
 }
 
 // A small inline warning-symbol span (the marker shown after a label in the dropdown
@@ -920,7 +929,7 @@ function setNumCell(set) {
 function itemCell(itemName, tier = 0) {
     const cell = document.createElement('div');
     cell.className = 'set-cell set-item';
-    // Arcade/Castle opponents hold no items — show an empty item column.
+    // Arcade opponents hold no items, show an empty item column.
     if (state.variant?.noItems) return cell;
     if (itemName && itemName !== 'None') {
         const img = document.createElement('img');
@@ -981,6 +990,10 @@ function movesCell(set) {
 function speedCell(set, iv = null) {
     const cell = document.createElement('div');
     cell.className = 'set-cell set-speed';
+    // Speed warning: colour the speed value when it matches (the icon, an <img>, is
+    // unaffected; for the DP triple the per-line red/green keeps its own colour).
+    const warnTier = speedWarnTier(set, iv);
+    if (warnTier) cell.classList.add('warn-text', warnClass(String(warnTier)));
     const icon = () => {
         const img = document.createElement('img');
         img.src = 'assets/images/speed.png';
@@ -1083,7 +1096,7 @@ function buildSetDetail(set, slotIV = null) {
         const wt = hasWarnings('ability') ? tierForAbility(enAbilities[i]) : 0;
         return wt ? `<span class="warn-text ${warnClass(String(wt))}">${a}</span>` : a;
     }).join('<br/>');
-    // Arcade/Castle: opponents hold no items → no item, no Mega Evolution.
+    // Arcade: opponents hold no items, so no item and no Mega Evolution.
     const noItems = Boolean(state.variant?.noItems);
     const itemEnglish = itemEntry(set.item)?.en ?? set.item;
     const megaDex = noItems ? null : megaEntry(speciesData.en, itemEnglish);
@@ -1144,20 +1157,24 @@ function buildSetDetail(set, slotIV = null) {
     const triple = randomNature ? speedTriple(set, slotIV) : null;
     const range = wild ? speedRange(set) : null;
     const speedValue = (randomNature || wild) ? null : speedDisplay(set, slotIV);
+    // Speed warning: colour the speed value + append the tier symbol (like items/moves).
+    const speedTier = speedWarnTier(set, slotIV);
+    const swCls = speedTier ? ` warn-text ${warnClass(String(speedTier))}` : '';
+    const swSym = speedTier ? ` <span class="warn-sym warn-sym-detail">${warnSymbol(String(speedTier))}</span>` : '';
     // No speed to show (Hall before a level is determined) → omit the block + its
     // leading separator entirely. Wild → a 0-IV/31-IV range (two lines).
     const speedInner = (randomNature && triple)
-        ? `<div class="speed-triple">
+        ? `<div class="speed-triple${swCls}">
                 <div class="speed spd-plus"><span class="speed-sign">+</span>${speedIcon}${triple.plus}</div>
                 <div class="speed spd-neutral">${speedIcon}${triple.neutral}</div>
-                <div class="speed spd-minus"><span class="speed-sign">−</span>${speedIcon}${triple.minus}</div>
+                <div class="speed spd-minus"><span class="speed-sign">−</span>${speedIcon}${triple.minus}</div>${swSym}
            </div>`
         : (wild && range)
-        ? `<div class="speed-range">
+        ? `<div class="speed-range${swCls}">
                 <div class="speed"><span class="iv-tag">0 IV−</span>${speedIcon}${range.lo}</div>
-                <div class="speed"><span class="iv-tag">31 IV+</span>${speedIcon}${range.hi}</div>
+                <div class="speed"><span class="iv-tag">31 IV+</span>${speedIcon}${range.hi}</div>${swSym}
            </div>`
-        : speedValue ? `<div class="speed">${speedIcon}${speedValue}</div>` : '';
+        : speedValue ? `<div class="speed${swCls}">${speedIcon}${speedValue}${swSym}</div>` : '';
     const speedBlock = speedInner ? `<div class="separator"></div>${speedInner}` : '';
     const natureBlock = (randomNature || wild || gen2) ? '' : `
             <div class="nature">
@@ -1221,7 +1238,7 @@ function buildSetDetail(set, slotIV = null) {
             ${ivsHtml}
         </div>
         <div class="copy">
-            <span role="button" title="Copy set (Showdown format)" class="icon-mask icon-copy copy-icon"></span>
+            <span role="button" class="icon-mask copy-icon"></span>
             <span class="copy-feedback" hidden>Copied!</span>
         </div>
     `;
@@ -1248,16 +1265,26 @@ function buildSetDetail(set, slotIV = null) {
         sprite.src = `assets/images/sprites/${english}-mega.png`;
     }
 
-    // Copy-to-Showdown button.
+    // Export button: send the set to the eisencalc damage calculator (field 2). Also copies
+    // to the clipboard as a fallback (popup blocked, or Crystal which has no eisencalc game).
     const copyIcon = details.querySelector('.copy-icon');
     const feedback = details.querySelector('.copy-feedback');
+    // Facilities with an eisencalc game show the calculator icon + hand-off; Crystal
+    // (gen 2, no eisencalc game) keeps the plain copy icon + "Copy set" tooltip.
+    const canCalc = EISEN_GAME[state.game?.code] != null;
+    copyIcon.classList.add(canCalc ? 'icon-calc' : 'icon-copy');
+    copyIcon.title = canCalc ? t('exportToCalc', 'Send to eisencalc + clipboard')
+                             : t('copySet', 'Copy set (Showdown format)');
     copyIcon.addEventListener('click', async () => {
         try {
-            await navigator.clipboard.writeText(await showdownExport(set, speciesData, slotIV));
+            const text = await showdownExport(set, speciesData, slotIV);
+            const sent = sendSetToCalc(text);
+            try { await navigator.clipboard.writeText(text); } catch (e) {}
+            feedback.textContent = sent ? t('exportSent', 'Sent!') : t('copied', 'Copied!');
             feedback.hidden = false;
             setTimeout(() => { feedback.hidden = true; }, 1500);
         } catch (error) {
-            console.error('Failed to copy:', error);
+            console.error('Failed to export:', error);
         }
     });
 
@@ -1288,6 +1315,30 @@ function fitDetailsFont(details) {
 function typeIconHtml(type, isTera = false) {
     const path = isTera ? `types/tera/${type.toLowerCase()}` : `types/${type.toLowerCase()}`;
     return `<img src="assets/images/${path}.png" alt="${type}" class="type-icon" onerror="this.remove()" />`;
+}
+
+// Hand a set off to the eisencalc damage calculator (eisencalc.com), which loads it into
+// field 2. The first export opens a tab (set passed in the URL hash); later exports reuse
+// that same tab via postMessage (no reload). Crystal (gen 2) has no eisencalc game → null,
+// so the caller falls back to clipboard only.
+const EISEN_GAME = { bdsp: 80, swsh: 8, tree: 7, maison: 6, subway: 5, frontier4: 4, frontier3: 3 };
+const EISEN_URL = 'https://eisencalc.com/';
+let calcWindow = null;
+
+export function sendSetToCalc(showdown) {
+    const game = EISEN_GAME[state.game?.code];
+    if (game == null) return false;
+    const payload = { source: 'eisenlookup', game, showdown };
+    if (calcWindow && !calcWindow.closed) {
+        // targetOrigin '*' (not the exact origin): the receiver validates the sender's
+        // origin, and an exact-string targetOrigin was silently dropping the message.
+        calcWindow.postMessage(payload, '*');
+        calcWindow.focus();
+    } else {
+        const url = EISEN_URL + '#eisenlookup=' + encodeURIComponent(JSON.stringify(payload));
+        calcWindow = window.open(url, 'eisencalc');
+    }
+    return true;
 }
 
 // Showdown (and similar tools) only accept English, so the export always uses
@@ -1495,10 +1546,13 @@ function pickTeamRow(ti, renderDetail) {
         highlightTeamRow(-1);   // no row has index -1 → deselect every row
         clearBdspPanels();
         showBdspPanels(0);
+        state.bdspTeam = null;
     } else {
         renderDetail();
         highlightTeamRow(ti);
+        state.bdspTeam = ti;    // notes are keyed per team for multi-team BDSP
     }
+    renderTrainerNotes(true);
 }
 
 // Entry point: render a BDSP trainer's team view. Multi-team → preview rows (details
@@ -1507,21 +1561,25 @@ export function renderBdspTrainer(trainer) {
     const host = document.getElementById('team-rows');
     const teams = trainerTeams(trainer);
     if (teams.length > 1) {
+        state.bdspTeam = null;   // multi-team: notes wait for a team pick
         renderBdspTeamRows(teams, ti => pickTeamRow(ti, () => renderBdspTeamDetail(teams[ti])));
         host.style.display = '';
         clearBdspPanels();
         showBdspPanels(0);
     } else {
+        state.bdspTeam = 0;      // single team: note tied to the trainer
         host.innerHTML = '';
         host.style.display = 'none';
         renderBdspTeamDetail(teams[0]);
     }
+    renderTrainerNotes(true);
 }
 
 export function clearBdspView() {
     document.getElementById('team-rows').innerHTML = '';
     clearBdspPanels();
     showBdspPanels(0);
+    state.bdspTeam = null;
 }
 
 /* ---------- BDSP Master Doubles: duo view (multis of duos) ---------- */
@@ -1594,17 +1652,20 @@ function renderDuo(rec) {
     const host = document.getElementById('team-rows');
     const teams = rec?.teams || [];
     if (teams.length > 1) {
+        state.bdspTeam = null;   // multi-team duo (e.g. Barry & Palmer): note per team
         renderBdspTeamRows(teams, ti => pickTeamRow(ti, () => renderDuoDetail(teams[ti])),
                            [2, 0, 3, 1]);   // t2p1, t1p1, t2p2, t1p2
         host.style.display = '';
         clearBdspPanels();
         showBdspPanels(0);
     } else if (teams.length === 1) {
+        state.bdspTeam = 0;
         host.innerHTML = ''; host.style.display = 'none';
         renderDuoDetail(teams[0]);
     } else {
         clearBdspView();
     }
+    renderTrainerNotes(true);
 }
 
 // 2×2 grid placed under each trainer's column: t2p1 TL(slot1), t1p1 TR(slot2),
@@ -2381,6 +2442,136 @@ export function resetSelections() {
 }
 
 // Shows/hides the side-2 menus and the slot containers for the current mode.
+/* ---------- per-trainer notes (optional, bottom of page) ---------- */
+
+// Storage key for a trainer: its display name, plus a " #N" suffix when the loaded
+// trainer list holds more than one trainer with that exact name (rare collisions, e.g.
+// two キロハナ) so they stay distinct.
+function noteKeyFor(trainer) {
+    const orig = (trainer && trainer.srcIndex != null && state.data?.trainers)
+        ? (state.data.trainers[trainer.srcIndex] || trainer) : trainer;
+    const name = trainerName(orig);
+    const list = state.data?.trainers || [];
+    const sames = list.filter(t => trainerName(t) === name);
+    if (sames.length <= 1) return name;
+    const rank = sames.indexOf(orig);
+    return `${name} #${(rank < 0 ? 0 : rank) + 1}`;
+}
+
+// True for facilities whose "trainers" are PSEUDO entries (battle-number arrays, level
+// pools, wild encounters) rather than real named opponents, notes are excluded there.
+function notesPseudoVariant() {
+    const v = state.variant;
+    return v.hall || v.factory || v.factory3 || v.orderedTrainers;
+}
+
+// The trainer(s) a note field should show for, as [{ key, label }]. Empty when the
+// feature is off, nothing is selected, or the facility has no real trainers. For BDSP
+// (teamView) a trainer/duo with SEVERAL teams keys the note per TEAM (the biggest use
+// case), so the note is tied to the currently-picked team (state.bdspTeam).
+function noteTargets() {
+    if (notesPseudoVariant()) return [];
+
+    if (state.variant.teamView) {
+        let base, teams;
+        if (isDuoDoubles()) {
+            const rec = duoResolve();
+            if (!rec) return [];
+            base = `${rec.name} & ${rec.name2}`;       // a duo = one trainer
+            teams = rec.teams || [];
+        } else {
+            const tr = state.trainers[1];
+            if (!tr) return [];
+            base = noteKeyFor(tr);
+            teams = trainerTeams(tr);
+        }
+        // Single team → one note, no label (the trainer is already named in the big menu).
+        if (teams.length <= 1) return [{ key: base, label: '' }];
+        if (state.bdspTeam == null) return [];          // multi-team: wait for a team pick
+        const n = state.bdspTeam + 1;
+        // The KEY carries the trainer + team (storage/export); the visible LABEL is just the
+        // team number (the trainer name is redundant).
+        return [{ key: `${base} — Team ${n}`, label: `${t('notesTeam', 'Team')} ${n}` }];
+    }
+
+    const out = [];
+    for (const side of [1, 2]) {
+        const tr = state.trainers[side];
+        if (tr && !tr.wild) { const k = noteKeyFor(tr); out.push({ key: k, label: k }); }
+    }
+    // Single trainer → no label (redundant with the trainer menu). Multis keeps the names
+    // so the two stacked fields are distinguishable.
+    if (out.length === 1) out[0].label = '';
+    return out;
+}
+
+// Render / refresh the bottom-of-page note field(s). Idempotent: when the same
+// target(s) are already shown it leaves the textarea alone (so typing isn't interrupted
+// by the many updateLayout calls). Pass force=true after an import to rebuild with fresh
+// values. Note text is only ever read/written as plain text, never innerHTML/eval.
+export function renderTrainerNotes(force = false) {
+    const host = document.getElementById('trainer-notes');
+    if (!host) return;
+    const facility = state.variant?.code;
+    const targets = (notesEnabled() && facility) ? noteTargets() : [];
+    if (!targets.length) {
+        host.style.display = 'none';
+        host.dataset.sig = '';
+        host.innerHTML = '';
+        return;
+    }
+    const sig = facility + ' ' + targets.map(t => t.key).join('');
+    if (!force && host.dataset.sig === sig) { host.style.display = ''; sizeNotes(); return; }
+    host.dataset.sig = sig;
+    host.innerHTML = '';
+    for (const target of targets) {
+        const block = document.createElement('div');
+        block.className = 'trainer-note';
+        if (target.label) {                           // only multis / BDSP team need a label
+            const label = document.createElement('div');
+            label.className = 'trainer-note-label';
+            label.textContent = target.label;         // plain text (safe)
+            block.appendChild(label);
+        }
+        const ta = document.createElement('textarea');
+        ta.className = 'trainer-note-input';
+        ta.value = getNote(facility, target.key);     // imported text is inert here
+        ta.placeholder = t('notesPlaceholder', 'Notes for this trainer…');
+        ta.setAttribute('data-key', target.key);
+        ta.addEventListener('input', () => setNote(facility, target.key, ta.value));
+        block.appendChild(ta);
+        host.appendChild(block);
+    }
+    host.style.display = '';
+    sizeNotes();
+}
+
+// Give the note textarea(s) a roomy-but-bounded height: a fixed TARGET (~3.5× the old
+// 90px default) for long multi-line notes, but capped so it never runs past the bottom of
+// the window (which made it huge on the empty page + caused scroll once a set was opened).
+// Split across fields in multis. Runs after render + on window resize; the textarea stays
+// `resize: vertical`, so the user can still drag it.
+const NOTES_TARGET = 320;   // ~3.5× the old min-height
+const NOTES_FLOOR = 110;
+function sizeNotes() {
+    const host = document.getElementById('trainer-notes');
+    if (!host || host.style.display === 'none') return;
+    const areas = host.querySelectorAll('.trainer-note-input');
+    if (!areas.length) return;
+    const top = areas[0].getBoundingClientRect().top;
+    if (!top) return;   // not laid out yet (e.g. jsdom)
+    const avail = (window.innerHeight - top - 16) / areas.length;   // share per field
+    const per = Math.min(NOTES_TARGET, Math.max(NOTES_FLOOR, Math.floor(avail)));
+    areas.forEach(a => { a.style.minHeight = per + 'px'; });
+}
+
+let _notesResizeBound = false;
+(function bindNotesResize() {
+    if (_notesResizeBound || typeof window === 'undefined') return;
+    _notesResizeBound = true;
+    window.addEventListener('resize', sizeNotes);
+})();
+
 export function updateLayout() {
     const multi = sides() > 1;
     // BDSP team view: no Pokémon menus / minisprite pool — the detail panels are
@@ -2452,6 +2643,7 @@ export function updateLayout() {
     document.getElementById('reverse-lookup-btn').style.display =
         state.variant.reverseLookup ? '' : 'none';
     positionSwap();
+    renderTrainerNotes();
 }
 
 export function applyStaticTranslations() {

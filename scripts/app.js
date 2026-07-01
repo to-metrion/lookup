@@ -4,7 +4,10 @@ import { GAMES, MODES, THEMES, LANGUAGE_NAMES, MAX_SIDES, DATA_VERSION,
          getGame, getVariant, defaultVariant, modeSlots,
          gameVersions, facilitiesForVersion, variantForVersionFacility } from './config.js';
 import { loadWarnings, getWarnings, addWarning, removeWarning,
+         getSpeedWarning, setSpeedWarning, SPEED_OPS,
          TIERS, TIER_SYMBOL, CATEGORIES, warnClass } from './warnings.js';
+import { loadNotes, notesEnabled, setNotesEnabled, hasAnyNotes,
+         serializeNotes, parseNotes, importNotes } from './notes.js';
 import { loadTranslations, loadVariantData } from './data.js';
 import { state } from './state.js';
 import {
@@ -18,7 +21,7 @@ import {
     trainerPool, isLateTrainer,
     populatePyramidWildFilter, syncPyramidWildFilter,
     renderBdspTrainer, isDuoDoubles, resetDuoSelection, positionSwap,
-    populateReverseLookup, selectDuo,
+    populateReverseLookup, selectDuo, renderTrainerNotes,
 } from './ui.js';
 
 /* ---------- settings (game, variant, language, theme) ---------- */
@@ -87,9 +90,8 @@ function populateVariantPills() {
             });
             pills.appendChild(pill);
         }
-        // Always show the version row for versioned games — even with a single
-        // version (gen-3 = Emerald only for now), so the axis is visible and
-        // ready for more versions (Ruby/Sapphire). Mirrors the facility row.
+        // Always show the version row for versioned games, even with a single version,
+        // so the version axis is visible. Mirrors the facility row.
         row.style.display = '';
         populateFacilityPills();
         return;
@@ -1346,6 +1348,78 @@ function renderWarningSections() {
         section.appendChild(chips);
         host.appendChild(section);
     }
+    host.appendChild(renderSpeedWarning());
+}
+
+// The optional SPEED warning row: speed icon + enable checkbox + tier menu + operator
+// menu (≤/=/≥) + threshold input. Changing any control re-renders the main view (but
+// NOT the settings sections, so the input keeps focus). Off by default.
+const SPEED_OP_LABELS = { '<=': '≤', '=': '=', '>=': '≥' };
+function renderSpeedWarning() {
+    const sw = getSpeedWarning();
+    const section = document.createElement('div');
+    section.className = 'warn-section warn-speed';
+
+    const head = document.createElement('div');
+    head.className = 'warn-section-head';
+    head.innerHTML = `<img src="assets/images/speed.png" alt="Speed" class="warn-speed-icon" />`;
+    section.appendChild(head);
+
+    const controls = document.createElement('div');
+    controls.className = 'warn-speed-controls';
+
+    const enable = document.createElement('input');
+    enable.type = 'checkbox';
+    enable.className = 'warn-speed-enable';
+    enable.checked = sw.enabled;
+    enable.title = t('warnSpeedEnable', 'Enable speed warning');
+    enable.addEventListener('change', () => {
+        setSpeedWarning({ enabled: enable.checked });
+        onWarningsChanged();
+    });
+    controls.appendChild(enable);
+
+    const tierSel = document.createElement('select');
+    tierSel.className = 'warn-speed-tier';
+    for (const tier of TIERS) tierSel.appendChild(new Option(TIER_SYMBOL[tier], tier));
+    tierSel.value = sw.tier;
+    tierSel.addEventListener('change', () => {
+        setSpeedWarning({ tier: tierSel.value });
+        onWarningsChanged();
+    });
+    controls.appendChild(tierSel);
+
+    const opSel = document.createElement('select');
+    opSel.className = 'warn-speed-op';
+    for (const op of SPEED_OPS) opSel.appendChild(new Option(SPEED_OP_LABELS[op], op));
+    opSel.value = sw.op;
+    opSel.addEventListener('change', () => {
+        setSpeedWarning({ op: opSel.value });
+        onWarningsChanged();
+    });
+    controls.appendChild(opSel);
+
+    const value = document.createElement('input');
+    value.type = 'number';
+    value.min = '0';
+    value.inputMode = 'numeric';
+    value.className = 'warn-speed-value';
+    value.value = sw.value;
+    // Live: store on input (no heavy re-render mid-typing); re-render on commit (blur/enter).
+    value.addEventListener('input', () => {
+        const n = parseInt(value.value, 10);
+        if (Number.isFinite(n) && n >= 0) setSpeedWarning({ value: n });
+    });
+    value.addEventListener('change', () => {
+        const n = parseInt(value.value, 10);
+        if (!Number.isFinite(n) || n < 0) value.value = getSpeedWarning().value;
+        else setSpeedWarning({ value: n });
+        onWarningsChanged();
+    });
+    controls.appendChild(value);
+
+    section.appendChild(controls);
+    return section;
 }
 
 async function openWarnings() {
@@ -1370,6 +1444,109 @@ function onWarningsChanged() {
     if (!state.data) return;
     const snapshot = captureSelection();
     loadAndRender().then(() => restoreSelection(snapshot));
+}
+
+/* ---------- trainer notes settings ---------- */
+
+let pendingNotesImport = null;  // parsed file awaiting a Merge/Replace choice
+
+// The 📝 button IS the toggle (no sub-modal). When notes are enabled it goes .active and
+// the 💾 download + 📂 import icons appear beside it; the ⓘ tooltip explains the feature
+// + the #/## file format. Called on init + after any change.
+function updateNotesControls() {
+    const on = notesEnabled();
+    const btn = document.getElementById('open-notes');
+    btn.classList.toggle('active', on);
+    btn.title = t('notesEnableLabel', 'Enable trainer notes');
+    setInfoTip(document.getElementById('notes-info'),
+        t('notesEnableLabel', 'Enable trainer notes') + '. '
+        + t('notesInfo', 'Your personal notes are saved locally. Lines starting with "# " '
+            + 'delimit facilities, while "## " delimits trainers.'));
+    const dl = document.getElementById('notes-download');
+    const im = document.getElementById('notes-import');
+    document.getElementById('notes-io-btns').style.display = on ? '' : 'none';
+    dl.title = t('notesDownload', 'Download notes');
+    im.title = t('notesImport', 'Import notes');
+    dl.disabled = !hasAnyNotes();
+    document.getElementById('notes-merge').textContent = t('notesMerge', 'Merge');
+    document.getElementById('notes-replace').textContent = t('notesReplace', 'Replace all');
+    document.getElementById('notes-import-cancel').textContent = t('notesCancel', 'Cancel');
+    if (!on) {   // hide any pending import UI when the feature is turned off
+        document.getElementById('notes-import-confirm').style.display = 'none';
+        pendingNotesImport = null;
+    }
+}
+
+function toggleNotes() {
+    setNotesEnabled(!notesEnabled());
+    updateNotesControls();
+    renderTrainerNotes(true);   // show/hide the bottom field immediately
+}
+
+function downloadNotes() {
+    const text = serializeNotes();
+    try {
+        const blob = new Blob([text], { type: 'text/plain;charset=utf-8' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'eisenlookup-notes.txt';
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        setTimeout(() => URL.revokeObjectURL(url), 0);
+    } catch (e) {
+        console.error('Could not download notes:', e);
+    }
+}
+
+// A file was chosen: read + parse it, then show the Merge / Replace choice.
+function onNotesFileChosen(input) {
+    const file = input.files && input.files[0];
+    input.value = '';   // allow re-selecting the same file later
+    if (!file) return;
+    if (file.size > 2_000_000) {   // sanity cap (notes are small text)
+        showNotesImportSummary(t('notesTooBig', 'That file is too large to be a notes file.'), null);
+        return;
+    }
+    const reader = new FileReader();
+    reader.onload = () => applyNotesText(String(reader.result || ''));
+    reader.onerror = () => showNotesImportSummary(t('notesReadError', 'Could not read that file.'), null);
+    reader.readAsText(file);
+}
+
+// Parse text + present the import summary + Merge/Replace buttons. Exposed separately
+// so the smoke test can drive it without a real File.
+function applyNotesText(text) {
+    const parsed = parseNotes(text);
+    pendingNotesImport = parsed;
+    if (!parsed.trainers) {
+        showNotesImportSummary(
+            t('notesNothing', 'No notes were found in that file (check the # / ## headers).'),
+            null);
+        pendingNotesImport = null;
+        return;
+    }
+    const summary = t('notesFound', 'Found notes for {t} trainer(s) across {f} facility(ies).')
+        .replace('{t}', parsed.trainers).replace('{f}', parsed.facilities)
+        + (parsed.skipped ? ' ' + t('notesSkipped', '{s} unrecognized facility heading(s) skipped.')
+            .replace('{s}', parsed.skipped) : '');
+    showNotesImportSummary(summary, true);
+}
+
+function showNotesImportSummary(message, showActions) {
+    document.getElementById('notes-import-summary').textContent = message;
+    document.querySelector('#notes-import-confirm .notes-import-actions').style.display =
+        showActions ? '' : 'none';
+    document.getElementById('notes-import-confirm').style.display = 'block';
+}
+
+function finishNotesImport(mode) {
+    if (pendingNotesImport && pendingNotesImport.trainers) importNotes(pendingNotesImport, mode);
+    pendingNotesImport = null;
+    document.getElementById('notes-import-confirm').style.display = 'none';
+    updateNotesControls();      // refresh the download-enabled state
+    renderTrainerNotes(true);   // reflect any change to the current trainer's note
 }
 
 /* ---------- init ---------- */
@@ -1408,6 +1585,8 @@ async function init() {
     state.spritesOn = localStorage.getItem('minisprites') !== ''; // default on
     setTheme(localStorage.getItem('theme') || THEMES[0].code);
     loadWarnings();   // seed defaults on first run + build the lookup maps
+    loadNotes();      // per-trainer notes (off by default)
+    updateNotesControls();   // reflect the saved enabled state in the 📝 button + icons
 
     buildSlotContainers();
 
@@ -1495,6 +1674,17 @@ async function init() {
     document.querySelector('#warnings-modal .close').addEventListener('click', closeWarnings);
     document.getElementById('warnings-modal').addEventListener('click', e => {
         if (e.target.id === 'warnings-modal') closeWarnings(); // backdrop
+    });
+    document.getElementById('open-notes').addEventListener('click', toggleNotes);
+    document.getElementById('notes-download').addEventListener('click', downloadNotes);
+    document.getElementById('notes-import').addEventListener('click',
+        () => document.getElementById('notes-file').click());
+    document.getElementById('notes-file').addEventListener('change', e => onNotesFileChosen(e.target));
+    document.getElementById('notes-merge').addEventListener('click', () => finishNotesImport('merge'));
+    document.getElementById('notes-replace').addEventListener('click', () => finishNotesImport('replace'));
+    document.getElementById('notes-import-cancel').addEventListener('click', () => {
+        pendingNotesImport = null;
+        document.getElementById('notes-import-confirm').style.display = 'none';
     });
     document.getElementById('reverse-lookup-btn').addEventListener('click', openReverseLookup);
     // Reset: force a rebuild to an empty search (the default open path reuses the

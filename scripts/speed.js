@@ -1,26 +1,15 @@
-// Displayed speed is COMPUTED from pokédex base stats — sets files carry no
-// static speed values. The formula reproduces the game exactly (and the
-// static values the site used to ship):
-//
+// Displayed speed is COMPUTED from pokédex base stats (sets carry no static speed).
+// Reproduces the game exactly:
 //     stat = floor((2·base + IV + floor(EV/4)) · level / 100) + 5
-//     stat = floor(stat · nature)        (×1.1 / ×0.9 / ×1)
-//     stat = floor(stat · item)          (Choice Scarf ×1.5, Iron Ball ×0.5,
-//                                         Quick Powder ×2 — Ditto only)
-//
-// Level/IVs default to 50 / 31; variants can override the level via the
-// `speedLevel` flag and the IV default via `speedIVs`. Individual sets may
-// also carry their own `IVs` integer (SwSh Battle Tower / Restricted Sparring
-// give different IV tiers per set, e.g. 16/19/23/27/31), which takes
-// precedence over the variant default — see speedDisplay below.
-//
-// Mega Evolution: when a set's species holds its matching Mega Stone, the
-// display shows "pre → post" (e.g. "139 → 216") using the Mega forme's base
-// speed from the same pokédex file. Stones never carry a speed modifier, so
-// the item factor is 1 on both sides.
+//     stat = floor(stat · nature)   (×1.1 / ×0.9 / ×1)
+//     stat = floor(stat · item)     (Choice Scarf ×1.5, Iron Ball ×0.5, Quick Powder ×2 Ditto)
+// Level/IVs default to 50 / 31; variants override via `speedLevel` / `speedIVs`, and a set's
+// own `IVs` (SwSh per-set tiers) takes precedence. Mega: when the set holds its Mega Stone the
+// display shows "pre → post" from the Mega forme's base speed (stones carry no item factor).
 
 import { state } from './state.js';
 
-// Pure core — also usable by tools/tests.
+// Pure core; also usable by tools/tests.
 export function computeSpeed({ base, ev = 0, natureMod = 1, itemMod = 1,
                                level = 50, iv = 31 }) {
     let stat = Math.floor((2 * base + iv + Math.floor(ev / 4)) * level / 100) + 5;
@@ -50,11 +39,9 @@ function itemSpeedMod(enItem, enSpecies) {
     return 1;
 }
 
-// "Charizardite X" + species "Charizard" → the "Charizard-Mega-X" dex entry.
-// Stone names are species prefixes + "ite" (+" X"/" Y"), but often truncated
-// (Sablenite, Glalitite, Heracronite, Blastoisinite...), so accept if the
-// species starts with the stem minus up to 3 chars — but at least 5, which
-// keeps Eviolite out and Latiasite/Latiosite apart.
+// "Charizardite X" + species "Charizard" -> the "Charizard-Mega-X" dex entry. Stone names
+// are species prefix + "ite" (+" X"/" Y") but often truncated (Sablenite, Glalitite, ...),
+// so accept a stem trimmed by up to 3 chars but at least 5 (keeps Eviolite out, Latias/Latios apart).
 export function megaEntry(enSpecies, enItem) {
     const m = /^(.+?)ite( [XY])?$/.exec(enItem ?? '');
     if (!m) return null;
@@ -68,15 +55,10 @@ export function megaEntry(enSpecies, enItem) {
     return state.data.pokedex.find(p => p.en === target) ?? null;
 }
 
-// `ivOverride` is the IV of the trainer fielding this set (gen-4 Frontier,
-// where IVs are per-trainer; the caller derives it from the set's slot/side so
-// multis can show two different IVs at once). null = none (browse mode).
-// Battle Hall: the level of the Pokémon the player faces depends on the player's
-// own level and how many types they've taken to rank 2+. Returns null when the
-// inputs aren't set or no rank is selected (Argenta / browse). Pokémon floors.
+// Battle Hall: the faced Pokémon's level depends on the player's level and how many types
+// they've taken to rank 2+. Returns null when inputs aren't set / no rank (Argenta, browse).
 //   base = Lp − 3·√Lp ; increment = √Lp / 5
-//   L = min(Lp, ⌊ base + types/2 + (rank−1)·increment ⌋)
-// where `types` excludes the currently selected type if it's already rank 2+.
+//   L = min(Lp, floor( base + types/2 + (rank−1)·increment ))
 export function hallFacedLevel() {
     const Lp = state.hallLevel;
     if (!state.variant?.hall || !Lp) return null;
@@ -84,9 +66,8 @@ export function hallFacedLevel() {
     if (state.hallType === 'argenta50' || state.hallType === 'argenta170') return Lp;
     if (!state.hallRank) return null;
     const rank = state.hallRank;
-    // Everything is computed with real arithmetic and ONLY the final result is
-    // floored (the game rounds down once, at the end). `types` is the player's
-    // rank-2+ count as entered — the currently selected type is NOT subtracted.
+    // Only the final result is floored. `types` is the rank-2+ count as entered (the
+    // currently selected type is not subtracted).
     const base = Lp - 3 * Math.sqrt(Lp);
     const increment = Math.sqrt(Lp) / 5;
     const types = state.hallRank2 || 0;
@@ -94,10 +75,9 @@ export function hallFacedLevel() {
 }
 
 // Wild Pokémon level bounds [lo, hi].
-//  • Pike (`levelOffset`): a single player-relative level — 50 − offset at Lv 50, or
-//    max(60, chosen level − offset) in Open (60 floor). Returns [lvl, lvl].
-//  • Pyramid (`levelValue50`/`levelValueOpen`): a 10-wide band. Lv 50 = [v50−5, v50+5];
-//    Open = [max(chosen,60) − vOpen − 5, +10].
+//  Pike (`levelOffset`): single player-relative level (50 − offset at Lv 50, or
+//    max(60, chosen − offset) in Open). Returns [lvl, lvl].
+//  Pyramid (`levelValue50`/`levelValueOpen`): a 10-wide band.
 function wildLevelBounds(set) {
     if (set.levelValue50 != null) {
         const base = state.openMode
@@ -150,9 +130,8 @@ function speedLevel() {
     return state.variant?.speedLevel ?? 50;
 }
 
-// Shared inputs for a set's speed: the dex entry, the level/EV/IV params, and the
-// resolved item modifier. (Arcade `noItems` opponents hold no item — no item
-// modifier and no Mega Evolution, even though the shared set lists an item.)
+// Shared inputs for a set's speed: dex entry, level/EV/IV params, resolved item modifier.
+// (Arcade `noItems` opponents hold no item, so no item modifier and no Mega.)
 function speedCore(set, ivOverride) {
     const dex = state.data.pokedex.find(p => p[state.language] === set.species);
     if (!dex || dex.spe == null) return null;
@@ -195,12 +174,34 @@ export function speedDisplay(set, ivOverride = null) {
         : String(pre);
 }
 
-// DP Tower randomizes natures, so we can't assume one — return the speed for a
-// minus-speed (×0.9), neutral, and plus-speed (×1.1) nature. (No Mega in gen-4.)
+// DP Tower randomizes natures, so return the speed for minus (×0.9) / neutral / plus (×1.1).
 export function speedTriple(set, ivOverride = null) {
     const c = speedCore(set, ivOverride);
     if (!c) return null;
     const at = natureMod =>
         computeSpeed({ ...c.params, base: c.dex.spe, natureMod, itemMod: c.itemMod });
     return { minus: at(0.9), neutral: at(1), plus: at(1.1) };
+}
+
+// All candidate speed VALUES for a set (numbers), mirroring what speedDisplay /
+// speedTriple / speedRange show: random-nature → [−, neutral, +]; wild → [lo, hi];
+// Mega → [pre, post]; otherwise a single [value]. null when no speed is determinable
+// (e.g. Hall before a faced level is set). Used by the speed warning to test a match.
+export function speedValues(set, ivOverride = null) {
+    if (state.variant?.randomNature) {
+        const t = speedTriple(set, ivOverride);
+        return t ? [t.minus, t.neutral, t.plus] : null;
+    }
+    if (set.wild) {
+        const r = speedRange(set);
+        return r ? [r.lo, r.hi] : null;
+    }
+    const c = speedCore(set, ivOverride);
+    if (!c) return null;
+    const params = { ...c.params, natureMod: natureSpeedMod(set.nature) };
+    const pre = computeSpeed({ ...params, base: c.dex.spe, itemMod: c.itemMod });
+    const mega = c.enItem && megaEntry(c.dex.en, c.enItem);
+    return (mega && mega.spe != null)
+        ? [pre, computeSpeed({ ...params, base: mega.spe })]
+        : [pre];
 }

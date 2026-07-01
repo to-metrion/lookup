@@ -1,4 +1,4 @@
-// JSON loading with caching — each file is fetched at most once per page load.
+// JSON loading with caching: each file is fetched at most once per page load.
 
 import { DATA_VERSION } from './config.js';
 
@@ -21,10 +21,9 @@ export function loadTranslations() {
     return fetchJSON('data/translations.json');
 }
 
-// Delta merge for variants that declare a `base` (e.g. SM on top of USUM):
-// removals are filtered out, records with an existing key replace the base
-// entry in place, new keys are appended (deterministic order — the parallel-
-// language invariant depends on it).
+// Delta merge for variants with a `base` (e.g. SM on USUM): drop removals, replace
+// matching keys in place, append new keys. Order is deterministic (parallel-language
+// invariant depends on it).
 function mergeDelta(baseList, delta, keyOf, removeKeyOf = k => k) {
     const removed = new Set((delta.remove ?? []).map(r => String(removeKeyOf(r))));
     const replacements = new Map((delta.records ?? []).map(r => [String(keyOf(r)), r]));
@@ -61,10 +60,8 @@ async function loadTrainersAndSets(variant, language) {
     };
 }
 
-// Trainer deltas: removals match by name; replacements match by name+sprite
-// (localized names can collide between two different trainers, e.g. Italian
-// "Ella" — a delta record only replaces a same-name same-class trainer,
-// otherwise it's an addition).
+// Trainer deltas: removals match by name; replacements match by name+sprite (localized
+// names can collide, so a record only replaces a same-name same-sprite trainer, else adds).
 function mergeTrainers(base, delta) {
     const removed = new Set(delta.remove ?? []);
     const key = t => `${t.name}|${t.sprite ?? ''}`;
@@ -79,16 +76,13 @@ function mergeTrainers(base, delta) {
     return merged.concat([...replacements.values()]);
 }
 
-// Loads the sets file for a variant in a given language (used by the
-// Showdown export, which always needs the English sets).
+// Sets file for a variant + language (Showdown export always needs the English sets).
 export async function loadSets(variant, language) {
     return (await loadTrainersAndSets(variant, language)).sets;
 }
 
-// Loads everything needed for one variant + language combination, in parallel.
-// The English sets are always included (`enSets`): move-type icons and the
-// Showdown export resolve through the English counterpart set, and having
-// them up front keeps rendering synchronous.
+// Everything for one variant + language, fetched in parallel. `enSets` (English sets) is
+// always included so move-type icons and the Showdown export resolve synchronously.
 export async function loadVariantData(variant, language) {
     const [trainersAndSets, enSets, pokedex, natures, items, moves, rounds] = await Promise.all([
         loadTrainersAndSets(variant, language),

@@ -1,18 +1,9 @@
-// Dangerous-encounter WARNING SYSTEM (global, all games).
-//
-// Users flag Pokémon / items / moves / abilities at one of three severity tiers.
-// Flagged things are highlighted everywhere in the tool: a symbol next to trainers
-// (and Pokémon menus) fielding a warned Pokémon, a coloured Pokémon name + minisprite
-// background, a coloured item background + coloured move names in the set rows, and
-// coloured item/move/ability (each with its tier symbol) in the set detail panel.
-// Colours are theme-tuned CSS variables (--warn-1/2/3).
-//
-// Storage is CANONICAL ENGLISH (one localStorage blob). Matching is done in English
-// too — every render path already resolves localized names to English (via the
-// pokedex / items.json / English counterpart sets), so warnings work in all 9
-// languages with no per-language storage. The localized "add a warning" picker uses
-// data/warning-vocab.json (see tools/build_warning_vocab.py); this module never
-// needs it — it only stores/queries English names.
+// Warning system (global): users flag Pokémon / items / moves / abilities at three
+// severity tiers; flagged things are highlighted across the tool (theme-tuned --warn-N).
+// Storage is canonical ENGLISH (one localStorage blob); matching resolves localized names
+// to English at render time, so it works in every language with no per-language storage.
+// The "add a warning" picker uses data/warning-vocab.json; this module only stores and
+// queries English names.
 
 const STORAGE_KEY = 'warnings';
 
@@ -21,6 +12,11 @@ const STORAGE_KEY = 'warnings';
 export const TIERS = ['1', '2', '3'];
 export const TIER_SYMBOL = { '1': '‼️', '2': '❗️', '3': '⚠️' };
 export const CATEGORIES = ['pokemon', 'item', 'move', 'ability'];
+export const SPEED_OPS = ['<=', '=', '>='];
+
+// The optional SPEED warning: flag sets whose computed speed compares (op) against a
+// threshold. Stored under the `speed` key of the warnings blob. Off by default.
+const DEFAULT_SPEED = { enabled: false, tier: '1', op: '>=', value: 200 };
 
 // Seeded on first run (no saved warnings yet). Names are canonical English and
 // were verified to resolve against items.json / moves.json / the pokedex.
@@ -54,6 +50,17 @@ function emptyTier() {
     return { pokemon: [], item: [], move: [], ability: [] };
 }
 
+function normalizeSpeed(raw) {
+    const s = (raw && raw.speed) || {};
+    const value = Number(s.value);
+    return {
+        enabled: Boolean(s.enabled),
+        tier: TIERS.includes(s.tier) ? s.tier : DEFAULT_SPEED.tier,
+        op: SPEED_OPS.includes(s.op) ? s.op : DEFAULT_SPEED.op,
+        value: Number.isFinite(value) && value >= 0 ? Math.floor(value) : DEFAULT_SPEED.value,
+    };
+}
+
 function normalize(raw) {
     const out = {};
     for (const tier of TIERS) {
@@ -65,6 +72,7 @@ function normalize(raw) {
             out[tier][cat] = [...new Set(list.filter(Boolean))];
         }
     }
+    out.speed = normalizeSpeed(raw);
     return out;
 }
 
@@ -154,6 +162,34 @@ export function removeWarning(tier, category, en) {
         save();
         rebuildMaps();
     }
+}
+
+/* ---------- speed warning ---------- */
+
+// Current speed-warning config (copy), for the settings UI.
+export function getSpeedWarning() {
+    ensure();
+    return { ...warnings.speed };
+}
+
+// Merge a partial update (e.g. {enabled:true} or {value:180}) and persist.
+export function setSpeedWarning(partial) {
+    ensure();
+    warnings.speed = normalizeSpeed({ speed: { ...warnings.speed, ...partial } });
+    save();
+}
+
+export function hasSpeedWarning() { ensure(); return warnings.speed.enabled; }
+
+// Given a set's candidate speed value(s), return the warning tier if ANY satisfies the
+// configured comparison (op vs threshold), else 0. Disabled / no values → 0.
+export function speedWarnTierFor(values) {
+    ensure();
+    const s = warnings.speed;
+    if (!s.enabled || !values || !values.length) return 0;
+    const ok = values.some(v =>
+        s.op === '>=' ? v >= s.value : s.op === '<=' ? v <= s.value : v === s.value);
+    return ok ? s.tier : 0;
 }
 
 /* ---------- queries (English canonical names) ---------- */
