@@ -1,2640 +1,2640 @@
 {
-  "trainers": [
-    {
-      "name": "ヘルガ",
-      "class": "エリートトレーナー",
-      "name2": "アマポーラ",
-      "class2": "スキンヘッズ",
-      "roster": "ムクホーク-3, フローゼル-2, ムウマージ-3, ラティアス-4",
-      "species": "ムクホーク, フローゼル, ムウマージ, ラティアス",
-      "teams": [
-        "ムクホーク-3, フローゼル-2, ムウマージ-3, ラティアス-4"
-      ],
-      "late": "",
-      "quote": "やあやあ！ たのしく あそびましょ！",
-      "quote2": "おとうさま…… おかあさま…… わたしを みていて ください……",
-      "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
-      "sprite2": "assets/images/bdsptrainers/roughneck.png"
-    },
-    {
-      "name": "ヘルガ",
-      "class": "エリートトレーナー",
-      "name2": "ヤト",
-      "class2": "Pokefan (F)",
-      "roster": "ユキノオー-2, レジスチル-3, ミミロップ-3, デンリュウ-2",
-      "species": "ユキノオー, レジスチル, ミミロップ, デンリュウ",
-      "teams": [
-        "ユキノオー-2, レジスチル-3, ミミロップ-3, デンリュウ-2"
-      ],
-      "late": "",
-      "quote": "やあやあ！ たのしく あそびましょ！",
-      "quote2": "おばさん こうみえても わかいころは イケイケだったのよ",
-      "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
-      "sprite2": "assets/images/bdsptrainers/pokefan-f.png"
-    },
-    {
-      "name": "シーゲル",
-      "class": "スキンヘッズ",
-      "name2": "アマポーラ",
-      "class2": "スキンヘッズ",
-      "roster": "ナマズン-3, カイロス-2, ライチュウ-2, ケンタロス-3",
-      "species": "ナマズン, カイロス, ライチュウ, ケンタロス",
-      "teams": [
-        "ナマズン-3, カイロス-2, ライチュウ-2, ケンタロス-3"
-      ],
-      "late": "",
-      "quote": "ぼく ほんとうは しょうぶは すきじゃないんだな",
-      "quote2": "おとうさま…… おかあさま…… わたしを みていて ください……",
-      "sprite": "assets/images/bdsptrainers/roughneck.png",
-      "sprite2": "assets/images/bdsptrainers/roughneck.png"
-    },
-    {
-      "name": "シーゲル",
-      "class": "スキンヘッズ",
-      "name2": "トドメキ",
-      "class2": "さぎょういん",
-      "roster": "スリーパー-2, トリトドン-2, バクオング-2, ダグトリオ-3",
-      "species": "スリーパー, トリトドン, バクオング, ダグトリオ",
-      "teams": [
-        "スリーパー-2, トリトドン-2, バクオング-2, ダグトリオ-3"
-      ],
-      "late": "",
-      "quote": "ぼく ほんとうは しょうぶは すきじゃないんだな",
-      "quote2": "スクラップに してやる",
-      "sprite": "assets/images/bdsptrainers/roughneck.png",
-      "sprite2": "assets/images/bdsptrainers/worker.png"
-    },
-    {
-      "name": "シーゲル",
-      "class": "スキンヘッズ",
-      "name2": "ネモ",
-      "class2": "ジェントルマン",
-      "roster": "キングドラ-2, レジロック-1, バクフーン-3, サンダー-1",
-      "species": "キングドラ, レジロック, バクフーン, サンダー",
-      "teams": [
-        "キングドラ-2, レジロック-1, バクフーン-3, サンダー-1"
-      ],
-      "late": "",
-      "quote": "ぼく ほんとうは しょうぶは すきじゃないんだな",
-      "quote2": "こどもの きもちに かえって しょうぶと いきましょうか！",
-      "sprite": "assets/images/bdsptrainers/roughneck.png",
-      "sprite2": "assets/images/bdsptrainers/gentleman.png"
-    },
-    {
-      "name": "シーゲル",
-      "class": "スキンヘッズ",
-      "name2": "スタンリー",
-      "class2": "Policeman",
-      "roster": "トリデプス-2, ヘルガー-2, メタグロス-2, ダイノーズ-2",
-      "species": "トリデプス, ヘルガー, メタグロス, ダイノーズ",
-      "teams": [
-        "トリデプス-2, ヘルガー-2, メタグロス-2, ダイノーズ-2"
-      ],
-      "late": "",
-      "quote": "ぼく ほんとうは しょうぶは すきじゃないんだな",
-      "quote2": "はい きみー そこの きみー ちょっと まって くださーい！",
-      "sprite": "assets/images/bdsptrainers/roughneck.png",
-      "sprite2": "assets/images/bdsptrainers/policeofficer.png"
-    },
-    {
-      "name": "ドンタ",
-      "class": "やまおとこ",
-      "name2": "アドロック",
-      "class2": "ポケモンブリーダー",
-      "roster": "リングマ-2, エンテイ-1, ドンファン-3, マタドガス-3",
-      "species": "リングマ, エンテイ, ドンファン, マタドガス",
-      "teams": [
-        "リングマ-2, エンテイ-1, ドンファン-3, マタドガス-3"
-      ],
-      "late": "",
-      "quote": "どすこい！ どすこい！",
-      "quote2": "ごしょうかい しましょう！ ぼくの だいじな パートナー！",
-      "sprite": "assets/images/bdsptrainers/hiker.png",
-      "sprite2": "assets/images/bdsptrainers/pokemonbreeder-m.png"
-    },
-    {
-      "name": "ドンタ",
-      "class": "やまおとこ",
-      "name2": "レポマン",
-      "class2": "けんきゅういん",
-      "roster": "フリーザー-2, ドククラゲ-2, レジロック-3, ボーマンダ-2",
-      "species": "フリーザー, ドククラゲ, レジロック, ボーマンダ",
-      "teams": [
-        "フリーザー-2, ドククラゲ-2, レジロック-3, ボーマンダ-2"
-      ],
-      "late": "",
-      "quote": "どすこい！ どすこい！",
-      "quote2": "かがくの ちからですっ！",
-      "sprite": "assets/images/bdsptrainers/hiker.png",
-      "sprite2": "assets/images/bdsptrainers/scientist.png"
-    },
-    {
-      "name": "ドンタ",
-      "class": "やまおとこ",
-      "name2": "テフコ",
-      "class2": "Socialite",
-      "roster": "フワライド-3, ミルタンク-3, ゴルダック-2, エンテイ-4",
-      "species": "フワライド, ミルタンク, ゴルダック, エンテイ",
-      "teams": [
-        "フワライド-3, ミルタンク-3, ゴルダック-2, エンテイ-4"
-      ],
-      "late": "",
-      "quote": "どすこい！ どすこい！",
-      "quote2": "うちの こには つよくて りっぱな トレーナーに なって もらいたいわ",
-      "sprite": "assets/images/bdsptrainers/hiker.png",
-      "sprite2": "assets/images/bdsptrainers/madame.png"
-    },
-    {
-      "name": "ババール",
-      "class": "とりつかい",
-      "name2": "ヘル",
-      "class2": "ギャンブラー",
-      "roster": "ドサイドン-3, ウインディ-2, ハッサム-2, ベトベトン-3",
-      "species": "ドサイドン, ウインディ, ハッサム, ベトベトン",
-      "teams": [
-        "ドサイドン-3, ウインディ-2, ハッサム-2, ベトベトン-3"
-      ],
-      "late": "",
-      "quote": "じんせい おもいどおりに いかないことも たくさん ある！",
-      "quote2": "つきあって もらおう！ かれいなる かけに！",
-      "sprite": "assets/images/bdsptrainers/birdkeeper.png",
-      "sprite2": "assets/images/bdsptrainers/pi.png"
-    },
-    {
-      "name": "ババール",
-      "class": "とりつかい",
-      "name2": "キング",
-      "class2": "ギャンブラー",
-      "roster": "トリトドン-3, チャーレム-2, ヒードラン-2, ボスゴドラ-2",
-      "species": "トリトドン, チャーレム, ヒードラン, ボスゴドラ",
-      "teams": [
-        "トリトドン-3, チャーレム-2, ヒードラン-2, ボスゴドラ-2"
-      ],
-      "late": "",
-      "quote": "じんせい おもいどおりに いかないことも たくさん ある！",
-      "quote2": "しぶい しょうぶ しようか",
-      "sprite": "assets/images/bdsptrainers/birdkeeper.png",
-      "sprite2": "assets/images/bdsptrainers/pi.png"
-    },
-    {
-      "name": "ヒコ",
-      "class": "サイキッカー",
-      "name2": "ムック",
-      "class2": "ポケモンコレクター",
-      "roster": "ユキノオー-2, プテラ-2, バクフーン-3, グレイシア-2",
-      "species": "ユキノオー, プテラ, バクフーン, グレイシア",
-      "teams": [
-        "ユキノオー-2, プテラ-2, バクフーン-3, グレイシア-2"
-      ],
-      "late": "",
-      "quote": "おにいちゃんが おしえてくれたよ！ めだ！ めを ねらえ って！",
-      "quote2": "ちょっと まってくれよぉ メール かいてるんだよぉ",
-      "sprite": "assets/images/bdsptrainers/psychic-f.png",
-      "sprite2": "assets/images/bdsptrainers/collector.png"
-    },
-    {
-      "name": "ヒコ",
-      "class": "サイキッカー",
-      "name2": "エーミー",
-      "class2": "サイクリング",
-      "roster": "トリデプス-3, ハピナス-2, オニゴーリ-3, マニューラ-2",
-      "species": "トリデプス, ハピナス, オニゴーリ, マニューラ",
-      "teams": [
-        "トリデプス-3, ハピナス-2, オニゴーリ-3, マニューラ-2"
-      ],
-      "late": "",
-      "quote": "おにいちゃんが おしえてくれたよ！ めだ！ めを ねらえ って！",
-      "quote2": "チャリン チャリーン",
-      "sprite": "assets/images/bdsptrainers/psychic-f.png",
-      "sprite2": "assets/images/bdsptrainers/cyclist-f.png"
-    },
-    {
-      "name": "ゼノン",
-      "class": "ドラゴンつかい",
-      "name2": "タケトラ",
-      "class2": "からておう",
-      "roster": "リングマ-2, フリーザー-3, ポリゴン２-2, スイクン-1",
-      "species": "リングマ, フリーザー, ポリゴン２, スイクン",
-      "teams": [
-        "リングマ-2, フリーザー-3, ポリゴン２-2, スイクン-1"
-      ],
-      "late": "",
-      "quote": "フハハハッ！ わがはいが あいてだ！",
-      "quote2": "オス！！",
-      "sprite": "assets/images/bdsptrainers/dragontamer.png",
-      "sprite2": "assets/images/bdsptrainers/blackbelt.png"
-    },
-    {
-      "name": "ゼノン",
-      "class": "ドラゴンつかい",
-      "name2": "タマノシン",
-      "class2": "ピエロ",
-      "roster": "ヤドラン-2, ラグラージ-3, ニドキング-2, レジアイス-3",
-      "species": "ヤドラン, ラグラージ, ニドキング, レジアイス",
-      "teams": [
-        "ヤドラン-2, ラグラージ-3, ニドキング-2, レジアイス-3"
-      ],
-      "late": "",
-      "quote": "フハハハッ！ わがはいが あいてだ！",
-      "quote2": "せいいっぱい やらせて いただきます よろしく おねがい いたします！",
-      "sprite": "assets/images/bdsptrainers/dragontamer.png",
-      "sprite2": "assets/images/bdsptrainers/clown.png"
-    },
-    {
-      "name": "ボブヒコ",
-      "class": "ぼくじょうおじさん",
-      "name2": "ケーニッヒ",
-      "class2": "ポケモンレンジャー",
-      "roster": "ラグラージ-3, ミルタンク-3, エンテイ-2, ドータクン-2",
-      "species": "ラグラージ, ミルタンク, エンテイ, ドータクン",
-      "teams": [
-        "ラグラージ-3, ミルタンク-3, エンテイ-2, ドータクン-2"
-      ],
-      "late": "",
-      "quote": "ぼっちゃん？ じょうちゃん？ どっちでも いいけど いくぞぉ！",
-      "quote2": "ぼくと しょうぶ？ しらないよぉ！",
-      "sprite": "assets/images/bdsptrainers/rancher.png",
-      "sprite2": "assets/images/bdsptrainers/pokemonranger-f.png"
-    },
-    {
-      "name": "モーロッソ",
-      "class": "やまおとこ",
-      "name2": "ゲンゴロウ",
-      "class2": "ギタリスト",
-      "roster": "ムクホーク-2, エテボース-2, ガラガラ-3, アーマルド-2",
-      "species": "ムクホーク, エテボース, ガラガラ, アーマルド",
-      "teams": [
-        "ムクホーク-2, エテボース-2, ガラガラ-3, アーマルド-2"
-      ],
-      "late": "",
-      "quote": "さわやかに しょうぶ しましょう！ さあ！ わらって！",
-      "quote2": "ぼくと ぼくの ポケモンたちの コーラスを きいてください",
-      "sprite": "assets/images/bdsptrainers/hiker.png",
-      "sprite2": "assets/images/bdsptrainers/guitarist.png"
-    },
-    {
-      "name": "モーロッソ",
-      "class": "やまおとこ",
-      "name2": "ジャネット",
-      "class2": "レポーター",
-      "roster": "ラフレシア-2, エテボース-2, ガラガラ-3, アーマルド-2",
-      "species": "ラフレシア, エテボース, ガラガラ, アーマルド",
-      "teams": [
-        "ラフレシア-2, エテボース-2, ガラガラ-3, アーマルド-2"
-      ],
-      "late": "",
-      "quote": "さわやかに しょうぶ しましょう！ さあ！ わらって！",
-      "quote2": "さて どうやって せめよう かしらねぇ？",
-      "sprite": "assets/images/bdsptrainers/hiker.png",
-      "sprite2": "assets/images/bdsptrainers/reporter.png"
-    },
-    {
-      "name": "モーロッソ",
-      "class": "やまおとこ",
-      "name2": "エーミー",
-      "class2": "サイクリング",
-      "roster": "ハリテヤマ-3, ダイノーズ-2, ブラッキー-2, アブソル-2",
-      "species": "ハリテヤマ, ダイノーズ, ブラッキー, アブソル",
-      "teams": [
-        "ハリテヤマ-3, ダイノーズ-2, ブラッキー-2, アブソル-2"
-      ],
-      "late": "",
-      "quote": "さわやかに しょうぶ しましょう！ さあ！ わらって！",
-      "quote2": "チャリン チャリーン",
-      "sprite": "assets/images/bdsptrainers/hiker.png",
-      "sprite2": "assets/images/bdsptrainers/cyclist-f.png"
-    },
-    {
-      "name": "モーロッソ",
-      "class": "やまおとこ",
-      "name2": "スケ",
-      "class2": "バトルガール",
-      "roster": "ハッサム-3, ユレイドル-2, ユキメノコ-3, ブーバーン-2",
-      "species": "ハッサム, ユレイドル, ユキメノコ, ブーバーン",
-      "teams": [
-        "ハッサム-3, ユレイドル-2, ユキメノコ-3, ブーバーン-2"
-      ],
-      "late": "",
-      "quote": "さわやかに しょうぶ しましょう！ さあ！ わらって！",
-      "quote2": "シャーッ！",
-      "sprite": "assets/images/bdsptrainers/hiker.png",
-      "sprite2": "assets/images/bdsptrainers/battlegirl.png"
-    },
-    {
-      "name": "カケス",
-      "class": "とりつかい",
-      "name2": "ラジカント",
-      "class2": "ふなのり",
-      "roster": "トドゼルガ-2, キングドラ-2, ハガネール-2, ルンパッパ-2",
-      "species": "トドゼルガ, キングドラ, ハガネール, ルンパッパ",
-      "teams": [
-        "トドゼルガ-2, キングドラ-2, ハガネール-2, ルンパッパ-2"
-      ],
-      "late": "",
-      "quote": "もう にげばは ないわ！",
-      "quote2": "ええ？ きみが あいて？ なんだか ふあんだな……",
-      "sprite": "assets/images/bdsptrainers/birdkeeper.png",
-      "sprite2": "assets/images/bdsptrainers/sailor.png"
-    },
-    {
-      "name": "カケス",
-      "class": "とりつかい",
-      "name2": "クルブシ",
-      "class2": "アロマなおねえさん",
-      "roster": "キングドラ-2, レジアイス-4, リザードン-3, ニドキング-3",
-      "species": "キングドラ, レジアイス, リザードン, ニドキング",
-      "teams": [
-        "キングドラ-2, レジアイス-4, リザードン-3, ニドキング-3"
-      ],
-      "late": "",
-      "quote": "もう にげばは ないわ！",
-      "quote2": "いい かおりを かいでると ねむく なっちゃうよね……",
-      "sprite": "assets/images/bdsptrainers/birdkeeper.png",
-      "sprite2": "assets/images/bdsptrainers/aromalady.png"
-    },
-    {
-      "name": "ペドロ",
-      "class": "ベテラントレーナー",
-      "name2": "カオルコ",
-      "class2": "アロマなおねえさん",
-      "roster": "ポリゴンＺ-2, クレセリア-3, ジュゴン-3, ヘルガー-3",
-      "species": "ポリゴンＺ, クレセリア, ジュゴン, ヘルガー",
-      "teams": [
-        "ポリゴンＺ-2, クレセリア-3, ジュゴン-3, ヘルガー-3"
-      ],
-      "late": "",
-      "quote": "はじめに いって おこう…… きみでは わたしに かつことはできない",
-      "quote2": "あたいに かとう なんざ じゅうねん はやいんだよ！！",
-      "sprite": "assets/images/bdsptrainers/veteran.png",
-      "sprite2": "assets/images/bdsptrainers/aromalady.png"
-    },
-    {
-      "name": "サクゾウ",
-      "class": "ギャンブラー",
-      "name2": "アマポーラ",
-      "class2": "スキンヘッズ",
-      "roster": "ミミロップ-3, ロズレイド-2, ハッサム-3, スカタンク-3",
-      "species": "ミミロップ, ロズレイド, ハッサム, スカタンク",
-      "teams": [
-        "ミミロップ-3, ロズレイド-2, ハッサム-3, スカタンク-3"
-      ],
-      "late": "",
-      "quote": "きみは なにを かけるんだい？ ぼくは すべてを かけよう！",
-      "quote2": "おとうさま…… おかあさま…… わたしを みていて ください……",
-      "sprite": "assets/images/bdsptrainers/pi.png",
-      "sprite2": "assets/images/bdsptrainers/roughneck.png"
-    },
-    {
-      "name": "サクゾウ",
-      "class": "ギャンブラー",
-      "name2": "トメゾウ",
-      "class2": "ギャンブラー",
-      "roster": "ムウマージ-2, オーダイル-3, ナマズン-3, スイクン-4",
-      "species": "ムウマージ, オーダイル, ナマズン, スイクン",
-      "teams": [
-        "ムウマージ-2, オーダイル-3, ナマズン-3, スイクン-4"
-      ],
-      "late": "",
-      "quote": "きみは なにを かけるんだい？ ぼくは すべてを かけよう！",
-      "quote2": "しょうぶ ってのはな チマチマ けいさんする もん じゃねーの！",
-      "sprite": "assets/images/bdsptrainers/pi.png",
-      "sprite2": "assets/images/bdsptrainers/pi.png"
-    },
-    {
-      "name": "ホーミー",
-      "class": "カメラマン",
-      "name2": "テキサス",
-      "class2": "カウガール",
-      "roster": "バクオング-3, ライコウ-1, ランターン-2, ミロカロス-3",
-      "species": "バクオング, ライコウ, ランターン, ミロカロス",
-      "teams": [
-        "バクオング-3, ライコウ-1, ランターン-2, ミロカロス-3"
-      ],
-      "late": "",
-      "quote": "じーっ",
-      "quote2": "がんばっちゃうもんねー！ えい えい おー！",
-      "sprite": "assets/images/bdsptrainers/cameraman.png",
-      "sprite2": "assets/images/bdsptrainers/cowgirl.png"
-    },
-    {
-      "name": "ジュン",
-      "class": "ポケモントレーナー",
-      "name2": "クロツグ",
-      "class2": "タワータイクーン",
-      "roster": "エンペルト-5, ムクホーク-5, ドサイドン-10, ヒードラン-12, ヘラクロス-5, ゴウカザル-7, カイリュー-9, クレセリア-11, ドダイトス-5, カビゴン-4, ミロカロス-8, ヒードラン-7",
-      "species": "エンペルト, ムクホーク, ドサイドン, ヒードラン, ヘラクロス, ゴウカザル, カイリュー, クレセリア, ドダイトス, カビゴン, ミロカロス",
-      "teams": [
-        "エンペルト-5, ムクホーク-5, ドサイドン-10, ヒードラン-12",
-        "ヘラクロス-5, ゴウカザル-7, カイリュー-9, クレセリア-11",
-        "ドダイトス-5, カビゴン-4, ミロカロス-8, ヒードラン-7"
-      ],
-      "late": "",
-      "quote": "きたか！ ！ オレは ここで オヤジと あって もくひょうを ひとつ たっせい した！ けど もうひとつの もくひょう せかいで いちばん つよい ポケモントレーナーに なる それは いまから おまえを たおして たっせい してやるぜ！",
-      "quote2": "やあ よくぞ ここまで かちあがってきた！ わたしの むすこは きみと であって ずいぶんと みちがえた ようだ このとおり れいを いわせてくれ！ そして いま あらためて タワータイクーン として むすこと ともに ぜんりょくで きみの あいてを しよう！ さあ タワータイクーンの わたしに その じつりょく みせてくれたまえ！",
-      "sprite": "assets/images/bdsptrainers/barry.png",
-      "sprite2": "assets/images/bdsptrainers/palmer.png"
-    },
-    {
-      "name": "アドロック",
-      "class": "ポケモンブリーダー",
-      "name2": "アントニオ",
-      "class2": "ウエーター",
-      "roster": "モジャンボ-2, レジスチル-2, フォレトス-3, バクオング-2",
-      "species": "モジャンボ, レジスチル, フォレトス, バクオング",
-      "teams": [
-        "モジャンボ-2, レジスチル-2, フォレトス-3, バクオング-2"
-      ],
-      "late": "",
-      "quote": "ごしょうかい しましょう！ ぼくの だいじな パートナー！",
-      "quote2": "おー！ きみ つよそうだねー たのしみ たのしみ！",
-      "sprite": "assets/images/bdsptrainers/pokemonbreeder-m.png",
-      "sprite2": "assets/images/bdsptrainers/waiter.png"
-    },
-    {
-      "name": "タダオミ",
-      "class": "Fisherman",
-      "name2": "アントン",
-      "class2": "エリートトレーナー",
-      "roster": "ゴルダック-2, レジスチル-4, ラティオス-4, ラティアス-4",
-      "species": "ゴルダック, レジスチル, ラティオス, ラティアス",
-      "teams": [
-        "ゴルダック-2, レジスチル-4, ラティオス-4, ラティアス-4"
-      ],
-      "late": "",
-      "quote": "わしは つりと しょうぶが ほんとうに だいすき",
-      "quote2": "ユー ぜんぜん ダメだヨー ミーが おしえて あげるヨー",
-      "sprite": "assets/images/bdsptrainers/fisher.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-m.png"
-    },
-    {
-      "name": "タダオミ",
-      "class": "Fisherman",
-      "name2": "セフィーロ",
-      "class2": "ドラゴンつかい",
-      "roster": "ヤドキング-3, ファイヤー-2, ユキメノコ-2, カメックス-3",
-      "species": "ヤドキング, ファイヤー, ユキメノコ, カメックス",
-      "teams": [
-        "ヤドキング-3, ファイヤー-2, ユキメノコ-2, カメックス-3"
-      ],
-      "late": "",
-      "quote": "わしは つりと しょうぶが ほんとうに だいすき",
-      "quote2": "ゆきなさいぃー！ きたえぬいた ボクの ポケモンちゃん たちー！",
-      "sprite": "assets/images/bdsptrainers/fisher.png",
-      "sprite2": "assets/images/bdsptrainers/dragontamer.png"
-    },
-    {
-      "name": "タダオミ",
-      "class": "Fisherman",
-      "name2": "ナンコウ",
-      "class2": "けんきゅういん",
-      "roster": "カビゴン-2, ドクロッグ-3, ケッキング-2, スイクン-3",
-      "species": "カビゴン, ドクロッグ, ケッキング, スイクン",
-      "teams": [
-        "カビゴン-2, ドクロッグ-3, ケッキング-2, スイクン-3"
-      ],
-      "late": "",
-      "quote": "わしは つりと しょうぶが ほんとうに だいすき",
-      "quote2": "とつげきせよ！ ぼくの ポケモン！ じっけんの せいかを みせてやれっ！",
-      "sprite": "assets/images/bdsptrainers/fisher.png",
-      "sprite2": "assets/images/bdsptrainers/scientist.png"
-    },
-    {
-      "name": "タダオミ",
-      "class": "Fisherman",
-      "name2": "エーミー",
-      "class2": "サイクリング",
-      "roster": "サンダー-1, ニョロトノ-3, スターミー-2, ユキメノコ-2",
-      "species": "サンダー, ニョロトノ, スターミー, ユキメノコ",
-      "teams": [
-        "サンダー-1, ニョロトノ-3, スターミー-2, ユキメノコ-2"
-      ],
-      "late": "",
-      "quote": "わしは つりと しょうぶが ほんとうに だいすき",
-      "quote2": "チャリン チャリーン",
-      "sprite": "assets/images/bdsptrainers/fisher.png",
-      "sprite2": "assets/images/bdsptrainers/cyclist-f.png"
-    },
-    {
-      "name": "バク",
-      "class": "ポケモントレーナー",
-      "name2": "キクノ",
-      "class2": "してんのう",
-      "roster": "クレセリア-8, ネンドール-4, ドサイドン-6, ハガネール-4, レジロック-6, ネンドール-5, カバルドン-4, ドサイドン-7, クレセリア-9, ドンファン-4, ドサイドン-5",
-      "species": "クレセリア, ネンドール, ドサイドン, ハガネール, レジロック, カバルドン, ドンファン",
-      "teams": [
-        "クレセリア-8, ネンドール-4, ドサイドン-6, ハガネール-4",
-        "レジロック-6, ネンドール-5, カバルドン-4, ドサイドン-7",
-        "ネンドール-5, クレセリア-9, ドンファン-4, ドサイドン-5"
-      ],
-      "late": "",
-      "quote": "よっ！ どっちが さきに てっぺんまで のぼれるか しょうぶ だな！",
-      "quote2": "おほほ！ わかいこ たちは ちに あし つけなさいね",
-      "sprite": "assets/images/bdsptrainers/buck.png",
-      "sprite2": "assets/images/bdsptrainers/bertha.png"
-    },
-    {
-      "name": "ニック",
-      "class": "ふなのり",
-      "name2": "サクゾウ",
-      "class2": "ギャンブラー",
-      "roster": "フローゼル-3, ネンドール-2, アーマルド-3, レントラー-2",
-      "species": "フローゼル, ネンドール, アーマルド, レントラー",
-      "teams": [
-        "フローゼル-3, ネンドール-2, アーマルド-3, レントラー-2"
-      ],
-      "late": "",
-      "quote": "オオキナ フネニ ノッテ キマシタ",
-      "quote2": "きみは なにを かけるんだい？ ぼくは すべてを かけよう！",
-      "sprite": "assets/images/bdsptrainers/sailor.png",
-      "sprite2": "assets/images/bdsptrainers/pi.png"
-    },
-    {
-      "name": "ニック",
-      "class": "ふなのり",
-      "name2": "トドメキ",
-      "class2": "さぎょういん",
-      "roster": "ゴローニャ-3, クレセリア-2, マルマイン-3, ハリテヤマ-2",
-      "species": "ゴローニャ, クレセリア, マルマイン, ハリテヤマ",
-      "teams": [
-        "ゴローニャ-3, クレセリア-2, マルマイン-3, ハリテヤマ-2"
-      ],
-      "late": "",
-      "quote": "オオキナ フネニ ノッテ キマシタ",
-      "quote2": "スクラップに してやる",
-      "sprite": "assets/images/bdsptrainers/sailor.png",
-      "sprite2": "assets/images/bdsptrainers/worker.png"
-    },
-    {
-      "name": "レポマン",
-      "class": "けんきゅういん",
-      "name2": "ゼノン",
-      "class2": "ドラゴンつかい",
-      "roster": "フリーザー-4, オニゴーリ-2, ジバコイル-2, ラティアス-2",
-      "species": "フリーザー, オニゴーリ, ジバコイル, ラティアス",
-      "teams": [
-        "フリーザー-4, オニゴーリ-2, ジバコイル-2, ラティアス-2"
-      ],
-      "late": "",
-      "quote": "かがくの ちからですっ！",
-      "quote2": "フハハハッ！ わがはいが あいてだ！",
-      "sprite": "assets/images/bdsptrainers/scientist.png",
-      "sprite2": "assets/images/bdsptrainers/dragontamer.png"
-    },
-    {
-      "name": "レポマン",
-      "class": "けんきゅういん",
-      "name2": "スケキヨ",
-      "class2": "エリートトレーナー",
-      "roster": "マンムー-3, ニドキング-3, ニョロボン-3, ユレイドル-2",
-      "species": "マンムー, ニドキング, ニョロボン, ユレイドル",
-      "teams": [
-        "マンムー-3, ニドキング-3, ニョロボン-3, ユレイドル-2"
-      ],
-      "late": "",
-      "quote": "かがくの ちからですっ！",
-      "quote2": "さあ かかってこい！",
-      "sprite": "assets/images/bdsptrainers/scientist.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
-    },
-    {
-      "name": "コツル",
-      "class": "エリートトレーナー",
-      "name2": "ペル",
-      "class2": "ピエロ",
-      "roster": "ドンファン-2, ツボツボ-2, ラフレシア-2, ルカリオ-2",
-      "species": "ドンファン, ツボツボ, ラフレシア, ルカリオ",
-      "teams": [
-        "ドンファン-2, ツボツボ-2, ラフレシア-2, ルカリオ-2"
-      ],
-      "late": "",
-      "quote": "ほんきで いらっしゃいな！",
-      "quote2": "ポケモンしょうぶと いうのはね すなに かいた ラブレターなのだよ",
-      "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
-      "sprite2": "assets/images/bdsptrainers/clown.png"
-    },
-    {
-      "name": "コツル",
-      "class": "エリートトレーナー",
-      "name2": "イケル",
-      "class2": "ウエーター",
-      "roster": "レジギガス-4, チルタリス-3, フシギバナ-3, フーディン-2",
-      "species": "レジギガス, チルタリス, フシギバナ, フーディン",
-      "teams": [
-        "レジギガス-4, チルタリス-3, フシギバナ-3, フーディン-2"
-      ],
-      "late": "",
-      "quote": "ほんきで いらっしゃいな！",
-      "quote2": "らっしゃい ませぇー！！",
-      "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
-      "sprite2": "assets/images/bdsptrainers/waiter.png"
-    },
-    {
-      "name": "ヘル",
-      "class": "ギャンブラー",
-      "name2": "ヒノエ",
-      "class2": "ポケモンブリーダー",
-      "roster": "ギャロップ-2, ジバコイル-2, サンダー-3, スカタンク-2",
-      "species": "ギャロップ, ジバコイル, サンダー, スカタンク",
-      "teams": [
-        "ギャロップ-2, ジバコイル-2, サンダー-3, スカタンク-2"
-      ],
-      "late": "",
-      "quote": "つきあって もらおう！ かれいなる かけに！",
-      "quote2": "ポケモンの そだてぐあい チェックして あげるね",
-      "sprite": "assets/images/bdsptrainers/pi.png",
-      "sprite2": "assets/images/bdsptrainers/pokemonbreeder-f.png"
-    },
-    {
-      "name": "カネモリ",
-      "class": "パラソルおねえさん",
-      "name2": "エンマ",
-      "class2": "からておう",
-      "roster": "クレセリア-2, メガニウム-3, レジロック-2, ヤドキング-2",
-      "species": "クレセリア, メガニウム, レジロック, ヤドキング",
-      "teams": [
-        "クレセリア-2, メガニウム-3, レジロック-2, ヤドキング-2"
-      ],
-      "late": "",
-      "quote": "あめのひも はれのひも ここで つよい トレーナーを さがす わたし",
-      "quote2": "ポケモンしょうぶは しんけんしょうぶ ちょっとの ゆだんも できんのだ！",
-      "sprite": "assets/images/bdsptrainers/parasollady.png",
-      "sprite2": "assets/images/bdsptrainers/blackbelt.png"
-    },
-    {
-      "name": "カネモリ",
-      "class": "パラソルおねえさん",
-      "name2": "ジャイルズ",
-      "class2": "サイクリング",
-      "roster": "ドンカラス-2, スイクン-3, ラティアス-1, ライボルト-3",
-      "species": "ドンカラス, スイクン, ラティアス, ライボルト",
-      "teams": [
-        "ドンカラス-2, スイクン-3, ラティアス-1, ライボルト-3"
-      ],
-      "late": "",
-      "quote": "あめのひも はれのひも ここで つよい トレーナーを さがす わたし",
-      "quote2": "オッス！ つよそうな トレーナーだな！",
-      "sprite": "assets/images/bdsptrainers/parasollady.png",
-      "sprite2": "assets/images/bdsptrainers/cyclist-m.png"
-    },
-    {
-      "name": "カネモリ",
-      "class": "パラソルおねえさん",
-      "name2": "チョウキチ",
-      "class2": "サイキッカー",
-      "roster": "マルマイン-2, エテボース-3, ジュゴン-2, ヤドラン-3",
-      "species": "マルマイン, エテボース, ジュゴン, ヤドラン",
-      "teams": [
-        "マルマイン-2, エテボース-3, ジュゴン-2, ヤドラン-3"
-      ],
-      "late": "",
-      "quote": "あめのひも はれのひも ここで つよい トレーナーを さがす わたし",
-      "quote2": "おれの きょうだいが かわいがってやる！",
-      "sprite": "assets/images/bdsptrainers/parasollady.png",
-      "sprite2": "assets/images/bdsptrainers/psychic-m.png"
-    },
-    {
-      "name": "ノノミ",
-      "class": "サイキッカー",
-      "name2": "スケキヨ",
-      "class2": "エリートトレーナー",
-      "roster": "スイクン-1, ドンファン-2, ヨノワール-2, バンギラス-2",
-      "species": "スイクン, ドンファン, ヨノワール, バンギラス",
-      "teams": [
-        "スイクン-1, ドンファン-2, ヨノワール-2, バンギラス-2"
-      ],
-      "late": "",
-      "quote": "ぐるぐるぐる……",
-      "quote2": "さあ かかってこい！",
-      "sprite": "assets/images/bdsptrainers/psychic-f.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
-    },
-    {
-      "name": "ノノミ",
-      "class": "サイキッカー",
-      "name2": "サンレー",
-      "class2": "ウエートレス",
-      "roster": "ケンタロス-2, ブースター-2, ヘラクロス-3, ケッキング-2",
-      "species": "ケンタロス, ブースター, ヘラクロス, ケッキング",
-      "teams": [
-        "ケンタロス-2, ブースター-2, ヘラクロス-3, ケッキング-2"
-      ],
-      "late": "",
-      "quote": "ぐるぐるぐる……",
-      "quote2": "かわいい おきゃくさん！ いっぱい サービスするよん！",
-      "sprite": "assets/images/bdsptrainers/psychic-f.png",
-      "sprite2": "assets/images/bdsptrainers/waitress.png"
-    },
-    {
-      "name": "ノール",
-      "class": "サイキッカー",
-      "name2": "ヒデジ",
-      "class2": "カメラマン",
-      "roster": "フォレトス-2, サンダー-4, レジアイス-4, ルージュラ-3",
-      "species": "フォレトス, サンダー, レジアイス, ルージュラ",
-      "teams": [
-        "フォレトス-2, サンダー-4, レジアイス-4, ルージュラ-3"
-      ],
-      "late": "",
-      "quote": "みせて あげよー！ エスパーふしぎパワー！",
-      "quote2": "きみの ような トレーナーを ずっと まっていたんだ",
-      "sprite": "assets/images/bdsptrainers/psychic-m.png",
-      "sprite2": "assets/images/bdsptrainers/cameraman.png"
-    },
-    {
-      "name": "キング",
-      "class": "ギャンブラー",
-      "name2": "ノール",
-      "class2": "サイキッカー",
-      "roster": "ニドクイン-3, オニゴーリ-2, ヌオー-2, ネンドール-2",
-      "species": "ニドクイン, オニゴーリ, ヌオー, ネンドール",
-      "teams": [
-        "ニドクイン-3, オニゴーリ-2, ヌオー-2, ネンドール-2"
-      ],
-      "late": "",
-      "quote": "しぶい しょうぶ しようか",
-      "quote2": "みせて あげよー！ エスパーふしぎパワー！",
-      "sprite": "assets/images/bdsptrainers/pi.png",
-      "sprite2": "assets/images/bdsptrainers/psychic-m.png"
-    },
-    {
-      "name": "トメゾウ",
-      "class": "ギャンブラー",
-      "name2": "ナユタ",
-      "class2": "エリートトレーナー",
-      "roster": "レジギガス-2, ライコウ-2, ドクロッグ-2, ラティオス-2",
-      "species": "レジギガス, ライコウ, ドクロッグ, ラティオス",
-      "teams": [
-        "レジギガス-2, ライコウ-2, ドクロッグ-2, ラティオス-2"
-      ],
-      "late": "",
-      "quote": "しょうぶ ってのはな チマチマ けいさんする もん じゃねーの！",
-      "quote2": "フハーッ！ フハーッ！ かてると おもうて おるのかー！",
-      "sprite": "assets/images/bdsptrainers/pi.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-m.png"
-    },
-    {
-      "name": "トメゾウ",
-      "class": "ギャンブラー",
-      "name2": "タマノシン",
-      "class2": "ピエロ",
-      "roster": "ゴローニャ-2, ブースター-2, ヒードラン-2, ムウマージ-2",
-      "species": "ゴローニャ, ブースター, ヒードラン, ムウマージ",
-      "teams": [
-        "ゴローニャ-2, ブースター-2, ヒードラン-2, ムウマージ-2"
-      ],
-      "late": "",
-      "quote": "しょうぶ ってのはな チマチマ けいさんする もん じゃねーの！",
-      "quote2": "せいいっぱい やらせて いただきます よろしく おねがい いたします！",
-      "sprite": "assets/images/bdsptrainers/pi.png",
-      "sprite2": "assets/images/bdsptrainers/clown.png"
-    },
-    {
-      "name": "スケキヨ",
-      "class": "エリートトレーナー",
-      "name2": "コツル",
-      "class2": "エリートトレーナー",
-      "roster": "ミルタンク-2, エンテイ-4, ファイヤー-2, オニゴーリ-3",
-      "species": "ミルタンク, エンテイ, ファイヤー, オニゴーリ",
-      "teams": [
-        "ミルタンク-2, エンテイ-4, ファイヤー-2, オニゴーリ-3"
-      ],
-      "late": "",
-      "quote": "さあ かかってこい！",
-      "quote2": "ほんきで いらっしゃいな！",
-      "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
-    },
-    {
-      "name": "アントン",
-      "class": "エリートトレーナー",
-      "name2": "ホーミー",
-      "class2": "カメラマン",
-      "roster": "クロバット-2, レジロック-4, レジアイス-2, エレキブル-2",
-      "species": "クロバット, レジロック, レジアイス, エレキブル",
-      "teams": [
-        "クロバット-2, レジロック-4, レジアイス-2, エレキブル-2"
-      ],
-      "late": "",
-      "quote": "ユー ぜんぜん ダメだヨー ミーが おしえて あげるヨー",
-      "quote2": "じーっ",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/cameraman.png"
-    },
-    {
-      "name": "アントン",
-      "class": "エリートトレーナー",
-      "name2": "ネンペイ",
-      "class2": "いせきマニア",
-      "roster": "ラグラージ-3, ウインディ-2, ヘラクロス-3, ラフレシア-3",
-      "species": "ラグラージ, ウインディ, ヘラクロス, ラフレシア",
-      "teams": [
-        "ラグラージ-3, ウインディ-2, ヘラクロス-3, ラフレシア-3"
-      ],
-      "late": "",
-      "quote": "ユー ぜんぜん ダメだヨー ミーが おしえて あげるヨー",
-      "quote2": "きあい いれろ",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/ruinmaniac.png"
-    },
-    {
-      "name": "タケトラ",
-      "class": "からておう",
-      "name2": "サンレー",
-      "class2": "ウエートレス",
-      "roster": "フリーザー-2, ゴルダック-3, バシャーモ-3, スリーパー-3",
-      "species": "フリーザー, ゴルダック, バシャーモ, スリーパー",
-      "teams": [
-        "フリーザー-2, ゴルダック-3, バシャーモ-3, スリーパー-3"
-      ],
-      "late": "",
-      "quote": "オス！！",
-      "quote2": "かわいい おきゃくさん！ いっぱい サービスするよん！",
-      "sprite": "assets/images/bdsptrainers/blackbelt.png",
-      "sprite2": "assets/images/bdsptrainers/waitress.png"
-    },
-    {
-      "name": "タケトラ",
-      "class": "からておう",
-      "name2": "ヒデジ",
-      "class2": "カメラマン",
-      "roster": "ラティオス-2, スイクン-2, ジュゴン-2, エルレイド-2",
-      "species": "ラティオス, スイクン, ジュゴン, エルレイド",
-      "teams": [
-        "ラティオス-2, スイクン-2, ジュゴン-2, エルレイド-2"
-      ],
-      "late": "",
-      "quote": "オス！！",
-      "quote2": "きみの ような トレーナーを ずっと まっていたんだ",
-      "sprite": "assets/images/bdsptrainers/blackbelt.png",
-      "sprite2": "assets/images/bdsptrainers/cameraman.png"
-    },
-    {
-      "name": "ジャイルズ",
-      "class": "サイクリング",
-      "name2": "ムネアゲ",
-      "class2": "さぎょういん",
-      "roster": "レジアイス-2, ラティアス-1, トリトドン-3, レジスチル-2",
-      "species": "レジアイス, ラティアス, トリトドン, レジスチル",
-      "teams": [
-        "レジアイス-2, ラティアス-1, トリトドン-3, レジスチル-2"
-      ],
-      "late": "",
-      "quote": "オッス！ つよそうな トレーナーだな！",
-      "quote2": "お！ いいねぇ！ やろうじゃ ないの！",
-      "sprite": "assets/images/bdsptrainers/cyclist-m.png",
-      "sprite2": "assets/images/bdsptrainers/worker.png"
-    },
-    {
-      "name": "ジャイルズ",
-      "class": "サイクリング",
-      "name2": "コマ",
-      "class2": "カウガール",
-      "roster": "ポリゴン２-2, トゲキッス-2, ニョロボン-2, スイクン-1",
-      "species": "ポリゴン２, トゲキッス, ニョロボン, スイクン",
-      "teams": [
-        "ポリゴン２-2, トゲキッス-2, ニョロボン-2, スイクン-1"
-      ],
-      "late": "",
-      "quote": "オッス！ つよそうな トレーナーだな！",
-      "quote2": "オワリニ シテヤル",
-      "sprite": "assets/images/bdsptrainers/cyclist-m.png",
-      "sprite2": "assets/images/bdsptrainers/cowgirl.png"
-    },
-    {
-      "name": "ビリー",
-      "class": "ポケモンレンジャー",
-      "name2": "タネシゲ",
-      "class2": "ジェントルマン",
-      "roster": "ゴローニャ-2, フォレトス-2, ムウマージ-3, ドクロッグ-3",
-      "species": "ゴローニャ, フォレトス, ムウマージ, ドクロッグ",
-      "teams": [
-        "ゴローニャ-2, フォレトス-2, ムウマージ-3, ドクロッグ-3"
-      ],
-      "late": "",
-      "quote": "あはは！ ざんねんだね！ ぼくが あいてだよ！",
-      "quote2": "ファファファファ！！ よく かちぬいているな！",
-      "sprite": "assets/images/bdsptrainers/pokemonranger-m.png",
-      "sprite2": "assets/images/bdsptrainers/gentleman.png"
-    },
-    {
-      "name": "トモノシン",
-      "class": "エリートトレーナー",
-      "name2": "マエ",
-      "class2": "エリートトレーナー",
-      "roster": "カポエラー-2, サーナイト-4, フーディン-4, ガブリアス-6, マンムー-3",
-      "species": "カポエラー, サーナイト, フーディン, ガブリアス, マンムー",
-      "teams": [
-        "カポエラー-2, サーナイト-4, フーディン-4, ガブリアス-6",
-        "カポエラー-2, サーナイト-4, フーディン-4, マンムー-3"
-      ],
-      "late": "",
-      "quote": "きたい してる からね…… がっかり させないで くれよっ！",
-      "quote2": "ここが じんせいの おおいちばん！ まけるわけには いかないのよっ！",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
-    },
-    {
-      "name": "タカジーン",
-      "class": "ポケモンコレクター",
-      "name2": "ナンコウ",
-      "class2": "けんきゅういん",
-      "roster": "レジスチル-1, ホエルオー-2, ヒードラン-2, ニョロボン-3",
-      "species": "レジスチル, ホエルオー, ヒードラン, ニョロボン",
-      "teams": [
-        "レジスチル-1, ホエルオー-2, ヒードラン-2, ニョロボン-3"
-      ],
-      "late": "",
-      "quote": "パソコンの なかまから じょうほうを きいて そだてたんだぞ！",
-      "quote2": "とつげきせよ！ ぼくの ポケモン！ じっけんの せいかを みせてやれっ！",
-      "sprite": "assets/images/bdsptrainers/collector.png",
-      "sprite2": "assets/images/bdsptrainers/scientist.png"
-    },
-    {
-      "name": "スゲコ",
-      "class": "アイドル",
-      "name2": "キング",
-      "class2": "ギャンブラー",
-      "roster": "サンダー-1, ガラガラ-3, ルンパッパ-2, ジュゴン-2",
-      "species": "サンダー, ガラガラ, ルンパッパ, ジュゴン",
-      "teams": [
-        "サンダー-1, ガラガラ-3, ルンパッパ-2, ジュゴン-2"
-      ],
-      "late": "",
-      "quote": "うたって おどって キミを くぎづけに しちゃう！",
-      "quote2": "しぶい しょうぶ しようか",
-      "sprite": "assets/images/bdsptrainers/idol.png",
-      "sprite2": "assets/images/bdsptrainers/pi.png"
-    },
-    {
-      "name": "スゲコ",
-      "class": "アイドル",
-      "name2": "イワベエ",
-      "class2": "いせきマニア",
-      "roster": "グランブル-3, ユキノオー-3, フワライド-2, エンテイ-2",
-      "species": "グランブル, ユキノオー, フワライド, エンテイ",
-      "teams": [
-        "グランブル-3, ユキノオー-3, フワライド-2, エンテイ-2"
-      ],
-      "late": "",
-      "quote": "うたって おどって キミを くぎづけに しちゃう！",
-      "quote2": "ポケモンしょうぶの だいごみは さいごの いちげきに ありっ！",
-      "sprite": "assets/images/bdsptrainers/idol.png",
-      "sprite2": "assets/images/bdsptrainers/ruinmaniac.png"
-    },
-    {
-      "name": "サブ",
-      "class": "エリートトレーナー",
-      "name2": "ホーミー",
-      "class2": "カメラマン",
-      "roster": "レジスチル-4, ギャラドス-2, ポリゴンＺ-2, スイクン-4",
-      "species": "レジスチル, ギャラドス, ポリゴンＺ, スイクン",
-      "teams": [
-        "レジスチル-4, ギャラドス-2, ポリゴンＺ-2, スイクン-4"
-      ],
-      "late": "",
-      "quote": "ぼくかつ これマジ",
-      "quote2": "じーっ",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/cameraman.png"
-    },
-    {
-      "name": "サブ",
-      "class": "エリートトレーナー",
-      "name2": "ファナ",
-      "class2": "エリートトレーナー",
-      "roster": "ユキノオー-4, ドサイドン-4, ドータクン-3, ロトム-ウォッシュ-2, コータス-2",
-      "species": "ユキノオー, ドサイドン, ドータクン, ロトム-ウォッシュ, コータス",
-      "teams": [
-        "ユキノオー-4, ドサイドン-4, ドータクン-3, ロトム-ウォッシュ-2",
-        "ユキノオー-4, コータス-2, ドータクン-3, ロトム-ウォッシュ-2"
-      ],
-      "late": "",
-      "quote": "ぼくかつ これマジ",
-      "quote2": "もう にがさない あきらめなさい",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
-    },
-    {
-      "name": "サブ",
-      "class": "エリートトレーナー",
-      "name2": "ムック",
-      "class2": "ポケモンコレクター",
-      "roster": "ヘルガー-2, ガルーラ-3, デンリュウ-3, クレセリア-4",
-      "species": "ヘルガー, ガルーラ, デンリュウ, クレセリア",
-      "teams": [
-        "ヘルガー-2, ガルーラ-3, デンリュウ-3, クレセリア-4"
-      ],
-      "late": "",
-      "quote": "ぼくかつ これマジ",
-      "quote2": "ちょっと まってくれよぉ メール かいてるんだよぉ",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/collector.png"
-    },
-    {
-      "name": "オーバ",
-      "class": "してんのう",
-      "name2": "デンジ",
-      "class2": "ジムリーダー",
-      "roster": "バシャーモ-8, ブーバーン-4, ロトム-ウォッシュ-4, エレキブル-5, ロトム-ヒート-2, ブーバーン-5, エレキブル-6, サンダー-13, ゴウカザル-6, エンテイ-6, レントラー-4",
-      "species": "バシャーモ, ブーバーン, ロトム-ウォッシュ, エレキブル, ロトム-ヒート, サンダー, ゴウカザル, エンテイ, レントラー",
-      "teams": [
-        "バシャーモ-8, ブーバーン-4, ロトム-ウォッシュ-4, エレキブル-5",
-        "ロトム-ヒート-2, ブーバーン-5, エレキブル-6, サンダー-13",
-        "ゴウカザル-6, エンテイ-6, レントラー-4, サンダー-13"
-      ],
-      "late": "",
-      "quote": "おっ！ ！ ハートに ひは ともってるか？",
-      "quote2": "やはり きたか よ ちょうど たいくつしてた ところだ！",
-      "sprite": "assets/images/bdsptrainers/flint.png",
-      "sprite2": "assets/images/bdsptrainers/volkner.png"
-    },
-    {
-      "name": "ナタネ",
-      "class": "ジムリーダー",
-      "name2": "メリッサ",
-      "class2": "ジムリーダー",
-      "roster": "ダーテング-5, キノガッサ-8, ヤミラミ-2, ゲンガー-7, フシギバナ-8, ロズレイド-5, ゲンガー-8, モジャンボ-4, ドダイトス-4, ヨノワール-3, ジュペッタ-2",
-      "species": "ダーテング, キノガッサ, ヤミラミ, ゲンガー, フシギバナ, ロズレイド, モジャンボ, ドダイトス, ヨノワール, ジュペッタ",
-      "teams": [
-        "ダーテング-5, キノガッサ-8, ヤミラミ-2, ゲンガー-7",
-        "フシギバナ-8, ロズレイド-5, ヤミラミ-2, ゲンガー-8",
-        "モジャンボ-4, ドダイトス-4, ヨノワール-3, ジュペッタ-2"
-      ],
-      "late": "",
-      "quote": "ズバリ！ あたしと メリッサの コンビなら あなたを たおせる！",
-      "quote2": "アタシたちの デュオ みて くだサーイ！",
-      "sprite": "assets/images/bdsptrainers/gardenia.png",
-      "sprite2": "assets/images/bdsptrainers/fantina.png"
-    },
-    {
-      "name": "チョウキチ",
-      "class": "サイキッカー",
-      "name2": "ネモ",
-      "class2": "ジェントルマン",
-      "roster": "マルマイン-2, クレセリア-4, エンペルト-3, ゲンガー-2",
-      "species": "マルマイン, クレセリア, エンペルト, ゲンガー",
-      "teams": [
-        "マルマイン-2, クレセリア-4, エンペルト-3, ゲンガー-2"
-      ],
-      "late": "",
-      "quote": "おれの きょうだいが かわいがってやる！",
-      "quote2": "こどもの きもちに かえって しょうぶと いきましょうか！",
-      "sprite": "assets/images/bdsptrainers/psychic-m.png",
-      "sprite2": "assets/images/bdsptrainers/gentleman.png"
-    },
-    {
-      "name": "チョウキチ",
-      "class": "サイキッカー",
-      "name2": "ラジカント",
-      "class2": "ふなのり",
-      "roster": "ホエルオー-3, ゴルダック-3, バシャーモ-3, フーディン-3",
-      "species": "ホエルオー, ゴルダック, バシャーモ, フーディン",
-      "teams": [
-        "ホエルオー-3, ゴルダック-3, バシャーモ-3, フーディン-3"
-      ],
-      "late": "",
-      "quote": "おれの きょうだいが かわいがってやる！",
-      "quote2": "ええ？ きみが あいて？ なんだか ふあんだな……",
-      "sprite": "assets/images/bdsptrainers/psychic-m.png",
-      "sprite2": "assets/images/bdsptrainers/sailor.png"
-    },
-    {
-      "name": "トドメキ",
-      "class": "さぎょういん",
-      "name2": "エンマ",
-      "class2": "からておう",
-      "roster": "サンダース-2, ユキメノコ-3, グランブル-3, エーフィ-2",
-      "species": "サンダース, ユキメノコ, グランブル, エーフィ",
-      "teams": [
-        "サンダース-2, ユキメノコ-3, グランブル-3, エーフィ-2"
-      ],
-      "late": "",
-      "quote": "スクラップに してやる",
-      "quote2": "ポケモンしょうぶは しんけんしょうぶ ちょっとの ゆだんも できんのだ！",
-      "sprite": "assets/images/bdsptrainers/worker.png",
-      "sprite2": "assets/images/bdsptrainers/blackbelt.png"
-    },
-    {
-      "name": "フトシ",
-      "class": "ポケモンブリーダー",
-      "name2": "タカジーン",
-      "class2": "ポケモンコレクター",
-      "roster": "バリヤード-3, スカタンク-3, サンダー-2, ルンパッパ-3",
-      "species": "バリヤード, スカタンク, サンダー, ルンパッパ",
-      "teams": [
-        "バリヤード-3, スカタンク-3, サンダー-2, ルンパッパ-3"
-      ],
-      "late": "",
-      "quote": "かちまけ ばかりが しょうぶじゃ ないよ",
-      "quote2": "パソコンの なかまから じょうほうを きいて そだてたんだぞ！",
-      "sprite": "assets/images/bdsptrainers/pokemonbreeder-m.png",
-      "sprite2": "assets/images/bdsptrainers/collector.png"
-    },
-    {
-      "name": "フトシ",
-      "class": "ポケモンブリーダー",
-      "name2": "ジェローム",
-      "class2": "サイクリング",
-      "roster": "スリーパー-3, サイドン-2, ヒードラン-5, オニゴーリ-3",
-      "species": "スリーパー, サイドン, ヒードラン, オニゴーリ",
-      "teams": [
-        "スリーパー-3, サイドン-2, ヒードラン-5, オニゴーリ-3"
-      ],
-      "late": "",
-      "quote": "かちまけ ばかりが しょうぶじゃ ないよ",
-      "quote2": "ブロロローーー！！ わしの フルスロットルを みろー！",
-      "sprite": "assets/images/bdsptrainers/pokemonbreeder-m.png",
-      "sprite2": "assets/images/bdsptrainers/cyclist-m.png"
-    },
-    {
-      "name": "カオルコ",
-      "class": "アロマなおねえさん",
-      "name2": "ヤト",
-      "class2": "Pokefan (F)",
-      "roster": "ハガネール-2, ルージュラ-2, チルタリス-3, ウツボット-2",
-      "species": "ハガネール, ルージュラ, チルタリス, ウツボット",
-      "teams": [
-        "ハガネール-2, ルージュラ-2, チルタリス-3, ウツボット-2"
-      ],
-      "late": "",
-      "quote": "あたいに かとう なんざ じゅうねん はやいんだよ！！",
-      "quote2": "おばさん こうみえても わかいころは イケイケだったのよ",
-      "sprite": "assets/images/bdsptrainers/aromalady.png",
-      "sprite2": "assets/images/bdsptrainers/pokefan-f.png"
-    },
-    {
-      "name": "カオルコ",
-      "class": "アロマなおねえさん",
-      "name2": "タネシゲ",
-      "class2": "ジェントルマン",
-      "roster": "ニョロトノ-2, ランターン-2, ウツボット-3, ラティオス-1",
-      "species": "ニョロトノ, ランターン, ウツボット, ラティオス",
-      "teams": [
-        "ニョロトノ-2, ランターン-2, ウツボット-3, ラティオス-1"
-      ],
-      "late": "",
-      "quote": "あたいに かとう なんざ じゅうねん はやいんだよ！！",
-      "quote2": "ファファファファ！！ よく かちぬいているな！",
-      "sprite": "assets/images/bdsptrainers/aromalady.png",
-      "sprite2": "assets/images/bdsptrainers/gentleman.png"
-    },
-    {
-      "name": "ブンシ",
-      "class": "エリートトレーナー",
-      "name2": "アグネス",
-      "class2": "エリートトレーナー",
-      "roster": "ニョロトノ-4, サンダー-7, キングドラ-4, ハッサム-5, ラプラス-3",
-      "species": "ニョロトノ, サンダー, キングドラ, ハッサム, ラプラス",
-      "teams": [
-        "ニョロトノ-4, サンダー-7, キングドラ-4, ハッサム-5",
-        "ニョロトノ-4, ラプラス-3, キングドラ-4, ハッサム-5"
-      ],
-      "late": "",
-      "quote": "なんにも かんがえなくて いいじゃん！ たのしきゃ それで いーじゃん！",
-      "quote2": "オレは どんな しょうぶも ぜんりょくで いどむ！",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
-    },
-    {
-      "name": "セフィーロ",
-      "class": "ドラゴンつかい",
-      "name2": "ゲンゴロウ",
-      "class2": "ギタリスト",
-      "roster": "カバルドン-2, キノガッサ-3, グレイシア-2, ライコウ-3",
-      "species": "カバルドン, キノガッサ, グレイシア, ライコウ",
-      "teams": [
-        "カバルドン-2, キノガッサ-3, グレイシア-2, ライコウ-3"
-      ],
-      "late": "",
-      "quote": "ゆきなさいぃー！ きたえぬいた ボクの ポケモンちゃん たちー！",
-      "quote2": "ぼくと ぼくの ポケモンたちの コーラスを きいてください",
-      "sprite": "assets/images/bdsptrainers/dragontamer.png",
-      "sprite2": "assets/images/bdsptrainers/guitarist.png"
-    },
-    {
-      "name": "セフィーロ",
-      "class": "ドラゴンつかい",
-      "name2": "イケル",
-      "class2": "ウエーター",
-      "roster": "ライボルト-2, ラティアス-3, バンギラス-2, フォレトス-3",
-      "species": "ライボルト, ラティアス, バンギラス, フォレトス",
-      "teams": [
-        "ライボルト-2, ラティアス-3, バンギラス-2, フォレトス-3"
-      ],
-      "late": "",
-      "quote": "ゆきなさいぃー！ きたえぬいた ボクの ポケモンちゃん たちー！",
-      "quote2": "らっしゃい ませぇー！！",
-      "sprite": "assets/images/bdsptrainers/dragontamer.png",
-      "sprite2": "assets/images/bdsptrainers/waiter.png"
-    },
-    {
-      "name": "ファナ",
-      "class": "エリートトレーナー",
-      "name2": "ゼンコ",
-      "class2": "ポケモンレンジャー",
-      "roster": "フライゴン-2, ニドキング-2, グランブル-3, フリーザー-3",
-      "species": "フライゴン, ニドキング, グランブル, フリーザー",
-      "teams": [
-        "フライゴン-2, ニドキング-2, グランブル-3, フリーザー-3"
-      ],
-      "late": "",
-      "quote": "もう にがさない あきらめなさい",
-      "quote2": "しぜんの ちから みせて あげる！",
-      "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
-      "sprite2": "assets/images/bdsptrainers/pokemonranger-f.png"
-    },
-    {
-      "name": "ファナ",
-      "class": "エリートトレーナー",
-      "name2": "コスズ",
-      "class2": "ウエートレス",
-      "roster": "ブーバーン-2, ライボルト-2, グライオン-2, レジギガス-2",
-      "species": "ブーバーン, ライボルト, グライオン, レジギガス",
-      "teams": [
-        "ブーバーン-2, ライボルト-2, グライオン-2, レジギガス-2"
-      ],
-      "late": "",
-      "quote": "もう にがさない あきらめなさい",
-      "quote2": "おかえりなさいませ！",
-      "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
-      "sprite2": "assets/images/bdsptrainers/waitress.png"
-    },
-    {
-      "name": "シオミツ",
-      "class": "おとなのおねえさん",
-      "name2": "コスズ",
-      "class2": "ウエートレス",
-      "roster": "ラティアス-2, スイクン-3, ヘルガー-3, ライコウ-4",
-      "species": "ラティアス, スイクン, ヘルガー, ライコウ",
-      "teams": [
-        "ラティアス-2, スイクン-3, ヘルガー-3, ライコウ-4"
-      ],
-      "late": "",
-      "quote": "まぁ…… めずらしい ポケモン……",
-      "quote2": "おかえりなさいませ！",
-      "sprite": "assets/images/bdsptrainers/beauty.png",
-      "sprite2": "assets/images/bdsptrainers/waitress.png"
-    },
-    {
-      "name": "シオミツ",
-      "class": "おとなのおねえさん",
-      "name2": "ボブ",
-      "class2": "ぼくじょうおじさん",
-      "roster": "ヒードラン-4, ドンファン-3, リーフィア-2, レジスチル-3",
-      "species": "ヒードラン, ドンファン, リーフィア, レジスチル",
-      "teams": [
-        "ヒードラン-4, ドンファン-3, リーフィア-2, レジスチル-3"
-      ],
-      "late": "",
-      "quote": "まぁ…… めずらしい ポケモン……",
-      "quote2": "がんばれよぉ！ あいする こどもたち！",
-      "sprite": "assets/images/bdsptrainers/beauty.png",
-      "sprite2": "assets/images/bdsptrainers/rancher.png"
-    },
-    {
-      "name": "サンレー",
-      "class": "ウエートレス",
-      "name2": "ネンペイ",
-      "class2": "いせきマニア",
-      "roster": "バクオング-3, ギャロップ-3, バリヤード-3, ヒードラン-5",
-      "species": "バクオング, ギャロップ, バリヤード, ヒードラン",
-      "teams": [
-        "バクオング-3, ギャロップ-3, バリヤード-3, ヒードラン-5"
-      ],
-      "late": "",
-      "quote": "かわいい おきゃくさん！ いっぱい サービスするよん！",
-      "quote2": "きあい いれろ",
-      "sprite": "assets/images/bdsptrainers/waitress.png",
-      "sprite2": "assets/images/bdsptrainers/ruinmaniac.png"
-    },
-    {
-      "name": "ゴヨウマツ",
-      "class": "エリートトレーナー",
-      "name2": "ダユー",
-      "class2": "レポーター",
-      "roster": "ライボルト-3, サイドン-2, ドダイトス-3, オーダイル-3, エンテイ-1, ライコウ-2, ジュゴン-3, ブラッキー-2",
-      "species": "ライボルト, サイドン, ドダイトス, オーダイル, エンテイ, ライコウ, ジュゴン, ブラッキー",
-      "teams": [
-        "ライボルト-3, サイドン-2, ドダイトス-3, オーダイル-3",
-        "エンテイ-1, ライコウ-2, ジュゴン-3, ブラッキー-2"
-      ],
-      "late": "",
-      "quote": "ぜんりょく とうきゅうだ！",
-      "quote2": "わたくしの ポケモンは ひとあじ ちがいますわよ",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/reporter.png"
-    },
-    {
-      "name": "ネンペイ",
-      "class": "いせきマニア",
-      "name2": "ビリー",
-      "class2": "ポケモンレンジャー",
-      "roster": "ガブリアス-2, ボスゴドラ-2, ユキノオー-2, フローゼル-2",
-      "species": "ガブリアス, ボスゴドラ, ユキノオー, フローゼル",
-      "teams": [
-        "ガブリアス-2, ボスゴドラ-2, ユキノオー-2, フローゼル-2"
-      ],
-      "late": "",
-      "quote": "きあい いれろ",
-      "quote2": "あはは！ ざんねんだね！ ぼくが あいてだよ！",
-      "sprite": "assets/images/bdsptrainers/ruinmaniac.png",
-      "sprite2": "assets/images/bdsptrainers/pokemonranger-m.png"
-    },
-    {
-      "name": "ネモ",
-      "class": "ジェントルマン",
-      "name2": "ババール",
-      "class2": "とりつかい",
-      "roster": "レジアイス-1, ヒードラン-3, フローゼル-3, ルージュラ-2",
-      "species": "レジアイス, ヒードラン, フローゼル, ルージュラ",
-      "teams": [
-        "レジアイス-1, ヒードラン-3, フローゼル-3, ルージュラ-2"
-      ],
-      "late": "",
-      "quote": "こどもの きもちに かえって しょうぶと いきましょうか！",
-      "quote2": "じんせい おもいどおりに いかないことも たくさん ある！",
-      "sprite": "assets/images/bdsptrainers/gentleman.png",
-      "sprite2": "assets/images/bdsptrainers/birdkeeper.png"
-    },
-    {
-      "name": "ネモ",
-      "class": "ジェントルマン",
-      "name2": "サクゾウ",
-      "class2": "ギャンブラー",
-      "roster": "エーフィ-2, ヌオー-3, スイクン-2, デンリュウ-3",
-      "species": "エーフィ, ヌオー, スイクン, デンリュウ",
-      "teams": [
-        "エーフィ-2, ヌオー-3, スイクン-2, デンリュウ-3"
-      ],
-      "late": "",
-      "quote": "こどもの きもちに かえって しょうぶと いきましょうか！",
-      "quote2": "きみは なにを かけるんだい？ ぼくは すべてを かけよう！",
-      "sprite": "assets/images/bdsptrainers/gentleman.png",
-      "sprite2": "assets/images/bdsptrainers/pi.png"
-    },
-    {
-      "name": "ヒデジ",
-      "class": "カメラマン",
-      "name2": "ヘルガ",
-      "class2": "エリートトレーナー",
-      "roster": "ミミロップ-2, キノガッサ-3, ボーマンダ-2, エルレイド-2",
-      "species": "ミミロップ, キノガッサ, ボーマンダ, エルレイド",
-      "teams": [
-        "ミミロップ-2, キノガッサ-3, ボーマンダ-2, エルレイド-2"
-      ],
-      "late": "",
-      "quote": "きみの ような トレーナーを ずっと まっていたんだ",
-      "quote2": "やあやあ！ たのしく あそびましょ！",
-      "sprite": "assets/images/bdsptrainers/cameraman.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
-    },
-    {
-      "name": "ヒデジ",
-      "class": "カメラマン",
-      "name2": "コウガ",
-      "class2": "ポケモンブリーダー",
-      "roster": "ナマズン-2, シャワーズ-2, ライボルト-2, レントラー-2",
-      "species": "ナマズン, シャワーズ, ライボルト, レントラー",
-      "teams": [
-        "ナマズン-2, シャワーズ-2, ライボルト-2, レントラー-2"
-      ],
-      "late": "",
-      "quote": "きみの ような トレーナーを ずっと まっていたんだ",
-      "quote2": "きびしくても だめ…… あまやかしても だめ……",
-      "sprite": "assets/images/bdsptrainers/cameraman.png",
-      "sprite2": "assets/images/bdsptrainers/pokemonbreeder-f.png"
-    },
-    {
-      "name": "ジャネット",
-      "class": "レポーター",
-      "name2": "アドロック",
-      "class2": "ポケモンブリーダー",
-      "roster": "マンムー-2, ケンタロス-3, ゲンガー-3, レジロック-3",
-      "species": "マンムー, ケンタロス, ゲンガー, レジロック",
-      "teams": [
-        "マンムー-2, ケンタロス-3, ゲンガー-3, レジロック-3"
-      ],
-      "late": "",
-      "quote": "さて どうやって せめよう かしらねぇ？",
-      "quote2": "ごしょうかい しましょう！ ぼくの だいじな パートナー！",
-      "sprite": "assets/images/bdsptrainers/reporter.png",
-      "sprite2": "assets/images/bdsptrainers/pokemonbreeder-m.png"
-    },
-    {
-      "name": "ジャネット",
-      "class": "レポーター",
-      "name2": "ノール",
-      "class2": "サイキッカー",
-      "roster": "リングマ-3, サイドン-3, ナッシー-2, ゴウカザル-3",
-      "species": "リングマ, サイドン, ナッシー, ゴウカザル",
-      "teams": [
-        "リングマ-3, サイドン-3, ナッシー-2, ゴウカザル-3"
-      ],
-      "late": "",
-      "quote": "さて どうやって せめよう かしらねぇ？",
-      "quote2": "みせて あげよー！ エスパーふしぎパワー！",
-      "sprite": "assets/images/bdsptrainers/reporter.png",
-      "sprite2": "assets/images/bdsptrainers/psychic-m.png"
-    },
-    {
-      "name": "ジャネット",
-      "class": "レポーター",
-      "name2": "パオ",
-      "class2": "アイドル",
-      "roster": "レジアイス-3, ダーテング-2, ヘルガー-3, バリヤード-3",
-      "species": "レジアイス, ダーテング, ヘルガー, バリヤード",
-      "teams": [
-        "レジアイス-3, ダーテング-2, ヘルガー-3, バリヤード-3"
-      ],
-      "late": "",
-      "quote": "さて どうやって せめよう かしらねぇ？",
-      "quote2": "キミ だいじょうぶ？ あたし ウルトラすっごいよ！",
-      "sprite": "assets/images/bdsptrainers/reporter.png",
-      "sprite2": "assets/images/bdsptrainers/idol.png"
-    },
-    {
-      "name": "ダユー",
-      "class": "レポーター",
-      "name2": "ノノミ",
-      "class2": "サイキッカー",
-      "roster": "ロズレイド-2, レジギガス-5, ベトベトン-2, スリーパー-2",
-      "species": "ロズレイド, レジギガス, ベトベトン, スリーパー",
-      "teams": [
-        "ロズレイド-2, レジギガス-5, ベトベトン-2, スリーパー-2"
-      ],
-      "late": "",
-      "quote": "わたくしの ポケモンは ひとあじ ちがいますわよ",
-      "quote2": "ぐるぐるぐる……",
-      "sprite": "assets/images/bdsptrainers/reporter.png",
-      "sprite2": "assets/images/bdsptrainers/psychic-f.png"
-    },
-    {
-      "name": "ケーニッヒ",
-      "class": "ポケモンレンジャー",
-      "name2": "タマエ",
-      "class2": "アイドル",
-      "roster": "ハリテヤマ-2, ドンカラス-2, レジスチル-1, ラティアス-3",
-      "species": "ハリテヤマ, ドンカラス, レジスチル, ラティアス",
-      "teams": [
-        "ハリテヤマ-2, ドンカラス-2, レジスチル-1, ラティアス-3"
-      ],
-      "late": "",
-      "quote": "ぼくと しょうぶ？ しらないよぉ！",
-      "quote2": "しょうぶだけが わたしの いきがい しょうりだけが わたしの ねがい",
-      "sprite": "assets/images/bdsptrainers/pokemonranger-f.png",
-      "sprite2": "assets/images/bdsptrainers/idol.png"
-    },
-    {
-      "name": "ジュピター",
-      "class": "ギンガだん",
-      "name2": "サターン",
-      "class2": "ギンガだん",
-      "roster": "ニドキング-5, スカタンク-4, アブソル-4, ヤミラミ-4, ゲンガー-8, ドクロッグ-4, サメハダー-2, クロバット-3, バンギラス-10",
-      "species": "ニドキング, スカタンク, アブソル, ヤミラミ, ゲンガー, ドクロッグ, サメハダー, クロバット, バンギラス",
-      "teams": [
-        "ニドキング-5, スカタンク-4, アブソル-4, ヤミラミ-4",
-        "ゲンガー-8, ドクロッグ-4, スカタンク-4, サメハダー-2",
-        "クロバット-3, ドクロッグ-4, サメハダー-2, バンギラス-10"
-      ],
-      "late": "",
-      "quote": "なにか ようかしら？ と きくまでも ないわね",
-      "quote2": "なんだ おまえか…… かたがきは すてて あいてを しよう",
-      "sprite": "assets/images/bdsptrainers/jupiter.png",
-      "sprite2": "assets/images/bdsptrainers/saturn.png"
-    },
-    {
-      "name": "コスズ",
-      "class": "ウエートレス",
-      "name2": "ヤン",
-      "class2": "Socialite",
-      "roster": "ライコウ-3, レジアイス-1, サンダー-2, ラムパルド-2",
-      "species": "ライコウ, レジアイス, サンダー, ラムパルド",
-      "teams": [
-        "ライコウ-3, レジアイス-1, サンダー-2, ラムパルド-2"
-      ],
-      "late": "",
-      "quote": "おかえりなさいませ！",
-      "quote2": "まだ おこさんじゃ ないの",
-      "sprite": "assets/images/bdsptrainers/waitress.png",
-      "sprite2": "assets/images/bdsptrainers/madame.png"
-    },
-    {
-      "name": "テフコ",
-      "class": "Socialite",
-      "name2": "シオミツ",
-      "class2": "おとなのおねえさん",
-      "roster": "サンダー-3, マタドガス-2, ナマズン-2, チルタリス-2",
-      "species": "サンダー, マタドガス, ナマズン, チルタリス",
-      "teams": [
-        "サンダー-3, マタドガス-2, ナマズン-2, チルタリス-2"
-      ],
-      "late": "",
-      "quote": "うちの こには つよくて りっぱな トレーナーに なって もらいたいわ",
-      "quote2": "まぁ…… めずらしい ポケモン……",
-      "sprite": "assets/images/bdsptrainers/madame.png",
-      "sprite2": "assets/images/bdsptrainers/beauty.png"
-    },
-    {
-      "name": "テフコ",
-      "class": "Socialite",
-      "name2": "ナミダ",
-      "class2": "パラソルおねえさん",
-      "roster": "ラティオス-1, ケンタロス-2, ヘラクロス-2, ラティアス-1",
-      "species": "ラティオス, ケンタロス, ヘラクロス, ラティアス",
-      "teams": [
-        "ラティオス-1, ケンタロス-2, ヘラクロス-2, ラティアス-1"
-      ],
-      "late": "",
-      "quote": "うちの こには つよくて りっぱな トレーナーに なって もらいたいわ",
-      "quote2": "これね ひがさ なの",
-      "sprite": "assets/images/bdsptrainers/madame.png",
-      "sprite2": "assets/images/bdsptrainers/parasollady.png"
-    },
-    {
-      "name": "ラジカント",
-      "class": "ふなのり",
-      "name2": "ヨシモリ",
-      "class2": "おとなのおねえさん",
-      "roster": "ムクホーク-2, ライコウ-3, トゲキッス-2, ムウマージ-3",
-      "species": "ムクホーク, ライコウ, トゲキッス, ムウマージ",
-      "teams": [
-        "ムクホーク-2, ライコウ-3, トゲキッス-2, ムウマージ-3"
-      ],
-      "late": "",
-      "quote": "ええ？ きみが あいて？ なんだか ふあんだな……",
-      "quote2": "いいかな？",
-      "sprite": "assets/images/bdsptrainers/sailor.png",
-      "sprite2": "assets/images/bdsptrainers/beauty.png"
-    },
-    {
-      "name": "アントニオ",
-      "class": "ウエーター",
-      "name2": "トメゾウ",
-      "class2": "ギャンブラー",
-      "roster": "ケッキング-2, バシャーモ-3, ダーテング-2, ライコウ-1",
-      "species": "ケッキング, バシャーモ, ダーテング, ライコウ",
-      "teams": [
-        "ケッキング-2, バシャーモ-3, ダーテング-2, ライコウ-1"
-      ],
-      "late": "",
-      "quote": "おー！ きみ つよそうだねー たのしみ たのしみ！",
-      "quote2": "しょうぶ ってのはな チマチマ けいさんする もん じゃねーの！",
-      "sprite": "assets/images/bdsptrainers/waiter.png",
-      "sprite2": "assets/images/bdsptrainers/pi.png"
-    },
-    {
-      "name": "アントニオ",
-      "class": "ウエーター",
-      "name2": "カオルコ",
-      "class2": "アロマなおねえさん",
-      "roster": "ファイヤー-1, ドンファン-2, マンムー-2, ニドクイン-2",
-      "species": "ファイヤー, ドンファン, マンムー, ニドクイン",
-      "teams": [
-        "ファイヤー-1, ドンファン-2, マンムー-2, ニドクイン-2"
-      ],
-      "late": "",
-      "quote": "おー！ きみ つよそうだねー たのしみ たのしみ！",
-      "quote2": "あたいに かとう なんざ じゅうねん はやいんだよ！！",
-      "sprite": "assets/images/bdsptrainers/waiter.png",
-      "sprite2": "assets/images/bdsptrainers/aromalady.png"
-    },
-    {
-      "name": "ボブ",
-      "class": "ぼくじょうおじさん",
-      "name2": "カンベエ",
-      "class2": "ベテラントレーナー",
-      "roster": "フワライド-2, ホエルオー-3, ベトベトン-3, ライチュウ-2",
-      "species": "フワライド, ホエルオー, ベトベトン, ライチュウ",
-      "teams": [
-        "フワライド-2, ホエルオー-3, ベトベトン-3, ライチュウ-2"
-      ],
-      "late": "",
-      "quote": "がんばれよぉ！ あいする こどもたち！",
-      "quote2": "ボク もう なんねんも ここにいるけど まるで あきないね",
-      "sprite": "assets/images/bdsptrainers/rancher.png",
-      "sprite2": "assets/images/bdsptrainers/veteran.png"
-    },
-    {
-      "name": "ムック",
-      "class": "ポケモンコレクター",
-      "name2": "カケス",
-      "class2": "とりつかい",
-      "roster": "リーフィア-2, ユレイドル-3, ヒードラン-5, アブソル-2",
-      "species": "リーフィア, ユレイドル, ヒードラン, アブソル",
-      "teams": [
-        "リーフィア-2, ユレイドル-3, ヒードラン-5, アブソル-2"
-      ],
-      "late": "",
-      "quote": "ちょっと まってくれよぉ メール かいてるんだよぉ",
-      "quote2": "もう にげばは ないわ！",
-      "sprite": "assets/images/bdsptrainers/collector.png",
-      "sprite2": "assets/images/bdsptrainers/birdkeeper.png"
-    },
-    {
-      "name": "ムック",
-      "class": "ポケモンコレクター",
-      "name2": "ケーニッヒ",
-      "class2": "ポケモンレンジャー",
-      "roster": "エアームド-2, ヤドラン-3, レジアイス-1, バリヤード-2",
-      "species": "エアームド, ヤドラン, レジアイス, バリヤード",
-      "teams": [
-        "エアームド-2, ヤドラン-3, レジアイス-1, バリヤード-2"
-      ],
-      "late": "",
-      "quote": "ちょっと まってくれよぉ メール かいてるんだよぉ",
-      "quote2": "ぼくと しょうぶ？ しらないよぉ！",
-      "sprite": "assets/images/bdsptrainers/collector.png",
-      "sprite2": "assets/images/bdsptrainers/pokemonranger-f.png"
-    },
-    {
-      "name": "ペル",
-      "class": "ピエロ",
-      "name2": "サンレー",
-      "class2": "ウエートレス",
-      "roster": "ファイヤー-4, レジギガス-5, デンリュウ-2, トリデプス-2",
-      "species": "ファイヤー, レジギガス, デンリュウ, トリデプス",
-      "teams": [
-        "ファイヤー-4, レジギガス-5, デンリュウ-2, トリデプス-2"
-      ],
-      "late": "",
-      "quote": "ポケモンしょうぶと いうのはね すなに かいた ラブレターなのだよ",
-      "quote2": "かわいい おきゃくさん！ いっぱい サービスするよん！",
-      "sprite": "assets/images/bdsptrainers/clown.png",
-      "sprite2": "assets/images/bdsptrainers/waitress.png"
-    },
-    {
-      "name": "タネシゲ",
-      "class": "ジェントルマン",
-      "name2": "レポマン",
-      "class2": "けんきゅういん",
-      "roster": "エアームド-3, オニゴーリ-3, ドクロッグ-2, チャーレム-2",
-      "species": "エアームド, オニゴーリ, ドクロッグ, チャーレム",
-      "teams": [
-        "エアームド-3, オニゴーリ-3, ドクロッグ-2, チャーレム-2"
-      ],
-      "late": "",
-      "quote": "ファファファファ！！ よく かちぬいているな！",
-      "quote2": "かがくの ちからですっ！",
-      "sprite": "assets/images/bdsptrainers/gentleman.png",
-      "sprite2": "assets/images/bdsptrainers/scientist.png"
-    },
-    {
-      "name": "タネシゲ",
-      "class": "ジェントルマン",
-      "name2": "トウベエ",
-      "class2": "ジョギング",
-      "roster": "エアームド-3, ルージュラ-3, ドクロッグ-2, ツボツボ-2",
-      "species": "エアームド, ルージュラ, ドクロッグ, ツボツボ",
-      "teams": [
-        "エアームド-3, ルージュラ-3, ドクロッグ-2, ツボツボ-2"
-      ],
-      "late": "",
-      "quote": "ファファファファ！！ よく かちぬいているな！",
-      "quote2": "よーい ドン！",
-      "sprite": "assets/images/bdsptrainers/gentleman.png",
-      "sprite2": "assets/images/bdsptrainers/jogger.png"
-    },
-    {
-      "name": "スタンリー",
-      "class": "Policeman",
-      "name2": "ヒコ",
-      "class2": "サイキッカー",
-      "roster": "ゴウカザル-3, トゲキッス-2, ジュカイン-3, ヨノワール-2",
-      "species": "ゴウカザル, トゲキッス, ジュカイン, ヨノワール",
-      "teams": [
-        "ゴウカザル-3, トゲキッス-2, ジュカイン-3, ヨノワール-2"
-      ],
-      "late": "",
-      "quote": "はい きみー そこの きみー ちょっと まって くださーい！",
-      "quote2": "おにいちゃんが おしえてくれたよ！ めだ！ めを ねらえ って！",
-      "sprite": "assets/images/bdsptrainers/policeofficer.png",
-      "sprite2": "assets/images/bdsptrainers/psychic-f.png"
-    },
-    {
-      "name": "スタンリー",
-      "class": "Policeman",
-      "name2": "シオミツ",
-      "class2": "おとなのおねえさん",
-      "roster": "ヒードラン-3, カイリュー-3, ユレイドル-3, レジギガス-4",
-      "species": "ヒードラン, カイリュー, ユレイドル, レジギガス",
-      "teams": [
-        "ヒードラン-3, カイリュー-3, ユレイドル-3, レジギガス-4"
-      ],
-      "late": "",
-      "quote": "はい きみー そこの きみー ちょっと まって くださーい！",
-      "quote2": "まぁ…… めずらしい ポケモン……",
-      "sprite": "assets/images/bdsptrainers/policeofficer.png",
-      "sprite2": "assets/images/bdsptrainers/beauty.png"
-    },
-    {
-      "name": "イケル",
-      "class": "ウエーター",
-      "name2": "ヤト",
-      "class2": "Pokefan (F)",
-      "roster": "ダーテング-3, ラティオス-3, ユレイドル-3, キュウコン-2",
-      "species": "ダーテング, ラティオス, ユレイドル, キュウコン",
-      "teams": [
-        "ダーテング-3, ラティオス-3, ユレイドル-3, キュウコン-2"
-      ],
-      "late": "",
-      "quote": "らっしゃい ませぇー！！",
-      "quote2": "おばさん こうみえても わかいころは イケイケだったのよ",
-      "sprite": "assets/images/bdsptrainers/waiter.png",
-      "sprite2": "assets/images/bdsptrainers/pokefan-f.png"
-    },
-    {
-      "name": "エーミー",
-      "class": "サイクリング",
-      "name2": "ペドロ",
-      "class2": "ベテラントレーナー",
-      "roster": "ドダイトス-3, バクオング-3, ゲンガー-2, トリトドン-3",
-      "species": "ドダイトス, バクオング, ゲンガー, トリトドン",
-      "teams": [
-        "ドダイトス-3, バクオング-3, ゲンガー-2, トリトドン-3"
-      ],
-      "late": "",
-      "quote": "チャリン チャリーン",
-      "quote2": "はじめに いって おこう…… きみでは わたしに かつことはできない",
-      "sprite": "assets/images/bdsptrainers/cyclist-f.png",
-      "sprite2": "assets/images/bdsptrainers/veteran.png"
-    },
-    {
-      "name": "スケ",
-      "class": "バトルガール",
-      "name2": "クルブシ",
-      "class2": "アロマなおねえさん",
-      "roster": "サンダー-2, アブソル-2, ハピナス-2, トリデプス-3",
-      "species": "サンダー, アブソル, ハピナス, トリデプス",
-      "teams": [
-        "サンダー-2, アブソル-2, ハピナス-2, トリデプス-3"
-      ],
-      "late": "",
-      "quote": "シャーッ！",
-      "quote2": "いい かおりを かいでると ねむく なっちゃうよね……",
-      "sprite": "assets/images/bdsptrainers/battlegirl.png",
-      "sprite2": "assets/images/bdsptrainers/aromalady.png"
-    },
-    {
-      "name": "ムネアゲ",
-      "class": "さぎょういん",
-      "name2": "ニック",
-      "class2": "ふなのり",
-      "roster": "ゴローニャ-3, ニョロトノ-2, カイロス-3, ランターン-3",
-      "species": "ゴローニャ, ニョロトノ, カイロス, ランターン",
-      "teams": [
-        "ゴローニャ-3, ニョロトノ-2, カイロス-3, ランターン-3"
-      ],
-      "late": "",
-      "quote": "お！ いいねぇ！ やろうじゃ ないの！",
-      "quote2": "オオキナ フネニ ノッテ キマシタ",
-      "sprite": "assets/images/bdsptrainers/worker.png",
-      "sprite2": "assets/images/bdsptrainers/sailor.png"
-    },
-    {
-      "name": "ムネアゲ",
-      "class": "さぎょういん",
-      "name2": "ヨシモリ",
-      "class2": "おとなのおねえさん",
-      "roster": "カイリキー-2, メガヤンマ-2, クレセリア-5, フーディン-2, ホエルオー-2, ガルーラ-2",
-      "species": "カイリキー, メガヤンマ, クレセリア, フーディン, ホエルオー, ガルーラ",
-      "teams": [
-        "カイリキー-2, メガヤンマ-2, クレセリア-5, フーディン-2",
-        "ホエルオー-2, メガヤンマ-2, クレセリア-5, ガルーラ-2"
-      ],
-      "late": "",
-      "quote": "お！ いいねぇ！ やろうじゃ ないの！",
-      "quote2": "いいかな？",
-      "sprite": "assets/images/bdsptrainers/worker.png",
-      "sprite2": "assets/images/bdsptrainers/beauty.png"
-    },
-    {
-      "name": "ナユタ",
-      "class": "エリートトレーナー",
-      "name2": "ヘルガ",
-      "class2": "エリートトレーナー",
-      "roster": "キレイハナ-2, ラプラス-3, コータス-2, クレセリア-6, ドサイドン-4",
-      "species": "キレイハナ, ラプラス, コータス, クレセリア, ドサイドン",
-      "teams": [
-        "キレイハナ-2, ラプラス-3, コータス-2, クレセリア-6",
-        "キレイハナ-2, ドサイドン-4, コータス-2, クレセリア-6"
-      ],
-      "late": "",
-      "quote": "フハーッ！ フハーッ！ かてると おもうて おるのかー！",
-      "quote2": "やあやあ！ たのしく あそびましょ！",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
-    },
-    {
-      "name": "ナユタ",
-      "class": "エリートトレーナー",
-      "name2": "ソフィー",
-      "class2": "サイクリング",
-      "roster": "アーマルド-3, ドサイドン-3, フシギバナ-3, ベロベルト-2",
-      "species": "アーマルド, ドサイドン, フシギバナ, ベロベルト",
-      "teams": [
-        "アーマルド-3, ドサイドン-3, フシギバナ-3, ベロベルト-2"
-      ],
-      "late": "",
-      "quote": "フハーッ！ フハーッ！ かてると おもうて おるのかー！",
-      "quote2": "かれしと じてんしゃに のってね デートするのが ゆめなの",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/cyclist-f.png"
-    },
-    {
-      "name": "ナユタ",
-      "class": "エリートトレーナー",
-      "name2": "パクサ",
-      "class2": "ギタリスト",
-      "roster": "エンテイ-2, クレセリア-5, フーディン-3, ゲンガー-2",
-      "species": "エンテイ, クレセリア, フーディン, ゲンガー",
-      "teams": [
-        "エンテイ-2, クレセリア-5, フーディン-3, ゲンガー-2"
-      ],
-      "late": "",
-      "quote": "フハーッ！ フハーッ！ かてると おもうて おるのかー！",
-      "quote2": "へー いいんじゃん きみ",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/guitarist.png"
-    },
-    {
-      "name": "ジェローム",
-      "class": "サイクリング",
-      "name2": "カケス",
-      "class2": "とりつかい",
-      "roster": "キノガッサ-2, フワライド-3, カイリュー-3, キュウコン-2",
-      "species": "キノガッサ, フワライド, カイリュー, キュウコン",
-      "teams": [
-        "キノガッサ-2, フワライド-3, カイリュー-3, キュウコン-2"
-      ],
-      "late": "",
-      "quote": "ブロロローーー！！ わしの フルスロットルを みろー！",
-      "quote2": "もう にげばは ないわ！",
-      "sprite": "assets/images/bdsptrainers/cyclist-m.png",
-      "sprite2": "assets/images/bdsptrainers/birdkeeper.png"
-    },
-    {
-      "name": "ナミダ",
-      "class": "パラソルおねえさん",
-      "name2": "ダユー",
-      "class2": "レポーター",
-      "roster": "ボスゴドラ-2, ヌオー-3, エテボース-3, ゴローニャ-2",
-      "species": "ボスゴドラ, ヌオー, エテボース, ゴローニャ",
-      "teams": [
-        "ボスゴドラ-2, ヌオー-3, エテボース-3, ゴローニャ-2"
-      ],
-      "late": "",
-      "quote": "これね ひがさ なの",
-      "quote2": "わたくしの ポケモンは ひとあじ ちがいますわよ",
-      "sprite": "assets/images/bdsptrainers/parasollady.png",
-      "sprite2": "assets/images/bdsptrainers/reporter.png"
-    },
-    {
-      "name": "ナミダ",
-      "class": "パラソルおねえさん",
-      "name2": "ヒメ",
-      "class2": "バトルガール",
-      "roster": "ハッサム-2, ガルーラ-3, スリーパー-2, ビークイン-2",
-      "species": "ハッサム, ガルーラ, スリーパー, ビークイン",
-      "teams": [
-        "ハッサム-2, ガルーラ-3, スリーパー-2, ビークイン-2"
-      ],
-      "late": "",
-      "quote": "これね ひがさ なの",
-      "quote2": "あたし つよい それだけ",
-      "sprite": "assets/images/bdsptrainers/parasollady.png",
-      "sprite2": "assets/images/bdsptrainers/battlegirl.png"
-    },
-    {
-      "name": "ナミダ",
-      "class": "パラソルおねえさん",
-      "name2": "タンジュウ",
-      "class2": "Policeman",
-      "roster": "レジスチル-2, サイドン-3, ニョロボン-3, グライオン-2",
-      "species": "レジスチル, サイドン, ニョロボン, グライオン",
-      "teams": [
-        "レジスチル-2, サイドン-3, ニョロボン-3, グライオン-2"
-      ],
-      "late": "",
-      "quote": "これね ひがさ なの",
-      "quote2": "ムニャ…… ムニャ……",
-      "sprite": "assets/images/bdsptrainers/parasollady.png",
-      "sprite2": "assets/images/bdsptrainers/policeofficer.png"
-    },
-    {
-      "name": "コマ",
-      "class": "カウガール",
-      "name2": "カネモリ",
-      "class2": "パラソルおねえさん",
-      "roster": "ボーマンダ-2, ニドクイン-2, ファイヤー-3, ヘラクロス-2",
-      "species": "ボーマンダ, ニドクイン, ファイヤー, ヘラクロス",
-      "teams": [
-        "ボーマンダ-2, ニドクイン-2, ファイヤー-3, ヘラクロス-2"
-      ],
-      "late": "",
-      "quote": "オワリニ シテヤル",
-      "quote2": "あめのひも はれのひも ここで つよい トレーナーを さがす わたし",
-      "sprite": "assets/images/bdsptrainers/cowgirl.png",
-      "sprite2": "assets/images/bdsptrainers/parasollady.png"
-    },
-    {
-      "name": "コマ",
-      "class": "カウガール",
-      "name2": "ナスオ",
-      "class2": "Fisherman",
-      "roster": "トリトドン-2, エンテイ-1, リザードン-3, フォレトス-2",
-      "species": "トリトドン, エンテイ, リザードン, フォレトス",
-      "teams": [
-        "トリトドン-2, エンテイ-1, リザードン-3, フォレトス-2"
-      ],
-      "late": "",
-      "quote": "オワリニ シテヤル",
-      "quote2": "シンオウいちの さおテクニック！ みせて あげよう！",
-      "sprite": "assets/images/bdsptrainers/cowgirl.png",
-      "sprite2": "assets/images/bdsptrainers/fisher.png"
-    },
-    {
-      "name": "ソフィー",
-      "class": "サイクリング",
-      "name2": "ナンコウ",
-      "class2": "けんきゅういん",
-      "roster": "ドラピオン-2, グランブル-2, フリーザー-1, ブーバーン-2",
-      "species": "ドラピオン, グランブル, フリーザー, ブーバーン",
-      "teams": [
-        "ドラピオン-2, グランブル-2, フリーザー-1, ブーバーン-2"
-      ],
-      "late": "",
-      "quote": "かれしと じてんしゃに のってね デートするのが ゆめなの",
-      "quote2": "とつげきせよ！ ぼくの ポケモン！ じっけんの せいかを みせてやれっ！",
-      "sprite": "assets/images/bdsptrainers/cyclist-f.png",
-      "sprite2": "assets/images/bdsptrainers/scientist.png"
-    },
-    {
-      "name": "ソフィー",
-      "class": "サイクリング",
-      "name2": "ゴヨウマツ",
-      "class2": "エリートトレーナー",
-      "roster": "ニョロトノ-3, マタドガス-3, チャーレム-3, エンテイ-3",
-      "species": "ニョロトノ, マタドガス, チャーレム, エンテイ",
-      "teams": [
-        "ニョロトノ-3, マタドガス-3, チャーレム-3, エンテイ-3"
-      ],
-      "late": "",
-      "quote": "かれしと じてんしゃに のってね デートするのが ゆめなの",
-      "quote2": "ぜんりょく とうきゅうだ！",
-      "sprite": "assets/images/bdsptrainers/cyclist-f.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-m.png"
-    },
-    {
-      "name": "マーズ",
-      "class": "ギンガだん",
-      "name2": "アカギ",
-      "class2": "ギンガだん",
-      "roster": "ライチュウ-4, ドータクン-5, ギャラドス-6, ボーマンダ-8, エーフィ-4, トゲキッス-8, マニューラ-5, エンテイ-6, クロバット-3, ブニャット-2, ロトム-ヒート-2, ギャラドス-7",
-      "species": "ライチュウ, ドータクン, ギャラドス, ボーマンダ, エーフィ, トゲキッス, マニューラ, エンテイ, クロバット, ブニャット, ロトム-ヒート",
-      "teams": [
-        "ライチュウ-4, ドータクン-5, ギャラドス-6, ボーマンダ-8",
-        "エーフィ-4, トゲキッス-8, マニューラ-5, エンテイ-6",
-        "クロバット-3, ブニャット-2, ロトム-ヒート-2, ギャラドス-7"
-      ],
-      "late": "",
-      "quote": "！ あなただけは ゆるさない！ ゆるさない！！ ゆるさない！！！",
-      "quote2": "か キミとは ほとほと えんが あるね くされえん といっても いいが いま ここで たちきろう！",
-      "sprite": "assets/images/bdsptrainers/mars.png",
-      "sprite2": "assets/images/bdsptrainers/cyrus.png"
-    },
-    {
-      "name": "スモモ",
-      "class": "ジムリーダー",
-      "name2": "スズナ",
-      "class2": "ジムリーダー",
-      "roster": "カポエラー-4, ルカリオ-6, ユキノオー-7, ユキメノコ-5, カポエラー-5, フリーザー-6, バシャーモ-7, マニューラ-4",
-      "species": "カポエラー, ルカリオ, ユキノオー, ユキメノコ, フリーザー, バシャーモ, マニューラ",
-      "teams": [
-        "カポエラー-4, ルカリオ-6, ユキノオー-7, ユキメノコ-5",
-        "カポエラー-5, ルカリオ-6, ユキノオー-7, フリーザー-6",
-        "カポエラー-4, バシャーモ-7, マニューラ-4, ユキノオー-7"
-      ],
-      "late": "",
-      "quote": "おなか へったな…… あっ なんでも ないです！",
-      "quote2": "あたしと スモモちゃんの きあい ちょっと すごいんだから！",
-      "sprite": "assets/images/bdsptrainers/maylene.png",
-      "sprite2": "assets/images/bdsptrainers/candice.png"
-    },
-    {
-      "name": "カンベエ",
-      "class": "ベテラントレーナー",
-      "name2": "ジェローム",
-      "class2": "サイクリング",
-      "roster": "ムクホーク-3, サイドン-2, ドダイトス-3, カメックス-3",
-      "species": "ムクホーク, サイドン, ドダイトス, カメックス",
-      "teams": [
-        "ムクホーク-3, サイドン-2, ドダイトス-3, カメックス-3"
-      ],
-      "late": "",
-      "quote": "ボク もう なんねんも ここにいるけど まるで あきないね",
-      "quote2": "ブロロローーー！！ わしの フルスロットルを みろー！",
-      "sprite": "assets/images/bdsptrainers/veteran.png",
-      "sprite2": "assets/images/bdsptrainers/cyclist-m.png"
-    },
-    {
-      "name": "ミル",
-      "class": "ポケモントレーナー",
-      "name2": "モミ",
-      "class2": "ポケモントレーナー",
-      "roster": "フーディン-6, ゲンガー-6, ブラッキー-4, ハピナス-4, サンダー-9, フーディン-7, ハピナス-5, ポリゴンＺ-4, サーナイト-6, サンダー-10, ラティオス-7, ポリゴンＺ-5",
-      "species": "フーディン, ゲンガー, ブラッキー, ハピナス, サンダー, ポリゴンＺ, サーナイト, ラティオス",
-      "teams": [
-        "フーディン-6, ゲンガー-6, ブラッキー-4, ハピナス-4",
-        "サンダー-9, フーディン-7, ハピナス-5, ポリゴンＺ-4",
-        "サーナイト-6, サンダー-10, ラティオス-7, ポリゴンＺ-5"
-      ],
-      "late": "",
-      "quote": "あっ！ さん！ ここで まよってたら モミさんと であったの！",
-      "quote2": "おひさしぶりです さん たびは みちづれ いまは ミルさんと いるのよ！",
-      "sprite": "assets/images/bdsptrainers/mira.png",
-      "sprite2": "assets/images/bdsptrainers/cheryl.png"
-    },
-    {
-      "name": "メルバ",
-      "class": "エリートトレーナー",
-      "name2": "ポポ",
-      "class2": "エリートトレーナー",
-      "roster": "キュウコン-5, リザードン-4, フシギバナ-5, ガブリアス-5, ドサイドン-4",
-      "species": "キュウコン, リザードン, フシギバナ, ガブリアス, ドサイドン",
-      "teams": [
-        "キュウコン-5, リザードン-4, フシギバナ-5, ガブリアス-5",
-        "キュウコン-5, リザードン-4, フシギバナ-5, ドサイドン-4"
-      ],
-      "late": "",
-      "quote": "けいこを つけてやろう",
-      "quote2": "あたしの パパも ママも つよい トレーナーなのよ！",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
-    },
-    {
-      "name": "メルバ",
-      "class": "エリートトレーナー",
-      "name2": "アグネス",
-      "class2": "エリートトレーナー",
-      "roster": "スイクン-5, トゲキッス-4, ガブリアス-7, バンギラス-4",
-      "species": "スイクン, トゲキッス, ガブリアス, バンギラス",
-      "teams": [
-        "スイクン-5, トゲキッス-4, ガブリアス-7, バンギラス-4"
-      ],
-      "late": "",
-      "quote": "けいこを つけてやろう",
-      "quote2": "オレは どんな しょうぶも ぜんりょくで いどむ！",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
-    },
-    {
-      "name": "クルブシ",
-      "class": "アロマなおねえさん",
-      "name2": "ゲンゴロウ",
-      "class2": "ギタリスト",
-      "roster": "ゲンガー-3, ミロカロス-3, クロバット-2, カイロス-3",
-      "species": "ゲンガー, ミロカロス, クロバット, カイロス",
-      "teams": [
-        "ゲンガー-3, ミロカロス-3, クロバット-2, カイロス-3"
-      ],
-      "late": "",
-      "quote": "いい かおりを かいでると ねむく なっちゃうよね……",
-      "quote2": "ぼくと ぼくの ポケモンたちの コーラスを きいてください",
-      "sprite": "assets/images/bdsptrainers/aromalady.png",
-      "sprite2": "assets/images/bdsptrainers/guitarist.png"
-    },
-    {
-      "name": "クルブシ",
-      "class": "アロマなおねえさん",
-      "name2": "ナスオ",
-      "class2": "Fisherman",
-      "roster": "ホエルオー-2, モジャンボ-2, ドククラゲ-2, ダーテング-3",
-      "species": "ホエルオー, モジャンボ, ドククラゲ, ダーテング",
-      "teams": [
-        "ホエルオー-2, モジャンボ-2, ドククラゲ-2, ダーテング-3"
-      ],
-      "late": "",
-      "quote": "いい かおりを かいでると ねむく なっちゃうよね……",
-      "quote2": "シンオウいちの さおテクニック！ みせて あげよう！",
-      "sprite": "assets/images/bdsptrainers/aromalady.png",
-      "sprite2": "assets/images/bdsptrainers/fisher.png"
-    },
-    {
-      "name": "ヨシモリ",
-      "class": "おとなのおねえさん",
-      "name2": "コスズ",
-      "class2": "ウエートレス",
-      "roster": "ビークイン-3, アブソル-3, エンペルト-3, レジギガス-3",
-      "species": "ビークイン, アブソル, エンペルト, レジギガス",
-      "teams": [
-        "ビークイン-3, アブソル-3, エンペルト-3, レジギガス-3"
-      ],
-      "late": "",
-      "quote": "いいかな？",
-      "quote2": "おかえりなさいませ！",
-      "sprite": "assets/images/bdsptrainers/beauty.png",
-      "sprite2": "assets/images/bdsptrainers/waitress.png"
-    },
-    {
-      "name": "ゲン",
-      "class": "ポケモントレーナー",
-      "name2": "マイ",
-      "class2": "ポケモントレーナー",
-      "roster": "ウインディ-5, プテラ-3, ボーマンダ-6, ルカリオ-8, ウインディ-6, スターミー-4, ボーマンダ-7, メタグロス-8, ウインディ-7, ガブリアス-9",
-      "species": "ウインディ, プテラ, ボーマンダ, ルカリオ, スターミー, メタグロス, ガブリアス",
-      "teams": [
-        "ウインディ-5, プテラ-3, ボーマンダ-6, ルカリオ-8",
-        "ウインディ-6, スターミー-4, ボーマンダ-7, メタグロス-8",
-        "ウインディ-7, プテラ-3, ルカリオ-8, ガブリアス-9"
-      ],
-      "late": "",
-      "quote": "えいよう バランス！ きみは しっかり とれてるかい？",
-      "quote2": "……しょくじは いのちの みなもと",
-      "sprite": "assets/images/bdsptrainers/riley.png",
-      "sprite2": "assets/images/bdsptrainers/marley.png"
-    },
-    {
-      "name": "タマノシン",
-      "class": "ピエロ",
-      "name2": "ボブヒコ",
-      "class2": "ぼくじょうおじさん",
-      "roster": "スターミー-2, ファイヤー-1, ユキノオー-3, ヤドラン-2",
-      "species": "スターミー, ファイヤー, ユキノオー, ヤドラン",
-      "teams": [
-        "スターミー-2, ファイヤー-1, ユキノオー-3, ヤドラン-2"
-      ],
-      "late": "",
-      "quote": "せいいっぱい やらせて いただきます よろしく おねがい いたします！",
-      "quote2": "ぼっちゃん？ じょうちゃん？ どっちでも いいけど いくぞぉ！",
-      "sprite": "assets/images/bdsptrainers/clown.png",
-      "sprite2": "assets/images/bdsptrainers/rancher.png"
-    },
-    {
-      "name": "ヒョウタ",
-      "class": "ジムリーダー",
-      "name2": "トウガン",
-      "class2": "ジムリーダー",
-      "roster": "バンギラス-8, ラムパルド-6, ハッサム-5, トリデプス-4, ラムパルド-7, バンギラス-9, ドータクン-4, トリデプス-5, プテラ-5, バンギラス-10, メタグロス-5, ヒードラン-7",
-      "species": "バンギラス, ラムパルド, ハッサム, トリデプス, ドータクン, プテラ, メタグロス, ヒードラン",
-      "teams": [
-        "バンギラス-8, ラムパルド-6, ハッサム-5, トリデプス-4",
-        "ラムパルド-7, バンギラス-9, ドータクン-4, トリデプス-5",
-        "プテラ-5, バンギラス-10, メタグロス-5, ヒードラン-7"
-      ],
-      "late": "",
-      "quote": "とうさんと ボク れんけいには じしん ありだよ！",
-      "quote2": "グハハ！ ゆだん するなよ ヒョウタ！",
-      "sprite": "assets/images/bdsptrainers/roark.png",
-      "sprite2": "assets/images/bdsptrainers/byron.png"
-    },
-    {
-      "name": "トゥビェン",
-      "class": "ポケモンレンジャー",
-      "name2": "スゲコ",
-      "class2": "アイドル",
-      "roster": "トリデプス-2, ヘラクロス-3, スイクン-4, ビークイン-2",
-      "species": "トリデプス, ヘラクロス, スイクン, ビークイン",
-      "teams": [
-        "トリデプス-2, ヘラクロス-3, スイクン-4, ビークイン-2"
-      ],
-      "late": "",
-      "quote": "きんちょう してるかな？ おにーさんに まかせなさい！",
-      "quote2": "うたって おどって キミを くぎづけに しちゃう！",
-      "sprite": "assets/images/bdsptrainers/pokemonranger-m.png",
-      "sprite2": "assets/images/bdsptrainers/idol.png"
-    },
-    {
-      "name": "トゥビェン",
-      "class": "ポケモンレンジャー",
-      "name2": "ナンコウ",
-      "class2": "けんきゅういん",
-      "roster": "ケンタロス-2, ヌオー-2, ヤドキング-3, ファイヤー-2",
-      "species": "ケンタロス, ヌオー, ヤドキング, ファイヤー",
-      "teams": [
-        "ケンタロス-2, ヌオー-2, ヤドキング-3, ファイヤー-2"
-      ],
-      "late": "",
-      "quote": "きんちょう してるかな？ おにーさんに まかせなさい！",
-      "quote2": "とつげきせよ！ ぼくの ポケモン！ じっけんの せいかを みせてやれっ！",
-      "sprite": "assets/images/bdsptrainers/pokemonranger-m.png",
-      "sprite2": "assets/images/bdsptrainers/scientist.png"
-    },
-    {
-      "name": "トゥビェン",
-      "class": "ポケモンレンジャー",
-      "name2": "タンジュウ",
-      "class2": "Policeman",
-      "roster": "ファイヤー-3, エレキブル-2, キノガッサ-3, ラティアス-4",
-      "species": "ファイヤー, エレキブル, キノガッサ, ラティアス",
-      "teams": [
-        "ファイヤー-3, エレキブル-2, キノガッサ-3, ラティアス-4"
-      ],
-      "late": "",
-      "quote": "きんちょう してるかな？ おにーさんに まかせなさい！",
-      "quote2": "ムニャ…… ムニャ……",
-      "sprite": "assets/images/bdsptrainers/pokemonranger-m.png",
-      "sprite2": "assets/images/bdsptrainers/policeofficer.png"
-    },
-    {
-      "name": "モモタロウ",
-      "class": "ジョギング",
-      "name2": "ボブヒコ",
-      "class2": "ぼくじょうおじさん",
-      "roster": "サーナイト-3, エンテイ-3, ニドクイン-3, ヤドラン-2",
-      "species": "サーナイト, エンテイ, ニドクイン, ヤドラン",
-      "teams": [
-        "サーナイト-3, エンテイ-3, ニドクイン-3, ヤドラン-2"
-      ],
-      "late": "",
-      "quote": "なぜ ぼくは ここに いるの……",
-      "quote2": "ぼっちゃん？ じょうちゃん？ どっちでも いいけど いくぞぉ！",
-      "sprite": "assets/images/bdsptrainers/jogger.png",
-      "sprite2": "assets/images/bdsptrainers/rancher.png"
-    },
-    {
-      "name": "モモタロウ",
-      "class": "ジョギング",
-      "name2": "タンジュウ",
-      "class2": "Policeman",
-      "roster": "デンリュウ-2, ニョロボン-2, ガルーラ-2, ドータクン-2",
-      "species": "デンリュウ, ニョロボン, ガルーラ, ドータクン",
-      "teams": [
-        "デンリュウ-2, ニョロボン-2, ガルーラ-2, ドータクン-2"
-      ],
-      "late": "",
-      "quote": "なぜ ぼくは ここに いるの……",
-      "quote2": "ムニャ…… ムニャ……",
-      "sprite": "assets/images/bdsptrainers/jogger.png",
-      "sprite2": "assets/images/bdsptrainers/policeofficer.png"
-    },
-    {
-      "name": "トウベエ",
-      "class": "ジョギング",
-      "name2": "ペドロ",
-      "class2": "ベテラントレーナー",
-      "roster": "ハリテヤマ-2, ファイヤー-4, レジロック-2, ラティオス-3",
-      "species": "ハリテヤマ, ファイヤー, レジロック, ラティオス",
-      "teams": [
-        "ハリテヤマ-2, ファイヤー-4, レジロック-2, ラティオス-3"
-      ],
-      "late": "",
-      "quote": "よーい ドン！",
-      "quote2": "はじめに いって おこう…… きみでは わたしに かつことはできない",
-      "sprite": "assets/images/bdsptrainers/jogger.png",
-      "sprite2": "assets/images/bdsptrainers/veteran.png"
-    },
-    {
-      "name": "トウベエ",
-      "class": "ジョギング",
-      "name2": "ヤン",
-      "class2": "Socialite",
-      "roster": "サーナイト-3, ニドキング-3, ガブリアス-2, ユレイドル-2",
-      "species": "サーナイト, ニドキング, ガブリアス, ユレイドル",
-      "teams": [
-        "サーナイト-3, ニドキング-3, ガブリアス-2, ユレイドル-2"
-      ],
-      "late": "",
-      "quote": "よーい ドン！",
-      "quote2": "まだ おこさんじゃ ないの",
-      "sprite": "assets/images/bdsptrainers/jogger.png",
-      "sprite2": "assets/images/bdsptrainers/madame.png"
-    },
-    {
-      "name": "トウベエ",
-      "class": "ジョギング",
-      "name2": "モモタロウ",
-      "class2": "ジョギング",
-      "roster": "スカタンク-2, ベトベトン-2, ウツボット-3, バリヤード-2",
-      "species": "スカタンク, ベトベトン, ウツボット, バリヤード",
-      "teams": [
-        "スカタンク-2, ベトベトン-2, ウツボット-3, バリヤード-2"
-      ],
-      "late": "",
-      "quote": "よーい ドン！",
-      "quote2": "なぜ ぼくは ここに いるの……",
-      "sprite": "assets/images/bdsptrainers/jogger.png",
-      "sprite2": "assets/images/bdsptrainers/jogger.png"
-    },
-    {
-      "name": "ピピン",
-      "class": "アイドル",
-      "name2": "ババール",
-      "class2": "とりつかい",
-      "roster": "フリーザー-4, ムクホーク-2, ラムパルド-2, カビゴン-2",
-      "species": "フリーザー, ムクホーク, ラムパルド, カビゴン",
-      "teams": [
-        "フリーザー-4, ムクホーク-2, ラムパルド-2, カビゴン-2"
-      ],
-      "late": "",
-      "quote": "ほんとに やるき？ あたしと？",
-      "quote2": "じんせい おもいどおりに いかないことも たくさん ある！",
-      "sprite": "assets/images/bdsptrainers/idol.png",
-      "sprite2": "assets/images/bdsptrainers/birdkeeper.png"
-    },
-    {
-      "name": "ピピン",
-      "class": "アイドル",
-      "name2": "ニック",
-      "class2": "ふなのり",
-      "roster": "リングマ-3, ジュカイン-3, ロズレイド-2, ダーテング-3",
-      "species": "リングマ, ジュカイン, ロズレイド, ダーテング",
-      "teams": [
-        "リングマ-3, ジュカイン-3, ロズレイド-2, ダーテング-3"
-      ],
-      "late": "",
-      "quote": "ほんとに やるき？ あたしと？",
-      "quote2": "オオキナ フネニ ノッテ キマシタ",
-      "sprite": "assets/images/bdsptrainers/idol.png",
-      "sprite2": "assets/images/bdsptrainers/sailor.png"
-    },
-    {
-      "name": "ピピン",
-      "class": "アイドル",
-      "name2": "ヘル",
-      "class2": "ギャンブラー",
-      "roster": "ジュカイン-3, ヘラクロス-2, サンダース-2, ナッシー-2",
-      "species": "ジュカイン, ヘラクロス, サンダース, ナッシー",
-      "teams": [
-        "ジュカイン-3, ヘラクロス-2, サンダース-2, ナッシー-2"
-      ],
-      "late": "",
-      "quote": "ほんとに やるき？ あたしと？",
-      "quote2": "つきあって もらおう！ かれいなる かけに！",
-      "sprite": "assets/images/bdsptrainers/idol.png",
-      "sprite2": "assets/images/bdsptrainers/pi.png"
-    },
-    {
-      "name": "テキサス",
-      "class": "カウガール",
-      "name2": "ファナ",
-      "class2": "エリートトレーナー",
-      "roster": "レジロック-4, ハピナス-2, ラティオス-4, ラプラス-2",
-      "species": "レジロック, ハピナス, ラティオス, ラプラス",
-      "teams": [
-        "レジロック-4, ハピナス-2, ラティオス-4, ラプラス-2"
-      ],
-      "late": "",
-      "quote": "がんばっちゃうもんねー！ えい えい おー！",
-      "quote2": "もう にがさない あきらめなさい",
-      "sprite": "assets/images/bdsptrainers/cowgirl.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
-    },
-    {
-      "name": "テキサス",
-      "class": "カウガール",
-      "name2": "イケル",
-      "class2": "ウエーター",
-      "roster": "ラフレシア-3, ギャロップ-2, マニューラ-2, ビークイン-3",
-      "species": "ラフレシア, ギャロップ, マニューラ, ビークイン",
-      "teams": [
-        "ラフレシア-3, ギャロップ-2, マニューラ-2, ビークイン-3"
-      ],
-      "late": "",
-      "quote": "がんばっちゃうもんねー！ えい えい おー！",
-      "quote2": "らっしゃい ませぇー！！",
-      "sprite": "assets/images/bdsptrainers/cowgirl.png",
-      "sprite2": "assets/images/bdsptrainers/waiter.png"
-    },
-    {
-      "name": "ヒメ",
-      "class": "バトルガール",
-      "name2": "ゲンゴロウ",
-      "class2": "ギタリスト",
-      "roster": "カイリキー-2, ライコウ-1, マタドガス-2, レジロック-3",
-      "species": "カイリキー, ライコウ, マタドガス, レジロック",
-      "teams": [
-        "カイリキー-2, ライコウ-1, マタドガス-2, レジロック-3"
-      ],
-      "late": "",
-      "quote": "あたし つよい それだけ",
-      "quote2": "ぼくと ぼくの ポケモンたちの コーラスを きいてください",
-      "sprite": "assets/images/bdsptrainers/battlegirl.png",
-      "sprite2": "assets/images/bdsptrainers/guitarist.png"
-    },
-    {
-      "name": "ヒメ",
-      "class": "バトルガール",
-      "name2": "ジェローム",
-      "class2": "サイクリング",
-      "roster": "アブソル-3, レジギガス-3, レジスチル-1, ゴローニャ-3",
-      "species": "アブソル, レジギガス, レジスチル, ゴローニャ",
-      "teams": [
-        "アブソル-3, レジギガス-3, レジスチル-1, ゴローニャ-3"
-      ],
-      "late": "",
-      "quote": "あたし つよい それだけ",
-      "quote2": "ブロロローーー！！ わしの フルスロットルを みろー！",
-      "sprite": "assets/images/bdsptrainers/battlegirl.png",
-      "sprite2": "assets/images/bdsptrainers/cyclist-m.png"
-    },
-    {
-      "name": "タマエ",
-      "class": "アイドル",
-      "name2": "ドンタ",
-      "class2": "やまおとこ",
-      "roster": "シャワーズ-2, フーディン-2, ギャラドス-2, ベロベルト-2",
-      "species": "シャワーズ, フーディン, ギャラドス, ベロベルト",
-      "teams": [
-        "シャワーズ-2, フーディン-2, ギャラドス-2, ベロベルト-2"
-      ],
-      "late": "",
-      "quote": "しょうぶだけが わたしの いきがい しょうりだけが わたしの ねがい",
-      "quote2": "どすこい！ どすこい！",
-      "sprite": "assets/images/bdsptrainers/idol.png",
-      "sprite2": "assets/images/bdsptrainers/hiker.png"
-    },
-    {
-      "name": "タマエ",
-      "class": "アイドル",
-      "name2": "ゼンコ",
-      "class2": "ポケモンレンジャー",
-      "roster": "ニドキング-2, ダグトリオ-3, ドラピオン-2, グランブル-2, カイロス-2, キノガッサ-2",
-      "species": "ニドキング, ダグトリオ, ドラピオン, グランブル, カイロス, キノガッサ",
-      "teams": [
-        "ニドキング-2, ダグトリオ-3, ドラピオン-2, グランブル-2",
-        "カイロス-2, ダグトリオ-3, ドラピオン-2, キノガッサ-2"
-      ],
-      "late": "",
-      "quote": "しょうぶだけが わたしの いきがい しょうりだけが わたしの ねがい",
-      "quote2": "しぜんの ちから みせて あげる！",
-      "sprite": "assets/images/bdsptrainers/idol.png",
-      "sprite2": "assets/images/bdsptrainers/pokemonranger-f.png"
-    },
-    {
-      "name": "タンジュウ",
-      "class": "Policeman",
-      "name2": "フトシ",
-      "class2": "ポケモンブリーダー",
-      "roster": "ルンパッパ-2, ラプラス-2, ハッサム-2, グライオン-2",
-      "species": "ルンパッパ, ラプラス, ハッサム, グライオン",
-      "teams": [
-        "ルンパッパ-2, ラプラス-2, ハッサム-2, グライオン-2"
-      ],
-      "late": "",
-      "quote": "ムニャ…… ムニャ……",
-      "quote2": "かちまけ ばかりが しょうぶじゃ ないよ",
-      "sprite": "assets/images/bdsptrainers/policeofficer.png",
-      "sprite2": "assets/images/bdsptrainers/pokemonbreeder-m.png"
-    },
-    {
-      "name": "ヒノエ",
-      "class": "ポケモンブリーダー",
-      "name2": "ホーミー",
-      "class2": "カメラマン",
-      "roster": "バクフーン-3, ヒードラン-4, マルマイン-3, ルンパッパ-3",
-      "species": "バクフーン, ヒードラン, マルマイン, ルンパッパ",
-      "teams": [
-        "バクフーン-3, ヒードラン-4, マルマイン-3, ルンパッパ-3"
-      ],
-      "late": "",
-      "quote": "ポケモンの そだてぐあい チェックして あげるね",
-      "quote2": "じーっ",
-      "sprite": "assets/images/bdsptrainers/pokemonbreeder-f.png",
-      "sprite2": "assets/images/bdsptrainers/cameraman.png"
-    },
-    {
-      "name": "ヒノエ",
-      "class": "ポケモンブリーダー",
-      "name2": "スタンリー",
-      "class2": "Policeman",
-      "roster": "ルカリオ-2, ウツボット-3, ミミロップ-2, ウインディ-2",
-      "species": "ルカリオ, ウツボット, ミミロップ, ウインディ",
-      "teams": [
-        "ルカリオ-2, ウツボット-3, ミミロップ-2, ウインディ-2"
-      ],
-      "late": "",
-      "quote": "ポケモンの そだてぐあい チェックして あげるね",
-      "quote2": "はい きみー そこの きみー ちょっと まって くださーい！",
-      "sprite": "assets/images/bdsptrainers/pokemonbreeder-f.png",
-      "sprite2": "assets/images/bdsptrainers/policeofficer.png"
-    },
-    {
-      "name": "イワベエ",
-      "class": "いせきマニア",
-      "name2": "タカジーン",
-      "class2": "ポケモンコレクター",
-      "roster": "レジギガス-4, クレセリア-3, フリーザー-1, ウツボット-2",
-      "species": "レジギガス, クレセリア, フリーザー, ウツボット",
-      "teams": [
-        "レジギガス-4, クレセリア-3, フリーザー-1, ウツボット-2"
-      ],
-      "late": "",
-      "quote": "ポケモンしょうぶの だいごみは さいごの いちげきに ありっ！",
-      "quote2": "パソコンの なかまから じょうほうを きいて そだてたんだぞ！",
-      "sprite": "assets/images/bdsptrainers/ruinmaniac.png",
-      "sprite2": "assets/images/bdsptrainers/collector.png"
-    },
-    {
-      "name": "イワベエ",
-      "class": "いせきマニア",
-      "name2": "モモタロウ",
-      "class2": "ジョギング",
-      "roster": "ヒードラン-5, ギャロップ-3, サンダー-4, エルレイド-2",
-      "species": "ヒードラン, ギャロップ, サンダー, エルレイド",
-      "teams": [
-        "ヒードラン-5, ギャロップ-3, サンダー-4, エルレイド-2"
-      ],
-      "late": "",
-      "quote": "ポケモンしょうぶの だいごみは さいごの いちげきに ありっ！",
-      "quote2": "なぜ ぼくは ここに いるの……",
-      "sprite": "assets/images/bdsptrainers/ruinmaniac.png",
-      "sprite2": "assets/images/bdsptrainers/jogger.png"
-    },
-    {
-      "name": "パクサ",
-      "class": "ギタリスト",
-      "name2": "スケ",
-      "class2": "バトルガール",
-      "roster": "メタグロス-2, トドゼルガ-2, ハリテヤマ-3, エアームド-2",
-      "species": "メタグロス, トドゼルガ, ハリテヤマ, エアームド",
-      "teams": [
-        "メタグロス-2, トドゼルガ-2, ハリテヤマ-3, エアームド-2"
-      ],
-      "late": "",
-      "quote": "へー いいんじゃん きみ",
-      "quote2": "シャーッ！",
-      "sprite": "assets/images/bdsptrainers/guitarist.png",
-      "sprite2": "assets/images/bdsptrainers/battlegirl.png"
-    },
-    {
-      "name": "パクサ",
-      "class": "ギタリスト",
-      "name2": "ヤン",
-      "class2": "Socialite",
-      "roster": "ミルタンク-2, キノガッサ-2, チルタリス-2, ドククラゲ-2",
-      "species": "ミルタンク, キノガッサ, チルタリス, ドククラゲ",
-      "teams": [
-        "ミルタンク-2, キノガッサ-2, チルタリス-2, ドククラゲ-2"
-      ],
-      "late": "",
-      "quote": "へー いいんじゃん きみ",
-      "quote2": "まだ おこさんじゃ ないの",
-      "sprite": "assets/images/bdsptrainers/guitarist.png",
-      "sprite2": "assets/images/bdsptrainers/madame.png"
-    },
-    {
-      "name": "パクサ",
-      "class": "ギタリスト",
-      "name2": "カンベエ",
-      "class2": "ベテラントレーナー",
-      "roster": "メガニウム-3, トドゼルガ-2, マタドガス-3, エアームド-2",
-      "species": "メガニウム, トドゼルガ, マタドガス, エアームド",
-      "teams": [
-        "メガニウム-3, トドゼルガ-2, マタドガス-3, エアームド-2"
-      ],
-      "late": "",
-      "quote": "へー いいんじゃん きみ",
-      "quote2": "ボク もう なんねんも ここにいるけど まるで あきないね",
-      "sprite": "assets/images/bdsptrainers/guitarist.png",
-      "sprite2": "assets/images/bdsptrainers/veteran.png"
-    },
-    {
-      "name": "パオ",
-      "class": "アイドル",
-      "name2": "コウガ",
-      "class2": "ポケモンブリーダー",
-      "roster": "フライゴン-2, サンダー-3, ライコウ-4, チャーレム-3",
-      "species": "フライゴン, サンダー, ライコウ, チャーレム",
-      "teams": [
-        "フライゴン-2, サンダー-3, ライコウ-4, チャーレム-3"
-      ],
-      "late": "",
-      "quote": "キミ だいじょうぶ？ あたし ウルトラすっごいよ！",
-      "quote2": "きびしくても だめ…… あまやかしても だめ……",
-      "sprite": "assets/images/bdsptrainers/idol.png",
-      "sprite2": "assets/images/bdsptrainers/pokemonbreeder-f.png"
-    },
-    {
-      "name": "パオ",
-      "class": "アイドル",
-      "name2": "ペル",
-      "class2": "ピエロ",
-      "roster": "ヤドキング-2, ランターン-3, ナマズン-2, カバルドン-2",
-      "species": "ヤドキング, ランターン, ナマズン, カバルドン",
-      "teams": [
-        "ヤドキング-2, ランターン-3, ナマズン-2, カバルドン-2"
-      ],
-      "late": "",
-      "quote": "キミ だいじょうぶ？ あたし ウルトラすっごいよ！",
-      "quote2": "ポケモンしょうぶと いうのはね すなに かいた ラブレターなのだよ",
-      "sprite": "assets/images/bdsptrainers/idol.png",
-      "sprite2": "assets/images/bdsptrainers/clown.png"
-    },
-    {
-      "name": "パオ",
-      "class": "アイドル",
-      "name2": "ナスオ",
-      "class2": "Fisherman",
-      "roster": "レジギガス-5, ゴルダック-3, プテラ-2, レジロック-1",
-      "species": "レジギガス, ゴルダック, プテラ, レジロック",
-      "teams": [
-        "レジギガス-5, ゴルダック-3, プテラ-2, レジロック-1"
-      ],
-      "late": "",
-      "quote": "キミ だいじょうぶ？ あたし ウルトラすっごいよ！",
-      "quote2": "シンオウいちの さおテクニック！ みせて あげよう！",
-      "sprite": "assets/images/bdsptrainers/idol.png",
-      "sprite2": "assets/images/bdsptrainers/fisher.png"
-    }
-  ]
+ "trainers": [
+  {
+   "name": "ヘルガ",
+   "class": "エリートトレーナー",
+   "name2": "アマポーラ",
+   "class2": "スキンヘッズ",
+   "roster": "ムクホーク-3, フローゼル-2, ムウマージ-3, ラティアス-4",
+   "species": "ムクホーク, フローゼル, ムウマージ, ラティアス",
+   "teams": [
+    "ムクホーク-3, フローゼル-2, ムウマージ-3, ラティアス-4"
+   ],
+   "late": "",
+   "quote": "やあやあ！ たのしく あそびましょ！",
+   "quote2": "おとうさま…… おかあさま…… わたしを みていて ください……",
+   "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
+   "sprite2": "assets/images/bdsptrainers/roughneck.png"
+  },
+  {
+   "name": "ヘルガ",
+   "class": "エリートトレーナー",
+   "name2": "ヤト",
+   "class2": "Pokefan (F)",
+   "roster": "ユキノオー-2, レジスチル-3, ミミロップ-3, デンリュウ-2",
+   "species": "ユキノオー, レジスチル, ミミロップ, デンリュウ",
+   "teams": [
+    "ユキノオー-2, レジスチル-3, ミミロップ-3, デンリュウ-2"
+   ],
+   "late": "",
+   "quote": "やあやあ！ たのしく あそびましょ！",
+   "quote2": "おばさん こうみえても わかいころは イケイケだったのよ",
+   "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
+   "sprite2": "assets/images/bdsptrainers/pokefan-f.png"
+  },
+  {
+   "name": "シーゲル",
+   "class": "スキンヘッズ",
+   "name2": "アマポーラ",
+   "class2": "スキンヘッズ",
+   "roster": "ナマズン-3, カイロス-2, ライチュウ-2, ケンタロス-3",
+   "species": "ナマズン, カイロス, ライチュウ, ケンタロス",
+   "teams": [
+    "ナマズン-3, カイロス-2, ライチュウ-2, ケンタロス-3"
+   ],
+   "late": "",
+   "quote": "ぼく ほんとうは しょうぶは すきじゃないんだな",
+   "quote2": "おとうさま…… おかあさま…… わたしを みていて ください……",
+   "sprite": "assets/images/bdsptrainers/roughneck.png",
+   "sprite2": "assets/images/bdsptrainers/roughneck.png"
+  },
+  {
+   "name": "シーゲル",
+   "class": "スキンヘッズ",
+   "name2": "トドメキ",
+   "class2": "さぎょういん",
+   "roster": "スリーパー-2, トリトドン-2, バクオング-2, ダグトリオ-3",
+   "species": "スリーパー, トリトドン, バクオング, ダグトリオ",
+   "teams": [
+    "スリーパー-2, トリトドン-2, バクオング-2, ダグトリオ-3"
+   ],
+   "late": "",
+   "quote": "ぼく ほんとうは しょうぶは すきじゃないんだな",
+   "quote2": "スクラップに してやる",
+   "sprite": "assets/images/bdsptrainers/roughneck.png",
+   "sprite2": "assets/images/bdsptrainers/worker.png"
+  },
+  {
+   "name": "シーゲル",
+   "class": "スキンヘッズ",
+   "name2": "ネモ",
+   "class2": "ジェントルマン",
+   "roster": "キングドラ-2, レジロック-1, バクフーン-3, サンダー-1",
+   "species": "キングドラ, レジロック, バクフーン, サンダー",
+   "teams": [
+    "キングドラ-2, レジロック-1, バクフーン-3, サンダー-1"
+   ],
+   "late": "",
+   "quote": "ぼく ほんとうは しょうぶは すきじゃないんだな",
+   "quote2": "こどもの きもちに かえって しょうぶと いきましょうか！",
+   "sprite": "assets/images/bdsptrainers/roughneck.png",
+   "sprite2": "assets/images/bdsptrainers/gentleman.png"
+  },
+  {
+   "name": "シーゲル",
+   "class": "スキンヘッズ",
+   "name2": "スタンリー",
+   "class2": "Policeman",
+   "roster": "トリデプス-2, ヘルガー-2, メタグロス-2, ダイノーズ-2",
+   "species": "トリデプス, ヘルガー, メタグロス, ダイノーズ",
+   "teams": [
+    "トリデプス-2, ヘルガー-2, メタグロス-2, ダイノーズ-2"
+   ],
+   "late": "",
+   "quote": "ぼく ほんとうは しょうぶは すきじゃないんだな",
+   "quote2": "はい きみー そこの きみー ちょっと まって くださーい！",
+   "sprite": "assets/images/bdsptrainers/roughneck.png",
+   "sprite2": "assets/images/bdsptrainers/policeofficer.png"
+  },
+  {
+   "name": "ドンタ",
+   "class": "やまおとこ",
+   "name2": "アドロック",
+   "class2": "ポケモンブリーダー",
+   "roster": "リングマ-2, エンテイ-1, ドンファン-3, マタドガス-3",
+   "species": "リングマ, エンテイ, ドンファン, マタドガス",
+   "teams": [
+    "リングマ-2, エンテイ-1, ドンファン-3, マタドガス-3"
+   ],
+   "late": "",
+   "quote": "どすこい！ どすこい！",
+   "quote2": "ごしょうかい しましょう！ ぼくの だいじな パートナー！",
+   "sprite": "assets/images/bdsptrainers/hiker.png",
+   "sprite2": "assets/images/bdsptrainers/pokemonbreeder-m.png"
+  },
+  {
+   "name": "ドンタ",
+   "class": "やまおとこ",
+   "name2": "レポマン",
+   "class2": "けんきゅういん",
+   "roster": "フリーザー-2, ドククラゲ-2, レジロック-3, ボーマンダ-2",
+   "species": "フリーザー, ドククラゲ, レジロック, ボーマンダ",
+   "teams": [
+    "フリーザー-2, ドククラゲ-2, レジロック-3, ボーマンダ-2"
+   ],
+   "late": "",
+   "quote": "どすこい！ どすこい！",
+   "quote2": "かがくの ちからですっ！",
+   "sprite": "assets/images/bdsptrainers/hiker.png",
+   "sprite2": "assets/images/bdsptrainers/scientist.png"
+  },
+  {
+   "name": "ドンタ",
+   "class": "やまおとこ",
+   "name2": "テフコ",
+   "class2": "Socialite",
+   "roster": "フワライド-3, ミルタンク-3, ゴルダック-2, エンテイ-4",
+   "species": "フワライド, ミルタンク, ゴルダック, エンテイ",
+   "teams": [
+    "フワライド-3, ミルタンク-3, ゴルダック-2, エンテイ-4"
+   ],
+   "late": "",
+   "quote": "どすこい！ どすこい！",
+   "quote2": "うちの こには つよくて りっぱな トレーナーに なって もらいたいわ",
+   "sprite": "assets/images/bdsptrainers/hiker.png",
+   "sprite2": "assets/images/bdsptrainers/madame.png"
+  },
+  {
+   "name": "ババール",
+   "class": "とりつかい",
+   "name2": "ヘル",
+   "class2": "ギャンブラー",
+   "roster": "ドサイドン-3, ウインディ-2, ハッサム-2, ベトベトン-3",
+   "species": "ドサイドン, ウインディ, ハッサム, ベトベトン",
+   "teams": [
+    "ドサイドン-3, ウインディ-2, ハッサム-2, ベトベトン-3"
+   ],
+   "late": "",
+   "quote": "じんせい おもいどおりに いかないことも たくさん ある！",
+   "quote2": "つきあって もらおう！ かれいなる かけに！",
+   "sprite": "assets/images/bdsptrainers/birdkeeper.png",
+   "sprite2": "assets/images/bdsptrainers/pi.png"
+  },
+  {
+   "name": "ババール",
+   "class": "とりつかい",
+   "name2": "キング",
+   "class2": "ギャンブラー",
+   "roster": "トリトドン-3, チャーレム-2, ヒードラン-2, ボスゴドラ-2",
+   "species": "トリトドン, チャーレム, ヒードラン, ボスゴドラ",
+   "teams": [
+    "トリトドン-3, チャーレム-2, ヒードラン-2, ボスゴドラ-2"
+   ],
+   "late": "",
+   "quote": "じんせい おもいどおりに いかないことも たくさん ある！",
+   "quote2": "しぶい しょうぶ しようか",
+   "sprite": "assets/images/bdsptrainers/birdkeeper.png",
+   "sprite2": "assets/images/bdsptrainers/pi.png"
+  },
+  {
+   "name": "ヒコ",
+   "class": "サイキッカー",
+   "name2": "ムック",
+   "class2": "ポケモンコレクター",
+   "roster": "ユキノオー-2, プテラ-2, バクフーン-3, グレイシア-2",
+   "species": "ユキノオー, プテラ, バクフーン, グレイシア",
+   "teams": [
+    "ユキノオー-2, プテラ-2, バクフーン-3, グレイシア-2"
+   ],
+   "late": "",
+   "quote": "おにいちゃんが おしえてくれたよ！ めだ！ めを ねらえ って！",
+   "quote2": "ちょっと まってくれよぉ メール かいてるんだよぉ",
+   "sprite": "assets/images/bdsptrainers/psychic-f.png",
+   "sprite2": "assets/images/bdsptrainers/collector.png"
+  },
+  {
+   "name": "ヒコ",
+   "class": "サイキッカー",
+   "name2": "エーミー",
+   "class2": "サイクリング",
+   "roster": "トリデプス-3, ハピナス-2, オニゴーリ-3, マニューラ-2",
+   "species": "トリデプス, ハピナス, オニゴーリ, マニューラ",
+   "teams": [
+    "トリデプス-3, ハピナス-2, オニゴーリ-3, マニューラ-2"
+   ],
+   "late": "",
+   "quote": "おにいちゃんが おしえてくれたよ！ めだ！ めを ねらえ って！",
+   "quote2": "チャリン チャリーン",
+   "sprite": "assets/images/bdsptrainers/psychic-f.png",
+   "sprite2": "assets/images/bdsptrainers/cyclist-f.png"
+  },
+  {
+   "name": "ゼノン",
+   "class": "ドラゴンつかい",
+   "name2": "タケトラ",
+   "class2": "からておう",
+   "roster": "リングマ-2, フリーザー-3, ポリゴン２-2, スイクン-1",
+   "species": "リングマ, フリーザー, ポリゴン２, スイクン",
+   "teams": [
+    "リングマ-2, フリーザー-3, ポリゴン２-2, スイクン-1"
+   ],
+   "late": "",
+   "quote": "フハハハッ！ わがはいが あいてだ！",
+   "quote2": "オス！！",
+   "sprite": "assets/images/bdsptrainers/dragontamer.png",
+   "sprite2": "assets/images/bdsptrainers/blackbelt.png"
+  },
+  {
+   "name": "ゼノン",
+   "class": "ドラゴンつかい",
+   "name2": "タマノシン",
+   "class2": "ピエロ",
+   "roster": "ヤドラン-2, ラグラージ-3, ニドキング-2, レジアイス-3",
+   "species": "ヤドラン, ラグラージ, ニドキング, レジアイス",
+   "teams": [
+    "ヤドラン-2, ラグラージ-3, ニドキング-2, レジアイス-3"
+   ],
+   "late": "",
+   "quote": "フハハハッ！ わがはいが あいてだ！",
+   "quote2": "せいいっぱい やらせて いただきます よろしく おねがい いたします！",
+   "sprite": "assets/images/bdsptrainers/dragontamer.png",
+   "sprite2": "assets/images/bdsptrainers/clown.png"
+  },
+  {
+   "name": "ボブヒコ",
+   "class": "ぼくじょうおじさん",
+   "name2": "ケーニッヒ",
+   "class2": "ポケモンレンジャー",
+   "roster": "ラグラージ-3, ミルタンク-3, エンテイ-2, ドータクン-2",
+   "species": "ラグラージ, ミルタンク, エンテイ, ドータクン",
+   "teams": [
+    "ラグラージ-3, ミルタンク-3, エンテイ-2, ドータクン-2"
+   ],
+   "late": "",
+   "quote": "ぼっちゃん？ じょうちゃん？ どっちでも いいけど いくぞぉ！",
+   "quote2": "ぼくと しょうぶ？ しらないよぉ！",
+   "sprite": "assets/images/bdsptrainers/rancher.png",
+   "sprite2": "assets/images/bdsptrainers/pokemonranger-f.png"
+  },
+  {
+   "name": "モーロッソ",
+   "class": "やまおとこ",
+   "name2": "ゲンゴロウ",
+   "class2": "ギタリスト",
+   "roster": "ムクホーク-2, エテボース-2, ガラガラ-3, アーマルド-2",
+   "species": "ムクホーク, エテボース, ガラガラ, アーマルド",
+   "teams": [
+    "ムクホーク-2, エテボース-2, ガラガラ-3, アーマルド-2"
+   ],
+   "late": "",
+   "quote": "さわやかに しょうぶ しましょう！ さあ！ わらって！",
+   "quote2": "ぼくと ぼくの ポケモンたちの コーラスを きいてください",
+   "sprite": "assets/images/bdsptrainers/hiker.png",
+   "sprite2": "assets/images/bdsptrainers/guitarist.png"
+  },
+  {
+   "name": "モーロッソ",
+   "class": "やまおとこ",
+   "name2": "ジャネット",
+   "class2": "レポーター",
+   "roster": "ラフレシア-2, エテボース-2, ガラガラ-3, アーマルド-2",
+   "species": "ラフレシア, エテボース, ガラガラ, アーマルド",
+   "teams": [
+    "ラフレシア-2, エテボース-2, ガラガラ-3, アーマルド-2"
+   ],
+   "late": "",
+   "quote": "さわやかに しょうぶ しましょう！ さあ！ わらって！",
+   "quote2": "さて どうやって せめよう かしらねぇ？",
+   "sprite": "assets/images/bdsptrainers/hiker.png",
+   "sprite2": "assets/images/bdsptrainers/reporter.png"
+  },
+  {
+   "name": "モーロッソ",
+   "class": "やまおとこ",
+   "name2": "エーミー",
+   "class2": "サイクリング",
+   "roster": "ハリテヤマ-3, ダイノーズ-2, ブラッキー-2, アブソル-2",
+   "species": "ハリテヤマ, ダイノーズ, ブラッキー, アブソル",
+   "teams": [
+    "ハリテヤマ-3, ダイノーズ-2, ブラッキー-2, アブソル-2"
+   ],
+   "late": "",
+   "quote": "さわやかに しょうぶ しましょう！ さあ！ わらって！",
+   "quote2": "チャリン チャリーン",
+   "sprite": "assets/images/bdsptrainers/hiker.png",
+   "sprite2": "assets/images/bdsptrainers/cyclist-f.png"
+  },
+  {
+   "name": "モーロッソ",
+   "class": "やまおとこ",
+   "name2": "スケ",
+   "class2": "バトルガール",
+   "roster": "ハッサム-3, ユレイドル-2, ユキメノコ-3, ブーバーン-2",
+   "species": "ハッサム, ユレイドル, ユキメノコ, ブーバーン",
+   "teams": [
+    "ハッサム-3, ユレイドル-2, ユキメノコ-3, ブーバーン-2"
+   ],
+   "late": "",
+   "quote": "さわやかに しょうぶ しましょう！ さあ！ わらって！",
+   "quote2": "シャーッ！",
+   "sprite": "assets/images/bdsptrainers/hiker.png",
+   "sprite2": "assets/images/bdsptrainers/battlegirl.png"
+  },
+  {
+   "name": "カケス",
+   "class": "とりつかい",
+   "name2": "ラジカント",
+   "class2": "ふなのり",
+   "roster": "トドゼルガ-2, キングドラ-2, ハガネール-2, ルンパッパ-2",
+   "species": "トドゼルガ, キングドラ, ハガネール, ルンパッパ",
+   "teams": [
+    "トドゼルガ-2, キングドラ-2, ハガネール-2, ルンパッパ-2"
+   ],
+   "late": "",
+   "quote": "もう にげばは ないわ！",
+   "quote2": "ええ？ きみが あいて？ なんだか ふあんだな……",
+   "sprite": "assets/images/bdsptrainers/birdkeeper.png",
+   "sprite2": "assets/images/bdsptrainers/sailor.png"
+  },
+  {
+   "name": "カケス",
+   "class": "とりつかい",
+   "name2": "クルブシ",
+   "class2": "アロマなおねえさん",
+   "roster": "キングドラ-2, レジアイス-4, リザードン-3, ニドキング-3",
+   "species": "キングドラ, レジアイス, リザードン, ニドキング",
+   "teams": [
+    "キングドラ-2, レジアイス-4, リザードン-3, ニドキング-3"
+   ],
+   "late": "",
+   "quote": "もう にげばは ないわ！",
+   "quote2": "いい かおりを かいでると ねむく なっちゃうよね……",
+   "sprite": "assets/images/bdsptrainers/birdkeeper.png",
+   "sprite2": "assets/images/bdsptrainers/aromalady.png"
+  },
+  {
+   "name": "ペドロ",
+   "class": "ベテラントレーナー",
+   "name2": "カオルコ",
+   "class2": "アロマなおねえさん",
+   "roster": "ポリゴンＺ-2, クレセリア-3, ジュゴン-3, ヘルガー-3",
+   "species": "ポリゴンＺ, クレセリア, ジュゴン, ヘルガー",
+   "teams": [
+    "ポリゴンＺ-2, クレセリア-3, ジュゴン-3, ヘルガー-3"
+   ],
+   "late": "",
+   "quote": "はじめに いって おこう…… きみでは わたしに かつことはできない",
+   "quote2": "あたいに かとう なんざ じゅうねん はやいんだよ！！",
+   "sprite": "assets/images/bdsptrainers/veteran.png",
+   "sprite2": "assets/images/bdsptrainers/aromalady.png"
+  },
+  {
+   "name": "サクゾウ",
+   "class": "ギャンブラー",
+   "name2": "アマポーラ",
+   "class2": "スキンヘッズ",
+   "roster": "ミミロップ-3, ロズレイド-2, ハッサム-3, スカタンク-3",
+   "species": "ミミロップ, ロズレイド, ハッサム, スカタンク",
+   "teams": [
+    "ミミロップ-3, ロズレイド-2, ハッサム-3, スカタンク-3"
+   ],
+   "late": "",
+   "quote": "きみは なにを かけるんだい？ ぼくは すべてを かけよう！",
+   "quote2": "おとうさま…… おかあさま…… わたしを みていて ください……",
+   "sprite": "assets/images/bdsptrainers/pi.png",
+   "sprite2": "assets/images/bdsptrainers/roughneck.png"
+  },
+  {
+   "name": "サクゾウ",
+   "class": "ギャンブラー",
+   "name2": "トメゾウ",
+   "class2": "ギャンブラー",
+   "roster": "ムウマージ-2, オーダイル-3, ナマズン-3, スイクン-4",
+   "species": "ムウマージ, オーダイル, ナマズン, スイクン",
+   "teams": [
+    "ムウマージ-2, オーダイル-3, ナマズン-3, スイクン-4"
+   ],
+   "late": "",
+   "quote": "きみは なにを かけるんだい？ ぼくは すべてを かけよう！",
+   "quote2": "しょうぶ ってのはな チマチマ けいさんする もん じゃねーの！",
+   "sprite": "assets/images/bdsptrainers/pi.png",
+   "sprite2": "assets/images/bdsptrainers/pi.png"
+  },
+  {
+   "name": "ホーミー",
+   "class": "カメラマン",
+   "name2": "テキサス",
+   "class2": "カウガール",
+   "roster": "バクオング-3, ライコウ-1, ランターン-2, ミロカロス-3",
+   "species": "バクオング, ライコウ, ランターン, ミロカロス",
+   "teams": [
+    "バクオング-3, ライコウ-1, ランターン-2, ミロカロス-3"
+   ],
+   "late": "",
+   "quote": "じーっ",
+   "quote2": "がんばっちゃうもんねー！ えい えい おー！",
+   "sprite": "assets/images/bdsptrainers/cameraman.png",
+   "sprite2": "assets/images/bdsptrainers/cowgirl.png"
+  },
+  {
+   "name": "ジュン",
+   "class": "ポケモントレーナー",
+   "name2": "クロツグ",
+   "class2": "タワータイクーン",
+   "roster": "エンペルト-5, ムクホーク-5, ドサイドン-10, ヒードラン-12, ヘラクロス-5, ゴウカザル-7, カイリュー-9, クレセリア-11, ドダイトス-5, カビゴン-4, ミロカロス-8, ヒードラン-7",
+   "species": "エンペルト, ムクホーク, ドサイドン, ヒードラン, ヘラクロス, ゴウカザル, カイリュー, クレセリア, ドダイトス, カビゴン, ミロカロス",
+   "teams": [
+    "エンペルト-5, ムクホーク-5, ドサイドン-10, ヒードラン-12",
+    "ヘラクロス-5, ゴウカザル-7, カイリュー-9, クレセリア-11",
+    "ドダイトス-5, カビゴン-4, ミロカロス-8, ヒードラン-7"
+   ],
+   "late": "",
+   "quote": "きたか！ ！ オレは ここで オヤジと あって もくひょうを ひとつ たっせい した！ けど もうひとつの もくひょう せかいで いちばん つよい ポケモントレーナーに なる それは いまから おまえを たおして たっせい してやるぜ！",
+   "quote2": "やあ よくぞ ここまで かちあがってきた！ わたしの むすこは きみと であって ずいぶんと みちがえた ようだ このとおり れいを いわせてくれ！ そして いま あらためて タワータイクーン として むすこと ともに ぜんりょくで きみの あいてを しよう！ さあ タワータイクーンの わたしに その じつりょく みせてくれたまえ！",
+   "sprite": "assets/images/bdsptrainers/barry.png",
+   "sprite2": "assets/images/bdsptrainers/palmer.png"
+  },
+  {
+   "name": "アドロック",
+   "class": "ポケモンブリーダー",
+   "name2": "アントニオ",
+   "class2": "ウエーター",
+   "roster": "モジャンボ-2, レジスチル-2, フォレトス-3, バクオング-2",
+   "species": "モジャンボ, レジスチル, フォレトス, バクオング",
+   "teams": [
+    "モジャンボ-2, レジスチル-2, フォレトス-3, バクオング-2"
+   ],
+   "late": "",
+   "quote": "ごしょうかい しましょう！ ぼくの だいじな パートナー！",
+   "quote2": "おー！ きみ つよそうだねー たのしみ たのしみ！",
+   "sprite": "assets/images/bdsptrainers/pokemonbreeder-m.png",
+   "sprite2": "assets/images/bdsptrainers/waiter.png"
+  },
+  {
+   "name": "タダオミ",
+   "class": "Fisherman",
+   "name2": "アントン",
+   "class2": "エリートトレーナー",
+   "roster": "ゴルダック-2, レジスチル-4, ラティオス-4, ラティアス-4",
+   "species": "ゴルダック, レジスチル, ラティオス, ラティアス",
+   "teams": [
+    "ゴルダック-2, レジスチル-4, ラティオス-4, ラティアス-4"
+   ],
+   "late": "",
+   "quote": "わしは つりと しょうぶが ほんとうに だいすき",
+   "quote2": "ユー ぜんぜん ダメだヨー ミーが おしえて あげるヨー",
+   "sprite": "assets/images/bdsptrainers/fisher.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-m.png"
+  },
+  {
+   "name": "タダオミ",
+   "class": "Fisherman",
+   "name2": "セフィーロ",
+   "class2": "ドラゴンつかい",
+   "roster": "ヤドキング-3, ファイヤー-2, ユキメノコ-2, カメックス-3",
+   "species": "ヤドキング, ファイヤー, ユキメノコ, カメックス",
+   "teams": [
+    "ヤドキング-3, ファイヤー-2, ユキメノコ-2, カメックス-3"
+   ],
+   "late": "",
+   "quote": "わしは つりと しょうぶが ほんとうに だいすき",
+   "quote2": "ゆきなさいぃー！ きたえぬいた ボクの ポケモンちゃん たちー！",
+   "sprite": "assets/images/bdsptrainers/fisher.png",
+   "sprite2": "assets/images/bdsptrainers/dragontamer.png"
+  },
+  {
+   "name": "タダオミ",
+   "class": "Fisherman",
+   "name2": "ナンコウ",
+   "class2": "けんきゅういん",
+   "roster": "カビゴン-2, ドクロッグ-3, ケッキング-2, スイクン-3",
+   "species": "カビゴン, ドクロッグ, ケッキング, スイクン",
+   "teams": [
+    "カビゴン-2, ドクロッグ-3, ケッキング-2, スイクン-3"
+   ],
+   "late": "",
+   "quote": "わしは つりと しょうぶが ほんとうに だいすき",
+   "quote2": "とつげきせよ！ ぼくの ポケモン！ じっけんの せいかを みせてやれっ！",
+   "sprite": "assets/images/bdsptrainers/fisher.png",
+   "sprite2": "assets/images/bdsptrainers/scientist.png"
+  },
+  {
+   "name": "タダオミ",
+   "class": "Fisherman",
+   "name2": "エーミー",
+   "class2": "サイクリング",
+   "roster": "サンダー-1, ニョロトノ-3, スターミー-2, ユキメノコ-2",
+   "species": "サンダー, ニョロトノ, スターミー, ユキメノコ",
+   "teams": [
+    "サンダー-1, ニョロトノ-3, スターミー-2, ユキメノコ-2"
+   ],
+   "late": "",
+   "quote": "わしは つりと しょうぶが ほんとうに だいすき",
+   "quote2": "チャリン チャリーン",
+   "sprite": "assets/images/bdsptrainers/fisher.png",
+   "sprite2": "assets/images/bdsptrainers/cyclist-f.png"
+  },
+  {
+   "name": "バク",
+   "class": "ポケモントレーナー",
+   "name2": "キクノ",
+   "class2": "してんのう",
+   "roster": "クレセリア-8, ネンドール-4, ドサイドン-6, ハガネール-4, レジロック-6, ネンドール-5, カバルドン-4, ドサイドン-7, クレセリア-9, ドンファン-4, ドサイドン-5",
+   "species": "クレセリア, ネンドール, ドサイドン, ハガネール, レジロック, カバルドン, ドンファン",
+   "teams": [
+    "クレセリア-8, ネンドール-4, ドサイドン-6, ハガネール-4",
+    "レジロック-6, ネンドール-5, カバルドン-4, ドサイドン-7",
+    "ネンドール-5, クレセリア-9, ドンファン-4, ドサイドン-5"
+   ],
+   "late": "",
+   "quote": "よっ！ どっちが さきに てっぺんまで のぼれるか しょうぶ だな！",
+   "quote2": "おほほ！ わかいこ たちは ちに あし つけなさいね",
+   "sprite": "assets/images/bdsptrainers/buck.png",
+   "sprite2": "assets/images/bdsptrainers/bertha.png"
+  },
+  {
+   "name": "ニック",
+   "class": "ふなのり",
+   "name2": "サクゾウ",
+   "class2": "ギャンブラー",
+   "roster": "フローゼル-3, ネンドール-2, アーマルド-3, レントラー-2",
+   "species": "フローゼル, ネンドール, アーマルド, レントラー",
+   "teams": [
+    "フローゼル-3, ネンドール-2, アーマルド-3, レントラー-2"
+   ],
+   "late": "",
+   "quote": "オオキナ フネニ ノッテ キマシタ",
+   "quote2": "きみは なにを かけるんだい？ ぼくは すべてを かけよう！",
+   "sprite": "assets/images/bdsptrainers/sailor.png",
+   "sprite2": "assets/images/bdsptrainers/pi.png"
+  },
+  {
+   "name": "ニック",
+   "class": "ふなのり",
+   "name2": "トドメキ",
+   "class2": "さぎょういん",
+   "roster": "ゴローニャ-3, クレセリア-2, マルマイン-3, ハリテヤマ-2",
+   "species": "ゴローニャ, クレセリア, マルマイン, ハリテヤマ",
+   "teams": [
+    "ゴローニャ-3, クレセリア-2, マルマイン-3, ハリテヤマ-2"
+   ],
+   "late": "",
+   "quote": "オオキナ フネニ ノッテ キマシタ",
+   "quote2": "スクラップに してやる",
+   "sprite": "assets/images/bdsptrainers/sailor.png",
+   "sprite2": "assets/images/bdsptrainers/worker.png"
+  },
+  {
+   "name": "レポマン",
+   "class": "けんきゅういん",
+   "name2": "ゼノン",
+   "class2": "ドラゴンつかい",
+   "roster": "フリーザー-4, オニゴーリ-2, ジバコイル-2, ラティアス-2",
+   "species": "フリーザー, オニゴーリ, ジバコイル, ラティアス",
+   "teams": [
+    "フリーザー-4, オニゴーリ-2, ジバコイル-2, ラティアス-2"
+   ],
+   "late": "",
+   "quote": "かがくの ちからですっ！",
+   "quote2": "フハハハッ！ わがはいが あいてだ！",
+   "sprite": "assets/images/bdsptrainers/scientist.png",
+   "sprite2": "assets/images/bdsptrainers/dragontamer.png"
+  },
+  {
+   "name": "レポマン",
+   "class": "けんきゅういん",
+   "name2": "スケキヨ",
+   "class2": "エリートトレーナー",
+   "roster": "マンムー-3, ニドキング-3, ニョロボン-3, ユレイドル-2",
+   "species": "マンムー, ニドキング, ニョロボン, ユレイドル",
+   "teams": [
+    "マンムー-3, ニドキング-3, ニョロボン-3, ユレイドル-2"
+   ],
+   "late": "",
+   "quote": "かがくの ちからですっ！",
+   "quote2": "さあ かかってこい！",
+   "sprite": "assets/images/bdsptrainers/scientist.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
+  },
+  {
+   "name": "コツル",
+   "class": "エリートトレーナー",
+   "name2": "ペル",
+   "class2": "ピエロ",
+   "roster": "ドンファン-2, ツボツボ-2, ラフレシア-2, ルカリオ-2",
+   "species": "ドンファン, ツボツボ, ラフレシア, ルカリオ",
+   "teams": [
+    "ドンファン-2, ツボツボ-2, ラフレシア-2, ルカリオ-2"
+   ],
+   "late": "",
+   "quote": "ほんきで いらっしゃいな！",
+   "quote2": "ポケモンしょうぶと いうのはね すなに かいた ラブレターなのだよ",
+   "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
+   "sprite2": "assets/images/bdsptrainers/clown.png"
+  },
+  {
+   "name": "コツル",
+   "class": "エリートトレーナー",
+   "name2": "イケル",
+   "class2": "ウエーター",
+   "roster": "レジギガス-4, チルタリス-3, フシギバナ-3, フーディン-2",
+   "species": "レジギガス, チルタリス, フシギバナ, フーディン",
+   "teams": [
+    "レジギガス-4, チルタリス-3, フシギバナ-3, フーディン-2"
+   ],
+   "late": "",
+   "quote": "ほんきで いらっしゃいな！",
+   "quote2": "らっしゃい ませぇー！！",
+   "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
+   "sprite2": "assets/images/bdsptrainers/waiter.png"
+  },
+  {
+   "name": "ヘル",
+   "class": "ギャンブラー",
+   "name2": "ヒノエ",
+   "class2": "ポケモンブリーダー",
+   "roster": "ギャロップ-2, ジバコイル-2, サンダー-3, スカタンク-2",
+   "species": "ギャロップ, ジバコイル, サンダー, スカタンク",
+   "teams": [
+    "ギャロップ-2, ジバコイル-2, サンダー-3, スカタンク-2"
+   ],
+   "late": "",
+   "quote": "つきあって もらおう！ かれいなる かけに！",
+   "quote2": "ポケモンの そだてぐあい チェックして あげるね",
+   "sprite": "assets/images/bdsptrainers/pi.png",
+   "sprite2": "assets/images/bdsptrainers/pokemonbreeder-f.png"
+  },
+  {
+   "name": "カネモリ",
+   "class": "パラソルおねえさん",
+   "name2": "エンマ",
+   "class2": "からておう",
+   "roster": "クレセリア-2, メガニウム-3, レジロック-2, ヤドキング-2",
+   "species": "クレセリア, メガニウム, レジロック, ヤドキング",
+   "teams": [
+    "クレセリア-2, メガニウム-3, レジロック-2, ヤドキング-2"
+   ],
+   "late": "",
+   "quote": "あめのひも はれのひも ここで つよい トレーナーを さがす わたし",
+   "quote2": "ポケモンしょうぶは しんけんしょうぶ ちょっとの ゆだんも できんのだ！",
+   "sprite": "assets/images/bdsptrainers/parasollady.png",
+   "sprite2": "assets/images/bdsptrainers/blackbelt.png"
+  },
+  {
+   "name": "カネモリ",
+   "class": "パラソルおねえさん",
+   "name2": "ジャイルズ",
+   "class2": "サイクリング",
+   "roster": "ドンカラス-2, スイクン-3, ラティアス-1, ライボルト-3",
+   "species": "ドンカラス, スイクン, ラティアス, ライボルト",
+   "teams": [
+    "ドンカラス-2, スイクン-3, ラティアス-1, ライボルト-3"
+   ],
+   "late": "",
+   "quote": "あめのひも はれのひも ここで つよい トレーナーを さがす わたし",
+   "quote2": "オッス！ つよそうな トレーナーだな！",
+   "sprite": "assets/images/bdsptrainers/parasollady.png",
+   "sprite2": "assets/images/bdsptrainers/cyclist-m.png"
+  },
+  {
+   "name": "カネモリ",
+   "class": "パラソルおねえさん",
+   "name2": "チョウキチ",
+   "class2": "サイキッカー",
+   "roster": "マルマイン-2, エテボース-3, ジュゴン-2, ヤドラン-3",
+   "species": "マルマイン, エテボース, ジュゴン, ヤドラン",
+   "teams": [
+    "マルマイン-2, エテボース-3, ジュゴン-2, ヤドラン-3"
+   ],
+   "late": "",
+   "quote": "あめのひも はれのひも ここで つよい トレーナーを さがす わたし",
+   "quote2": "おれの きょうだいが かわいがってやる！",
+   "sprite": "assets/images/bdsptrainers/parasollady.png",
+   "sprite2": "assets/images/bdsptrainers/psychic-m.png"
+  },
+  {
+   "name": "ノノミ",
+   "class": "サイキッカー",
+   "name2": "スケキヨ",
+   "class2": "エリートトレーナー",
+   "roster": "スイクン-1, ドンファン-2, ヨノワール-2, バンギラス-2",
+   "species": "スイクン, ドンファン, ヨノワール, バンギラス",
+   "teams": [
+    "スイクン-1, ドンファン-2, ヨノワール-2, バンギラス-2"
+   ],
+   "late": "",
+   "quote": "ぐるぐるぐる……",
+   "quote2": "さあ かかってこい！",
+   "sprite": "assets/images/bdsptrainers/psychic-f.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
+  },
+  {
+   "name": "ノノミ",
+   "class": "サイキッカー",
+   "name2": "サンレー",
+   "class2": "ウエートレス",
+   "roster": "ケンタロス-2, ブースター-2, ヘラクロス-3, ケッキング-2",
+   "species": "ケンタロス, ブースター, ヘラクロス, ケッキング",
+   "teams": [
+    "ケンタロス-2, ブースター-2, ヘラクロス-3, ケッキング-2"
+   ],
+   "late": "",
+   "quote": "ぐるぐるぐる……",
+   "quote2": "かわいい おきゃくさん！ いっぱい サービスするよん！",
+   "sprite": "assets/images/bdsptrainers/psychic-f.png",
+   "sprite2": "assets/images/bdsptrainers/waitress.png"
+  },
+  {
+   "name": "ノール",
+   "class": "サイキッカー",
+   "name2": "ヒデジ",
+   "class2": "カメラマン",
+   "roster": "フォレトス-2, サンダー-4, レジアイス-4, ルージュラ-3",
+   "species": "フォレトス, サンダー, レジアイス, ルージュラ",
+   "teams": [
+    "フォレトス-2, サンダー-4, レジアイス-4, ルージュラ-3"
+   ],
+   "late": "",
+   "quote": "みせて あげよー！ エスパーふしぎパワー！",
+   "quote2": "きみの ような トレーナーを ずっと まっていたんだ",
+   "sprite": "assets/images/bdsptrainers/psychic-m.png",
+   "sprite2": "assets/images/bdsptrainers/cameraman.png"
+  },
+  {
+   "name": "キング",
+   "class": "ギャンブラー",
+   "name2": "ノール",
+   "class2": "サイキッカー",
+   "roster": "ニドクイン-3, オニゴーリ-2, ヌオー-2, ネンドール-2",
+   "species": "ニドクイン, オニゴーリ, ヌオー, ネンドール",
+   "teams": [
+    "ニドクイン-3, オニゴーリ-2, ヌオー-2, ネンドール-2"
+   ],
+   "late": "",
+   "quote": "しぶい しょうぶ しようか",
+   "quote2": "みせて あげよー！ エスパーふしぎパワー！",
+   "sprite": "assets/images/bdsptrainers/pi.png",
+   "sprite2": "assets/images/bdsptrainers/psychic-m.png"
+  },
+  {
+   "name": "トメゾウ",
+   "class": "ギャンブラー",
+   "name2": "ナユタ",
+   "class2": "エリートトレーナー",
+   "roster": "レジギガス-2, ライコウ-2, ドクロッグ-2, ラティオス-2",
+   "species": "レジギガス, ライコウ, ドクロッグ, ラティオス",
+   "teams": [
+    "レジギガス-2, ライコウ-2, ドクロッグ-2, ラティオス-2"
+   ],
+   "late": "",
+   "quote": "しょうぶ ってのはな チマチマ けいさんする もん じゃねーの！",
+   "quote2": "フハーッ！ フハーッ！ かてると おもうて おるのかー！",
+   "sprite": "assets/images/bdsptrainers/pi.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-m.png"
+  },
+  {
+   "name": "トメゾウ",
+   "class": "ギャンブラー",
+   "name2": "タマノシン",
+   "class2": "ピエロ",
+   "roster": "ゴローニャ-2, ブースター-2, ヒードラン-2, ムウマージ-2",
+   "species": "ゴローニャ, ブースター, ヒードラン, ムウマージ",
+   "teams": [
+    "ゴローニャ-2, ブースター-2, ヒードラン-2, ムウマージ-2"
+   ],
+   "late": "",
+   "quote": "しょうぶ ってのはな チマチマ けいさんする もん じゃねーの！",
+   "quote2": "せいいっぱい やらせて いただきます よろしく おねがい いたします！",
+   "sprite": "assets/images/bdsptrainers/pi.png",
+   "sprite2": "assets/images/bdsptrainers/clown.png"
+  },
+  {
+   "name": "スケキヨ",
+   "class": "エリートトレーナー",
+   "name2": "コツル",
+   "class2": "エリートトレーナー",
+   "roster": "ミルタンク-2, エンテイ-4, ファイヤー-2, オニゴーリ-3",
+   "species": "ミルタンク, エンテイ, ファイヤー, オニゴーリ",
+   "teams": [
+    "ミルタンク-2, エンテイ-4, ファイヤー-2, オニゴーリ-3"
+   ],
+   "late": "",
+   "quote": "さあ かかってこい！",
+   "quote2": "ほんきで いらっしゃいな！",
+   "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
+  },
+  {
+   "name": "アントン",
+   "class": "エリートトレーナー",
+   "name2": "ホーミー",
+   "class2": "カメラマン",
+   "roster": "クロバット-2, レジロック-4, レジアイス-2, エレキブル-2",
+   "species": "クロバット, レジロック, レジアイス, エレキブル",
+   "teams": [
+    "クロバット-2, レジロック-4, レジアイス-2, エレキブル-2"
+   ],
+   "late": "",
+   "quote": "ユー ぜんぜん ダメだヨー ミーが おしえて あげるヨー",
+   "quote2": "じーっ",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/cameraman.png"
+  },
+  {
+   "name": "アントン",
+   "class": "エリートトレーナー",
+   "name2": "ネンペイ",
+   "class2": "いせきマニア",
+   "roster": "ラグラージ-3, ウインディ-2, ヘラクロス-3, ラフレシア-3",
+   "species": "ラグラージ, ウインディ, ヘラクロス, ラフレシア",
+   "teams": [
+    "ラグラージ-3, ウインディ-2, ヘラクロス-3, ラフレシア-3"
+   ],
+   "late": "",
+   "quote": "ユー ぜんぜん ダメだヨー ミーが おしえて あげるヨー",
+   "quote2": "きあい いれろ",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/ruinmaniac.png"
+  },
+  {
+   "name": "タケトラ",
+   "class": "からておう",
+   "name2": "サンレー",
+   "class2": "ウエートレス",
+   "roster": "フリーザー-2, ゴルダック-3, バシャーモ-3, スリーパー-3",
+   "species": "フリーザー, ゴルダック, バシャーモ, スリーパー",
+   "teams": [
+    "フリーザー-2, ゴルダック-3, バシャーモ-3, スリーパー-3"
+   ],
+   "late": "",
+   "quote": "オス！！",
+   "quote2": "かわいい おきゃくさん！ いっぱい サービスするよん！",
+   "sprite": "assets/images/bdsptrainers/blackbelt.png",
+   "sprite2": "assets/images/bdsptrainers/waitress.png"
+  },
+  {
+   "name": "タケトラ",
+   "class": "からておう",
+   "name2": "ヒデジ",
+   "class2": "カメラマン",
+   "roster": "ラティオス-2, スイクン-2, ジュゴン-2, エルレイド-2",
+   "species": "ラティオス, スイクン, ジュゴン, エルレイド",
+   "teams": [
+    "ラティオス-2, スイクン-2, ジュゴン-2, エルレイド-2"
+   ],
+   "late": "",
+   "quote": "オス！！",
+   "quote2": "きみの ような トレーナーを ずっと まっていたんだ",
+   "sprite": "assets/images/bdsptrainers/blackbelt.png",
+   "sprite2": "assets/images/bdsptrainers/cameraman.png"
+  },
+  {
+   "name": "ジャイルズ",
+   "class": "サイクリング",
+   "name2": "ムネアゲ",
+   "class2": "さぎょういん",
+   "roster": "レジアイス-2, ラティアス-1, トリトドン-3, レジスチル-2",
+   "species": "レジアイス, ラティアス, トリトドン, レジスチル",
+   "teams": [
+    "レジアイス-2, ラティアス-1, トリトドン-3, レジスチル-2"
+   ],
+   "late": "",
+   "quote": "オッス！ つよそうな トレーナーだな！",
+   "quote2": "お！ いいねぇ！ やろうじゃ ないの！",
+   "sprite": "assets/images/bdsptrainers/cyclist-m.png",
+   "sprite2": "assets/images/bdsptrainers/worker.png"
+  },
+  {
+   "name": "ジャイルズ",
+   "class": "サイクリング",
+   "name2": "コマ",
+   "class2": "カウガール",
+   "roster": "ポリゴン２-2, トゲキッス-2, ニョロボン-2, スイクン-1",
+   "species": "ポリゴン２, トゲキッス, ニョロボン, スイクン",
+   "teams": [
+    "ポリゴン２-2, トゲキッス-2, ニョロボン-2, スイクン-1"
+   ],
+   "late": "",
+   "quote": "オッス！ つよそうな トレーナーだな！",
+   "quote2": "オワリニ シテヤル",
+   "sprite": "assets/images/bdsptrainers/cyclist-m.png",
+   "sprite2": "assets/images/bdsptrainers/cowgirl.png"
+  },
+  {
+   "name": "ビリー",
+   "class": "ポケモンレンジャー",
+   "name2": "タネシゲ",
+   "class2": "ジェントルマン",
+   "roster": "ゴローニャ-2, フォレトス-2, ムウマージ-3, ドクロッグ-3",
+   "species": "ゴローニャ, フォレトス, ムウマージ, ドクロッグ",
+   "teams": [
+    "ゴローニャ-2, フォレトス-2, ムウマージ-3, ドクロッグ-3"
+   ],
+   "late": "",
+   "quote": "あはは！ ざんねんだね！ ぼくが あいてだよ！",
+   "quote2": "ファファファファ！！ よく かちぬいているな！",
+   "sprite": "assets/images/bdsptrainers/pokemonranger-m.png",
+   "sprite2": "assets/images/bdsptrainers/gentleman.png"
+  },
+  {
+   "name": "トモノシン",
+   "class": "エリートトレーナー",
+   "name2": "マエ",
+   "class2": "エリートトレーナー",
+   "roster": "カポエラー-2, サーナイト-4, フーディン-4, ガブリアス-6, マンムー-3",
+   "species": "カポエラー, サーナイト, フーディン, ガブリアス, マンムー",
+   "teams": [
+    "カポエラー-2, サーナイト-4, フーディン-4, ガブリアス-6",
+    "カポエラー-2, サーナイト-4, フーディン-4, マンムー-3"
+   ],
+   "late": "",
+   "quote": "きたい してる からね…… がっかり させないで くれよっ！",
+   "quote2": "ここが じんせいの おおいちばん！ まけるわけには いかないのよっ！",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
+  },
+  {
+   "name": "タカジーン",
+   "class": "ポケモンコレクター",
+   "name2": "ナンコウ",
+   "class2": "けんきゅういん",
+   "roster": "レジスチル-1, ホエルオー-2, ヒードラン-2, ニョロボン-3",
+   "species": "レジスチル, ホエルオー, ヒードラン, ニョロボン",
+   "teams": [
+    "レジスチル-1, ホエルオー-2, ヒードラン-2, ニョロボン-3"
+   ],
+   "late": "",
+   "quote": "パソコンの なかまから じょうほうを きいて そだてたんだぞ！",
+   "quote2": "とつげきせよ！ ぼくの ポケモン！ じっけんの せいかを みせてやれっ！",
+   "sprite": "assets/images/bdsptrainers/collector.png",
+   "sprite2": "assets/images/bdsptrainers/scientist.png"
+  },
+  {
+   "name": "スゲコ",
+   "class": "アイドル",
+   "name2": "キング",
+   "class2": "ギャンブラー",
+   "roster": "サンダー-1, ガラガラ-3, ルンパッパ-2, ジュゴン-2",
+   "species": "サンダー, ガラガラ, ルンパッパ, ジュゴン",
+   "teams": [
+    "サンダー-1, ガラガラ-3, ルンパッパ-2, ジュゴン-2"
+   ],
+   "late": "",
+   "quote": "うたって おどって キミを くぎづけに しちゃう！",
+   "quote2": "しぶい しょうぶ しようか",
+   "sprite": "assets/images/bdsptrainers/idol.png",
+   "sprite2": "assets/images/bdsptrainers/pi.png"
+  },
+  {
+   "name": "スゲコ",
+   "class": "アイドル",
+   "name2": "イワベエ",
+   "class2": "いせきマニア",
+   "roster": "グランブル-3, ユキノオー-3, フワライド-2, エンテイ-2",
+   "species": "グランブル, ユキノオー, フワライド, エンテイ",
+   "teams": [
+    "グランブル-3, ユキノオー-3, フワライド-2, エンテイ-2"
+   ],
+   "late": "",
+   "quote": "うたって おどって キミを くぎづけに しちゃう！",
+   "quote2": "ポケモンしょうぶの だいごみは さいごの いちげきに ありっ！",
+   "sprite": "assets/images/bdsptrainers/idol.png",
+   "sprite2": "assets/images/bdsptrainers/ruinmaniac.png"
+  },
+  {
+   "name": "サブ",
+   "class": "エリートトレーナー",
+   "name2": "ホーミー",
+   "class2": "カメラマン",
+   "roster": "レジスチル-4, ギャラドス-2, ポリゴンＺ-2, スイクン-4",
+   "species": "レジスチル, ギャラドス, ポリゴンＺ, スイクン",
+   "teams": [
+    "レジスチル-4, ギャラドス-2, ポリゴンＺ-2, スイクン-4"
+   ],
+   "late": "",
+   "quote": "ぼくかつ これマジ",
+   "quote2": "じーっ",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/cameraman.png"
+  },
+  {
+   "name": "サブ",
+   "class": "エリートトレーナー",
+   "name2": "ファナ",
+   "class2": "エリートトレーナー",
+   "roster": "ユキノオー-4, ドサイドン-4, ドータクン-3, ロトム-ウォッシュ-2, コータス-2",
+   "species": "ユキノオー, ドサイドン, ドータクン, ロトム-ウォッシュ, コータス",
+   "teams": [
+    "ユキノオー-4, ドサイドン-4, ドータクン-3, ロトム-ウォッシュ-2",
+    "ユキノオー-4, コータス-2, ドータクン-3, ロトム-ウォッシュ-2"
+   ],
+   "late": "",
+   "quote": "ぼくかつ これマジ",
+   "quote2": "もう にがさない あきらめなさい",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
+  },
+  {
+   "name": "サブ",
+   "class": "エリートトレーナー",
+   "name2": "ムック",
+   "class2": "ポケモンコレクター",
+   "roster": "ヘルガー-2, ガルーラ-3, デンリュウ-3, クレセリア-4",
+   "species": "ヘルガー, ガルーラ, デンリュウ, クレセリア",
+   "teams": [
+    "ヘルガー-2, ガルーラ-3, デンリュウ-3, クレセリア-4"
+   ],
+   "late": "",
+   "quote": "ぼくかつ これマジ",
+   "quote2": "ちょっと まってくれよぉ メール かいてるんだよぉ",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/collector.png"
+  },
+  {
+   "name": "オーバ",
+   "class": "してんのう",
+   "name2": "デンジ",
+   "class2": "ジムリーダー",
+   "roster": "バシャーモ-8, ブーバーン-4, ロトム-ウォッシュ-4, エレキブル-5, ロトム-ヒート-2, ブーバーン-5, エレキブル-6, サンダー-13, ゴウカザル-6, エンテイ-6, レントラー-4",
+   "species": "バシャーモ, ブーバーン, ロトム-ウォッシュ, エレキブル, ロトム-ヒート, サンダー, ゴウカザル, エンテイ, レントラー",
+   "teams": [
+    "バシャーモ-8, ブーバーン-4, ロトム-ウォッシュ-4, エレキブル-5",
+    "ロトム-ヒート-2, ブーバーン-5, エレキブル-6, サンダー-13",
+    "ゴウカザル-6, エンテイ-6, レントラー-4, サンダー-13"
+   ],
+   "late": "",
+   "quote": "おっ！ ！ ハートに ひは ともってるか？",
+   "quote2": "やはり きたか よ ちょうど たいくつしてた ところだ！",
+   "sprite": "assets/images/bdsptrainers/flint.png",
+   "sprite2": "assets/images/bdsptrainers/volkner.png"
+  },
+  {
+   "name": "ナタネ",
+   "class": "ジムリーダー",
+   "name2": "メリッサ",
+   "class2": "ジムリーダー",
+   "roster": "ダーテング-5, キノガッサ-8, ヤミラミ-2, ゲンガー-7, フシギバナ-8, ロズレイド-5, ゲンガー-8, モジャンボ-4, ドダイトス-4, ヨノワール-3, ジュペッタ-2",
+   "species": "ダーテング, キノガッサ, ヤミラミ, ゲンガー, フシギバナ, ロズレイド, モジャンボ, ドダイトス, ヨノワール, ジュペッタ",
+   "teams": [
+    "ダーテング-5, キノガッサ-8, ヤミラミ-2, ゲンガー-7",
+    "フシギバナ-8, ロズレイド-5, ヤミラミ-2, ゲンガー-8",
+    "モジャンボ-4, ドダイトス-4, ヨノワール-3, ジュペッタ-2"
+   ],
+   "late": "",
+   "quote": "ズバリ！ あたしと メリッサの コンビなら あなたを たおせる！",
+   "quote2": "アタシたちの デュオ みて くだサーイ！",
+   "sprite": "assets/images/bdsptrainers/gardenia.png",
+   "sprite2": "assets/images/bdsptrainers/fantina.png"
+  },
+  {
+   "name": "チョウキチ",
+   "class": "サイキッカー",
+   "name2": "ネモ",
+   "class2": "ジェントルマン",
+   "roster": "マルマイン-2, クレセリア-4, エンペルト-3, ゲンガー-2",
+   "species": "マルマイン, クレセリア, エンペルト, ゲンガー",
+   "teams": [
+    "マルマイン-2, クレセリア-4, エンペルト-3, ゲンガー-2"
+   ],
+   "late": "",
+   "quote": "おれの きょうだいが かわいがってやる！",
+   "quote2": "こどもの きもちに かえって しょうぶと いきましょうか！",
+   "sprite": "assets/images/bdsptrainers/psychic-m.png",
+   "sprite2": "assets/images/bdsptrainers/gentleman.png"
+  },
+  {
+   "name": "チョウキチ",
+   "class": "サイキッカー",
+   "name2": "ラジカント",
+   "class2": "ふなのり",
+   "roster": "ホエルオー-3, ゴルダック-3, バシャーモ-3, フーディン-3",
+   "species": "ホエルオー, ゴルダック, バシャーモ, フーディン",
+   "teams": [
+    "ホエルオー-3, ゴルダック-3, バシャーモ-3, フーディン-3"
+   ],
+   "late": "",
+   "quote": "おれの きょうだいが かわいがってやる！",
+   "quote2": "ええ？ きみが あいて？ なんだか ふあんだな……",
+   "sprite": "assets/images/bdsptrainers/psychic-m.png",
+   "sprite2": "assets/images/bdsptrainers/sailor.png"
+  },
+  {
+   "name": "トドメキ",
+   "class": "さぎょういん",
+   "name2": "エンマ",
+   "class2": "からておう",
+   "roster": "サンダース-2, ユキメノコ-3, グランブル-3, エーフィ-2",
+   "species": "サンダース, ユキメノコ, グランブル, エーフィ",
+   "teams": [
+    "サンダース-2, ユキメノコ-3, グランブル-3, エーフィ-2"
+   ],
+   "late": "",
+   "quote": "スクラップに してやる",
+   "quote2": "ポケモンしょうぶは しんけんしょうぶ ちょっとの ゆだんも できんのだ！",
+   "sprite": "assets/images/bdsptrainers/worker.png",
+   "sprite2": "assets/images/bdsptrainers/blackbelt.png"
+  },
+  {
+   "name": "フトシ",
+   "class": "ポケモンブリーダー",
+   "name2": "タカジーン",
+   "class2": "ポケモンコレクター",
+   "roster": "バリヤード-3, スカタンク-3, サンダー-2, ルンパッパ-3",
+   "species": "バリヤード, スカタンク, サンダー, ルンパッパ",
+   "teams": [
+    "バリヤード-3, スカタンク-3, サンダー-2, ルンパッパ-3"
+   ],
+   "late": "",
+   "quote": "かちまけ ばかりが しょうぶじゃ ないよ",
+   "quote2": "パソコンの なかまから じょうほうを きいて そだてたんだぞ！",
+   "sprite": "assets/images/bdsptrainers/pokemonbreeder-m.png",
+   "sprite2": "assets/images/bdsptrainers/collector.png"
+  },
+  {
+   "name": "フトシ",
+   "class": "ポケモンブリーダー",
+   "name2": "ジェローム",
+   "class2": "サイクリング",
+   "roster": "スリーパー-3, サイドン-2, ヒードラン-5, オニゴーリ-3",
+   "species": "スリーパー, サイドン, ヒードラン, オニゴーリ",
+   "teams": [
+    "スリーパー-3, サイドン-2, ヒードラン-5, オニゴーリ-3"
+   ],
+   "late": "",
+   "quote": "かちまけ ばかりが しょうぶじゃ ないよ",
+   "quote2": "ブロロローーー！！ わしの フルスロットルを みろー！",
+   "sprite": "assets/images/bdsptrainers/pokemonbreeder-m.png",
+   "sprite2": "assets/images/bdsptrainers/cyclist-m.png"
+  },
+  {
+   "name": "カオルコ",
+   "class": "アロマなおねえさん",
+   "name2": "ヤト",
+   "class2": "Pokefan (F)",
+   "roster": "ハガネール-2, ルージュラ-2, チルタリス-3, ウツボット-2",
+   "species": "ハガネール, ルージュラ, チルタリス, ウツボット",
+   "teams": [
+    "ハガネール-2, ルージュラ-2, チルタリス-3, ウツボット-2"
+   ],
+   "late": "",
+   "quote": "あたいに かとう なんざ じゅうねん はやいんだよ！！",
+   "quote2": "おばさん こうみえても わかいころは イケイケだったのよ",
+   "sprite": "assets/images/bdsptrainers/aromalady.png",
+   "sprite2": "assets/images/bdsptrainers/pokefan-f.png"
+  },
+  {
+   "name": "カオルコ",
+   "class": "アロマなおねえさん",
+   "name2": "タネシゲ",
+   "class2": "ジェントルマン",
+   "roster": "ニョロトノ-2, ランターン-2, ウツボット-3, ラティオス-1",
+   "species": "ニョロトノ, ランターン, ウツボット, ラティオス",
+   "teams": [
+    "ニョロトノ-2, ランターン-2, ウツボット-3, ラティオス-1"
+   ],
+   "late": "",
+   "quote": "あたいに かとう なんざ じゅうねん はやいんだよ！！",
+   "quote2": "ファファファファ！！ よく かちぬいているな！",
+   "sprite": "assets/images/bdsptrainers/aromalady.png",
+   "sprite2": "assets/images/bdsptrainers/gentleman.png"
+  },
+  {
+   "name": "ブンシ",
+   "class": "エリートトレーナー",
+   "name2": "アグネス",
+   "class2": "エリートトレーナー",
+   "roster": "ニョロトノ-4, サンダー-7, キングドラ-4, ハッサム-5, ラプラス-3",
+   "species": "ニョロトノ, サンダー, キングドラ, ハッサム, ラプラス",
+   "teams": [
+    "ニョロトノ-4, サンダー-7, キングドラ-4, ハッサム-5",
+    "ニョロトノ-4, ラプラス-3, キングドラ-4, ハッサム-5"
+   ],
+   "late": "",
+   "quote": "なんにも かんがえなくて いいじゃん！ たのしきゃ それで いーじゃん！",
+   "quote2": "オレは どんな しょうぶも ぜんりょくで いどむ！",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
+  },
+  {
+   "name": "セフィーロ",
+   "class": "ドラゴンつかい",
+   "name2": "ゲンゴロウ",
+   "class2": "ギタリスト",
+   "roster": "カバルドン-2, キノガッサ-3, グレイシア-2, ライコウ-3",
+   "species": "カバルドン, キノガッサ, グレイシア, ライコウ",
+   "teams": [
+    "カバルドン-2, キノガッサ-3, グレイシア-2, ライコウ-3"
+   ],
+   "late": "",
+   "quote": "ゆきなさいぃー！ きたえぬいた ボクの ポケモンちゃん たちー！",
+   "quote2": "ぼくと ぼくの ポケモンたちの コーラスを きいてください",
+   "sprite": "assets/images/bdsptrainers/dragontamer.png",
+   "sprite2": "assets/images/bdsptrainers/guitarist.png"
+  },
+  {
+   "name": "セフィーロ",
+   "class": "ドラゴンつかい",
+   "name2": "イケル",
+   "class2": "ウエーター",
+   "roster": "ライボルト-2, ラティアス-3, バンギラス-2, フォレトス-3",
+   "species": "ライボルト, ラティアス, バンギラス, フォレトス",
+   "teams": [
+    "ライボルト-2, ラティアス-3, バンギラス-2, フォレトス-3"
+   ],
+   "late": "",
+   "quote": "ゆきなさいぃー！ きたえぬいた ボクの ポケモンちゃん たちー！",
+   "quote2": "らっしゃい ませぇー！！",
+   "sprite": "assets/images/bdsptrainers/dragontamer.png",
+   "sprite2": "assets/images/bdsptrainers/waiter.png"
+  },
+  {
+   "name": "ファナ",
+   "class": "エリートトレーナー",
+   "name2": "ゼンコ",
+   "class2": "ポケモンレンジャー",
+   "roster": "フライゴン-2, ニドキング-2, グランブル-3, フリーザー-3",
+   "species": "フライゴン, ニドキング, グランブル, フリーザー",
+   "teams": [
+    "フライゴン-2, ニドキング-2, グランブル-3, フリーザー-3"
+   ],
+   "late": "",
+   "quote": "もう にがさない あきらめなさい",
+   "quote2": "しぜんの ちから みせて あげる！",
+   "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
+   "sprite2": "assets/images/bdsptrainers/pokemonranger-f.png"
+  },
+  {
+   "name": "ファナ",
+   "class": "エリートトレーナー",
+   "name2": "コスズ",
+   "class2": "ウエートレス",
+   "roster": "ブーバーン-2, ライボルト-2, グライオン-2, レジギガス-2",
+   "species": "ブーバーン, ライボルト, グライオン, レジギガス",
+   "teams": [
+    "ブーバーン-2, ライボルト-2, グライオン-2, レジギガス-2"
+   ],
+   "late": "",
+   "quote": "もう にがさない あきらめなさい",
+   "quote2": "おかえりなさいませ！",
+   "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
+   "sprite2": "assets/images/bdsptrainers/waitress.png"
+  },
+  {
+   "name": "シオミツ",
+   "class": "おとなのおねえさん",
+   "name2": "コスズ",
+   "class2": "ウエートレス",
+   "roster": "ラティアス-2, スイクン-3, ヘルガー-3, ライコウ-4",
+   "species": "ラティアス, スイクン, ヘルガー, ライコウ",
+   "teams": [
+    "ラティアス-2, スイクン-3, ヘルガー-3, ライコウ-4"
+   ],
+   "late": "",
+   "quote": "まぁ…… めずらしい ポケモン……",
+   "quote2": "おかえりなさいませ！",
+   "sprite": "assets/images/bdsptrainers/beauty.png",
+   "sprite2": "assets/images/bdsptrainers/waitress.png"
+  },
+  {
+   "name": "シオミツ",
+   "class": "おとなのおねえさん",
+   "name2": "ボブ",
+   "class2": "ぼくじょうおじさん",
+   "roster": "ヒードラン-4, ドンファン-3, リーフィア-2, レジスチル-3",
+   "species": "ヒードラン, ドンファン, リーフィア, レジスチル",
+   "teams": [
+    "ヒードラン-4, ドンファン-3, リーフィア-2, レジスチル-3"
+   ],
+   "late": "",
+   "quote": "まぁ…… めずらしい ポケモン……",
+   "quote2": "がんばれよぉ！ あいする こどもたち！",
+   "sprite": "assets/images/bdsptrainers/beauty.png",
+   "sprite2": "assets/images/bdsptrainers/rancher.png"
+  },
+  {
+   "name": "サンレー",
+   "class": "ウエートレス",
+   "name2": "ネンペイ",
+   "class2": "いせきマニア",
+   "roster": "バクオング-3, ギャロップ-3, バリヤード-3, ヒードラン-5",
+   "species": "バクオング, ギャロップ, バリヤード, ヒードラン",
+   "teams": [
+    "バクオング-3, ギャロップ-3, バリヤード-3, ヒードラン-5"
+   ],
+   "late": "",
+   "quote": "かわいい おきゃくさん！ いっぱい サービスするよん！",
+   "quote2": "きあい いれろ",
+   "sprite": "assets/images/bdsptrainers/waitress.png",
+   "sprite2": "assets/images/bdsptrainers/ruinmaniac.png"
+  },
+  {
+   "name": "ゴヨウマツ",
+   "class": "エリートトレーナー",
+   "name2": "ダユー",
+   "class2": "レポーター",
+   "roster": "ライボルト-3, サイドン-2, ドダイトス-3, オーダイル-3, エンテイ-1, ライコウ-2, ジュゴン-3, ブラッキー-2",
+   "species": "ライボルト, サイドン, ドダイトス, オーダイル, エンテイ, ライコウ, ジュゴン, ブラッキー",
+   "teams": [
+    "ライボルト-3, サイドン-2, ドダイトス-3, オーダイル-3",
+    "エンテイ-1, ライコウ-2, ジュゴン-3, ブラッキー-2"
+   ],
+   "late": "",
+   "quote": "ぜんりょく とうきゅうだ！",
+   "quote2": "わたくしの ポケモンは ひとあじ ちがいますわよ",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/reporter.png"
+  },
+  {
+   "name": "ネンペイ",
+   "class": "いせきマニア",
+   "name2": "ビリー",
+   "class2": "ポケモンレンジャー",
+   "roster": "ガブリアス-2, ボスゴドラ-2, ユキノオー-2, フローゼル-2",
+   "species": "ガブリアス, ボスゴドラ, ユキノオー, フローゼル",
+   "teams": [
+    "ガブリアス-2, ボスゴドラ-2, ユキノオー-2, フローゼル-2"
+   ],
+   "late": "",
+   "quote": "きあい いれろ",
+   "quote2": "あはは！ ざんねんだね！ ぼくが あいてだよ！",
+   "sprite": "assets/images/bdsptrainers/ruinmaniac.png",
+   "sprite2": "assets/images/bdsptrainers/pokemonranger-m.png"
+  },
+  {
+   "name": "ネモ",
+   "class": "ジェントルマン",
+   "name2": "ババール",
+   "class2": "とりつかい",
+   "roster": "レジアイス-1, ヒードラン-3, フローゼル-3, ルージュラ-2",
+   "species": "レジアイス, ヒードラン, フローゼル, ルージュラ",
+   "teams": [
+    "レジアイス-1, ヒードラン-3, フローゼル-3, ルージュラ-2"
+   ],
+   "late": "",
+   "quote": "こどもの きもちに かえって しょうぶと いきましょうか！",
+   "quote2": "じんせい おもいどおりに いかないことも たくさん ある！",
+   "sprite": "assets/images/bdsptrainers/gentleman.png",
+   "sprite2": "assets/images/bdsptrainers/birdkeeper.png"
+  },
+  {
+   "name": "ネモ",
+   "class": "ジェントルマン",
+   "name2": "サクゾウ",
+   "class2": "ギャンブラー",
+   "roster": "エーフィ-2, ヌオー-3, スイクン-2, デンリュウ-3",
+   "species": "エーフィ, ヌオー, スイクン, デンリュウ",
+   "teams": [
+    "エーフィ-2, ヌオー-3, スイクン-2, デンリュウ-3"
+   ],
+   "late": "",
+   "quote": "こどもの きもちに かえって しょうぶと いきましょうか！",
+   "quote2": "きみは なにを かけるんだい？ ぼくは すべてを かけよう！",
+   "sprite": "assets/images/bdsptrainers/gentleman.png",
+   "sprite2": "assets/images/bdsptrainers/pi.png"
+  },
+  {
+   "name": "ヒデジ",
+   "class": "カメラマン",
+   "name2": "ヘルガ",
+   "class2": "エリートトレーナー",
+   "roster": "ミミロップ-2, キノガッサ-3, ボーマンダ-2, エルレイド-2",
+   "species": "ミミロップ, キノガッサ, ボーマンダ, エルレイド",
+   "teams": [
+    "ミミロップ-2, キノガッサ-3, ボーマンダ-2, エルレイド-2"
+   ],
+   "late": "",
+   "quote": "きみの ような トレーナーを ずっと まっていたんだ",
+   "quote2": "やあやあ！ たのしく あそびましょ！",
+   "sprite": "assets/images/bdsptrainers/cameraman.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
+  },
+  {
+   "name": "ヒデジ",
+   "class": "カメラマン",
+   "name2": "コウガ",
+   "class2": "ポケモンブリーダー",
+   "roster": "ナマズン-2, シャワーズ-2, ライボルト-2, レントラー-2",
+   "species": "ナマズン, シャワーズ, ライボルト, レントラー",
+   "teams": [
+    "ナマズン-2, シャワーズ-2, ライボルト-2, レントラー-2"
+   ],
+   "late": "",
+   "quote": "きみの ような トレーナーを ずっと まっていたんだ",
+   "quote2": "きびしくても だめ…… あまやかしても だめ……",
+   "sprite": "assets/images/bdsptrainers/cameraman.png",
+   "sprite2": "assets/images/bdsptrainers/pokemonbreeder-f.png"
+  },
+  {
+   "name": "ジャネット",
+   "class": "レポーター",
+   "name2": "アドロック",
+   "class2": "ポケモンブリーダー",
+   "roster": "マンムー-2, ケンタロス-3, ゲンガー-3, レジロック-3",
+   "species": "マンムー, ケンタロス, ゲンガー, レジロック",
+   "teams": [
+    "マンムー-2, ケンタロス-3, ゲンガー-3, レジロック-3"
+   ],
+   "late": "",
+   "quote": "さて どうやって せめよう かしらねぇ？",
+   "quote2": "ごしょうかい しましょう！ ぼくの だいじな パートナー！",
+   "sprite": "assets/images/bdsptrainers/reporter.png",
+   "sprite2": "assets/images/bdsptrainers/pokemonbreeder-m.png"
+  },
+  {
+   "name": "ジャネット",
+   "class": "レポーター",
+   "name2": "ノール",
+   "class2": "サイキッカー",
+   "roster": "リングマ-3, サイドン-3, ナッシー-2, ゴウカザル-3",
+   "species": "リングマ, サイドン, ナッシー, ゴウカザル",
+   "teams": [
+    "リングマ-3, サイドン-3, ナッシー-2, ゴウカザル-3"
+   ],
+   "late": "",
+   "quote": "さて どうやって せめよう かしらねぇ？",
+   "quote2": "みせて あげよー！ エスパーふしぎパワー！",
+   "sprite": "assets/images/bdsptrainers/reporter.png",
+   "sprite2": "assets/images/bdsptrainers/psychic-m.png"
+  },
+  {
+   "name": "ジャネット",
+   "class": "レポーター",
+   "name2": "パオ",
+   "class2": "アイドル",
+   "roster": "レジアイス-3, ダーテング-2, ヘルガー-3, バリヤード-3",
+   "species": "レジアイス, ダーテング, ヘルガー, バリヤード",
+   "teams": [
+    "レジアイス-3, ダーテング-2, ヘルガー-3, バリヤード-3"
+   ],
+   "late": "",
+   "quote": "さて どうやって せめよう かしらねぇ？",
+   "quote2": "キミ だいじょうぶ？ あたし ウルトラすっごいよ！",
+   "sprite": "assets/images/bdsptrainers/reporter.png",
+   "sprite2": "assets/images/bdsptrainers/idol.png"
+  },
+  {
+   "name": "ダユー",
+   "class": "レポーター",
+   "name2": "ノノミ",
+   "class2": "サイキッカー",
+   "roster": "ロズレイド-2, レジギガス-5, ベトベトン-2, スリーパー-2",
+   "species": "ロズレイド, レジギガス, ベトベトン, スリーパー",
+   "teams": [
+    "ロズレイド-2, レジギガス-5, ベトベトン-2, スリーパー-2"
+   ],
+   "late": "",
+   "quote": "わたくしの ポケモンは ひとあじ ちがいますわよ",
+   "quote2": "ぐるぐるぐる……",
+   "sprite": "assets/images/bdsptrainers/reporter.png",
+   "sprite2": "assets/images/bdsptrainers/psychic-f.png"
+  },
+  {
+   "name": "ケーニッヒ",
+   "class": "ポケモンレンジャー",
+   "name2": "タマエ",
+   "class2": "アイドル",
+   "roster": "ハリテヤマ-2, ドンカラス-2, レジスチル-1, ラティアス-3",
+   "species": "ハリテヤマ, ドンカラス, レジスチル, ラティアス",
+   "teams": [
+    "ハリテヤマ-2, ドンカラス-2, レジスチル-1, ラティアス-3"
+   ],
+   "late": "",
+   "quote": "ぼくと しょうぶ？ しらないよぉ！",
+   "quote2": "しょうぶだけが わたしの いきがい しょうりだけが わたしの ねがい",
+   "sprite": "assets/images/bdsptrainers/pokemonranger-f.png",
+   "sprite2": "assets/images/bdsptrainers/idol.png"
+  },
+  {
+   "name": "ジュピター",
+   "class": "ギンガだん",
+   "name2": "サターン",
+   "class2": "ギンガだん",
+   "roster": "ニドキング-5, スカタンク-4, アブソル-4, ヤミラミ-4, ゲンガー-8, ドクロッグ-4, サメハダー-2, クロバット-3, バンギラス-10",
+   "species": "ニドキング, スカタンク, アブソル, ヤミラミ, ゲンガー, ドクロッグ, サメハダー, クロバット, バンギラス",
+   "teams": [
+    "ニドキング-5, スカタンク-4, アブソル-4, ヤミラミ-4",
+    "ゲンガー-8, ドクロッグ-4, スカタンク-4, サメハダー-2",
+    "クロバット-3, ドクロッグ-4, サメハダー-2, バンギラス-10"
+   ],
+   "late": "",
+   "quote": "なにか ようかしら？ と きくまでも ないわね",
+   "quote2": "なんだ おまえか…… かたがきは すてて あいてを しよう",
+   "sprite": "assets/images/bdsptrainers/jupiter.png",
+   "sprite2": "assets/images/bdsptrainers/saturn.png"
+  },
+  {
+   "name": "コスズ",
+   "class": "ウエートレス",
+   "name2": "ヤン",
+   "class2": "Socialite",
+   "roster": "ライコウ-3, レジアイス-1, サンダー-2, ラムパルド-2",
+   "species": "ライコウ, レジアイス, サンダー, ラムパルド",
+   "teams": [
+    "ライコウ-3, レジアイス-1, サンダー-2, ラムパルド-2"
+   ],
+   "late": "",
+   "quote": "おかえりなさいませ！",
+   "quote2": "まだ おこさんじゃ ないの",
+   "sprite": "assets/images/bdsptrainers/waitress.png",
+   "sprite2": "assets/images/bdsptrainers/madame.png"
+  },
+  {
+   "name": "テフコ",
+   "class": "Socialite",
+   "name2": "シオミツ",
+   "class2": "おとなのおねえさん",
+   "roster": "サンダー-3, マタドガス-2, ナマズン-2, チルタリス-2",
+   "species": "サンダー, マタドガス, ナマズン, チルタリス",
+   "teams": [
+    "サンダー-3, マタドガス-2, ナマズン-2, チルタリス-2"
+   ],
+   "late": "",
+   "quote": "うちの こには つよくて りっぱな トレーナーに なって もらいたいわ",
+   "quote2": "まぁ…… めずらしい ポケモン……",
+   "sprite": "assets/images/bdsptrainers/madame.png",
+   "sprite2": "assets/images/bdsptrainers/beauty.png"
+  },
+  {
+   "name": "テフコ",
+   "class": "Socialite",
+   "name2": "ナミダ",
+   "class2": "パラソルおねえさん",
+   "roster": "ラティオス-1, ケンタロス-2, ヘラクロス-2, ラティアス-1",
+   "species": "ラティオス, ケンタロス, ヘラクロス, ラティアス",
+   "teams": [
+    "ラティオス-1, ケンタロス-2, ヘラクロス-2, ラティアス-1"
+   ],
+   "late": "",
+   "quote": "うちの こには つよくて りっぱな トレーナーに なって もらいたいわ",
+   "quote2": "これね ひがさ なの",
+   "sprite": "assets/images/bdsptrainers/madame.png",
+   "sprite2": "assets/images/bdsptrainers/parasollady.png"
+  },
+  {
+   "name": "ラジカント",
+   "class": "ふなのり",
+   "name2": "ヨシモリ",
+   "class2": "おとなのおねえさん",
+   "roster": "ムクホーク-2, ライコウ-3, トゲキッス-2, ムウマージ-3",
+   "species": "ムクホーク, ライコウ, トゲキッス, ムウマージ",
+   "teams": [
+    "ムクホーク-2, ライコウ-3, トゲキッス-2, ムウマージ-3"
+   ],
+   "late": "",
+   "quote": "ええ？ きみが あいて？ なんだか ふあんだな……",
+   "quote2": "いいかな？",
+   "sprite": "assets/images/bdsptrainers/sailor.png",
+   "sprite2": "assets/images/bdsptrainers/beauty.png"
+  },
+  {
+   "name": "アントニオ",
+   "class": "ウエーター",
+   "name2": "トメゾウ",
+   "class2": "ギャンブラー",
+   "roster": "ケッキング-2, バシャーモ-3, ダーテング-2, ライコウ-1",
+   "species": "ケッキング, バシャーモ, ダーテング, ライコウ",
+   "teams": [
+    "ケッキング-2, バシャーモ-3, ダーテング-2, ライコウ-1"
+   ],
+   "late": "",
+   "quote": "おー！ きみ つよそうだねー たのしみ たのしみ！",
+   "quote2": "しょうぶ ってのはな チマチマ けいさんする もん じゃねーの！",
+   "sprite": "assets/images/bdsptrainers/waiter.png",
+   "sprite2": "assets/images/bdsptrainers/pi.png"
+  },
+  {
+   "name": "アントニオ",
+   "class": "ウエーター",
+   "name2": "カオルコ",
+   "class2": "アロマなおねえさん",
+   "roster": "ファイヤー-1, ドンファン-2, マンムー-2, ニドクイン-2",
+   "species": "ファイヤー, ドンファン, マンムー, ニドクイン",
+   "teams": [
+    "ファイヤー-1, ドンファン-2, マンムー-2, ニドクイン-2"
+   ],
+   "late": "",
+   "quote": "おー！ きみ つよそうだねー たのしみ たのしみ！",
+   "quote2": "あたいに かとう なんざ じゅうねん はやいんだよ！！",
+   "sprite": "assets/images/bdsptrainers/waiter.png",
+   "sprite2": "assets/images/bdsptrainers/aromalady.png"
+  },
+  {
+   "name": "ボブ",
+   "class": "ぼくじょうおじさん",
+   "name2": "カンベエ",
+   "class2": "ベテラントレーナー",
+   "roster": "フワライド-2, ホエルオー-3, ベトベトン-3, ライチュウ-2",
+   "species": "フワライド, ホエルオー, ベトベトン, ライチュウ",
+   "teams": [
+    "フワライド-2, ホエルオー-3, ベトベトン-3, ライチュウ-2"
+   ],
+   "late": "",
+   "quote": "がんばれよぉ！ あいする こどもたち！",
+   "quote2": "ボク もう なんねんも ここにいるけど まるで あきないね",
+   "sprite": "assets/images/bdsptrainers/rancher.png",
+   "sprite2": "assets/images/bdsptrainers/veteran.png"
+  },
+  {
+   "name": "ムック",
+   "class": "ポケモンコレクター",
+   "name2": "カケス",
+   "class2": "とりつかい",
+   "roster": "リーフィア-2, ユレイドル-3, ヒードラン-5, アブソル-2",
+   "species": "リーフィア, ユレイドル, ヒードラン, アブソル",
+   "teams": [
+    "リーフィア-2, ユレイドル-3, ヒードラン-5, アブソル-2"
+   ],
+   "late": "",
+   "quote": "ちょっと まってくれよぉ メール かいてるんだよぉ",
+   "quote2": "もう にげばは ないわ！",
+   "sprite": "assets/images/bdsptrainers/collector.png",
+   "sprite2": "assets/images/bdsptrainers/birdkeeper.png"
+  },
+  {
+   "name": "ムック",
+   "class": "ポケモンコレクター",
+   "name2": "ケーニッヒ",
+   "class2": "ポケモンレンジャー",
+   "roster": "エアームド-2, ヤドラン-3, レジアイス-1, バリヤード-2",
+   "species": "エアームド, ヤドラン, レジアイス, バリヤード",
+   "teams": [
+    "エアームド-2, ヤドラン-3, レジアイス-1, バリヤード-2"
+   ],
+   "late": "",
+   "quote": "ちょっと まってくれよぉ メール かいてるんだよぉ",
+   "quote2": "ぼくと しょうぶ？ しらないよぉ！",
+   "sprite": "assets/images/bdsptrainers/collector.png",
+   "sprite2": "assets/images/bdsptrainers/pokemonranger-f.png"
+  },
+  {
+   "name": "ペル",
+   "class": "ピエロ",
+   "name2": "サンレー",
+   "class2": "ウエートレス",
+   "roster": "ファイヤー-4, レジギガス-5, デンリュウ-2, トリデプス-2",
+   "species": "ファイヤー, レジギガス, デンリュウ, トリデプス",
+   "teams": [
+    "ファイヤー-4, レジギガス-5, デンリュウ-2, トリデプス-2"
+   ],
+   "late": "",
+   "quote": "ポケモンしょうぶと いうのはね すなに かいた ラブレターなのだよ",
+   "quote2": "かわいい おきゃくさん！ いっぱい サービスするよん！",
+   "sprite": "assets/images/bdsptrainers/clown.png",
+   "sprite2": "assets/images/bdsptrainers/waitress.png"
+  },
+  {
+   "name": "タネシゲ",
+   "class": "ジェントルマン",
+   "name2": "レポマン",
+   "class2": "けんきゅういん",
+   "roster": "エアームド-3, オニゴーリ-3, ドクロッグ-2, チャーレム-2",
+   "species": "エアームド, オニゴーリ, ドクロッグ, チャーレム",
+   "teams": [
+    "エアームド-3, オニゴーリ-3, ドクロッグ-2, チャーレム-2"
+   ],
+   "late": "",
+   "quote": "ファファファファ！！ よく かちぬいているな！",
+   "quote2": "かがくの ちからですっ！",
+   "sprite": "assets/images/bdsptrainers/gentleman.png",
+   "sprite2": "assets/images/bdsptrainers/scientist.png"
+  },
+  {
+   "name": "タネシゲ",
+   "class": "ジェントルマン",
+   "name2": "トウベエ",
+   "class2": "ジョギング",
+   "roster": "エアームド-3, ルージュラ-3, ドクロッグ-2, ツボツボ-2",
+   "species": "エアームド, ルージュラ, ドクロッグ, ツボツボ",
+   "teams": [
+    "エアームド-3, ルージュラ-3, ドクロッグ-2, ツボツボ-2"
+   ],
+   "late": "",
+   "quote": "ファファファファ！！ よく かちぬいているな！",
+   "quote2": "よーい ドン！",
+   "sprite": "assets/images/bdsptrainers/gentleman.png",
+   "sprite2": "assets/images/bdsptrainers/jogger.png"
+  },
+  {
+   "name": "スタンリー",
+   "class": "Policeman",
+   "name2": "ヒコ",
+   "class2": "サイキッカー",
+   "roster": "ゴウカザル-3, トゲキッス-2, ジュカイン-3, ヨノワール-2",
+   "species": "ゴウカザル, トゲキッス, ジュカイン, ヨノワール",
+   "teams": [
+    "ゴウカザル-3, トゲキッス-2, ジュカイン-3, ヨノワール-2"
+   ],
+   "late": "",
+   "quote": "はい きみー そこの きみー ちょっと まって くださーい！",
+   "quote2": "おにいちゃんが おしえてくれたよ！ めだ！ めを ねらえ って！",
+   "sprite": "assets/images/bdsptrainers/policeofficer.png",
+   "sprite2": "assets/images/bdsptrainers/psychic-f.png"
+  },
+  {
+   "name": "スタンリー",
+   "class": "Policeman",
+   "name2": "シオミツ",
+   "class2": "おとなのおねえさん",
+   "roster": "ヒードラン-3, カイリュー-3, ユレイドル-3, レジギガス-4",
+   "species": "ヒードラン, カイリュー, ユレイドル, レジギガス",
+   "teams": [
+    "ヒードラン-3, カイリュー-3, ユレイドル-3, レジギガス-4"
+   ],
+   "late": "",
+   "quote": "はい きみー そこの きみー ちょっと まって くださーい！",
+   "quote2": "まぁ…… めずらしい ポケモン……",
+   "sprite": "assets/images/bdsptrainers/policeofficer.png",
+   "sprite2": "assets/images/bdsptrainers/beauty.png"
+  },
+  {
+   "name": "イケル",
+   "class": "ウエーター",
+   "name2": "ヤト",
+   "class2": "Pokefan (F)",
+   "roster": "ダーテング-3, ラティオス-3, ユレイドル-3, キュウコン-2",
+   "species": "ダーテング, ラティオス, ユレイドル, キュウコン",
+   "teams": [
+    "ダーテング-3, ラティオス-3, ユレイドル-3, キュウコン-2"
+   ],
+   "late": "",
+   "quote": "らっしゃい ませぇー！！",
+   "quote2": "おばさん こうみえても わかいころは イケイケだったのよ",
+   "sprite": "assets/images/bdsptrainers/waiter.png",
+   "sprite2": "assets/images/bdsptrainers/pokefan-f.png"
+  },
+  {
+   "name": "エーミー",
+   "class": "サイクリング",
+   "name2": "ペドロ",
+   "class2": "ベテラントレーナー",
+   "roster": "ドダイトス-3, バクオング-3, ゲンガー-2, トリトドン-3",
+   "species": "ドダイトス, バクオング, ゲンガー, トリトドン",
+   "teams": [
+    "ドダイトス-3, バクオング-3, ゲンガー-2, トリトドン-3"
+   ],
+   "late": "",
+   "quote": "チャリン チャリーン",
+   "quote2": "はじめに いって おこう…… きみでは わたしに かつことはできない",
+   "sprite": "assets/images/bdsptrainers/cyclist-f.png",
+   "sprite2": "assets/images/bdsptrainers/veteran.png"
+  },
+  {
+   "name": "スケ",
+   "class": "バトルガール",
+   "name2": "クルブシ",
+   "class2": "アロマなおねえさん",
+   "roster": "サンダー-2, アブソル-2, ハピナス-2, トリデプス-3",
+   "species": "サンダー, アブソル, ハピナス, トリデプス",
+   "teams": [
+    "サンダー-2, アブソル-2, ハピナス-2, トリデプス-3"
+   ],
+   "late": "",
+   "quote": "シャーッ！",
+   "quote2": "いい かおりを かいでると ねむく なっちゃうよね……",
+   "sprite": "assets/images/bdsptrainers/battlegirl.png",
+   "sprite2": "assets/images/bdsptrainers/aromalady.png"
+  },
+  {
+   "name": "ムネアゲ",
+   "class": "さぎょういん",
+   "name2": "ニック",
+   "class2": "ふなのり",
+   "roster": "ゴローニャ-3, ニョロトノ-2, カイロス-3, ランターン-3",
+   "species": "ゴローニャ, ニョロトノ, カイロス, ランターン",
+   "teams": [
+    "ゴローニャ-3, ニョロトノ-2, カイロス-3, ランターン-3"
+   ],
+   "late": "",
+   "quote": "お！ いいねぇ！ やろうじゃ ないの！",
+   "quote2": "オオキナ フネニ ノッテ キマシタ",
+   "sprite": "assets/images/bdsptrainers/worker.png",
+   "sprite2": "assets/images/bdsptrainers/sailor.png"
+  },
+  {
+   "name": "ムネアゲ",
+   "class": "さぎょういん",
+   "name2": "ヨシモリ",
+   "class2": "おとなのおねえさん",
+   "roster": "カイリキー-2, メガヤンマ-2, クレセリア-5, フーディン-2, ホエルオー-2, ガルーラ-2",
+   "species": "カイリキー, メガヤンマ, クレセリア, フーディン, ホエルオー, ガルーラ",
+   "teams": [
+    "カイリキー-2, メガヤンマ-2, クレセリア-5, フーディン-2",
+    "ホエルオー-2, メガヤンマ-2, クレセリア-5, ガルーラ-2"
+   ],
+   "late": "",
+   "quote": "お！ いいねぇ！ やろうじゃ ないの！",
+   "quote2": "いいかな？",
+   "sprite": "assets/images/bdsptrainers/worker.png",
+   "sprite2": "assets/images/bdsptrainers/beauty.png"
+  },
+  {
+   "name": "ナユタ",
+   "class": "エリートトレーナー",
+   "name2": "ヘルガ",
+   "class2": "エリートトレーナー",
+   "roster": "キレイハナ-2, ラプラス-3, コータス-2, クレセリア-6, ドサイドン-4",
+   "species": "キレイハナ, ラプラス, コータス, クレセリア, ドサイドン",
+   "teams": [
+    "キレイハナ-2, ラプラス-3, コータス-2, クレセリア-6",
+    "キレイハナ-2, ドサイドン-4, コータス-2, クレセリア-6"
+   ],
+   "late": "",
+   "quote": "フハーッ！ フハーッ！ かてると おもうて おるのかー！",
+   "quote2": "やあやあ！ たのしく あそびましょ！",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
+  },
+  {
+   "name": "ナユタ",
+   "class": "エリートトレーナー",
+   "name2": "ソフィー",
+   "class2": "サイクリング",
+   "roster": "アーマルド-3, ドサイドン-3, フシギバナ-3, ベロベルト-2",
+   "species": "アーマルド, ドサイドン, フシギバナ, ベロベルト",
+   "teams": [
+    "アーマルド-3, ドサイドン-3, フシギバナ-3, ベロベルト-2"
+   ],
+   "late": "",
+   "quote": "フハーッ！ フハーッ！ かてると おもうて おるのかー！",
+   "quote2": "かれしと じてんしゃに のってね デートするのが ゆめなの",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/cyclist-f.png"
+  },
+  {
+   "name": "ナユタ",
+   "class": "エリートトレーナー",
+   "name2": "パクサ",
+   "class2": "ギタリスト",
+   "roster": "エンテイ-2, クレセリア-5, フーディン-3, ゲンガー-2",
+   "species": "エンテイ, クレセリア, フーディン, ゲンガー",
+   "teams": [
+    "エンテイ-2, クレセリア-5, フーディン-3, ゲンガー-2"
+   ],
+   "late": "",
+   "quote": "フハーッ！ フハーッ！ かてると おもうて おるのかー！",
+   "quote2": "へー いいんじゃん きみ",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/guitarist.png"
+  },
+  {
+   "name": "ジェローム",
+   "class": "サイクリング",
+   "name2": "カケス",
+   "class2": "とりつかい",
+   "roster": "キノガッサ-2, フワライド-3, カイリュー-3, キュウコン-2",
+   "species": "キノガッサ, フワライド, カイリュー, キュウコン",
+   "teams": [
+    "キノガッサ-2, フワライド-3, カイリュー-3, キュウコン-2"
+   ],
+   "late": "",
+   "quote": "ブロロローーー！！ わしの フルスロットルを みろー！",
+   "quote2": "もう にげばは ないわ！",
+   "sprite": "assets/images/bdsptrainers/cyclist-m.png",
+   "sprite2": "assets/images/bdsptrainers/birdkeeper.png"
+  },
+  {
+   "name": "ナミダ",
+   "class": "パラソルおねえさん",
+   "name2": "ダユー",
+   "class2": "レポーター",
+   "roster": "ボスゴドラ-2, ヌオー-3, エテボース-3, ゴローニャ-2",
+   "species": "ボスゴドラ, ヌオー, エテボース, ゴローニャ",
+   "teams": [
+    "ボスゴドラ-2, ヌオー-3, エテボース-3, ゴローニャ-2"
+   ],
+   "late": "",
+   "quote": "これね ひがさ なの",
+   "quote2": "わたくしの ポケモンは ひとあじ ちがいますわよ",
+   "sprite": "assets/images/bdsptrainers/parasollady.png",
+   "sprite2": "assets/images/bdsptrainers/reporter.png"
+  },
+  {
+   "name": "ナミダ",
+   "class": "パラソルおねえさん",
+   "name2": "ヒメ",
+   "class2": "バトルガール",
+   "roster": "ハッサム-2, ガルーラ-3, スリーパー-2, ビークイン-2",
+   "species": "ハッサム, ガルーラ, スリーパー, ビークイン",
+   "teams": [
+    "ハッサム-2, ガルーラ-3, スリーパー-2, ビークイン-2"
+   ],
+   "late": "",
+   "quote": "これね ひがさ なの",
+   "quote2": "あたし つよい それだけ",
+   "sprite": "assets/images/bdsptrainers/parasollady.png",
+   "sprite2": "assets/images/bdsptrainers/battlegirl.png"
+  },
+  {
+   "name": "ナミダ",
+   "class": "パラソルおねえさん",
+   "name2": "タンジュウ",
+   "class2": "Policeman",
+   "roster": "レジスチル-2, サイドン-3, ニョロボン-3, グライオン-2",
+   "species": "レジスチル, サイドン, ニョロボン, グライオン",
+   "teams": [
+    "レジスチル-2, サイドン-3, ニョロボン-3, グライオン-2"
+   ],
+   "late": "",
+   "quote": "これね ひがさ なの",
+   "quote2": "ムニャ…… ムニャ……",
+   "sprite": "assets/images/bdsptrainers/parasollady.png",
+   "sprite2": "assets/images/bdsptrainers/policeofficer.png"
+  },
+  {
+   "name": "コマ",
+   "class": "カウガール",
+   "name2": "カネモリ",
+   "class2": "パラソルおねえさん",
+   "roster": "ボーマンダ-2, ニドクイン-2, ファイヤー-3, ヘラクロス-2",
+   "species": "ボーマンダ, ニドクイン, ファイヤー, ヘラクロス",
+   "teams": [
+    "ボーマンダ-2, ニドクイン-2, ファイヤー-3, ヘラクロス-2"
+   ],
+   "late": "",
+   "quote": "オワリニ シテヤル",
+   "quote2": "あめのひも はれのひも ここで つよい トレーナーを さがす わたし",
+   "sprite": "assets/images/bdsptrainers/cowgirl.png",
+   "sprite2": "assets/images/bdsptrainers/parasollady.png"
+  },
+  {
+   "name": "コマ",
+   "class": "カウガール",
+   "name2": "ナスオ",
+   "class2": "Fisherman",
+   "roster": "トリトドン-2, エンテイ-1, リザードン-3, フォレトス-2",
+   "species": "トリトドン, エンテイ, リザードン, フォレトス",
+   "teams": [
+    "トリトドン-2, エンテイ-1, リザードン-3, フォレトス-2"
+   ],
+   "late": "",
+   "quote": "オワリニ シテヤル",
+   "quote2": "シンオウいちの さおテクニック！ みせて あげよう！",
+   "sprite": "assets/images/bdsptrainers/cowgirl.png",
+   "sprite2": "assets/images/bdsptrainers/fisher.png"
+  },
+  {
+   "name": "ソフィー",
+   "class": "サイクリング",
+   "name2": "ナンコウ",
+   "class2": "けんきゅういん",
+   "roster": "ドラピオン-2, グランブル-2, フリーザー-1, ブーバーン-2",
+   "species": "ドラピオン, グランブル, フリーザー, ブーバーン",
+   "teams": [
+    "ドラピオン-2, グランブル-2, フリーザー-1, ブーバーン-2"
+   ],
+   "late": "",
+   "quote": "かれしと じてんしゃに のってね デートするのが ゆめなの",
+   "quote2": "とつげきせよ！ ぼくの ポケモン！ じっけんの せいかを みせてやれっ！",
+   "sprite": "assets/images/bdsptrainers/cyclist-f.png",
+   "sprite2": "assets/images/bdsptrainers/scientist.png"
+  },
+  {
+   "name": "ソフィー",
+   "class": "サイクリング",
+   "name2": "ゴヨウマツ",
+   "class2": "エリートトレーナー",
+   "roster": "ニョロトノ-3, マタドガス-3, チャーレム-3, エンテイ-3",
+   "species": "ニョロトノ, マタドガス, チャーレム, エンテイ",
+   "teams": [
+    "ニョロトノ-3, マタドガス-3, チャーレム-3, エンテイ-3"
+   ],
+   "late": "",
+   "quote": "かれしと じてんしゃに のってね デートするのが ゆめなの",
+   "quote2": "ぜんりょく とうきゅうだ！",
+   "sprite": "assets/images/bdsptrainers/cyclist-f.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-m.png"
+  },
+  {
+   "name": "マーズ",
+   "class": "ギンガだん",
+   "name2": "アカギ",
+   "class2": "ギンガだん",
+   "roster": "ライチュウ-4, ドータクン-5, ギャラドス-6, ボーマンダ-8, エーフィ-4, トゲキッス-8, マニューラ-5, エンテイ-6, クロバット-3, ブニャット-2, ロトム-ヒート-2, ギャラドス-7",
+   "species": "ライチュウ, ドータクン, ギャラドス, ボーマンダ, エーフィ, トゲキッス, マニューラ, エンテイ, クロバット, ブニャット, ロトム-ヒート",
+   "teams": [
+    "ライチュウ-4, ドータクン-5, ギャラドス-6, ボーマンダ-8",
+    "エーフィ-4, トゲキッス-8, マニューラ-5, エンテイ-6",
+    "クロバット-3, ブニャット-2, ロトム-ヒート-2, ギャラドス-7"
+   ],
+   "late": "",
+   "quote": "！ あなただけは ゆるさない！ ゆるさない！！ ゆるさない！！！",
+   "quote2": "か キミとは ほとほと えんが あるね くされえん といっても いいが いま ここで たちきろう！",
+   "sprite": "assets/images/bdsptrainers/mars.png",
+   "sprite2": "assets/images/bdsptrainers/cyrus.png"
+  },
+  {
+   "name": "スモモ",
+   "class": "ジムリーダー",
+   "name2": "スズナ",
+   "class2": "ジムリーダー",
+   "roster": "カポエラー-4, ルカリオ-6, ユキノオー-7, ユキメノコ-5, カポエラー-5, フリーザー-6, バシャーモ-7, マニューラ-4",
+   "species": "カポエラー, ルカリオ, ユキノオー, ユキメノコ, フリーザー, バシャーモ, マニューラ",
+   "teams": [
+    "カポエラー-4, ルカリオ-6, ユキノオー-7, ユキメノコ-5",
+    "カポエラー-5, ルカリオ-6, ユキノオー-7, フリーザー-6",
+    "カポエラー-4, バシャーモ-7, マニューラ-4, ユキノオー-7"
+   ],
+   "late": "",
+   "quote": "おなか へったな…… あっ なんでも ないです！",
+   "quote2": "あたしと スモモちゃんの きあい ちょっと すごいんだから！",
+   "sprite": "assets/images/bdsptrainers/maylene.png",
+   "sprite2": "assets/images/bdsptrainers/candice.png"
+  },
+  {
+   "name": "カンベエ",
+   "class": "ベテラントレーナー",
+   "name2": "ジェローム",
+   "class2": "サイクリング",
+   "roster": "ムクホーク-3, サイドン-2, ドダイトス-3, カメックス-3",
+   "species": "ムクホーク, サイドン, ドダイトス, カメックス",
+   "teams": [
+    "ムクホーク-3, サイドン-2, ドダイトス-3, カメックス-3"
+   ],
+   "late": "",
+   "quote": "ボク もう なんねんも ここにいるけど まるで あきないね",
+   "quote2": "ブロロローーー！！ わしの フルスロットルを みろー！",
+   "sprite": "assets/images/bdsptrainers/veteran.png",
+   "sprite2": "assets/images/bdsptrainers/cyclist-m.png"
+  },
+  {
+   "name": "ミル",
+   "class": "ポケモントレーナー",
+   "name2": "モミ",
+   "class2": "ポケモントレーナー",
+   "roster": "フーディン-6, ゲンガー-6, ブラッキー-4, ハピナス-4, サンダー-9, フーディン-7, ハピナス-5, ポリゴンＺ-4, サーナイト-6, サンダー-10, ラティオス-7, ポリゴンＺ-5",
+   "species": "フーディン, ゲンガー, ブラッキー, ハピナス, サンダー, ポリゴンＺ, サーナイト, ラティオス",
+   "teams": [
+    "フーディン-6, ゲンガー-6, ブラッキー-4, ハピナス-4",
+    "サンダー-9, フーディン-7, ハピナス-5, ポリゴンＺ-4",
+    "サーナイト-6, サンダー-10, ラティオス-7, ポリゴンＺ-5"
+   ],
+   "late": "",
+   "quote": "あっ！ さん！ ここで まよってたら モミさんと であったの！",
+   "quote2": "おひさしぶりです さん たびは みちづれ いまは ミルさんと いるのよ！",
+   "sprite": "assets/images/bdsptrainers/mira.png",
+   "sprite2": "assets/images/bdsptrainers/cheryl.png"
+  },
+  {
+   "name": "メルバ",
+   "class": "エリートトレーナー",
+   "name2": "ポポ",
+   "class2": "エリートトレーナー",
+   "roster": "キュウコン-5, リザードン-4, フシギバナ-5, ガブリアス-5, ドサイドン-4",
+   "species": "キュウコン, リザードン, フシギバナ, ガブリアス, ドサイドン",
+   "teams": [
+    "キュウコン-5, リザードン-4, フシギバナ-5, ガブリアス-5",
+    "キュウコン-5, リザードン-4, フシギバナ-5, ドサイドン-4"
+   ],
+   "late": "",
+   "quote": "けいこを つけてやろう",
+   "quote2": "あたしの パパも ママも つよい トレーナーなのよ！",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
+  },
+  {
+   "name": "メルバ",
+   "class": "エリートトレーナー",
+   "name2": "アグネス",
+   "class2": "エリートトレーナー",
+   "roster": "スイクン-5, トゲキッス-4, ガブリアス-7, バンギラス-4",
+   "species": "スイクン, トゲキッス, ガブリアス, バンギラス",
+   "teams": [
+    "スイクン-5, トゲキッス-4, ガブリアス-7, バンギラス-4"
+   ],
+   "late": "",
+   "quote": "けいこを つけてやろう",
+   "quote2": "オレは どんな しょうぶも ぜんりょくで いどむ！",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
+  },
+  {
+   "name": "クルブシ",
+   "class": "アロマなおねえさん",
+   "name2": "ゲンゴロウ",
+   "class2": "ギタリスト",
+   "roster": "ゲンガー-3, ミロカロス-3, クロバット-2, カイロス-3",
+   "species": "ゲンガー, ミロカロス, クロバット, カイロス",
+   "teams": [
+    "ゲンガー-3, ミロカロス-3, クロバット-2, カイロス-3"
+   ],
+   "late": "",
+   "quote": "いい かおりを かいでると ねむく なっちゃうよね……",
+   "quote2": "ぼくと ぼくの ポケモンたちの コーラスを きいてください",
+   "sprite": "assets/images/bdsptrainers/aromalady.png",
+   "sprite2": "assets/images/bdsptrainers/guitarist.png"
+  },
+  {
+   "name": "クルブシ",
+   "class": "アロマなおねえさん",
+   "name2": "ナスオ",
+   "class2": "Fisherman",
+   "roster": "ホエルオー-2, モジャンボ-2, ドククラゲ-2, ダーテング-3",
+   "species": "ホエルオー, モジャンボ, ドククラゲ, ダーテング",
+   "teams": [
+    "ホエルオー-2, モジャンボ-2, ドククラゲ-2, ダーテング-3"
+   ],
+   "late": "",
+   "quote": "いい かおりを かいでると ねむく なっちゃうよね……",
+   "quote2": "シンオウいちの さおテクニック！ みせて あげよう！",
+   "sprite": "assets/images/bdsptrainers/aromalady.png",
+   "sprite2": "assets/images/bdsptrainers/fisher.png"
+  },
+  {
+   "name": "ヨシモリ",
+   "class": "おとなのおねえさん",
+   "name2": "コスズ",
+   "class2": "ウエートレス",
+   "roster": "ビークイン-3, アブソル-3, エンペルト-3, レジギガス-3",
+   "species": "ビークイン, アブソル, エンペルト, レジギガス",
+   "teams": [
+    "ビークイン-3, アブソル-3, エンペルト-3, レジギガス-3"
+   ],
+   "late": "",
+   "quote": "いいかな？",
+   "quote2": "おかえりなさいませ！",
+   "sprite": "assets/images/bdsptrainers/beauty.png",
+   "sprite2": "assets/images/bdsptrainers/waitress.png"
+  },
+  {
+   "name": "ゲン",
+   "class": "ポケモントレーナー",
+   "name2": "マイ",
+   "class2": "ポケモントレーナー",
+   "roster": "ウインディ-5, プテラ-3, ボーマンダ-6, ルカリオ-8, ウインディ-6, スターミー-4, ボーマンダ-7, メタグロス-8, ウインディ-7, ガブリアス-9",
+   "species": "ウインディ, プテラ, ボーマンダ, ルカリオ, スターミー, メタグロス, ガブリアス",
+   "teams": [
+    "ウインディ-5, プテラ-3, ボーマンダ-6, ルカリオ-8",
+    "ウインディ-6, スターミー-4, ボーマンダ-7, メタグロス-8",
+    "ウインディ-7, プテラ-3, ルカリオ-8, ガブリアス-9"
+   ],
+   "late": "",
+   "quote": "えいよう バランス！ きみは しっかり とれてるかい？",
+   "quote2": "……しょくじは いのちの みなもと",
+   "sprite": "assets/images/bdsptrainers/riley.png",
+   "sprite2": "assets/images/bdsptrainers/marley.png"
+  },
+  {
+   "name": "タマノシン",
+   "class": "ピエロ",
+   "name2": "ボブヒコ",
+   "class2": "ぼくじょうおじさん",
+   "roster": "スターミー-2, ファイヤー-1, ユキノオー-3, ヤドラン-2",
+   "species": "スターミー, ファイヤー, ユキノオー, ヤドラン",
+   "teams": [
+    "スターミー-2, ファイヤー-1, ユキノオー-3, ヤドラン-2"
+   ],
+   "late": "",
+   "quote": "せいいっぱい やらせて いただきます よろしく おねがい いたします！",
+   "quote2": "ぼっちゃん？ じょうちゃん？ どっちでも いいけど いくぞぉ！",
+   "sprite": "assets/images/bdsptrainers/clown.png",
+   "sprite2": "assets/images/bdsptrainers/rancher.png"
+  },
+  {
+   "name": "ヒョウタ",
+   "class": "ジムリーダー",
+   "name2": "トウガン",
+   "class2": "ジムリーダー",
+   "roster": "バンギラス-8, ラムパルド-6, ハッサム-5, トリデプス-4, ラムパルド-7, バンギラス-9, ドータクン-4, トリデプス-5, プテラ-5, バンギラス-10, メタグロス-5, ヒードラン-7",
+   "species": "バンギラス, ラムパルド, ハッサム, トリデプス, ドータクン, プテラ, メタグロス, ヒードラン",
+   "teams": [
+    "バンギラス-8, ラムパルド-6, ハッサム-5, トリデプス-4",
+    "ラムパルド-7, バンギラス-9, ドータクン-4, トリデプス-5",
+    "プテラ-5, バンギラス-10, メタグロス-5, ヒードラン-7"
+   ],
+   "late": "",
+   "quote": "とうさんと ボク れんけいには じしん ありだよ！",
+   "quote2": "グハハ！ ゆだん するなよ ヒョウタ！",
+   "sprite": "assets/images/bdsptrainers/roark.png",
+   "sprite2": "assets/images/bdsptrainers/byron.png"
+  },
+  {
+   "name": "トゥビェン",
+   "class": "ポケモンレンジャー",
+   "name2": "スゲコ",
+   "class2": "アイドル",
+   "roster": "トリデプス-2, ヘラクロス-3, スイクン-4, ビークイン-2",
+   "species": "トリデプス, ヘラクロス, スイクン, ビークイン",
+   "teams": [
+    "トリデプス-2, ヘラクロス-3, スイクン-4, ビークイン-2"
+   ],
+   "late": "",
+   "quote": "きんちょう してるかな？ おにーさんに まかせなさい！",
+   "quote2": "うたって おどって キミを くぎづけに しちゃう！",
+   "sprite": "assets/images/bdsptrainers/pokemonranger-m.png",
+   "sprite2": "assets/images/bdsptrainers/idol.png"
+  },
+  {
+   "name": "トゥビェン",
+   "class": "ポケモンレンジャー",
+   "name2": "ナンコウ",
+   "class2": "けんきゅういん",
+   "roster": "ケンタロス-2, ヌオー-2, ヤドキング-3, ファイヤー-2",
+   "species": "ケンタロス, ヌオー, ヤドキング, ファイヤー",
+   "teams": [
+    "ケンタロス-2, ヌオー-2, ヤドキング-3, ファイヤー-2"
+   ],
+   "late": "",
+   "quote": "きんちょう してるかな？ おにーさんに まかせなさい！",
+   "quote2": "とつげきせよ！ ぼくの ポケモン！ じっけんの せいかを みせてやれっ！",
+   "sprite": "assets/images/bdsptrainers/pokemonranger-m.png",
+   "sprite2": "assets/images/bdsptrainers/scientist.png"
+  },
+  {
+   "name": "トゥビェン",
+   "class": "ポケモンレンジャー",
+   "name2": "タンジュウ",
+   "class2": "Policeman",
+   "roster": "ファイヤー-3, エレキブル-2, キノガッサ-3, ラティアス-4",
+   "species": "ファイヤー, エレキブル, キノガッサ, ラティアス",
+   "teams": [
+    "ファイヤー-3, エレキブル-2, キノガッサ-3, ラティアス-4"
+   ],
+   "late": "",
+   "quote": "きんちょう してるかな？ おにーさんに まかせなさい！",
+   "quote2": "ムニャ…… ムニャ……",
+   "sprite": "assets/images/bdsptrainers/pokemonranger-m.png",
+   "sprite2": "assets/images/bdsptrainers/policeofficer.png"
+  },
+  {
+   "name": "モモタロウ",
+   "class": "ジョギング",
+   "name2": "ボブヒコ",
+   "class2": "ぼくじょうおじさん",
+   "roster": "サーナイト-3, エンテイ-3, ニドクイン-3, ヤドラン-2",
+   "species": "サーナイト, エンテイ, ニドクイン, ヤドラン",
+   "teams": [
+    "サーナイト-3, エンテイ-3, ニドクイン-3, ヤドラン-2"
+   ],
+   "late": "",
+   "quote": "なぜ ぼくは ここに いるの……",
+   "quote2": "ぼっちゃん？ じょうちゃん？ どっちでも いいけど いくぞぉ！",
+   "sprite": "assets/images/bdsptrainers/jogger.png",
+   "sprite2": "assets/images/bdsptrainers/rancher.png"
+  },
+  {
+   "name": "モモタロウ",
+   "class": "ジョギング",
+   "name2": "タンジュウ",
+   "class2": "Policeman",
+   "roster": "デンリュウ-2, ニョロボン-2, ガルーラ-2, ドータクン-2",
+   "species": "デンリュウ, ニョロボン, ガルーラ, ドータクン",
+   "teams": [
+    "デンリュウ-2, ニョロボン-2, ガルーラ-2, ドータクン-2"
+   ],
+   "late": "",
+   "quote": "なぜ ぼくは ここに いるの……",
+   "quote2": "ムニャ…… ムニャ……",
+   "sprite": "assets/images/bdsptrainers/jogger.png",
+   "sprite2": "assets/images/bdsptrainers/policeofficer.png"
+  },
+  {
+   "name": "トウベエ",
+   "class": "ジョギング",
+   "name2": "ペドロ",
+   "class2": "ベテラントレーナー",
+   "roster": "ハリテヤマ-2, ファイヤー-4, レジロック-2, ラティオス-3",
+   "species": "ハリテヤマ, ファイヤー, レジロック, ラティオス",
+   "teams": [
+    "ハリテヤマ-2, ファイヤー-4, レジロック-2, ラティオス-3"
+   ],
+   "late": "",
+   "quote": "よーい ドン！",
+   "quote2": "はじめに いって おこう…… きみでは わたしに かつことはできない",
+   "sprite": "assets/images/bdsptrainers/jogger.png",
+   "sprite2": "assets/images/bdsptrainers/veteran.png"
+  },
+  {
+   "name": "トウベエ",
+   "class": "ジョギング",
+   "name2": "ヤン",
+   "class2": "Socialite",
+   "roster": "サーナイト-3, ニドキング-3, ガブリアス-2, ユレイドル-2",
+   "species": "サーナイト, ニドキング, ガブリアス, ユレイドル",
+   "teams": [
+    "サーナイト-3, ニドキング-3, ガブリアス-2, ユレイドル-2"
+   ],
+   "late": "",
+   "quote": "よーい ドン！",
+   "quote2": "まだ おこさんじゃ ないの",
+   "sprite": "assets/images/bdsptrainers/jogger.png",
+   "sprite2": "assets/images/bdsptrainers/madame.png"
+  },
+  {
+   "name": "トウベエ",
+   "class": "ジョギング",
+   "name2": "モモタロウ",
+   "class2": "ジョギング",
+   "roster": "スカタンク-2, ベトベトン-2, ウツボット-3, バリヤード-2",
+   "species": "スカタンク, ベトベトン, ウツボット, バリヤード",
+   "teams": [
+    "スカタンク-2, ベトベトン-2, ウツボット-3, バリヤード-2"
+   ],
+   "late": "",
+   "quote": "よーい ドン！",
+   "quote2": "なぜ ぼくは ここに いるの……",
+   "sprite": "assets/images/bdsptrainers/jogger.png",
+   "sprite2": "assets/images/bdsptrainers/jogger.png"
+  },
+  {
+   "name": "ピピン",
+   "class": "アイドル",
+   "name2": "ババール",
+   "class2": "とりつかい",
+   "roster": "フリーザー-4, ムクホーク-2, ラムパルド-2, カビゴン-2",
+   "species": "フリーザー, ムクホーク, ラムパルド, カビゴン",
+   "teams": [
+    "フリーザー-4, ムクホーク-2, ラムパルド-2, カビゴン-2"
+   ],
+   "late": "",
+   "quote": "ほんとに やるき？ あたしと？",
+   "quote2": "じんせい おもいどおりに いかないことも たくさん ある！",
+   "sprite": "assets/images/bdsptrainers/idol.png",
+   "sprite2": "assets/images/bdsptrainers/birdkeeper.png"
+  },
+  {
+   "name": "ピピン",
+   "class": "アイドル",
+   "name2": "ニック",
+   "class2": "ふなのり",
+   "roster": "リングマ-3, ジュカイン-3, ロズレイド-2, ダーテング-3",
+   "species": "リングマ, ジュカイン, ロズレイド, ダーテング",
+   "teams": [
+    "リングマ-3, ジュカイン-3, ロズレイド-2, ダーテング-3"
+   ],
+   "late": "",
+   "quote": "ほんとに やるき？ あたしと？",
+   "quote2": "オオキナ フネニ ノッテ キマシタ",
+   "sprite": "assets/images/bdsptrainers/idol.png",
+   "sprite2": "assets/images/bdsptrainers/sailor.png"
+  },
+  {
+   "name": "ヘル",
+   "class": "ギャンブラー",
+   "name2": "ピピン",
+   "class2": "アイドル",
+   "roster": "サンダース-2, ナッシー-2, ジュカイン-3, ヘラクロス-2",
+   "species": "サンダース, ナッシー, ジュカイン, ヘラクロス",
+   "teams": [
+    "サンダース-2, ナッシー-2, ジュカイン-3, ヘラクロス-2"
+   ],
+   "late": "",
+   "quote": "つきあって もらおう！ かれいなる かけに！",
+   "quote2": "ほんとに やるき？ あたしと？",
+   "sprite": "assets/images/bdsptrainers/pi.png",
+   "sprite2": "assets/images/bdsptrainers/idol.png"
+  },
+  {
+   "name": "テキサス",
+   "class": "カウガール",
+   "name2": "ファナ",
+   "class2": "エリートトレーナー",
+   "roster": "レジロック-4, ハピナス-2, ラティオス-4, ラプラス-2",
+   "species": "レジロック, ハピナス, ラティオス, ラプラス",
+   "teams": [
+    "レジロック-4, ハピナス-2, ラティオス-4, ラプラス-2"
+   ],
+   "late": "",
+   "quote": "がんばっちゃうもんねー！ えい えい おー！",
+   "quote2": "もう にがさない あきらめなさい",
+   "sprite": "assets/images/bdsptrainers/cowgirl.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
+  },
+  {
+   "name": "テキサス",
+   "class": "カウガール",
+   "name2": "イケル",
+   "class2": "ウエーター",
+   "roster": "ラフレシア-3, ギャロップ-2, マニューラ-2, ビークイン-3",
+   "species": "ラフレシア, ギャロップ, マニューラ, ビークイン",
+   "teams": [
+    "ラフレシア-3, ギャロップ-2, マニューラ-2, ビークイン-3"
+   ],
+   "late": "",
+   "quote": "がんばっちゃうもんねー！ えい えい おー！",
+   "quote2": "らっしゃい ませぇー！！",
+   "sprite": "assets/images/bdsptrainers/cowgirl.png",
+   "sprite2": "assets/images/bdsptrainers/waiter.png"
+  },
+  {
+   "name": "ヒメ",
+   "class": "バトルガール",
+   "name2": "ゲンゴロウ",
+   "class2": "ギタリスト",
+   "roster": "カイリキー-2, ライコウ-1, マタドガス-2, レジロック-3",
+   "species": "カイリキー, ライコウ, マタドガス, レジロック",
+   "teams": [
+    "カイリキー-2, ライコウ-1, マタドガス-2, レジロック-3"
+   ],
+   "late": "",
+   "quote": "あたし つよい それだけ",
+   "quote2": "ぼくと ぼくの ポケモンたちの コーラスを きいてください",
+   "sprite": "assets/images/bdsptrainers/battlegirl.png",
+   "sprite2": "assets/images/bdsptrainers/guitarist.png"
+  },
+  {
+   "name": "ヒメ",
+   "class": "バトルガール",
+   "name2": "ジェローム",
+   "class2": "サイクリング",
+   "roster": "アブソル-3, レジギガス-3, レジスチル-1, ゴローニャ-3",
+   "species": "アブソル, レジギガス, レジスチル, ゴローニャ",
+   "teams": [
+    "アブソル-3, レジギガス-3, レジスチル-1, ゴローニャ-3"
+   ],
+   "late": "",
+   "quote": "あたし つよい それだけ",
+   "quote2": "ブロロローーー！！ わしの フルスロットルを みろー！",
+   "sprite": "assets/images/bdsptrainers/battlegirl.png",
+   "sprite2": "assets/images/bdsptrainers/cyclist-m.png"
+  },
+  {
+   "name": "タマエ",
+   "class": "アイドル",
+   "name2": "ドンタ",
+   "class2": "やまおとこ",
+   "roster": "シャワーズ-2, フーディン-2, ギャラドス-2, ベロベルト-2",
+   "species": "シャワーズ, フーディン, ギャラドス, ベロベルト",
+   "teams": [
+    "シャワーズ-2, フーディン-2, ギャラドス-2, ベロベルト-2"
+   ],
+   "late": "",
+   "quote": "しょうぶだけが わたしの いきがい しょうりだけが わたしの ねがい",
+   "quote2": "どすこい！ どすこい！",
+   "sprite": "assets/images/bdsptrainers/idol.png",
+   "sprite2": "assets/images/bdsptrainers/hiker.png"
+  },
+  {
+   "name": "タマエ",
+   "class": "アイドル",
+   "name2": "ゼンコ",
+   "class2": "ポケモンレンジャー",
+   "roster": "ニドキング-2, ダグトリオ-3, ドラピオン-2, グランブル-2, カイロス-2, キノガッサ-2",
+   "species": "ニドキング, ダグトリオ, ドラピオン, グランブル, カイロス, キノガッサ",
+   "teams": [
+    "ニドキング-2, ダグトリオ-3, ドラピオン-2, グランブル-2",
+    "カイロス-2, ダグトリオ-3, ドラピオン-2, キノガッサ-2"
+   ],
+   "late": "",
+   "quote": "しょうぶだけが わたしの いきがい しょうりだけが わたしの ねがい",
+   "quote2": "しぜんの ちから みせて あげる！",
+   "sprite": "assets/images/bdsptrainers/idol.png",
+   "sprite2": "assets/images/bdsptrainers/pokemonranger-f.png"
+  },
+  {
+   "name": "タンジュウ",
+   "class": "Policeman",
+   "name2": "フトシ",
+   "class2": "ポケモンブリーダー",
+   "roster": "ルンパッパ-2, ラプラス-2, ハッサム-2, グライオン-2",
+   "species": "ルンパッパ, ラプラス, ハッサム, グライオン",
+   "teams": [
+    "ルンパッパ-2, ラプラス-2, ハッサム-2, グライオン-2"
+   ],
+   "late": "",
+   "quote": "ムニャ…… ムニャ……",
+   "quote2": "かちまけ ばかりが しょうぶじゃ ないよ",
+   "sprite": "assets/images/bdsptrainers/policeofficer.png",
+   "sprite2": "assets/images/bdsptrainers/pokemonbreeder-m.png"
+  },
+  {
+   "name": "ヒノエ",
+   "class": "ポケモンブリーダー",
+   "name2": "ホーミー",
+   "class2": "カメラマン",
+   "roster": "バクフーン-3, ヒードラン-4, マルマイン-3, ルンパッパ-3",
+   "species": "バクフーン, ヒードラン, マルマイン, ルンパッパ",
+   "teams": [
+    "バクフーン-3, ヒードラン-4, マルマイン-3, ルンパッパ-3"
+   ],
+   "late": "",
+   "quote": "ポケモンの そだてぐあい チェックして あげるね",
+   "quote2": "じーっ",
+   "sprite": "assets/images/bdsptrainers/pokemonbreeder-f.png",
+   "sprite2": "assets/images/bdsptrainers/cameraman.png"
+  },
+  {
+   "name": "ヒノエ",
+   "class": "ポケモンブリーダー",
+   "name2": "スタンリー",
+   "class2": "Policeman",
+   "roster": "ルカリオ-2, ウツボット-3, ミミロップ-2, ウインディ-2",
+   "species": "ルカリオ, ウツボット, ミミロップ, ウインディ",
+   "teams": [
+    "ルカリオ-2, ウツボット-3, ミミロップ-2, ウインディ-2"
+   ],
+   "late": "",
+   "quote": "ポケモンの そだてぐあい チェックして あげるね",
+   "quote2": "はい きみー そこの きみー ちょっと まって くださーい！",
+   "sprite": "assets/images/bdsptrainers/pokemonbreeder-f.png",
+   "sprite2": "assets/images/bdsptrainers/policeofficer.png"
+  },
+  {
+   "name": "イワベエ",
+   "class": "いせきマニア",
+   "name2": "タカジーン",
+   "class2": "ポケモンコレクター",
+   "roster": "レジギガス-4, クレセリア-3, フリーザー-1, ウツボット-2",
+   "species": "レジギガス, クレセリア, フリーザー, ウツボット",
+   "teams": [
+    "レジギガス-4, クレセリア-3, フリーザー-1, ウツボット-2"
+   ],
+   "late": "",
+   "quote": "ポケモンしょうぶの だいごみは さいごの いちげきに ありっ！",
+   "quote2": "パソコンの なかまから じょうほうを きいて そだてたんだぞ！",
+   "sprite": "assets/images/bdsptrainers/ruinmaniac.png",
+   "sprite2": "assets/images/bdsptrainers/collector.png"
+  },
+  {
+   "name": "イワベエ",
+   "class": "いせきマニア",
+   "name2": "モモタロウ",
+   "class2": "ジョギング",
+   "roster": "ヒードラン-5, ギャロップ-3, サンダー-4, エルレイド-2",
+   "species": "ヒードラン, ギャロップ, サンダー, エルレイド",
+   "teams": [
+    "ヒードラン-5, ギャロップ-3, サンダー-4, エルレイド-2"
+   ],
+   "late": "",
+   "quote": "ポケモンしょうぶの だいごみは さいごの いちげきに ありっ！",
+   "quote2": "なぜ ぼくは ここに いるの……",
+   "sprite": "assets/images/bdsptrainers/ruinmaniac.png",
+   "sprite2": "assets/images/bdsptrainers/jogger.png"
+  },
+  {
+   "name": "パクサ",
+   "class": "ギタリスト",
+   "name2": "スケ",
+   "class2": "バトルガール",
+   "roster": "メタグロス-2, トドゼルガ-2, ハリテヤマ-3, エアームド-2",
+   "species": "メタグロス, トドゼルガ, ハリテヤマ, エアームド",
+   "teams": [
+    "メタグロス-2, トドゼルガ-2, ハリテヤマ-3, エアームド-2"
+   ],
+   "late": "",
+   "quote": "へー いいんじゃん きみ",
+   "quote2": "シャーッ！",
+   "sprite": "assets/images/bdsptrainers/guitarist.png",
+   "sprite2": "assets/images/bdsptrainers/battlegirl.png"
+  },
+  {
+   "name": "パクサ",
+   "class": "ギタリスト",
+   "name2": "ヤン",
+   "class2": "Socialite",
+   "roster": "ミルタンク-2, キノガッサ-2, チルタリス-2, ドククラゲ-2",
+   "species": "ミルタンク, キノガッサ, チルタリス, ドククラゲ",
+   "teams": [
+    "ミルタンク-2, キノガッサ-2, チルタリス-2, ドククラゲ-2"
+   ],
+   "late": "",
+   "quote": "へー いいんじゃん きみ",
+   "quote2": "まだ おこさんじゃ ないの",
+   "sprite": "assets/images/bdsptrainers/guitarist.png",
+   "sprite2": "assets/images/bdsptrainers/madame.png"
+  },
+  {
+   "name": "パクサ",
+   "class": "ギタリスト",
+   "name2": "カンベエ",
+   "class2": "ベテラントレーナー",
+   "roster": "メガニウム-3, トドゼルガ-2, マタドガス-3, エアームド-2",
+   "species": "メガニウム, トドゼルガ, マタドガス, エアームド",
+   "teams": [
+    "メガニウム-3, トドゼルガ-2, マタドガス-3, エアームド-2"
+   ],
+   "late": "",
+   "quote": "へー いいんじゃん きみ",
+   "quote2": "ボク もう なんねんも ここにいるけど まるで あきないね",
+   "sprite": "assets/images/bdsptrainers/guitarist.png",
+   "sprite2": "assets/images/bdsptrainers/veteran.png"
+  },
+  {
+   "name": "パオ",
+   "class": "アイドル",
+   "name2": "コウガ",
+   "class2": "ポケモンブリーダー",
+   "roster": "フライゴン-2, サンダー-3, ライコウ-4, チャーレム-3",
+   "species": "フライゴン, サンダー, ライコウ, チャーレム",
+   "teams": [
+    "フライゴン-2, サンダー-3, ライコウ-4, チャーレム-3"
+   ],
+   "late": "",
+   "quote": "キミ だいじょうぶ？ あたし ウルトラすっごいよ！",
+   "quote2": "きびしくても だめ…… あまやかしても だめ……",
+   "sprite": "assets/images/bdsptrainers/idol.png",
+   "sprite2": "assets/images/bdsptrainers/pokemonbreeder-f.png"
+  },
+  {
+   "name": "パオ",
+   "class": "アイドル",
+   "name2": "ペル",
+   "class2": "ピエロ",
+   "roster": "ヤドキング-2, ランターン-3, ナマズン-2, カバルドン-2",
+   "species": "ヤドキング, ランターン, ナマズン, カバルドン",
+   "teams": [
+    "ヤドキング-2, ランターン-3, ナマズン-2, カバルドン-2"
+   ],
+   "late": "",
+   "quote": "キミ だいじょうぶ？ あたし ウルトラすっごいよ！",
+   "quote2": "ポケモンしょうぶと いうのはね すなに かいた ラブレターなのだよ",
+   "sprite": "assets/images/bdsptrainers/idol.png",
+   "sprite2": "assets/images/bdsptrainers/clown.png"
+  },
+  {
+   "name": "パオ",
+   "class": "アイドル",
+   "name2": "ナスオ",
+   "class2": "Fisherman",
+   "roster": "レジギガス-5, ゴルダック-3, プテラ-2, レジロック-1",
+   "species": "レジギガス, ゴルダック, プテラ, レジロック",
+   "teams": [
+    "レジギガス-5, ゴルダック-3, プテラ-2, レジロック-1"
+   ],
+   "late": "",
+   "quote": "キミ だいじょうぶ？ あたし ウルトラすっごいよ！",
+   "quote2": "シンオウいちの さおテクニック！ みせて あげよう！",
+   "sprite": "assets/images/bdsptrainers/idol.png",
+   "sprite2": "assets/images/bdsptrainers/fisher.png"
+  }
+ ]
 }

@@ -1,2640 +1,2640 @@
 {
-  "trainers": [
-    {
-      "name": "赫尔佳",
-      "class": "精英训练家",
-      "name2": "阿玛波拉",
-      "class2": "光头男",
-      "roster": "姆克鹰-3, 浮潜鼬-2, 梦妖魔-3, 拉帝亚斯-4",
-      "species": "姆克鹰, 浮潜鼬, 梦妖魔, 拉帝亚斯",
-      "teams": [
-        "姆克鹰-3, 浮潜鼬-2, 梦妖魔-3, 拉帝亚斯-4"
-      ],
-      "late": "",
-      "quote": "嘿～嘿～！ 一起愉快地玩耍吧！",
-      "quote2": "爸……妈…… 好好看着吧……",
-      "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
-      "sprite2": "assets/images/bdsptrainers/roughneck.png"
-    },
-    {
-      "name": "赫尔佳",
-      "class": "精英训练家",
-      "name2": "雪朵",
-      "class2": "Pokefan (F)",
-      "roster": "暴雪王-2, 雷吉斯奇鲁-3, 长耳兔-3, 电龙-2",
-      "species": "暴雪王, 雷吉斯奇鲁, 长耳兔, 电龙",
-      "teams": [
-        "暴雪王-2, 雷吉斯奇鲁-3, 长耳兔-3, 电龙-2"
-      ],
-      "late": "",
-      "quote": "嘿～嘿～！ 一起愉快地玩耍吧！",
-      "quote2": "别看阿姨现在这样， 年轻的时候可是个万人迷呢。",
-      "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
-      "sprite2": "assets/images/bdsptrainers/pokefan-f.png"
-    },
-    {
-      "name": "席格",
-      "class": "光头男",
-      "name2": "阿玛波拉",
-      "class2": "光头男",
-      "roster": "鲶鱼王-3, 凯罗斯-2, 雷丘-2, 肯泰罗-3",
-      "species": "鲶鱼王, 凯罗斯, 雷丘, 肯泰罗",
-      "teams": [
-        "鲶鱼王-3, 凯罗斯-2, 雷丘-2, 肯泰罗-3"
-      ],
-      "late": "",
-      "quote": "我其实不喜欢对战。",
-      "quote2": "爸……妈…… 好好看着吧……",
-      "sprite": "assets/images/bdsptrainers/roughneck.png",
-      "sprite2": "assets/images/bdsptrainers/roughneck.png"
-    },
-    {
-      "name": "席格",
-      "class": "光头男",
-      "name2": "百本木",
-      "class2": "工人",
-      "roster": "引梦貘人-2, 海兔兽-2, 爆音怪-2, 三地鼠-3",
-      "species": "引梦貘人, 海兔兽, 爆音怪, 三地鼠",
-      "teams": [
-        "引梦貘人-2, 海兔兽-2, 爆音怪-2, 三地鼠-3"
-      ],
-      "late": "",
-      "quote": "我其实不喜欢对战。",
-      "quote2": "看我把你打成废铁。",
-      "sprite": "assets/images/bdsptrainers/roughneck.png",
-      "sprite2": "assets/images/bdsptrainers/worker.png"
-    },
-    {
-      "name": "席格",
-      "class": "光头男",
-      "name2": "涅墨",
-      "class2": "绅士",
-      "roster": "刺龙王-2, 雷吉洛克-1, 火暴兽-3, 闪电鸟-1",
-      "species": "刺龙王, 雷吉洛克, 火暴兽, 闪电鸟",
-      "teams": [
-        "刺龙王-2, 雷吉洛克-1, 火暴兽-3, 闪电鸟-1"
-      ],
-      "late": "",
-      "quote": "我其实不喜欢对战。",
-      "quote2": "让我们回归童心 来场对战吧！",
-      "sprite": "assets/images/bdsptrainers/roughneck.png",
-      "sprite2": "assets/images/bdsptrainers/gentleman.png"
-    },
-    {
-      "name": "席格",
-      "class": "光头男",
-      "name2": "史丹利",
-      "class2": "Policeman",
-      "roster": "护城龙-2, 黑鲁加-2, 巨金怪-2, 大朝北鼻-2",
-      "species": "护城龙, 黑鲁加, 巨金怪, 大朝北鼻",
-      "teams": [
-        "护城龙-2, 黑鲁加-2, 巨金怪-2, 大朝北鼻-2"
-      ],
-      "late": "",
-      "quote": "我其实不喜欢对战。",
-      "quote2": "喂，你～说的就是那边的你～ 请你稍等一下～！",
-      "sprite": "assets/images/bdsptrainers/roughneck.png",
-      "sprite2": "assets/images/bdsptrainers/policeofficer.png"
-    },
-    {
-      "name": "桐太",
-      "class": "登山男",
-      "name2": "亚多鲁",
-      "class2": "宝可梦培育家",
-      "roster": "圈圈熊-2, 炎帝-1, 顿甲-3, 双弹瓦斯-3",
-      "species": "圈圈熊, 炎帝, 顿甲, 双弹瓦斯",
-      "teams": [
-        "圈圈熊-2, 炎帝-1, 顿甲-3, 双弹瓦斯-3"
-      ],
-      "late": "",
-      "quote": "来啊！来啊！",
-      "quote2": "来给你介绍一下！ 我最重要的搭档！",
-      "sprite": "assets/images/bdsptrainers/hiker.png",
-      "sprite2": "assets/images/bdsptrainers/pokemonbreeder-m.png"
-    },
-    {
-      "name": "桐太",
-      "class": "登山男",
-      "name2": "雷波曼",
-      "class2": "研究员",
-      "roster": "急冻鸟-2, 毒刺水母-2, 雷吉洛克-3, 暴飞龙-2",
-      "species": "急冻鸟, 毒刺水母, 雷吉洛克, 暴飞龙",
-      "teams": [
-        "急冻鸟-2, 毒刺水母-2, 雷吉洛克-3, 暴飞龙-2"
-      ],
-      "late": "",
-      "quote": "来啊！来啊！",
-      "quote2": "这就是科学的力量！",
-      "sprite": "assets/images/bdsptrainers/hiker.png",
-      "sprite2": "assets/images/bdsptrainers/scientist.png"
-    },
-    {
-      "name": "桐太",
-      "class": "登山男",
-      "name2": "蝶舞",
-      "class2": "Socialite",
-      "roster": "随风球-3, 大奶罐-3, 哥达鸭-2, 炎帝-4",
-      "species": "随风球, 大奶罐, 哥达鸭, 炎帝",
-      "teams": [
-        "随风球-3, 大奶罐-3, 哥达鸭-2, 炎帝-4"
-      ],
-      "late": "",
-      "quote": "来啊！来啊！",
-      "quote2": "希望我家孩子 能成为优秀强大的训练家。",
-      "sprite": "assets/images/bdsptrainers/hiker.png",
-      "sprite2": "assets/images/bdsptrainers/madame.png"
-    },
-    {
-      "name": "芭芭儿",
-      "class": "养鸟人",
-      "name2": "郝乐",
-      "class2": "赌徒",
-      "roster": "超甲狂犀-3, 风速狗-2, 巨钳螳螂-2, 臭臭泥-3",
-      "species": "超甲狂犀, 风速狗, 巨钳螳螂, 臭臭泥",
-      "teams": [
-        "超甲狂犀-3, 风速狗-2, 巨钳螳螂-2, 臭臭泥-3"
-      ],
-      "late": "",
-      "quote": "人生啊，很多时候 都不会让你称心如意！",
-      "quote2": "陪我来一场吧！ 华丽的胜负！",
-      "sprite": "assets/images/bdsptrainers/birdkeeper.png",
-      "sprite2": "assets/images/bdsptrainers/pi.png"
-    },
-    {
-      "name": "芭芭儿",
-      "class": "养鸟人",
-      "name2": "金运",
-      "class2": "赌徒",
-      "roster": "海兔兽-3, 恰雷姆-2, 席多蓝恩-2, 波士可多拉-2",
-      "species": "海兔兽, 恰雷姆, 席多蓝恩, 波士可多拉",
-      "teams": [
-        "海兔兽-3, 恰雷姆-2, 席多蓝恩-2, 波士可多拉-2"
-      ],
-      "late": "",
-      "quote": "人生啊，很多时候 都不会让你称心如意！",
-      "quote2": "来场有深度的对决吧。",
-      "sprite": "assets/images/bdsptrainers/birdkeeper.png",
-      "sprite2": "assets/images/bdsptrainers/pi.png"
-    },
-    {
-      "name": "喜可",
-      "class": "超能力者",
-      "name2": "穆轲",
-      "class2": "宝可梦收藏家",
-      "roster": "暴雪王-2, 化石翼龙-2, 火暴兽-3, 冰伊布-2",
-      "species": "暴雪王, 化石翼龙, 火暴兽, 冰伊布",
-      "teams": [
-        "暴雪王-2, 化石翼龙-2, 火暴兽-3, 冰伊布-2"
-      ],
-      "late": "",
-      "quote": "哥哥是这么教我的！ 眼睛！他说要瞄准眼睛！",
-      "quote2": "等我会儿啊， 我在写邮件呢。",
-      "sprite": "assets/images/bdsptrainers/psychic-f.png",
-      "sprite2": "assets/images/bdsptrainers/collector.png"
-    },
-    {
-      "name": "喜可",
-      "class": "超能力者",
-      "name2": "爱蜜",
-      "class2": "自行车手",
-      "roster": "护城龙-3, 幸福蛋-2, 冰鬼护-3, 玛狃拉-2",
-      "species": "护城龙, 幸福蛋, 冰鬼护, 玛狃拉",
-      "teams": [
-        "护城龙-3, 幸福蛋-2, 冰鬼护-3, 玛狃拉-2"
-      ],
-      "late": "",
-      "quote": "哥哥是这么教我的！ 眼睛！他说要瞄准眼睛！",
-      "quote2": "叮铃，叮铃铃。",
-      "sprite": "assets/images/bdsptrainers/psychic-f.png",
-      "sprite2": "assets/images/bdsptrainers/cyclist-f.png"
-    },
-    {
-      "name": "泽诺",
-      "class": "驯龙师",
-      "name2": "武虎",
-      "class2": "空手道王",
-      "roster": "圈圈熊-2, 急冻鸟-3, 多边兽２型-2, 水君-1",
-      "species": "圈圈熊, 急冻鸟, 多边兽２型, 水君",
-      "teams": [
-        "圈圈熊-2, 急冻鸟-3, 多边兽２型-2, 水君-1"
-      ],
-      "late": "",
-      "quote": "啊哈哈哈哈！ 在下就是你的对手！",
-      "quote2": "嘿呀！！",
-      "sprite": "assets/images/bdsptrainers/dragontamer.png",
-      "sprite2": "assets/images/bdsptrainers/blackbelt.png"
-    },
-    {
-      "name": "泽诺",
-      "class": "驯龙师",
-      "name2": "裘绅",
-      "class2": "小丑",
-      "roster": "呆壳兽-2, 巨沼怪-3, 尼多王-2, 雷吉艾斯-3",
-      "species": "呆壳兽, 巨沼怪, 尼多王, 雷吉艾斯",
-      "teams": [
-        "呆壳兽-2, 巨沼怪-3, 尼多王-2, 雷吉艾斯-3"
-      ],
-      "late": "",
-      "quote": "啊哈哈哈哈！ 在下就是你的对手！",
-      "quote2": "我会全力以赴的。 请多多关照！",
-      "sprite": "assets/images/bdsptrainers/dragontamer.png",
-      "sprite2": "assets/images/bdsptrainers/clown.png"
-    },
-    {
-      "name": "伯布希",
-      "class": "牧场大叔",
-      "name2": "克妮格",
-      "class2": "宝可梦巡护员",
-      "roster": "巨沼怪-3, 大奶罐-3, 炎帝-2, 青铜钟-2",
-      "species": "巨沼怪, 大奶罐, 炎帝, 青铜钟",
-      "teams": [
-        "巨沼怪-3, 大奶罐-3, 炎帝-2, 青铜钟-2"
-      ],
-      "late": "",
-      "quote": "小少爷？小姑娘？ 总之我们先上吧！",
-      "quote2": "想和我对战？ 结果我可不负责哦！",
-      "sprite": "assets/images/bdsptrainers/rancher.png",
-      "sprite2": "assets/images/bdsptrainers/pokemonranger-f.png"
-    },
-    {
-      "name": "摩洛梭",
-      "class": "登山男",
-      "name2": "源五郎",
-      "class2": "吉他手",
-      "roster": "姆克鹰-2, 双尾怪手-2, 嘎啦嘎啦-3, 太古盔甲-2",
-      "species": "姆克鹰, 双尾怪手, 嘎啦嘎啦, 太古盔甲",
-      "teams": [
-        "姆克鹰-2, 双尾怪手-2, 嘎啦嘎啦-3, 太古盔甲-2"
-      ],
-      "late": "",
-      "quote": "让我们来场爽快的对战吧！ 来！笑一个！",
-      "quote2": "请听我和宝可梦们的大合唱。",
-      "sprite": "assets/images/bdsptrainers/hiker.png",
-      "sprite2": "assets/images/bdsptrainers/guitarist.png"
-    },
-    {
-      "name": "摩洛梭",
-      "class": "登山男",
-      "name2": "珍妮特",
-      "class2": "记者",
-      "roster": "霸王花-2, 双尾怪手-2, 嘎啦嘎啦-3, 太古盔甲-2",
-      "species": "霸王花, 双尾怪手, 嘎啦嘎啦, 太古盔甲",
-      "teams": [
-        "霸王花-2, 双尾怪手-2, 嘎啦嘎啦-3, 太古盔甲-2"
-      ],
-      "late": "",
-      "quote": "让我们来场爽快的对战吧！ 来！笑一个！",
-      "quote2": "嗯～怎么进攻比较好呢？",
-      "sprite": "assets/images/bdsptrainers/hiker.png",
-      "sprite2": "assets/images/bdsptrainers/reporter.png"
-    },
-    {
-      "name": "摩洛梭",
-      "class": "登山男",
-      "name2": "爱蜜",
-      "class2": "自行车手",
-      "roster": "铁掌力士-3, 大朝北鼻-2, 月亮伊布-2, 阿勃梭鲁-2",
-      "species": "铁掌力士, 大朝北鼻, 月亮伊布, 阿勃梭鲁",
-      "teams": [
-        "铁掌力士-3, 大朝北鼻-2, 月亮伊布-2, 阿勃梭鲁-2"
-      ],
-      "late": "",
-      "quote": "让我们来场爽快的对战吧！ 来！笑一个！",
-      "quote2": "叮铃，叮铃铃。",
-      "sprite": "assets/images/bdsptrainers/hiker.png",
-      "sprite2": "assets/images/bdsptrainers/cyclist-f.png"
-    },
-    {
-      "name": "摩洛梭",
-      "class": "登山男",
-      "name2": "斯琦",
-      "class2": "对战少女",
-      "roster": "巨钳螳螂-3, 摇篮百合-2, 雪妖女-3, 鸭嘴炎兽-2",
-      "species": "巨钳螳螂, 摇篮百合, 雪妖女, 鸭嘴炎兽",
-      "teams": [
-        "巨钳螳螂-3, 摇篮百合-2, 雪妖女-3, 鸭嘴炎兽-2"
-      ],
-      "late": "",
-      "quote": "让我们来场爽快的对战吧！ 来！笑一个！",
-      "quote2": "呀～！",
-      "sprite": "assets/images/bdsptrainers/hiker.png",
-      "sprite2": "assets/images/bdsptrainers/battlegirl.png"
-    },
-    {
-      "name": "松鸦",
-      "class": "养鸟人",
-      "name2": "拉吉康",
-      "class2": "水手",
-      "roster": "帝牙海狮-2, 刺龙王-2, 大钢蛇-2, 乐天河童-2",
-      "species": "帝牙海狮, 刺龙王, 大钢蛇, 乐天河童",
-      "teams": [
-        "帝牙海狮-2, 刺龙王-2, 大钢蛇-2, 乐天河童-2"
-      ],
-      "late": "",
-      "quote": "你已经无处可逃了！",
-      "quote2": "咦？对手是你啊？ 总感觉有些不安……",
-      "sprite": "assets/images/bdsptrainers/birdkeeper.png",
-      "sprite2": "assets/images/bdsptrainers/sailor.png"
-    },
-    {
-      "name": "松鸦",
-      "class": "养鸟人",
-      "name2": "舒瑚",
-      "class2": "香氛姐姐",
-      "roster": "刺龙王-2, 雷吉艾斯-4, 喷火龙-3, 尼多王-3",
-      "species": "刺龙王, 雷吉艾斯, 喷火龙, 尼多王",
-      "teams": [
-        "刺龙王-2, 雷吉艾斯-4, 喷火龙-3, 尼多王-3"
-      ],
-      "late": "",
-      "quote": "你已经无处可逃了！",
-      "quote2": "闻到香香的味道， 就会很想睡啊……",
-      "sprite": "assets/images/bdsptrainers/birdkeeper.png",
-      "sprite2": "assets/images/bdsptrainers/aromalady.png"
-    },
-    {
-      "name": "佩多罗",
-      "class": "资深训练家",
-      "name2": "香馨",
-      "class2": "香氛姐姐",
-      "roster": "多边兽乙型-2, 克雷色利亚-3, 白海狮-3, 黑鲁加-3",
-      "species": "多边兽乙型, 克雷色利亚, 白海狮, 黑鲁加",
-      "teams": [
-        "多边兽乙型-2, 克雷色利亚-3, 白海狮-3, 黑鲁加-3"
-      ],
-      "late": "",
-      "quote": "我先说明白…… 你是赢不了我的。",
-      "quote2": "想赢我？ 你还早了十年！！",
-      "sprite": "assets/images/bdsptrainers/veteran.png",
-      "sprite2": "assets/images/bdsptrainers/aromalady.png"
-    },
-    {
-      "name": "朔三",
-      "class": "赌徒",
-      "name2": "阿玛波拉",
-      "class2": "光头男",
-      "roster": "长耳兔-3, 罗丝雷朵-2, 巨钳螳螂-3, 坦克臭鼬-3",
-      "species": "长耳兔, 罗丝雷朵, 巨钳螳螂, 坦克臭鼬",
-      "teams": [
-        "长耳兔-3, 罗丝雷朵-2, 巨钳螳螂-3, 坦克臭鼬-3"
-      ],
-      "late": "",
-      "quote": "你要拿什么来胜负呢？ 我会付出我的全部！",
-      "quote2": "爸……妈…… 好好看着吧……",
-      "sprite": "assets/images/bdsptrainers/pi.png",
-      "sprite2": "assets/images/bdsptrainers/roughneck.png"
-    },
-    {
-      "name": "朔三",
-      "class": "赌徒",
-      "name2": "嵋仲",
-      "class2": "赌徒",
-      "roster": "梦妖魔-2, 大力鳄-3, 鲶鱼王-3, 水君-4",
-      "species": "梦妖魔, 大力鳄, 鲶鱼王, 水君",
-      "teams": [
-        "梦妖魔-2, 大力鳄-3, 鲶鱼王-3, 水君-4"
-      ],
-      "late": "",
-      "quote": "你要拿什么来胜负呢？ 我会付出我的全部！",
-      "quote2": "输赢可不是用 精密计算算出来的！",
-      "sprite": "assets/images/bdsptrainers/pi.png",
-      "sprite2": "assets/images/bdsptrainers/pi.png"
-    },
-    {
-      "name": "荷米",
-      "class": "摄影师",
-      "name2": "忒奇瑟",
-      "class2": "牛仔女孩",
-      "roster": "爆音怪-3, 雷公-1, 电灯怪-2, 美纳斯-3",
-      "species": "爆音怪, 雷公, 电灯怪, 美纳斯",
-      "teams": [
-        "爆音怪-3, 雷公-1, 电灯怪-2, 美纳斯-3"
-      ],
-      "late": "",
-      "quote": "我盯……",
-      "quote2": "我要努力拿下胜利～！ 耶～耶～哦～！",
-      "sprite": "assets/images/bdsptrainers/cameraman.png",
-      "sprite2": "assets/images/bdsptrainers/cowgirl.png"
-    },
-    {
-      "name": "阿驯",
-      "class": "宝可梦训练家",
-      "name2": "桄榔",
-      "class2": "对战塔大君",
-      "roster": "帝王拿波-5, 姆克鹰-5, 超甲狂犀-10, 席多蓝恩-12, 赫拉克罗斯-5, 烈焰猴-7, 快龙-9, 克雷色利亚-11, 土台龟-5, 卡比兽-4, 美纳斯-8, 席多蓝恩-7",
-      "species": "帝王拿波, 姆克鹰, 超甲狂犀, 席多蓝恩, 赫拉克罗斯, 烈焰猴, 快龙, 克雷色利亚, 土台龟, 卡比兽, 美纳斯",
-      "teams": [
-        "帝王拿波-5, 姆克鹰-5, 超甲狂犀-10, 席多蓝恩-12",
-        "赫拉克罗斯-5, 烈焰猴-7, 快龙-9, 克雷色利亚-11",
-        "土台龟-5, 卡比兽-4, 美纳斯-8, 席多蓝恩-7"
-      ],
-      "late": "",
-      "quote": "你来啦，！ 我在这里见到了我老爸， 达成了自己的一个目标！ 但我还有另一个目标， 那就是成为世上最强的 宝可梦训练家！ 我现在就要打败你， 来达成我这个目标！",
-      "quote2": "嗨，。 你竟然能一路过关斩将抵达这里！ 我的儿子自从认识了你之后， 简直令我刮目相看啊！ 让我在此向你道谢吧！ 接下来，身为对战塔大君， 让我和儿子一起 使出全力与你对战吧！ 来吧，向对战塔大君我 展现一下你的实力吧！",
-      "sprite": "assets/images/bdsptrainers/barry.png",
-      "sprite2": "assets/images/bdsptrainers/palmer.png"
-    },
-    {
-      "name": "亚多鲁",
-      "class": "宝可梦培育家",
-      "name2": "安东尼奥",
-      "class2": "服务生",
-      "roster": "巨蔓藤-2, 雷吉斯奇鲁-2, 佛烈托斯-3, 爆音怪-2",
-      "species": "巨蔓藤, 雷吉斯奇鲁, 佛烈托斯, 爆音怪",
-      "teams": [
-        "巨蔓藤-2, 雷吉斯奇鲁-2, 佛烈托斯-3, 爆音怪-2"
-      ],
-      "late": "",
-      "quote": "来给你介绍一下！ 我最重要的搭档！",
-      "quote2": "哦～！你看起来挺强的嘛～ 好期待，好期待！",
-      "sprite": "assets/images/bdsptrainers/pokemonbreeder-m.png",
-      "sprite2": "assets/images/bdsptrainers/waiter.png"
-    },
-    {
-      "name": "忠兴",
-      "class": "Fisherman",
-      "name2": "安东",
-      "class2": "精英训练家",
-      "roster": "哥达鸭-2, 雷吉斯奇鲁-4, 拉帝欧斯-4, 拉帝亚斯-4",
-      "species": "哥达鸭, 雷吉斯奇鲁, 拉帝欧斯, 拉帝亚斯",
-      "teams": [
-        "哥达鸭-2, 雷吉斯奇鲁-4, 拉帝欧斯-4, 拉帝亚斯-4"
-      ],
-      "late": "",
-      "quote": "老夫最喜欢垂钓和对战了。",
-      "quote2": "你～完全没戏哟～ 我来告诉你哟～",
-      "sprite": "assets/images/bdsptrainers/fisher.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-m.png"
-    },
-    {
-      "name": "忠兴",
-      "class": "Fisherman",
-      "name2": "赛飞罗",
-      "class2": "驯龙师",
-      "roster": "呆呆王-3, 火焰鸟-2, 雪妖女-2, 水箭龟-3",
-      "species": "呆呆王, 火焰鸟, 雪妖女, 水箭龟",
-      "teams": [
-        "呆呆王-3, 火焰鸟-2, 雪妖女-2, 水箭龟-3"
-      ],
-      "late": "",
-      "quote": "老夫最喜欢垂钓和对战了。",
-      "quote2": "上吧～！ 经过我严格训练的小宝可梦们～！",
-      "sprite": "assets/images/bdsptrainers/fisher.png",
-      "sprite2": "assets/images/bdsptrainers/dragontamer.png"
-    },
-    {
-      "name": "忠兴",
-      "class": "Fisherman",
-      "name2": "南航",
-      "class2": "研究员",
-      "roster": "卡比兽-2, 毒骷蛙-3, 请假王-2, 水君-3",
-      "species": "卡比兽, 毒骷蛙, 请假王, 水君",
-      "teams": [
-        "卡比兽-2, 毒骷蛙-3, 请假王-2, 水君-3"
-      ],
-      "late": "",
-      "quote": "老夫最喜欢垂钓和对战了。",
-      "quote2": "突击吧！我的宝可梦！ 展示我们的试验成果吧！",
-      "sprite": "assets/images/bdsptrainers/fisher.png",
-      "sprite2": "assets/images/bdsptrainers/scientist.png"
-    },
-    {
-      "name": "忠兴",
-      "class": "Fisherman",
-      "name2": "爱蜜",
-      "class2": "自行车手",
-      "roster": "闪电鸟-1, 蚊香蛙皇-3, 宝石海星-2, 雪妖女-2",
-      "species": "闪电鸟, 蚊香蛙皇, 宝石海星, 雪妖女",
-      "teams": [
-        "闪电鸟-1, 蚊香蛙皇-3, 宝石海星-2, 雪妖女-2"
-      ],
-      "late": "",
-      "quote": "老夫最喜欢垂钓和对战了。",
-      "quote2": "叮铃，叮铃铃。",
-      "sprite": "assets/images/bdsptrainers/fisher.png",
-      "sprite2": "assets/images/bdsptrainers/cyclist-f.png"
-    },
-    {
-      "name": "麦可",
-      "class": "宝可梦训练家",
-      "name2": "菊野",
-      "class2": "四天王",
-      "roster": "克雷色利亚-8, 念力土偶-4, 超甲狂犀-6, 大钢蛇-4, 雷吉洛克-6, 念力土偶-5, 河马兽-4, 超甲狂犀-7, 克雷色利亚-9, 顿甲-4, 超甲狂犀-5",
-      "species": "克雷色利亚, 念力土偶, 超甲狂犀, 大钢蛇, 雷吉洛克, 河马兽, 顿甲",
-      "teams": [
-        "克雷色利亚-8, 念力土偶-4, 超甲狂犀-6, 大钢蛇-4",
-        "雷吉洛克-6, 念力土偶-5, 河马兽-4, 超甲狂犀-7",
-        "念力土偶-5, 克雷色利亚-9, 顿甲-4, 超甲狂犀-5"
-      ],
-      "late": "",
-      "quote": "哟！ 我们来比比看吧， 到底谁会先爬上顶端！",
-      "quote2": "哦呵呵！年轻人啊， 就要脚踏实地才好。",
-      "sprite": "assets/images/bdsptrainers/buck.png",
-      "sprite2": "assets/images/bdsptrainers/bertha.png"
-    },
-    {
-      "name": "尼克",
-      "class": "水手",
-      "name2": "朔三",
-      "class2": "赌徒",
-      "roster": "浮潜鼬-3, 念力土偶-2, 太古盔甲-3, 伦琴猫-2",
-      "species": "浮潜鼬, 念力土偶, 太古盔甲, 伦琴猫",
-      "teams": [
-        "浮潜鼬-3, 念力土偶-2, 太古盔甲-3, 伦琴猫-2"
-      ],
-      "late": "",
-      "quote": "我乘大船来的。",
-      "quote2": "你要拿什么来胜负呢？ 我会付出我的全部！",
-      "sprite": "assets/images/bdsptrainers/sailor.png",
-      "sprite2": "assets/images/bdsptrainers/pi.png"
-    },
-    {
-      "name": "尼克",
-      "class": "水手",
-      "name2": "百本木",
-      "class2": "工人",
-      "roster": "隆隆岩-3, 克雷色利亚-2, 顽皮雷弹-3, 铁掌力士-2",
-      "species": "隆隆岩, 克雷色利亚, 顽皮雷弹, 铁掌力士",
-      "teams": [
-        "隆隆岩-3, 克雷色利亚-2, 顽皮雷弹-3, 铁掌力士-2"
-      ],
-      "late": "",
-      "quote": "我乘大船来的。",
-      "quote2": "看我把你打成废铁。",
-      "sprite": "assets/images/bdsptrainers/sailor.png",
-      "sprite2": "assets/images/bdsptrainers/worker.png"
-    },
-    {
-      "name": "雷波曼",
-      "class": "研究员",
-      "name2": "泽诺",
-      "class2": "驯龙师",
-      "roster": "急冻鸟-4, 冰鬼护-2, 自爆磁怪-2, 拉帝亚斯-2",
-      "species": "急冻鸟, 冰鬼护, 自爆磁怪, 拉帝亚斯",
-      "teams": [
-        "急冻鸟-4, 冰鬼护-2, 自爆磁怪-2, 拉帝亚斯-2"
-      ],
-      "late": "",
-      "quote": "这就是科学的力量！",
-      "quote2": "啊哈哈哈哈！ 在下就是你的对手！",
-      "sprite": "assets/images/bdsptrainers/scientist.png",
-      "sprite2": "assets/images/bdsptrainers/dragontamer.png"
-    },
-    {
-      "name": "雷波曼",
-      "class": "研究员",
-      "name2": "思晴",
-      "class2": "精英训练家",
-      "roster": "象牙猪-3, 尼多王-3, 蚊香泳士-3, 摇篮百合-2",
-      "species": "象牙猪, 尼多王, 蚊香泳士, 摇篮百合",
-      "teams": [
-        "象牙猪-3, 尼多王-3, 蚊香泳士-3, 摇篮百合-2"
-      ],
-      "late": "",
-      "quote": "这就是科学的力量！",
-      "quote2": "来，放马过来吧！",
-      "sprite": "assets/images/bdsptrainers/scientist.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
-    },
-    {
-      "name": "小鹤",
-      "class": "精英训练家",
-      "name2": "佩尔",
-      "class2": "小丑",
-      "roster": "顿甲-2, 壶壶-2, 霸王花-2, 路卡利欧-2",
-      "species": "顿甲, 壶壶, 霸王花, 路卡利欧",
-      "teams": [
-        "顿甲-2, 壶壶-2, 霸王花-2, 路卡利欧-2"
-      ],
-      "late": "",
-      "quote": "拿出真本事来吧！",
-      "quote2": "所谓的宝可梦对战 就像写在沙滩上的情书一样。",
-      "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
-      "sprite2": "assets/images/bdsptrainers/clown.png"
-    },
-    {
-      "name": "小鹤",
-      "class": "精英训练家",
-      "name2": "有行",
-      "class2": "服务生",
-      "roster": "雷吉奇卡斯-4, 七夕青鸟-3, 妙蛙花-3, 胡地-2",
-      "species": "雷吉奇卡斯, 七夕青鸟, 妙蛙花, 胡地",
-      "teams": [
-        "雷吉奇卡斯-4, 七夕青鸟-3, 妙蛙花-3, 胡地-2"
-      ],
-      "late": "",
-      "quote": "拿出真本事来吧！",
-      "quote2": "欢迎光临～！！",
-      "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
-      "sprite2": "assets/images/bdsptrainers/waiter.png"
-    },
-    {
-      "name": "郝乐",
-      "class": "赌徒",
-      "name2": "比乃惠",
-      "class2": "宝可梦培育家",
-      "roster": "烈焰马-2, 自爆磁怪-2, 闪电鸟-3, 坦克臭鼬-2",
-      "species": "烈焰马, 自爆磁怪, 闪电鸟, 坦克臭鼬",
-      "teams": [
-        "烈焰马-2, 自爆磁怪-2, 闪电鸟-3, 坦克臭鼬-2"
-      ],
-      "late": "",
-      "quote": "陪我来一场吧！ 华丽的胜负！",
-      "quote2": "让我来看看 你把宝可梦培育得如何了吧。",
-      "sprite": "assets/images/bdsptrainers/pi.png",
-      "sprite2": "assets/images/bdsptrainers/pokemonbreeder-f.png"
-    },
-    {
-      "name": "佳丽美",
-      "class": "阳伞姐姐",
-      "name2": "严磨",
-      "class2": "空手道王",
-      "roster": "克雷色利亚-2, 大竺葵-3, 雷吉洛克-2, 呆呆王-2",
-      "species": "克雷色利亚, 大竺葵, 雷吉洛克, 呆呆王",
-      "teams": [
-        "克雷色利亚-2, 大竺葵-3, 雷吉洛克-2, 呆呆王-2"
-      ],
-      "late": "",
-      "quote": "无论是晴天还是下雨， 我都会在这里寻找强大的训练家。",
-      "quote2": "每场宝可梦对战都是认真的对决。 一点都不能疏忽！",
-      "sprite": "assets/images/bdsptrainers/parasollady.png",
-      "sprite2": "assets/images/bdsptrainers/blackbelt.png"
-    },
-    {
-      "name": "佳丽美",
-      "class": "阳伞姐姐",
-      "name2": "契勒斯",
-      "class2": "自行车手",
-      "roster": "乌鸦头头-2, 水君-3, 拉帝亚斯-1, 雷电兽-3",
-      "species": "乌鸦头头, 水君, 拉帝亚斯, 雷电兽",
-      "teams": [
-        "乌鸦头头-2, 水君-3, 拉帝亚斯-1, 雷电兽-3"
-      ],
-      "late": "",
-      "quote": "无论是晴天还是下雨， 我都会在这里寻找强大的训练家。",
-      "quote2": "嘿呀！ 你这位训练家看起来很强啊！",
-      "sprite": "assets/images/bdsptrainers/parasollady.png",
-      "sprite2": "assets/images/bdsptrainers/cyclist-m.png"
-    },
-    {
-      "name": "佳丽美",
-      "class": "阳伞姐姐",
-      "name2": "长吉",
-      "class2": "超能力者",
-      "roster": "顽皮雷弹-2, 双尾怪手-3, 白海狮-2, 呆壳兽-3",
-      "species": "顽皮雷弹, 双尾怪手, 白海狮, 呆壳兽",
-      "teams": [
-        "顽皮雷弹-2, 双尾怪手-3, 白海狮-2, 呆壳兽-3"
-      ],
-      "late": "",
-      "quote": "无论是晴天还是下雨， 我都会在这里寻找强大的训练家。",
-      "quote2": "我的兄弟 会好好疼爱你的！",
-      "sprite": "assets/images/bdsptrainers/parasollady.png",
-      "sprite2": "assets/images/bdsptrainers/psychic-m.png"
-    },
-    {
-      "name": "野野美",
-      "class": "超能力者",
-      "name2": "思晴",
-      "class2": "精英训练家",
-      "roster": "水君-1, 顿甲-2, 黑夜魔灵-2, 班基拉斯-2",
-      "species": "水君, 顿甲, 黑夜魔灵, 班基拉斯",
-      "teams": [
-        "水君-1, 顿甲-2, 黑夜魔灵-2, 班基拉斯-2"
-      ],
-      "late": "",
-      "quote": "咕噜咕噜咕噜……",
-      "quote2": "来，放马过来吧！",
-      "sprite": "assets/images/bdsptrainers/psychic-f.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
-    },
-    {
-      "name": "野野美",
-      "class": "超能力者",
-      "name2": "双蕾",
-      "class2": "女服务生",
-      "roster": "肯泰罗-2, 火伊布-2, 赫拉克罗斯-3, 请假王-2",
-      "species": "肯泰罗, 火伊布, 赫拉克罗斯, 请假王",
-      "teams": [
-        "肯泰罗-2, 火伊布-2, 赫拉克罗斯-3, 请假王-2"
-      ],
-      "late": "",
-      "quote": "咕噜咕噜咕噜……",
-      "quote2": "这位客官真可爱！ 我会好好为您服务哦！",
-      "sprite": "assets/images/bdsptrainers/psychic-f.png",
-      "sprite2": "assets/images/bdsptrainers/waitress.png"
-    },
-    {
-      "name": "诺卢",
-      "class": "超能力者",
-      "name2": "秀治",
-      "class2": "摄影师",
-      "roster": "佛烈托斯-2, 闪电鸟-4, 雷吉艾斯-4, 迷唇姐-3",
-      "species": "佛烈托斯, 闪电鸟, 雷吉艾斯, 迷唇姐",
-      "teams": [
-        "佛烈托斯-2, 闪电鸟-4, 雷吉艾斯-4, 迷唇姐-3"
-      ],
-      "late": "",
-      "quote": "看好了！ 这就是超能力的神秘力量！",
-      "quote2": "我一直在等待 像你这样的训练家出现。",
-      "sprite": "assets/images/bdsptrainers/psychic-m.png",
-      "sprite2": "assets/images/bdsptrainers/cameraman.png"
-    },
-    {
-      "name": "金运",
-      "class": "赌徒",
-      "name2": "诺卢",
-      "class2": "超能力者",
-      "roster": "尼多后-3, 冰鬼护-2, 沼王-2, 念力土偶-2",
-      "species": "尼多后, 冰鬼护, 沼王, 念力土偶",
-      "teams": [
-        "尼多后-3, 冰鬼护-2, 沼王-2, 念力土偶-2"
-      ],
-      "late": "",
-      "quote": "来场有深度的对决吧。",
-      "quote2": "看好了！ 这就是超能力的神秘力量！",
-      "sprite": "assets/images/bdsptrainers/pi.png",
-      "sprite2": "assets/images/bdsptrainers/psychic-m.png"
-    },
-    {
-      "name": "嵋仲",
-      "class": "赌徒",
-      "name2": "那由多",
-      "class2": "精英训练家",
-      "roster": "雷吉奇卡斯-2, 雷公-2, 毒骷蛙-2, 拉帝欧斯-2",
-      "species": "雷吉奇卡斯, 雷公, 毒骷蛙, 拉帝欧斯",
-      "teams": [
-        "雷吉奇卡斯-2, 雷公-2, 毒骷蛙-2, 拉帝欧斯-2"
-      ],
-      "late": "",
-      "quote": "输赢可不是用 精密计算算出来的！",
-      "quote2": "呼哈～！呼哈～！ 你以为你能赢吗！",
-      "sprite": "assets/images/bdsptrainers/pi.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-m.png"
-    },
-    {
-      "name": "嵋仲",
-      "class": "赌徒",
-      "name2": "裘绅",
-      "class2": "小丑",
-      "roster": "隆隆岩-2, 火伊布-2, 席多蓝恩-2, 梦妖魔-2",
-      "species": "隆隆岩, 火伊布, 席多蓝恩, 梦妖魔",
-      "teams": [
-        "隆隆岩-2, 火伊布-2, 席多蓝恩-2, 梦妖魔-2"
-      ],
-      "late": "",
-      "quote": "输赢可不是用 精密计算算出来的！",
-      "quote2": "我会全力以赴的。 请多多关照！",
-      "sprite": "assets/images/bdsptrainers/pi.png",
-      "sprite2": "assets/images/bdsptrainers/clown.png"
-    },
-    {
-      "name": "思晴",
-      "class": "精英训练家",
-      "name2": "小鹤",
-      "class2": "精英训练家",
-      "roster": "大奶罐-2, 炎帝-4, 火焰鸟-2, 冰鬼护-3",
-      "species": "大奶罐, 炎帝, 火焰鸟, 冰鬼护",
-      "teams": [
-        "大奶罐-2, 炎帝-4, 火焰鸟-2, 冰鬼护-3"
-      ],
-      "late": "",
-      "quote": "来，放马过来吧！",
-      "quote2": "拿出真本事来吧！",
-      "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
-    },
-    {
-      "name": "安东",
-      "class": "精英训练家",
-      "name2": "荷米",
-      "class2": "摄影师",
-      "roster": "叉字蝠-2, 雷吉洛克-4, 雷吉艾斯-2, 电击魔兽-2",
-      "species": "叉字蝠, 雷吉洛克, 雷吉艾斯, 电击魔兽",
-      "teams": [
-        "叉字蝠-2, 雷吉洛克-4, 雷吉艾斯-2, 电击魔兽-2"
-      ],
-      "late": "",
-      "quote": "你～完全没戏哟～ 我来告诉你哟～",
-      "quote2": "我盯……",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/cameraman.png"
-    },
-    {
-      "name": "安东",
-      "class": "精英训练家",
-      "name2": "练博",
-      "class2": "遗迹迷",
-      "roster": "巨沼怪-3, 风速狗-2, 赫拉克罗斯-3, 霸王花-3",
-      "species": "巨沼怪, 风速狗, 赫拉克罗斯, 霸王花",
-      "teams": [
-        "巨沼怪-3, 风速狗-2, 赫拉克罗斯-3, 霸王花-3"
-      ],
-      "late": "",
-      "quote": "你～完全没戏哟～ 我来告诉你哟～",
-      "quote2": "铆足劲儿上吧。",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/ruinmaniac.png"
-    },
-    {
-      "name": "武虎",
-      "class": "空手道王",
-      "name2": "双蕾",
-      "class2": "女服务生",
-      "roster": "急冻鸟-2, 哥达鸭-3, 火焰鸡-3, 引梦貘人-3",
-      "species": "急冻鸟, 哥达鸭, 火焰鸡, 引梦貘人",
-      "teams": [
-        "急冻鸟-2, 哥达鸭-3, 火焰鸡-3, 引梦貘人-3"
-      ],
-      "late": "",
-      "quote": "嘿呀！！",
-      "quote2": "这位客官真可爱！ 我会好好为您服务哦！",
-      "sprite": "assets/images/bdsptrainers/blackbelt.png",
-      "sprite2": "assets/images/bdsptrainers/waitress.png"
-    },
-    {
-      "name": "武虎",
-      "class": "空手道王",
-      "name2": "秀治",
-      "class2": "摄影师",
-      "roster": "拉帝欧斯-2, 水君-2, 白海狮-2, 艾路雷朵-2",
-      "species": "拉帝欧斯, 水君, 白海狮, 艾路雷朵",
-      "teams": [
-        "拉帝欧斯-2, 水君-2, 白海狮-2, 艾路雷朵-2"
-      ],
-      "late": "",
-      "quote": "嘿呀！！",
-      "quote2": "我一直在等待 像你这样的训练家出现。",
-      "sprite": "assets/images/bdsptrainers/blackbelt.png",
-      "sprite2": "assets/images/bdsptrainers/cameraman.png"
-    },
-    {
-      "name": "契勒斯",
-      "class": "自行车手",
-      "name2": "建宏",
-      "class2": "工人",
-      "roster": "雷吉艾斯-2, 拉帝亚斯-1, 海兔兽-3, 雷吉斯奇鲁-2",
-      "species": "雷吉艾斯, 拉帝亚斯, 海兔兽, 雷吉斯奇鲁",
-      "teams": [
-        "雷吉艾斯-2, 拉帝亚斯-1, 海兔兽-3, 雷吉斯奇鲁-2"
-      ],
-      "late": "",
-      "quote": "嘿呀！ 你这位训练家看起来很强啊！",
-      "quote2": "哦！不错啊！ 来场对战吧！",
-      "sprite": "assets/images/bdsptrainers/cyclist-m.png",
-      "sprite2": "assets/images/bdsptrainers/worker.png"
-    },
-    {
-      "name": "契勒斯",
-      "class": "自行车手",
-      "name2": "柯玛",
-      "class2": "牛仔女孩",
-      "roster": "多边兽２型-2, 波克基斯-2, 蚊香泳士-2, 水君-1",
-      "species": "多边兽２型, 波克基斯, 蚊香泳士, 水君",
-      "teams": [
-        "多边兽２型-2, 波克基斯-2, 蚊香泳士-2, 水君-1"
-      ],
-      "late": "",
-      "quote": "嘿呀！ 你这位训练家看起来很强啊！",
-      "quote2": "让我来终结一切吧。",
-      "sprite": "assets/images/bdsptrainers/cyclist-m.png",
-      "sprite2": "assets/images/bdsptrainers/cowgirl.png"
-    },
-    {
-      "name": "比利",
-      "class": "宝可梦巡护员",
-      "name2": "种茂",
-      "class2": "绅士",
-      "roster": "隆隆岩-2, 佛烈托斯-2, 梦妖魔-3, 毒骷蛙-3",
-      "species": "隆隆岩, 佛烈托斯, 梦妖魔, 毒骷蛙",
-      "teams": [
-        "隆隆岩-2, 佛烈托斯-2, 梦妖魔-3, 毒骷蛙-3"
-      ],
-      "late": "",
-      "quote": "啊哈哈！算你倒霉！ 遇上了我！",
-      "quote2": "呵呵呵呵！！ 你一路赢过来可不容易啊！",
-      "sprite": "assets/images/bdsptrainers/pokemonranger-m.png",
-      "sprite2": "assets/images/bdsptrainers/gentleman.png"
-    },
-    {
-      "name": "友绅",
-      "class": "精英训练家",
-      "name2": "麻耶",
-      "class2": "精英训练家",
-      "roster": "战舞郎-2, 沙奈朵-4, 胡地-4, 烈咬陆鲨-6, 象牙猪-3",
-      "species": "战舞郎, 沙奈朵, 胡地, 烈咬陆鲨, 象牙猪",
-      "teams": [
-        "战舞郎-2, 沙奈朵-4, 胡地-4, 烈咬陆鲨-6",
-        "战舞郎-2, 沙奈朵-4, 胡地-4, 象牙猪-3"
-      ],
-      "late": "",
-      "quote": "我很期待你的表现…… 千万不要让我失望啊！",
-      "quote2": "这是人生的重要转折点！ 我绝对不能输！",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
-    },
-    {
-      "name": "鹰人",
-      "class": "宝可梦收藏家",
-      "name2": "南航",
-      "class2": "研究员",
-      "roster": "雷吉斯奇鲁-1, 吼鲸王-2, 席多蓝恩-2, 蚊香泳士-3",
-      "species": "雷吉斯奇鲁, 吼鲸王, 席多蓝恩, 蚊香泳士",
-      "teams": [
-        "雷吉斯奇鲁-1, 吼鲸王-2, 席多蓝恩-2, 蚊香泳士-3"
-      ],
-      "late": "",
-      "quote": "我是借鉴了网友的情报 培育的宝可梦！",
-      "quote2": "突击吧！我的宝可梦！ 展示我们的试验成果吧！",
-      "sprite": "assets/images/bdsptrainers/collector.png",
-      "sprite2": "assets/images/bdsptrainers/scientist.png"
-    },
-    {
-      "name": "月歌",
-      "class": "偶像明星",
-      "name2": "金运",
-      "class2": "赌徒",
-      "roster": "闪电鸟-1, 嘎啦嘎啦-3, 乐天河童-2, 白海狮-2",
-      "species": "闪电鸟, 嘎啦嘎啦, 乐天河童, 白海狮",
-      "teams": [
-        "闪电鸟-1, 嘎啦嘎啦-3, 乐天河童-2, 白海狮-2"
-      ],
-      "late": "",
-      "quote": "唱歌～跳舞～ 锁住你的视线！",
-      "quote2": "来场有深度的对决吧。",
-      "sprite": "assets/images/bdsptrainers/idol.png",
-      "sprite2": "assets/images/bdsptrainers/pi.png"
-    },
-    {
-      "name": "月歌",
-      "class": "偶像明星",
-      "name2": "岩培",
-      "class2": "遗迹迷",
-      "roster": "布鲁皇-3, 暴雪王-3, 随风球-2, 炎帝-2",
-      "species": "布鲁皇, 暴雪王, 随风球, 炎帝",
-      "teams": [
-        "布鲁皇-3, 暴雪王-3, 随风球-2, 炎帝-2"
-      ],
-      "late": "",
-      "quote": "唱歌～跳舞～ 锁住你的视线！",
-      "quote2": "宝可梦对战的乐趣， 就在最后一击！",
-      "sprite": "assets/images/bdsptrainers/idol.png",
-      "sprite2": "assets/images/bdsptrainers/ruinmaniac.png"
-    },
-    {
-      "name": "萨布",
-      "class": "精英训练家",
-      "name2": "荷米",
-      "class2": "摄影师",
-      "roster": "雷吉斯奇鲁-4, 暴鲤龙-2, 多边兽乙型-2, 水君-4",
-      "species": "雷吉斯奇鲁, 暴鲤龙, 多边兽乙型, 水君",
-      "teams": [
-        "雷吉斯奇鲁-4, 暴鲤龙-2, 多边兽乙型-2, 水君-4"
-      ],
-      "late": "",
-      "quote": "我会赢的， 这是实话。",
-      "quote2": "我盯……",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/cameraman.png"
-    },
-    {
-      "name": "萨布",
-      "class": "精英训练家",
-      "name2": "珐娜",
-      "class2": "精英训练家",
-      "roster": "暴雪王-4, 超甲狂犀-4, 青铜钟-3, 洛托姆-清洗-2, 煤炭龟-2",
-      "species": "暴雪王, 超甲狂犀, 青铜钟, 洛托姆-清洗, 煤炭龟",
-      "teams": [
-        "暴雪王-4, 超甲狂犀-4, 青铜钟-3, 洛托姆-清洗-2",
-        "暴雪王-4, 煤炭龟-2, 青铜钟-3, 洛托姆-清洗-2"
-      ],
-      "late": "",
-      "quote": "我会赢的， 这是实话。",
-      "quote2": "我不会再让任何人逃跑了。 放弃挣扎吧。",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
-    },
-    {
-      "name": "萨布",
-      "class": "精英训练家",
-      "name2": "穆轲",
-      "class2": "宝可梦收藏家",
-      "roster": "黑鲁加-2, 袋兽-3, 电龙-3, 克雷色利亚-4",
-      "species": "黑鲁加, 袋兽, 电龙, 克雷色利亚",
-      "teams": [
-        "黑鲁加-2, 袋兽-3, 电龙-3, 克雷色利亚-4"
-      ],
-      "late": "",
-      "quote": "我会赢的， 这是实话。",
-      "quote2": "等我会儿啊， 我在写邮件呢。",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/collector.png"
-    },
-    {
-      "name": "大叶",
-      "class": "四天王",
-      "name2": "电次",
-      "class2": "道馆馆主",
-      "roster": "火焰鸡-8, 鸭嘴炎兽-4, 洛托姆-清洗-4, 电击魔兽-5, 洛托姆-加热-2, 鸭嘴炎兽-5, 电击魔兽-6, 闪电鸟-13, 烈焰猴-6, 炎帝-6, 伦琴猫-4",
-      "species": "火焰鸡, 鸭嘴炎兽, 洛托姆-清洗, 电击魔兽, 洛托姆-加热, 闪电鸟, 烈焰猴, 炎帝, 伦琴猫",
-      "teams": [
-        "火焰鸡-8, 鸭嘴炎兽-4, 洛托姆-清洗-4, 电击魔兽-5",
-        "洛托姆-加热-2, 鸭嘴炎兽-5, 电击魔兽-6, 闪电鸟-13",
-        "烈焰猴-6, 炎帝-6, 伦琴猫-4, 闪电鸟-13"
-      ],
-      "late": "",
-      "quote": "哦！！ 你心中的火焰还在燃烧吗？",
-      "quote2": "你果然来了，。 我正觉得无聊呢！",
-      "sprite": "assets/images/bdsptrainers/flint.png",
-      "sprite2": "assets/images/bdsptrainers/volkner.png"
-    },
-    {
-      "name": "菜种",
-      "class": "道馆馆主",
-      "name2": "梅丽莎",
-      "class2": "道馆馆主",
-      "roster": "狡猾天狗-5, 斗笠菇-8, 勾魂眼-2, 耿鬼-7, 妙蛙花-8, 罗丝雷朵-5, 耿鬼-8, 巨蔓藤-4, 土台龟-4, 黑夜魔灵-3, 诅咒娃娃-2",
-      "species": "狡猾天狗, 斗笠菇, 勾魂眼, 耿鬼, 妙蛙花, 罗丝雷朵, 巨蔓藤, 土台龟, 黑夜魔灵, 诅咒娃娃",
-      "teams": [
-        "狡猾天狗-5, 斗笠菇-8, 勾魂眼-2, 耿鬼-7",
-        "妙蛙花-8, 罗丝雷朵-5, 勾魂眼-2, 耿鬼-8",
-        "巨蔓藤-4, 土台龟-4, 黑夜魔灵-3, 诅咒娃娃-2"
-      ],
-      "late": "",
-      "quote": "总而言之，我和梅丽莎搭档， 一定能打倒你！",
-      "quote2": "让你好好见识一下， 我俩强强联合的力量！",
-      "sprite": "assets/images/bdsptrainers/gardenia.png",
-      "sprite2": "assets/images/bdsptrainers/fantina.png"
-    },
-    {
-      "name": "长吉",
-      "class": "超能力者",
-      "name2": "涅墨",
-      "class2": "绅士",
-      "roster": "顽皮雷弹-2, 克雷色利亚-4, 帝王拿波-3, 耿鬼-2",
-      "species": "顽皮雷弹, 克雷色利亚, 帝王拿波, 耿鬼",
-      "teams": [
-        "顽皮雷弹-2, 克雷色利亚-4, 帝王拿波-3, 耿鬼-2"
-      ],
-      "late": "",
-      "quote": "我的兄弟 会好好疼爱你的！",
-      "quote2": "让我们回归童心 来场对战吧！",
-      "sprite": "assets/images/bdsptrainers/psychic-m.png",
-      "sprite2": "assets/images/bdsptrainers/gentleman.png"
-    },
-    {
-      "name": "长吉",
-      "class": "超能力者",
-      "name2": "拉吉康",
-      "class2": "水手",
-      "roster": "吼鲸王-3, 哥达鸭-3, 火焰鸡-3, 胡地-3",
-      "species": "吼鲸王, 哥达鸭, 火焰鸡, 胡地",
-      "teams": [
-        "吼鲸王-3, 哥达鸭-3, 火焰鸡-3, 胡地-3"
-      ],
-      "late": "",
-      "quote": "我的兄弟 会好好疼爱你的！",
-      "quote2": "咦？对手是你啊？ 总感觉有些不安……",
-      "sprite": "assets/images/bdsptrainers/psychic-m.png",
-      "sprite2": "assets/images/bdsptrainers/sailor.png"
-    },
-    {
-      "name": "百本木",
-      "class": "工人",
-      "name2": "严磨",
-      "class2": "空手道王",
-      "roster": "雷伊布-2, 雪妖女-3, 布鲁皇-3, 太阳伊布-2",
-      "species": "雷伊布, 雪妖女, 布鲁皇, 太阳伊布",
-      "teams": [
-        "雷伊布-2, 雪妖女-3, 布鲁皇-3, 太阳伊布-2"
-      ],
-      "late": "",
-      "quote": "看我把你打成废铁。",
-      "quote2": "每场宝可梦对战都是认真的对决。 一点都不能疏忽！",
-      "sprite": "assets/images/bdsptrainers/worker.png",
-      "sprite2": "assets/images/bdsptrainers/blackbelt.png"
-    },
-    {
-      "name": "太志",
-      "class": "宝可梦培育家",
-      "name2": "鹰人",
-      "class2": "宝可梦收藏家",
-      "roster": "魔墙人偶-3, 坦克臭鼬-3, 闪电鸟-2, 乐天河童-3",
-      "species": "魔墙人偶, 坦克臭鼬, 闪电鸟, 乐天河童",
-      "teams": [
-        "魔墙人偶-3, 坦克臭鼬-3, 闪电鸟-2, 乐天河童-3"
-      ],
-      "late": "",
-      "quote": "对战不仅是输赢而已。",
-      "quote2": "我是借鉴了网友的情报 培育的宝可梦！",
-      "sprite": "assets/images/bdsptrainers/pokemonbreeder-m.png",
-      "sprite2": "assets/images/bdsptrainers/collector.png"
-    },
-    {
-      "name": "太志",
-      "class": "宝可梦培育家",
-      "name2": "杰路姆",
-      "class2": "自行车手",
-      "roster": "引梦貘人-3, 钻角犀兽-2, 席多蓝恩-5, 冰鬼护-3",
-      "species": "引梦貘人, 钻角犀兽, 席多蓝恩, 冰鬼护",
-      "teams": [
-        "引梦貘人-3, 钻角犀兽-2, 席多蓝恩-5, 冰鬼护-3"
-      ],
-      "late": "",
-      "quote": "对战不仅是输赢而已。",
-      "quote2": "噗噜噜噜～～～！！ 看我的油门全开～！",
-      "sprite": "assets/images/bdsptrainers/pokemonbreeder-m.png",
-      "sprite2": "assets/images/bdsptrainers/cyclist-m.png"
-    },
-    {
-      "name": "香馨",
-      "class": "香氛姐姐",
-      "name2": "雪朵",
-      "class2": "Pokefan (F)",
-      "roster": "大钢蛇-2, 迷唇姐-2, 七夕青鸟-3, 大食花-2",
-      "species": "大钢蛇, 迷唇姐, 七夕青鸟, 大食花",
-      "teams": [
-        "大钢蛇-2, 迷唇姐-2, 七夕青鸟-3, 大食花-2"
-      ],
-      "late": "",
-      "quote": "想赢我？ 你还早了十年！！",
-      "quote2": "别看阿姨现在这样， 年轻的时候可是个万人迷呢。",
-      "sprite": "assets/images/bdsptrainers/aromalady.png",
-      "sprite2": "assets/images/bdsptrainers/pokefan-f.png"
-    },
-    {
-      "name": "香馨",
-      "class": "香氛姐姐",
-      "name2": "种茂",
-      "class2": "绅士",
-      "roster": "蚊香蛙皇-2, 电灯怪-2, 大食花-3, 拉帝欧斯-1",
-      "species": "蚊香蛙皇, 电灯怪, 大食花, 拉帝欧斯",
-      "teams": [
-        "蚊香蛙皇-2, 电灯怪-2, 大食花-3, 拉帝欧斯-1"
-      ],
-      "late": "",
-      "quote": "想赢我？ 你还早了十年！！",
-      "quote2": "呵呵呵呵！！ 你一路赢过来可不容易啊！",
-      "sprite": "assets/images/bdsptrainers/aromalady.png",
-      "sprite2": "assets/images/bdsptrainers/gentleman.png"
-    },
-    {
-      "name": "文西",
-      "class": "精英训练家",
-      "name2": "雅格尼丝",
-      "class2": "精英训练家",
-      "roster": "蚊香蛙皇-4, 闪电鸟-7, 刺龙王-4, 巨钳螳螂-5, 拉普拉斯-3",
-      "species": "蚊香蛙皇, 闪电鸟, 刺龙王, 巨钳螳螂, 拉普拉斯",
-      "teams": [
-        "蚊香蛙皇-4, 闪电鸟-7, 刺龙王-4, 巨钳螳螂-5",
-        "蚊香蛙皇-4, 拉普拉斯-3, 刺龙王-4, 巨钳螳螂-5"
-      ],
-      "late": "",
-      "quote": "什么都不去多想就是啦！ 只要开心就好啊！",
-      "quote2": "任何胜负我都会 全力以赴！",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
-    },
-    {
-      "name": "赛飞罗",
-      "class": "驯龙师",
-      "name2": "源五郎",
-      "class2": "吉他手",
-      "roster": "河马兽-2, 斗笠菇-3, 冰伊布-2, 雷公-3",
-      "species": "河马兽, 斗笠菇, 冰伊布, 雷公",
-      "teams": [
-        "河马兽-2, 斗笠菇-3, 冰伊布-2, 雷公-3"
-      ],
-      "late": "",
-      "quote": "上吧～！ 经过我严格训练的小宝可梦们～！",
-      "quote2": "请听我和宝可梦们的大合唱。",
-      "sprite": "assets/images/bdsptrainers/dragontamer.png",
-      "sprite2": "assets/images/bdsptrainers/guitarist.png"
-    },
-    {
-      "name": "赛飞罗",
-      "class": "驯龙师",
-      "name2": "有行",
-      "class2": "服务生",
-      "roster": "雷电兽-2, 拉帝亚斯-3, 班基拉斯-2, 佛烈托斯-3",
-      "species": "雷电兽, 拉帝亚斯, 班基拉斯, 佛烈托斯",
-      "teams": [
-        "雷电兽-2, 拉帝亚斯-3, 班基拉斯-2, 佛烈托斯-3"
-      ],
-      "late": "",
-      "quote": "上吧～！ 经过我严格训练的小宝可梦们～！",
-      "quote2": "欢迎光临～！！",
-      "sprite": "assets/images/bdsptrainers/dragontamer.png",
-      "sprite2": "assets/images/bdsptrainers/waiter.png"
-    },
-    {
-      "name": "珐娜",
-      "class": "精英训练家",
-      "name2": "芊河",
-      "class2": "宝可梦巡护员",
-      "roster": "沙漠蜻蜓-2, 尼多王-2, 布鲁皇-3, 急冻鸟-3",
-      "species": "沙漠蜻蜓, 尼多王, 布鲁皇, 急冻鸟",
-      "teams": [
-        "沙漠蜻蜓-2, 尼多王-2, 布鲁皇-3, 急冻鸟-3"
-      ],
-      "late": "",
-      "quote": "我不会再让任何人逃跑了。 放弃挣扎吧。",
-      "quote2": "让你见识一下 大自然的力量！",
-      "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
-      "sprite2": "assets/images/bdsptrainers/pokemonranger-f.png"
-    },
-    {
-      "name": "珐娜",
-      "class": "精英训练家",
-      "name2": "凯玲",
-      "class2": "女服务生",
-      "roster": "鸭嘴炎兽-2, 雷电兽-2, 天蝎王-2, 雷吉奇卡斯-2",
-      "species": "鸭嘴炎兽, 雷电兽, 天蝎王, 雷吉奇卡斯",
-      "teams": [
-        "鸭嘴炎兽-2, 雷电兽-2, 天蝎王-2, 雷吉奇卡斯-2"
-      ],
-      "late": "",
-      "quote": "我不会再让任何人逃跑了。 放弃挣扎吧。",
-      "quote2": "您回来啦！",
-      "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
-      "sprite2": "assets/images/bdsptrainers/waitress.png"
-    },
-    {
-      "name": "光汐",
-      "class": "大姐姐",
-      "name2": "凯玲",
-      "class2": "女服务生",
-      "roster": "拉帝亚斯-2, 水君-3, 黑鲁加-3, 雷公-4",
-      "species": "拉帝亚斯, 水君, 黑鲁加, 雷公",
-      "teams": [
-        "拉帝亚斯-2, 水君-3, 黑鲁加-3, 雷公-4"
-      ],
-      "late": "",
-      "quote": "嗯……罕见的宝可梦……",
-      "quote2": "您回来啦！",
-      "sprite": "assets/images/bdsptrainers/beauty.png",
-      "sprite2": "assets/images/bdsptrainers/waitress.png"
-    },
-    {
-      "name": "光汐",
-      "class": "大姐姐",
-      "name2": "鲍伯",
-      "class2": "牧场大叔",
-      "roster": "席多蓝恩-4, 顿甲-3, 叶伊布-2, 雷吉斯奇鲁-3",
-      "species": "席多蓝恩, 顿甲, 叶伊布, 雷吉斯奇鲁",
-      "teams": [
-        "席多蓝恩-4, 顿甲-3, 叶伊布-2, 雷吉斯奇鲁-3"
-      ],
-      "late": "",
-      "quote": "嗯……罕见的宝可梦……",
-      "quote2": "加油啊！ 我心爱的孩子们！",
-      "sprite": "assets/images/bdsptrainers/beauty.png",
-      "sprite2": "assets/images/bdsptrainers/rancher.png"
-    },
-    {
-      "name": "双蕾",
-      "class": "女服务生",
-      "name2": "练博",
-      "class2": "遗迹迷",
-      "roster": "爆音怪-3, 烈焰马-3, 魔墙人偶-3, 席多蓝恩-5",
-      "species": "爆音怪, 烈焰马, 魔墙人偶, 席多蓝恩",
-      "teams": [
-        "爆音怪-3, 烈焰马-3, 魔墙人偶-3, 席多蓝恩-5"
-      ],
-      "late": "",
-      "quote": "这位客官真可爱！ 我会好好为您服务哦！",
-      "quote2": "铆足劲儿上吧。",
-      "sprite": "assets/images/bdsptrainers/waitress.png",
-      "sprite2": "assets/images/bdsptrainers/ruinmaniac.png"
-    },
-    {
-      "name": "五叶松",
-      "class": "精英训练家",
-      "name2": "玳玉",
-      "class2": "记者",
-      "roster": "雷电兽-3, 钻角犀兽-2, 土台龟-3, 大力鳄-3, 炎帝-1, 雷公-2, 白海狮-3, 月亮伊布-2",
-      "species": "雷电兽, 钻角犀兽, 土台龟, 大力鳄, 炎帝, 雷公, 白海狮, 月亮伊布",
-      "teams": [
-        "雷电兽-3, 钻角犀兽-2, 土台龟-3, 大力鳄-3",
-        "炎帝-1, 雷公-2, 白海狮-3, 月亮伊布-2"
-      ],
-      "late": "",
-      "quote": "全力投球！",
-      "quote2": "我的宝可梦 可有点与众不同哦。",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/reporter.png"
-    },
-    {
-      "name": "练博",
-      "class": "遗迹迷",
-      "name2": "比利",
-      "class2": "宝可梦巡护员",
-      "roster": "烈咬陆鲨-2, 波士可多拉-2, 暴雪王-2, 浮潜鼬-2",
-      "species": "烈咬陆鲨, 波士可多拉, 暴雪王, 浮潜鼬",
-      "teams": [
-        "烈咬陆鲨-2, 波士可多拉-2, 暴雪王-2, 浮潜鼬-2"
-      ],
-      "late": "",
-      "quote": "铆足劲儿上吧。",
-      "quote2": "啊哈哈！算你倒霉！ 遇上了我！",
-      "sprite": "assets/images/bdsptrainers/ruinmaniac.png",
-      "sprite2": "assets/images/bdsptrainers/pokemonranger-m.png"
-    },
-    {
-      "name": "涅墨",
-      "class": "绅士",
-      "name2": "芭芭儿",
-      "class2": "养鸟人",
-      "roster": "雷吉艾斯-1, 席多蓝恩-3, 浮潜鼬-3, 迷唇姐-2",
-      "species": "雷吉艾斯, 席多蓝恩, 浮潜鼬, 迷唇姐",
-      "teams": [
-        "雷吉艾斯-1, 席多蓝恩-3, 浮潜鼬-3, 迷唇姐-2"
-      ],
-      "late": "",
-      "quote": "让我们回归童心 来场对战吧！",
-      "quote2": "人生啊，很多时候 都不会让你称心如意！",
-      "sprite": "assets/images/bdsptrainers/gentleman.png",
-      "sprite2": "assets/images/bdsptrainers/birdkeeper.png"
-    },
-    {
-      "name": "涅墨",
-      "class": "绅士",
-      "name2": "朔三",
-      "class2": "赌徒",
-      "roster": "太阳伊布-2, 沼王-3, 水君-2, 电龙-3",
-      "species": "太阳伊布, 沼王, 水君, 电龙",
-      "teams": [
-        "太阳伊布-2, 沼王-3, 水君-2, 电龙-3"
-      ],
-      "late": "",
-      "quote": "让我们回归童心 来场对战吧！",
-      "quote2": "你要拿什么来胜负呢？ 我会付出我的全部！",
-      "sprite": "assets/images/bdsptrainers/gentleman.png",
-      "sprite2": "assets/images/bdsptrainers/pi.png"
-    },
-    {
-      "name": "秀治",
-      "class": "摄影师",
-      "name2": "赫尔佳",
-      "class2": "精英训练家",
-      "roster": "长耳兔-2, 斗笠菇-3, 暴飞龙-2, 艾路雷朵-2",
-      "species": "长耳兔, 斗笠菇, 暴飞龙, 艾路雷朵",
-      "teams": [
-        "长耳兔-2, 斗笠菇-3, 暴飞龙-2, 艾路雷朵-2"
-      ],
-      "late": "",
-      "quote": "我一直在等待 像你这样的训练家出现。",
-      "quote2": "嘿～嘿～！ 一起愉快地玩耍吧！",
-      "sprite": "assets/images/bdsptrainers/cameraman.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
-    },
-    {
-      "name": "秀治",
-      "class": "摄影师",
-      "name2": "果雅",
-      "class2": "宝可梦培育家",
-      "roster": "鲶鱼王-2, 水伊布-2, 雷电兽-2, 伦琴猫-2",
-      "species": "鲶鱼王, 水伊布, 雷电兽, 伦琴猫",
-      "teams": [
-        "鲶鱼王-2, 水伊布-2, 雷电兽-2, 伦琴猫-2"
-      ],
-      "late": "",
-      "quote": "我一直在等待 像你这样的训练家出现。",
-      "quote2": "严格点也不是…… 宠着点也不成……",
-      "sprite": "assets/images/bdsptrainers/cameraman.png",
-      "sprite2": "assets/images/bdsptrainers/pokemonbreeder-f.png"
-    },
-    {
-      "name": "珍妮特",
-      "class": "记者",
-      "name2": "亚多鲁",
-      "class2": "宝可梦培育家",
-      "roster": "象牙猪-2, 肯泰罗-3, 耿鬼-3, 雷吉洛克-3",
-      "species": "象牙猪, 肯泰罗, 耿鬼, 雷吉洛克",
-      "teams": [
-        "象牙猪-2, 肯泰罗-3, 耿鬼-3, 雷吉洛克-3"
-      ],
-      "late": "",
-      "quote": "嗯～怎么进攻比较好呢？",
-      "quote2": "来给你介绍一下！ 我最重要的搭档！",
-      "sprite": "assets/images/bdsptrainers/reporter.png",
-      "sprite2": "assets/images/bdsptrainers/pokemonbreeder-m.png"
-    },
-    {
-      "name": "珍妮特",
-      "class": "记者",
-      "name2": "诺卢",
-      "class2": "超能力者",
-      "roster": "圈圈熊-3, 钻角犀兽-3, 椰蛋树-2, 烈焰猴-3",
-      "species": "圈圈熊, 钻角犀兽, 椰蛋树, 烈焰猴",
-      "teams": [
-        "圈圈熊-3, 钻角犀兽-3, 椰蛋树-2, 烈焰猴-3"
-      ],
-      "late": "",
-      "quote": "嗯～怎么进攻比较好呢？",
-      "quote2": "看好了！ 这就是超能力的神秘力量！",
-      "sprite": "assets/images/bdsptrainers/reporter.png",
-      "sprite2": "assets/images/bdsptrainers/psychic-m.png"
-    },
-    {
-      "name": "珍妮特",
-      "class": "记者",
-      "name2": "苞儿",
-      "class2": "偶像明星",
-      "roster": "雷吉艾斯-3, 狡猾天狗-2, 黑鲁加-3, 魔墙人偶-3",
-      "species": "雷吉艾斯, 狡猾天狗, 黑鲁加, 魔墙人偶",
-      "teams": [
-        "雷吉艾斯-3, 狡猾天狗-2, 黑鲁加-3, 魔墙人偶-3"
-      ],
-      "late": "",
-      "quote": "嗯～怎么进攻比较好呢？",
-      "quote2": "你真的没问题吧？ 我可是超级强的哦！",
-      "sprite": "assets/images/bdsptrainers/reporter.png",
-      "sprite2": "assets/images/bdsptrainers/idol.png"
-    },
-    {
-      "name": "玳玉",
-      "class": "记者",
-      "name2": "野野美",
-      "class2": "超能力者",
-      "roster": "罗丝雷朵-2, 雷吉奇卡斯-5, 臭臭泥-2, 引梦貘人-2",
-      "species": "罗丝雷朵, 雷吉奇卡斯, 臭臭泥, 引梦貘人",
-      "teams": [
-        "罗丝雷朵-2, 雷吉奇卡斯-5, 臭臭泥-2, 引梦貘人-2"
-      ],
-      "late": "",
-      "quote": "我的宝可梦 可有点与众不同哦。",
-      "quote2": "咕噜咕噜咕噜……",
-      "sprite": "assets/images/bdsptrainers/reporter.png",
-      "sprite2": "assets/images/bdsptrainers/psychic-f.png"
-    },
-    {
-      "name": "克妮格",
-      "class": "宝可梦巡护员",
-      "name2": "玉叶",
-      "class2": "偶像明星",
-      "roster": "铁掌力士-2, 乌鸦头头-2, 雷吉斯奇鲁-1, 拉帝亚斯-3",
-      "species": "铁掌力士, 乌鸦头头, 雷吉斯奇鲁, 拉帝亚斯",
-      "teams": [
-        "铁掌力士-2, 乌鸦头头-2, 雷吉斯奇鲁-1, 拉帝亚斯-3"
-      ],
-      "late": "",
-      "quote": "想和我对战？ 结果我可不负责哦！",
-      "quote2": "对战是我唯一的生存价值， 胜利是我唯一的愿望。",
-      "sprite": "assets/images/bdsptrainers/pokemonranger-f.png",
-      "sprite2": "assets/images/bdsptrainers/idol.png"
-    },
-    {
-      "name": "岁星",
-      "class": "银河队",
-      "name2": "镇星",
-      "class2": "银河队",
-      "roster": "尼多王-5, 坦克臭鼬-4, 阿勃梭鲁-4, 勾魂眼-4, 耿鬼-8, 毒骷蛙-4, 巨牙鲨-2, 叉字蝠-3, 班基拉斯-10",
-      "species": "尼多王, 坦克臭鼬, 阿勃梭鲁, 勾魂眼, 耿鬼, 毒骷蛙, 巨牙鲨, 叉字蝠, 班基拉斯",
-      "teams": [
-        "尼多王-5, 坦克臭鼬-4, 阿勃梭鲁-4, 勾魂眼-4",
-        "耿鬼-8, 毒骷蛙-4, 坦克臭鼬-4, 巨牙鲨-2",
-        "叉字蝠-3, 毒骷蛙-4, 巨牙鲨-2, 班基拉斯-10"
-      ],
-      "late": "",
-      "quote": "你找我有什么事？ 啊，看来这个问题有点多余了。",
-      "quote2": "什么啊，原来是你啊…… 那就让我舍弃头衔来与你一战吧！",
-      "sprite": "assets/images/bdsptrainers/jupiter.png",
-      "sprite2": "assets/images/bdsptrainers/saturn.png"
-    },
-    {
-      "name": "凯玲",
-      "class": "女服务生",
-      "name2": "鸯恩",
-      "class2": "Socialite",
-      "roster": "雷公-3, 雷吉艾斯-1, 闪电鸟-2, 战槌龙-2",
-      "species": "雷公, 雷吉艾斯, 闪电鸟, 战槌龙",
-      "teams": [
-        "雷公-3, 雷吉艾斯-1, 闪电鸟-2, 战槌龙-2"
-      ],
-      "late": "",
-      "quote": "您回来啦！",
-      "quote2": "你还是个孩子吧？",
-      "sprite": "assets/images/bdsptrainers/waitress.png",
-      "sprite2": "assets/images/bdsptrainers/madame.png"
-    },
-    {
-      "name": "蝶舞",
-      "class": "Socialite",
-      "name2": "光汐",
-      "class2": "大姐姐",
-      "roster": "闪电鸟-3, 双弹瓦斯-2, 鲶鱼王-2, 七夕青鸟-2",
-      "species": "闪电鸟, 双弹瓦斯, 鲶鱼王, 七夕青鸟",
-      "teams": [
-        "闪电鸟-3, 双弹瓦斯-2, 鲶鱼王-2, 七夕青鸟-2"
-      ],
-      "late": "",
-      "quote": "希望我家孩子 能成为优秀强大的训练家。",
-      "quote2": "嗯……罕见的宝可梦……",
-      "sprite": "assets/images/bdsptrainers/madame.png",
-      "sprite2": "assets/images/bdsptrainers/beauty.png"
-    },
-    {
-      "name": "蝶舞",
-      "class": "Socialite",
-      "name2": "花雨",
-      "class2": "阳伞姐姐",
-      "roster": "拉帝欧斯-1, 肯泰罗-2, 赫拉克罗斯-2, 拉帝亚斯-1",
-      "species": "拉帝欧斯, 肯泰罗, 赫拉克罗斯, 拉帝亚斯",
-      "teams": [
-        "拉帝欧斯-1, 肯泰罗-2, 赫拉克罗斯-2, 拉帝亚斯-1"
-      ],
-      "late": "",
-      "quote": "希望我家孩子 能成为优秀强大的训练家。",
-      "quote2": "这是把遮阳伞。",
-      "sprite": "assets/images/bdsptrainers/madame.png",
-      "sprite2": "assets/images/bdsptrainers/parasollady.png"
-    },
-    {
-      "name": "拉吉康",
-      "class": "水手",
-      "name2": "芳森",
-      "class2": "大姐姐",
-      "roster": "姆克鹰-2, 雷公-3, 波克基斯-2, 梦妖魔-3",
-      "species": "姆克鹰, 雷公, 波克基斯, 梦妖魔",
-      "teams": [
-        "姆克鹰-2, 雷公-3, 波克基斯-2, 梦妖魔-3"
-      ],
-      "late": "",
-      "quote": "咦？对手是你啊？ 总感觉有些不安……",
-      "quote2": "好了吗？",
-      "sprite": "assets/images/bdsptrainers/sailor.png",
-      "sprite2": "assets/images/bdsptrainers/beauty.png"
-    },
-    {
-      "name": "安东尼奥",
-      "class": "服务生",
-      "name2": "嵋仲",
-      "class2": "赌徒",
-      "roster": "请假王-2, 火焰鸡-3, 狡猾天狗-2, 雷公-1",
-      "species": "请假王, 火焰鸡, 狡猾天狗, 雷公",
-      "teams": [
-        "请假王-2, 火焰鸡-3, 狡猾天狗-2, 雷公-1"
-      ],
-      "late": "",
-      "quote": "哦～！你看起来挺强的嘛～ 好期待，好期待！",
-      "quote2": "输赢可不是用 精密计算算出来的！",
-      "sprite": "assets/images/bdsptrainers/waiter.png",
-      "sprite2": "assets/images/bdsptrainers/pi.png"
-    },
-    {
-      "name": "安东尼奥",
-      "class": "服务生",
-      "name2": "香馨",
-      "class2": "香氛姐姐",
-      "roster": "火焰鸟-1, 顿甲-2, 象牙猪-2, 尼多后-2",
-      "species": "火焰鸟, 顿甲, 象牙猪, 尼多后",
-      "teams": [
-        "火焰鸟-1, 顿甲-2, 象牙猪-2, 尼多后-2"
-      ],
-      "late": "",
-      "quote": "哦～！你看起来挺强的嘛～ 好期待，好期待！",
-      "quote2": "想赢我？ 你还早了十年！！",
-      "sprite": "assets/images/bdsptrainers/waiter.png",
-      "sprite2": "assets/images/bdsptrainers/aromalady.png"
-    },
-    {
-      "name": "鲍伯",
-      "class": "牧场大叔",
-      "name2": "宽平",
-      "class2": "资深训练家",
-      "roster": "随风球-2, 吼鲸王-3, 臭臭泥-3, 雷丘-2",
-      "species": "随风球, 吼鲸王, 臭臭泥, 雷丘",
-      "teams": [
-        "随风球-2, 吼鲸王-3, 臭臭泥-3, 雷丘-2"
-      ],
-      "late": "",
-      "quote": "加油啊！ 我心爱的孩子们！",
-      "quote2": "我已经在这里待了好几年了， 但是一点都不觉得腻。",
-      "sprite": "assets/images/bdsptrainers/rancher.png",
-      "sprite2": "assets/images/bdsptrainers/veteran.png"
-    },
-    {
-      "name": "穆轲",
-      "class": "宝可梦收藏家",
-      "name2": "松鸦",
-      "class2": "养鸟人",
-      "roster": "叶伊布-2, 摇篮百合-3, 席多蓝恩-5, 阿勃梭鲁-2",
-      "species": "叶伊布, 摇篮百合, 席多蓝恩, 阿勃梭鲁",
-      "teams": [
-        "叶伊布-2, 摇篮百合-3, 席多蓝恩-5, 阿勃梭鲁-2"
-      ],
-      "late": "",
-      "quote": "等我会儿啊， 我在写邮件呢。",
-      "quote2": "你已经无处可逃了！",
-      "sprite": "assets/images/bdsptrainers/collector.png",
-      "sprite2": "assets/images/bdsptrainers/birdkeeper.png"
-    },
-    {
-      "name": "穆轲",
-      "class": "宝可梦收藏家",
-      "name2": "克妮格",
-      "class2": "宝可梦巡护员",
-      "roster": "盔甲鸟-2, 呆壳兽-3, 雷吉艾斯-1, 魔墙人偶-2",
-      "species": "盔甲鸟, 呆壳兽, 雷吉艾斯, 魔墙人偶",
-      "teams": [
-        "盔甲鸟-2, 呆壳兽-3, 雷吉艾斯-1, 魔墙人偶-2"
-      ],
-      "late": "",
-      "quote": "等我会儿啊， 我在写邮件呢。",
-      "quote2": "想和我对战？ 结果我可不负责哦！",
-      "sprite": "assets/images/bdsptrainers/collector.png",
-      "sprite2": "assets/images/bdsptrainers/pokemonranger-f.png"
-    },
-    {
-      "name": "佩尔",
-      "class": "小丑",
-      "name2": "双蕾",
-      "class2": "女服务生",
-      "roster": "火焰鸟-4, 雷吉奇卡斯-5, 电龙-2, 护城龙-2",
-      "species": "火焰鸟, 雷吉奇卡斯, 电龙, 护城龙",
-      "teams": [
-        "火焰鸟-4, 雷吉奇卡斯-5, 电龙-2, 护城龙-2"
-      ],
-      "late": "",
-      "quote": "所谓的宝可梦对战 就像写在沙滩上的情书一样。",
-      "quote2": "这位客官真可爱！ 我会好好为您服务哦！",
-      "sprite": "assets/images/bdsptrainers/clown.png",
-      "sprite2": "assets/images/bdsptrainers/waitress.png"
-    },
-    {
-      "name": "种茂",
-      "class": "绅士",
-      "name2": "雷波曼",
-      "class2": "研究员",
-      "roster": "盔甲鸟-3, 冰鬼护-3, 毒骷蛙-2, 恰雷姆-2",
-      "species": "盔甲鸟, 冰鬼护, 毒骷蛙, 恰雷姆",
-      "teams": [
-        "盔甲鸟-3, 冰鬼护-3, 毒骷蛙-2, 恰雷姆-2"
-      ],
-      "late": "",
-      "quote": "呵呵呵呵！！ 你一路赢过来可不容易啊！",
-      "quote2": "这就是科学的力量！",
-      "sprite": "assets/images/bdsptrainers/gentleman.png",
-      "sprite2": "assets/images/bdsptrainers/scientist.png"
-    },
-    {
-      "name": "种茂",
-      "class": "绅士",
-      "name2": "飞跃",
-      "class2": "慢跑者",
-      "roster": "盔甲鸟-3, 迷唇姐-3, 毒骷蛙-2, 壶壶-2",
-      "species": "盔甲鸟, 迷唇姐, 毒骷蛙, 壶壶",
-      "teams": [
-        "盔甲鸟-3, 迷唇姐-3, 毒骷蛙-2, 壶壶-2"
-      ],
-      "late": "",
-      "quote": "呵呵呵呵！！ 你一路赢过来可不容易啊！",
-      "quote2": "预备！咚～！",
-      "sprite": "assets/images/bdsptrainers/gentleman.png",
-      "sprite2": "assets/images/bdsptrainers/jogger.png"
-    },
-    {
-      "name": "史丹利",
-      "class": "Policeman",
-      "name2": "喜可",
-      "class2": "超能力者",
-      "roster": "烈焰猴-3, 波克基斯-2, 蜥蜴王-3, 黑夜魔灵-2",
-      "species": "烈焰猴, 波克基斯, 蜥蜴王, 黑夜魔灵",
-      "teams": [
-        "烈焰猴-3, 波克基斯-2, 蜥蜴王-3, 黑夜魔灵-2"
-      ],
-      "late": "",
-      "quote": "喂，你～说的就是那边的你～ 请你稍等一下～！",
-      "quote2": "哥哥是这么教我的！ 眼睛！他说要瞄准眼睛！",
-      "sprite": "assets/images/bdsptrainers/policeofficer.png",
-      "sprite2": "assets/images/bdsptrainers/psychic-f.png"
-    },
-    {
-      "name": "史丹利",
-      "class": "Policeman",
-      "name2": "光汐",
-      "class2": "大姐姐",
-      "roster": "席多蓝恩-3, 快龙-3, 摇篮百合-3, 雷吉奇卡斯-4",
-      "species": "席多蓝恩, 快龙, 摇篮百合, 雷吉奇卡斯",
-      "teams": [
-        "席多蓝恩-3, 快龙-3, 摇篮百合-3, 雷吉奇卡斯-4"
-      ],
-      "late": "",
-      "quote": "喂，你～说的就是那边的你～ 请你稍等一下～！",
-      "quote2": "嗯……罕见的宝可梦……",
-      "sprite": "assets/images/bdsptrainers/policeofficer.png",
-      "sprite2": "assets/images/bdsptrainers/beauty.png"
-    },
-    {
-      "name": "有行",
-      "class": "服务生",
-      "name2": "雪朵",
-      "class2": "Pokefan (F)",
-      "roster": "狡猾天狗-3, 拉帝欧斯-3, 摇篮百合-3, 九尾-2",
-      "species": "狡猾天狗, 拉帝欧斯, 摇篮百合, 九尾",
-      "teams": [
-        "狡猾天狗-3, 拉帝欧斯-3, 摇篮百合-3, 九尾-2"
-      ],
-      "late": "",
-      "quote": "欢迎光临～！！",
-      "quote2": "别看阿姨现在这样， 年轻的时候可是个万人迷呢。",
-      "sprite": "assets/images/bdsptrainers/waiter.png",
-      "sprite2": "assets/images/bdsptrainers/pokefan-f.png"
-    },
-    {
-      "name": "爱蜜",
-      "class": "自行车手",
-      "name2": "佩多罗",
-      "class2": "资深训练家",
-      "roster": "土台龟-3, 爆音怪-3, 耿鬼-2, 海兔兽-3",
-      "species": "土台龟, 爆音怪, 耿鬼, 海兔兽",
-      "teams": [
-        "土台龟-3, 爆音怪-3, 耿鬼-2, 海兔兽-3"
-      ],
-      "late": "",
-      "quote": "叮铃，叮铃铃。",
-      "quote2": "我先说明白…… 你是赢不了我的。",
-      "sprite": "assets/images/bdsptrainers/cyclist-f.png",
-      "sprite2": "assets/images/bdsptrainers/veteran.png"
-    },
-    {
-      "name": "斯琦",
-      "class": "对战少女",
-      "name2": "舒瑚",
-      "class2": "香氛姐姐",
-      "roster": "闪电鸟-2, 阿勃梭鲁-2, 幸福蛋-2, 护城龙-3",
-      "species": "闪电鸟, 阿勃梭鲁, 幸福蛋, 护城龙",
-      "teams": [
-        "闪电鸟-2, 阿勃梭鲁-2, 幸福蛋-2, 护城龙-3"
-      ],
-      "late": "",
-      "quote": "呀～！",
-      "quote2": "闻到香香的味道， 就会很想睡啊……",
-      "sprite": "assets/images/bdsptrainers/battlegirl.png",
-      "sprite2": "assets/images/bdsptrainers/aromalady.png"
-    },
-    {
-      "name": "建宏",
-      "class": "工人",
-      "name2": "尼克",
-      "class2": "水手",
-      "roster": "隆隆岩-3, 蚊香蛙皇-2, 凯罗斯-3, 电灯怪-3",
-      "species": "隆隆岩, 蚊香蛙皇, 凯罗斯, 电灯怪",
-      "teams": [
-        "隆隆岩-3, 蚊香蛙皇-2, 凯罗斯-3, 电灯怪-3"
-      ],
-      "late": "",
-      "quote": "哦！不错啊！ 来场对战吧！",
-      "quote2": "我乘大船来的。",
-      "sprite": "assets/images/bdsptrainers/worker.png",
-      "sprite2": "assets/images/bdsptrainers/sailor.png"
-    },
-    {
-      "name": "建宏",
-      "class": "工人",
-      "name2": "芳森",
-      "class2": "大姐姐",
-      "roster": "怪力-2, 远古巨蜓-2, 克雷色利亚-5, 胡地-2, 吼鲸王-2, 袋兽-2",
-      "species": "怪力, 远古巨蜓, 克雷色利亚, 胡地, 吼鲸王, 袋兽",
-      "teams": [
-        "怪力-2, 远古巨蜓-2, 克雷色利亚-5, 胡地-2",
-        "吼鲸王-2, 远古巨蜓-2, 克雷色利亚-5, 袋兽-2"
-      ],
-      "late": "",
-      "quote": "哦！不错啊！ 来场对战吧！",
-      "quote2": "好了吗？",
-      "sprite": "assets/images/bdsptrainers/worker.png",
-      "sprite2": "assets/images/bdsptrainers/beauty.png"
-    },
-    {
-      "name": "那由多",
-      "class": "精英训练家",
-      "name2": "赫尔佳",
-      "class2": "精英训练家",
-      "roster": "美丽花-2, 拉普拉斯-3, 煤炭龟-2, 克雷色利亚-6, 超甲狂犀-4",
-      "species": "美丽花, 拉普拉斯, 煤炭龟, 克雷色利亚, 超甲狂犀",
-      "teams": [
-        "美丽花-2, 拉普拉斯-3, 煤炭龟-2, 克雷色利亚-6",
-        "美丽花-2, 超甲狂犀-4, 煤炭龟-2, 克雷色利亚-6"
-      ],
-      "late": "",
-      "quote": "呼哈～！呼哈～！ 你以为你能赢吗！",
-      "quote2": "嘿～嘿～！ 一起愉快地玩耍吧！",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
-    },
-    {
-      "name": "那由多",
-      "class": "精英训练家",
-      "name2": "苏菲",
-      "class2": "自行车手",
-      "roster": "太古盔甲-3, 超甲狂犀-3, 妙蛙花-3, 大舌舔-2",
-      "species": "太古盔甲, 超甲狂犀, 妙蛙花, 大舌舔",
-      "teams": [
-        "太古盔甲-3, 超甲狂犀-3, 妙蛙花-3, 大舌舔-2"
-      ],
-      "late": "",
-      "quote": "呼哈～！呼哈～！ 你以为你能赢吗！",
-      "quote2": "我梦想着有机会要和男朋友 一起骑车约会。",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/cyclist-f.png"
-    },
-    {
-      "name": "那由多",
-      "class": "精英训练家",
-      "name2": "帕克夏",
-      "class2": "吉他手",
-      "roster": "炎帝-2, 克雷色利亚-5, 胡地-3, 耿鬼-2",
-      "species": "炎帝, 克雷色利亚, 胡地, 耿鬼",
-      "teams": [
-        "炎帝-2, 克雷色利亚-5, 胡地-3, 耿鬼-2"
-      ],
-      "late": "",
-      "quote": "呼哈～！呼哈～！ 你以为你能赢吗！",
-      "quote2": "嘿～你可以啊。",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/guitarist.png"
-    },
-    {
-      "name": "杰路姆",
-      "class": "自行车手",
-      "name2": "松鸦",
-      "class2": "养鸟人",
-      "roster": "斗笠菇-2, 随风球-3, 快龙-3, 九尾-2",
-      "species": "斗笠菇, 随风球, 快龙, 九尾",
-      "teams": [
-        "斗笠菇-2, 随风球-3, 快龙-3, 九尾-2"
-      ],
-      "late": "",
-      "quote": "噗噜噜噜～～～！！ 看我的油门全开～！",
-      "quote2": "你已经无处可逃了！",
-      "sprite": "assets/images/bdsptrainers/cyclist-m.png",
-      "sprite2": "assets/images/bdsptrainers/birdkeeper.png"
-    },
-    {
-      "name": "花雨",
-      "class": "阳伞姐姐",
-      "name2": "玳玉",
-      "class2": "记者",
-      "roster": "波士可多拉-2, 沼王-3, 双尾怪手-3, 隆隆岩-2",
-      "species": "波士可多拉, 沼王, 双尾怪手, 隆隆岩",
-      "teams": [
-        "波士可多拉-2, 沼王-3, 双尾怪手-3, 隆隆岩-2"
-      ],
-      "late": "",
-      "quote": "这是把遮阳伞。",
-      "quote2": "我的宝可梦 可有点与众不同哦。",
-      "sprite": "assets/images/bdsptrainers/parasollady.png",
-      "sprite2": "assets/images/bdsptrainers/reporter.png"
-    },
-    {
-      "name": "花雨",
-      "class": "阳伞姐姐",
-      "name2": "沂玫",
-      "class2": "对战少女",
-      "roster": "巨钳螳螂-2, 袋兽-3, 引梦貘人-2, 蜂女王-2",
-      "species": "巨钳螳螂, 袋兽, 引梦貘人, 蜂女王",
-      "teams": [
-        "巨钳螳螂-2, 袋兽-3, 引梦貘人-2, 蜂女王-2"
-      ],
-      "late": "",
-      "quote": "这是把遮阳伞。",
-      "quote2": "我很强，仅此而已。",
-      "sprite": "assets/images/bdsptrainers/parasollady.png",
-      "sprite2": "assets/images/bdsptrainers/battlegirl.png"
-    },
-    {
-      "name": "花雨",
-      "class": "阳伞姐姐",
-      "name2": "丹朱",
-      "class2": "Policeman",
-      "roster": "雷吉斯奇鲁-2, 钻角犀兽-3, 蚊香泳士-3, 天蝎王-2",
-      "species": "雷吉斯奇鲁, 钻角犀兽, 蚊香泳士, 天蝎王",
-      "teams": [
-        "雷吉斯奇鲁-2, 钻角犀兽-3, 蚊香泳士-3, 天蝎王-2"
-      ],
-      "late": "",
-      "quote": "这是把遮阳伞。",
-      "quote2": "呜呜……嗯嗯……",
-      "sprite": "assets/images/bdsptrainers/parasollady.png",
-      "sprite2": "assets/images/bdsptrainers/policeofficer.png"
-    },
-    {
-      "name": "柯玛",
-      "class": "牛仔女孩",
-      "name2": "佳丽美",
-      "class2": "阳伞姐姐",
-      "roster": "暴飞龙-2, 尼多后-2, 火焰鸟-3, 赫拉克罗斯-2",
-      "species": "暴飞龙, 尼多后, 火焰鸟, 赫拉克罗斯",
-      "teams": [
-        "暴飞龙-2, 尼多后-2, 火焰鸟-3, 赫拉克罗斯-2"
-      ],
-      "late": "",
-      "quote": "让我来终结一切吧。",
-      "quote2": "无论是晴天还是下雨， 我都会在这里寻找强大的训练家。",
-      "sprite": "assets/images/bdsptrainers/cowgirl.png",
-      "sprite2": "assets/images/bdsptrainers/parasollady.png"
-    },
-    {
-      "name": "柯玛",
-      "class": "牛仔女孩",
-      "name2": "那须",
-      "class2": "Fisherman",
-      "roster": "海兔兽-2, 炎帝-1, 喷火龙-3, 佛烈托斯-2",
-      "species": "海兔兽, 炎帝, 喷火龙, 佛烈托斯",
-      "teams": [
-        "海兔兽-2, 炎帝-1, 喷火龙-3, 佛烈托斯-2"
-      ],
-      "late": "",
-      "quote": "让我来终结一切吧。",
-      "quote2": "让你见识一下！ 神奥第一的抛竿技术！",
-      "sprite": "assets/images/bdsptrainers/cowgirl.png",
-      "sprite2": "assets/images/bdsptrainers/fisher.png"
-    },
-    {
-      "name": "苏菲",
-      "class": "自行车手",
-      "name2": "南航",
-      "class2": "研究员",
-      "roster": "龙王蝎-2, 布鲁皇-2, 急冻鸟-1, 鸭嘴炎兽-2",
-      "species": "龙王蝎, 布鲁皇, 急冻鸟, 鸭嘴炎兽",
-      "teams": [
-        "龙王蝎-2, 布鲁皇-2, 急冻鸟-1, 鸭嘴炎兽-2"
-      ],
-      "late": "",
-      "quote": "我梦想着有机会要和男朋友 一起骑车约会。",
-      "quote2": "突击吧！我的宝可梦！ 展示我们的试验成果吧！",
-      "sprite": "assets/images/bdsptrainers/cyclist-f.png",
-      "sprite2": "assets/images/bdsptrainers/scientist.png"
-    },
-    {
-      "name": "苏菲",
-      "class": "自行车手",
-      "name2": "五叶松",
-      "class2": "精英训练家",
-      "roster": "蚊香蛙皇-3, 双弹瓦斯-3, 恰雷姆-3, 炎帝-3",
-      "species": "蚊香蛙皇, 双弹瓦斯, 恰雷姆, 炎帝",
-      "teams": [
-        "蚊香蛙皇-3, 双弹瓦斯-3, 恰雷姆-3, 炎帝-3"
-      ],
-      "late": "",
-      "quote": "我梦想着有机会要和男朋友 一起骑车约会。",
-      "quote2": "全力投球！",
-      "sprite": "assets/images/bdsptrainers/cyclist-f.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-m.png"
-    },
-    {
-      "name": "伙星",
-      "class": "银河队",
-      "name2": "赤日",
-      "class2": "银河队",
-      "roster": "雷丘-4, 青铜钟-5, 暴鲤龙-6, 暴飞龙-8, 太阳伊布-4, 波克基斯-8, 玛狃拉-5, 炎帝-6, 叉字蝠-3, 东施喵-2, 洛托姆-加热-2, 暴鲤龙-7",
-      "species": "雷丘, 青铜钟, 暴鲤龙, 暴飞龙, 太阳伊布, 波克基斯, 玛狃拉, 炎帝, 叉字蝠, 东施喵, 洛托姆-加热",
-      "teams": [
-        "雷丘-4, 青铜钟-5, 暴鲤龙-6, 暴飞龙-8",
-        "太阳伊布-4, 波克基斯-8, 玛狃拉-5, 炎帝-6",
-        "叉字蝠-3, 东施喵-2, 洛托姆-加热-2, 暴鲤龙-7"
-      ],
-      "late": "",
-      "quote": "！ 只有你，我绝对不会放过你！ 不可饶恕！！不可饶恕！！！",
-      "quote2": "是啊， 我和你还真是有缘呢。 不过，这段孽缘…… 就让我在此斩断吧！",
-      "sprite": "assets/images/bdsptrainers/mars.png",
-      "sprite2": "assets/images/bdsptrainers/cyrus.png"
-    },
-    {
-      "name": "阿李",
-      "class": "道馆馆主",
-      "name2": "小菘",
-      "class2": "道馆馆主",
-      "roster": "战舞郎-4, 路卡利欧-6, 暴雪王-7, 雪妖女-5, 战舞郎-5, 急冻鸟-6, 火焰鸡-7, 玛狃拉-4",
-      "species": "战舞郎, 路卡利欧, 暴雪王, 雪妖女, 急冻鸟, 火焰鸡, 玛狃拉",
-      "teams": [
-        "战舞郎-4, 路卡利欧-6, 暴雪王-7, 雪妖女-5",
-        "战舞郎-5, 路卡利欧-6, 暴雪王-7, 急冻鸟-6",
-        "战舞郎-4, 火焰鸡-7, 玛狃拉-4, 暴雪王-7"
-      ],
-      "late": "",
-      "quote": "我肚子饿了…… 啊，没什么啦！",
-      "quote2": "我和阿李的气势，可是非常厉害的哦！",
-      "sprite": "assets/images/bdsptrainers/maylene.png",
-      "sprite2": "assets/images/bdsptrainers/candice.png"
-    },
-    {
-      "name": "宽平",
-      "class": "资深训练家",
-      "name2": "杰路姆",
-      "class2": "自行车手",
-      "roster": "姆克鹰-3, 钻角犀兽-2, 土台龟-3, 水箭龟-3",
-      "species": "姆克鹰, 钻角犀兽, 土台龟, 水箭龟",
-      "teams": [
-        "姆克鹰-3, 钻角犀兽-2, 土台龟-3, 水箭龟-3"
-      ],
-      "late": "",
-      "quote": "我已经在这里待了好几年了， 但是一点都不觉得腻。",
-      "quote2": "噗噜噜噜～～～！！ 看我的油门全开～！",
-      "sprite": "assets/images/bdsptrainers/veteran.png",
-      "sprite2": "assets/images/bdsptrainers/cyclist-m.png"
-    },
-    {
-      "name": "麦儿",
-      "class": "宝可梦训练家",
-      "name2": "芽米",
-      "class2": "宝可梦训练家",
-      "roster": "胡地-6, 耿鬼-6, 月亮伊布-4, 幸福蛋-4, 闪电鸟-9, 胡地-7, 幸福蛋-5, 多边兽乙型-4, 沙奈朵-6, 闪电鸟-10, 拉帝欧斯-7, 多边兽乙型-5",
-      "species": "胡地, 耿鬼, 月亮伊布, 幸福蛋, 闪电鸟, 多边兽乙型, 沙奈朵, 拉帝欧斯",
-      "teams": [
-        "胡地-6, 耿鬼-6, 月亮伊布-4, 幸福蛋-4",
-        "闪电鸟-9, 胡地-7, 幸福蛋-5, 多边兽乙型-4",
-        "沙奈朵-6, 闪电鸟-10, 拉帝欧斯-7, 多边兽乙型-5"
-      ],
-      "late": "",
-      "quote": "啊，！ 我在这里迷路了，然后遇到了芽米！",
-      "quote2": "好久不见，。 俗话说出门靠旅伴， 现在有麦儿陪着我哦！",
-      "sprite": "assets/images/bdsptrainers/mira.png",
-      "sprite2": "assets/images/bdsptrainers/cheryl.png"
-    },
-    {
-      "name": "梅尔芭",
-      "class": "精英训练家",
-      "name2": "菠菠",
-      "class2": "精英训练家",
-      "roster": "九尾-5, 喷火龙-4, 妙蛙花-5, 烈咬陆鲨-5, 超甲狂犀-4",
-      "species": "九尾, 喷火龙, 妙蛙花, 烈咬陆鲨, 超甲狂犀",
-      "teams": [
-        "九尾-5, 喷火龙-4, 妙蛙花-5, 烈咬陆鲨-5",
-        "九尾-5, 喷火龙-4, 妙蛙花-5, 超甲狂犀-4"
-      ],
-      "late": "",
-      "quote": "我们来训练吧。",
-      "quote2": "我的爸爸妈妈都是 很强的训练家哦！",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
-    },
-    {
-      "name": "梅尔芭",
-      "class": "精英训练家",
-      "name2": "雅格尼丝",
-      "class2": "精英训练家",
-      "roster": "水君-5, 波克基斯-4, 烈咬陆鲨-7, 班基拉斯-4",
-      "species": "水君, 波克基斯, 烈咬陆鲨, 班基拉斯",
-      "teams": [
-        "水君-5, 波克基斯-4, 烈咬陆鲨-7, 班基拉斯-4"
-      ],
-      "late": "",
-      "quote": "我们来训练吧。",
-      "quote2": "任何胜负我都会 全力以赴！",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
-    },
-    {
-      "name": "舒瑚",
-      "class": "香氛姐姐",
-      "name2": "源五郎",
-      "class2": "吉他手",
-      "roster": "耿鬼-3, 美纳斯-3, 叉字蝠-2, 凯罗斯-3",
-      "species": "耿鬼, 美纳斯, 叉字蝠, 凯罗斯",
-      "teams": [
-        "耿鬼-3, 美纳斯-3, 叉字蝠-2, 凯罗斯-3"
-      ],
-      "late": "",
-      "quote": "闻到香香的味道， 就会很想睡啊……",
-      "quote2": "请听我和宝可梦们的大合唱。",
-      "sprite": "assets/images/bdsptrainers/aromalady.png",
-      "sprite2": "assets/images/bdsptrainers/guitarist.png"
-    },
-    {
-      "name": "舒瑚",
-      "class": "香氛姐姐",
-      "name2": "那须",
-      "class2": "Fisherman",
-      "roster": "吼鲸王-2, 巨蔓藤-2, 毒刺水母-2, 狡猾天狗-3",
-      "species": "吼鲸王, 巨蔓藤, 毒刺水母, 狡猾天狗",
-      "teams": [
-        "吼鲸王-2, 巨蔓藤-2, 毒刺水母-2, 狡猾天狗-3"
-      ],
-      "late": "",
-      "quote": "闻到香香的味道， 就会很想睡啊……",
-      "quote2": "让你见识一下！ 神奥第一的抛竿技术！",
-      "sprite": "assets/images/bdsptrainers/aromalady.png",
-      "sprite2": "assets/images/bdsptrainers/fisher.png"
-    },
-    {
-      "name": "芳森",
-      "class": "大姐姐",
-      "name2": "凯玲",
-      "class2": "女服务生",
-      "roster": "蜂女王-3, 阿勃梭鲁-3, 帝王拿波-3, 雷吉奇卡斯-3",
-      "species": "蜂女王, 阿勃梭鲁, 帝王拿波, 雷吉奇卡斯",
-      "teams": [
-        "蜂女王-3, 阿勃梭鲁-3, 帝王拿波-3, 雷吉奇卡斯-3"
-      ],
-      "late": "",
-      "quote": "好了吗？",
-      "quote2": "您回来啦！",
-      "sprite": "assets/images/bdsptrainers/beauty.png",
-      "sprite2": "assets/images/bdsptrainers/waitress.png"
-    },
-    {
-      "name": "亚玄",
-      "class": "宝可梦训练家",
-      "name2": "米依",
-      "class2": "宝可梦训练家",
-      "roster": "风速狗-5, 化石翼龙-3, 暴飞龙-6, 路卡利欧-8, 风速狗-6, 宝石海星-4, 暴飞龙-7, 巨金怪-8, 风速狗-7, 烈咬陆鲨-9",
-      "species": "风速狗, 化石翼龙, 暴飞龙, 路卡利欧, 宝石海星, 巨金怪, 烈咬陆鲨",
-      "teams": [
-        "风速狗-5, 化石翼龙-3, 暴飞龙-6, 路卡利欧-8",
-        "风速狗-6, 宝石海星-4, 暴飞龙-7, 巨金怪-8",
-        "风速狗-7, 化石翼龙-3, 路卡利欧-8, 烈咬陆鲨-9"
-      ],
-      "late": "",
-      "quote": "营养均衡可是非常重要的哦！ 你有好好补充营养吗？",
-      "quote2": "……食物是生命之源。",
-      "sprite": "assets/images/bdsptrainers/riley.png",
-      "sprite2": "assets/images/bdsptrainers/marley.png"
-    },
-    {
-      "name": "裘绅",
-      "class": "小丑",
-      "name2": "伯布希",
-      "class2": "牧场大叔",
-      "roster": "宝石海星-2, 火焰鸟-1, 暴雪王-3, 呆壳兽-2",
-      "species": "宝石海星, 火焰鸟, 暴雪王, 呆壳兽",
-      "teams": [
-        "宝石海星-2, 火焰鸟-1, 暴雪王-3, 呆壳兽-2"
-      ],
-      "late": "",
-      "quote": "我会全力以赴的。 请多多关照！",
-      "quote2": "小少爷？小姑娘？ 总之我们先上吧！",
-      "sprite": "assets/images/bdsptrainers/clown.png",
-      "sprite2": "assets/images/bdsptrainers/rancher.png"
-    },
-    {
-      "name": "瓢太",
-      "class": "道馆馆主",
-      "name2": "东瓜",
-      "class2": "道馆馆主",
-      "roster": "班基拉斯-8, 战槌龙-6, 巨钳螳螂-5, 护城龙-4, 战槌龙-7, 班基拉斯-9, 青铜钟-4, 护城龙-5, 化石翼龙-5, 班基拉斯-10, 巨金怪-5, 席多蓝恩-7",
-      "species": "班基拉斯, 战槌龙, 巨钳螳螂, 护城龙, 青铜钟, 化石翼龙, 巨金怪, 席多蓝恩",
-      "teams": [
-        "班基拉斯-8, 战槌龙-6, 巨钳螳螂-5, 护城龙-4",
-        "战槌龙-7, 班基拉斯-9, 青铜钟-4, 护城龙-5",
-        "化石翼龙-5, 班基拉斯-10, 巨金怪-5, 席多蓝恩-7"
-      ],
-      "late": "",
-      "quote": "我爸爸和我啊， 在配合这方面很有信心哦！",
-      "quote2": "嘎哈哈！ 你可别掉以轻心哦，瓢太！",
-      "sprite": "assets/images/bdsptrainers/roark.png",
-      "sprite2": "assets/images/bdsptrainers/byron.png"
-    },
-    {
-      "name": "杜本",
-      "class": "宝可梦巡护员",
-      "name2": "月歌",
-      "class2": "偶像明星",
-      "roster": "护城龙-2, 赫拉克罗斯-3, 水君-4, 蜂女王-2",
-      "species": "护城龙, 赫拉克罗斯, 水君, 蜂女王",
-      "teams": [
-        "护城龙-2, 赫拉克罗斯-3, 水君-4, 蜂女王-2"
-      ],
-      "late": "",
-      "quote": "你很紧张吗？ 放心交给大哥哥吧！",
-      "quote2": "唱歌～跳舞～ 锁住你的视线！",
-      "sprite": "assets/images/bdsptrainers/pokemonranger-m.png",
-      "sprite2": "assets/images/bdsptrainers/idol.png"
-    },
-    {
-      "name": "杜本",
-      "class": "宝可梦巡护员",
-      "name2": "南航",
-      "class2": "研究员",
-      "roster": "肯泰罗-2, 沼王-2, 呆呆王-3, 火焰鸟-2",
-      "species": "肯泰罗, 沼王, 呆呆王, 火焰鸟",
-      "teams": [
-        "肯泰罗-2, 沼王-2, 呆呆王-3, 火焰鸟-2"
-      ],
-      "late": "",
-      "quote": "你很紧张吗？ 放心交给大哥哥吧！",
-      "quote2": "突击吧！我的宝可梦！ 展示我们的试验成果吧！",
-      "sprite": "assets/images/bdsptrainers/pokemonranger-m.png",
-      "sprite2": "assets/images/bdsptrainers/scientist.png"
-    },
-    {
-      "name": "杜本",
-      "class": "宝可梦巡护员",
-      "name2": "丹朱",
-      "class2": "Policeman",
-      "roster": "火焰鸟-3, 电击魔兽-2, 斗笠菇-3, 拉帝亚斯-4",
-      "species": "火焰鸟, 电击魔兽, 斗笠菇, 拉帝亚斯",
-      "teams": [
-        "火焰鸟-3, 电击魔兽-2, 斗笠菇-3, 拉帝亚斯-4"
-      ],
-      "late": "",
-      "quote": "你很紧张吗？ 放心交给大哥哥吧！",
-      "quote2": "呜呜……嗯嗯……",
-      "sprite": "assets/images/bdsptrainers/pokemonranger-m.png",
-      "sprite2": "assets/images/bdsptrainers/policeofficer.png"
-    },
-    {
-      "name": "桃太郎",
-      "class": "慢跑者",
-      "name2": "伯布希",
-      "class2": "牧场大叔",
-      "roster": "沙奈朵-3, 炎帝-3, 尼多后-3, 呆壳兽-2",
-      "species": "沙奈朵, 炎帝, 尼多后, 呆壳兽",
-      "teams": [
-        "沙奈朵-3, 炎帝-3, 尼多后-3, 呆壳兽-2"
-      ],
-      "late": "",
-      "quote": "为什么我会在这里……",
-      "quote2": "小少爷？小姑娘？ 总之我们先上吧！",
-      "sprite": "assets/images/bdsptrainers/jogger.png",
-      "sprite2": "assets/images/bdsptrainers/rancher.png"
-    },
-    {
-      "name": "桃太郎",
-      "class": "慢跑者",
-      "name2": "丹朱",
-      "class2": "Policeman",
-      "roster": "电龙-2, 蚊香泳士-2, 袋兽-2, 青铜钟-2",
-      "species": "电龙, 蚊香泳士, 袋兽, 青铜钟",
-      "teams": [
-        "电龙-2, 蚊香泳士-2, 袋兽-2, 青铜钟-2"
-      ],
-      "late": "",
-      "quote": "为什么我会在这里……",
-      "quote2": "呜呜……嗯嗯……",
-      "sprite": "assets/images/bdsptrainers/jogger.png",
-      "sprite2": "assets/images/bdsptrainers/policeofficer.png"
-    },
-    {
-      "name": "飞跃",
-      "class": "慢跑者",
-      "name2": "佩多罗",
-      "class2": "资深训练家",
-      "roster": "铁掌力士-2, 火焰鸟-4, 雷吉洛克-2, 拉帝欧斯-3",
-      "species": "铁掌力士, 火焰鸟, 雷吉洛克, 拉帝欧斯",
-      "teams": [
-        "铁掌力士-2, 火焰鸟-4, 雷吉洛克-2, 拉帝欧斯-3"
-      ],
-      "late": "",
-      "quote": "预备！咚～！",
-      "quote2": "我先说明白…… 你是赢不了我的。",
-      "sprite": "assets/images/bdsptrainers/jogger.png",
-      "sprite2": "assets/images/bdsptrainers/veteran.png"
-    },
-    {
-      "name": "飞跃",
-      "class": "慢跑者",
-      "name2": "鸯恩",
-      "class2": "Socialite",
-      "roster": "沙奈朵-3, 尼多王-3, 烈咬陆鲨-2, 摇篮百合-2",
-      "species": "沙奈朵, 尼多王, 烈咬陆鲨, 摇篮百合",
-      "teams": [
-        "沙奈朵-3, 尼多王-3, 烈咬陆鲨-2, 摇篮百合-2"
-      ],
-      "late": "",
-      "quote": "预备！咚～！",
-      "quote2": "你还是个孩子吧？",
-      "sprite": "assets/images/bdsptrainers/jogger.png",
-      "sprite2": "assets/images/bdsptrainers/madame.png"
-    },
-    {
-      "name": "飞跃",
-      "class": "慢跑者",
-      "name2": "桃太郎",
-      "class2": "慢跑者",
-      "roster": "坦克臭鼬-2, 臭臭泥-2, 大食花-3, 魔墙人偶-2",
-      "species": "坦克臭鼬, 臭臭泥, 大食花, 魔墙人偶",
-      "teams": [
-        "坦克臭鼬-2, 臭臭泥-2, 大食花-3, 魔墙人偶-2"
-      ],
-      "late": "",
-      "quote": "预备！咚～！",
-      "quote2": "为什么我会在这里……",
-      "sprite": "assets/images/bdsptrainers/jogger.png",
-      "sprite2": "assets/images/bdsptrainers/jogger.png"
-    },
-    {
-      "name": "萍萍",
-      "class": "偶像明星",
-      "name2": "芭芭儿",
-      "class2": "养鸟人",
-      "roster": "急冻鸟-4, 姆克鹰-2, 战槌龙-2, 卡比兽-2",
-      "species": "急冻鸟, 姆克鹰, 战槌龙, 卡比兽",
-      "teams": [
-        "急冻鸟-4, 姆克鹰-2, 战槌龙-2, 卡比兽-2"
-      ],
-      "late": "",
-      "quote": "你真的要对战？和我吗？",
-      "quote2": "人生啊，很多时候 都不会让你称心如意！",
-      "sprite": "assets/images/bdsptrainers/idol.png",
-      "sprite2": "assets/images/bdsptrainers/birdkeeper.png"
-    },
-    {
-      "name": "萍萍",
-      "class": "偶像明星",
-      "name2": "尼克",
-      "class2": "水手",
-      "roster": "圈圈熊-3, 蜥蜴王-3, 罗丝雷朵-2, 狡猾天狗-3",
-      "species": "圈圈熊, 蜥蜴王, 罗丝雷朵, 狡猾天狗",
-      "teams": [
-        "圈圈熊-3, 蜥蜴王-3, 罗丝雷朵-2, 狡猾天狗-3"
-      ],
-      "late": "",
-      "quote": "你真的要对战？和我吗？",
-      "quote2": "我乘大船来的。",
-      "sprite": "assets/images/bdsptrainers/idol.png",
-      "sprite2": "assets/images/bdsptrainers/sailor.png"
-    },
-    {
-      "name": "萍萍",
-      "class": "偶像明星",
-      "name2": "郝乐",
-      "class2": "赌徒",
-      "roster": "蜥蜴王-3, 赫拉克罗斯-2, 雷伊布-2, 椰蛋树-2",
-      "species": "蜥蜴王, 赫拉克罗斯, 雷伊布, 椰蛋树",
-      "teams": [
-        "蜥蜴王-3, 赫拉克罗斯-2, 雷伊布-2, 椰蛋树-2"
-      ],
-      "late": "",
-      "quote": "你真的要对战？和我吗？",
-      "quote2": "陪我来一场吧！ 华丽的胜负！",
-      "sprite": "assets/images/bdsptrainers/idol.png",
-      "sprite2": "assets/images/bdsptrainers/pi.png"
-    },
-    {
-      "name": "忒奇瑟",
-      "class": "牛仔女孩",
-      "name2": "珐娜",
-      "class2": "精英训练家",
-      "roster": "雷吉洛克-4, 幸福蛋-2, 拉帝欧斯-4, 拉普拉斯-2",
-      "species": "雷吉洛克, 幸福蛋, 拉帝欧斯, 拉普拉斯",
-      "teams": [
-        "雷吉洛克-4, 幸福蛋-2, 拉帝欧斯-4, 拉普拉斯-2"
-      ],
-      "late": "",
-      "quote": "我要努力拿下胜利～！ 耶～耶～哦～！",
-      "quote2": "我不会再让任何人逃跑了。 放弃挣扎吧。",
-      "sprite": "assets/images/bdsptrainers/cowgirl.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
-    },
-    {
-      "name": "忒奇瑟",
-      "class": "牛仔女孩",
-      "name2": "有行",
-      "class2": "服务生",
-      "roster": "霸王花-3, 烈焰马-2, 玛狃拉-2, 蜂女王-3",
-      "species": "霸王花, 烈焰马, 玛狃拉, 蜂女王",
-      "teams": [
-        "霸王花-3, 烈焰马-2, 玛狃拉-2, 蜂女王-3"
-      ],
-      "late": "",
-      "quote": "我要努力拿下胜利～！ 耶～耶～哦～！",
-      "quote2": "欢迎光临～！！",
-      "sprite": "assets/images/bdsptrainers/cowgirl.png",
-      "sprite2": "assets/images/bdsptrainers/waiter.png"
-    },
-    {
-      "name": "沂玫",
-      "class": "对战少女",
-      "name2": "源五郎",
-      "class2": "吉他手",
-      "roster": "怪力-2, 雷公-1, 双弹瓦斯-2, 雷吉洛克-3",
-      "species": "怪力, 雷公, 双弹瓦斯, 雷吉洛克",
-      "teams": [
-        "怪力-2, 雷公-1, 双弹瓦斯-2, 雷吉洛克-3"
-      ],
-      "late": "",
-      "quote": "我很强，仅此而已。",
-      "quote2": "请听我和宝可梦们的大合唱。",
-      "sprite": "assets/images/bdsptrainers/battlegirl.png",
-      "sprite2": "assets/images/bdsptrainers/guitarist.png"
-    },
-    {
-      "name": "沂玫",
-      "class": "对战少女",
-      "name2": "杰路姆",
-      "class2": "自行车手",
-      "roster": "阿勃梭鲁-3, 雷吉奇卡斯-3, 雷吉斯奇鲁-1, 隆隆岩-3",
-      "species": "阿勃梭鲁, 雷吉奇卡斯, 雷吉斯奇鲁, 隆隆岩",
-      "teams": [
-        "阿勃梭鲁-3, 雷吉奇卡斯-3, 雷吉斯奇鲁-1, 隆隆岩-3"
-      ],
-      "late": "",
-      "quote": "我很强，仅此而已。",
-      "quote2": "噗噜噜噜～～～！！ 看我的油门全开～！",
-      "sprite": "assets/images/bdsptrainers/battlegirl.png",
-      "sprite2": "assets/images/bdsptrainers/cyclist-m.png"
-    },
-    {
-      "name": "玉叶",
-      "class": "偶像明星",
-      "name2": "桐太",
-      "class2": "登山男",
-      "roster": "水伊布-2, 胡地-2, 暴鲤龙-2, 大舌舔-2",
-      "species": "水伊布, 胡地, 暴鲤龙, 大舌舔",
-      "teams": [
-        "水伊布-2, 胡地-2, 暴鲤龙-2, 大舌舔-2"
-      ],
-      "late": "",
-      "quote": "对战是我唯一的生存价值， 胜利是我唯一的愿望。",
-      "quote2": "来啊！来啊！",
-      "sprite": "assets/images/bdsptrainers/idol.png",
-      "sprite2": "assets/images/bdsptrainers/hiker.png"
-    },
-    {
-      "name": "玉叶",
-      "class": "偶像明星",
-      "name2": "芊河",
-      "class2": "宝可梦巡护员",
-      "roster": "尼多王-2, 三地鼠-3, 龙王蝎-2, 布鲁皇-2, 凯罗斯-2, 斗笠菇-2",
-      "species": "尼多王, 三地鼠, 龙王蝎, 布鲁皇, 凯罗斯, 斗笠菇",
-      "teams": [
-        "尼多王-2, 三地鼠-3, 龙王蝎-2, 布鲁皇-2",
-        "凯罗斯-2, 三地鼠-3, 龙王蝎-2, 斗笠菇-2"
-      ],
-      "late": "",
-      "quote": "对战是我唯一的生存价值， 胜利是我唯一的愿望。",
-      "quote2": "让你见识一下 大自然的力量！",
-      "sprite": "assets/images/bdsptrainers/idol.png",
-      "sprite2": "assets/images/bdsptrainers/pokemonranger-f.png"
-    },
-    {
-      "name": "丹朱",
-      "class": "Policeman",
-      "name2": "太志",
-      "class2": "宝可梦培育家",
-      "roster": "乐天河童-2, 拉普拉斯-2, 巨钳螳螂-2, 天蝎王-2",
-      "species": "乐天河童, 拉普拉斯, 巨钳螳螂, 天蝎王",
-      "teams": [
-        "乐天河童-2, 拉普拉斯-2, 巨钳螳螂-2, 天蝎王-2"
-      ],
-      "late": "",
-      "quote": "呜呜……嗯嗯……",
-      "quote2": "对战不仅是输赢而已。",
-      "sprite": "assets/images/bdsptrainers/policeofficer.png",
-      "sprite2": "assets/images/bdsptrainers/pokemonbreeder-m.png"
-    },
-    {
-      "name": "比乃惠",
-      "class": "宝可梦培育家",
-      "name2": "荷米",
-      "class2": "摄影师",
-      "roster": "火暴兽-3, 席多蓝恩-4, 顽皮雷弹-3, 乐天河童-3",
-      "species": "火暴兽, 席多蓝恩, 顽皮雷弹, 乐天河童",
-      "teams": [
-        "火暴兽-3, 席多蓝恩-4, 顽皮雷弹-3, 乐天河童-3"
-      ],
-      "late": "",
-      "quote": "让我来看看 你把宝可梦培育得如何了吧。",
-      "quote2": "我盯……",
-      "sprite": "assets/images/bdsptrainers/pokemonbreeder-f.png",
-      "sprite2": "assets/images/bdsptrainers/cameraman.png"
-    },
-    {
-      "name": "比乃惠",
-      "class": "宝可梦培育家",
-      "name2": "史丹利",
-      "class2": "Policeman",
-      "roster": "路卡利欧-2, 大食花-3, 长耳兔-2, 风速狗-2",
-      "species": "路卡利欧, 大食花, 长耳兔, 风速狗",
-      "teams": [
-        "路卡利欧-2, 大食花-3, 长耳兔-2, 风速狗-2"
-      ],
-      "late": "",
-      "quote": "让我来看看 你把宝可梦培育得如何了吧。",
-      "quote2": "喂，你～说的就是那边的你～ 请你稍等一下～！",
-      "sprite": "assets/images/bdsptrainers/pokemonbreeder-f.png",
-      "sprite2": "assets/images/bdsptrainers/policeofficer.png"
-    },
-    {
-      "name": "岩培",
-      "class": "遗迹迷",
-      "name2": "鹰人",
-      "class2": "宝可梦收藏家",
-      "roster": "雷吉奇卡斯-4, 克雷色利亚-3, 急冻鸟-1, 大食花-2",
-      "species": "雷吉奇卡斯, 克雷色利亚, 急冻鸟, 大食花",
-      "teams": [
-        "雷吉奇卡斯-4, 克雷色利亚-3, 急冻鸟-1, 大食花-2"
-      ],
-      "late": "",
-      "quote": "宝可梦对战的乐趣， 就在最后一击！",
-      "quote2": "我是借鉴了网友的情报 培育的宝可梦！",
-      "sprite": "assets/images/bdsptrainers/ruinmaniac.png",
-      "sprite2": "assets/images/bdsptrainers/collector.png"
-    },
-    {
-      "name": "岩培",
-      "class": "遗迹迷",
-      "name2": "桃太郎",
-      "class2": "慢跑者",
-      "roster": "席多蓝恩-5, 烈焰马-3, 闪电鸟-4, 艾路雷朵-2",
-      "species": "席多蓝恩, 烈焰马, 闪电鸟, 艾路雷朵",
-      "teams": [
-        "席多蓝恩-5, 烈焰马-3, 闪电鸟-4, 艾路雷朵-2"
-      ],
-      "late": "",
-      "quote": "宝可梦对战的乐趣， 就在最后一击！",
-      "quote2": "为什么我会在这里……",
-      "sprite": "assets/images/bdsptrainers/ruinmaniac.png",
-      "sprite2": "assets/images/bdsptrainers/jogger.png"
-    },
-    {
-      "name": "帕克夏",
-      "class": "吉他手",
-      "name2": "斯琦",
-      "class2": "对战少女",
-      "roster": "巨金怪-2, 帝牙海狮-2, 铁掌力士-3, 盔甲鸟-2",
-      "species": "巨金怪, 帝牙海狮, 铁掌力士, 盔甲鸟",
-      "teams": [
-        "巨金怪-2, 帝牙海狮-2, 铁掌力士-3, 盔甲鸟-2"
-      ],
-      "late": "",
-      "quote": "嘿～你可以啊。",
-      "quote2": "呀～！",
-      "sprite": "assets/images/bdsptrainers/guitarist.png",
-      "sprite2": "assets/images/bdsptrainers/battlegirl.png"
-    },
-    {
-      "name": "帕克夏",
-      "class": "吉他手",
-      "name2": "鸯恩",
-      "class2": "Socialite",
-      "roster": "大奶罐-2, 斗笠菇-2, 七夕青鸟-2, 毒刺水母-2",
-      "species": "大奶罐, 斗笠菇, 七夕青鸟, 毒刺水母",
-      "teams": [
-        "大奶罐-2, 斗笠菇-2, 七夕青鸟-2, 毒刺水母-2"
-      ],
-      "late": "",
-      "quote": "嘿～你可以啊。",
-      "quote2": "你还是个孩子吧？",
-      "sprite": "assets/images/bdsptrainers/guitarist.png",
-      "sprite2": "assets/images/bdsptrainers/madame.png"
-    },
-    {
-      "name": "帕克夏",
-      "class": "吉他手",
-      "name2": "宽平",
-      "class2": "资深训练家",
-      "roster": "大竺葵-3, 帝牙海狮-2, 双弹瓦斯-3, 盔甲鸟-2",
-      "species": "大竺葵, 帝牙海狮, 双弹瓦斯, 盔甲鸟",
-      "teams": [
-        "大竺葵-3, 帝牙海狮-2, 双弹瓦斯-3, 盔甲鸟-2"
-      ],
-      "late": "",
-      "quote": "嘿～你可以啊。",
-      "quote2": "我已经在这里待了好几年了， 但是一点都不觉得腻。",
-      "sprite": "assets/images/bdsptrainers/guitarist.png",
-      "sprite2": "assets/images/bdsptrainers/veteran.png"
-    },
-    {
-      "name": "苞儿",
-      "class": "偶像明星",
-      "name2": "果雅",
-      "class2": "宝可梦培育家",
-      "roster": "沙漠蜻蜓-2, 闪电鸟-3, 雷公-4, 恰雷姆-3",
-      "species": "沙漠蜻蜓, 闪电鸟, 雷公, 恰雷姆",
-      "teams": [
-        "沙漠蜻蜓-2, 闪电鸟-3, 雷公-4, 恰雷姆-3"
-      ],
-      "late": "",
-      "quote": "你真的没问题吧？ 我可是超级强的哦！",
-      "quote2": "严格点也不是…… 宠着点也不成……",
-      "sprite": "assets/images/bdsptrainers/idol.png",
-      "sprite2": "assets/images/bdsptrainers/pokemonbreeder-f.png"
-    },
-    {
-      "name": "苞儿",
-      "class": "偶像明星",
-      "name2": "佩尔",
-      "class2": "小丑",
-      "roster": "呆呆王-2, 电灯怪-3, 鲶鱼王-2, 河马兽-2",
-      "species": "呆呆王, 电灯怪, 鲶鱼王, 河马兽",
-      "teams": [
-        "呆呆王-2, 电灯怪-3, 鲶鱼王-2, 河马兽-2"
-      ],
-      "late": "",
-      "quote": "你真的没问题吧？ 我可是超级强的哦！",
-      "quote2": "所谓的宝可梦对战 就像写在沙滩上的情书一样。",
-      "sprite": "assets/images/bdsptrainers/idol.png",
-      "sprite2": "assets/images/bdsptrainers/clown.png"
-    },
-    {
-      "name": "苞儿",
-      "class": "偶像明星",
-      "name2": "那须",
-      "class2": "Fisherman",
-      "roster": "雷吉奇卡斯-5, 哥达鸭-3, 化石翼龙-2, 雷吉洛克-1",
-      "species": "雷吉奇卡斯, 哥达鸭, 化石翼龙, 雷吉洛克",
-      "teams": [
-        "雷吉奇卡斯-5, 哥达鸭-3, 化石翼龙-2, 雷吉洛克-1"
-      ],
-      "late": "",
-      "quote": "你真的没问题吧？ 我可是超级强的哦！",
-      "quote2": "让你见识一下！ 神奥第一的抛竿技术！",
-      "sprite": "assets/images/bdsptrainers/idol.png",
-      "sprite2": "assets/images/bdsptrainers/fisher.png"
-    }
-  ]
+ "trainers": [
+  {
+   "name": "赫尔佳",
+   "class": "精英训练家",
+   "name2": "阿玛波拉",
+   "class2": "光头男",
+   "roster": "姆克鹰-3, 浮潜鼬-2, 梦妖魔-3, 拉帝亚斯-4",
+   "species": "姆克鹰, 浮潜鼬, 梦妖魔, 拉帝亚斯",
+   "teams": [
+    "姆克鹰-3, 浮潜鼬-2, 梦妖魔-3, 拉帝亚斯-4"
+   ],
+   "late": "",
+   "quote": "嘿～嘿～！ 一起愉快地玩耍吧！",
+   "quote2": "爸……妈…… 好好看着吧……",
+   "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
+   "sprite2": "assets/images/bdsptrainers/roughneck.png"
+  },
+  {
+   "name": "赫尔佳",
+   "class": "精英训练家",
+   "name2": "雪朵",
+   "class2": "Pokefan (F)",
+   "roster": "暴雪王-2, 雷吉斯奇鲁-3, 长耳兔-3, 电龙-2",
+   "species": "暴雪王, 雷吉斯奇鲁, 长耳兔, 电龙",
+   "teams": [
+    "暴雪王-2, 雷吉斯奇鲁-3, 长耳兔-3, 电龙-2"
+   ],
+   "late": "",
+   "quote": "嘿～嘿～！ 一起愉快地玩耍吧！",
+   "quote2": "别看阿姨现在这样， 年轻的时候可是个万人迷呢。",
+   "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
+   "sprite2": "assets/images/bdsptrainers/pokefan-f.png"
+  },
+  {
+   "name": "席格",
+   "class": "光头男",
+   "name2": "阿玛波拉",
+   "class2": "光头男",
+   "roster": "鲶鱼王-3, 凯罗斯-2, 雷丘-2, 肯泰罗-3",
+   "species": "鲶鱼王, 凯罗斯, 雷丘, 肯泰罗",
+   "teams": [
+    "鲶鱼王-3, 凯罗斯-2, 雷丘-2, 肯泰罗-3"
+   ],
+   "late": "",
+   "quote": "我其实不喜欢对战。",
+   "quote2": "爸……妈…… 好好看着吧……",
+   "sprite": "assets/images/bdsptrainers/roughneck.png",
+   "sprite2": "assets/images/bdsptrainers/roughneck.png"
+  },
+  {
+   "name": "席格",
+   "class": "光头男",
+   "name2": "百本木",
+   "class2": "工人",
+   "roster": "引梦貘人-2, 海兔兽-2, 爆音怪-2, 三地鼠-3",
+   "species": "引梦貘人, 海兔兽, 爆音怪, 三地鼠",
+   "teams": [
+    "引梦貘人-2, 海兔兽-2, 爆音怪-2, 三地鼠-3"
+   ],
+   "late": "",
+   "quote": "我其实不喜欢对战。",
+   "quote2": "看我把你打成废铁。",
+   "sprite": "assets/images/bdsptrainers/roughneck.png",
+   "sprite2": "assets/images/bdsptrainers/worker.png"
+  },
+  {
+   "name": "席格",
+   "class": "光头男",
+   "name2": "涅墨",
+   "class2": "绅士",
+   "roster": "刺龙王-2, 雷吉洛克-1, 火暴兽-3, 闪电鸟-1",
+   "species": "刺龙王, 雷吉洛克, 火暴兽, 闪电鸟",
+   "teams": [
+    "刺龙王-2, 雷吉洛克-1, 火暴兽-3, 闪电鸟-1"
+   ],
+   "late": "",
+   "quote": "我其实不喜欢对战。",
+   "quote2": "让我们回归童心 来场对战吧！",
+   "sprite": "assets/images/bdsptrainers/roughneck.png",
+   "sprite2": "assets/images/bdsptrainers/gentleman.png"
+  },
+  {
+   "name": "席格",
+   "class": "光头男",
+   "name2": "史丹利",
+   "class2": "Policeman",
+   "roster": "护城龙-2, 黑鲁加-2, 巨金怪-2, 大朝北鼻-2",
+   "species": "护城龙, 黑鲁加, 巨金怪, 大朝北鼻",
+   "teams": [
+    "护城龙-2, 黑鲁加-2, 巨金怪-2, 大朝北鼻-2"
+   ],
+   "late": "",
+   "quote": "我其实不喜欢对战。",
+   "quote2": "喂，你～说的就是那边的你～ 请你稍等一下～！",
+   "sprite": "assets/images/bdsptrainers/roughneck.png",
+   "sprite2": "assets/images/bdsptrainers/policeofficer.png"
+  },
+  {
+   "name": "桐太",
+   "class": "登山男",
+   "name2": "亚多鲁",
+   "class2": "宝可梦培育家",
+   "roster": "圈圈熊-2, 炎帝-1, 顿甲-3, 双弹瓦斯-3",
+   "species": "圈圈熊, 炎帝, 顿甲, 双弹瓦斯",
+   "teams": [
+    "圈圈熊-2, 炎帝-1, 顿甲-3, 双弹瓦斯-3"
+   ],
+   "late": "",
+   "quote": "来啊！来啊！",
+   "quote2": "来给你介绍一下！ 我最重要的搭档！",
+   "sprite": "assets/images/bdsptrainers/hiker.png",
+   "sprite2": "assets/images/bdsptrainers/pokemonbreeder-m.png"
+  },
+  {
+   "name": "桐太",
+   "class": "登山男",
+   "name2": "雷波曼",
+   "class2": "研究员",
+   "roster": "急冻鸟-2, 毒刺水母-2, 雷吉洛克-3, 暴飞龙-2",
+   "species": "急冻鸟, 毒刺水母, 雷吉洛克, 暴飞龙",
+   "teams": [
+    "急冻鸟-2, 毒刺水母-2, 雷吉洛克-3, 暴飞龙-2"
+   ],
+   "late": "",
+   "quote": "来啊！来啊！",
+   "quote2": "这就是科学的力量！",
+   "sprite": "assets/images/bdsptrainers/hiker.png",
+   "sprite2": "assets/images/bdsptrainers/scientist.png"
+  },
+  {
+   "name": "桐太",
+   "class": "登山男",
+   "name2": "蝶舞",
+   "class2": "Socialite",
+   "roster": "随风球-3, 大奶罐-3, 哥达鸭-2, 炎帝-4",
+   "species": "随风球, 大奶罐, 哥达鸭, 炎帝",
+   "teams": [
+    "随风球-3, 大奶罐-3, 哥达鸭-2, 炎帝-4"
+   ],
+   "late": "",
+   "quote": "来啊！来啊！",
+   "quote2": "希望我家孩子 能成为优秀强大的训练家。",
+   "sprite": "assets/images/bdsptrainers/hiker.png",
+   "sprite2": "assets/images/bdsptrainers/madame.png"
+  },
+  {
+   "name": "芭芭儿",
+   "class": "养鸟人",
+   "name2": "郝乐",
+   "class2": "赌徒",
+   "roster": "超甲狂犀-3, 风速狗-2, 巨钳螳螂-2, 臭臭泥-3",
+   "species": "超甲狂犀, 风速狗, 巨钳螳螂, 臭臭泥",
+   "teams": [
+    "超甲狂犀-3, 风速狗-2, 巨钳螳螂-2, 臭臭泥-3"
+   ],
+   "late": "",
+   "quote": "人生啊，很多时候 都不会让你称心如意！",
+   "quote2": "陪我来一场吧！ 华丽的胜负！",
+   "sprite": "assets/images/bdsptrainers/birdkeeper.png",
+   "sprite2": "assets/images/bdsptrainers/pi.png"
+  },
+  {
+   "name": "芭芭儿",
+   "class": "养鸟人",
+   "name2": "金运",
+   "class2": "赌徒",
+   "roster": "海兔兽-3, 恰雷姆-2, 席多蓝恩-2, 波士可多拉-2",
+   "species": "海兔兽, 恰雷姆, 席多蓝恩, 波士可多拉",
+   "teams": [
+    "海兔兽-3, 恰雷姆-2, 席多蓝恩-2, 波士可多拉-2"
+   ],
+   "late": "",
+   "quote": "人生啊，很多时候 都不会让你称心如意！",
+   "quote2": "来场有深度的对决吧。",
+   "sprite": "assets/images/bdsptrainers/birdkeeper.png",
+   "sprite2": "assets/images/bdsptrainers/pi.png"
+  },
+  {
+   "name": "喜可",
+   "class": "超能力者",
+   "name2": "穆轲",
+   "class2": "宝可梦收藏家",
+   "roster": "暴雪王-2, 化石翼龙-2, 火暴兽-3, 冰伊布-2",
+   "species": "暴雪王, 化石翼龙, 火暴兽, 冰伊布",
+   "teams": [
+    "暴雪王-2, 化石翼龙-2, 火暴兽-3, 冰伊布-2"
+   ],
+   "late": "",
+   "quote": "哥哥是这么教我的！ 眼睛！他说要瞄准眼睛！",
+   "quote2": "等我会儿啊， 我在写邮件呢。",
+   "sprite": "assets/images/bdsptrainers/psychic-f.png",
+   "sprite2": "assets/images/bdsptrainers/collector.png"
+  },
+  {
+   "name": "喜可",
+   "class": "超能力者",
+   "name2": "爱蜜",
+   "class2": "自行车手",
+   "roster": "护城龙-3, 幸福蛋-2, 冰鬼护-3, 玛狃拉-2",
+   "species": "护城龙, 幸福蛋, 冰鬼护, 玛狃拉",
+   "teams": [
+    "护城龙-3, 幸福蛋-2, 冰鬼护-3, 玛狃拉-2"
+   ],
+   "late": "",
+   "quote": "哥哥是这么教我的！ 眼睛！他说要瞄准眼睛！",
+   "quote2": "叮铃，叮铃铃。",
+   "sprite": "assets/images/bdsptrainers/psychic-f.png",
+   "sprite2": "assets/images/bdsptrainers/cyclist-f.png"
+  },
+  {
+   "name": "泽诺",
+   "class": "驯龙师",
+   "name2": "武虎",
+   "class2": "空手道王",
+   "roster": "圈圈熊-2, 急冻鸟-3, 多边兽２型-2, 水君-1",
+   "species": "圈圈熊, 急冻鸟, 多边兽２型, 水君",
+   "teams": [
+    "圈圈熊-2, 急冻鸟-3, 多边兽２型-2, 水君-1"
+   ],
+   "late": "",
+   "quote": "啊哈哈哈哈！ 在下就是你的对手！",
+   "quote2": "嘿呀！！",
+   "sprite": "assets/images/bdsptrainers/dragontamer.png",
+   "sprite2": "assets/images/bdsptrainers/blackbelt.png"
+  },
+  {
+   "name": "泽诺",
+   "class": "驯龙师",
+   "name2": "裘绅",
+   "class2": "小丑",
+   "roster": "呆壳兽-2, 巨沼怪-3, 尼多王-2, 雷吉艾斯-3",
+   "species": "呆壳兽, 巨沼怪, 尼多王, 雷吉艾斯",
+   "teams": [
+    "呆壳兽-2, 巨沼怪-3, 尼多王-2, 雷吉艾斯-3"
+   ],
+   "late": "",
+   "quote": "啊哈哈哈哈！ 在下就是你的对手！",
+   "quote2": "我会全力以赴的。 请多多关照！",
+   "sprite": "assets/images/bdsptrainers/dragontamer.png",
+   "sprite2": "assets/images/bdsptrainers/clown.png"
+  },
+  {
+   "name": "伯布希",
+   "class": "牧场大叔",
+   "name2": "克妮格",
+   "class2": "宝可梦巡护员",
+   "roster": "巨沼怪-3, 大奶罐-3, 炎帝-2, 青铜钟-2",
+   "species": "巨沼怪, 大奶罐, 炎帝, 青铜钟",
+   "teams": [
+    "巨沼怪-3, 大奶罐-3, 炎帝-2, 青铜钟-2"
+   ],
+   "late": "",
+   "quote": "小少爷？小姑娘？ 总之我们先上吧！",
+   "quote2": "想和我对战？ 结果我可不负责哦！",
+   "sprite": "assets/images/bdsptrainers/rancher.png",
+   "sprite2": "assets/images/bdsptrainers/pokemonranger-f.png"
+  },
+  {
+   "name": "摩洛梭",
+   "class": "登山男",
+   "name2": "源五郎",
+   "class2": "吉他手",
+   "roster": "姆克鹰-2, 双尾怪手-2, 嘎啦嘎啦-3, 太古盔甲-2",
+   "species": "姆克鹰, 双尾怪手, 嘎啦嘎啦, 太古盔甲",
+   "teams": [
+    "姆克鹰-2, 双尾怪手-2, 嘎啦嘎啦-3, 太古盔甲-2"
+   ],
+   "late": "",
+   "quote": "让我们来场爽快的对战吧！ 来！笑一个！",
+   "quote2": "请听我和宝可梦们的大合唱。",
+   "sprite": "assets/images/bdsptrainers/hiker.png",
+   "sprite2": "assets/images/bdsptrainers/guitarist.png"
+  },
+  {
+   "name": "摩洛梭",
+   "class": "登山男",
+   "name2": "珍妮特",
+   "class2": "记者",
+   "roster": "霸王花-2, 双尾怪手-2, 嘎啦嘎啦-3, 太古盔甲-2",
+   "species": "霸王花, 双尾怪手, 嘎啦嘎啦, 太古盔甲",
+   "teams": [
+    "霸王花-2, 双尾怪手-2, 嘎啦嘎啦-3, 太古盔甲-2"
+   ],
+   "late": "",
+   "quote": "让我们来场爽快的对战吧！ 来！笑一个！",
+   "quote2": "嗯～怎么进攻比较好呢？",
+   "sprite": "assets/images/bdsptrainers/hiker.png",
+   "sprite2": "assets/images/bdsptrainers/reporter.png"
+  },
+  {
+   "name": "摩洛梭",
+   "class": "登山男",
+   "name2": "爱蜜",
+   "class2": "自行车手",
+   "roster": "铁掌力士-3, 大朝北鼻-2, 月亮伊布-2, 阿勃梭鲁-2",
+   "species": "铁掌力士, 大朝北鼻, 月亮伊布, 阿勃梭鲁",
+   "teams": [
+    "铁掌力士-3, 大朝北鼻-2, 月亮伊布-2, 阿勃梭鲁-2"
+   ],
+   "late": "",
+   "quote": "让我们来场爽快的对战吧！ 来！笑一个！",
+   "quote2": "叮铃，叮铃铃。",
+   "sprite": "assets/images/bdsptrainers/hiker.png",
+   "sprite2": "assets/images/bdsptrainers/cyclist-f.png"
+  },
+  {
+   "name": "摩洛梭",
+   "class": "登山男",
+   "name2": "斯琦",
+   "class2": "对战少女",
+   "roster": "巨钳螳螂-3, 摇篮百合-2, 雪妖女-3, 鸭嘴炎兽-2",
+   "species": "巨钳螳螂, 摇篮百合, 雪妖女, 鸭嘴炎兽",
+   "teams": [
+    "巨钳螳螂-3, 摇篮百合-2, 雪妖女-3, 鸭嘴炎兽-2"
+   ],
+   "late": "",
+   "quote": "让我们来场爽快的对战吧！ 来！笑一个！",
+   "quote2": "呀～！",
+   "sprite": "assets/images/bdsptrainers/hiker.png",
+   "sprite2": "assets/images/bdsptrainers/battlegirl.png"
+  },
+  {
+   "name": "松鸦",
+   "class": "养鸟人",
+   "name2": "拉吉康",
+   "class2": "水手",
+   "roster": "帝牙海狮-2, 刺龙王-2, 大钢蛇-2, 乐天河童-2",
+   "species": "帝牙海狮, 刺龙王, 大钢蛇, 乐天河童",
+   "teams": [
+    "帝牙海狮-2, 刺龙王-2, 大钢蛇-2, 乐天河童-2"
+   ],
+   "late": "",
+   "quote": "你已经无处可逃了！",
+   "quote2": "咦？对手是你啊？ 总感觉有些不安……",
+   "sprite": "assets/images/bdsptrainers/birdkeeper.png",
+   "sprite2": "assets/images/bdsptrainers/sailor.png"
+  },
+  {
+   "name": "松鸦",
+   "class": "养鸟人",
+   "name2": "舒瑚",
+   "class2": "香氛姐姐",
+   "roster": "刺龙王-2, 雷吉艾斯-4, 喷火龙-3, 尼多王-3",
+   "species": "刺龙王, 雷吉艾斯, 喷火龙, 尼多王",
+   "teams": [
+    "刺龙王-2, 雷吉艾斯-4, 喷火龙-3, 尼多王-3"
+   ],
+   "late": "",
+   "quote": "你已经无处可逃了！",
+   "quote2": "闻到香香的味道， 就会很想睡啊……",
+   "sprite": "assets/images/bdsptrainers/birdkeeper.png",
+   "sprite2": "assets/images/bdsptrainers/aromalady.png"
+  },
+  {
+   "name": "佩多罗",
+   "class": "资深训练家",
+   "name2": "香馨",
+   "class2": "香氛姐姐",
+   "roster": "多边兽乙型-2, 克雷色利亚-3, 白海狮-3, 黑鲁加-3",
+   "species": "多边兽乙型, 克雷色利亚, 白海狮, 黑鲁加",
+   "teams": [
+    "多边兽乙型-2, 克雷色利亚-3, 白海狮-3, 黑鲁加-3"
+   ],
+   "late": "",
+   "quote": "我先说明白…… 你是赢不了我的。",
+   "quote2": "想赢我？ 你还早了十年！！",
+   "sprite": "assets/images/bdsptrainers/veteran.png",
+   "sprite2": "assets/images/bdsptrainers/aromalady.png"
+  },
+  {
+   "name": "朔三",
+   "class": "赌徒",
+   "name2": "阿玛波拉",
+   "class2": "光头男",
+   "roster": "长耳兔-3, 罗丝雷朵-2, 巨钳螳螂-3, 坦克臭鼬-3",
+   "species": "长耳兔, 罗丝雷朵, 巨钳螳螂, 坦克臭鼬",
+   "teams": [
+    "长耳兔-3, 罗丝雷朵-2, 巨钳螳螂-3, 坦克臭鼬-3"
+   ],
+   "late": "",
+   "quote": "你要拿什么来胜负呢？ 我会付出我的全部！",
+   "quote2": "爸……妈…… 好好看着吧……",
+   "sprite": "assets/images/bdsptrainers/pi.png",
+   "sprite2": "assets/images/bdsptrainers/roughneck.png"
+  },
+  {
+   "name": "朔三",
+   "class": "赌徒",
+   "name2": "嵋仲",
+   "class2": "赌徒",
+   "roster": "梦妖魔-2, 大力鳄-3, 鲶鱼王-3, 水君-4",
+   "species": "梦妖魔, 大力鳄, 鲶鱼王, 水君",
+   "teams": [
+    "梦妖魔-2, 大力鳄-3, 鲶鱼王-3, 水君-4"
+   ],
+   "late": "",
+   "quote": "你要拿什么来胜负呢？ 我会付出我的全部！",
+   "quote2": "输赢可不是用 精密计算算出来的！",
+   "sprite": "assets/images/bdsptrainers/pi.png",
+   "sprite2": "assets/images/bdsptrainers/pi.png"
+  },
+  {
+   "name": "荷米",
+   "class": "摄影师",
+   "name2": "忒奇瑟",
+   "class2": "牛仔女孩",
+   "roster": "爆音怪-3, 雷公-1, 电灯怪-2, 美纳斯-3",
+   "species": "爆音怪, 雷公, 电灯怪, 美纳斯",
+   "teams": [
+    "爆音怪-3, 雷公-1, 电灯怪-2, 美纳斯-3"
+   ],
+   "late": "",
+   "quote": "我盯……",
+   "quote2": "我要努力拿下胜利～！ 耶～耶～哦～！",
+   "sprite": "assets/images/bdsptrainers/cameraman.png",
+   "sprite2": "assets/images/bdsptrainers/cowgirl.png"
+  },
+  {
+   "name": "阿驯",
+   "class": "宝可梦训练家",
+   "name2": "桄榔",
+   "class2": "对战塔大君",
+   "roster": "帝王拿波-5, 姆克鹰-5, 超甲狂犀-10, 席多蓝恩-12, 赫拉克罗斯-5, 烈焰猴-7, 快龙-9, 克雷色利亚-11, 土台龟-5, 卡比兽-4, 美纳斯-8, 席多蓝恩-7",
+   "species": "帝王拿波, 姆克鹰, 超甲狂犀, 席多蓝恩, 赫拉克罗斯, 烈焰猴, 快龙, 克雷色利亚, 土台龟, 卡比兽, 美纳斯",
+   "teams": [
+    "帝王拿波-5, 姆克鹰-5, 超甲狂犀-10, 席多蓝恩-12",
+    "赫拉克罗斯-5, 烈焰猴-7, 快龙-9, 克雷色利亚-11",
+    "土台龟-5, 卡比兽-4, 美纳斯-8, 席多蓝恩-7"
+   ],
+   "late": "",
+   "quote": "你来啦，！ 我在这里见到了我老爸， 达成了自己的一个目标！ 但我还有另一个目标， 那就是成为世上最强的 宝可梦训练家！ 我现在就要打败你， 来达成我这个目标！",
+   "quote2": "嗨，。 你竟然能一路过关斩将抵达这里！ 我的儿子自从认识了你之后， 简直令我刮目相看啊！ 让我在此向你道谢吧！ 接下来，身为对战塔大君， 让我和儿子一起 使出全力与你对战吧！ 来吧，向对战塔大君我 展现一下你的实力吧！",
+   "sprite": "assets/images/bdsptrainers/barry.png",
+   "sprite2": "assets/images/bdsptrainers/palmer.png"
+  },
+  {
+   "name": "亚多鲁",
+   "class": "宝可梦培育家",
+   "name2": "安东尼奥",
+   "class2": "服务生",
+   "roster": "巨蔓藤-2, 雷吉斯奇鲁-2, 佛烈托斯-3, 爆音怪-2",
+   "species": "巨蔓藤, 雷吉斯奇鲁, 佛烈托斯, 爆音怪",
+   "teams": [
+    "巨蔓藤-2, 雷吉斯奇鲁-2, 佛烈托斯-3, 爆音怪-2"
+   ],
+   "late": "",
+   "quote": "来给你介绍一下！ 我最重要的搭档！",
+   "quote2": "哦～！你看起来挺强的嘛～ 好期待，好期待！",
+   "sprite": "assets/images/bdsptrainers/pokemonbreeder-m.png",
+   "sprite2": "assets/images/bdsptrainers/waiter.png"
+  },
+  {
+   "name": "忠兴",
+   "class": "Fisherman",
+   "name2": "安东",
+   "class2": "精英训练家",
+   "roster": "哥达鸭-2, 雷吉斯奇鲁-4, 拉帝欧斯-4, 拉帝亚斯-4",
+   "species": "哥达鸭, 雷吉斯奇鲁, 拉帝欧斯, 拉帝亚斯",
+   "teams": [
+    "哥达鸭-2, 雷吉斯奇鲁-4, 拉帝欧斯-4, 拉帝亚斯-4"
+   ],
+   "late": "",
+   "quote": "老夫最喜欢垂钓和对战了。",
+   "quote2": "你～完全没戏哟～ 我来告诉你哟～",
+   "sprite": "assets/images/bdsptrainers/fisher.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-m.png"
+  },
+  {
+   "name": "忠兴",
+   "class": "Fisherman",
+   "name2": "赛飞罗",
+   "class2": "驯龙师",
+   "roster": "呆呆王-3, 火焰鸟-2, 雪妖女-2, 水箭龟-3",
+   "species": "呆呆王, 火焰鸟, 雪妖女, 水箭龟",
+   "teams": [
+    "呆呆王-3, 火焰鸟-2, 雪妖女-2, 水箭龟-3"
+   ],
+   "late": "",
+   "quote": "老夫最喜欢垂钓和对战了。",
+   "quote2": "上吧～！ 经过我严格训练的小宝可梦们～！",
+   "sprite": "assets/images/bdsptrainers/fisher.png",
+   "sprite2": "assets/images/bdsptrainers/dragontamer.png"
+  },
+  {
+   "name": "忠兴",
+   "class": "Fisherman",
+   "name2": "南航",
+   "class2": "研究员",
+   "roster": "卡比兽-2, 毒骷蛙-3, 请假王-2, 水君-3",
+   "species": "卡比兽, 毒骷蛙, 请假王, 水君",
+   "teams": [
+    "卡比兽-2, 毒骷蛙-3, 请假王-2, 水君-3"
+   ],
+   "late": "",
+   "quote": "老夫最喜欢垂钓和对战了。",
+   "quote2": "突击吧！我的宝可梦！ 展示我们的试验成果吧！",
+   "sprite": "assets/images/bdsptrainers/fisher.png",
+   "sprite2": "assets/images/bdsptrainers/scientist.png"
+  },
+  {
+   "name": "忠兴",
+   "class": "Fisherman",
+   "name2": "爱蜜",
+   "class2": "自行车手",
+   "roster": "闪电鸟-1, 蚊香蛙皇-3, 宝石海星-2, 雪妖女-2",
+   "species": "闪电鸟, 蚊香蛙皇, 宝石海星, 雪妖女",
+   "teams": [
+    "闪电鸟-1, 蚊香蛙皇-3, 宝石海星-2, 雪妖女-2"
+   ],
+   "late": "",
+   "quote": "老夫最喜欢垂钓和对战了。",
+   "quote2": "叮铃，叮铃铃。",
+   "sprite": "assets/images/bdsptrainers/fisher.png",
+   "sprite2": "assets/images/bdsptrainers/cyclist-f.png"
+  },
+  {
+   "name": "麦可",
+   "class": "宝可梦训练家",
+   "name2": "菊野",
+   "class2": "四天王",
+   "roster": "克雷色利亚-8, 念力土偶-4, 超甲狂犀-6, 大钢蛇-4, 雷吉洛克-6, 念力土偶-5, 河马兽-4, 超甲狂犀-7, 克雷色利亚-9, 顿甲-4, 超甲狂犀-5",
+   "species": "克雷色利亚, 念力土偶, 超甲狂犀, 大钢蛇, 雷吉洛克, 河马兽, 顿甲",
+   "teams": [
+    "克雷色利亚-8, 念力土偶-4, 超甲狂犀-6, 大钢蛇-4",
+    "雷吉洛克-6, 念力土偶-5, 河马兽-4, 超甲狂犀-7",
+    "念力土偶-5, 克雷色利亚-9, 顿甲-4, 超甲狂犀-5"
+   ],
+   "late": "",
+   "quote": "哟！ 我们来比比看吧， 到底谁会先爬上顶端！",
+   "quote2": "哦呵呵！年轻人啊， 就要脚踏实地才好。",
+   "sprite": "assets/images/bdsptrainers/buck.png",
+   "sprite2": "assets/images/bdsptrainers/bertha.png"
+  },
+  {
+   "name": "尼克",
+   "class": "水手",
+   "name2": "朔三",
+   "class2": "赌徒",
+   "roster": "浮潜鼬-3, 念力土偶-2, 太古盔甲-3, 伦琴猫-2",
+   "species": "浮潜鼬, 念力土偶, 太古盔甲, 伦琴猫",
+   "teams": [
+    "浮潜鼬-3, 念力土偶-2, 太古盔甲-3, 伦琴猫-2"
+   ],
+   "late": "",
+   "quote": "我乘大船来的。",
+   "quote2": "你要拿什么来胜负呢？ 我会付出我的全部！",
+   "sprite": "assets/images/bdsptrainers/sailor.png",
+   "sprite2": "assets/images/bdsptrainers/pi.png"
+  },
+  {
+   "name": "尼克",
+   "class": "水手",
+   "name2": "百本木",
+   "class2": "工人",
+   "roster": "隆隆岩-3, 克雷色利亚-2, 顽皮雷弹-3, 铁掌力士-2",
+   "species": "隆隆岩, 克雷色利亚, 顽皮雷弹, 铁掌力士",
+   "teams": [
+    "隆隆岩-3, 克雷色利亚-2, 顽皮雷弹-3, 铁掌力士-2"
+   ],
+   "late": "",
+   "quote": "我乘大船来的。",
+   "quote2": "看我把你打成废铁。",
+   "sprite": "assets/images/bdsptrainers/sailor.png",
+   "sprite2": "assets/images/bdsptrainers/worker.png"
+  },
+  {
+   "name": "雷波曼",
+   "class": "研究员",
+   "name2": "泽诺",
+   "class2": "驯龙师",
+   "roster": "急冻鸟-4, 冰鬼护-2, 自爆磁怪-2, 拉帝亚斯-2",
+   "species": "急冻鸟, 冰鬼护, 自爆磁怪, 拉帝亚斯",
+   "teams": [
+    "急冻鸟-4, 冰鬼护-2, 自爆磁怪-2, 拉帝亚斯-2"
+   ],
+   "late": "",
+   "quote": "这就是科学的力量！",
+   "quote2": "啊哈哈哈哈！ 在下就是你的对手！",
+   "sprite": "assets/images/bdsptrainers/scientist.png",
+   "sprite2": "assets/images/bdsptrainers/dragontamer.png"
+  },
+  {
+   "name": "雷波曼",
+   "class": "研究员",
+   "name2": "思晴",
+   "class2": "精英训练家",
+   "roster": "象牙猪-3, 尼多王-3, 蚊香泳士-3, 摇篮百合-2",
+   "species": "象牙猪, 尼多王, 蚊香泳士, 摇篮百合",
+   "teams": [
+    "象牙猪-3, 尼多王-3, 蚊香泳士-3, 摇篮百合-2"
+   ],
+   "late": "",
+   "quote": "这就是科学的力量！",
+   "quote2": "来，放马过来吧！",
+   "sprite": "assets/images/bdsptrainers/scientist.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
+  },
+  {
+   "name": "小鹤",
+   "class": "精英训练家",
+   "name2": "佩尔",
+   "class2": "小丑",
+   "roster": "顿甲-2, 壶壶-2, 霸王花-2, 路卡利欧-2",
+   "species": "顿甲, 壶壶, 霸王花, 路卡利欧",
+   "teams": [
+    "顿甲-2, 壶壶-2, 霸王花-2, 路卡利欧-2"
+   ],
+   "late": "",
+   "quote": "拿出真本事来吧！",
+   "quote2": "所谓的宝可梦对战 就像写在沙滩上的情书一样。",
+   "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
+   "sprite2": "assets/images/bdsptrainers/clown.png"
+  },
+  {
+   "name": "小鹤",
+   "class": "精英训练家",
+   "name2": "有行",
+   "class2": "服务生",
+   "roster": "雷吉奇卡斯-4, 七夕青鸟-3, 妙蛙花-3, 胡地-2",
+   "species": "雷吉奇卡斯, 七夕青鸟, 妙蛙花, 胡地",
+   "teams": [
+    "雷吉奇卡斯-4, 七夕青鸟-3, 妙蛙花-3, 胡地-2"
+   ],
+   "late": "",
+   "quote": "拿出真本事来吧！",
+   "quote2": "欢迎光临～！！",
+   "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
+   "sprite2": "assets/images/bdsptrainers/waiter.png"
+  },
+  {
+   "name": "郝乐",
+   "class": "赌徒",
+   "name2": "比乃惠",
+   "class2": "宝可梦培育家",
+   "roster": "烈焰马-2, 自爆磁怪-2, 闪电鸟-3, 坦克臭鼬-2",
+   "species": "烈焰马, 自爆磁怪, 闪电鸟, 坦克臭鼬",
+   "teams": [
+    "烈焰马-2, 自爆磁怪-2, 闪电鸟-3, 坦克臭鼬-2"
+   ],
+   "late": "",
+   "quote": "陪我来一场吧！ 华丽的胜负！",
+   "quote2": "让我来看看 你把宝可梦培育得如何了吧。",
+   "sprite": "assets/images/bdsptrainers/pi.png",
+   "sprite2": "assets/images/bdsptrainers/pokemonbreeder-f.png"
+  },
+  {
+   "name": "佳丽美",
+   "class": "阳伞姐姐",
+   "name2": "严磨",
+   "class2": "空手道王",
+   "roster": "克雷色利亚-2, 大竺葵-3, 雷吉洛克-2, 呆呆王-2",
+   "species": "克雷色利亚, 大竺葵, 雷吉洛克, 呆呆王",
+   "teams": [
+    "克雷色利亚-2, 大竺葵-3, 雷吉洛克-2, 呆呆王-2"
+   ],
+   "late": "",
+   "quote": "无论是晴天还是下雨， 我都会在这里寻找强大的训练家。",
+   "quote2": "每场宝可梦对战都是认真的对决。 一点都不能疏忽！",
+   "sprite": "assets/images/bdsptrainers/parasollady.png",
+   "sprite2": "assets/images/bdsptrainers/blackbelt.png"
+  },
+  {
+   "name": "佳丽美",
+   "class": "阳伞姐姐",
+   "name2": "契勒斯",
+   "class2": "自行车手",
+   "roster": "乌鸦头头-2, 水君-3, 拉帝亚斯-1, 雷电兽-3",
+   "species": "乌鸦头头, 水君, 拉帝亚斯, 雷电兽",
+   "teams": [
+    "乌鸦头头-2, 水君-3, 拉帝亚斯-1, 雷电兽-3"
+   ],
+   "late": "",
+   "quote": "无论是晴天还是下雨， 我都会在这里寻找强大的训练家。",
+   "quote2": "嘿呀！ 你这位训练家看起来很强啊！",
+   "sprite": "assets/images/bdsptrainers/parasollady.png",
+   "sprite2": "assets/images/bdsptrainers/cyclist-m.png"
+  },
+  {
+   "name": "佳丽美",
+   "class": "阳伞姐姐",
+   "name2": "长吉",
+   "class2": "超能力者",
+   "roster": "顽皮雷弹-2, 双尾怪手-3, 白海狮-2, 呆壳兽-3",
+   "species": "顽皮雷弹, 双尾怪手, 白海狮, 呆壳兽",
+   "teams": [
+    "顽皮雷弹-2, 双尾怪手-3, 白海狮-2, 呆壳兽-3"
+   ],
+   "late": "",
+   "quote": "无论是晴天还是下雨， 我都会在这里寻找强大的训练家。",
+   "quote2": "我的兄弟 会好好疼爱你的！",
+   "sprite": "assets/images/bdsptrainers/parasollady.png",
+   "sprite2": "assets/images/bdsptrainers/psychic-m.png"
+  },
+  {
+   "name": "野野美",
+   "class": "超能力者",
+   "name2": "思晴",
+   "class2": "精英训练家",
+   "roster": "水君-1, 顿甲-2, 黑夜魔灵-2, 班基拉斯-2",
+   "species": "水君, 顿甲, 黑夜魔灵, 班基拉斯",
+   "teams": [
+    "水君-1, 顿甲-2, 黑夜魔灵-2, 班基拉斯-2"
+   ],
+   "late": "",
+   "quote": "咕噜咕噜咕噜……",
+   "quote2": "来，放马过来吧！",
+   "sprite": "assets/images/bdsptrainers/psychic-f.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
+  },
+  {
+   "name": "野野美",
+   "class": "超能力者",
+   "name2": "双蕾",
+   "class2": "女服务生",
+   "roster": "肯泰罗-2, 火伊布-2, 赫拉克罗斯-3, 请假王-2",
+   "species": "肯泰罗, 火伊布, 赫拉克罗斯, 请假王",
+   "teams": [
+    "肯泰罗-2, 火伊布-2, 赫拉克罗斯-3, 请假王-2"
+   ],
+   "late": "",
+   "quote": "咕噜咕噜咕噜……",
+   "quote2": "这位客官真可爱！ 我会好好为您服务哦！",
+   "sprite": "assets/images/bdsptrainers/psychic-f.png",
+   "sprite2": "assets/images/bdsptrainers/waitress.png"
+  },
+  {
+   "name": "诺卢",
+   "class": "超能力者",
+   "name2": "秀治",
+   "class2": "摄影师",
+   "roster": "佛烈托斯-2, 闪电鸟-4, 雷吉艾斯-4, 迷唇姐-3",
+   "species": "佛烈托斯, 闪电鸟, 雷吉艾斯, 迷唇姐",
+   "teams": [
+    "佛烈托斯-2, 闪电鸟-4, 雷吉艾斯-4, 迷唇姐-3"
+   ],
+   "late": "",
+   "quote": "看好了！ 这就是超能力的神秘力量！",
+   "quote2": "我一直在等待 像你这样的训练家出现。",
+   "sprite": "assets/images/bdsptrainers/psychic-m.png",
+   "sprite2": "assets/images/bdsptrainers/cameraman.png"
+  },
+  {
+   "name": "金运",
+   "class": "赌徒",
+   "name2": "诺卢",
+   "class2": "超能力者",
+   "roster": "尼多后-3, 冰鬼护-2, 沼王-2, 念力土偶-2",
+   "species": "尼多后, 冰鬼护, 沼王, 念力土偶",
+   "teams": [
+    "尼多后-3, 冰鬼护-2, 沼王-2, 念力土偶-2"
+   ],
+   "late": "",
+   "quote": "来场有深度的对决吧。",
+   "quote2": "看好了！ 这就是超能力的神秘力量！",
+   "sprite": "assets/images/bdsptrainers/pi.png",
+   "sprite2": "assets/images/bdsptrainers/psychic-m.png"
+  },
+  {
+   "name": "嵋仲",
+   "class": "赌徒",
+   "name2": "那由多",
+   "class2": "精英训练家",
+   "roster": "雷吉奇卡斯-2, 雷公-2, 毒骷蛙-2, 拉帝欧斯-2",
+   "species": "雷吉奇卡斯, 雷公, 毒骷蛙, 拉帝欧斯",
+   "teams": [
+    "雷吉奇卡斯-2, 雷公-2, 毒骷蛙-2, 拉帝欧斯-2"
+   ],
+   "late": "",
+   "quote": "输赢可不是用 精密计算算出来的！",
+   "quote2": "呼哈～！呼哈～！ 你以为你能赢吗！",
+   "sprite": "assets/images/bdsptrainers/pi.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-m.png"
+  },
+  {
+   "name": "嵋仲",
+   "class": "赌徒",
+   "name2": "裘绅",
+   "class2": "小丑",
+   "roster": "隆隆岩-2, 火伊布-2, 席多蓝恩-2, 梦妖魔-2",
+   "species": "隆隆岩, 火伊布, 席多蓝恩, 梦妖魔",
+   "teams": [
+    "隆隆岩-2, 火伊布-2, 席多蓝恩-2, 梦妖魔-2"
+   ],
+   "late": "",
+   "quote": "输赢可不是用 精密计算算出来的！",
+   "quote2": "我会全力以赴的。 请多多关照！",
+   "sprite": "assets/images/bdsptrainers/pi.png",
+   "sprite2": "assets/images/bdsptrainers/clown.png"
+  },
+  {
+   "name": "思晴",
+   "class": "精英训练家",
+   "name2": "小鹤",
+   "class2": "精英训练家",
+   "roster": "大奶罐-2, 炎帝-4, 火焰鸟-2, 冰鬼护-3",
+   "species": "大奶罐, 炎帝, 火焰鸟, 冰鬼护",
+   "teams": [
+    "大奶罐-2, 炎帝-4, 火焰鸟-2, 冰鬼护-3"
+   ],
+   "late": "",
+   "quote": "来，放马过来吧！",
+   "quote2": "拿出真本事来吧！",
+   "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
+  },
+  {
+   "name": "安东",
+   "class": "精英训练家",
+   "name2": "荷米",
+   "class2": "摄影师",
+   "roster": "叉字蝠-2, 雷吉洛克-4, 雷吉艾斯-2, 电击魔兽-2",
+   "species": "叉字蝠, 雷吉洛克, 雷吉艾斯, 电击魔兽",
+   "teams": [
+    "叉字蝠-2, 雷吉洛克-4, 雷吉艾斯-2, 电击魔兽-2"
+   ],
+   "late": "",
+   "quote": "你～完全没戏哟～ 我来告诉你哟～",
+   "quote2": "我盯……",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/cameraman.png"
+  },
+  {
+   "name": "安东",
+   "class": "精英训练家",
+   "name2": "练博",
+   "class2": "遗迹迷",
+   "roster": "巨沼怪-3, 风速狗-2, 赫拉克罗斯-3, 霸王花-3",
+   "species": "巨沼怪, 风速狗, 赫拉克罗斯, 霸王花",
+   "teams": [
+    "巨沼怪-3, 风速狗-2, 赫拉克罗斯-3, 霸王花-3"
+   ],
+   "late": "",
+   "quote": "你～完全没戏哟～ 我来告诉你哟～",
+   "quote2": "铆足劲儿上吧。",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/ruinmaniac.png"
+  },
+  {
+   "name": "武虎",
+   "class": "空手道王",
+   "name2": "双蕾",
+   "class2": "女服务生",
+   "roster": "急冻鸟-2, 哥达鸭-3, 火焰鸡-3, 引梦貘人-3",
+   "species": "急冻鸟, 哥达鸭, 火焰鸡, 引梦貘人",
+   "teams": [
+    "急冻鸟-2, 哥达鸭-3, 火焰鸡-3, 引梦貘人-3"
+   ],
+   "late": "",
+   "quote": "嘿呀！！",
+   "quote2": "这位客官真可爱！ 我会好好为您服务哦！",
+   "sprite": "assets/images/bdsptrainers/blackbelt.png",
+   "sprite2": "assets/images/bdsptrainers/waitress.png"
+  },
+  {
+   "name": "武虎",
+   "class": "空手道王",
+   "name2": "秀治",
+   "class2": "摄影师",
+   "roster": "拉帝欧斯-2, 水君-2, 白海狮-2, 艾路雷朵-2",
+   "species": "拉帝欧斯, 水君, 白海狮, 艾路雷朵",
+   "teams": [
+    "拉帝欧斯-2, 水君-2, 白海狮-2, 艾路雷朵-2"
+   ],
+   "late": "",
+   "quote": "嘿呀！！",
+   "quote2": "我一直在等待 像你这样的训练家出现。",
+   "sprite": "assets/images/bdsptrainers/blackbelt.png",
+   "sprite2": "assets/images/bdsptrainers/cameraman.png"
+  },
+  {
+   "name": "契勒斯",
+   "class": "自行车手",
+   "name2": "建宏",
+   "class2": "工人",
+   "roster": "雷吉艾斯-2, 拉帝亚斯-1, 海兔兽-3, 雷吉斯奇鲁-2",
+   "species": "雷吉艾斯, 拉帝亚斯, 海兔兽, 雷吉斯奇鲁",
+   "teams": [
+    "雷吉艾斯-2, 拉帝亚斯-1, 海兔兽-3, 雷吉斯奇鲁-2"
+   ],
+   "late": "",
+   "quote": "嘿呀！ 你这位训练家看起来很强啊！",
+   "quote2": "哦！不错啊！ 来场对战吧！",
+   "sprite": "assets/images/bdsptrainers/cyclist-m.png",
+   "sprite2": "assets/images/bdsptrainers/worker.png"
+  },
+  {
+   "name": "契勒斯",
+   "class": "自行车手",
+   "name2": "柯玛",
+   "class2": "牛仔女孩",
+   "roster": "多边兽２型-2, 波克基斯-2, 蚊香泳士-2, 水君-1",
+   "species": "多边兽２型, 波克基斯, 蚊香泳士, 水君",
+   "teams": [
+    "多边兽２型-2, 波克基斯-2, 蚊香泳士-2, 水君-1"
+   ],
+   "late": "",
+   "quote": "嘿呀！ 你这位训练家看起来很强啊！",
+   "quote2": "让我来终结一切吧。",
+   "sprite": "assets/images/bdsptrainers/cyclist-m.png",
+   "sprite2": "assets/images/bdsptrainers/cowgirl.png"
+  },
+  {
+   "name": "比利",
+   "class": "宝可梦巡护员",
+   "name2": "种茂",
+   "class2": "绅士",
+   "roster": "隆隆岩-2, 佛烈托斯-2, 梦妖魔-3, 毒骷蛙-3",
+   "species": "隆隆岩, 佛烈托斯, 梦妖魔, 毒骷蛙",
+   "teams": [
+    "隆隆岩-2, 佛烈托斯-2, 梦妖魔-3, 毒骷蛙-3"
+   ],
+   "late": "",
+   "quote": "啊哈哈！算你倒霉！ 遇上了我！",
+   "quote2": "呵呵呵呵！！ 你一路赢过来可不容易啊！",
+   "sprite": "assets/images/bdsptrainers/pokemonranger-m.png",
+   "sprite2": "assets/images/bdsptrainers/gentleman.png"
+  },
+  {
+   "name": "友绅",
+   "class": "精英训练家",
+   "name2": "麻耶",
+   "class2": "精英训练家",
+   "roster": "战舞郎-2, 沙奈朵-4, 胡地-4, 烈咬陆鲨-6, 象牙猪-3",
+   "species": "战舞郎, 沙奈朵, 胡地, 烈咬陆鲨, 象牙猪",
+   "teams": [
+    "战舞郎-2, 沙奈朵-4, 胡地-4, 烈咬陆鲨-6",
+    "战舞郎-2, 沙奈朵-4, 胡地-4, 象牙猪-3"
+   ],
+   "late": "",
+   "quote": "我很期待你的表现…… 千万不要让我失望啊！",
+   "quote2": "这是人生的重要转折点！ 我绝对不能输！",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
+  },
+  {
+   "name": "鹰人",
+   "class": "宝可梦收藏家",
+   "name2": "南航",
+   "class2": "研究员",
+   "roster": "雷吉斯奇鲁-1, 吼鲸王-2, 席多蓝恩-2, 蚊香泳士-3",
+   "species": "雷吉斯奇鲁, 吼鲸王, 席多蓝恩, 蚊香泳士",
+   "teams": [
+    "雷吉斯奇鲁-1, 吼鲸王-2, 席多蓝恩-2, 蚊香泳士-3"
+   ],
+   "late": "",
+   "quote": "我是借鉴了网友的情报 培育的宝可梦！",
+   "quote2": "突击吧！我的宝可梦！ 展示我们的试验成果吧！",
+   "sprite": "assets/images/bdsptrainers/collector.png",
+   "sprite2": "assets/images/bdsptrainers/scientist.png"
+  },
+  {
+   "name": "月歌",
+   "class": "偶像明星",
+   "name2": "金运",
+   "class2": "赌徒",
+   "roster": "闪电鸟-1, 嘎啦嘎啦-3, 乐天河童-2, 白海狮-2",
+   "species": "闪电鸟, 嘎啦嘎啦, 乐天河童, 白海狮",
+   "teams": [
+    "闪电鸟-1, 嘎啦嘎啦-3, 乐天河童-2, 白海狮-2"
+   ],
+   "late": "",
+   "quote": "唱歌～跳舞～ 锁住你的视线！",
+   "quote2": "来场有深度的对决吧。",
+   "sprite": "assets/images/bdsptrainers/idol.png",
+   "sprite2": "assets/images/bdsptrainers/pi.png"
+  },
+  {
+   "name": "月歌",
+   "class": "偶像明星",
+   "name2": "岩培",
+   "class2": "遗迹迷",
+   "roster": "布鲁皇-3, 暴雪王-3, 随风球-2, 炎帝-2",
+   "species": "布鲁皇, 暴雪王, 随风球, 炎帝",
+   "teams": [
+    "布鲁皇-3, 暴雪王-3, 随风球-2, 炎帝-2"
+   ],
+   "late": "",
+   "quote": "唱歌～跳舞～ 锁住你的视线！",
+   "quote2": "宝可梦对战的乐趣， 就在最后一击！",
+   "sprite": "assets/images/bdsptrainers/idol.png",
+   "sprite2": "assets/images/bdsptrainers/ruinmaniac.png"
+  },
+  {
+   "name": "萨布",
+   "class": "精英训练家",
+   "name2": "荷米",
+   "class2": "摄影师",
+   "roster": "雷吉斯奇鲁-4, 暴鲤龙-2, 多边兽乙型-2, 水君-4",
+   "species": "雷吉斯奇鲁, 暴鲤龙, 多边兽乙型, 水君",
+   "teams": [
+    "雷吉斯奇鲁-4, 暴鲤龙-2, 多边兽乙型-2, 水君-4"
+   ],
+   "late": "",
+   "quote": "我会赢的， 这是实话。",
+   "quote2": "我盯……",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/cameraman.png"
+  },
+  {
+   "name": "萨布",
+   "class": "精英训练家",
+   "name2": "珐娜",
+   "class2": "精英训练家",
+   "roster": "暴雪王-4, 超甲狂犀-4, 青铜钟-3, 洛托姆-清洗-2, 煤炭龟-2",
+   "species": "暴雪王, 超甲狂犀, 青铜钟, 洛托姆-清洗, 煤炭龟",
+   "teams": [
+    "暴雪王-4, 超甲狂犀-4, 青铜钟-3, 洛托姆-清洗-2",
+    "暴雪王-4, 煤炭龟-2, 青铜钟-3, 洛托姆-清洗-2"
+   ],
+   "late": "",
+   "quote": "我会赢的， 这是实话。",
+   "quote2": "我不会再让任何人逃跑了。 放弃挣扎吧。",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
+  },
+  {
+   "name": "萨布",
+   "class": "精英训练家",
+   "name2": "穆轲",
+   "class2": "宝可梦收藏家",
+   "roster": "黑鲁加-2, 袋兽-3, 电龙-3, 克雷色利亚-4",
+   "species": "黑鲁加, 袋兽, 电龙, 克雷色利亚",
+   "teams": [
+    "黑鲁加-2, 袋兽-3, 电龙-3, 克雷色利亚-4"
+   ],
+   "late": "",
+   "quote": "我会赢的， 这是实话。",
+   "quote2": "等我会儿啊， 我在写邮件呢。",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/collector.png"
+  },
+  {
+   "name": "大叶",
+   "class": "四天王",
+   "name2": "电次",
+   "class2": "道馆馆主",
+   "roster": "火焰鸡-8, 鸭嘴炎兽-4, 洛托姆-清洗-4, 电击魔兽-5, 洛托姆-加热-2, 鸭嘴炎兽-5, 电击魔兽-6, 闪电鸟-13, 烈焰猴-6, 炎帝-6, 伦琴猫-4",
+   "species": "火焰鸡, 鸭嘴炎兽, 洛托姆-清洗, 电击魔兽, 洛托姆-加热, 闪电鸟, 烈焰猴, 炎帝, 伦琴猫",
+   "teams": [
+    "火焰鸡-8, 鸭嘴炎兽-4, 洛托姆-清洗-4, 电击魔兽-5",
+    "洛托姆-加热-2, 鸭嘴炎兽-5, 电击魔兽-6, 闪电鸟-13",
+    "烈焰猴-6, 炎帝-6, 伦琴猫-4, 闪电鸟-13"
+   ],
+   "late": "",
+   "quote": "哦！！ 你心中的火焰还在燃烧吗？",
+   "quote2": "你果然来了，。 我正觉得无聊呢！",
+   "sprite": "assets/images/bdsptrainers/flint.png",
+   "sprite2": "assets/images/bdsptrainers/volkner.png"
+  },
+  {
+   "name": "菜种",
+   "class": "道馆馆主",
+   "name2": "梅丽莎",
+   "class2": "道馆馆主",
+   "roster": "狡猾天狗-5, 斗笠菇-8, 勾魂眼-2, 耿鬼-7, 妙蛙花-8, 罗丝雷朵-5, 耿鬼-8, 巨蔓藤-4, 土台龟-4, 黑夜魔灵-3, 诅咒娃娃-2",
+   "species": "狡猾天狗, 斗笠菇, 勾魂眼, 耿鬼, 妙蛙花, 罗丝雷朵, 巨蔓藤, 土台龟, 黑夜魔灵, 诅咒娃娃",
+   "teams": [
+    "狡猾天狗-5, 斗笠菇-8, 勾魂眼-2, 耿鬼-7",
+    "妙蛙花-8, 罗丝雷朵-5, 勾魂眼-2, 耿鬼-8",
+    "巨蔓藤-4, 土台龟-4, 黑夜魔灵-3, 诅咒娃娃-2"
+   ],
+   "late": "",
+   "quote": "总而言之，我和梅丽莎搭档， 一定能打倒你！",
+   "quote2": "让你好好见识一下， 我俩强强联合的力量！",
+   "sprite": "assets/images/bdsptrainers/gardenia.png",
+   "sprite2": "assets/images/bdsptrainers/fantina.png"
+  },
+  {
+   "name": "长吉",
+   "class": "超能力者",
+   "name2": "涅墨",
+   "class2": "绅士",
+   "roster": "顽皮雷弹-2, 克雷色利亚-4, 帝王拿波-3, 耿鬼-2",
+   "species": "顽皮雷弹, 克雷色利亚, 帝王拿波, 耿鬼",
+   "teams": [
+    "顽皮雷弹-2, 克雷色利亚-4, 帝王拿波-3, 耿鬼-2"
+   ],
+   "late": "",
+   "quote": "我的兄弟 会好好疼爱你的！",
+   "quote2": "让我们回归童心 来场对战吧！",
+   "sprite": "assets/images/bdsptrainers/psychic-m.png",
+   "sprite2": "assets/images/bdsptrainers/gentleman.png"
+  },
+  {
+   "name": "长吉",
+   "class": "超能力者",
+   "name2": "拉吉康",
+   "class2": "水手",
+   "roster": "吼鲸王-3, 哥达鸭-3, 火焰鸡-3, 胡地-3",
+   "species": "吼鲸王, 哥达鸭, 火焰鸡, 胡地",
+   "teams": [
+    "吼鲸王-3, 哥达鸭-3, 火焰鸡-3, 胡地-3"
+   ],
+   "late": "",
+   "quote": "我的兄弟 会好好疼爱你的！",
+   "quote2": "咦？对手是你啊？ 总感觉有些不安……",
+   "sprite": "assets/images/bdsptrainers/psychic-m.png",
+   "sprite2": "assets/images/bdsptrainers/sailor.png"
+  },
+  {
+   "name": "百本木",
+   "class": "工人",
+   "name2": "严磨",
+   "class2": "空手道王",
+   "roster": "雷伊布-2, 雪妖女-3, 布鲁皇-3, 太阳伊布-2",
+   "species": "雷伊布, 雪妖女, 布鲁皇, 太阳伊布",
+   "teams": [
+    "雷伊布-2, 雪妖女-3, 布鲁皇-3, 太阳伊布-2"
+   ],
+   "late": "",
+   "quote": "看我把你打成废铁。",
+   "quote2": "每场宝可梦对战都是认真的对决。 一点都不能疏忽！",
+   "sprite": "assets/images/bdsptrainers/worker.png",
+   "sprite2": "assets/images/bdsptrainers/blackbelt.png"
+  },
+  {
+   "name": "太志",
+   "class": "宝可梦培育家",
+   "name2": "鹰人",
+   "class2": "宝可梦收藏家",
+   "roster": "魔墙人偶-3, 坦克臭鼬-3, 闪电鸟-2, 乐天河童-3",
+   "species": "魔墙人偶, 坦克臭鼬, 闪电鸟, 乐天河童",
+   "teams": [
+    "魔墙人偶-3, 坦克臭鼬-3, 闪电鸟-2, 乐天河童-3"
+   ],
+   "late": "",
+   "quote": "对战不仅是输赢而已。",
+   "quote2": "我是借鉴了网友的情报 培育的宝可梦！",
+   "sprite": "assets/images/bdsptrainers/pokemonbreeder-m.png",
+   "sprite2": "assets/images/bdsptrainers/collector.png"
+  },
+  {
+   "name": "太志",
+   "class": "宝可梦培育家",
+   "name2": "杰路姆",
+   "class2": "自行车手",
+   "roster": "引梦貘人-3, 钻角犀兽-2, 席多蓝恩-5, 冰鬼护-3",
+   "species": "引梦貘人, 钻角犀兽, 席多蓝恩, 冰鬼护",
+   "teams": [
+    "引梦貘人-3, 钻角犀兽-2, 席多蓝恩-5, 冰鬼护-3"
+   ],
+   "late": "",
+   "quote": "对战不仅是输赢而已。",
+   "quote2": "噗噜噜噜～～～！！ 看我的油门全开～！",
+   "sprite": "assets/images/bdsptrainers/pokemonbreeder-m.png",
+   "sprite2": "assets/images/bdsptrainers/cyclist-m.png"
+  },
+  {
+   "name": "香馨",
+   "class": "香氛姐姐",
+   "name2": "雪朵",
+   "class2": "Pokefan (F)",
+   "roster": "大钢蛇-2, 迷唇姐-2, 七夕青鸟-3, 大食花-2",
+   "species": "大钢蛇, 迷唇姐, 七夕青鸟, 大食花",
+   "teams": [
+    "大钢蛇-2, 迷唇姐-2, 七夕青鸟-3, 大食花-2"
+   ],
+   "late": "",
+   "quote": "想赢我？ 你还早了十年！！",
+   "quote2": "别看阿姨现在这样， 年轻的时候可是个万人迷呢。",
+   "sprite": "assets/images/bdsptrainers/aromalady.png",
+   "sprite2": "assets/images/bdsptrainers/pokefan-f.png"
+  },
+  {
+   "name": "香馨",
+   "class": "香氛姐姐",
+   "name2": "种茂",
+   "class2": "绅士",
+   "roster": "蚊香蛙皇-2, 电灯怪-2, 大食花-3, 拉帝欧斯-1",
+   "species": "蚊香蛙皇, 电灯怪, 大食花, 拉帝欧斯",
+   "teams": [
+    "蚊香蛙皇-2, 电灯怪-2, 大食花-3, 拉帝欧斯-1"
+   ],
+   "late": "",
+   "quote": "想赢我？ 你还早了十年！！",
+   "quote2": "呵呵呵呵！！ 你一路赢过来可不容易啊！",
+   "sprite": "assets/images/bdsptrainers/aromalady.png",
+   "sprite2": "assets/images/bdsptrainers/gentleman.png"
+  },
+  {
+   "name": "文西",
+   "class": "精英训练家",
+   "name2": "雅格尼丝",
+   "class2": "精英训练家",
+   "roster": "蚊香蛙皇-4, 闪电鸟-7, 刺龙王-4, 巨钳螳螂-5, 拉普拉斯-3",
+   "species": "蚊香蛙皇, 闪电鸟, 刺龙王, 巨钳螳螂, 拉普拉斯",
+   "teams": [
+    "蚊香蛙皇-4, 闪电鸟-7, 刺龙王-4, 巨钳螳螂-5",
+    "蚊香蛙皇-4, 拉普拉斯-3, 刺龙王-4, 巨钳螳螂-5"
+   ],
+   "late": "",
+   "quote": "什么都不去多想就是啦！ 只要开心就好啊！",
+   "quote2": "任何胜负我都会 全力以赴！",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
+  },
+  {
+   "name": "赛飞罗",
+   "class": "驯龙师",
+   "name2": "源五郎",
+   "class2": "吉他手",
+   "roster": "河马兽-2, 斗笠菇-3, 冰伊布-2, 雷公-3",
+   "species": "河马兽, 斗笠菇, 冰伊布, 雷公",
+   "teams": [
+    "河马兽-2, 斗笠菇-3, 冰伊布-2, 雷公-3"
+   ],
+   "late": "",
+   "quote": "上吧～！ 经过我严格训练的小宝可梦们～！",
+   "quote2": "请听我和宝可梦们的大合唱。",
+   "sprite": "assets/images/bdsptrainers/dragontamer.png",
+   "sprite2": "assets/images/bdsptrainers/guitarist.png"
+  },
+  {
+   "name": "赛飞罗",
+   "class": "驯龙师",
+   "name2": "有行",
+   "class2": "服务生",
+   "roster": "雷电兽-2, 拉帝亚斯-3, 班基拉斯-2, 佛烈托斯-3",
+   "species": "雷电兽, 拉帝亚斯, 班基拉斯, 佛烈托斯",
+   "teams": [
+    "雷电兽-2, 拉帝亚斯-3, 班基拉斯-2, 佛烈托斯-3"
+   ],
+   "late": "",
+   "quote": "上吧～！ 经过我严格训练的小宝可梦们～！",
+   "quote2": "欢迎光临～！！",
+   "sprite": "assets/images/bdsptrainers/dragontamer.png",
+   "sprite2": "assets/images/bdsptrainers/waiter.png"
+  },
+  {
+   "name": "珐娜",
+   "class": "精英训练家",
+   "name2": "芊河",
+   "class2": "宝可梦巡护员",
+   "roster": "沙漠蜻蜓-2, 尼多王-2, 布鲁皇-3, 急冻鸟-3",
+   "species": "沙漠蜻蜓, 尼多王, 布鲁皇, 急冻鸟",
+   "teams": [
+    "沙漠蜻蜓-2, 尼多王-2, 布鲁皇-3, 急冻鸟-3"
+   ],
+   "late": "",
+   "quote": "我不会再让任何人逃跑了。 放弃挣扎吧。",
+   "quote2": "让你见识一下 大自然的力量！",
+   "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
+   "sprite2": "assets/images/bdsptrainers/pokemonranger-f.png"
+  },
+  {
+   "name": "珐娜",
+   "class": "精英训练家",
+   "name2": "凯玲",
+   "class2": "女服务生",
+   "roster": "鸭嘴炎兽-2, 雷电兽-2, 天蝎王-2, 雷吉奇卡斯-2",
+   "species": "鸭嘴炎兽, 雷电兽, 天蝎王, 雷吉奇卡斯",
+   "teams": [
+    "鸭嘴炎兽-2, 雷电兽-2, 天蝎王-2, 雷吉奇卡斯-2"
+   ],
+   "late": "",
+   "quote": "我不会再让任何人逃跑了。 放弃挣扎吧。",
+   "quote2": "您回来啦！",
+   "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
+   "sprite2": "assets/images/bdsptrainers/waitress.png"
+  },
+  {
+   "name": "光汐",
+   "class": "大姐姐",
+   "name2": "凯玲",
+   "class2": "女服务生",
+   "roster": "拉帝亚斯-2, 水君-3, 黑鲁加-3, 雷公-4",
+   "species": "拉帝亚斯, 水君, 黑鲁加, 雷公",
+   "teams": [
+    "拉帝亚斯-2, 水君-3, 黑鲁加-3, 雷公-4"
+   ],
+   "late": "",
+   "quote": "嗯……罕见的宝可梦……",
+   "quote2": "您回来啦！",
+   "sprite": "assets/images/bdsptrainers/beauty.png",
+   "sprite2": "assets/images/bdsptrainers/waitress.png"
+  },
+  {
+   "name": "光汐",
+   "class": "大姐姐",
+   "name2": "鲍伯",
+   "class2": "牧场大叔",
+   "roster": "席多蓝恩-4, 顿甲-3, 叶伊布-2, 雷吉斯奇鲁-3",
+   "species": "席多蓝恩, 顿甲, 叶伊布, 雷吉斯奇鲁",
+   "teams": [
+    "席多蓝恩-4, 顿甲-3, 叶伊布-2, 雷吉斯奇鲁-3"
+   ],
+   "late": "",
+   "quote": "嗯……罕见的宝可梦……",
+   "quote2": "加油啊！ 我心爱的孩子们！",
+   "sprite": "assets/images/bdsptrainers/beauty.png",
+   "sprite2": "assets/images/bdsptrainers/rancher.png"
+  },
+  {
+   "name": "双蕾",
+   "class": "女服务生",
+   "name2": "练博",
+   "class2": "遗迹迷",
+   "roster": "爆音怪-3, 烈焰马-3, 魔墙人偶-3, 席多蓝恩-5",
+   "species": "爆音怪, 烈焰马, 魔墙人偶, 席多蓝恩",
+   "teams": [
+    "爆音怪-3, 烈焰马-3, 魔墙人偶-3, 席多蓝恩-5"
+   ],
+   "late": "",
+   "quote": "这位客官真可爱！ 我会好好为您服务哦！",
+   "quote2": "铆足劲儿上吧。",
+   "sprite": "assets/images/bdsptrainers/waitress.png",
+   "sprite2": "assets/images/bdsptrainers/ruinmaniac.png"
+  },
+  {
+   "name": "五叶松",
+   "class": "精英训练家",
+   "name2": "玳玉",
+   "class2": "记者",
+   "roster": "雷电兽-3, 钻角犀兽-2, 土台龟-3, 大力鳄-3, 炎帝-1, 雷公-2, 白海狮-3, 月亮伊布-2",
+   "species": "雷电兽, 钻角犀兽, 土台龟, 大力鳄, 炎帝, 雷公, 白海狮, 月亮伊布",
+   "teams": [
+    "雷电兽-3, 钻角犀兽-2, 土台龟-3, 大力鳄-3",
+    "炎帝-1, 雷公-2, 白海狮-3, 月亮伊布-2"
+   ],
+   "late": "",
+   "quote": "全力投球！",
+   "quote2": "我的宝可梦 可有点与众不同哦。",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/reporter.png"
+  },
+  {
+   "name": "练博",
+   "class": "遗迹迷",
+   "name2": "比利",
+   "class2": "宝可梦巡护员",
+   "roster": "烈咬陆鲨-2, 波士可多拉-2, 暴雪王-2, 浮潜鼬-2",
+   "species": "烈咬陆鲨, 波士可多拉, 暴雪王, 浮潜鼬",
+   "teams": [
+    "烈咬陆鲨-2, 波士可多拉-2, 暴雪王-2, 浮潜鼬-2"
+   ],
+   "late": "",
+   "quote": "铆足劲儿上吧。",
+   "quote2": "啊哈哈！算你倒霉！ 遇上了我！",
+   "sprite": "assets/images/bdsptrainers/ruinmaniac.png",
+   "sprite2": "assets/images/bdsptrainers/pokemonranger-m.png"
+  },
+  {
+   "name": "涅墨",
+   "class": "绅士",
+   "name2": "芭芭儿",
+   "class2": "养鸟人",
+   "roster": "雷吉艾斯-1, 席多蓝恩-3, 浮潜鼬-3, 迷唇姐-2",
+   "species": "雷吉艾斯, 席多蓝恩, 浮潜鼬, 迷唇姐",
+   "teams": [
+    "雷吉艾斯-1, 席多蓝恩-3, 浮潜鼬-3, 迷唇姐-2"
+   ],
+   "late": "",
+   "quote": "让我们回归童心 来场对战吧！",
+   "quote2": "人生啊，很多时候 都不会让你称心如意！",
+   "sprite": "assets/images/bdsptrainers/gentleman.png",
+   "sprite2": "assets/images/bdsptrainers/birdkeeper.png"
+  },
+  {
+   "name": "涅墨",
+   "class": "绅士",
+   "name2": "朔三",
+   "class2": "赌徒",
+   "roster": "太阳伊布-2, 沼王-3, 水君-2, 电龙-3",
+   "species": "太阳伊布, 沼王, 水君, 电龙",
+   "teams": [
+    "太阳伊布-2, 沼王-3, 水君-2, 电龙-3"
+   ],
+   "late": "",
+   "quote": "让我们回归童心 来场对战吧！",
+   "quote2": "你要拿什么来胜负呢？ 我会付出我的全部！",
+   "sprite": "assets/images/bdsptrainers/gentleman.png",
+   "sprite2": "assets/images/bdsptrainers/pi.png"
+  },
+  {
+   "name": "秀治",
+   "class": "摄影师",
+   "name2": "赫尔佳",
+   "class2": "精英训练家",
+   "roster": "长耳兔-2, 斗笠菇-3, 暴飞龙-2, 艾路雷朵-2",
+   "species": "长耳兔, 斗笠菇, 暴飞龙, 艾路雷朵",
+   "teams": [
+    "长耳兔-2, 斗笠菇-3, 暴飞龙-2, 艾路雷朵-2"
+   ],
+   "late": "",
+   "quote": "我一直在等待 像你这样的训练家出现。",
+   "quote2": "嘿～嘿～！ 一起愉快地玩耍吧！",
+   "sprite": "assets/images/bdsptrainers/cameraman.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
+  },
+  {
+   "name": "秀治",
+   "class": "摄影师",
+   "name2": "果雅",
+   "class2": "宝可梦培育家",
+   "roster": "鲶鱼王-2, 水伊布-2, 雷电兽-2, 伦琴猫-2",
+   "species": "鲶鱼王, 水伊布, 雷电兽, 伦琴猫",
+   "teams": [
+    "鲶鱼王-2, 水伊布-2, 雷电兽-2, 伦琴猫-2"
+   ],
+   "late": "",
+   "quote": "我一直在等待 像你这样的训练家出现。",
+   "quote2": "严格点也不是…… 宠着点也不成……",
+   "sprite": "assets/images/bdsptrainers/cameraman.png",
+   "sprite2": "assets/images/bdsptrainers/pokemonbreeder-f.png"
+  },
+  {
+   "name": "珍妮特",
+   "class": "记者",
+   "name2": "亚多鲁",
+   "class2": "宝可梦培育家",
+   "roster": "象牙猪-2, 肯泰罗-3, 耿鬼-3, 雷吉洛克-3",
+   "species": "象牙猪, 肯泰罗, 耿鬼, 雷吉洛克",
+   "teams": [
+    "象牙猪-2, 肯泰罗-3, 耿鬼-3, 雷吉洛克-3"
+   ],
+   "late": "",
+   "quote": "嗯～怎么进攻比较好呢？",
+   "quote2": "来给你介绍一下！ 我最重要的搭档！",
+   "sprite": "assets/images/bdsptrainers/reporter.png",
+   "sprite2": "assets/images/bdsptrainers/pokemonbreeder-m.png"
+  },
+  {
+   "name": "珍妮特",
+   "class": "记者",
+   "name2": "诺卢",
+   "class2": "超能力者",
+   "roster": "圈圈熊-3, 钻角犀兽-3, 椰蛋树-2, 烈焰猴-3",
+   "species": "圈圈熊, 钻角犀兽, 椰蛋树, 烈焰猴",
+   "teams": [
+    "圈圈熊-3, 钻角犀兽-3, 椰蛋树-2, 烈焰猴-3"
+   ],
+   "late": "",
+   "quote": "嗯～怎么进攻比较好呢？",
+   "quote2": "看好了！ 这就是超能力的神秘力量！",
+   "sprite": "assets/images/bdsptrainers/reporter.png",
+   "sprite2": "assets/images/bdsptrainers/psychic-m.png"
+  },
+  {
+   "name": "珍妮特",
+   "class": "记者",
+   "name2": "苞儿",
+   "class2": "偶像明星",
+   "roster": "雷吉艾斯-3, 狡猾天狗-2, 黑鲁加-3, 魔墙人偶-3",
+   "species": "雷吉艾斯, 狡猾天狗, 黑鲁加, 魔墙人偶",
+   "teams": [
+    "雷吉艾斯-3, 狡猾天狗-2, 黑鲁加-3, 魔墙人偶-3"
+   ],
+   "late": "",
+   "quote": "嗯～怎么进攻比较好呢？",
+   "quote2": "你真的没问题吧？ 我可是超级强的哦！",
+   "sprite": "assets/images/bdsptrainers/reporter.png",
+   "sprite2": "assets/images/bdsptrainers/idol.png"
+  },
+  {
+   "name": "玳玉",
+   "class": "记者",
+   "name2": "野野美",
+   "class2": "超能力者",
+   "roster": "罗丝雷朵-2, 雷吉奇卡斯-5, 臭臭泥-2, 引梦貘人-2",
+   "species": "罗丝雷朵, 雷吉奇卡斯, 臭臭泥, 引梦貘人",
+   "teams": [
+    "罗丝雷朵-2, 雷吉奇卡斯-5, 臭臭泥-2, 引梦貘人-2"
+   ],
+   "late": "",
+   "quote": "我的宝可梦 可有点与众不同哦。",
+   "quote2": "咕噜咕噜咕噜……",
+   "sprite": "assets/images/bdsptrainers/reporter.png",
+   "sprite2": "assets/images/bdsptrainers/psychic-f.png"
+  },
+  {
+   "name": "克妮格",
+   "class": "宝可梦巡护员",
+   "name2": "玉叶",
+   "class2": "偶像明星",
+   "roster": "铁掌力士-2, 乌鸦头头-2, 雷吉斯奇鲁-1, 拉帝亚斯-3",
+   "species": "铁掌力士, 乌鸦头头, 雷吉斯奇鲁, 拉帝亚斯",
+   "teams": [
+    "铁掌力士-2, 乌鸦头头-2, 雷吉斯奇鲁-1, 拉帝亚斯-3"
+   ],
+   "late": "",
+   "quote": "想和我对战？ 结果我可不负责哦！",
+   "quote2": "对战是我唯一的生存价值， 胜利是我唯一的愿望。",
+   "sprite": "assets/images/bdsptrainers/pokemonranger-f.png",
+   "sprite2": "assets/images/bdsptrainers/idol.png"
+  },
+  {
+   "name": "岁星",
+   "class": "银河队",
+   "name2": "镇星",
+   "class2": "银河队",
+   "roster": "尼多王-5, 坦克臭鼬-4, 阿勃梭鲁-4, 勾魂眼-4, 耿鬼-8, 毒骷蛙-4, 巨牙鲨-2, 叉字蝠-3, 班基拉斯-10",
+   "species": "尼多王, 坦克臭鼬, 阿勃梭鲁, 勾魂眼, 耿鬼, 毒骷蛙, 巨牙鲨, 叉字蝠, 班基拉斯",
+   "teams": [
+    "尼多王-5, 坦克臭鼬-4, 阿勃梭鲁-4, 勾魂眼-4",
+    "耿鬼-8, 毒骷蛙-4, 坦克臭鼬-4, 巨牙鲨-2",
+    "叉字蝠-3, 毒骷蛙-4, 巨牙鲨-2, 班基拉斯-10"
+   ],
+   "late": "",
+   "quote": "你找我有什么事？ 啊，看来这个问题有点多余了。",
+   "quote2": "什么啊，原来是你啊…… 那就让我舍弃头衔来与你一战吧！",
+   "sprite": "assets/images/bdsptrainers/jupiter.png",
+   "sprite2": "assets/images/bdsptrainers/saturn.png"
+  },
+  {
+   "name": "凯玲",
+   "class": "女服务生",
+   "name2": "鸯恩",
+   "class2": "Socialite",
+   "roster": "雷公-3, 雷吉艾斯-1, 闪电鸟-2, 战槌龙-2",
+   "species": "雷公, 雷吉艾斯, 闪电鸟, 战槌龙",
+   "teams": [
+    "雷公-3, 雷吉艾斯-1, 闪电鸟-2, 战槌龙-2"
+   ],
+   "late": "",
+   "quote": "您回来啦！",
+   "quote2": "你还是个孩子吧？",
+   "sprite": "assets/images/bdsptrainers/waitress.png",
+   "sprite2": "assets/images/bdsptrainers/madame.png"
+  },
+  {
+   "name": "蝶舞",
+   "class": "Socialite",
+   "name2": "光汐",
+   "class2": "大姐姐",
+   "roster": "闪电鸟-3, 双弹瓦斯-2, 鲶鱼王-2, 七夕青鸟-2",
+   "species": "闪电鸟, 双弹瓦斯, 鲶鱼王, 七夕青鸟",
+   "teams": [
+    "闪电鸟-3, 双弹瓦斯-2, 鲶鱼王-2, 七夕青鸟-2"
+   ],
+   "late": "",
+   "quote": "希望我家孩子 能成为优秀强大的训练家。",
+   "quote2": "嗯……罕见的宝可梦……",
+   "sprite": "assets/images/bdsptrainers/madame.png",
+   "sprite2": "assets/images/bdsptrainers/beauty.png"
+  },
+  {
+   "name": "蝶舞",
+   "class": "Socialite",
+   "name2": "花雨",
+   "class2": "阳伞姐姐",
+   "roster": "拉帝欧斯-1, 肯泰罗-2, 赫拉克罗斯-2, 拉帝亚斯-1",
+   "species": "拉帝欧斯, 肯泰罗, 赫拉克罗斯, 拉帝亚斯",
+   "teams": [
+    "拉帝欧斯-1, 肯泰罗-2, 赫拉克罗斯-2, 拉帝亚斯-1"
+   ],
+   "late": "",
+   "quote": "希望我家孩子 能成为优秀强大的训练家。",
+   "quote2": "这是把遮阳伞。",
+   "sprite": "assets/images/bdsptrainers/madame.png",
+   "sprite2": "assets/images/bdsptrainers/parasollady.png"
+  },
+  {
+   "name": "拉吉康",
+   "class": "水手",
+   "name2": "芳森",
+   "class2": "大姐姐",
+   "roster": "姆克鹰-2, 雷公-3, 波克基斯-2, 梦妖魔-3",
+   "species": "姆克鹰, 雷公, 波克基斯, 梦妖魔",
+   "teams": [
+    "姆克鹰-2, 雷公-3, 波克基斯-2, 梦妖魔-3"
+   ],
+   "late": "",
+   "quote": "咦？对手是你啊？ 总感觉有些不安……",
+   "quote2": "好了吗？",
+   "sprite": "assets/images/bdsptrainers/sailor.png",
+   "sprite2": "assets/images/bdsptrainers/beauty.png"
+  },
+  {
+   "name": "安东尼奥",
+   "class": "服务生",
+   "name2": "嵋仲",
+   "class2": "赌徒",
+   "roster": "请假王-2, 火焰鸡-3, 狡猾天狗-2, 雷公-1",
+   "species": "请假王, 火焰鸡, 狡猾天狗, 雷公",
+   "teams": [
+    "请假王-2, 火焰鸡-3, 狡猾天狗-2, 雷公-1"
+   ],
+   "late": "",
+   "quote": "哦～！你看起来挺强的嘛～ 好期待，好期待！",
+   "quote2": "输赢可不是用 精密计算算出来的！",
+   "sprite": "assets/images/bdsptrainers/waiter.png",
+   "sprite2": "assets/images/bdsptrainers/pi.png"
+  },
+  {
+   "name": "安东尼奥",
+   "class": "服务生",
+   "name2": "香馨",
+   "class2": "香氛姐姐",
+   "roster": "火焰鸟-1, 顿甲-2, 象牙猪-2, 尼多后-2",
+   "species": "火焰鸟, 顿甲, 象牙猪, 尼多后",
+   "teams": [
+    "火焰鸟-1, 顿甲-2, 象牙猪-2, 尼多后-2"
+   ],
+   "late": "",
+   "quote": "哦～！你看起来挺强的嘛～ 好期待，好期待！",
+   "quote2": "想赢我？ 你还早了十年！！",
+   "sprite": "assets/images/bdsptrainers/waiter.png",
+   "sprite2": "assets/images/bdsptrainers/aromalady.png"
+  },
+  {
+   "name": "鲍伯",
+   "class": "牧场大叔",
+   "name2": "宽平",
+   "class2": "资深训练家",
+   "roster": "随风球-2, 吼鲸王-3, 臭臭泥-3, 雷丘-2",
+   "species": "随风球, 吼鲸王, 臭臭泥, 雷丘",
+   "teams": [
+    "随风球-2, 吼鲸王-3, 臭臭泥-3, 雷丘-2"
+   ],
+   "late": "",
+   "quote": "加油啊！ 我心爱的孩子们！",
+   "quote2": "我已经在这里待了好几年了， 但是一点都不觉得腻。",
+   "sprite": "assets/images/bdsptrainers/rancher.png",
+   "sprite2": "assets/images/bdsptrainers/veteran.png"
+  },
+  {
+   "name": "穆轲",
+   "class": "宝可梦收藏家",
+   "name2": "松鸦",
+   "class2": "养鸟人",
+   "roster": "叶伊布-2, 摇篮百合-3, 席多蓝恩-5, 阿勃梭鲁-2",
+   "species": "叶伊布, 摇篮百合, 席多蓝恩, 阿勃梭鲁",
+   "teams": [
+    "叶伊布-2, 摇篮百合-3, 席多蓝恩-5, 阿勃梭鲁-2"
+   ],
+   "late": "",
+   "quote": "等我会儿啊， 我在写邮件呢。",
+   "quote2": "你已经无处可逃了！",
+   "sprite": "assets/images/bdsptrainers/collector.png",
+   "sprite2": "assets/images/bdsptrainers/birdkeeper.png"
+  },
+  {
+   "name": "穆轲",
+   "class": "宝可梦收藏家",
+   "name2": "克妮格",
+   "class2": "宝可梦巡护员",
+   "roster": "盔甲鸟-2, 呆壳兽-3, 雷吉艾斯-1, 魔墙人偶-2",
+   "species": "盔甲鸟, 呆壳兽, 雷吉艾斯, 魔墙人偶",
+   "teams": [
+    "盔甲鸟-2, 呆壳兽-3, 雷吉艾斯-1, 魔墙人偶-2"
+   ],
+   "late": "",
+   "quote": "等我会儿啊， 我在写邮件呢。",
+   "quote2": "想和我对战？ 结果我可不负责哦！",
+   "sprite": "assets/images/bdsptrainers/collector.png",
+   "sprite2": "assets/images/bdsptrainers/pokemonranger-f.png"
+  },
+  {
+   "name": "佩尔",
+   "class": "小丑",
+   "name2": "双蕾",
+   "class2": "女服务生",
+   "roster": "火焰鸟-4, 雷吉奇卡斯-5, 电龙-2, 护城龙-2",
+   "species": "火焰鸟, 雷吉奇卡斯, 电龙, 护城龙",
+   "teams": [
+    "火焰鸟-4, 雷吉奇卡斯-5, 电龙-2, 护城龙-2"
+   ],
+   "late": "",
+   "quote": "所谓的宝可梦对战 就像写在沙滩上的情书一样。",
+   "quote2": "这位客官真可爱！ 我会好好为您服务哦！",
+   "sprite": "assets/images/bdsptrainers/clown.png",
+   "sprite2": "assets/images/bdsptrainers/waitress.png"
+  },
+  {
+   "name": "种茂",
+   "class": "绅士",
+   "name2": "雷波曼",
+   "class2": "研究员",
+   "roster": "盔甲鸟-3, 冰鬼护-3, 毒骷蛙-2, 恰雷姆-2",
+   "species": "盔甲鸟, 冰鬼护, 毒骷蛙, 恰雷姆",
+   "teams": [
+    "盔甲鸟-3, 冰鬼护-3, 毒骷蛙-2, 恰雷姆-2"
+   ],
+   "late": "",
+   "quote": "呵呵呵呵！！ 你一路赢过来可不容易啊！",
+   "quote2": "这就是科学的力量！",
+   "sprite": "assets/images/bdsptrainers/gentleman.png",
+   "sprite2": "assets/images/bdsptrainers/scientist.png"
+  },
+  {
+   "name": "种茂",
+   "class": "绅士",
+   "name2": "飞跃",
+   "class2": "慢跑者",
+   "roster": "盔甲鸟-3, 迷唇姐-3, 毒骷蛙-2, 壶壶-2",
+   "species": "盔甲鸟, 迷唇姐, 毒骷蛙, 壶壶",
+   "teams": [
+    "盔甲鸟-3, 迷唇姐-3, 毒骷蛙-2, 壶壶-2"
+   ],
+   "late": "",
+   "quote": "呵呵呵呵！！ 你一路赢过来可不容易啊！",
+   "quote2": "预备！咚～！",
+   "sprite": "assets/images/bdsptrainers/gentleman.png",
+   "sprite2": "assets/images/bdsptrainers/jogger.png"
+  },
+  {
+   "name": "史丹利",
+   "class": "Policeman",
+   "name2": "喜可",
+   "class2": "超能力者",
+   "roster": "烈焰猴-3, 波克基斯-2, 蜥蜴王-3, 黑夜魔灵-2",
+   "species": "烈焰猴, 波克基斯, 蜥蜴王, 黑夜魔灵",
+   "teams": [
+    "烈焰猴-3, 波克基斯-2, 蜥蜴王-3, 黑夜魔灵-2"
+   ],
+   "late": "",
+   "quote": "喂，你～说的就是那边的你～ 请你稍等一下～！",
+   "quote2": "哥哥是这么教我的！ 眼睛！他说要瞄准眼睛！",
+   "sprite": "assets/images/bdsptrainers/policeofficer.png",
+   "sprite2": "assets/images/bdsptrainers/psychic-f.png"
+  },
+  {
+   "name": "史丹利",
+   "class": "Policeman",
+   "name2": "光汐",
+   "class2": "大姐姐",
+   "roster": "席多蓝恩-3, 快龙-3, 摇篮百合-3, 雷吉奇卡斯-4",
+   "species": "席多蓝恩, 快龙, 摇篮百合, 雷吉奇卡斯",
+   "teams": [
+    "席多蓝恩-3, 快龙-3, 摇篮百合-3, 雷吉奇卡斯-4"
+   ],
+   "late": "",
+   "quote": "喂，你～说的就是那边的你～ 请你稍等一下～！",
+   "quote2": "嗯……罕见的宝可梦……",
+   "sprite": "assets/images/bdsptrainers/policeofficer.png",
+   "sprite2": "assets/images/bdsptrainers/beauty.png"
+  },
+  {
+   "name": "有行",
+   "class": "服务生",
+   "name2": "雪朵",
+   "class2": "Pokefan (F)",
+   "roster": "狡猾天狗-3, 拉帝欧斯-3, 摇篮百合-3, 九尾-2",
+   "species": "狡猾天狗, 拉帝欧斯, 摇篮百合, 九尾",
+   "teams": [
+    "狡猾天狗-3, 拉帝欧斯-3, 摇篮百合-3, 九尾-2"
+   ],
+   "late": "",
+   "quote": "欢迎光临～！！",
+   "quote2": "别看阿姨现在这样， 年轻的时候可是个万人迷呢。",
+   "sprite": "assets/images/bdsptrainers/waiter.png",
+   "sprite2": "assets/images/bdsptrainers/pokefan-f.png"
+  },
+  {
+   "name": "爱蜜",
+   "class": "自行车手",
+   "name2": "佩多罗",
+   "class2": "资深训练家",
+   "roster": "土台龟-3, 爆音怪-3, 耿鬼-2, 海兔兽-3",
+   "species": "土台龟, 爆音怪, 耿鬼, 海兔兽",
+   "teams": [
+    "土台龟-3, 爆音怪-3, 耿鬼-2, 海兔兽-3"
+   ],
+   "late": "",
+   "quote": "叮铃，叮铃铃。",
+   "quote2": "我先说明白…… 你是赢不了我的。",
+   "sprite": "assets/images/bdsptrainers/cyclist-f.png",
+   "sprite2": "assets/images/bdsptrainers/veteran.png"
+  },
+  {
+   "name": "斯琦",
+   "class": "对战少女",
+   "name2": "舒瑚",
+   "class2": "香氛姐姐",
+   "roster": "闪电鸟-2, 阿勃梭鲁-2, 幸福蛋-2, 护城龙-3",
+   "species": "闪电鸟, 阿勃梭鲁, 幸福蛋, 护城龙",
+   "teams": [
+    "闪电鸟-2, 阿勃梭鲁-2, 幸福蛋-2, 护城龙-3"
+   ],
+   "late": "",
+   "quote": "呀～！",
+   "quote2": "闻到香香的味道， 就会很想睡啊……",
+   "sprite": "assets/images/bdsptrainers/battlegirl.png",
+   "sprite2": "assets/images/bdsptrainers/aromalady.png"
+  },
+  {
+   "name": "建宏",
+   "class": "工人",
+   "name2": "尼克",
+   "class2": "水手",
+   "roster": "隆隆岩-3, 蚊香蛙皇-2, 凯罗斯-3, 电灯怪-3",
+   "species": "隆隆岩, 蚊香蛙皇, 凯罗斯, 电灯怪",
+   "teams": [
+    "隆隆岩-3, 蚊香蛙皇-2, 凯罗斯-3, 电灯怪-3"
+   ],
+   "late": "",
+   "quote": "哦！不错啊！ 来场对战吧！",
+   "quote2": "我乘大船来的。",
+   "sprite": "assets/images/bdsptrainers/worker.png",
+   "sprite2": "assets/images/bdsptrainers/sailor.png"
+  },
+  {
+   "name": "建宏",
+   "class": "工人",
+   "name2": "芳森",
+   "class2": "大姐姐",
+   "roster": "怪力-2, 远古巨蜓-2, 克雷色利亚-5, 胡地-2, 吼鲸王-2, 袋兽-2",
+   "species": "怪力, 远古巨蜓, 克雷色利亚, 胡地, 吼鲸王, 袋兽",
+   "teams": [
+    "怪力-2, 远古巨蜓-2, 克雷色利亚-5, 胡地-2",
+    "吼鲸王-2, 远古巨蜓-2, 克雷色利亚-5, 袋兽-2"
+   ],
+   "late": "",
+   "quote": "哦！不错啊！ 来场对战吧！",
+   "quote2": "好了吗？",
+   "sprite": "assets/images/bdsptrainers/worker.png",
+   "sprite2": "assets/images/bdsptrainers/beauty.png"
+  },
+  {
+   "name": "那由多",
+   "class": "精英训练家",
+   "name2": "赫尔佳",
+   "class2": "精英训练家",
+   "roster": "美丽花-2, 拉普拉斯-3, 煤炭龟-2, 克雷色利亚-6, 超甲狂犀-4",
+   "species": "美丽花, 拉普拉斯, 煤炭龟, 克雷色利亚, 超甲狂犀",
+   "teams": [
+    "美丽花-2, 拉普拉斯-3, 煤炭龟-2, 克雷色利亚-6",
+    "美丽花-2, 超甲狂犀-4, 煤炭龟-2, 克雷色利亚-6"
+   ],
+   "late": "",
+   "quote": "呼哈～！呼哈～！ 你以为你能赢吗！",
+   "quote2": "嘿～嘿～！ 一起愉快地玩耍吧！",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
+  },
+  {
+   "name": "那由多",
+   "class": "精英训练家",
+   "name2": "苏菲",
+   "class2": "自行车手",
+   "roster": "太古盔甲-3, 超甲狂犀-3, 妙蛙花-3, 大舌舔-2",
+   "species": "太古盔甲, 超甲狂犀, 妙蛙花, 大舌舔",
+   "teams": [
+    "太古盔甲-3, 超甲狂犀-3, 妙蛙花-3, 大舌舔-2"
+   ],
+   "late": "",
+   "quote": "呼哈～！呼哈～！ 你以为你能赢吗！",
+   "quote2": "我梦想着有机会要和男朋友 一起骑车约会。",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/cyclist-f.png"
+  },
+  {
+   "name": "那由多",
+   "class": "精英训练家",
+   "name2": "帕克夏",
+   "class2": "吉他手",
+   "roster": "炎帝-2, 克雷色利亚-5, 胡地-3, 耿鬼-2",
+   "species": "炎帝, 克雷色利亚, 胡地, 耿鬼",
+   "teams": [
+    "炎帝-2, 克雷色利亚-5, 胡地-3, 耿鬼-2"
+   ],
+   "late": "",
+   "quote": "呼哈～！呼哈～！ 你以为你能赢吗！",
+   "quote2": "嘿～你可以啊。",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/guitarist.png"
+  },
+  {
+   "name": "杰路姆",
+   "class": "自行车手",
+   "name2": "松鸦",
+   "class2": "养鸟人",
+   "roster": "斗笠菇-2, 随风球-3, 快龙-3, 九尾-2",
+   "species": "斗笠菇, 随风球, 快龙, 九尾",
+   "teams": [
+    "斗笠菇-2, 随风球-3, 快龙-3, 九尾-2"
+   ],
+   "late": "",
+   "quote": "噗噜噜噜～～～！！ 看我的油门全开～！",
+   "quote2": "你已经无处可逃了！",
+   "sprite": "assets/images/bdsptrainers/cyclist-m.png",
+   "sprite2": "assets/images/bdsptrainers/birdkeeper.png"
+  },
+  {
+   "name": "花雨",
+   "class": "阳伞姐姐",
+   "name2": "玳玉",
+   "class2": "记者",
+   "roster": "波士可多拉-2, 沼王-3, 双尾怪手-3, 隆隆岩-2",
+   "species": "波士可多拉, 沼王, 双尾怪手, 隆隆岩",
+   "teams": [
+    "波士可多拉-2, 沼王-3, 双尾怪手-3, 隆隆岩-2"
+   ],
+   "late": "",
+   "quote": "这是把遮阳伞。",
+   "quote2": "我的宝可梦 可有点与众不同哦。",
+   "sprite": "assets/images/bdsptrainers/parasollady.png",
+   "sprite2": "assets/images/bdsptrainers/reporter.png"
+  },
+  {
+   "name": "花雨",
+   "class": "阳伞姐姐",
+   "name2": "沂玫",
+   "class2": "对战少女",
+   "roster": "巨钳螳螂-2, 袋兽-3, 引梦貘人-2, 蜂女王-2",
+   "species": "巨钳螳螂, 袋兽, 引梦貘人, 蜂女王",
+   "teams": [
+    "巨钳螳螂-2, 袋兽-3, 引梦貘人-2, 蜂女王-2"
+   ],
+   "late": "",
+   "quote": "这是把遮阳伞。",
+   "quote2": "我很强，仅此而已。",
+   "sprite": "assets/images/bdsptrainers/parasollady.png",
+   "sprite2": "assets/images/bdsptrainers/battlegirl.png"
+  },
+  {
+   "name": "花雨",
+   "class": "阳伞姐姐",
+   "name2": "丹朱",
+   "class2": "Policeman",
+   "roster": "雷吉斯奇鲁-2, 钻角犀兽-3, 蚊香泳士-3, 天蝎王-2",
+   "species": "雷吉斯奇鲁, 钻角犀兽, 蚊香泳士, 天蝎王",
+   "teams": [
+    "雷吉斯奇鲁-2, 钻角犀兽-3, 蚊香泳士-3, 天蝎王-2"
+   ],
+   "late": "",
+   "quote": "这是把遮阳伞。",
+   "quote2": "呜呜……嗯嗯……",
+   "sprite": "assets/images/bdsptrainers/parasollady.png",
+   "sprite2": "assets/images/bdsptrainers/policeofficer.png"
+  },
+  {
+   "name": "柯玛",
+   "class": "牛仔女孩",
+   "name2": "佳丽美",
+   "class2": "阳伞姐姐",
+   "roster": "暴飞龙-2, 尼多后-2, 火焰鸟-3, 赫拉克罗斯-2",
+   "species": "暴飞龙, 尼多后, 火焰鸟, 赫拉克罗斯",
+   "teams": [
+    "暴飞龙-2, 尼多后-2, 火焰鸟-3, 赫拉克罗斯-2"
+   ],
+   "late": "",
+   "quote": "让我来终结一切吧。",
+   "quote2": "无论是晴天还是下雨， 我都会在这里寻找强大的训练家。",
+   "sprite": "assets/images/bdsptrainers/cowgirl.png",
+   "sprite2": "assets/images/bdsptrainers/parasollady.png"
+  },
+  {
+   "name": "柯玛",
+   "class": "牛仔女孩",
+   "name2": "那须",
+   "class2": "Fisherman",
+   "roster": "海兔兽-2, 炎帝-1, 喷火龙-3, 佛烈托斯-2",
+   "species": "海兔兽, 炎帝, 喷火龙, 佛烈托斯",
+   "teams": [
+    "海兔兽-2, 炎帝-1, 喷火龙-3, 佛烈托斯-2"
+   ],
+   "late": "",
+   "quote": "让我来终结一切吧。",
+   "quote2": "让你见识一下！ 神奥第一的抛竿技术！",
+   "sprite": "assets/images/bdsptrainers/cowgirl.png",
+   "sprite2": "assets/images/bdsptrainers/fisher.png"
+  },
+  {
+   "name": "苏菲",
+   "class": "自行车手",
+   "name2": "南航",
+   "class2": "研究员",
+   "roster": "龙王蝎-2, 布鲁皇-2, 急冻鸟-1, 鸭嘴炎兽-2",
+   "species": "龙王蝎, 布鲁皇, 急冻鸟, 鸭嘴炎兽",
+   "teams": [
+    "龙王蝎-2, 布鲁皇-2, 急冻鸟-1, 鸭嘴炎兽-2"
+   ],
+   "late": "",
+   "quote": "我梦想着有机会要和男朋友 一起骑车约会。",
+   "quote2": "突击吧！我的宝可梦！ 展示我们的试验成果吧！",
+   "sprite": "assets/images/bdsptrainers/cyclist-f.png",
+   "sprite2": "assets/images/bdsptrainers/scientist.png"
+  },
+  {
+   "name": "苏菲",
+   "class": "自行车手",
+   "name2": "五叶松",
+   "class2": "精英训练家",
+   "roster": "蚊香蛙皇-3, 双弹瓦斯-3, 恰雷姆-3, 炎帝-3",
+   "species": "蚊香蛙皇, 双弹瓦斯, 恰雷姆, 炎帝",
+   "teams": [
+    "蚊香蛙皇-3, 双弹瓦斯-3, 恰雷姆-3, 炎帝-3"
+   ],
+   "late": "",
+   "quote": "我梦想着有机会要和男朋友 一起骑车约会。",
+   "quote2": "全力投球！",
+   "sprite": "assets/images/bdsptrainers/cyclist-f.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-m.png"
+  },
+  {
+   "name": "伙星",
+   "class": "银河队",
+   "name2": "赤日",
+   "class2": "银河队",
+   "roster": "雷丘-4, 青铜钟-5, 暴鲤龙-6, 暴飞龙-8, 太阳伊布-4, 波克基斯-8, 玛狃拉-5, 炎帝-6, 叉字蝠-3, 东施喵-2, 洛托姆-加热-2, 暴鲤龙-7",
+   "species": "雷丘, 青铜钟, 暴鲤龙, 暴飞龙, 太阳伊布, 波克基斯, 玛狃拉, 炎帝, 叉字蝠, 东施喵, 洛托姆-加热",
+   "teams": [
+    "雷丘-4, 青铜钟-5, 暴鲤龙-6, 暴飞龙-8",
+    "太阳伊布-4, 波克基斯-8, 玛狃拉-5, 炎帝-6",
+    "叉字蝠-3, 东施喵-2, 洛托姆-加热-2, 暴鲤龙-7"
+   ],
+   "late": "",
+   "quote": "！ 只有你，我绝对不会放过你！ 不可饶恕！！不可饶恕！！！",
+   "quote2": "是啊， 我和你还真是有缘呢。 不过，这段孽缘…… 就让我在此斩断吧！",
+   "sprite": "assets/images/bdsptrainers/mars.png",
+   "sprite2": "assets/images/bdsptrainers/cyrus.png"
+  },
+  {
+   "name": "阿李",
+   "class": "道馆馆主",
+   "name2": "小菘",
+   "class2": "道馆馆主",
+   "roster": "战舞郎-4, 路卡利欧-6, 暴雪王-7, 雪妖女-5, 战舞郎-5, 急冻鸟-6, 火焰鸡-7, 玛狃拉-4",
+   "species": "战舞郎, 路卡利欧, 暴雪王, 雪妖女, 急冻鸟, 火焰鸡, 玛狃拉",
+   "teams": [
+    "战舞郎-4, 路卡利欧-6, 暴雪王-7, 雪妖女-5",
+    "战舞郎-5, 路卡利欧-6, 暴雪王-7, 急冻鸟-6",
+    "战舞郎-4, 火焰鸡-7, 玛狃拉-4, 暴雪王-7"
+   ],
+   "late": "",
+   "quote": "我肚子饿了…… 啊，没什么啦！",
+   "quote2": "我和阿李的气势，可是非常厉害的哦！",
+   "sprite": "assets/images/bdsptrainers/maylene.png",
+   "sprite2": "assets/images/bdsptrainers/candice.png"
+  },
+  {
+   "name": "宽平",
+   "class": "资深训练家",
+   "name2": "杰路姆",
+   "class2": "自行车手",
+   "roster": "姆克鹰-3, 钻角犀兽-2, 土台龟-3, 水箭龟-3",
+   "species": "姆克鹰, 钻角犀兽, 土台龟, 水箭龟",
+   "teams": [
+    "姆克鹰-3, 钻角犀兽-2, 土台龟-3, 水箭龟-3"
+   ],
+   "late": "",
+   "quote": "我已经在这里待了好几年了， 但是一点都不觉得腻。",
+   "quote2": "噗噜噜噜～～～！！ 看我的油门全开～！",
+   "sprite": "assets/images/bdsptrainers/veteran.png",
+   "sprite2": "assets/images/bdsptrainers/cyclist-m.png"
+  },
+  {
+   "name": "麦儿",
+   "class": "宝可梦训练家",
+   "name2": "芽米",
+   "class2": "宝可梦训练家",
+   "roster": "胡地-6, 耿鬼-6, 月亮伊布-4, 幸福蛋-4, 闪电鸟-9, 胡地-7, 幸福蛋-5, 多边兽乙型-4, 沙奈朵-6, 闪电鸟-10, 拉帝欧斯-7, 多边兽乙型-5",
+   "species": "胡地, 耿鬼, 月亮伊布, 幸福蛋, 闪电鸟, 多边兽乙型, 沙奈朵, 拉帝欧斯",
+   "teams": [
+    "胡地-6, 耿鬼-6, 月亮伊布-4, 幸福蛋-4",
+    "闪电鸟-9, 胡地-7, 幸福蛋-5, 多边兽乙型-4",
+    "沙奈朵-6, 闪电鸟-10, 拉帝欧斯-7, 多边兽乙型-5"
+   ],
+   "late": "",
+   "quote": "啊，！ 我在这里迷路了，然后遇到了芽米！",
+   "quote2": "好久不见，。 俗话说出门靠旅伴， 现在有麦儿陪着我哦！",
+   "sprite": "assets/images/bdsptrainers/mira.png",
+   "sprite2": "assets/images/bdsptrainers/cheryl.png"
+  },
+  {
+   "name": "梅尔芭",
+   "class": "精英训练家",
+   "name2": "菠菠",
+   "class2": "精英训练家",
+   "roster": "九尾-5, 喷火龙-4, 妙蛙花-5, 烈咬陆鲨-5, 超甲狂犀-4",
+   "species": "九尾, 喷火龙, 妙蛙花, 烈咬陆鲨, 超甲狂犀",
+   "teams": [
+    "九尾-5, 喷火龙-4, 妙蛙花-5, 烈咬陆鲨-5",
+    "九尾-5, 喷火龙-4, 妙蛙花-5, 超甲狂犀-4"
+   ],
+   "late": "",
+   "quote": "我们来训练吧。",
+   "quote2": "我的爸爸妈妈都是 很强的训练家哦！",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
+  },
+  {
+   "name": "梅尔芭",
+   "class": "精英训练家",
+   "name2": "雅格尼丝",
+   "class2": "精英训练家",
+   "roster": "水君-5, 波克基斯-4, 烈咬陆鲨-7, 班基拉斯-4",
+   "species": "水君, 波克基斯, 烈咬陆鲨, 班基拉斯",
+   "teams": [
+    "水君-5, 波克基斯-4, 烈咬陆鲨-7, 班基拉斯-4"
+   ],
+   "late": "",
+   "quote": "我们来训练吧。",
+   "quote2": "任何胜负我都会 全力以赴！",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
+  },
+  {
+   "name": "舒瑚",
+   "class": "香氛姐姐",
+   "name2": "源五郎",
+   "class2": "吉他手",
+   "roster": "耿鬼-3, 美纳斯-3, 叉字蝠-2, 凯罗斯-3",
+   "species": "耿鬼, 美纳斯, 叉字蝠, 凯罗斯",
+   "teams": [
+    "耿鬼-3, 美纳斯-3, 叉字蝠-2, 凯罗斯-3"
+   ],
+   "late": "",
+   "quote": "闻到香香的味道， 就会很想睡啊……",
+   "quote2": "请听我和宝可梦们的大合唱。",
+   "sprite": "assets/images/bdsptrainers/aromalady.png",
+   "sprite2": "assets/images/bdsptrainers/guitarist.png"
+  },
+  {
+   "name": "舒瑚",
+   "class": "香氛姐姐",
+   "name2": "那须",
+   "class2": "Fisherman",
+   "roster": "吼鲸王-2, 巨蔓藤-2, 毒刺水母-2, 狡猾天狗-3",
+   "species": "吼鲸王, 巨蔓藤, 毒刺水母, 狡猾天狗",
+   "teams": [
+    "吼鲸王-2, 巨蔓藤-2, 毒刺水母-2, 狡猾天狗-3"
+   ],
+   "late": "",
+   "quote": "闻到香香的味道， 就会很想睡啊……",
+   "quote2": "让你见识一下！ 神奥第一的抛竿技术！",
+   "sprite": "assets/images/bdsptrainers/aromalady.png",
+   "sprite2": "assets/images/bdsptrainers/fisher.png"
+  },
+  {
+   "name": "芳森",
+   "class": "大姐姐",
+   "name2": "凯玲",
+   "class2": "女服务生",
+   "roster": "蜂女王-3, 阿勃梭鲁-3, 帝王拿波-3, 雷吉奇卡斯-3",
+   "species": "蜂女王, 阿勃梭鲁, 帝王拿波, 雷吉奇卡斯",
+   "teams": [
+    "蜂女王-3, 阿勃梭鲁-3, 帝王拿波-3, 雷吉奇卡斯-3"
+   ],
+   "late": "",
+   "quote": "好了吗？",
+   "quote2": "您回来啦！",
+   "sprite": "assets/images/bdsptrainers/beauty.png",
+   "sprite2": "assets/images/bdsptrainers/waitress.png"
+  },
+  {
+   "name": "亚玄",
+   "class": "宝可梦训练家",
+   "name2": "米依",
+   "class2": "宝可梦训练家",
+   "roster": "风速狗-5, 化石翼龙-3, 暴飞龙-6, 路卡利欧-8, 风速狗-6, 宝石海星-4, 暴飞龙-7, 巨金怪-8, 风速狗-7, 烈咬陆鲨-9",
+   "species": "风速狗, 化石翼龙, 暴飞龙, 路卡利欧, 宝石海星, 巨金怪, 烈咬陆鲨",
+   "teams": [
+    "风速狗-5, 化石翼龙-3, 暴飞龙-6, 路卡利欧-8",
+    "风速狗-6, 宝石海星-4, 暴飞龙-7, 巨金怪-8",
+    "风速狗-7, 化石翼龙-3, 路卡利欧-8, 烈咬陆鲨-9"
+   ],
+   "late": "",
+   "quote": "营养均衡可是非常重要的哦！ 你有好好补充营养吗？",
+   "quote2": "……食物是生命之源。",
+   "sprite": "assets/images/bdsptrainers/riley.png",
+   "sprite2": "assets/images/bdsptrainers/marley.png"
+  },
+  {
+   "name": "裘绅",
+   "class": "小丑",
+   "name2": "伯布希",
+   "class2": "牧场大叔",
+   "roster": "宝石海星-2, 火焰鸟-1, 暴雪王-3, 呆壳兽-2",
+   "species": "宝石海星, 火焰鸟, 暴雪王, 呆壳兽",
+   "teams": [
+    "宝石海星-2, 火焰鸟-1, 暴雪王-3, 呆壳兽-2"
+   ],
+   "late": "",
+   "quote": "我会全力以赴的。 请多多关照！",
+   "quote2": "小少爷？小姑娘？ 总之我们先上吧！",
+   "sprite": "assets/images/bdsptrainers/clown.png",
+   "sprite2": "assets/images/bdsptrainers/rancher.png"
+  },
+  {
+   "name": "瓢太",
+   "class": "道馆馆主",
+   "name2": "东瓜",
+   "class2": "道馆馆主",
+   "roster": "班基拉斯-8, 战槌龙-6, 巨钳螳螂-5, 护城龙-4, 战槌龙-7, 班基拉斯-9, 青铜钟-4, 护城龙-5, 化石翼龙-5, 班基拉斯-10, 巨金怪-5, 席多蓝恩-7",
+   "species": "班基拉斯, 战槌龙, 巨钳螳螂, 护城龙, 青铜钟, 化石翼龙, 巨金怪, 席多蓝恩",
+   "teams": [
+    "班基拉斯-8, 战槌龙-6, 巨钳螳螂-5, 护城龙-4",
+    "战槌龙-7, 班基拉斯-9, 青铜钟-4, 护城龙-5",
+    "化石翼龙-5, 班基拉斯-10, 巨金怪-5, 席多蓝恩-7"
+   ],
+   "late": "",
+   "quote": "我爸爸和我啊， 在配合这方面很有信心哦！",
+   "quote2": "嘎哈哈！ 你可别掉以轻心哦，瓢太！",
+   "sprite": "assets/images/bdsptrainers/roark.png",
+   "sprite2": "assets/images/bdsptrainers/byron.png"
+  },
+  {
+   "name": "杜本",
+   "class": "宝可梦巡护员",
+   "name2": "月歌",
+   "class2": "偶像明星",
+   "roster": "护城龙-2, 赫拉克罗斯-3, 水君-4, 蜂女王-2",
+   "species": "护城龙, 赫拉克罗斯, 水君, 蜂女王",
+   "teams": [
+    "护城龙-2, 赫拉克罗斯-3, 水君-4, 蜂女王-2"
+   ],
+   "late": "",
+   "quote": "你很紧张吗？ 放心交给大哥哥吧！",
+   "quote2": "唱歌～跳舞～ 锁住你的视线！",
+   "sprite": "assets/images/bdsptrainers/pokemonranger-m.png",
+   "sprite2": "assets/images/bdsptrainers/idol.png"
+  },
+  {
+   "name": "杜本",
+   "class": "宝可梦巡护员",
+   "name2": "南航",
+   "class2": "研究员",
+   "roster": "肯泰罗-2, 沼王-2, 呆呆王-3, 火焰鸟-2",
+   "species": "肯泰罗, 沼王, 呆呆王, 火焰鸟",
+   "teams": [
+    "肯泰罗-2, 沼王-2, 呆呆王-3, 火焰鸟-2"
+   ],
+   "late": "",
+   "quote": "你很紧张吗？ 放心交给大哥哥吧！",
+   "quote2": "突击吧！我的宝可梦！ 展示我们的试验成果吧！",
+   "sprite": "assets/images/bdsptrainers/pokemonranger-m.png",
+   "sprite2": "assets/images/bdsptrainers/scientist.png"
+  },
+  {
+   "name": "杜本",
+   "class": "宝可梦巡护员",
+   "name2": "丹朱",
+   "class2": "Policeman",
+   "roster": "火焰鸟-3, 电击魔兽-2, 斗笠菇-3, 拉帝亚斯-4",
+   "species": "火焰鸟, 电击魔兽, 斗笠菇, 拉帝亚斯",
+   "teams": [
+    "火焰鸟-3, 电击魔兽-2, 斗笠菇-3, 拉帝亚斯-4"
+   ],
+   "late": "",
+   "quote": "你很紧张吗？ 放心交给大哥哥吧！",
+   "quote2": "呜呜……嗯嗯……",
+   "sprite": "assets/images/bdsptrainers/pokemonranger-m.png",
+   "sprite2": "assets/images/bdsptrainers/policeofficer.png"
+  },
+  {
+   "name": "桃太郎",
+   "class": "慢跑者",
+   "name2": "伯布希",
+   "class2": "牧场大叔",
+   "roster": "沙奈朵-3, 炎帝-3, 尼多后-3, 呆壳兽-2",
+   "species": "沙奈朵, 炎帝, 尼多后, 呆壳兽",
+   "teams": [
+    "沙奈朵-3, 炎帝-3, 尼多后-3, 呆壳兽-2"
+   ],
+   "late": "",
+   "quote": "为什么我会在这里……",
+   "quote2": "小少爷？小姑娘？ 总之我们先上吧！",
+   "sprite": "assets/images/bdsptrainers/jogger.png",
+   "sprite2": "assets/images/bdsptrainers/rancher.png"
+  },
+  {
+   "name": "桃太郎",
+   "class": "慢跑者",
+   "name2": "丹朱",
+   "class2": "Policeman",
+   "roster": "电龙-2, 蚊香泳士-2, 袋兽-2, 青铜钟-2",
+   "species": "电龙, 蚊香泳士, 袋兽, 青铜钟",
+   "teams": [
+    "电龙-2, 蚊香泳士-2, 袋兽-2, 青铜钟-2"
+   ],
+   "late": "",
+   "quote": "为什么我会在这里……",
+   "quote2": "呜呜……嗯嗯……",
+   "sprite": "assets/images/bdsptrainers/jogger.png",
+   "sprite2": "assets/images/bdsptrainers/policeofficer.png"
+  },
+  {
+   "name": "飞跃",
+   "class": "慢跑者",
+   "name2": "佩多罗",
+   "class2": "资深训练家",
+   "roster": "铁掌力士-2, 火焰鸟-4, 雷吉洛克-2, 拉帝欧斯-3",
+   "species": "铁掌力士, 火焰鸟, 雷吉洛克, 拉帝欧斯",
+   "teams": [
+    "铁掌力士-2, 火焰鸟-4, 雷吉洛克-2, 拉帝欧斯-3"
+   ],
+   "late": "",
+   "quote": "预备！咚～！",
+   "quote2": "我先说明白…… 你是赢不了我的。",
+   "sprite": "assets/images/bdsptrainers/jogger.png",
+   "sprite2": "assets/images/bdsptrainers/veteran.png"
+  },
+  {
+   "name": "飞跃",
+   "class": "慢跑者",
+   "name2": "鸯恩",
+   "class2": "Socialite",
+   "roster": "沙奈朵-3, 尼多王-3, 烈咬陆鲨-2, 摇篮百合-2",
+   "species": "沙奈朵, 尼多王, 烈咬陆鲨, 摇篮百合",
+   "teams": [
+    "沙奈朵-3, 尼多王-3, 烈咬陆鲨-2, 摇篮百合-2"
+   ],
+   "late": "",
+   "quote": "预备！咚～！",
+   "quote2": "你还是个孩子吧？",
+   "sprite": "assets/images/bdsptrainers/jogger.png",
+   "sprite2": "assets/images/bdsptrainers/madame.png"
+  },
+  {
+   "name": "飞跃",
+   "class": "慢跑者",
+   "name2": "桃太郎",
+   "class2": "慢跑者",
+   "roster": "坦克臭鼬-2, 臭臭泥-2, 大食花-3, 魔墙人偶-2",
+   "species": "坦克臭鼬, 臭臭泥, 大食花, 魔墙人偶",
+   "teams": [
+    "坦克臭鼬-2, 臭臭泥-2, 大食花-3, 魔墙人偶-2"
+   ],
+   "late": "",
+   "quote": "预备！咚～！",
+   "quote2": "为什么我会在这里……",
+   "sprite": "assets/images/bdsptrainers/jogger.png",
+   "sprite2": "assets/images/bdsptrainers/jogger.png"
+  },
+  {
+   "name": "萍萍",
+   "class": "偶像明星",
+   "name2": "芭芭儿",
+   "class2": "养鸟人",
+   "roster": "急冻鸟-4, 姆克鹰-2, 战槌龙-2, 卡比兽-2",
+   "species": "急冻鸟, 姆克鹰, 战槌龙, 卡比兽",
+   "teams": [
+    "急冻鸟-4, 姆克鹰-2, 战槌龙-2, 卡比兽-2"
+   ],
+   "late": "",
+   "quote": "你真的要对战？和我吗？",
+   "quote2": "人生啊，很多时候 都不会让你称心如意！",
+   "sprite": "assets/images/bdsptrainers/idol.png",
+   "sprite2": "assets/images/bdsptrainers/birdkeeper.png"
+  },
+  {
+   "name": "萍萍",
+   "class": "偶像明星",
+   "name2": "尼克",
+   "class2": "水手",
+   "roster": "圈圈熊-3, 蜥蜴王-3, 罗丝雷朵-2, 狡猾天狗-3",
+   "species": "圈圈熊, 蜥蜴王, 罗丝雷朵, 狡猾天狗",
+   "teams": [
+    "圈圈熊-3, 蜥蜴王-3, 罗丝雷朵-2, 狡猾天狗-3"
+   ],
+   "late": "",
+   "quote": "你真的要对战？和我吗？",
+   "quote2": "我乘大船来的。",
+   "sprite": "assets/images/bdsptrainers/idol.png",
+   "sprite2": "assets/images/bdsptrainers/sailor.png"
+  },
+  {
+   "name": "郝乐",
+   "class": "赌徒",
+   "name2": "萍萍",
+   "class2": "偶像明星",
+   "roster": "雷伊布-2, 椰蛋树-2, 蜥蜴王-3, 赫拉克罗斯-2",
+   "species": "雷伊布, 椰蛋树, 蜥蜴王, 赫拉克罗斯",
+   "teams": [
+    "雷伊布-2, 椰蛋树-2, 蜥蜴王-3, 赫拉克罗斯-2"
+   ],
+   "late": "",
+   "quote": "陪我来一场吧！ 华丽的胜负！",
+   "quote2": "你真的要对战？和我吗？",
+   "sprite": "assets/images/bdsptrainers/pi.png",
+   "sprite2": "assets/images/bdsptrainers/idol.png"
+  },
+  {
+   "name": "忒奇瑟",
+   "class": "牛仔女孩",
+   "name2": "珐娜",
+   "class2": "精英训练家",
+   "roster": "雷吉洛克-4, 幸福蛋-2, 拉帝欧斯-4, 拉普拉斯-2",
+   "species": "雷吉洛克, 幸福蛋, 拉帝欧斯, 拉普拉斯",
+   "teams": [
+    "雷吉洛克-4, 幸福蛋-2, 拉帝欧斯-4, 拉普拉斯-2"
+   ],
+   "late": "",
+   "quote": "我要努力拿下胜利～！ 耶～耶～哦～！",
+   "quote2": "我不会再让任何人逃跑了。 放弃挣扎吧。",
+   "sprite": "assets/images/bdsptrainers/cowgirl.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
+  },
+  {
+   "name": "忒奇瑟",
+   "class": "牛仔女孩",
+   "name2": "有行",
+   "class2": "服务生",
+   "roster": "霸王花-3, 烈焰马-2, 玛狃拉-2, 蜂女王-3",
+   "species": "霸王花, 烈焰马, 玛狃拉, 蜂女王",
+   "teams": [
+    "霸王花-3, 烈焰马-2, 玛狃拉-2, 蜂女王-3"
+   ],
+   "late": "",
+   "quote": "我要努力拿下胜利～！ 耶～耶～哦～！",
+   "quote2": "欢迎光临～！！",
+   "sprite": "assets/images/bdsptrainers/cowgirl.png",
+   "sprite2": "assets/images/bdsptrainers/waiter.png"
+  },
+  {
+   "name": "沂玫",
+   "class": "对战少女",
+   "name2": "源五郎",
+   "class2": "吉他手",
+   "roster": "怪力-2, 雷公-1, 双弹瓦斯-2, 雷吉洛克-3",
+   "species": "怪力, 雷公, 双弹瓦斯, 雷吉洛克",
+   "teams": [
+    "怪力-2, 雷公-1, 双弹瓦斯-2, 雷吉洛克-3"
+   ],
+   "late": "",
+   "quote": "我很强，仅此而已。",
+   "quote2": "请听我和宝可梦们的大合唱。",
+   "sprite": "assets/images/bdsptrainers/battlegirl.png",
+   "sprite2": "assets/images/bdsptrainers/guitarist.png"
+  },
+  {
+   "name": "沂玫",
+   "class": "对战少女",
+   "name2": "杰路姆",
+   "class2": "自行车手",
+   "roster": "阿勃梭鲁-3, 雷吉奇卡斯-3, 雷吉斯奇鲁-1, 隆隆岩-3",
+   "species": "阿勃梭鲁, 雷吉奇卡斯, 雷吉斯奇鲁, 隆隆岩",
+   "teams": [
+    "阿勃梭鲁-3, 雷吉奇卡斯-3, 雷吉斯奇鲁-1, 隆隆岩-3"
+   ],
+   "late": "",
+   "quote": "我很强，仅此而已。",
+   "quote2": "噗噜噜噜～～～！！ 看我的油门全开～！",
+   "sprite": "assets/images/bdsptrainers/battlegirl.png",
+   "sprite2": "assets/images/bdsptrainers/cyclist-m.png"
+  },
+  {
+   "name": "玉叶",
+   "class": "偶像明星",
+   "name2": "桐太",
+   "class2": "登山男",
+   "roster": "水伊布-2, 胡地-2, 暴鲤龙-2, 大舌舔-2",
+   "species": "水伊布, 胡地, 暴鲤龙, 大舌舔",
+   "teams": [
+    "水伊布-2, 胡地-2, 暴鲤龙-2, 大舌舔-2"
+   ],
+   "late": "",
+   "quote": "对战是我唯一的生存价值， 胜利是我唯一的愿望。",
+   "quote2": "来啊！来啊！",
+   "sprite": "assets/images/bdsptrainers/idol.png",
+   "sprite2": "assets/images/bdsptrainers/hiker.png"
+  },
+  {
+   "name": "玉叶",
+   "class": "偶像明星",
+   "name2": "芊河",
+   "class2": "宝可梦巡护员",
+   "roster": "尼多王-2, 三地鼠-3, 龙王蝎-2, 布鲁皇-2, 凯罗斯-2, 斗笠菇-2",
+   "species": "尼多王, 三地鼠, 龙王蝎, 布鲁皇, 凯罗斯, 斗笠菇",
+   "teams": [
+    "尼多王-2, 三地鼠-3, 龙王蝎-2, 布鲁皇-2",
+    "凯罗斯-2, 三地鼠-3, 龙王蝎-2, 斗笠菇-2"
+   ],
+   "late": "",
+   "quote": "对战是我唯一的生存价值， 胜利是我唯一的愿望。",
+   "quote2": "让你见识一下 大自然的力量！",
+   "sprite": "assets/images/bdsptrainers/idol.png",
+   "sprite2": "assets/images/bdsptrainers/pokemonranger-f.png"
+  },
+  {
+   "name": "丹朱",
+   "class": "Policeman",
+   "name2": "太志",
+   "class2": "宝可梦培育家",
+   "roster": "乐天河童-2, 拉普拉斯-2, 巨钳螳螂-2, 天蝎王-2",
+   "species": "乐天河童, 拉普拉斯, 巨钳螳螂, 天蝎王",
+   "teams": [
+    "乐天河童-2, 拉普拉斯-2, 巨钳螳螂-2, 天蝎王-2"
+   ],
+   "late": "",
+   "quote": "呜呜……嗯嗯……",
+   "quote2": "对战不仅是输赢而已。",
+   "sprite": "assets/images/bdsptrainers/policeofficer.png",
+   "sprite2": "assets/images/bdsptrainers/pokemonbreeder-m.png"
+  },
+  {
+   "name": "比乃惠",
+   "class": "宝可梦培育家",
+   "name2": "荷米",
+   "class2": "摄影师",
+   "roster": "火暴兽-3, 席多蓝恩-4, 顽皮雷弹-3, 乐天河童-3",
+   "species": "火暴兽, 席多蓝恩, 顽皮雷弹, 乐天河童",
+   "teams": [
+    "火暴兽-3, 席多蓝恩-4, 顽皮雷弹-3, 乐天河童-3"
+   ],
+   "late": "",
+   "quote": "让我来看看 你把宝可梦培育得如何了吧。",
+   "quote2": "我盯……",
+   "sprite": "assets/images/bdsptrainers/pokemonbreeder-f.png",
+   "sprite2": "assets/images/bdsptrainers/cameraman.png"
+  },
+  {
+   "name": "比乃惠",
+   "class": "宝可梦培育家",
+   "name2": "史丹利",
+   "class2": "Policeman",
+   "roster": "路卡利欧-2, 大食花-3, 长耳兔-2, 风速狗-2",
+   "species": "路卡利欧, 大食花, 长耳兔, 风速狗",
+   "teams": [
+    "路卡利欧-2, 大食花-3, 长耳兔-2, 风速狗-2"
+   ],
+   "late": "",
+   "quote": "让我来看看 你把宝可梦培育得如何了吧。",
+   "quote2": "喂，你～说的就是那边的你～ 请你稍等一下～！",
+   "sprite": "assets/images/bdsptrainers/pokemonbreeder-f.png",
+   "sprite2": "assets/images/bdsptrainers/policeofficer.png"
+  },
+  {
+   "name": "岩培",
+   "class": "遗迹迷",
+   "name2": "鹰人",
+   "class2": "宝可梦收藏家",
+   "roster": "雷吉奇卡斯-4, 克雷色利亚-3, 急冻鸟-1, 大食花-2",
+   "species": "雷吉奇卡斯, 克雷色利亚, 急冻鸟, 大食花",
+   "teams": [
+    "雷吉奇卡斯-4, 克雷色利亚-3, 急冻鸟-1, 大食花-2"
+   ],
+   "late": "",
+   "quote": "宝可梦对战的乐趣， 就在最后一击！",
+   "quote2": "我是借鉴了网友的情报 培育的宝可梦！",
+   "sprite": "assets/images/bdsptrainers/ruinmaniac.png",
+   "sprite2": "assets/images/bdsptrainers/collector.png"
+  },
+  {
+   "name": "岩培",
+   "class": "遗迹迷",
+   "name2": "桃太郎",
+   "class2": "慢跑者",
+   "roster": "席多蓝恩-5, 烈焰马-3, 闪电鸟-4, 艾路雷朵-2",
+   "species": "席多蓝恩, 烈焰马, 闪电鸟, 艾路雷朵",
+   "teams": [
+    "席多蓝恩-5, 烈焰马-3, 闪电鸟-4, 艾路雷朵-2"
+   ],
+   "late": "",
+   "quote": "宝可梦对战的乐趣， 就在最后一击！",
+   "quote2": "为什么我会在这里……",
+   "sprite": "assets/images/bdsptrainers/ruinmaniac.png",
+   "sprite2": "assets/images/bdsptrainers/jogger.png"
+  },
+  {
+   "name": "帕克夏",
+   "class": "吉他手",
+   "name2": "斯琦",
+   "class2": "对战少女",
+   "roster": "巨金怪-2, 帝牙海狮-2, 铁掌力士-3, 盔甲鸟-2",
+   "species": "巨金怪, 帝牙海狮, 铁掌力士, 盔甲鸟",
+   "teams": [
+    "巨金怪-2, 帝牙海狮-2, 铁掌力士-3, 盔甲鸟-2"
+   ],
+   "late": "",
+   "quote": "嘿～你可以啊。",
+   "quote2": "呀～！",
+   "sprite": "assets/images/bdsptrainers/guitarist.png",
+   "sprite2": "assets/images/bdsptrainers/battlegirl.png"
+  },
+  {
+   "name": "帕克夏",
+   "class": "吉他手",
+   "name2": "鸯恩",
+   "class2": "Socialite",
+   "roster": "大奶罐-2, 斗笠菇-2, 七夕青鸟-2, 毒刺水母-2",
+   "species": "大奶罐, 斗笠菇, 七夕青鸟, 毒刺水母",
+   "teams": [
+    "大奶罐-2, 斗笠菇-2, 七夕青鸟-2, 毒刺水母-2"
+   ],
+   "late": "",
+   "quote": "嘿～你可以啊。",
+   "quote2": "你还是个孩子吧？",
+   "sprite": "assets/images/bdsptrainers/guitarist.png",
+   "sprite2": "assets/images/bdsptrainers/madame.png"
+  },
+  {
+   "name": "帕克夏",
+   "class": "吉他手",
+   "name2": "宽平",
+   "class2": "资深训练家",
+   "roster": "大竺葵-3, 帝牙海狮-2, 双弹瓦斯-3, 盔甲鸟-2",
+   "species": "大竺葵, 帝牙海狮, 双弹瓦斯, 盔甲鸟",
+   "teams": [
+    "大竺葵-3, 帝牙海狮-2, 双弹瓦斯-3, 盔甲鸟-2"
+   ],
+   "late": "",
+   "quote": "嘿～你可以啊。",
+   "quote2": "我已经在这里待了好几年了， 但是一点都不觉得腻。",
+   "sprite": "assets/images/bdsptrainers/guitarist.png",
+   "sprite2": "assets/images/bdsptrainers/veteran.png"
+  },
+  {
+   "name": "苞儿",
+   "class": "偶像明星",
+   "name2": "果雅",
+   "class2": "宝可梦培育家",
+   "roster": "沙漠蜻蜓-2, 闪电鸟-3, 雷公-4, 恰雷姆-3",
+   "species": "沙漠蜻蜓, 闪电鸟, 雷公, 恰雷姆",
+   "teams": [
+    "沙漠蜻蜓-2, 闪电鸟-3, 雷公-4, 恰雷姆-3"
+   ],
+   "late": "",
+   "quote": "你真的没问题吧？ 我可是超级强的哦！",
+   "quote2": "严格点也不是…… 宠着点也不成……",
+   "sprite": "assets/images/bdsptrainers/idol.png",
+   "sprite2": "assets/images/bdsptrainers/pokemonbreeder-f.png"
+  },
+  {
+   "name": "苞儿",
+   "class": "偶像明星",
+   "name2": "佩尔",
+   "class2": "小丑",
+   "roster": "呆呆王-2, 电灯怪-3, 鲶鱼王-2, 河马兽-2",
+   "species": "呆呆王, 电灯怪, 鲶鱼王, 河马兽",
+   "teams": [
+    "呆呆王-2, 电灯怪-3, 鲶鱼王-2, 河马兽-2"
+   ],
+   "late": "",
+   "quote": "你真的没问题吧？ 我可是超级强的哦！",
+   "quote2": "所谓的宝可梦对战 就像写在沙滩上的情书一样。",
+   "sprite": "assets/images/bdsptrainers/idol.png",
+   "sprite2": "assets/images/bdsptrainers/clown.png"
+  },
+  {
+   "name": "苞儿",
+   "class": "偶像明星",
+   "name2": "那须",
+   "class2": "Fisherman",
+   "roster": "雷吉奇卡斯-5, 哥达鸭-3, 化石翼龙-2, 雷吉洛克-1",
+   "species": "雷吉奇卡斯, 哥达鸭, 化石翼龙, 雷吉洛克",
+   "teams": [
+    "雷吉奇卡斯-5, 哥达鸭-3, 化石翼龙-2, 雷吉洛克-1"
+   ],
+   "late": "",
+   "quote": "你真的没问题吧？ 我可是超级强的哦！",
+   "quote2": "让你见识一下！ 神奥第一的抛竿技术！",
+   "sprite": "assets/images/bdsptrainers/idol.png",
+   "sprite2": "assets/images/bdsptrainers/fisher.png"
+  }
+ ]
 }

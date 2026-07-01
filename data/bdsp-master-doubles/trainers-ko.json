@@ -1,2640 +1,2640 @@
 {
-  "trainers": [
-    {
-      "name": "벨가",
-      "class": "엘리트 트레이너",
-      "name2": "아마폴라",
-      "class2": "빡빡이",
-      "roster": "찌르호크-3, 플로젤-2, 무우마직-3, 라티아스-4",
-      "species": "찌르호크, 플로젤, 무우마직, 라티아스",
-      "teams": [
-        "찌르호크-3, 플로젤-2, 무우마직-3, 라티아스-4"
-      ],
-      "late": "",
-      "quote": "이야이야! 즐겁게 놀아 보자!",
-      "quote2": "아버지... 어머니... 저를 봐 주세요...",
-      "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
-      "sprite2": "assets/images/bdsptrainers/roughneck.png"
-    },
-    {
-      "name": "벨가",
-      "class": "엘리트 트레이너",
-      "name2": "국호",
-      "class2": "Pokefan (F)",
-      "roster": "눈설왕-2, 레지스틸-3, 이어롭-3, 전룡-2",
-      "species": "눈설왕, 레지스틸, 이어롭, 전룡",
-      "teams": [
-        "눈설왕-2, 레지스틸-3, 이어롭-3, 전룡-2"
-      ],
-      "late": "",
-      "quote": "이야이야! 즐겁게 놀아 보자!",
-      "quote2": "아줌마가 이래 봬도 젊었을 때는 잘 나갔었단다",
-      "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
-      "sprite2": "assets/images/bdsptrainers/pokefan-f.png"
-    },
-    {
-      "name": "시겔",
-      "class": "빡빡이",
-      "name2": "아마폴라",
-      "class2": "빡빡이",
-      "roster": "메깅-3, 쁘사이저-2, 라이츄-2, 켄타로스-3",
-      "species": "메깅, 쁘사이저, 라이츄, 켄타로스",
-      "teams": [
-        "메깅-3, 쁘사이저-2, 라이츄-2, 켄타로스-3"
-      ],
-      "late": "",
-      "quote": "나 사실은 승부를 별로 좋아하지 않거든",
-      "quote2": "아버지... 어머니... 저를 봐 주세요...",
-      "sprite": "assets/images/bdsptrainers/roughneck.png",
-      "sprite2": "assets/images/bdsptrainers/roughneck.png"
-    },
-    {
-      "name": "시겔",
-      "class": "빡빡이",
-      "name2": "기지",
-      "class2": "작업원",
-      "roster": "슬리퍼-2, 트리토돈-2, 폭음룡-2, 닥트리오-3",
-      "species": "슬리퍼, 트리토돈, 폭음룡, 닥트리오",
-      "teams": [
-        "슬리퍼-2, 트리토돈-2, 폭음룡-2, 닥트리오-3"
-      ],
-      "late": "",
-      "quote": "나 사실은 승부를 별로 좋아하지 않거든",
-      "quote2": "폐기해 주겠어",
-      "sprite": "assets/images/bdsptrainers/roughneck.png",
-      "sprite2": "assets/images/bdsptrainers/worker.png"
-    },
-    {
-      "name": "시겔",
-      "class": "빡빡이",
-      "name2": "네모",
-      "class2": "신사",
-      "roster": "킹드라-2, 레지락-1, 블레이범-3, 썬더-1",
-      "species": "킹드라, 레지락, 블레이범, 썬더",
-      "teams": [
-        "킹드라-2, 레지락-1, 블레이범-3, 썬더-1"
-      ],
-      "late": "",
-      "quote": "나 사실은 승부를 별로 좋아하지 않거든",
-      "quote2": "동심으로 돌아가서 승부를 해 볼까요!",
-      "sprite": "assets/images/bdsptrainers/roughneck.png",
-      "sprite2": "assets/images/bdsptrainers/gentleman.png"
-    },
-    {
-      "name": "시겔",
-      "class": "빡빡이",
-      "name2": "스텐리",
-      "class2": "Policeman",
-      "roster": "바리톱스-2, 헬가-2, 메타그로스-2, 대코파스-2",
-      "species": "바리톱스, 헬가, 메타그로스, 대코파스",
-      "teams": [
-        "바리톱스-2, 헬가-2, 메타그로스-2, 대코파스-2"
-      ],
-      "late": "",
-      "quote": "나 사실은 승부를 별로 좋아하지 않거든",
-      "quote2": "어이 너~ 거기 너~ 잠깐 기다려 봐~아!",
-      "sprite": "assets/images/bdsptrainers/roughneck.png",
-      "sprite2": "assets/images/bdsptrainers/policeofficer.png"
-    },
-    {
-      "name": "존닥",
-      "class": "등산가",
-      "name2": "에드록",
-      "class2": "포켓몬 브리더",
-      "roster": "링곰-2, 앤테이-1, 코리갑-3, 또도가스-3",
-      "species": "링곰, 앤테이, 코리갑, 또도가스",
-      "teams": [
-        "링곰-2, 앤테이-1, 코리갑-3, 또도가스-3"
-      ],
-      "late": "",
-      "quote": "영차! 영차!",
-      "quote2": "소개합니다! 저의 소중한 파트너!",
-      "sprite": "assets/images/bdsptrainers/hiker.png",
-      "sprite2": "assets/images/bdsptrainers/pokemonbreeder-m.png"
-    },
-    {
-      "name": "존닥",
-      "class": "등산가",
-      "name2": "리포맨",
-      "class2": "연구원",
-      "roster": "프리져-2, 독파리-2, 레지락-3, 보만다-2",
-      "species": "프리져, 독파리, 레지락, 보만다",
-      "teams": [
-        "프리져-2, 독파리-2, 레지락-3, 보만다-2"
-      ],
-      "late": "",
-      "quote": "영차! 영차!",
-      "quote2": "과학의 힘이에요!",
-      "sprite": "assets/images/bdsptrainers/hiker.png",
-      "sprite2": "assets/images/bdsptrainers/scientist.png"
-    },
-    {
-      "name": "존닥",
-      "class": "등산가",
-      "name2": "테프코",
-      "class2": "Socialite",
-      "roster": "둥실라이드-3, 밀탱크-3, 골덕-2, 앤테이-4",
-      "species": "둥실라이드, 밀탱크, 골덕, 앤테이",
-      "teams": [
-        "둥실라이드-3, 밀탱크-3, 골덕-2, 앤테이-4"
-      ],
-      "late": "",
-      "quote": "영차! 영차!",
-      "quote2": "우리 아이는 강하고 훌륭한 트레이너가 되게 할 거야",
-      "sprite": "assets/images/bdsptrainers/hiker.png",
-      "sprite2": "assets/images/bdsptrainers/madame.png"
-    },
-    {
-      "name": "바바르",
-      "class": "새 조련사",
-      "name2": "헬",
-      "class2": "갬블러",
-      "roster": "거대코뿌리-3, 윈디-2, 핫삼-2, 질뻐기-3",
-      "species": "거대코뿌리, 윈디, 핫삼, 질뻐기",
-      "teams": [
-        "거대코뿌리-3, 윈디-2, 핫삼-2, 질뻐기-3"
-      ],
-      "late": "",
-      "quote": "인생에는 생각대로 되지 않는 것도 많지!",
-      "quote2": "함께하지 않겠나! 우리의 화려한 내기를!",
-      "sprite": "assets/images/bdsptrainers/birdkeeper.png",
-      "sprite2": "assets/images/bdsptrainers/pi.png"
-    },
-    {
-      "name": "바바르",
-      "class": "새 조련사",
-      "name2": "킹",
-      "class2": "갬블러",
-      "roster": "트리토돈-3, 요가램-2, 히드런-2, 보스로라-2",
-      "species": "트리토돈, 요가램, 히드런, 보스로라",
-      "teams": [
-        "트리토돈-3, 요가램-2, 히드런-2, 보스로라-2"
-      ],
-      "late": "",
-      "quote": "인생에는 생각대로 되지 않는 것도 많지!",
-      "quote2": "제대로 승부해 볼까",
-      "sprite": "assets/images/bdsptrainers/birdkeeper.png",
-      "sprite2": "assets/images/bdsptrainers/pi.png"
-    },
-    {
-      "name": "희주",
-      "class": "초능력자",
-      "name2": "묵크",
-      "class2": "포켓몬 컬렉터",
-      "roster": "눈설왕-2, 프테라-2, 블레이범-3, 글레이시아-2",
-      "species": "눈설왕, 프테라, 블레이범, 글레이시아",
-      "teams": [
-        "눈설왕-2, 프테라-2, 블레이범-3, 글레이시아-2"
-      ],
-      "late": "",
-      "quote": "오빠가 가르쳐 줬어! 눈이다! 눈을 노려라 하고 말야!",
-      "quote2": "잠깐 기다려 봐 메일을 쓰고 있었어",
-      "sprite": "assets/images/bdsptrainers/psychic-f.png",
-      "sprite2": "assets/images/bdsptrainers/collector.png"
-    },
-    {
-      "name": "희주",
-      "class": "초능력자",
-      "name2": "에이미",
-      "class2": "사이클링",
-      "roster": "바리톱스-3, 해피너스-2, 얼음귀신-3, 포푸니라-2",
-      "species": "바리톱스, 해피너스, 얼음귀신, 포푸니라",
-      "teams": [
-        "바리톱스-3, 해피너스-2, 얼음귀신-3, 포푸니라-2"
-      ],
-      "late": "",
-      "quote": "오빠가 가르쳐 줬어! 눈이다! 눈을 노려라 하고 말야!",
-      "quote2": "따르릉 따르릉",
-      "sprite": "assets/images/bdsptrainers/psychic-f.png",
-      "sprite2": "assets/images/bdsptrainers/cyclist-f.png"
-    },
-    {
-      "name": "제논",
-      "class": "드래곤 조련사",
-      "name2": "죽호",
-      "class2": "태권왕",
-      "roster": "링곰-2, 프리져-3, 폴리곤2-2, 스이쿤-1",
-      "species": "링곰, 프리져, 폴리곤2, 스이쿤",
-      "teams": [
-        "링곰-2, 프리져-3, 폴리곤2-2, 스이쿤-1"
-      ],
-      "late": "",
-      "quote": "푸하하핫! 다음 상대는 바로 나다!",
-      "quote2": "안녕!!",
-      "sprite": "assets/images/bdsptrainers/dragontamer.png",
-      "sprite2": "assets/images/bdsptrainers/blackbelt.png"
-    },
-    {
-      "name": "제논",
-      "class": "드래곤 조련사",
-      "name2": "옥진",
-      "class2": "피에로",
-      "roster": "야도란-2, 대짱이-3, 니드킹-2, 레지아이스-3",
-      "species": "야도란, 대짱이, 니드킹, 레지아이스",
-      "teams": [
-        "야도란-2, 대짱이-3, 니드킹-2, 레지아이스-3"
-      ],
-      "late": "",
-      "quote": "푸하하핫! 다음 상대는 바로 나다!",
-      "quote2": "최선을 다하겠습니다 잘 부탁합니다!",
-      "sprite": "assets/images/bdsptrainers/dragontamer.png",
-      "sprite2": "assets/images/bdsptrainers/clown.png"
-    },
-    {
-      "name": "밥히크",
-      "class": "목장아저씨",
-      "name2": "쾨니히",
-      "class2": "포켓몬 레인저",
-      "roster": "대짱이-3, 밀탱크-3, 앤테이-2, 동탁군-2",
-      "species": "대짱이, 밀탱크, 앤테이, 동탁군",
-      "teams": [
-        "대짱이-3, 밀탱크-3, 앤테이-2, 동탁군-2"
-      ],
-      "late": "",
-      "quote": "도련님? 아기씨? 상관없으니까 간다!",
-      "quote2": "나랑 승부하자고? 난 몰라!",
-      "sprite": "assets/images/bdsptrainers/rancher.png",
-      "sprite2": "assets/images/bdsptrainers/pokemonranger-f.png"
-    },
-    {
-      "name": "모롯소",
-      "class": "등산가",
-      "name2": "원오",
-      "class2": "기타리스트",
-      "roster": "찌르호크-2, 겟핸보숭-2, 텅구리-3, 아말도-2",
-      "species": "찌르호크, 겟핸보숭, 텅구리, 아말도",
-      "teams": [
-        "찌르호크-2, 겟핸보숭-2, 텅구리-3, 아말도-2"
-      ],
-      "late": "",
-      "quote": "산뜻하게 승부하자! 자! 웃는 거야!",
-      "quote2": "나와 내 포켓몬들의 코러스를 들어 주세요",
-      "sprite": "assets/images/bdsptrainers/hiker.png",
-      "sprite2": "assets/images/bdsptrainers/guitarist.png"
-    },
-    {
-      "name": "모롯소",
-      "class": "등산가",
-      "name2": "자넷",
-      "class2": "리포터",
-      "roster": "라플레시아-2, 겟핸보숭-2, 텅구리-3, 아말도-2",
-      "species": "라플레시아, 겟핸보숭, 텅구리, 아말도",
-      "teams": [
-        "라플레시아-2, 겟핸보숭-2, 텅구리-3, 아말도-2"
-      ],
-      "late": "",
-      "quote": "산뜻하게 승부하자! 자! 웃는 거야!",
-      "quote2": "자, 어떻게 공격할까?",
-      "sprite": "assets/images/bdsptrainers/hiker.png",
-      "sprite2": "assets/images/bdsptrainers/reporter.png"
-    },
-    {
-      "name": "모롯소",
-      "class": "등산가",
-      "name2": "에이미",
-      "class2": "사이클링",
-      "roster": "하리뭉-3, 대코파스-2, 블래키-2, 앱솔-2",
-      "species": "하리뭉, 대코파스, 블래키, 앱솔",
-      "teams": [
-        "하리뭉-3, 대코파스-2, 블래키-2, 앱솔-2"
-      ],
-      "late": "",
-      "quote": "산뜻하게 승부하자! 자! 웃는 거야!",
-      "quote2": "따르릉 따르릉",
-      "sprite": "assets/images/bdsptrainers/hiker.png",
-      "sprite2": "assets/images/bdsptrainers/cyclist-f.png"
-    },
-    {
-      "name": "모롯소",
-      "class": "등산가",
-      "name2": "조조",
-      "class2": "배틀걸",
-      "roster": "핫삼-3, 릴리요-2, 눈여아-3, 마그마번-2",
-      "species": "핫삼, 릴리요, 눈여아, 마그마번",
-      "teams": [
-        "핫삼-3, 릴리요-2, 눈여아-3, 마그마번-2"
-      ],
-      "late": "",
-      "quote": "산뜻하게 승부하자! 자! 웃는 거야!",
-      "quote2": "얍~!",
-      "sprite": "assets/images/bdsptrainers/hiker.png",
-      "sprite2": "assets/images/bdsptrainers/battlegirl.png"
-    },
-    {
-      "name": "어치",
-      "class": "새 조련사",
-      "name2": "라지칸트",
-      "class2": "선원",
-      "roster": "씨카이저-2, 킹드라-2, 강철톤-2, 로파파-2",
-      "species": "씨카이저, 킹드라, 강철톤, 로파파",
-      "teams": [
-        "씨카이저-2, 킹드라-2, 강철톤-2, 로파파-2"
-      ],
-      "late": "",
-      "quote": "이젠 도망갈 곳이 없어!",
-      "quote2": "어어? 네가 상대야? 왠지 불안한걸...",
-      "sprite": "assets/images/bdsptrainers/birdkeeper.png",
-      "sprite2": "assets/images/bdsptrainers/sailor.png"
-    },
-    {
-      "name": "어치",
-      "class": "새 조련사",
-      "name2": "앵클",
-      "class2": "아로마 아가씨",
-      "roster": "킹드라-2, 레지아이스-4, 리자몽-3, 니드킹-3",
-      "species": "킹드라, 레지아이스, 리자몽, 니드킹",
-      "teams": [
-        "킹드라-2, 레지아이스-4, 리자몽-3, 니드킹-3"
-      ],
-      "late": "",
-      "quote": "이젠 도망갈 곳이 없어!",
-      "quote2": "좋은 향기를 맡고 있으면 졸려서 큰일이야...",
-      "sprite": "assets/images/bdsptrainers/birdkeeper.png",
-      "sprite2": "assets/images/bdsptrainers/aromalady.png"
-    },
-    {
-      "name": "페드로",
-      "class": "베테랑 트레이너",
-      "name2": "훈미",
-      "class2": "아로마 아가씨",
-      "roster": "폴리곤Z-2, 크레세리아-3, 쥬레곤-3, 헬가-3",
-      "species": "폴리곤Z, 크레세리아, 쥬레곤, 헬가",
-      "teams": [
-        "폴리곤Z-2, 크레세리아-3, 쥬레곤-3, 헬가-3"
-      ],
-      "late": "",
-      "quote": "처음부터 말해 두지... 넌 나를 이길 수 없어",
-      "quote2": "나를 이기려면 말야 십 년은 걸릴 거라구!!",
-      "sprite": "assets/images/bdsptrainers/veteran.png",
-      "sprite2": "assets/images/bdsptrainers/aromalady.png"
-    },
-    {
-      "name": "작장",
-      "class": "갬블러",
-      "name2": "아마폴라",
-      "class2": "빡빡이",
-      "roster": "이어롭-3, 로즈레이드-2, 핫삼-3, 스컹탱크-3",
-      "species": "이어롭, 로즈레이드, 핫삼, 스컹탱크",
-      "teams": [
-        "이어롭-3, 로즈레이드-2, 핫삼-3, 스컹탱크-3"
-      ],
-      "late": "",
-      "quote": "너는 뭘 걸 거야? 나는 모든 것을 걸 거야!",
-      "quote2": "아버지... 어머니... 저를 봐 주세요...",
-      "sprite": "assets/images/bdsptrainers/pi.png",
-      "sprite2": "assets/images/bdsptrainers/roughneck.png"
-    },
-    {
-      "name": "작장",
-      "class": "갬블러",
-      "name2": "유장",
-      "class2": "갬블러",
-      "roster": "무우마직-2, 장크로다일-3, 메깅-3, 스이쿤-4",
-      "species": "무우마직, 장크로다일, 메깅, 스이쿤",
-      "teams": [
-        "무우마직-2, 장크로다일-3, 메깅-3, 스이쿤-4"
-      ],
-      "late": "",
-      "quote": "너는 뭘 걸 거야? 나는 모든 것을 걸 거야!",
-      "quote2": "승부란 말야 좀스럽게 계산하는 게 아냐~!",
-      "sprite": "assets/images/bdsptrainers/pi.png",
-      "sprite2": "assets/images/bdsptrainers/pi.png"
-    },
-    {
-      "name": "호미",
-      "class": "카메라맨",
-      "name2": "텍사스",
-      "class2": "카우걸",
-      "roster": "폭음룡-3, 라이코-1, 랜턴-2, 밀로틱-3",
-      "species": "폭음룡, 라이코, 랜턴, 밀로틱",
-      "teams": [
-        "폭음룡-3, 라이코-1, 랜턴-2, 밀로틱-3"
-      ],
-      "late": "",
-      "quote": "물끄러미...",
-      "quote2": "열심히 하는 거야~! 와우 와우 와~!",
-      "sprite": "assets/images/bdsptrainers/cameraman.png",
-      "sprite2": "assets/images/bdsptrainers/cowgirl.png"
-    },
-    {
-      "name": "용식",
-      "class": "포켓몬 트레이너",
-      "name2": "종수",
-      "class2": "타워타이쿤",
-      "roster": "엠페르트-5, 찌르호크-5, 거대코뿌리-10, 히드런-12, 헤라크로스-5, 초염몽-7, 망나뇽-9, 크레세리아-11, 토대부기-5, 잠만보-4, 밀로틱-8, 히드런-7",
-      "species": "엠페르트, 찌르호크, 거대코뿌리, 히드런, 헤라크로스, 초염몽, 망나뇽, 크레세리아, 토대부기, 잠만보, 밀로틱",
-      "teams": [
-        "엠페르트-5, 찌르호크-5, 거대코뿌리-10, 히드런-12",
-        "헤라크로스-5, 초염몽-7, 망나뇽-9, 크레세리아-11",
-        "토대부기-5, 잠만보-4, 밀로틱-8, 히드런-7"
-      ],
-      "late": "",
-      "quote": "왔구나!! 나는 여기서 아빠를 만나서 목표를 하나 이룰 수 있었어! 하지만 아직 한 가지 목표가 더 남았어 세계에서 제일 강한 포켓몬 트레이너가 되는 거 말이야! 그건 지금부터 너를 쓰러뜨려서 이뤄 내고 말겠어!",
-      "quote2": "안녕, 용케 여기까지 올라왔구나! 내 아들이 너를 만난 덕분인지 몰라보게 달라졌더구나 진심으로 고맙게 생각한다! 그럼 이제부터는 타워타이쿤으로서 아들과 함께 전력으로 너를 상대해 주마! 자 타워타이쿤인 나에게 그 실력을 펼쳐 보거라!",
-      "sprite": "assets/images/bdsptrainers/barry.png",
-      "sprite2": "assets/images/bdsptrainers/palmer.png"
-    },
-    {
-      "name": "에드록",
-      "class": "포켓몬 브리더",
-      "name2": "안토니오",
-      "class2": "웨이터",
-      "roster": "덩쿠림보-2, 레지스틸-2, 쏘콘-3, 폭음룡-2",
-      "species": "덩쿠림보, 레지스틸, 쏘콘, 폭음룡",
-      "teams": [
-        "덩쿠림보-2, 레지스틸-2, 쏘콘-3, 폭음룡-2"
-      ],
-      "late": "",
-      "quote": "소개합니다! 저의 소중한 파트너!",
-      "quote2": "오~! 너 강해 보이는걸~! 재미있겠다 재미있겠어!",
-      "sprite": "assets/images/bdsptrainers/pokemonbreeder-m.png",
-      "sprite2": "assets/images/bdsptrainers/waiter.png"
-    },
-    {
-      "name": "충남",
-      "class": "Fisherman",
-      "name2": "안톤",
-      "class2": "엘리트 트레이너",
-      "roster": "골덕-2, 레지스틸-4, 라티오스-4, 라티아스-4",
-      "species": "골덕, 레지스틸, 라티오스, 라티아스",
-      "teams": [
-        "골덕-2, 레지스틸-4, 라티오스-4, 라티아스-4"
-      ],
-      "late": "",
-      "quote": "나는 낚시와 승부를 정말 많이 좋아해",
-      "quote2": "유! 정말 안 되겠어~ 미가 가르쳐 주지~",
-      "sprite": "assets/images/bdsptrainers/fisher.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-m.png"
-    },
-    {
-      "name": "충남",
-      "class": "Fisherman",
-      "name2": "세피로",
-      "class2": "드래곤 조련사",
-      "roster": "야도킹-3, 파이어-2, 눈여아-2, 거북왕-3",
-      "species": "야도킹, 파이어, 눈여아, 거북왕",
-      "teams": [
-        "야도킹-3, 파이어-2, 눈여아-2, 거북왕-3"
-      ],
-      "late": "",
-      "quote": "나는 낚시와 승부를 정말 많이 좋아해",
-      "quote2": "가거라~! 단련을 마친 나의 포켓몬이여~!",
-      "sprite": "assets/images/bdsptrainers/fisher.png",
-      "sprite2": "assets/images/bdsptrainers/dragontamer.png"
-    },
-    {
-      "name": "충남",
-      "class": "Fisherman",
-      "name2": "남고",
-      "class2": "연구원",
-      "roster": "잠만보-2, 독개굴-3, 게을킹-2, 스이쿤-3",
-      "species": "잠만보, 독개굴, 게을킹, 스이쿤",
-      "teams": [
-        "잠만보-2, 독개굴-3, 게을킹-2, 스이쿤-3"
-      ],
-      "late": "",
-      "quote": "나는 낚시와 승부를 정말 많이 좋아해",
-      "quote2": "돌격하라! 나의 포켓몬! 실험의 성과를 보여 다오!",
-      "sprite": "assets/images/bdsptrainers/fisher.png",
-      "sprite2": "assets/images/bdsptrainers/scientist.png"
-    },
-    {
-      "name": "충남",
-      "class": "Fisherman",
-      "name2": "에이미",
-      "class2": "사이클링",
-      "roster": "썬더-1, 왕구리-3, 아쿠스타-2, 눈여아-2",
-      "species": "썬더, 왕구리, 아쿠스타, 눈여아",
-      "teams": [
-        "썬더-1, 왕구리-3, 아쿠스타-2, 눈여아-2"
-      ],
-      "late": "",
-      "quote": "나는 낚시와 승부를 정말 많이 좋아해",
-      "quote2": "따르릉 따르릉",
-      "sprite": "assets/images/bdsptrainers/fisher.png",
-      "sprite2": "assets/images/bdsptrainers/cyclist-f.png"
-    },
-    {
-      "name": "맥",
-      "class": "포켓몬 트레이너",
-      "name2": "들국화",
-      "class2": "사천왕",
-      "roster": "크레세리아-8, 점토도리-4, 거대코뿌리-6, 강철톤-4, 레지락-6, 점토도리-5, 하마돈-4, 거대코뿌리-7, 크레세리아-9, 코리갑-4, 거대코뿌리-5",
-      "species": "크레세리아, 점토도리, 거대코뿌리, 강철톤, 레지락, 하마돈, 코리갑",
-      "teams": [
-        "크레세리아-8, 점토도리-4, 거대코뿌리-6, 강철톤-4",
-        "레지락-6, 점토도리-5, 하마돈-4, 거대코뿌리-7",
-        "점토도리-5, 크레세리아-9, 코리갑-4, 거대코뿌리-5"
-      ],
-      "late": "",
-      "quote": "오!! 누가 먼저 꼭대기에 도달할지 승부다!",
-      "quote2": "오호호! 젊은 애들은 착실하게 천천히 가는 게 어떠니?",
-      "sprite": "assets/images/bdsptrainers/buck.png",
-      "sprite2": "assets/images/bdsptrainers/bertha.png"
-    },
-    {
-      "name": "닉",
-      "class": "선원",
-      "name2": "작장",
-      "class2": "갬블러",
-      "roster": "플로젤-3, 점토도리-2, 아말도-3, 렌트라-2",
-      "species": "플로젤, 점토도리, 아말도, 렌트라",
-      "teams": [
-        "플로젤-3, 점토도리-2, 아말도-3, 렌트라-2"
-      ],
-      "late": "",
-      "quote": "커다란 배를 타고 왔어요오오~!",
-      "quote2": "너는 뭘 걸 거야? 나는 모든 것을 걸 거야!",
-      "sprite": "assets/images/bdsptrainers/sailor.png",
-      "sprite2": "assets/images/bdsptrainers/pi.png"
-    },
-    {
-      "name": "닉",
-      "class": "선원",
-      "name2": "기지",
-      "class2": "작업원",
-      "roster": "딱구리-3, 크레세리아-2, 붐볼-3, 하리뭉-2",
-      "species": "딱구리, 크레세리아, 붐볼, 하리뭉",
-      "teams": [
-        "딱구리-3, 크레세리아-2, 붐볼-3, 하리뭉-2"
-      ],
-      "late": "",
-      "quote": "커다란 배를 타고 왔어요오오~!",
-      "quote2": "폐기해 주겠어",
-      "sprite": "assets/images/bdsptrainers/sailor.png",
-      "sprite2": "assets/images/bdsptrainers/worker.png"
-    },
-    {
-      "name": "리포맨",
-      "class": "연구원",
-      "name2": "제논",
-      "class2": "드래곤 조련사",
-      "roster": "프리져-4, 얼음귀신-2, 자포코일-2, 라티아스-2",
-      "species": "프리져, 얼음귀신, 자포코일, 라티아스",
-      "teams": [
-        "프리져-4, 얼음귀신-2, 자포코일-2, 라티아스-2"
-      ],
-      "late": "",
-      "quote": "과학의 힘이에요!",
-      "quote2": "푸하하핫! 다음 상대는 바로 나다!",
-      "sprite": "assets/images/bdsptrainers/scientist.png",
-      "sprite2": "assets/images/bdsptrainers/dragontamer.png"
-    },
-    {
-      "name": "리포맨",
-      "class": "연구원",
-      "name2": "소기",
-      "class2": "엘리트 트레이너",
-      "roster": "맘모꾸리-3, 니드킹-3, 강챙이-3, 릴리요-2",
-      "species": "맘모꾸리, 니드킹, 강챙이, 릴리요",
-      "teams": [
-        "맘모꾸리-3, 니드킹-3, 강챙이-3, 릴리요-2"
-      ],
-      "late": "",
-      "quote": "과학의 힘이에요!",
-      "quote2": "자 덤벼 봐!",
-      "sprite": "assets/images/bdsptrainers/scientist.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
-    },
-    {
-      "name": "호학",
-      "class": "엘리트 트레이너",
-      "name2": "펠",
-      "class2": "피에로",
-      "roster": "코리갑-2, 단단지-2, 라플레시아-2, 루카리오-2",
-      "species": "코리갑, 단단지, 라플레시아, 루카리오",
-      "teams": [
-        "코리갑-2, 단단지-2, 라플레시아-2, 루카리오-2"
-      ],
-      "late": "",
-      "quote": "봐주지 말라구!",
-      "quote2": "포켓몬 승부라고 하는 건 말야 모래 위에 쓴 러브레터와 같은 거야",
-      "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
-      "sprite2": "assets/images/bdsptrainers/clown.png"
-    },
-    {
-      "name": "호학",
-      "class": "엘리트 트레이너",
-      "name2": "이케르",
-      "class2": "웨이터",
-      "roster": "레지기가스-4, 파비코리-3, 이상해꽃-3, 후딘-2",
-      "species": "레지기가스, 파비코리, 이상해꽃, 후딘",
-      "teams": [
-        "레지기가스-4, 파비코리-3, 이상해꽃-3, 후딘-2"
-      ],
-      "late": "",
-      "quote": "봐주지 말라구!",
-      "quote2": "어서 오세요~!!",
-      "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
-      "sprite2": "assets/images/bdsptrainers/waiter.png"
-    },
-    {
-      "name": "헬",
-      "class": "갬블러",
-      "name2": "영혜",
-      "class2": "포켓몬 브리더",
-      "roster": "날쌩마-2, 자포코일-2, 썬더-3, 스컹탱크-2",
-      "species": "날쌩마, 자포코일, 썬더, 스컹탱크",
-      "teams": [
-        "날쌩마-2, 자포코일-2, 썬더-3, 스컹탱크-2"
-      ],
-      "late": "",
-      "quote": "함께하지 않겠나! 우리의 화려한 내기를!",
-      "quote2": "포켓몬을 어떻게 키웠나 확인해 줄게",
-      "sprite": "assets/images/bdsptrainers/pi.png",
-      "sprite2": "assets/images/bdsptrainers/pokemonbreeder-f.png"
-    },
-    {
-      "name": "금성",
-      "class": "파라솔 아가씨",
-      "name2": "에마",
-      "class2": "태권왕",
-      "roster": "크레세리아-2, 메가니움-3, 레지락-2, 야도킹-2",
-      "species": "크레세리아, 메가니움, 레지락, 야도킹",
-      "teams": [
-        "크레세리아-2, 메가니움-3, 레지락-2, 야도킹-2"
-      ],
-      "late": "",
-      "quote": "비가 오나 눈이 오나 여기서 강한 트레이너를 찾는 나",
-      "quote2": "포켓몬 승부는 진지한 승부 조금이라도 방심해서는 안 되는 것이다!",
-      "sprite": "assets/images/bdsptrainers/parasollady.png",
-      "sprite2": "assets/images/bdsptrainers/blackbelt.png"
-    },
-    {
-      "name": "금성",
-      "class": "파라솔 아가씨",
-      "name2": "자일스",
-      "class2": "사이클링",
-      "roster": "돈크로우-2, 스이쿤-3, 라티아스-1, 썬더볼트-3",
-      "species": "돈크로우, 스이쿤, 라티아스, 썬더볼트",
-      "teams": [
-        "돈크로우-2, 스이쿤-3, 라티아스-1, 썬더볼트-3"
-      ],
-      "late": "",
-      "quote": "비가 오나 눈이 오나 여기서 강한 트레이너를 찾는 나",
-      "quote2": "안녕! 강해 보이는 트레이너구나!",
-      "sprite": "assets/images/bdsptrainers/parasollady.png",
-      "sprite2": "assets/images/bdsptrainers/cyclist-m.png"
-    },
-    {
-      "name": "금성",
-      "class": "파라솔 아가씨",
-      "name2": "장길",
-      "class2": "초능력자",
-      "roster": "붐볼-2, 겟핸보숭-3, 쥬레곤-2, 야도란-3",
-      "species": "붐볼, 겟핸보숭, 쥬레곤, 야도란",
-      "teams": [
-        "붐볼-2, 겟핸보숭-3, 쥬레곤-2, 야도란-3"
-      ],
-      "late": "",
-      "quote": "비가 오나 눈이 오나 여기서 강한 트레이너를 찾는 나",
-      "quote2": "내 형제들이 귀여워해 줄 거다!",
-      "sprite": "assets/images/bdsptrainers/parasollady.png",
-      "sprite2": "assets/images/bdsptrainers/psychic-m.png"
-    },
-    {
-      "name": "노노",
-      "class": "초능력자",
-      "name2": "소기",
-      "class2": "엘리트 트레이너",
-      "roster": "스이쿤-1, 코리갑-2, 야느와르몽-2, 마기라스-2",
-      "species": "스이쿤, 코리갑, 야느와르몽, 마기라스",
-      "teams": [
-        "스이쿤-1, 코리갑-2, 야느와르몽-2, 마기라스-2"
-      ],
-      "late": "",
-      "quote": "빙글 빙글 빙글...",
-      "quote2": "자 덤벼 봐!",
-      "sprite": "assets/images/bdsptrainers/psychic-f.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
-    },
-    {
-      "name": "노노",
-      "class": "초능력자",
-      "name2": "선레이",
-      "class2": "웨이트리스",
-      "roster": "켄타로스-2, 부스터-2, 헤라크로스-3, 게을킹-2",
-      "species": "켄타로스, 부스터, 헤라크로스, 게을킹",
-      "teams": [
-        "켄타로스-2, 부스터-2, 헤라크로스-3, 게을킹-2"
-      ],
-      "late": "",
-      "quote": "빙글 빙글 빙글...",
-      "quote2": "귀여운 손님! 서비스 많이 줄게!",
-      "sprite": "assets/images/bdsptrainers/psychic-f.png",
-      "sprite2": "assets/images/bdsptrainers/waitress.png"
-    },
-    {
-      "name": "노르",
-      "class": "초능력자",
-      "name2": "수사",
-      "class2": "카메라맨",
-      "roster": "쏘콘-2, 썬더-4, 레지아이스-4, 루주라-3",
-      "species": "쏘콘, 썬더, 레지아이스, 루주라",
-      "teams": [
-        "쏘콘-2, 썬더-4, 레지아이스-4, 루주라-3"
-      ],
-      "late": "",
-      "quote": "보여 주지~! 초능력의 신비한 파워를!",
-      "quote2": "너 같은 트레이너를 계속 기다리고 있었어",
-      "sprite": "assets/images/bdsptrainers/psychic-m.png",
-      "sprite2": "assets/images/bdsptrainers/cameraman.png"
-    },
-    {
-      "name": "킹",
-      "class": "갬블러",
-      "name2": "노르",
-      "class2": "초능력자",
-      "roster": "니드퀸-3, 얼음귀신-2, 누오-2, 점토도리-2",
-      "species": "니드퀸, 얼음귀신, 누오, 점토도리",
-      "teams": [
-        "니드퀸-3, 얼음귀신-2, 누오-2, 점토도리-2"
-      ],
-      "late": "",
-      "quote": "제대로 승부해 볼까",
-      "quote2": "보여 주지~! 초능력의 신비한 파워를!",
-      "sprite": "assets/images/bdsptrainers/pi.png",
-      "sprite2": "assets/images/bdsptrainers/psychic-m.png"
-    },
-    {
-      "name": "유장",
-      "class": "갬블러",
-      "name2": "나유타",
-      "class2": "엘리트 트레이너",
-      "roster": "레지기가스-2, 라이코-2, 독개굴-2, 라티오스-2",
-      "species": "레지기가스, 라이코, 독개굴, 라티오스",
-      "teams": [
-        "레지기가스-2, 라이코-2, 독개굴-2, 라티오스-2"
-      ],
-      "late": "",
-      "quote": "승부란 말야 좀스럽게 계산하는 게 아냐~!",
-      "quote2": "으~핫! 으~핫! 이길 수 있다고 생각하는가~!",
-      "sprite": "assets/images/bdsptrainers/pi.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-m.png"
-    },
-    {
-      "name": "유장",
-      "class": "갬블러",
-      "name2": "옥진",
-      "class2": "피에로",
-      "roster": "딱구리-2, 부스터-2, 히드런-2, 무우마직-2",
-      "species": "딱구리, 부스터, 히드런, 무우마직",
-      "teams": [
-        "딱구리-2, 부스터-2, 히드런-2, 무우마직-2"
-      ],
-      "late": "",
-      "quote": "승부란 말야 좀스럽게 계산하는 게 아냐~!",
-      "quote2": "최선을 다하겠습니다 잘 부탁합니다!",
-      "sprite": "assets/images/bdsptrainers/pi.png",
-      "sprite2": "assets/images/bdsptrainers/clown.png"
-    },
-    {
-      "name": "소기",
-      "class": "엘리트 트레이너",
-      "name2": "호학",
-      "class2": "엘리트 트레이너",
-      "roster": "밀탱크-2, 앤테이-4, 파이어-2, 얼음귀신-3",
-      "species": "밀탱크, 앤테이, 파이어, 얼음귀신",
-      "teams": [
-        "밀탱크-2, 앤테이-4, 파이어-2, 얼음귀신-3"
-      ],
-      "late": "",
-      "quote": "자 덤벼 봐!",
-      "quote2": "봐주지 말라구!",
-      "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
-    },
-    {
-      "name": "안톤",
-      "class": "엘리트 트레이너",
-      "name2": "호미",
-      "class2": "카메라맨",
-      "roster": "크로뱃-2, 레지락-4, 레지아이스-2, 에레키블-2",
-      "species": "크로뱃, 레지락, 레지아이스, 에레키블",
-      "teams": [
-        "크로뱃-2, 레지락-4, 레지아이스-2, 에레키블-2"
-      ],
-      "late": "",
-      "quote": "유! 정말 안 되겠어~ 미가 가르쳐 주지~",
-      "quote2": "물끄러미...",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/cameraman.png"
-    },
-    {
-      "name": "안톤",
-      "class": "엘리트 트레이너",
-      "name2": "염평",
-      "class2": "유적마니아",
-      "roster": "대짱이-3, 윈디-2, 헤라크로스-3, 라플레시아-3",
-      "species": "대짱이, 윈디, 헤라크로스, 라플레시아",
-      "teams": [
-        "대짱이-3, 윈디-2, 헤라크로스-3, 라플레시아-3"
-      ],
-      "late": "",
-      "quote": "유! 정말 안 되겠어~ 미가 가르쳐 주지~",
-      "quote2": "기합을 넣어라",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/ruinmaniac.png"
-    },
-    {
-      "name": "죽호",
-      "class": "태권왕",
-      "name2": "선레이",
-      "class2": "웨이트리스",
-      "roster": "프리져-2, 골덕-3, 번치코-3, 슬리퍼-3",
-      "species": "프리져, 골덕, 번치코, 슬리퍼",
-      "teams": [
-        "프리져-2, 골덕-3, 번치코-3, 슬리퍼-3"
-      ],
-      "late": "",
-      "quote": "안녕!!",
-      "quote2": "귀여운 손님! 서비스 많이 줄게!",
-      "sprite": "assets/images/bdsptrainers/blackbelt.png",
-      "sprite2": "assets/images/bdsptrainers/waitress.png"
-    },
-    {
-      "name": "죽호",
-      "class": "태권왕",
-      "name2": "수사",
-      "class2": "카메라맨",
-      "roster": "라티오스-2, 스이쿤-2, 쥬레곤-2, 엘레이드-2",
-      "species": "라티오스, 스이쿤, 쥬레곤, 엘레이드",
-      "teams": [
-        "라티오스-2, 스이쿤-2, 쥬레곤-2, 엘레이드-2"
-      ],
-      "late": "",
-      "quote": "안녕!!",
-      "quote2": "너 같은 트레이너를 계속 기다리고 있었어",
-      "sprite": "assets/images/bdsptrainers/blackbelt.png",
-      "sprite2": "assets/images/bdsptrainers/cameraman.png"
-    },
-    {
-      "name": "자일스",
-      "class": "사이클링",
-      "name2": "동상",
-      "class2": "작업원",
-      "roster": "레지아이스-2, 라티아스-1, 트리토돈-3, 레지스틸-2",
-      "species": "레지아이스, 라티아스, 트리토돈, 레지스틸",
-      "teams": [
-        "레지아이스-2, 라티아스-1, 트리토돈-3, 레지스틸-2"
-      ],
-      "late": "",
-      "quote": "안녕! 강해 보이는 트레이너구나!",
-      "quote2": "오! 괜찮은걸! 잘하는구나!",
-      "sprite": "assets/images/bdsptrainers/cyclist-m.png",
-      "sprite2": "assets/images/bdsptrainers/worker.png"
-    },
-    {
-      "name": "자일스",
-      "class": "사이클링",
-      "name2": "고려",
-      "class2": "카우걸",
-      "roster": "폴리곤2-2, 토게키스-2, 강챙이-2, 스이쿤-1",
-      "species": "폴리곤2, 토게키스, 강챙이, 스이쿤",
-      "teams": [
-        "폴리곤2-2, 토게키스-2, 강챙이-2, 스이쿤-1"
-      ],
-      "late": "",
-      "quote": "안녕! 강해 보이는 트레이너구나!",
-      "quote2": "끝을 내 주지",
-      "sprite": "assets/images/bdsptrainers/cyclist-m.png",
-      "sprite2": "assets/images/bdsptrainers/cowgirl.png"
-    },
-    {
-      "name": "빌리",
-      "class": "포켓몬 레인저",
-      "name2": "중주",
-      "class2": "신사",
-      "roster": "딱구리-2, 쏘콘-2, 무우마직-3, 독개굴-3",
-      "species": "딱구리, 쏘콘, 무우마직, 독개굴",
-      "teams": [
-        "딱구리-2, 쏘콘-2, 무우마직-3, 독개굴-3"
-      ],
-      "late": "",
-      "quote": "아하하! 안됐군! 상대는 나야!",
-      "quote2": "하하하하!! 잘 싸워 나가고 있구나!",
-      "sprite": "assets/images/bdsptrainers/pokemonranger-m.png",
-      "sprite2": "assets/images/bdsptrainers/gentleman.png"
-    },
-    {
-      "name": "우신",
-      "class": "엘리트 트레이너",
-      "name2": "마애",
-      "class2": "엘리트 트레이너",
-      "roster": "카포에라-2, 가디안-4, 후딘-4, 한카리아스-6, 맘모꾸리-3",
-      "species": "카포에라, 가디안, 후딘, 한카리아스, 맘모꾸리",
-      "teams": [
-        "카포에라-2, 가디안-4, 후딘-4, 한카리아스-6",
-        "카포에라-2, 가디안-4, 후딘-4, 맘모꾸리-3"
-      ],
-      "late": "",
-      "quote": "기대하고 있으니까... 실망시키지 말아 줘!",
-      "quote2": "이것은 인생의 큰 승부! 질 수는 없다!",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
-    },
-    {
-      "name": "고신",
-      "class": "포켓몬 컬렉터",
-      "name2": "남고",
-      "class2": "연구원",
-      "roster": "레지스틸-1, 고래왕-2, 히드런-2, 강챙이-3",
-      "species": "레지스틸, 고래왕, 히드런, 강챙이",
-      "teams": [
-        "레지스틸-1, 고래왕-2, 히드런-2, 강챙이-3"
-      ],
-      "late": "",
-      "quote": "인터넷 친구들이 알려 준 정보를 바탕으로 키웠단다!",
-      "quote2": "돌격하라! 나의 포켓몬! 실험의 성과를 보여 다오!",
-      "sprite": "assets/images/bdsptrainers/collector.png",
-      "sprite2": "assets/images/bdsptrainers/scientist.png"
-    },
-    {
-      "name": "관진",
-      "class": "아이돌",
-      "name2": "킹",
-      "class2": "갬블러",
-      "roster": "썬더-1, 텅구리-3, 로파파-2, 쥬레곤-2",
-      "species": "썬더, 텅구리, 로파파, 쥬레곤",
-      "teams": [
-        "썬더-1, 텅구리-3, 로파파-2, 쥬레곤-2"
-      ],
-      "late": "",
-      "quote": "노래하고 춤춰서 너를 꼼짝 못 하게 만들어 줘야지!",
-      "quote2": "제대로 승부해 볼까",
-      "sprite": "assets/images/bdsptrainers/idol.png",
-      "sprite2": "assets/images/bdsptrainers/pi.png"
-    },
-    {
-      "name": "관진",
-      "class": "아이돌",
-      "name2": "안암",
-      "class2": "유적마니아",
-      "roster": "그랑블루-3, 눈설왕-3, 둥실라이드-2, 앤테이-2",
-      "species": "그랑블루, 눈설왕, 둥실라이드, 앤테이",
-      "teams": [
-        "그랑블루-3, 눈설왕-3, 둥실라이드-2, 앤테이-2"
-      ],
-      "late": "",
-      "quote": "노래하고 춤춰서 너를 꼼짝 못 하게 만들어 줘야지!",
-      "quote2": "포켓몬 승부의 참맛은 최후의 일격에 있다!",
-      "sprite": "assets/images/bdsptrainers/idol.png",
-      "sprite2": "assets/images/bdsptrainers/ruinmaniac.png"
-    },
-    {
-      "name": "사부",
-      "class": "엘리트 트레이너",
-      "name2": "호미",
-      "class2": "카메라맨",
-      "roster": "레지스틸-4, 갸라도스-2, 폴리곤Z-2, 스이쿤-4",
-      "species": "레지스틸, 갸라도스, 폴리곤Z, 스이쿤",
-      "teams": [
-        "레지스틸-4, 갸라도스-2, 폴리곤Z-2, 스이쿤-4"
-      ],
-      "late": "",
-      "quote": "난 이길 거야 정말이야",
-      "quote2": "물끄러미...",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/cameraman.png"
-    },
-    {
-      "name": "사부",
-      "class": "엘리트 트레이너",
-      "name2": "파나르",
-      "class2": "엘리트 트레이너",
-      "roster": "눈설왕-4, 거대코뿌리-4, 동탁군-3, 로토무-워시-2, 코터스-2",
-      "species": "눈설왕, 거대코뿌리, 동탁군, 로토무-워시, 코터스",
-      "teams": [
-        "눈설왕-4, 거대코뿌리-4, 동탁군-3, 로토무-워시-2",
-        "눈설왕-4, 코터스-2, 동탁군-3, 로토무-워시-2"
-      ],
-      "late": "",
-      "quote": "난 이길 거야 정말이야",
-      "quote2": "이젠 놓치지 않아 포기해",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
-    },
-    {
-      "name": "사부",
-      "class": "엘리트 트레이너",
-      "name2": "묵크",
-      "class2": "포켓몬 컬렉터",
-      "roster": "헬가-2, 캥카-3, 전룡-3, 크레세리아-4",
-      "species": "헬가, 캥카, 전룡, 크레세리아",
-      "teams": [
-        "헬가-2, 캥카-3, 전룡-3, 크레세리아-4"
-      ],
-      "late": "",
-      "quote": "난 이길 거야 정말이야",
-      "quote2": "잠깐 기다려 봐 메일을 쓰고 있었어",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/collector.png"
-    },
-    {
-      "name": "대엽",
-      "class": "사천왕",
-      "name2": "전진",
-      "class2": "체육관 관장",
-      "roster": "번치코-8, 마그마번-4, 로토무-워시-4, 에레키블-5, 로토무-히트-2, 마그마번-5, 에레키블-6, 썬더-13, 초염몽-6, 앤테이-6, 렌트라-4",
-      "species": "번치코, 마그마번, 로토무-워시, 에레키블, 로토무-히트, 썬더, 초염몽, 앤테이, 렌트라",
-      "teams": [
-        "번치코-8, 마그마번-4, 로토무-워시-4, 에레키블-5",
-        "로토무-히트-2, 마그마번-5, 에레키블-6, 썬더-13",
-        "초염몽-6, 앤테이-6, 렌트라-4, 썬더-13"
-      ],
-      "late": "",
-      "quote": "오!! 하트에 불은 타오르고 있어?",
-      "quote2": "역시 왔구나, 마침 지루하던 참이었어!",
-      "sprite": "assets/images/bdsptrainers/flint.png",
-      "sprite2": "assets/images/bdsptrainers/volkner.png"
-    },
-    {
-      "name": "유채",
-      "class": "체육관 관장",
-      "name2": "멜리사",
-      "class2": "체육관 관장",
-      "roster": "다탱구-5, 버섯모-8, 깜까미-2, 팬텀-7, 이상해꽃-8, 로즈레이드-5, 팬텀-8, 덩쿠림보-4, 토대부기-4, 야느와르몽-3, 다크펫-2",
-      "species": "다탱구, 버섯모, 깜까미, 팬텀, 이상해꽃, 로즈레이드, 덩쿠림보, 토대부기, 야느와르몽, 다크펫",
-      "teams": [
-        "다탱구-5, 버섯모-8, 깜까미-2, 팬텀-7",
-        "이상해꽃-8, 로즈레이드-5, 깜까미-2, 팬텀-8",
-        "덩쿠림보-4, 토대부기-4, 야느와르몽-3, 다크펫-2"
-      ],
-      "late": "",
-      "quote": "내 예상이 맞다면! 나와 멜리사의 콤비로 너를 쓰러뜨릴 수 있을 거야!",
-      "quote2": "우리의 듀엣을 지켜보십시오~!",
-      "sprite": "assets/images/bdsptrainers/gardenia.png",
-      "sprite2": "assets/images/bdsptrainers/fantina.png"
-    },
-    {
-      "name": "장길",
-      "class": "초능력자",
-      "name2": "네모",
-      "class2": "신사",
-      "roster": "붐볼-2, 크레세리아-4, 엠페르트-3, 팬텀-2",
-      "species": "붐볼, 크레세리아, 엠페르트, 팬텀",
-      "teams": [
-        "붐볼-2, 크레세리아-4, 엠페르트-3, 팬텀-2"
-      ],
-      "late": "",
-      "quote": "내 형제들이 귀여워해 줄 거다!",
-      "quote2": "동심으로 돌아가서 승부를 해 볼까요!",
-      "sprite": "assets/images/bdsptrainers/psychic-m.png",
-      "sprite2": "assets/images/bdsptrainers/gentleman.png"
-    },
-    {
-      "name": "장길",
-      "class": "초능력자",
-      "name2": "라지칸트",
-      "class2": "선원",
-      "roster": "고래왕-3, 골덕-3, 번치코-3, 후딘-3",
-      "species": "고래왕, 골덕, 번치코, 후딘",
-      "teams": [
-        "고래왕-3, 골덕-3, 번치코-3, 후딘-3"
-      ],
-      "late": "",
-      "quote": "내 형제들이 귀여워해 줄 거다!",
-      "quote2": "어어? 네가 상대야? 왠지 불안한걸...",
-      "sprite": "assets/images/bdsptrainers/psychic-m.png",
-      "sprite2": "assets/images/bdsptrainers/sailor.png"
-    },
-    {
-      "name": "기지",
-      "class": "작업원",
-      "name2": "에마",
-      "class2": "태권왕",
-      "roster": "쥬피썬더-2, 눈여아-3, 그랑블루-3, 에브이-2",
-      "species": "쥬피썬더, 눈여아, 그랑블루, 에브이",
-      "teams": [
-        "쥬피썬더-2, 눈여아-3, 그랑블루-3, 에브이-2"
-      ],
-      "late": "",
-      "quote": "폐기해 주겠어",
-      "quote2": "포켓몬 승부는 진지한 승부 조금이라도 방심해서는 안 되는 것이다!",
-      "sprite": "assets/images/bdsptrainers/worker.png",
-      "sprite2": "assets/images/bdsptrainers/blackbelt.png"
-    },
-    {
-      "name": "태사",
-      "class": "포켓몬 브리더",
-      "name2": "고신",
-      "class2": "포켓몬 컬렉터",
-      "roster": "마임맨-3, 스컹탱크-3, 썬더-2, 로파파-3",
-      "species": "마임맨, 스컹탱크, 썬더, 로파파",
-      "teams": [
-        "마임맨-3, 스컹탱크-3, 썬더-2, 로파파-3"
-      ],
-      "late": "",
-      "quote": "이기고 지는 것만이 승부가 아니야",
-      "quote2": "인터넷 친구들이 알려 준 정보를 바탕으로 키웠단다!",
-      "sprite": "assets/images/bdsptrainers/pokemonbreeder-m.png",
-      "sprite2": "assets/images/bdsptrainers/collector.png"
-    },
-    {
-      "name": "태사",
-      "class": "포켓몬 브리더",
-      "name2": "제롬",
-      "class2": "사이클링",
-      "roster": "슬리퍼-3, 코뿌리-2, 히드런-5, 얼음귀신-3",
-      "species": "슬리퍼, 코뿌리, 히드런, 얼음귀신",
-      "teams": [
-        "슬리퍼-3, 코뿌리-2, 히드런-5, 얼음귀신-3"
-      ],
-      "late": "",
-      "quote": "이기고 지는 것만이 승부가 아니야",
-      "quote2": "부우웅~~~!! 나의 풀 스로틀을 봐라~!",
-      "sprite": "assets/images/bdsptrainers/pokemonbreeder-m.png",
-      "sprite2": "assets/images/bdsptrainers/cyclist-m.png"
-    },
-    {
-      "name": "훈미",
-      "class": "아로마 아가씨",
-      "name2": "국호",
-      "class2": "Pokefan (F)",
-      "roster": "강철톤-2, 루주라-2, 파비코리-3, 우츠보트-2",
-      "species": "강철톤, 루주라, 파비코리, 우츠보트",
-      "teams": [
-        "강철톤-2, 루주라-2, 파비코리-3, 우츠보트-2"
-      ],
-      "late": "",
-      "quote": "나를 이기려면 말야 십 년은 걸릴 거라구!!",
-      "quote2": "아줌마가 이래 봬도 젊었을 때는 잘 나갔었단다",
-      "sprite": "assets/images/bdsptrainers/aromalady.png",
-      "sprite2": "assets/images/bdsptrainers/pokefan-f.png"
-    },
-    {
-      "name": "훈미",
-      "class": "아로마 아가씨",
-      "name2": "중주",
-      "class2": "신사",
-      "roster": "왕구리-2, 랜턴-2, 우츠보트-3, 라티오스-1",
-      "species": "왕구리, 랜턴, 우츠보트, 라티오스",
-      "teams": [
-        "왕구리-2, 랜턴-2, 우츠보트-3, 라티오스-1"
-      ],
-      "late": "",
-      "quote": "나를 이기려면 말야 십 년은 걸릴 거라구!!",
-      "quote2": "하하하하!! 잘 싸워 나가고 있구나!",
-      "sprite": "assets/images/bdsptrainers/aromalady.png",
-      "sprite2": "assets/images/bdsptrainers/gentleman.png"
-    },
-    {
-      "name": "문사",
-      "class": "엘리트 트레이너",
-      "name2": "아그네스",
-      "class2": "엘리트 트레이너",
-      "roster": "왕구리-4, 썬더-7, 킹드라-4, 핫삼-5, 라프라스-3",
-      "species": "왕구리, 썬더, 킹드라, 핫삼, 라프라스",
-      "teams": [
-        "왕구리-4, 썬더-7, 킹드라-4, 핫삼-5",
-        "왕구리-4, 라프라스-3, 킹드라-4, 핫삼-5"
-      ],
-      "late": "",
-      "quote": "아무것도 생각하지 않아도 괜찮잖아! 즐겁기만 하면 되잖아!",
-      "quote2": "나는 모든 승부에 전력을 다해 도전한다!",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
-    },
-    {
-      "name": "세피로",
-      "class": "드래곤 조련사",
-      "name2": "원오",
-      "class2": "기타리스트",
-      "roster": "하마돈-2, 버섯모-3, 글레이시아-2, 라이코-3",
-      "species": "하마돈, 버섯모, 글레이시아, 라이코",
-      "teams": [
-        "하마돈-2, 버섯모-3, 글레이시아-2, 라이코-3"
-      ],
-      "late": "",
-      "quote": "가거라~! 단련을 마친 나의 포켓몬이여~!",
-      "quote2": "나와 내 포켓몬들의 코러스를 들어 주세요",
-      "sprite": "assets/images/bdsptrainers/dragontamer.png",
-      "sprite2": "assets/images/bdsptrainers/guitarist.png"
-    },
-    {
-      "name": "세피로",
-      "class": "드래곤 조련사",
-      "name2": "이케르",
-      "class2": "웨이터",
-      "roster": "썬더볼트-2, 라티아스-3, 마기라스-2, 쏘콘-3",
-      "species": "썬더볼트, 라티아스, 마기라스, 쏘콘",
-      "teams": [
-        "썬더볼트-2, 라티아스-3, 마기라스-2, 쏘콘-3"
-      ],
-      "late": "",
-      "quote": "가거라~! 단련을 마친 나의 포켓몬이여~!",
-      "quote2": "어서 오세요~!!",
-      "sprite": "assets/images/bdsptrainers/dragontamer.png",
-      "sprite2": "assets/images/bdsptrainers/waiter.png"
-    },
-    {
-      "name": "파나르",
-      "class": "엘리트 트레이너",
-      "name2": "선영",
-      "class2": "포켓몬 레인저",
-      "roster": "플라이곤-2, 니드킹-2, 그랑블루-3, 프리져-3",
-      "species": "플라이곤, 니드킹, 그랑블루, 프리져",
-      "teams": [
-        "플라이곤-2, 니드킹-2, 그랑블루-3, 프리져-3"
-      ],
-      "late": "",
-      "quote": "이젠 놓치지 않아 포기해",
-      "quote2": "자연의 힘을 보여 줄게!",
-      "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
-      "sprite2": "assets/images/bdsptrainers/pokemonranger-f.png"
-    },
-    {
-      "name": "파나르",
-      "class": "엘리트 트레이너",
-      "name2": "호령",
-      "class2": "웨이트리스",
-      "roster": "마그마번-2, 썬더볼트-2, 글라이온-2, 레지기가스-2",
-      "species": "마그마번, 썬더볼트, 글라이온, 레지기가스",
-      "teams": [
-        "마그마번-2, 썬더볼트-2, 글라이온-2, 레지기가스-2"
-      ],
-      "late": "",
-      "quote": "이젠 놓치지 않아 포기해",
-      "quote2": "어서 오세요!",
-      "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
-      "sprite2": "assets/images/bdsptrainers/waitress.png"
-    },
-    {
-      "name": "조만",
-      "class": "아가씨",
-      "name2": "호령",
-      "class2": "웨이트리스",
-      "roster": "라티아스-2, 스이쿤-3, 헬가-3, 라이코-4",
-      "species": "라티아스, 스이쿤, 헬가, 라이코",
-      "teams": [
-        "라티아스-2, 스이쿤-3, 헬가-3, 라이코-4"
-      ],
-      "late": "",
-      "quote": "어머... 희귀한 포켓몬이네...",
-      "quote2": "어서 오세요!",
-      "sprite": "assets/images/bdsptrainers/beauty.png",
-      "sprite2": "assets/images/bdsptrainers/waitress.png"
-    },
-    {
-      "name": "조만",
-      "class": "아가씨",
-      "name2": "밥",
-      "class2": "목장아저씨",
-      "roster": "히드런-4, 코리갑-3, 리피아-2, 레지스틸-3",
-      "species": "히드런, 코리갑, 리피아, 레지스틸",
-      "teams": [
-        "히드런-4, 코리갑-3, 리피아-2, 레지스틸-3"
-      ],
-      "late": "",
-      "quote": "어머... 희귀한 포켓몬이네...",
-      "quote2": "힘내거라! 사랑하는 아이들아!",
-      "sprite": "assets/images/bdsptrainers/beauty.png",
-      "sprite2": "assets/images/bdsptrainers/rancher.png"
-    },
-    {
-      "name": "선레이",
-      "class": "웨이트리스",
-      "name2": "염평",
-      "class2": "유적마니아",
-      "roster": "폭음룡-3, 날쌩마-3, 마임맨-3, 히드런-5",
-      "species": "폭음룡, 날쌩마, 마임맨, 히드런",
-      "teams": [
-        "폭음룡-3, 날쌩마-3, 마임맨-3, 히드런-5"
-      ],
-      "late": "",
-      "quote": "귀여운 손님! 서비스 많이 줄게!",
-      "quote2": "기합을 넣어라",
-      "sprite": "assets/images/bdsptrainers/waitress.png",
-      "sprite2": "assets/images/bdsptrainers/ruinmaniac.png"
-    },
-    {
-      "name": "오송",
-      "class": "엘리트 트레이너",
-      "name2": "다유우",
-      "class2": "리포터",
-      "roster": "썬더볼트-3, 코뿌리-2, 토대부기-3, 장크로다일-3, 앤테이-1, 라이코-2, 쥬레곤-3, 블래키-2",
-      "species": "썬더볼트, 코뿌리, 토대부기, 장크로다일, 앤테이, 라이코, 쥬레곤, 블래키",
-      "teams": [
-        "썬더볼트-3, 코뿌리-2, 토대부기-3, 장크로다일-3",
-        "앤테이-1, 라이코-2, 쥬레곤-3, 블래키-2"
-      ],
-      "late": "",
-      "quote": "전력투구다!",
-      "quote2": "제가 포켓몬 승부의 참맛을 보여 드리죠!",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/reporter.png"
-    },
-    {
-      "name": "염평",
-      "class": "유적마니아",
-      "name2": "빌리",
-      "class2": "포켓몬 레인저",
-      "roster": "한카리아스-2, 보스로라-2, 눈설왕-2, 플로젤-2",
-      "species": "한카리아스, 보스로라, 눈설왕, 플로젤",
-      "teams": [
-        "한카리아스-2, 보스로라-2, 눈설왕-2, 플로젤-2"
-      ],
-      "late": "",
-      "quote": "기합을 넣어라",
-      "quote2": "아하하! 안됐군! 상대는 나야!",
-      "sprite": "assets/images/bdsptrainers/ruinmaniac.png",
-      "sprite2": "assets/images/bdsptrainers/pokemonranger-m.png"
-    },
-    {
-      "name": "네모",
-      "class": "신사",
-      "name2": "바바르",
-      "class2": "새 조련사",
-      "roster": "레지아이스-1, 히드런-3, 플로젤-3, 루주라-2",
-      "species": "레지아이스, 히드런, 플로젤, 루주라",
-      "teams": [
-        "레지아이스-1, 히드런-3, 플로젤-3, 루주라-2"
-      ],
-      "late": "",
-      "quote": "동심으로 돌아가서 승부를 해 볼까요!",
-      "quote2": "인생에는 생각대로 되지 않는 것도 많지!",
-      "sprite": "assets/images/bdsptrainers/gentleman.png",
-      "sprite2": "assets/images/bdsptrainers/birdkeeper.png"
-    },
-    {
-      "name": "네모",
-      "class": "신사",
-      "name2": "작장",
-      "class2": "갬블러",
-      "roster": "에브이-2, 누오-3, 스이쿤-2, 전룡-3",
-      "species": "에브이, 누오, 스이쿤, 전룡",
-      "teams": [
-        "에브이-2, 누오-3, 스이쿤-2, 전룡-3"
-      ],
-      "late": "",
-      "quote": "동심으로 돌아가서 승부를 해 볼까요!",
-      "quote2": "너는 뭘 걸 거야? 나는 모든 것을 걸 거야!",
-      "sprite": "assets/images/bdsptrainers/gentleman.png",
-      "sprite2": "assets/images/bdsptrainers/pi.png"
-    },
-    {
-      "name": "수사",
-      "class": "카메라맨",
-      "name2": "벨가",
-      "class2": "엘리트 트레이너",
-      "roster": "이어롭-2, 버섯모-3, 보만다-2, 엘레이드-2",
-      "species": "이어롭, 버섯모, 보만다, 엘레이드",
-      "teams": [
-        "이어롭-2, 버섯모-3, 보만다-2, 엘레이드-2"
-      ],
-      "late": "",
-      "quote": "너 같은 트레이너를 계속 기다리고 있었어",
-      "quote2": "이야이야! 즐겁게 놀아 보자!",
-      "sprite": "assets/images/bdsptrainers/cameraman.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
-    },
-    {
-      "name": "수사",
-      "class": "카메라맨",
-      "name2": "황하",
-      "class2": "포켓몬 브리더",
-      "roster": "메깅-2, 샤미드-2, 썬더볼트-2, 렌트라-2",
-      "species": "메깅, 샤미드, 썬더볼트, 렌트라",
-      "teams": [
-        "메깅-2, 샤미드-2, 썬더볼트-2, 렌트라-2"
-      ],
-      "late": "",
-      "quote": "너 같은 트레이너를 계속 기다리고 있었어",
-      "quote2": "엄해도 안 돼... 응석을 받아 줘도 안 돼...",
-      "sprite": "assets/images/bdsptrainers/cameraman.png",
-      "sprite2": "assets/images/bdsptrainers/pokemonbreeder-f.png"
-    },
-    {
-      "name": "자넷",
-      "class": "리포터",
-      "name2": "에드록",
-      "class2": "포켓몬 브리더",
-      "roster": "맘모꾸리-2, 켄타로스-3, 팬텀-3, 레지락-3",
-      "species": "맘모꾸리, 켄타로스, 팬텀, 레지락",
-      "teams": [
-        "맘모꾸리-2, 켄타로스-3, 팬텀-3, 레지락-3"
-      ],
-      "late": "",
-      "quote": "자, 어떻게 공격할까?",
-      "quote2": "소개합니다! 저의 소중한 파트너!",
-      "sprite": "assets/images/bdsptrainers/reporter.png",
-      "sprite2": "assets/images/bdsptrainers/pokemonbreeder-m.png"
-    },
-    {
-      "name": "자넷",
-      "class": "리포터",
-      "name2": "노르",
-      "class2": "초능력자",
-      "roster": "링곰-3, 코뿌리-3, 나시-2, 초염몽-3",
-      "species": "링곰, 코뿌리, 나시, 초염몽",
-      "teams": [
-        "링곰-3, 코뿌리-3, 나시-2, 초염몽-3"
-      ],
-      "late": "",
-      "quote": "자, 어떻게 공격할까?",
-      "quote2": "보여 주지~! 초능력의 신비한 파워를!",
-      "sprite": "assets/images/bdsptrainers/reporter.png",
-      "sprite2": "assets/images/bdsptrainers/psychic-m.png"
-    },
-    {
-      "name": "자넷",
-      "class": "리포터",
-      "name2": "파오",
-      "class2": "아이돌",
-      "roster": "레지아이스-3, 다탱구-2, 헬가-3, 마임맨-3",
-      "species": "레지아이스, 다탱구, 헬가, 마임맨",
-      "teams": [
-        "레지아이스-3, 다탱구-2, 헬가-3, 마임맨-3"
-      ],
-      "late": "",
-      "quote": "자, 어떻게 공격할까?",
-      "quote2": "너, 괜찮겠어? 난 엄청 대단하다구!",
-      "sprite": "assets/images/bdsptrainers/reporter.png",
-      "sprite2": "assets/images/bdsptrainers/idol.png"
-    },
-    {
-      "name": "다유우",
-      "class": "리포터",
-      "name2": "노노",
-      "class2": "초능력자",
-      "roster": "로즈레이드-2, 레지기가스-5, 질뻐기-2, 슬리퍼-2",
-      "species": "로즈레이드, 레지기가스, 질뻐기, 슬리퍼",
-      "teams": [
-        "로즈레이드-2, 레지기가스-5, 질뻐기-2, 슬리퍼-2"
-      ],
-      "late": "",
-      "quote": "제가 포켓몬 승부의 참맛을 보여 드리죠!",
-      "quote2": "빙글 빙글 빙글...",
-      "sprite": "assets/images/bdsptrainers/reporter.png",
-      "sprite2": "assets/images/bdsptrainers/psychic-f.png"
-    },
-    {
-      "name": "쾨니히",
-      "class": "포켓몬 레인저",
-      "name2": "규혜",
-      "class2": "아이돌",
-      "roster": "하리뭉-2, 돈크로우-2, 레지스틸-1, 라티아스-3",
-      "species": "하리뭉, 돈크로우, 레지스틸, 라티아스",
-      "teams": [
-        "하리뭉-2, 돈크로우-2, 레지스틸-1, 라티아스-3"
-      ],
-      "late": "",
-      "quote": "나랑 승부하자고? 난 몰라!",
-      "quote2": "승부만이 내 삶의 보람 승리만이 나의 소망",
-      "sprite": "assets/images/bdsptrainers/pokemonranger-f.png",
-      "sprite2": "assets/images/bdsptrainers/idol.png"
-    },
-    {
-      "name": "주피터",
-      "class": "갤럭시단",
-      "name2": "새턴",
-      "class2": "갤럭시단",
-      "roster": "니드킹-5, 스컹탱크-4, 앱솔-4, 깜까미-4, 팬텀-8, 독개굴-4, 샤크니아-2, 크로뱃-3, 마기라스-10",
-      "species": "니드킹, 스컹탱크, 앱솔, 깜까미, 팬텀, 독개굴, 샤크니아, 크로뱃, 마기라스",
-      "teams": [
-        "니드킹-5, 스컹탱크-4, 앱솔-4, 깜까미-4",
-        "팬텀-8, 독개굴-4, 스컹탱크-4, 샤크니아-2",
-        "크로뱃-3, 독개굴-4, 샤크니아-2, 마기라스-10"
-      ],
-      "late": "",
-      "quote": "여기엔 무슨 볼일이지? 뭐, 물어볼 필요도 없나?",
-      "quote2": "뭐야, 너인가... 내 직책은 잠깐 접어 두고 상대해 주지",
-      "sprite": "assets/images/bdsptrainers/jupiter.png",
-      "sprite2": "assets/images/bdsptrainers/saturn.png"
-    },
-    {
-      "name": "호령",
-      "class": "웨이트리스",
-      "name2": "얀",
-      "class2": "Socialite",
-      "roster": "라이코-3, 레지아이스-1, 썬더-2, 램펄드-2",
-      "species": "라이코, 레지아이스, 썬더, 램펄드",
-      "teams": [
-        "라이코-3, 레지아이스-1, 썬더-2, 램펄드-2"
-      ],
-      "late": "",
-      "quote": "어서 오세요!",
-      "quote2": "아직 어린애잖아",
-      "sprite": "assets/images/bdsptrainers/waitress.png",
-      "sprite2": "assets/images/bdsptrainers/madame.png"
-    },
-    {
-      "name": "테프코",
-      "class": "Socialite",
-      "name2": "조만",
-      "class2": "아가씨",
-      "roster": "썬더-3, 또도가스-2, 메깅-2, 파비코리-2",
-      "species": "썬더, 또도가스, 메깅, 파비코리",
-      "teams": [
-        "썬더-3, 또도가스-2, 메깅-2, 파비코리-2"
-      ],
-      "late": "",
-      "quote": "우리 아이는 강하고 훌륭한 트레이너가 되게 할 거야",
-      "quote2": "어머... 희귀한 포켓몬이네...",
-      "sprite": "assets/images/bdsptrainers/madame.png",
-      "sprite2": "assets/images/bdsptrainers/beauty.png"
-    },
-    {
-      "name": "테프코",
-      "class": "Socialite",
-      "name2": "루우",
-      "class2": "파라솔 아가씨",
-      "roster": "라티오스-1, 켄타로스-2, 헤라크로스-2, 라티아스-1",
-      "species": "라티오스, 켄타로스, 헤라크로스, 라티아스",
-      "teams": [
-        "라티오스-1, 켄타로스-2, 헤라크로스-2, 라티아스-1"
-      ],
-      "late": "",
-      "quote": "우리 아이는 강하고 훌륭한 트레이너가 되게 할 거야",
-      "quote2": "이거 양산이야",
-      "sprite": "assets/images/bdsptrainers/madame.png",
-      "sprite2": "assets/images/bdsptrainers/parasollady.png"
-    },
-    {
-      "name": "라지칸트",
-      "class": "선원",
-      "name2": "길림",
-      "class2": "아가씨",
-      "roster": "찌르호크-2, 라이코-3, 토게키스-2, 무우마직-3",
-      "species": "찌르호크, 라이코, 토게키스, 무우마직",
-      "teams": [
-        "찌르호크-2, 라이코-3, 토게키스-2, 무우마직-3"
-      ],
-      "late": "",
-      "quote": "어어? 네가 상대야? 왠지 불안한걸...",
-      "quote2": "괜찮을까?",
-      "sprite": "assets/images/bdsptrainers/sailor.png",
-      "sprite2": "assets/images/bdsptrainers/beauty.png"
-    },
-    {
-      "name": "안토니오",
-      "class": "웨이터",
-      "name2": "유장",
-      "class2": "갬블러",
-      "roster": "게을킹-2, 번치코-3, 다탱구-2, 라이코-1",
-      "species": "게을킹, 번치코, 다탱구, 라이코",
-      "teams": [
-        "게을킹-2, 번치코-3, 다탱구-2, 라이코-1"
-      ],
-      "late": "",
-      "quote": "오~! 너 강해 보이는걸~! 재미있겠다 재미있겠어!",
-      "quote2": "승부란 말야 좀스럽게 계산하는 게 아냐~!",
-      "sprite": "assets/images/bdsptrainers/waiter.png",
-      "sprite2": "assets/images/bdsptrainers/pi.png"
-    },
-    {
-      "name": "안토니오",
-      "class": "웨이터",
-      "name2": "훈미",
-      "class2": "아로마 아가씨",
-      "roster": "파이어-1, 코리갑-2, 맘모꾸리-2, 니드퀸-2",
-      "species": "파이어, 코리갑, 맘모꾸리, 니드퀸",
-      "teams": [
-        "파이어-1, 코리갑-2, 맘모꾸리-2, 니드퀸-2"
-      ],
-      "late": "",
-      "quote": "오~! 너 강해 보이는걸~! 재미있겠다 재미있겠어!",
-      "quote2": "나를 이기려면 말야 십 년은 걸릴 거라구!!",
-      "sprite": "assets/images/bdsptrainers/waiter.png",
-      "sprite2": "assets/images/bdsptrainers/aromalady.png"
-    },
-    {
-      "name": "밥",
-      "class": "목장아저씨",
-      "name2": "신부",
-      "class2": "베테랑 트레이너",
-      "roster": "둥실라이드-2, 고래왕-3, 질뻐기-3, 라이츄-2",
-      "species": "둥실라이드, 고래왕, 질뻐기, 라이츄",
-      "teams": [
-        "둥실라이드-2, 고래왕-3, 질뻐기-3, 라이츄-2"
-      ],
-      "late": "",
-      "quote": "힘내거라! 사랑하는 아이들아!",
-      "quote2": "벌써 몇 년을 여기에 있지만 정말 질리지 않아",
-      "sprite": "assets/images/bdsptrainers/rancher.png",
-      "sprite2": "assets/images/bdsptrainers/veteran.png"
-    },
-    {
-      "name": "묵크",
-      "class": "포켓몬 컬렉터",
-      "name2": "어치",
-      "class2": "새 조련사",
-      "roster": "리피아-2, 릴리요-3, 히드런-5, 앱솔-2",
-      "species": "리피아, 릴리요, 히드런, 앱솔",
-      "teams": [
-        "리피아-2, 릴리요-3, 히드런-5, 앱솔-2"
-      ],
-      "late": "",
-      "quote": "잠깐 기다려 봐 메일을 쓰고 있었어",
-      "quote2": "이젠 도망갈 곳이 없어!",
-      "sprite": "assets/images/bdsptrainers/collector.png",
-      "sprite2": "assets/images/bdsptrainers/birdkeeper.png"
-    },
-    {
-      "name": "묵크",
-      "class": "포켓몬 컬렉터",
-      "name2": "쾨니히",
-      "class2": "포켓몬 레인저",
-      "roster": "무장조-2, 야도란-3, 레지아이스-1, 마임맨-2",
-      "species": "무장조, 야도란, 레지아이스, 마임맨",
-      "teams": [
-        "무장조-2, 야도란-3, 레지아이스-1, 마임맨-2"
-      ],
-      "late": "",
-      "quote": "잠깐 기다려 봐 메일을 쓰고 있었어",
-      "quote2": "나랑 승부하자고? 난 몰라!",
-      "sprite": "assets/images/bdsptrainers/collector.png",
-      "sprite2": "assets/images/bdsptrainers/pokemonranger-f.png"
-    },
-    {
-      "name": "펠",
-      "class": "피에로",
-      "name2": "선레이",
-      "class2": "웨이트리스",
-      "roster": "파이어-4, 레지기가스-5, 전룡-2, 바리톱스-2",
-      "species": "파이어, 레지기가스, 전룡, 바리톱스",
-      "teams": [
-        "파이어-4, 레지기가스-5, 전룡-2, 바리톱스-2"
-      ],
-      "late": "",
-      "quote": "포켓몬 승부라고 하는 건 말야 모래 위에 쓴 러브레터와 같은 거야",
-      "quote2": "귀여운 손님! 서비스 많이 줄게!",
-      "sprite": "assets/images/bdsptrainers/clown.png",
-      "sprite2": "assets/images/bdsptrainers/waitress.png"
-    },
-    {
-      "name": "중주",
-      "class": "신사",
-      "name2": "리포맨",
-      "class2": "연구원",
-      "roster": "무장조-3, 얼음귀신-3, 독개굴-2, 요가램-2",
-      "species": "무장조, 얼음귀신, 독개굴, 요가램",
-      "teams": [
-        "무장조-3, 얼음귀신-3, 독개굴-2, 요가램-2"
-      ],
-      "late": "",
-      "quote": "하하하하!! 잘 싸워 나가고 있구나!",
-      "quote2": "과학의 힘이에요!",
-      "sprite": "assets/images/bdsptrainers/gentleman.png",
-      "sprite2": "assets/images/bdsptrainers/scientist.png"
-    },
-    {
-      "name": "중주",
-      "class": "신사",
-      "name2": "주혜",
-      "class2": "조깅",
-      "roster": "무장조-3, 루주라-3, 독개굴-2, 단단지-2",
-      "species": "무장조, 루주라, 독개굴, 단단지",
-      "teams": [
-        "무장조-3, 루주라-3, 독개굴-2, 단단지-2"
-      ],
-      "late": "",
-      "quote": "하하하하!! 잘 싸워 나가고 있구나!",
-      "quote2": "자~ 시작!",
-      "sprite": "assets/images/bdsptrainers/gentleman.png",
-      "sprite2": "assets/images/bdsptrainers/jogger.png"
-    },
-    {
-      "name": "스텐리",
-      "class": "Policeman",
-      "name2": "희주",
-      "class2": "초능력자",
-      "roster": "초염몽-3, 토게키스-2, 나무킹-3, 야느와르몽-2",
-      "species": "초염몽, 토게키스, 나무킹, 야느와르몽",
-      "teams": [
-        "초염몽-3, 토게키스-2, 나무킹-3, 야느와르몽-2"
-      ],
-      "late": "",
-      "quote": "어이 너~ 거기 너~ 잠깐 기다려 봐~아!",
-      "quote2": "오빠가 가르쳐 줬어! 눈이다! 눈을 노려라 하고 말야!",
-      "sprite": "assets/images/bdsptrainers/policeofficer.png",
-      "sprite2": "assets/images/bdsptrainers/psychic-f.png"
-    },
-    {
-      "name": "스텐리",
-      "class": "Policeman",
-      "name2": "조만",
-      "class2": "아가씨",
-      "roster": "히드런-3, 망나뇽-3, 릴리요-3, 레지기가스-4",
-      "species": "히드런, 망나뇽, 릴리요, 레지기가스",
-      "teams": [
-        "히드런-3, 망나뇽-3, 릴리요-3, 레지기가스-4"
-      ],
-      "late": "",
-      "quote": "어이 너~ 거기 너~ 잠깐 기다려 봐~아!",
-      "quote2": "어머... 희귀한 포켓몬이네...",
-      "sprite": "assets/images/bdsptrainers/policeofficer.png",
-      "sprite2": "assets/images/bdsptrainers/beauty.png"
-    },
-    {
-      "name": "이케르",
-      "class": "웨이터",
-      "name2": "국호",
-      "class2": "Pokefan (F)",
-      "roster": "다탱구-3, 라티오스-3, 릴리요-3, 나인테일-2",
-      "species": "다탱구, 라티오스, 릴리요, 나인테일",
-      "teams": [
-        "다탱구-3, 라티오스-3, 릴리요-3, 나인테일-2"
-      ],
-      "late": "",
-      "quote": "어서 오세요~!!",
-      "quote2": "아줌마가 이래 봬도 젊었을 때는 잘 나갔었단다",
-      "sprite": "assets/images/bdsptrainers/waiter.png",
-      "sprite2": "assets/images/bdsptrainers/pokefan-f.png"
-    },
-    {
-      "name": "에이미",
-      "class": "사이클링",
-      "name2": "페드로",
-      "class2": "베테랑 트레이너",
-      "roster": "토대부기-3, 폭음룡-3, 팬텀-2, 트리토돈-3",
-      "species": "토대부기, 폭음룡, 팬텀, 트리토돈",
-      "teams": [
-        "토대부기-3, 폭음룡-3, 팬텀-2, 트리토돈-3"
-      ],
-      "late": "",
-      "quote": "따르릉 따르릉",
-      "quote2": "처음부터 말해 두지... 넌 나를 이길 수 없어",
-      "sprite": "assets/images/bdsptrainers/cyclist-f.png",
-      "sprite2": "assets/images/bdsptrainers/veteran.png"
-    },
-    {
-      "name": "조조",
-      "class": "배틀걸",
-      "name2": "앵클",
-      "class2": "아로마 아가씨",
-      "roster": "썬더-2, 앱솔-2, 해피너스-2, 바리톱스-3",
-      "species": "썬더, 앱솔, 해피너스, 바리톱스",
-      "teams": [
-        "썬더-2, 앱솔-2, 해피너스-2, 바리톱스-3"
-      ],
-      "late": "",
-      "quote": "얍~!",
-      "quote2": "좋은 향기를 맡고 있으면 졸려서 큰일이야...",
-      "sprite": "assets/images/bdsptrainers/battlegirl.png",
-      "sprite2": "assets/images/bdsptrainers/aromalady.png"
-    },
-    {
-      "name": "동상",
-      "class": "작업원",
-      "name2": "닉",
-      "class2": "선원",
-      "roster": "딱구리-3, 왕구리-2, 쁘사이저-3, 랜턴-3",
-      "species": "딱구리, 왕구리, 쁘사이저, 랜턴",
-      "teams": [
-        "딱구리-3, 왕구리-2, 쁘사이저-3, 랜턴-3"
-      ],
-      "late": "",
-      "quote": "오! 괜찮은걸! 잘하는구나!",
-      "quote2": "커다란 배를 타고 왔어요오오~!",
-      "sprite": "assets/images/bdsptrainers/worker.png",
-      "sprite2": "assets/images/bdsptrainers/sailor.png"
-    },
-    {
-      "name": "동상",
-      "class": "작업원",
-      "name2": "길림",
-      "class2": "아가씨",
-      "roster": "괴력몬-2, 메가자리-2, 크레세리아-5, 후딘-2, 고래왕-2, 캥카-2",
-      "species": "괴력몬, 메가자리, 크레세리아, 후딘, 고래왕, 캥카",
-      "teams": [
-        "괴력몬-2, 메가자리-2, 크레세리아-5, 후딘-2",
-        "고래왕-2, 메가자리-2, 크레세리아-5, 캥카-2"
-      ],
-      "late": "",
-      "quote": "오! 괜찮은걸! 잘하는구나!",
-      "quote2": "괜찮을까?",
-      "sprite": "assets/images/bdsptrainers/worker.png",
-      "sprite2": "assets/images/bdsptrainers/beauty.png"
-    },
-    {
-      "name": "나유타",
-      "class": "엘리트 트레이너",
-      "name2": "벨가",
-      "class2": "엘리트 트레이너",
-      "roster": "아르코-2, 라프라스-3, 코터스-2, 크레세리아-6, 거대코뿌리-4",
-      "species": "아르코, 라프라스, 코터스, 크레세리아, 거대코뿌리",
-      "teams": [
-        "아르코-2, 라프라스-3, 코터스-2, 크레세리아-6",
-        "아르코-2, 거대코뿌리-4, 코터스-2, 크레세리아-6"
-      ],
-      "late": "",
-      "quote": "으~핫! 으~핫! 이길 수 있다고 생각하는가~!",
-      "quote2": "이야이야! 즐겁게 놀아 보자!",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
-    },
-    {
-      "name": "나유타",
-      "class": "엘리트 트레이너",
-      "name2": "소피",
-      "class2": "사이클링",
-      "roster": "아말도-3, 거대코뿌리-3, 이상해꽃-3, 내룸벨트-2",
-      "species": "아말도, 거대코뿌리, 이상해꽃, 내룸벨트",
-      "teams": [
-        "아말도-3, 거대코뿌리-3, 이상해꽃-3, 내룸벨트-2"
-      ],
-      "late": "",
-      "quote": "으~핫! 으~핫! 이길 수 있다고 생각하는가~!",
-      "quote2": "남자 친구랑 자전거 타고 데이트하는 게 꿈이야",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/cyclist-f.png"
-    },
-    {
-      "name": "나유타",
-      "class": "엘리트 트레이너",
-      "name2": "박사",
-      "class2": "기타리스트",
-      "roster": "앤테이-2, 크레세리아-5, 후딘-3, 팬텀-2",
-      "species": "앤테이, 크레세리아, 후딘, 팬텀",
-      "teams": [
-        "앤테이-2, 크레세리아-5, 후딘-3, 팬텀-2"
-      ],
-      "late": "",
-      "quote": "으~핫! 으~핫! 이길 수 있다고 생각하는가~!",
-      "quote2": "호오~ 너, 괜찮잖아",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/guitarist.png"
-    },
-    {
-      "name": "제롬",
-      "class": "사이클링",
-      "name2": "어치",
-      "class2": "새 조련사",
-      "roster": "버섯모-2, 둥실라이드-3, 망나뇽-3, 나인테일-2",
-      "species": "버섯모, 둥실라이드, 망나뇽, 나인테일",
-      "teams": [
-        "버섯모-2, 둥실라이드-3, 망나뇽-3, 나인테일-2"
-      ],
-      "late": "",
-      "quote": "부우웅~~~!! 나의 풀 스로틀을 봐라~!",
-      "quote2": "이젠 도망갈 곳이 없어!",
-      "sprite": "assets/images/bdsptrainers/cyclist-m.png",
-      "sprite2": "assets/images/bdsptrainers/birdkeeper.png"
-    },
-    {
-      "name": "루우",
-      "class": "파라솔 아가씨",
-      "name2": "다유우",
-      "class2": "리포터",
-      "roster": "보스로라-2, 누오-3, 겟핸보숭-3, 딱구리-2",
-      "species": "보스로라, 누오, 겟핸보숭, 딱구리",
-      "teams": [
-        "보스로라-2, 누오-3, 겟핸보숭-3, 딱구리-2"
-      ],
-      "late": "",
-      "quote": "이거 양산이야",
-      "quote2": "제가 포켓몬 승부의 참맛을 보여 드리죠!",
-      "sprite": "assets/images/bdsptrainers/parasollady.png",
-      "sprite2": "assets/images/bdsptrainers/reporter.png"
-    },
-    {
-      "name": "루우",
-      "class": "파라솔 아가씨",
-      "name2": "공주",
-      "class2": "배틀걸",
-      "roster": "핫삼-2, 캥카-3, 슬리퍼-2, 비퀸-2",
-      "species": "핫삼, 캥카, 슬리퍼, 비퀸",
-      "teams": [
-        "핫삼-2, 캥카-3, 슬리퍼-2, 비퀸-2"
-      ],
-      "late": "",
-      "quote": "이거 양산이야",
-      "quote2": "난 강하다 그뿐이야",
-      "sprite": "assets/images/bdsptrainers/parasollady.png",
-      "sprite2": "assets/images/bdsptrainers/battlegirl.png"
-    },
-    {
-      "name": "루우",
-      "class": "파라솔 아가씨",
-      "name2": "단중",
-      "class2": "Policeman",
-      "roster": "레지스틸-2, 코뿌리-3, 강챙이-3, 글라이온-2",
-      "species": "레지스틸, 코뿌리, 강챙이, 글라이온",
-      "teams": [
-        "레지스틸-2, 코뿌리-3, 강챙이-3, 글라이온-2"
-      ],
-      "late": "",
-      "quote": "이거 양산이야",
-      "quote2": "드르렁... 드르렁...",
-      "sprite": "assets/images/bdsptrainers/parasollady.png",
-      "sprite2": "assets/images/bdsptrainers/policeofficer.png"
-    },
-    {
-      "name": "고려",
-      "class": "카우걸",
-      "name2": "금성",
-      "class2": "파라솔 아가씨",
-      "roster": "보만다-2, 니드퀸-2, 파이어-3, 헤라크로스-2",
-      "species": "보만다, 니드퀸, 파이어, 헤라크로스",
-      "teams": [
-        "보만다-2, 니드퀸-2, 파이어-3, 헤라크로스-2"
-      ],
-      "late": "",
-      "quote": "끝을 내 주지",
-      "quote2": "비가 오나 눈이 오나 여기서 강한 트레이너를 찾는 나",
-      "sprite": "assets/images/bdsptrainers/cowgirl.png",
-      "sprite2": "assets/images/bdsptrainers/parasollady.png"
-    },
-    {
-      "name": "고려",
-      "class": "카우걸",
-      "name2": "성웅",
-      "class2": "Fisherman",
-      "roster": "트리토돈-2, 앤테이-1, 리자몽-3, 쏘콘-2",
-      "species": "트리토돈, 앤테이, 리자몽, 쏘콘",
-      "teams": [
-        "트리토돈-2, 앤테이-1, 리자몽-3, 쏘콘-2"
-      ],
-      "late": "",
-      "quote": "끝을 내 주지",
-      "quote2": "신오에서 제일가는 낚시 테크닉! 보여 주도록 하지!",
-      "sprite": "assets/images/bdsptrainers/cowgirl.png",
-      "sprite2": "assets/images/bdsptrainers/fisher.png"
-    },
-    {
-      "name": "소피",
-      "class": "사이클링",
-      "name2": "남고",
-      "class2": "연구원",
-      "roster": "드래피온-2, 그랑블루-2, 프리져-1, 마그마번-2",
-      "species": "드래피온, 그랑블루, 프리져, 마그마번",
-      "teams": [
-        "드래피온-2, 그랑블루-2, 프리져-1, 마그마번-2"
-      ],
-      "late": "",
-      "quote": "남자 친구랑 자전거 타고 데이트하는 게 꿈이야",
-      "quote2": "돌격하라! 나의 포켓몬! 실험의 성과를 보여 다오!",
-      "sprite": "assets/images/bdsptrainers/cyclist-f.png",
-      "sprite2": "assets/images/bdsptrainers/scientist.png"
-    },
-    {
-      "name": "소피",
-      "class": "사이클링",
-      "name2": "오송",
-      "class2": "엘리트 트레이너",
-      "roster": "왕구리-3, 또도가스-3, 요가램-3, 앤테이-3",
-      "species": "왕구리, 또도가스, 요가램, 앤테이",
-      "teams": [
-        "왕구리-3, 또도가스-3, 요가램-3, 앤테이-3"
-      ],
-      "late": "",
-      "quote": "남자 친구랑 자전거 타고 데이트하는 게 꿈이야",
-      "quote2": "전력투구다!",
-      "sprite": "assets/images/bdsptrainers/cyclist-f.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-m.png"
-    },
-    {
-      "name": "마스",
-      "class": "갤럭시단",
-      "name2": "태홍",
-      "class2": "갤럭시단",
-      "roster": "라이츄-4, 동탁군-5, 갸라도스-6, 보만다-8, 에브이-4, 토게키스-8, 포푸니라-5, 앤테이-6, 크로뱃-3, 몬냥이-2, 로토무-히트-2, 갸라도스-7",
-      "species": "라이츄, 동탁군, 갸라도스, 보만다, 에브이, 토게키스, 포푸니라, 앤테이, 크로뱃, 몬냥이, 로토무-히트",
-      "teams": [
-        "라이츄-4, 동탁군-5, 갸라도스-6, 보만다-8",
-        "에브이-4, 토게키스-8, 포푸니라-5, 앤테이-6",
-        "크로뱃-3, 몬냥이-2, 로토무-히트-2, 갸라도스-7"
-      ],
-      "late": "",
-      "quote": "너만큼은 절대 용서 못 해! 용서 못 해!! 용서 못 해!!!",
-      "quote2": "인가 너와는 정말 질긴 인연이군 악연이라고 해도 좋을 정도야... 그 연을 여기서 끊어내겠다!",
-      "sprite": "assets/images/bdsptrainers/mars.png",
-      "sprite2": "assets/images/bdsptrainers/cyrus.png"
-    },
-    {
-      "name": "자두",
-      "class": "체육관 관장",
-      "name2": "무청",
-      "class2": "체육관 관장",
-      "roster": "카포에라-4, 루카리오-6, 눈설왕-7, 눈여아-5, 카포에라-5, 프리져-6, 번치코-7, 포푸니라-4",
-      "species": "카포에라, 루카리오, 눈설왕, 눈여아, 프리져, 번치코, 포푸니라",
-      "teams": [
-        "카포에라-4, 루카리오-6, 눈설왕-7, 눈여아-5",
-        "카포에라-5, 루카리오-6, 눈설왕-7, 프리져-6",
-        "카포에라-4, 번치코-7, 포푸니라-4, 눈설왕-7"
-      ],
-      "late": "",
-      "quote": "배고프다... 아, 아무것도 아니에요!",
-      "quote2": "나와 자두의 집중력은 굉장하다고!",
-      "sprite": "assets/images/bdsptrainers/maylene.png",
-      "sprite2": "assets/images/bdsptrainers/candice.png"
-    },
-    {
-      "name": "신부",
-      "class": "베테랑 트레이너",
-      "name2": "제롬",
-      "class2": "사이클링",
-      "roster": "찌르호크-3, 코뿌리-2, 토대부기-3, 거북왕-3",
-      "species": "찌르호크, 코뿌리, 토대부기, 거북왕",
-      "teams": [
-        "찌르호크-3, 코뿌리-2, 토대부기-3, 거북왕-3"
-      ],
-      "late": "",
-      "quote": "벌써 몇 년을 여기에 있지만 정말 질리지 않아",
-      "quote2": "부우웅~~~!! 나의 풀 스로틀을 봐라~!",
-      "sprite": "assets/images/bdsptrainers/veteran.png",
-      "sprite2": "assets/images/bdsptrainers/cyclist-m.png"
-    },
-    {
-      "name": "미루",
-      "class": "포켓몬 트레이너",
-      "name2": "모미",
-      "class2": "포켓몬 트레이너",
-      "roster": "후딘-6, 팬텀-6, 블래키-4, 해피너스-4, 썬더-9, 후딘-7, 해피너스-5, 폴리곤Z-4, 가디안-6, 썬더-10, 라티오스-7, 폴리곤Z-5",
-      "species": "후딘, 팬텀, 블래키, 해피너스, 썬더, 폴리곤Z, 가디안, 라티오스",
-      "teams": [
-        "후딘-6, 팬텀-6, 블래키-4, 해피너스-4",
-        "썬더-9, 후딘-7, 해피너스-5, 폴리곤Z-4",
-        "가디안-6, 썬더-10, 라티오스-7, 폴리곤Z-5"
-      ],
-      "late": "",
-      "quote": "앗!! 여기서 길을 잃었는데 모미님이랑 만난 거 있지!",
-      "quote2": "오랜만이야, 여행은 함께하는 거라고 했었지? 그래서 지금은 미루와 함께야!",
-      "sprite": "assets/images/bdsptrainers/mira.png",
-      "sprite2": "assets/images/bdsptrainers/cheryl.png"
-    },
-    {
-      "name": "멜바",
-      "class": "엘리트 트레이너",
-      "name2": "포포",
-      "class2": "엘리트 트레이너",
-      "roster": "나인테일-5, 리자몽-4, 이상해꽃-5, 한카리아스-5, 거대코뿌리-4",
-      "species": "나인테일, 리자몽, 이상해꽃, 한카리아스, 거대코뿌리",
-      "teams": [
-        "나인테일-5, 리자몽-4, 이상해꽃-5, 한카리아스-5",
-        "나인테일-5, 리자몽-4, 이상해꽃-5, 거대코뿌리-4"
-      ],
-      "late": "",
-      "quote": "연습시켜 주마",
-      "quote2": "우리 엄마도 아빠도 강한 트레이너란다!",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
-    },
-    {
-      "name": "멜바",
-      "class": "엘리트 트레이너",
-      "name2": "아그네스",
-      "class2": "엘리트 트레이너",
-      "roster": "스이쿤-5, 토게키스-4, 한카리아스-7, 마기라스-4",
-      "species": "스이쿤, 토게키스, 한카리아스, 마기라스",
-      "teams": [
-        "스이쿤-5, 토게키스-4, 한카리아스-7, 마기라스-4"
-      ],
-      "late": "",
-      "quote": "연습시켜 주마",
-      "quote2": "나는 모든 승부에 전력을 다해 도전한다!",
-      "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
-    },
-    {
-      "name": "앵클",
-      "class": "아로마 아가씨",
-      "name2": "원오",
-      "class2": "기타리스트",
-      "roster": "팬텀-3, 밀로틱-3, 크로뱃-2, 쁘사이저-3",
-      "species": "팬텀, 밀로틱, 크로뱃, 쁘사이저",
-      "teams": [
-        "팬텀-3, 밀로틱-3, 크로뱃-2, 쁘사이저-3"
-      ],
-      "late": "",
-      "quote": "좋은 향기를 맡고 있으면 졸려서 큰일이야...",
-      "quote2": "나와 내 포켓몬들의 코러스를 들어 주세요",
-      "sprite": "assets/images/bdsptrainers/aromalady.png",
-      "sprite2": "assets/images/bdsptrainers/guitarist.png"
-    },
-    {
-      "name": "앵클",
-      "class": "아로마 아가씨",
-      "name2": "성웅",
-      "class2": "Fisherman",
-      "roster": "고래왕-2, 덩쿠림보-2, 독파리-2, 다탱구-3",
-      "species": "고래왕, 덩쿠림보, 독파리, 다탱구",
-      "teams": [
-        "고래왕-2, 덩쿠림보-2, 독파리-2, 다탱구-3"
-      ],
-      "late": "",
-      "quote": "좋은 향기를 맡고 있으면 졸려서 큰일이야...",
-      "quote2": "신오에서 제일가는 낚시 테크닉! 보여 주도록 하지!",
-      "sprite": "assets/images/bdsptrainers/aromalady.png",
-      "sprite2": "assets/images/bdsptrainers/fisher.png"
-    },
-    {
-      "name": "길림",
-      "class": "아가씨",
-      "name2": "호령",
-      "class2": "웨이트리스",
-      "roster": "비퀸-3, 앱솔-3, 엠페르트-3, 레지기가스-3",
-      "species": "비퀸, 앱솔, 엠페르트, 레지기가스",
-      "teams": [
-        "비퀸-3, 앱솔-3, 엠페르트-3, 레지기가스-3"
-      ],
-      "late": "",
-      "quote": "괜찮을까?",
-      "quote2": "어서 오세요!",
-      "sprite": "assets/images/bdsptrainers/beauty.png",
-      "sprite2": "assets/images/bdsptrainers/waitress.png"
-    },
-    {
-      "name": "현이",
-      "class": "포켓몬 트레이너",
-      "name2": "미정",
-      "class2": "포켓몬 트레이너",
-      "roster": "윈디-5, 프테라-3, 보만다-6, 루카리오-8, 윈디-6, 아쿠스타-4, 보만다-7, 메타그로스-8, 윈디-7, 한카리아스-9",
-      "species": "윈디, 프테라, 보만다, 루카리오, 아쿠스타, 메타그로스, 한카리아스",
-      "teams": [
-        "윈디-5, 프테라-3, 보만다-6, 루카리오-8",
-        "윈디-6, 아쿠스타-4, 보만다-7, 메타그로스-8",
-        "윈디-7, 프테라-3, 루카리오-8, 한카리아스-9"
-      ],
-      "late": "",
-      "quote": "영양 균형은 아주 중요하지! 너는 제대로 챙기고 있니?",
-      "quote2": "...식사는 생명의 근원이야",
-      "sprite": "assets/images/bdsptrainers/riley.png",
-      "sprite2": "assets/images/bdsptrainers/marley.png"
-    },
-    {
-      "name": "옥진",
-      "class": "피에로",
-      "name2": "밥히크",
-      "class2": "목장아저씨",
-      "roster": "아쿠스타-2, 파이어-1, 눈설왕-3, 야도란-2",
-      "species": "아쿠스타, 파이어, 눈설왕, 야도란",
-      "teams": [
-        "아쿠스타-2, 파이어-1, 눈설왕-3, 야도란-2"
-      ],
-      "late": "",
-      "quote": "최선을 다하겠습니다 잘 부탁합니다!",
-      "quote2": "도련님? 아기씨? 상관없으니까 간다!",
-      "sprite": "assets/images/bdsptrainers/clown.png",
-      "sprite2": "assets/images/bdsptrainers/rancher.png"
-    },
-    {
-      "name": "강석",
-      "class": "체육관 관장",
-      "name2": "동관",
-      "class2": "체육관 관장",
-      "roster": "마기라스-8, 램펄드-6, 핫삼-5, 바리톱스-4, 램펄드-7, 마기라스-9, 동탁군-4, 바리톱스-5, 프테라-5, 마기라스-10, 메타그로스-5, 히드런-7",
-      "species": "마기라스, 램펄드, 핫삼, 바리톱스, 동탁군, 프테라, 메타그로스, 히드런",
-      "teams": [
-        "마기라스-8, 램펄드-6, 핫삼-5, 바리톱스-4",
-        "램펄드-7, 마기라스-9, 동탁군-4, 바리톱스-5",
-        "프테라-5, 마기라스-10, 메타그로스-5, 히드런-7"
-      ],
-      "late": "",
-      "quote": "아버지와 연계하는 거라면 나도 자신 있다고!",
-      "quote2": "으하하! 너무 방심하진 말거라, 강석!",
-      "sprite": "assets/images/bdsptrainers/roark.png",
-      "sprite2": "assets/images/bdsptrainers/byron.png"
-    },
-    {
-      "name": "토우비엔",
-      "class": "포켓몬 레인저",
-      "name2": "관진",
-      "class2": "아이돌",
-      "roster": "바리톱스-2, 헤라크로스-3, 스이쿤-4, 비퀸-2",
-      "species": "바리톱스, 헤라크로스, 스이쿤, 비퀸",
-      "teams": [
-        "바리톱스-2, 헤라크로스-3, 스이쿤-4, 비퀸-2"
-      ],
-      "late": "",
-      "quote": "긴장되냐? 나만 믿으라고!",
-      "quote2": "노래하고 춤춰서 너를 꼼짝 못 하게 만들어 줘야지!",
-      "sprite": "assets/images/bdsptrainers/pokemonranger-m.png",
-      "sprite2": "assets/images/bdsptrainers/idol.png"
-    },
-    {
-      "name": "토우비엔",
-      "class": "포켓몬 레인저",
-      "name2": "남고",
-      "class2": "연구원",
-      "roster": "켄타로스-2, 누오-2, 야도킹-3, 파이어-2",
-      "species": "켄타로스, 누오, 야도킹, 파이어",
-      "teams": [
-        "켄타로스-2, 누오-2, 야도킹-3, 파이어-2"
-      ],
-      "late": "",
-      "quote": "긴장되냐? 나만 믿으라고!",
-      "quote2": "돌격하라! 나의 포켓몬! 실험의 성과를 보여 다오!",
-      "sprite": "assets/images/bdsptrainers/pokemonranger-m.png",
-      "sprite2": "assets/images/bdsptrainers/scientist.png"
-    },
-    {
-      "name": "토우비엔",
-      "class": "포켓몬 레인저",
-      "name2": "단중",
-      "class2": "Policeman",
-      "roster": "파이어-3, 에레키블-2, 버섯모-3, 라티아스-4",
-      "species": "파이어, 에레키블, 버섯모, 라티아스",
-      "teams": [
-        "파이어-3, 에레키블-2, 버섯모-3, 라티아스-4"
-      ],
-      "late": "",
-      "quote": "긴장되냐? 나만 믿으라고!",
-      "quote2": "드르렁... 드르렁...",
-      "sprite": "assets/images/bdsptrainers/pokemonranger-m.png",
-      "sprite2": "assets/images/bdsptrainers/policeofficer.png"
-    },
-    {
-      "name": "도태랑",
-      "class": "조깅",
-      "name2": "밥히크",
-      "class2": "목장아저씨",
-      "roster": "가디안-3, 앤테이-3, 니드퀸-3, 야도란-2",
-      "species": "가디안, 앤테이, 니드퀸, 야도란",
-      "teams": [
-        "가디안-3, 앤테이-3, 니드퀸-3, 야도란-2"
-      ],
-      "late": "",
-      "quote": "내가 왜 여기에 있는 거야...",
-      "quote2": "도련님? 아기씨? 상관없으니까 간다!",
-      "sprite": "assets/images/bdsptrainers/jogger.png",
-      "sprite2": "assets/images/bdsptrainers/rancher.png"
-    },
-    {
-      "name": "도태랑",
-      "class": "조깅",
-      "name2": "단중",
-      "class2": "Policeman",
-      "roster": "전룡-2, 강챙이-2, 캥카-2, 동탁군-2",
-      "species": "전룡, 강챙이, 캥카, 동탁군",
-      "teams": [
-        "전룡-2, 강챙이-2, 캥카-2, 동탁군-2"
-      ],
-      "late": "",
-      "quote": "내가 왜 여기에 있는 거야...",
-      "quote2": "드르렁... 드르렁...",
-      "sprite": "assets/images/bdsptrainers/jogger.png",
-      "sprite2": "assets/images/bdsptrainers/policeofficer.png"
-    },
-    {
-      "name": "주혜",
-      "class": "조깅",
-      "name2": "페드로",
-      "class2": "베테랑 트레이너",
-      "roster": "하리뭉-2, 파이어-4, 레지락-2, 라티오스-3",
-      "species": "하리뭉, 파이어, 레지락, 라티오스",
-      "teams": [
-        "하리뭉-2, 파이어-4, 레지락-2, 라티오스-3"
-      ],
-      "late": "",
-      "quote": "자~ 시작!",
-      "quote2": "처음부터 말해 두지... 넌 나를 이길 수 없어",
-      "sprite": "assets/images/bdsptrainers/jogger.png",
-      "sprite2": "assets/images/bdsptrainers/veteran.png"
-    },
-    {
-      "name": "주혜",
-      "class": "조깅",
-      "name2": "얀",
-      "class2": "Socialite",
-      "roster": "가디안-3, 니드킹-3, 한카리아스-2, 릴리요-2",
-      "species": "가디안, 니드킹, 한카리아스, 릴리요",
-      "teams": [
-        "가디안-3, 니드킹-3, 한카리아스-2, 릴리요-2"
-      ],
-      "late": "",
-      "quote": "자~ 시작!",
-      "quote2": "아직 어린애잖아",
-      "sprite": "assets/images/bdsptrainers/jogger.png",
-      "sprite2": "assets/images/bdsptrainers/madame.png"
-    },
-    {
-      "name": "주혜",
-      "class": "조깅",
-      "name2": "도태랑",
-      "class2": "조깅",
-      "roster": "스컹탱크-2, 질뻐기-2, 우츠보트-3, 마임맨-2",
-      "species": "스컹탱크, 질뻐기, 우츠보트, 마임맨",
-      "teams": [
-        "스컹탱크-2, 질뻐기-2, 우츠보트-3, 마임맨-2"
-      ],
-      "late": "",
-      "quote": "자~ 시작!",
-      "quote2": "내가 왜 여기에 있는 거야...",
-      "sprite": "assets/images/bdsptrainers/jogger.png",
-      "sprite2": "assets/images/bdsptrainers/jogger.png"
-    },
-    {
-      "name": "피핀",
-      "class": "아이돌",
-      "name2": "바바르",
-      "class2": "새 조련사",
-      "roster": "프리져-4, 찌르호크-2, 램펄드-2, 잠만보-2",
-      "species": "프리져, 찌르호크, 램펄드, 잠만보",
-      "teams": [
-        "프리져-4, 찌르호크-2, 램펄드-2, 잠만보-2"
-      ],
-      "late": "",
-      "quote": "정말 할 거야? 나랑?",
-      "quote2": "인생에는 생각대로 되지 않는 것도 많지!",
-      "sprite": "assets/images/bdsptrainers/idol.png",
-      "sprite2": "assets/images/bdsptrainers/birdkeeper.png"
-    },
-    {
-      "name": "피핀",
-      "class": "아이돌",
-      "name2": "닉",
-      "class2": "선원",
-      "roster": "링곰-3, 나무킹-3, 로즈레이드-2, 다탱구-3",
-      "species": "링곰, 나무킹, 로즈레이드, 다탱구",
-      "teams": [
-        "링곰-3, 나무킹-3, 로즈레이드-2, 다탱구-3"
-      ],
-      "late": "",
-      "quote": "정말 할 거야? 나랑?",
-      "quote2": "커다란 배를 타고 왔어요오오~!",
-      "sprite": "assets/images/bdsptrainers/idol.png",
-      "sprite2": "assets/images/bdsptrainers/sailor.png"
-    },
-    {
-      "name": "피핀",
-      "class": "아이돌",
-      "name2": "헬",
-      "class2": "갬블러",
-      "roster": "나무킹-3, 헤라크로스-2, 쥬피썬더-2, 나시-2",
-      "species": "나무킹, 헤라크로스, 쥬피썬더, 나시",
-      "teams": [
-        "나무킹-3, 헤라크로스-2, 쥬피썬더-2, 나시-2"
-      ],
-      "late": "",
-      "quote": "정말 할 거야? 나랑?",
-      "quote2": "함께하지 않겠나! 우리의 화려한 내기를!",
-      "sprite": "assets/images/bdsptrainers/idol.png",
-      "sprite2": "assets/images/bdsptrainers/pi.png"
-    },
-    {
-      "name": "텍사스",
-      "class": "카우걸",
-      "name2": "파나르",
-      "class2": "엘리트 트레이너",
-      "roster": "레지락-4, 해피너스-2, 라티오스-4, 라프라스-2",
-      "species": "레지락, 해피너스, 라티오스, 라프라스",
-      "teams": [
-        "레지락-4, 해피너스-2, 라티오스-4, 라프라스-2"
-      ],
-      "late": "",
-      "quote": "열심히 하는 거야~! 와우 와우 와~!",
-      "quote2": "이젠 놓치지 않아 포기해",
-      "sprite": "assets/images/bdsptrainers/cowgirl.png",
-      "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
-    },
-    {
-      "name": "텍사스",
-      "class": "카우걸",
-      "name2": "이케르",
-      "class2": "웨이터",
-      "roster": "라플레시아-3, 날쌩마-2, 포푸니라-2, 비퀸-3",
-      "species": "라플레시아, 날쌩마, 포푸니라, 비퀸",
-      "teams": [
-        "라플레시아-3, 날쌩마-2, 포푸니라-2, 비퀸-3"
-      ],
-      "late": "",
-      "quote": "열심히 하는 거야~! 와우 와우 와~!",
-      "quote2": "어서 오세요~!!",
-      "sprite": "assets/images/bdsptrainers/cowgirl.png",
-      "sprite2": "assets/images/bdsptrainers/waiter.png"
-    },
-    {
-      "name": "공주",
-      "class": "배틀걸",
-      "name2": "원오",
-      "class2": "기타리스트",
-      "roster": "괴력몬-2, 라이코-1, 또도가스-2, 레지락-3",
-      "species": "괴력몬, 라이코, 또도가스, 레지락",
-      "teams": [
-        "괴력몬-2, 라이코-1, 또도가스-2, 레지락-3"
-      ],
-      "late": "",
-      "quote": "난 강하다 그뿐이야",
-      "quote2": "나와 내 포켓몬들의 코러스를 들어 주세요",
-      "sprite": "assets/images/bdsptrainers/battlegirl.png",
-      "sprite2": "assets/images/bdsptrainers/guitarist.png"
-    },
-    {
-      "name": "공주",
-      "class": "배틀걸",
-      "name2": "제롬",
-      "class2": "사이클링",
-      "roster": "앱솔-3, 레지기가스-3, 레지스틸-1, 딱구리-3",
-      "species": "앱솔, 레지기가스, 레지스틸, 딱구리",
-      "teams": [
-        "앱솔-3, 레지기가스-3, 레지스틸-1, 딱구리-3"
-      ],
-      "late": "",
-      "quote": "난 강하다 그뿐이야",
-      "quote2": "부우웅~~~!! 나의 풀 스로틀을 봐라~!",
-      "sprite": "assets/images/bdsptrainers/battlegirl.png",
-      "sprite2": "assets/images/bdsptrainers/cyclist-m.png"
-    },
-    {
-      "name": "규혜",
-      "class": "아이돌",
-      "name2": "존닥",
-      "class2": "등산가",
-      "roster": "샤미드-2, 후딘-2, 갸라도스-2, 내룸벨트-2",
-      "species": "샤미드, 후딘, 갸라도스, 내룸벨트",
-      "teams": [
-        "샤미드-2, 후딘-2, 갸라도스-2, 내룸벨트-2"
-      ],
-      "late": "",
-      "quote": "승부만이 내 삶의 보람 승리만이 나의 소망",
-      "quote2": "영차! 영차!",
-      "sprite": "assets/images/bdsptrainers/idol.png",
-      "sprite2": "assets/images/bdsptrainers/hiker.png"
-    },
-    {
-      "name": "규혜",
-      "class": "아이돌",
-      "name2": "선영",
-      "class2": "포켓몬 레인저",
-      "roster": "니드킹-2, 닥트리오-3, 드래피온-2, 그랑블루-2, 쁘사이저-2, 버섯모-2",
-      "species": "니드킹, 닥트리오, 드래피온, 그랑블루, 쁘사이저, 버섯모",
-      "teams": [
-        "니드킹-2, 닥트리오-3, 드래피온-2, 그랑블루-2",
-        "쁘사이저-2, 닥트리오-3, 드래피온-2, 버섯모-2"
-      ],
-      "late": "",
-      "quote": "승부만이 내 삶의 보람 승리만이 나의 소망",
-      "quote2": "자연의 힘을 보여 줄게!",
-      "sprite": "assets/images/bdsptrainers/idol.png",
-      "sprite2": "assets/images/bdsptrainers/pokemonranger-f.png"
-    },
-    {
-      "name": "단중",
-      "class": "Policeman",
-      "name2": "태사",
-      "class2": "포켓몬 브리더",
-      "roster": "로파파-2, 라프라스-2, 핫삼-2, 글라이온-2",
-      "species": "로파파, 라프라스, 핫삼, 글라이온",
-      "teams": [
-        "로파파-2, 라프라스-2, 핫삼-2, 글라이온-2"
-      ],
-      "late": "",
-      "quote": "드르렁... 드르렁...",
-      "quote2": "이기고 지는 것만이 승부가 아니야",
-      "sprite": "assets/images/bdsptrainers/policeofficer.png",
-      "sprite2": "assets/images/bdsptrainers/pokemonbreeder-m.png"
-    },
-    {
-      "name": "영혜",
-      "class": "포켓몬 브리더",
-      "name2": "호미",
-      "class2": "카메라맨",
-      "roster": "블레이범-3, 히드런-4, 붐볼-3, 로파파-3",
-      "species": "블레이범, 히드런, 붐볼, 로파파",
-      "teams": [
-        "블레이범-3, 히드런-4, 붐볼-3, 로파파-3"
-      ],
-      "late": "",
-      "quote": "포켓몬을 어떻게 키웠나 확인해 줄게",
-      "quote2": "물끄러미...",
-      "sprite": "assets/images/bdsptrainers/pokemonbreeder-f.png",
-      "sprite2": "assets/images/bdsptrainers/cameraman.png"
-    },
-    {
-      "name": "영혜",
-      "class": "포켓몬 브리더",
-      "name2": "스텐리",
-      "class2": "Policeman",
-      "roster": "루카리오-2, 우츠보트-3, 이어롭-2, 윈디-2",
-      "species": "루카리오, 우츠보트, 이어롭, 윈디",
-      "teams": [
-        "루카리오-2, 우츠보트-3, 이어롭-2, 윈디-2"
-      ],
-      "late": "",
-      "quote": "포켓몬을 어떻게 키웠나 확인해 줄게",
-      "quote2": "어이 너~ 거기 너~ 잠깐 기다려 봐~아!",
-      "sprite": "assets/images/bdsptrainers/pokemonbreeder-f.png",
-      "sprite2": "assets/images/bdsptrainers/policeofficer.png"
-    },
-    {
-      "name": "안암",
-      "class": "유적마니아",
-      "name2": "고신",
-      "class2": "포켓몬 컬렉터",
-      "roster": "레지기가스-4, 크레세리아-3, 프리져-1, 우츠보트-2",
-      "species": "레지기가스, 크레세리아, 프리져, 우츠보트",
-      "teams": [
-        "레지기가스-4, 크레세리아-3, 프리져-1, 우츠보트-2"
-      ],
-      "late": "",
-      "quote": "포켓몬 승부의 참맛은 최후의 일격에 있다!",
-      "quote2": "인터넷 친구들이 알려 준 정보를 바탕으로 키웠단다!",
-      "sprite": "assets/images/bdsptrainers/ruinmaniac.png",
-      "sprite2": "assets/images/bdsptrainers/collector.png"
-    },
-    {
-      "name": "안암",
-      "class": "유적마니아",
-      "name2": "도태랑",
-      "class2": "조깅",
-      "roster": "히드런-5, 날쌩마-3, 썬더-4, 엘레이드-2",
-      "species": "히드런, 날쌩마, 썬더, 엘레이드",
-      "teams": [
-        "히드런-5, 날쌩마-3, 썬더-4, 엘레이드-2"
-      ],
-      "late": "",
-      "quote": "포켓몬 승부의 참맛은 최후의 일격에 있다!",
-      "quote2": "내가 왜 여기에 있는 거야...",
-      "sprite": "assets/images/bdsptrainers/ruinmaniac.png",
-      "sprite2": "assets/images/bdsptrainers/jogger.png"
-    },
-    {
-      "name": "박사",
-      "class": "기타리스트",
-      "name2": "조조",
-      "class2": "배틀걸",
-      "roster": "메타그로스-2, 씨카이저-2, 하리뭉-3, 무장조-2",
-      "species": "메타그로스, 씨카이저, 하리뭉, 무장조",
-      "teams": [
-        "메타그로스-2, 씨카이저-2, 하리뭉-3, 무장조-2"
-      ],
-      "late": "",
-      "quote": "호오~ 너, 괜찮잖아",
-      "quote2": "얍~!",
-      "sprite": "assets/images/bdsptrainers/guitarist.png",
-      "sprite2": "assets/images/bdsptrainers/battlegirl.png"
-    },
-    {
-      "name": "박사",
-      "class": "기타리스트",
-      "name2": "얀",
-      "class2": "Socialite",
-      "roster": "밀탱크-2, 버섯모-2, 파비코리-2, 독파리-2",
-      "species": "밀탱크, 버섯모, 파비코리, 독파리",
-      "teams": [
-        "밀탱크-2, 버섯모-2, 파비코리-2, 독파리-2"
-      ],
-      "late": "",
-      "quote": "호오~ 너, 괜찮잖아",
-      "quote2": "아직 어린애잖아",
-      "sprite": "assets/images/bdsptrainers/guitarist.png",
-      "sprite2": "assets/images/bdsptrainers/madame.png"
-    },
-    {
-      "name": "박사",
-      "class": "기타리스트",
-      "name2": "신부",
-      "class2": "베테랑 트레이너",
-      "roster": "메가니움-3, 씨카이저-2, 또도가스-3, 무장조-2",
-      "species": "메가니움, 씨카이저, 또도가스, 무장조",
-      "teams": [
-        "메가니움-3, 씨카이저-2, 또도가스-3, 무장조-2"
-      ],
-      "late": "",
-      "quote": "호오~ 너, 괜찮잖아",
-      "quote2": "벌써 몇 년을 여기에 있지만 정말 질리지 않아",
-      "sprite": "assets/images/bdsptrainers/guitarist.png",
-      "sprite2": "assets/images/bdsptrainers/veteran.png"
-    },
-    {
-      "name": "파오",
-      "class": "아이돌",
-      "name2": "황하",
-      "class2": "포켓몬 브리더",
-      "roster": "플라이곤-2, 썬더-3, 라이코-4, 요가램-3",
-      "species": "플라이곤, 썬더, 라이코, 요가램",
-      "teams": [
-        "플라이곤-2, 썬더-3, 라이코-4, 요가램-3"
-      ],
-      "late": "",
-      "quote": "너, 괜찮겠어? 난 엄청 대단하다구!",
-      "quote2": "엄해도 안 돼... 응석을 받아 줘도 안 돼...",
-      "sprite": "assets/images/bdsptrainers/idol.png",
-      "sprite2": "assets/images/bdsptrainers/pokemonbreeder-f.png"
-    },
-    {
-      "name": "파오",
-      "class": "아이돌",
-      "name2": "펠",
-      "class2": "피에로",
-      "roster": "야도킹-2, 랜턴-3, 메깅-2, 하마돈-2",
-      "species": "야도킹, 랜턴, 메깅, 하마돈",
-      "teams": [
-        "야도킹-2, 랜턴-3, 메깅-2, 하마돈-2"
-      ],
-      "late": "",
-      "quote": "너, 괜찮겠어? 난 엄청 대단하다구!",
-      "quote2": "포켓몬 승부라고 하는 건 말야 모래 위에 쓴 러브레터와 같은 거야",
-      "sprite": "assets/images/bdsptrainers/idol.png",
-      "sprite2": "assets/images/bdsptrainers/clown.png"
-    },
-    {
-      "name": "파오",
-      "class": "아이돌",
-      "name2": "성웅",
-      "class2": "Fisherman",
-      "roster": "레지기가스-5, 골덕-3, 프테라-2, 레지락-1",
-      "species": "레지기가스, 골덕, 프테라, 레지락",
-      "teams": [
-        "레지기가스-5, 골덕-3, 프테라-2, 레지락-1"
-      ],
-      "late": "",
-      "quote": "너, 괜찮겠어? 난 엄청 대단하다구!",
-      "quote2": "신오에서 제일가는 낚시 테크닉! 보여 주도록 하지!",
-      "sprite": "assets/images/bdsptrainers/idol.png",
-      "sprite2": "assets/images/bdsptrainers/fisher.png"
-    }
-  ]
+ "trainers": [
+  {
+   "name": "벨가",
+   "class": "엘리트 트레이너",
+   "name2": "아마폴라",
+   "class2": "빡빡이",
+   "roster": "찌르호크-3, 플로젤-2, 무우마직-3, 라티아스-4",
+   "species": "찌르호크, 플로젤, 무우마직, 라티아스",
+   "teams": [
+    "찌르호크-3, 플로젤-2, 무우마직-3, 라티아스-4"
+   ],
+   "late": "",
+   "quote": "이야이야! 즐겁게 놀아 보자!",
+   "quote2": "아버지... 어머니... 저를 봐 주세요...",
+   "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
+   "sprite2": "assets/images/bdsptrainers/roughneck.png"
+  },
+  {
+   "name": "벨가",
+   "class": "엘리트 트레이너",
+   "name2": "국호",
+   "class2": "Pokefan (F)",
+   "roster": "눈설왕-2, 레지스틸-3, 이어롭-3, 전룡-2",
+   "species": "눈설왕, 레지스틸, 이어롭, 전룡",
+   "teams": [
+    "눈설왕-2, 레지스틸-3, 이어롭-3, 전룡-2"
+   ],
+   "late": "",
+   "quote": "이야이야! 즐겁게 놀아 보자!",
+   "quote2": "아줌마가 이래 봬도 젊었을 때는 잘 나갔었단다",
+   "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
+   "sprite2": "assets/images/bdsptrainers/pokefan-f.png"
+  },
+  {
+   "name": "시겔",
+   "class": "빡빡이",
+   "name2": "아마폴라",
+   "class2": "빡빡이",
+   "roster": "메깅-3, 쁘사이저-2, 라이츄-2, 켄타로스-3",
+   "species": "메깅, 쁘사이저, 라이츄, 켄타로스",
+   "teams": [
+    "메깅-3, 쁘사이저-2, 라이츄-2, 켄타로스-3"
+   ],
+   "late": "",
+   "quote": "나 사실은 승부를 별로 좋아하지 않거든",
+   "quote2": "아버지... 어머니... 저를 봐 주세요...",
+   "sprite": "assets/images/bdsptrainers/roughneck.png",
+   "sprite2": "assets/images/bdsptrainers/roughneck.png"
+  },
+  {
+   "name": "시겔",
+   "class": "빡빡이",
+   "name2": "기지",
+   "class2": "작업원",
+   "roster": "슬리퍼-2, 트리토돈-2, 폭음룡-2, 닥트리오-3",
+   "species": "슬리퍼, 트리토돈, 폭음룡, 닥트리오",
+   "teams": [
+    "슬리퍼-2, 트리토돈-2, 폭음룡-2, 닥트리오-3"
+   ],
+   "late": "",
+   "quote": "나 사실은 승부를 별로 좋아하지 않거든",
+   "quote2": "폐기해 주겠어",
+   "sprite": "assets/images/bdsptrainers/roughneck.png",
+   "sprite2": "assets/images/bdsptrainers/worker.png"
+  },
+  {
+   "name": "시겔",
+   "class": "빡빡이",
+   "name2": "네모",
+   "class2": "신사",
+   "roster": "킹드라-2, 레지락-1, 블레이범-3, 썬더-1",
+   "species": "킹드라, 레지락, 블레이범, 썬더",
+   "teams": [
+    "킹드라-2, 레지락-1, 블레이범-3, 썬더-1"
+   ],
+   "late": "",
+   "quote": "나 사실은 승부를 별로 좋아하지 않거든",
+   "quote2": "동심으로 돌아가서 승부를 해 볼까요!",
+   "sprite": "assets/images/bdsptrainers/roughneck.png",
+   "sprite2": "assets/images/bdsptrainers/gentleman.png"
+  },
+  {
+   "name": "시겔",
+   "class": "빡빡이",
+   "name2": "스텐리",
+   "class2": "Policeman",
+   "roster": "바리톱스-2, 헬가-2, 메타그로스-2, 대코파스-2",
+   "species": "바리톱스, 헬가, 메타그로스, 대코파스",
+   "teams": [
+    "바리톱스-2, 헬가-2, 메타그로스-2, 대코파스-2"
+   ],
+   "late": "",
+   "quote": "나 사실은 승부를 별로 좋아하지 않거든",
+   "quote2": "어이 너~ 거기 너~ 잠깐 기다려 봐~아!",
+   "sprite": "assets/images/bdsptrainers/roughneck.png",
+   "sprite2": "assets/images/bdsptrainers/policeofficer.png"
+  },
+  {
+   "name": "존닥",
+   "class": "등산가",
+   "name2": "에드록",
+   "class2": "포켓몬 브리더",
+   "roster": "링곰-2, 앤테이-1, 코리갑-3, 또도가스-3",
+   "species": "링곰, 앤테이, 코리갑, 또도가스",
+   "teams": [
+    "링곰-2, 앤테이-1, 코리갑-3, 또도가스-3"
+   ],
+   "late": "",
+   "quote": "영차! 영차!",
+   "quote2": "소개합니다! 저의 소중한 파트너!",
+   "sprite": "assets/images/bdsptrainers/hiker.png",
+   "sprite2": "assets/images/bdsptrainers/pokemonbreeder-m.png"
+  },
+  {
+   "name": "존닥",
+   "class": "등산가",
+   "name2": "리포맨",
+   "class2": "연구원",
+   "roster": "프리져-2, 독파리-2, 레지락-3, 보만다-2",
+   "species": "프리져, 독파리, 레지락, 보만다",
+   "teams": [
+    "프리져-2, 독파리-2, 레지락-3, 보만다-2"
+   ],
+   "late": "",
+   "quote": "영차! 영차!",
+   "quote2": "과학의 힘이에요!",
+   "sprite": "assets/images/bdsptrainers/hiker.png",
+   "sprite2": "assets/images/bdsptrainers/scientist.png"
+  },
+  {
+   "name": "존닥",
+   "class": "등산가",
+   "name2": "테프코",
+   "class2": "Socialite",
+   "roster": "둥실라이드-3, 밀탱크-3, 골덕-2, 앤테이-4",
+   "species": "둥실라이드, 밀탱크, 골덕, 앤테이",
+   "teams": [
+    "둥실라이드-3, 밀탱크-3, 골덕-2, 앤테이-4"
+   ],
+   "late": "",
+   "quote": "영차! 영차!",
+   "quote2": "우리 아이는 강하고 훌륭한 트레이너가 되게 할 거야",
+   "sprite": "assets/images/bdsptrainers/hiker.png",
+   "sprite2": "assets/images/bdsptrainers/madame.png"
+  },
+  {
+   "name": "바바르",
+   "class": "새 조련사",
+   "name2": "헬",
+   "class2": "갬블러",
+   "roster": "거대코뿌리-3, 윈디-2, 핫삼-2, 질뻐기-3",
+   "species": "거대코뿌리, 윈디, 핫삼, 질뻐기",
+   "teams": [
+    "거대코뿌리-3, 윈디-2, 핫삼-2, 질뻐기-3"
+   ],
+   "late": "",
+   "quote": "인생에는 생각대로 되지 않는 것도 많지!",
+   "quote2": "함께하지 않겠나! 우리의 화려한 내기를!",
+   "sprite": "assets/images/bdsptrainers/birdkeeper.png",
+   "sprite2": "assets/images/bdsptrainers/pi.png"
+  },
+  {
+   "name": "바바르",
+   "class": "새 조련사",
+   "name2": "킹",
+   "class2": "갬블러",
+   "roster": "트리토돈-3, 요가램-2, 히드런-2, 보스로라-2",
+   "species": "트리토돈, 요가램, 히드런, 보스로라",
+   "teams": [
+    "트리토돈-3, 요가램-2, 히드런-2, 보스로라-2"
+   ],
+   "late": "",
+   "quote": "인생에는 생각대로 되지 않는 것도 많지!",
+   "quote2": "제대로 승부해 볼까",
+   "sprite": "assets/images/bdsptrainers/birdkeeper.png",
+   "sprite2": "assets/images/bdsptrainers/pi.png"
+  },
+  {
+   "name": "희주",
+   "class": "초능력자",
+   "name2": "묵크",
+   "class2": "포켓몬 컬렉터",
+   "roster": "눈설왕-2, 프테라-2, 블레이범-3, 글레이시아-2",
+   "species": "눈설왕, 프테라, 블레이범, 글레이시아",
+   "teams": [
+    "눈설왕-2, 프테라-2, 블레이범-3, 글레이시아-2"
+   ],
+   "late": "",
+   "quote": "오빠가 가르쳐 줬어! 눈이다! 눈을 노려라 하고 말야!",
+   "quote2": "잠깐 기다려 봐 메일을 쓰고 있었어",
+   "sprite": "assets/images/bdsptrainers/psychic-f.png",
+   "sprite2": "assets/images/bdsptrainers/collector.png"
+  },
+  {
+   "name": "희주",
+   "class": "초능력자",
+   "name2": "에이미",
+   "class2": "사이클링",
+   "roster": "바리톱스-3, 해피너스-2, 얼음귀신-3, 포푸니라-2",
+   "species": "바리톱스, 해피너스, 얼음귀신, 포푸니라",
+   "teams": [
+    "바리톱스-3, 해피너스-2, 얼음귀신-3, 포푸니라-2"
+   ],
+   "late": "",
+   "quote": "오빠가 가르쳐 줬어! 눈이다! 눈을 노려라 하고 말야!",
+   "quote2": "따르릉 따르릉",
+   "sprite": "assets/images/bdsptrainers/psychic-f.png",
+   "sprite2": "assets/images/bdsptrainers/cyclist-f.png"
+  },
+  {
+   "name": "제논",
+   "class": "드래곤 조련사",
+   "name2": "죽호",
+   "class2": "태권왕",
+   "roster": "링곰-2, 프리져-3, 폴리곤2-2, 스이쿤-1",
+   "species": "링곰, 프리져, 폴리곤2, 스이쿤",
+   "teams": [
+    "링곰-2, 프리져-3, 폴리곤2-2, 스이쿤-1"
+   ],
+   "late": "",
+   "quote": "푸하하핫! 다음 상대는 바로 나다!",
+   "quote2": "안녕!!",
+   "sprite": "assets/images/bdsptrainers/dragontamer.png",
+   "sprite2": "assets/images/bdsptrainers/blackbelt.png"
+  },
+  {
+   "name": "제논",
+   "class": "드래곤 조련사",
+   "name2": "옥진",
+   "class2": "피에로",
+   "roster": "야도란-2, 대짱이-3, 니드킹-2, 레지아이스-3",
+   "species": "야도란, 대짱이, 니드킹, 레지아이스",
+   "teams": [
+    "야도란-2, 대짱이-3, 니드킹-2, 레지아이스-3"
+   ],
+   "late": "",
+   "quote": "푸하하핫! 다음 상대는 바로 나다!",
+   "quote2": "최선을 다하겠습니다 잘 부탁합니다!",
+   "sprite": "assets/images/bdsptrainers/dragontamer.png",
+   "sprite2": "assets/images/bdsptrainers/clown.png"
+  },
+  {
+   "name": "밥히크",
+   "class": "목장아저씨",
+   "name2": "쾨니히",
+   "class2": "포켓몬 레인저",
+   "roster": "대짱이-3, 밀탱크-3, 앤테이-2, 동탁군-2",
+   "species": "대짱이, 밀탱크, 앤테이, 동탁군",
+   "teams": [
+    "대짱이-3, 밀탱크-3, 앤테이-2, 동탁군-2"
+   ],
+   "late": "",
+   "quote": "도련님? 아기씨? 상관없으니까 간다!",
+   "quote2": "나랑 승부하자고? 난 몰라!",
+   "sprite": "assets/images/bdsptrainers/rancher.png",
+   "sprite2": "assets/images/bdsptrainers/pokemonranger-f.png"
+  },
+  {
+   "name": "모롯소",
+   "class": "등산가",
+   "name2": "원오",
+   "class2": "기타리스트",
+   "roster": "찌르호크-2, 겟핸보숭-2, 텅구리-3, 아말도-2",
+   "species": "찌르호크, 겟핸보숭, 텅구리, 아말도",
+   "teams": [
+    "찌르호크-2, 겟핸보숭-2, 텅구리-3, 아말도-2"
+   ],
+   "late": "",
+   "quote": "산뜻하게 승부하자! 자! 웃는 거야!",
+   "quote2": "나와 내 포켓몬들의 코러스를 들어 주세요",
+   "sprite": "assets/images/bdsptrainers/hiker.png",
+   "sprite2": "assets/images/bdsptrainers/guitarist.png"
+  },
+  {
+   "name": "모롯소",
+   "class": "등산가",
+   "name2": "자넷",
+   "class2": "리포터",
+   "roster": "라플레시아-2, 겟핸보숭-2, 텅구리-3, 아말도-2",
+   "species": "라플레시아, 겟핸보숭, 텅구리, 아말도",
+   "teams": [
+    "라플레시아-2, 겟핸보숭-2, 텅구리-3, 아말도-2"
+   ],
+   "late": "",
+   "quote": "산뜻하게 승부하자! 자! 웃는 거야!",
+   "quote2": "자, 어떻게 공격할까?",
+   "sprite": "assets/images/bdsptrainers/hiker.png",
+   "sprite2": "assets/images/bdsptrainers/reporter.png"
+  },
+  {
+   "name": "모롯소",
+   "class": "등산가",
+   "name2": "에이미",
+   "class2": "사이클링",
+   "roster": "하리뭉-3, 대코파스-2, 블래키-2, 앱솔-2",
+   "species": "하리뭉, 대코파스, 블래키, 앱솔",
+   "teams": [
+    "하리뭉-3, 대코파스-2, 블래키-2, 앱솔-2"
+   ],
+   "late": "",
+   "quote": "산뜻하게 승부하자! 자! 웃는 거야!",
+   "quote2": "따르릉 따르릉",
+   "sprite": "assets/images/bdsptrainers/hiker.png",
+   "sprite2": "assets/images/bdsptrainers/cyclist-f.png"
+  },
+  {
+   "name": "모롯소",
+   "class": "등산가",
+   "name2": "조조",
+   "class2": "배틀걸",
+   "roster": "핫삼-3, 릴리요-2, 눈여아-3, 마그마번-2",
+   "species": "핫삼, 릴리요, 눈여아, 마그마번",
+   "teams": [
+    "핫삼-3, 릴리요-2, 눈여아-3, 마그마번-2"
+   ],
+   "late": "",
+   "quote": "산뜻하게 승부하자! 자! 웃는 거야!",
+   "quote2": "얍~!",
+   "sprite": "assets/images/bdsptrainers/hiker.png",
+   "sprite2": "assets/images/bdsptrainers/battlegirl.png"
+  },
+  {
+   "name": "어치",
+   "class": "새 조련사",
+   "name2": "라지칸트",
+   "class2": "선원",
+   "roster": "씨카이저-2, 킹드라-2, 강철톤-2, 로파파-2",
+   "species": "씨카이저, 킹드라, 강철톤, 로파파",
+   "teams": [
+    "씨카이저-2, 킹드라-2, 강철톤-2, 로파파-2"
+   ],
+   "late": "",
+   "quote": "이젠 도망갈 곳이 없어!",
+   "quote2": "어어? 네가 상대야? 왠지 불안한걸...",
+   "sprite": "assets/images/bdsptrainers/birdkeeper.png",
+   "sprite2": "assets/images/bdsptrainers/sailor.png"
+  },
+  {
+   "name": "어치",
+   "class": "새 조련사",
+   "name2": "앵클",
+   "class2": "아로마 아가씨",
+   "roster": "킹드라-2, 레지아이스-4, 리자몽-3, 니드킹-3",
+   "species": "킹드라, 레지아이스, 리자몽, 니드킹",
+   "teams": [
+    "킹드라-2, 레지아이스-4, 리자몽-3, 니드킹-3"
+   ],
+   "late": "",
+   "quote": "이젠 도망갈 곳이 없어!",
+   "quote2": "좋은 향기를 맡고 있으면 졸려서 큰일이야...",
+   "sprite": "assets/images/bdsptrainers/birdkeeper.png",
+   "sprite2": "assets/images/bdsptrainers/aromalady.png"
+  },
+  {
+   "name": "페드로",
+   "class": "베테랑 트레이너",
+   "name2": "훈미",
+   "class2": "아로마 아가씨",
+   "roster": "폴리곤Z-2, 크레세리아-3, 쥬레곤-3, 헬가-3",
+   "species": "폴리곤Z, 크레세리아, 쥬레곤, 헬가",
+   "teams": [
+    "폴리곤Z-2, 크레세리아-3, 쥬레곤-3, 헬가-3"
+   ],
+   "late": "",
+   "quote": "처음부터 말해 두지... 넌 나를 이길 수 없어",
+   "quote2": "나를 이기려면 말야 십 년은 걸릴 거라구!!",
+   "sprite": "assets/images/bdsptrainers/veteran.png",
+   "sprite2": "assets/images/bdsptrainers/aromalady.png"
+  },
+  {
+   "name": "작장",
+   "class": "갬블러",
+   "name2": "아마폴라",
+   "class2": "빡빡이",
+   "roster": "이어롭-3, 로즈레이드-2, 핫삼-3, 스컹탱크-3",
+   "species": "이어롭, 로즈레이드, 핫삼, 스컹탱크",
+   "teams": [
+    "이어롭-3, 로즈레이드-2, 핫삼-3, 스컹탱크-3"
+   ],
+   "late": "",
+   "quote": "너는 뭘 걸 거야? 나는 모든 것을 걸 거야!",
+   "quote2": "아버지... 어머니... 저를 봐 주세요...",
+   "sprite": "assets/images/bdsptrainers/pi.png",
+   "sprite2": "assets/images/bdsptrainers/roughneck.png"
+  },
+  {
+   "name": "작장",
+   "class": "갬블러",
+   "name2": "유장",
+   "class2": "갬블러",
+   "roster": "무우마직-2, 장크로다일-3, 메깅-3, 스이쿤-4",
+   "species": "무우마직, 장크로다일, 메깅, 스이쿤",
+   "teams": [
+    "무우마직-2, 장크로다일-3, 메깅-3, 스이쿤-4"
+   ],
+   "late": "",
+   "quote": "너는 뭘 걸 거야? 나는 모든 것을 걸 거야!",
+   "quote2": "승부란 말야 좀스럽게 계산하는 게 아냐~!",
+   "sprite": "assets/images/bdsptrainers/pi.png",
+   "sprite2": "assets/images/bdsptrainers/pi.png"
+  },
+  {
+   "name": "호미",
+   "class": "카메라맨",
+   "name2": "텍사스",
+   "class2": "카우걸",
+   "roster": "폭음룡-3, 라이코-1, 랜턴-2, 밀로틱-3",
+   "species": "폭음룡, 라이코, 랜턴, 밀로틱",
+   "teams": [
+    "폭음룡-3, 라이코-1, 랜턴-2, 밀로틱-3"
+   ],
+   "late": "",
+   "quote": "물끄러미...",
+   "quote2": "열심히 하는 거야~! 와우 와우 와~!",
+   "sprite": "assets/images/bdsptrainers/cameraman.png",
+   "sprite2": "assets/images/bdsptrainers/cowgirl.png"
+  },
+  {
+   "name": "용식",
+   "class": "포켓몬 트레이너",
+   "name2": "종수",
+   "class2": "타워타이쿤",
+   "roster": "엠페르트-5, 찌르호크-5, 거대코뿌리-10, 히드런-12, 헤라크로스-5, 초염몽-7, 망나뇽-9, 크레세리아-11, 토대부기-5, 잠만보-4, 밀로틱-8, 히드런-7",
+   "species": "엠페르트, 찌르호크, 거대코뿌리, 히드런, 헤라크로스, 초염몽, 망나뇽, 크레세리아, 토대부기, 잠만보, 밀로틱",
+   "teams": [
+    "엠페르트-5, 찌르호크-5, 거대코뿌리-10, 히드런-12",
+    "헤라크로스-5, 초염몽-7, 망나뇽-9, 크레세리아-11",
+    "토대부기-5, 잠만보-4, 밀로틱-8, 히드런-7"
+   ],
+   "late": "",
+   "quote": "왔구나!! 나는 여기서 아빠를 만나서 목표를 하나 이룰 수 있었어! 하지만 아직 한 가지 목표가 더 남았어 세계에서 제일 강한 포켓몬 트레이너가 되는 거 말이야! 그건 지금부터 너를 쓰러뜨려서 이뤄 내고 말겠어!",
+   "quote2": "안녕, 용케 여기까지 올라왔구나! 내 아들이 너를 만난 덕분인지 몰라보게 달라졌더구나 진심으로 고맙게 생각한다! 그럼 이제부터는 타워타이쿤으로서 아들과 함께 전력으로 너를 상대해 주마! 자 타워타이쿤인 나에게 그 실력을 펼쳐 보거라!",
+   "sprite": "assets/images/bdsptrainers/barry.png",
+   "sprite2": "assets/images/bdsptrainers/palmer.png"
+  },
+  {
+   "name": "에드록",
+   "class": "포켓몬 브리더",
+   "name2": "안토니오",
+   "class2": "웨이터",
+   "roster": "덩쿠림보-2, 레지스틸-2, 쏘콘-3, 폭음룡-2",
+   "species": "덩쿠림보, 레지스틸, 쏘콘, 폭음룡",
+   "teams": [
+    "덩쿠림보-2, 레지스틸-2, 쏘콘-3, 폭음룡-2"
+   ],
+   "late": "",
+   "quote": "소개합니다! 저의 소중한 파트너!",
+   "quote2": "오~! 너 강해 보이는걸~! 재미있겠다 재미있겠어!",
+   "sprite": "assets/images/bdsptrainers/pokemonbreeder-m.png",
+   "sprite2": "assets/images/bdsptrainers/waiter.png"
+  },
+  {
+   "name": "충남",
+   "class": "Fisherman",
+   "name2": "안톤",
+   "class2": "엘리트 트레이너",
+   "roster": "골덕-2, 레지스틸-4, 라티오스-4, 라티아스-4",
+   "species": "골덕, 레지스틸, 라티오스, 라티아스",
+   "teams": [
+    "골덕-2, 레지스틸-4, 라티오스-4, 라티아스-4"
+   ],
+   "late": "",
+   "quote": "나는 낚시와 승부를 정말 많이 좋아해",
+   "quote2": "유! 정말 안 되겠어~ 미가 가르쳐 주지~",
+   "sprite": "assets/images/bdsptrainers/fisher.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-m.png"
+  },
+  {
+   "name": "충남",
+   "class": "Fisherman",
+   "name2": "세피로",
+   "class2": "드래곤 조련사",
+   "roster": "야도킹-3, 파이어-2, 눈여아-2, 거북왕-3",
+   "species": "야도킹, 파이어, 눈여아, 거북왕",
+   "teams": [
+    "야도킹-3, 파이어-2, 눈여아-2, 거북왕-3"
+   ],
+   "late": "",
+   "quote": "나는 낚시와 승부를 정말 많이 좋아해",
+   "quote2": "가거라~! 단련을 마친 나의 포켓몬이여~!",
+   "sprite": "assets/images/bdsptrainers/fisher.png",
+   "sprite2": "assets/images/bdsptrainers/dragontamer.png"
+  },
+  {
+   "name": "충남",
+   "class": "Fisherman",
+   "name2": "남고",
+   "class2": "연구원",
+   "roster": "잠만보-2, 독개굴-3, 게을킹-2, 스이쿤-3",
+   "species": "잠만보, 독개굴, 게을킹, 스이쿤",
+   "teams": [
+    "잠만보-2, 독개굴-3, 게을킹-2, 스이쿤-3"
+   ],
+   "late": "",
+   "quote": "나는 낚시와 승부를 정말 많이 좋아해",
+   "quote2": "돌격하라! 나의 포켓몬! 실험의 성과를 보여 다오!",
+   "sprite": "assets/images/bdsptrainers/fisher.png",
+   "sprite2": "assets/images/bdsptrainers/scientist.png"
+  },
+  {
+   "name": "충남",
+   "class": "Fisherman",
+   "name2": "에이미",
+   "class2": "사이클링",
+   "roster": "썬더-1, 왕구리-3, 아쿠스타-2, 눈여아-2",
+   "species": "썬더, 왕구리, 아쿠스타, 눈여아",
+   "teams": [
+    "썬더-1, 왕구리-3, 아쿠스타-2, 눈여아-2"
+   ],
+   "late": "",
+   "quote": "나는 낚시와 승부를 정말 많이 좋아해",
+   "quote2": "따르릉 따르릉",
+   "sprite": "assets/images/bdsptrainers/fisher.png",
+   "sprite2": "assets/images/bdsptrainers/cyclist-f.png"
+  },
+  {
+   "name": "맥",
+   "class": "포켓몬 트레이너",
+   "name2": "들국화",
+   "class2": "사천왕",
+   "roster": "크레세리아-8, 점토도리-4, 거대코뿌리-6, 강철톤-4, 레지락-6, 점토도리-5, 하마돈-4, 거대코뿌리-7, 크레세리아-9, 코리갑-4, 거대코뿌리-5",
+   "species": "크레세리아, 점토도리, 거대코뿌리, 강철톤, 레지락, 하마돈, 코리갑",
+   "teams": [
+    "크레세리아-8, 점토도리-4, 거대코뿌리-6, 강철톤-4",
+    "레지락-6, 점토도리-5, 하마돈-4, 거대코뿌리-7",
+    "점토도리-5, 크레세리아-9, 코리갑-4, 거대코뿌리-5"
+   ],
+   "late": "",
+   "quote": "오!! 누가 먼저 꼭대기에 도달할지 승부다!",
+   "quote2": "오호호! 젊은 애들은 착실하게 천천히 가는 게 어떠니?",
+   "sprite": "assets/images/bdsptrainers/buck.png",
+   "sprite2": "assets/images/bdsptrainers/bertha.png"
+  },
+  {
+   "name": "닉",
+   "class": "선원",
+   "name2": "작장",
+   "class2": "갬블러",
+   "roster": "플로젤-3, 점토도리-2, 아말도-3, 렌트라-2",
+   "species": "플로젤, 점토도리, 아말도, 렌트라",
+   "teams": [
+    "플로젤-3, 점토도리-2, 아말도-3, 렌트라-2"
+   ],
+   "late": "",
+   "quote": "커다란 배를 타고 왔어요오오~!",
+   "quote2": "너는 뭘 걸 거야? 나는 모든 것을 걸 거야!",
+   "sprite": "assets/images/bdsptrainers/sailor.png",
+   "sprite2": "assets/images/bdsptrainers/pi.png"
+  },
+  {
+   "name": "닉",
+   "class": "선원",
+   "name2": "기지",
+   "class2": "작업원",
+   "roster": "딱구리-3, 크레세리아-2, 붐볼-3, 하리뭉-2",
+   "species": "딱구리, 크레세리아, 붐볼, 하리뭉",
+   "teams": [
+    "딱구리-3, 크레세리아-2, 붐볼-3, 하리뭉-2"
+   ],
+   "late": "",
+   "quote": "커다란 배를 타고 왔어요오오~!",
+   "quote2": "폐기해 주겠어",
+   "sprite": "assets/images/bdsptrainers/sailor.png",
+   "sprite2": "assets/images/bdsptrainers/worker.png"
+  },
+  {
+   "name": "리포맨",
+   "class": "연구원",
+   "name2": "제논",
+   "class2": "드래곤 조련사",
+   "roster": "프리져-4, 얼음귀신-2, 자포코일-2, 라티아스-2",
+   "species": "프리져, 얼음귀신, 자포코일, 라티아스",
+   "teams": [
+    "프리져-4, 얼음귀신-2, 자포코일-2, 라티아스-2"
+   ],
+   "late": "",
+   "quote": "과학의 힘이에요!",
+   "quote2": "푸하하핫! 다음 상대는 바로 나다!",
+   "sprite": "assets/images/bdsptrainers/scientist.png",
+   "sprite2": "assets/images/bdsptrainers/dragontamer.png"
+  },
+  {
+   "name": "리포맨",
+   "class": "연구원",
+   "name2": "소기",
+   "class2": "엘리트 트레이너",
+   "roster": "맘모꾸리-3, 니드킹-3, 강챙이-3, 릴리요-2",
+   "species": "맘모꾸리, 니드킹, 강챙이, 릴리요",
+   "teams": [
+    "맘모꾸리-3, 니드킹-3, 강챙이-3, 릴리요-2"
+   ],
+   "late": "",
+   "quote": "과학의 힘이에요!",
+   "quote2": "자 덤벼 봐!",
+   "sprite": "assets/images/bdsptrainers/scientist.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
+  },
+  {
+   "name": "호학",
+   "class": "엘리트 트레이너",
+   "name2": "펠",
+   "class2": "피에로",
+   "roster": "코리갑-2, 단단지-2, 라플레시아-2, 루카리오-2",
+   "species": "코리갑, 단단지, 라플레시아, 루카리오",
+   "teams": [
+    "코리갑-2, 단단지-2, 라플레시아-2, 루카리오-2"
+   ],
+   "late": "",
+   "quote": "봐주지 말라구!",
+   "quote2": "포켓몬 승부라고 하는 건 말야 모래 위에 쓴 러브레터와 같은 거야",
+   "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
+   "sprite2": "assets/images/bdsptrainers/clown.png"
+  },
+  {
+   "name": "호학",
+   "class": "엘리트 트레이너",
+   "name2": "이케르",
+   "class2": "웨이터",
+   "roster": "레지기가스-4, 파비코리-3, 이상해꽃-3, 후딘-2",
+   "species": "레지기가스, 파비코리, 이상해꽃, 후딘",
+   "teams": [
+    "레지기가스-4, 파비코리-3, 이상해꽃-3, 후딘-2"
+   ],
+   "late": "",
+   "quote": "봐주지 말라구!",
+   "quote2": "어서 오세요~!!",
+   "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
+   "sprite2": "assets/images/bdsptrainers/waiter.png"
+  },
+  {
+   "name": "헬",
+   "class": "갬블러",
+   "name2": "영혜",
+   "class2": "포켓몬 브리더",
+   "roster": "날쌩마-2, 자포코일-2, 썬더-3, 스컹탱크-2",
+   "species": "날쌩마, 자포코일, 썬더, 스컹탱크",
+   "teams": [
+    "날쌩마-2, 자포코일-2, 썬더-3, 스컹탱크-2"
+   ],
+   "late": "",
+   "quote": "함께하지 않겠나! 우리의 화려한 내기를!",
+   "quote2": "포켓몬을 어떻게 키웠나 확인해 줄게",
+   "sprite": "assets/images/bdsptrainers/pi.png",
+   "sprite2": "assets/images/bdsptrainers/pokemonbreeder-f.png"
+  },
+  {
+   "name": "금성",
+   "class": "파라솔 아가씨",
+   "name2": "에마",
+   "class2": "태권왕",
+   "roster": "크레세리아-2, 메가니움-3, 레지락-2, 야도킹-2",
+   "species": "크레세리아, 메가니움, 레지락, 야도킹",
+   "teams": [
+    "크레세리아-2, 메가니움-3, 레지락-2, 야도킹-2"
+   ],
+   "late": "",
+   "quote": "비가 오나 눈이 오나 여기서 강한 트레이너를 찾는 나",
+   "quote2": "포켓몬 승부는 진지한 승부 조금이라도 방심해서는 안 되는 것이다!",
+   "sprite": "assets/images/bdsptrainers/parasollady.png",
+   "sprite2": "assets/images/bdsptrainers/blackbelt.png"
+  },
+  {
+   "name": "금성",
+   "class": "파라솔 아가씨",
+   "name2": "자일스",
+   "class2": "사이클링",
+   "roster": "돈크로우-2, 스이쿤-3, 라티아스-1, 썬더볼트-3",
+   "species": "돈크로우, 스이쿤, 라티아스, 썬더볼트",
+   "teams": [
+    "돈크로우-2, 스이쿤-3, 라티아스-1, 썬더볼트-3"
+   ],
+   "late": "",
+   "quote": "비가 오나 눈이 오나 여기서 강한 트레이너를 찾는 나",
+   "quote2": "안녕! 강해 보이는 트레이너구나!",
+   "sprite": "assets/images/bdsptrainers/parasollady.png",
+   "sprite2": "assets/images/bdsptrainers/cyclist-m.png"
+  },
+  {
+   "name": "금성",
+   "class": "파라솔 아가씨",
+   "name2": "장길",
+   "class2": "초능력자",
+   "roster": "붐볼-2, 겟핸보숭-3, 쥬레곤-2, 야도란-3",
+   "species": "붐볼, 겟핸보숭, 쥬레곤, 야도란",
+   "teams": [
+    "붐볼-2, 겟핸보숭-3, 쥬레곤-2, 야도란-3"
+   ],
+   "late": "",
+   "quote": "비가 오나 눈이 오나 여기서 강한 트레이너를 찾는 나",
+   "quote2": "내 형제들이 귀여워해 줄 거다!",
+   "sprite": "assets/images/bdsptrainers/parasollady.png",
+   "sprite2": "assets/images/bdsptrainers/psychic-m.png"
+  },
+  {
+   "name": "노노",
+   "class": "초능력자",
+   "name2": "소기",
+   "class2": "엘리트 트레이너",
+   "roster": "스이쿤-1, 코리갑-2, 야느와르몽-2, 마기라스-2",
+   "species": "스이쿤, 코리갑, 야느와르몽, 마기라스",
+   "teams": [
+    "스이쿤-1, 코리갑-2, 야느와르몽-2, 마기라스-2"
+   ],
+   "late": "",
+   "quote": "빙글 빙글 빙글...",
+   "quote2": "자 덤벼 봐!",
+   "sprite": "assets/images/bdsptrainers/psychic-f.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
+  },
+  {
+   "name": "노노",
+   "class": "초능력자",
+   "name2": "선레이",
+   "class2": "웨이트리스",
+   "roster": "켄타로스-2, 부스터-2, 헤라크로스-3, 게을킹-2",
+   "species": "켄타로스, 부스터, 헤라크로스, 게을킹",
+   "teams": [
+    "켄타로스-2, 부스터-2, 헤라크로스-3, 게을킹-2"
+   ],
+   "late": "",
+   "quote": "빙글 빙글 빙글...",
+   "quote2": "귀여운 손님! 서비스 많이 줄게!",
+   "sprite": "assets/images/bdsptrainers/psychic-f.png",
+   "sprite2": "assets/images/bdsptrainers/waitress.png"
+  },
+  {
+   "name": "노르",
+   "class": "초능력자",
+   "name2": "수사",
+   "class2": "카메라맨",
+   "roster": "쏘콘-2, 썬더-4, 레지아이스-4, 루주라-3",
+   "species": "쏘콘, 썬더, 레지아이스, 루주라",
+   "teams": [
+    "쏘콘-2, 썬더-4, 레지아이스-4, 루주라-3"
+   ],
+   "late": "",
+   "quote": "보여 주지~! 초능력의 신비한 파워를!",
+   "quote2": "너 같은 트레이너를 계속 기다리고 있었어",
+   "sprite": "assets/images/bdsptrainers/psychic-m.png",
+   "sprite2": "assets/images/bdsptrainers/cameraman.png"
+  },
+  {
+   "name": "킹",
+   "class": "갬블러",
+   "name2": "노르",
+   "class2": "초능력자",
+   "roster": "니드퀸-3, 얼음귀신-2, 누오-2, 점토도리-2",
+   "species": "니드퀸, 얼음귀신, 누오, 점토도리",
+   "teams": [
+    "니드퀸-3, 얼음귀신-2, 누오-2, 점토도리-2"
+   ],
+   "late": "",
+   "quote": "제대로 승부해 볼까",
+   "quote2": "보여 주지~! 초능력의 신비한 파워를!",
+   "sprite": "assets/images/bdsptrainers/pi.png",
+   "sprite2": "assets/images/bdsptrainers/psychic-m.png"
+  },
+  {
+   "name": "유장",
+   "class": "갬블러",
+   "name2": "나유타",
+   "class2": "엘리트 트레이너",
+   "roster": "레지기가스-2, 라이코-2, 독개굴-2, 라티오스-2",
+   "species": "레지기가스, 라이코, 독개굴, 라티오스",
+   "teams": [
+    "레지기가스-2, 라이코-2, 독개굴-2, 라티오스-2"
+   ],
+   "late": "",
+   "quote": "승부란 말야 좀스럽게 계산하는 게 아냐~!",
+   "quote2": "으~핫! 으~핫! 이길 수 있다고 생각하는가~!",
+   "sprite": "assets/images/bdsptrainers/pi.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-m.png"
+  },
+  {
+   "name": "유장",
+   "class": "갬블러",
+   "name2": "옥진",
+   "class2": "피에로",
+   "roster": "딱구리-2, 부스터-2, 히드런-2, 무우마직-2",
+   "species": "딱구리, 부스터, 히드런, 무우마직",
+   "teams": [
+    "딱구리-2, 부스터-2, 히드런-2, 무우마직-2"
+   ],
+   "late": "",
+   "quote": "승부란 말야 좀스럽게 계산하는 게 아냐~!",
+   "quote2": "최선을 다하겠습니다 잘 부탁합니다!",
+   "sprite": "assets/images/bdsptrainers/pi.png",
+   "sprite2": "assets/images/bdsptrainers/clown.png"
+  },
+  {
+   "name": "소기",
+   "class": "엘리트 트레이너",
+   "name2": "호학",
+   "class2": "엘리트 트레이너",
+   "roster": "밀탱크-2, 앤테이-4, 파이어-2, 얼음귀신-3",
+   "species": "밀탱크, 앤테이, 파이어, 얼음귀신",
+   "teams": [
+    "밀탱크-2, 앤테이-4, 파이어-2, 얼음귀신-3"
+   ],
+   "late": "",
+   "quote": "자 덤벼 봐!",
+   "quote2": "봐주지 말라구!",
+   "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
+  },
+  {
+   "name": "안톤",
+   "class": "엘리트 트레이너",
+   "name2": "호미",
+   "class2": "카메라맨",
+   "roster": "크로뱃-2, 레지락-4, 레지아이스-2, 에레키블-2",
+   "species": "크로뱃, 레지락, 레지아이스, 에레키블",
+   "teams": [
+    "크로뱃-2, 레지락-4, 레지아이스-2, 에레키블-2"
+   ],
+   "late": "",
+   "quote": "유! 정말 안 되겠어~ 미가 가르쳐 주지~",
+   "quote2": "물끄러미...",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/cameraman.png"
+  },
+  {
+   "name": "안톤",
+   "class": "엘리트 트레이너",
+   "name2": "염평",
+   "class2": "유적마니아",
+   "roster": "대짱이-3, 윈디-2, 헤라크로스-3, 라플레시아-3",
+   "species": "대짱이, 윈디, 헤라크로스, 라플레시아",
+   "teams": [
+    "대짱이-3, 윈디-2, 헤라크로스-3, 라플레시아-3"
+   ],
+   "late": "",
+   "quote": "유! 정말 안 되겠어~ 미가 가르쳐 주지~",
+   "quote2": "기합을 넣어라",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/ruinmaniac.png"
+  },
+  {
+   "name": "죽호",
+   "class": "태권왕",
+   "name2": "선레이",
+   "class2": "웨이트리스",
+   "roster": "프리져-2, 골덕-3, 번치코-3, 슬리퍼-3",
+   "species": "프리져, 골덕, 번치코, 슬리퍼",
+   "teams": [
+    "프리져-2, 골덕-3, 번치코-3, 슬리퍼-3"
+   ],
+   "late": "",
+   "quote": "안녕!!",
+   "quote2": "귀여운 손님! 서비스 많이 줄게!",
+   "sprite": "assets/images/bdsptrainers/blackbelt.png",
+   "sprite2": "assets/images/bdsptrainers/waitress.png"
+  },
+  {
+   "name": "죽호",
+   "class": "태권왕",
+   "name2": "수사",
+   "class2": "카메라맨",
+   "roster": "라티오스-2, 스이쿤-2, 쥬레곤-2, 엘레이드-2",
+   "species": "라티오스, 스이쿤, 쥬레곤, 엘레이드",
+   "teams": [
+    "라티오스-2, 스이쿤-2, 쥬레곤-2, 엘레이드-2"
+   ],
+   "late": "",
+   "quote": "안녕!!",
+   "quote2": "너 같은 트레이너를 계속 기다리고 있었어",
+   "sprite": "assets/images/bdsptrainers/blackbelt.png",
+   "sprite2": "assets/images/bdsptrainers/cameraman.png"
+  },
+  {
+   "name": "자일스",
+   "class": "사이클링",
+   "name2": "동상",
+   "class2": "작업원",
+   "roster": "레지아이스-2, 라티아스-1, 트리토돈-3, 레지스틸-2",
+   "species": "레지아이스, 라티아스, 트리토돈, 레지스틸",
+   "teams": [
+    "레지아이스-2, 라티아스-1, 트리토돈-3, 레지스틸-2"
+   ],
+   "late": "",
+   "quote": "안녕! 강해 보이는 트레이너구나!",
+   "quote2": "오! 괜찮은걸! 잘하는구나!",
+   "sprite": "assets/images/bdsptrainers/cyclist-m.png",
+   "sprite2": "assets/images/bdsptrainers/worker.png"
+  },
+  {
+   "name": "자일스",
+   "class": "사이클링",
+   "name2": "고려",
+   "class2": "카우걸",
+   "roster": "폴리곤2-2, 토게키스-2, 강챙이-2, 스이쿤-1",
+   "species": "폴리곤2, 토게키스, 강챙이, 스이쿤",
+   "teams": [
+    "폴리곤2-2, 토게키스-2, 강챙이-2, 스이쿤-1"
+   ],
+   "late": "",
+   "quote": "안녕! 강해 보이는 트레이너구나!",
+   "quote2": "끝을 내 주지",
+   "sprite": "assets/images/bdsptrainers/cyclist-m.png",
+   "sprite2": "assets/images/bdsptrainers/cowgirl.png"
+  },
+  {
+   "name": "빌리",
+   "class": "포켓몬 레인저",
+   "name2": "중주",
+   "class2": "신사",
+   "roster": "딱구리-2, 쏘콘-2, 무우마직-3, 독개굴-3",
+   "species": "딱구리, 쏘콘, 무우마직, 독개굴",
+   "teams": [
+    "딱구리-2, 쏘콘-2, 무우마직-3, 독개굴-3"
+   ],
+   "late": "",
+   "quote": "아하하! 안됐군! 상대는 나야!",
+   "quote2": "하하하하!! 잘 싸워 나가고 있구나!",
+   "sprite": "assets/images/bdsptrainers/pokemonranger-m.png",
+   "sprite2": "assets/images/bdsptrainers/gentleman.png"
+  },
+  {
+   "name": "우신",
+   "class": "엘리트 트레이너",
+   "name2": "마애",
+   "class2": "엘리트 트레이너",
+   "roster": "카포에라-2, 가디안-4, 후딘-4, 한카리아스-6, 맘모꾸리-3",
+   "species": "카포에라, 가디안, 후딘, 한카리아스, 맘모꾸리",
+   "teams": [
+    "카포에라-2, 가디안-4, 후딘-4, 한카리아스-6",
+    "카포에라-2, 가디안-4, 후딘-4, 맘모꾸리-3"
+   ],
+   "late": "",
+   "quote": "기대하고 있으니까... 실망시키지 말아 줘!",
+   "quote2": "이것은 인생의 큰 승부! 질 수는 없다!",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
+  },
+  {
+   "name": "고신",
+   "class": "포켓몬 컬렉터",
+   "name2": "남고",
+   "class2": "연구원",
+   "roster": "레지스틸-1, 고래왕-2, 히드런-2, 강챙이-3",
+   "species": "레지스틸, 고래왕, 히드런, 강챙이",
+   "teams": [
+    "레지스틸-1, 고래왕-2, 히드런-2, 강챙이-3"
+   ],
+   "late": "",
+   "quote": "인터넷 친구들이 알려 준 정보를 바탕으로 키웠단다!",
+   "quote2": "돌격하라! 나의 포켓몬! 실험의 성과를 보여 다오!",
+   "sprite": "assets/images/bdsptrainers/collector.png",
+   "sprite2": "assets/images/bdsptrainers/scientist.png"
+  },
+  {
+   "name": "관진",
+   "class": "아이돌",
+   "name2": "킹",
+   "class2": "갬블러",
+   "roster": "썬더-1, 텅구리-3, 로파파-2, 쥬레곤-2",
+   "species": "썬더, 텅구리, 로파파, 쥬레곤",
+   "teams": [
+    "썬더-1, 텅구리-3, 로파파-2, 쥬레곤-2"
+   ],
+   "late": "",
+   "quote": "노래하고 춤춰서 너를 꼼짝 못 하게 만들어 줘야지!",
+   "quote2": "제대로 승부해 볼까",
+   "sprite": "assets/images/bdsptrainers/idol.png",
+   "sprite2": "assets/images/bdsptrainers/pi.png"
+  },
+  {
+   "name": "관진",
+   "class": "아이돌",
+   "name2": "안암",
+   "class2": "유적마니아",
+   "roster": "그랑블루-3, 눈설왕-3, 둥실라이드-2, 앤테이-2",
+   "species": "그랑블루, 눈설왕, 둥실라이드, 앤테이",
+   "teams": [
+    "그랑블루-3, 눈설왕-3, 둥실라이드-2, 앤테이-2"
+   ],
+   "late": "",
+   "quote": "노래하고 춤춰서 너를 꼼짝 못 하게 만들어 줘야지!",
+   "quote2": "포켓몬 승부의 참맛은 최후의 일격에 있다!",
+   "sprite": "assets/images/bdsptrainers/idol.png",
+   "sprite2": "assets/images/bdsptrainers/ruinmaniac.png"
+  },
+  {
+   "name": "사부",
+   "class": "엘리트 트레이너",
+   "name2": "호미",
+   "class2": "카메라맨",
+   "roster": "레지스틸-4, 갸라도스-2, 폴리곤Z-2, 스이쿤-4",
+   "species": "레지스틸, 갸라도스, 폴리곤Z, 스이쿤",
+   "teams": [
+    "레지스틸-4, 갸라도스-2, 폴리곤Z-2, 스이쿤-4"
+   ],
+   "late": "",
+   "quote": "난 이길 거야 정말이야",
+   "quote2": "물끄러미...",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/cameraman.png"
+  },
+  {
+   "name": "사부",
+   "class": "엘리트 트레이너",
+   "name2": "파나르",
+   "class2": "엘리트 트레이너",
+   "roster": "눈설왕-4, 거대코뿌리-4, 동탁군-3, 로토무-워시-2, 코터스-2",
+   "species": "눈설왕, 거대코뿌리, 동탁군, 로토무-워시, 코터스",
+   "teams": [
+    "눈설왕-4, 거대코뿌리-4, 동탁군-3, 로토무-워시-2",
+    "눈설왕-4, 코터스-2, 동탁군-3, 로토무-워시-2"
+   ],
+   "late": "",
+   "quote": "난 이길 거야 정말이야",
+   "quote2": "이젠 놓치지 않아 포기해",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
+  },
+  {
+   "name": "사부",
+   "class": "엘리트 트레이너",
+   "name2": "묵크",
+   "class2": "포켓몬 컬렉터",
+   "roster": "헬가-2, 캥카-3, 전룡-3, 크레세리아-4",
+   "species": "헬가, 캥카, 전룡, 크레세리아",
+   "teams": [
+    "헬가-2, 캥카-3, 전룡-3, 크레세리아-4"
+   ],
+   "late": "",
+   "quote": "난 이길 거야 정말이야",
+   "quote2": "잠깐 기다려 봐 메일을 쓰고 있었어",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/collector.png"
+  },
+  {
+   "name": "대엽",
+   "class": "사천왕",
+   "name2": "전진",
+   "class2": "체육관 관장",
+   "roster": "번치코-8, 마그마번-4, 로토무-워시-4, 에레키블-5, 로토무-히트-2, 마그마번-5, 에레키블-6, 썬더-13, 초염몽-6, 앤테이-6, 렌트라-4",
+   "species": "번치코, 마그마번, 로토무-워시, 에레키블, 로토무-히트, 썬더, 초염몽, 앤테이, 렌트라",
+   "teams": [
+    "번치코-8, 마그마번-4, 로토무-워시-4, 에레키블-5",
+    "로토무-히트-2, 마그마번-5, 에레키블-6, 썬더-13",
+    "초염몽-6, 앤테이-6, 렌트라-4, 썬더-13"
+   ],
+   "late": "",
+   "quote": "오!! 하트에 불은 타오르고 있어?",
+   "quote2": "역시 왔구나, 마침 지루하던 참이었어!",
+   "sprite": "assets/images/bdsptrainers/flint.png",
+   "sprite2": "assets/images/bdsptrainers/volkner.png"
+  },
+  {
+   "name": "유채",
+   "class": "체육관 관장",
+   "name2": "멜리사",
+   "class2": "체육관 관장",
+   "roster": "다탱구-5, 버섯모-8, 깜까미-2, 팬텀-7, 이상해꽃-8, 로즈레이드-5, 팬텀-8, 덩쿠림보-4, 토대부기-4, 야느와르몽-3, 다크펫-2",
+   "species": "다탱구, 버섯모, 깜까미, 팬텀, 이상해꽃, 로즈레이드, 덩쿠림보, 토대부기, 야느와르몽, 다크펫",
+   "teams": [
+    "다탱구-5, 버섯모-8, 깜까미-2, 팬텀-7",
+    "이상해꽃-8, 로즈레이드-5, 깜까미-2, 팬텀-8",
+    "덩쿠림보-4, 토대부기-4, 야느와르몽-3, 다크펫-2"
+   ],
+   "late": "",
+   "quote": "내 예상이 맞다면! 나와 멜리사의 콤비로 너를 쓰러뜨릴 수 있을 거야!",
+   "quote2": "우리의 듀엣을 지켜보십시오~!",
+   "sprite": "assets/images/bdsptrainers/gardenia.png",
+   "sprite2": "assets/images/bdsptrainers/fantina.png"
+  },
+  {
+   "name": "장길",
+   "class": "초능력자",
+   "name2": "네모",
+   "class2": "신사",
+   "roster": "붐볼-2, 크레세리아-4, 엠페르트-3, 팬텀-2",
+   "species": "붐볼, 크레세리아, 엠페르트, 팬텀",
+   "teams": [
+    "붐볼-2, 크레세리아-4, 엠페르트-3, 팬텀-2"
+   ],
+   "late": "",
+   "quote": "내 형제들이 귀여워해 줄 거다!",
+   "quote2": "동심으로 돌아가서 승부를 해 볼까요!",
+   "sprite": "assets/images/bdsptrainers/psychic-m.png",
+   "sprite2": "assets/images/bdsptrainers/gentleman.png"
+  },
+  {
+   "name": "장길",
+   "class": "초능력자",
+   "name2": "라지칸트",
+   "class2": "선원",
+   "roster": "고래왕-3, 골덕-3, 번치코-3, 후딘-3",
+   "species": "고래왕, 골덕, 번치코, 후딘",
+   "teams": [
+    "고래왕-3, 골덕-3, 번치코-3, 후딘-3"
+   ],
+   "late": "",
+   "quote": "내 형제들이 귀여워해 줄 거다!",
+   "quote2": "어어? 네가 상대야? 왠지 불안한걸...",
+   "sprite": "assets/images/bdsptrainers/psychic-m.png",
+   "sprite2": "assets/images/bdsptrainers/sailor.png"
+  },
+  {
+   "name": "기지",
+   "class": "작업원",
+   "name2": "에마",
+   "class2": "태권왕",
+   "roster": "쥬피썬더-2, 눈여아-3, 그랑블루-3, 에브이-2",
+   "species": "쥬피썬더, 눈여아, 그랑블루, 에브이",
+   "teams": [
+    "쥬피썬더-2, 눈여아-3, 그랑블루-3, 에브이-2"
+   ],
+   "late": "",
+   "quote": "폐기해 주겠어",
+   "quote2": "포켓몬 승부는 진지한 승부 조금이라도 방심해서는 안 되는 것이다!",
+   "sprite": "assets/images/bdsptrainers/worker.png",
+   "sprite2": "assets/images/bdsptrainers/blackbelt.png"
+  },
+  {
+   "name": "태사",
+   "class": "포켓몬 브리더",
+   "name2": "고신",
+   "class2": "포켓몬 컬렉터",
+   "roster": "마임맨-3, 스컹탱크-3, 썬더-2, 로파파-3",
+   "species": "마임맨, 스컹탱크, 썬더, 로파파",
+   "teams": [
+    "마임맨-3, 스컹탱크-3, 썬더-2, 로파파-3"
+   ],
+   "late": "",
+   "quote": "이기고 지는 것만이 승부가 아니야",
+   "quote2": "인터넷 친구들이 알려 준 정보를 바탕으로 키웠단다!",
+   "sprite": "assets/images/bdsptrainers/pokemonbreeder-m.png",
+   "sprite2": "assets/images/bdsptrainers/collector.png"
+  },
+  {
+   "name": "태사",
+   "class": "포켓몬 브리더",
+   "name2": "제롬",
+   "class2": "사이클링",
+   "roster": "슬리퍼-3, 코뿌리-2, 히드런-5, 얼음귀신-3",
+   "species": "슬리퍼, 코뿌리, 히드런, 얼음귀신",
+   "teams": [
+    "슬리퍼-3, 코뿌리-2, 히드런-5, 얼음귀신-3"
+   ],
+   "late": "",
+   "quote": "이기고 지는 것만이 승부가 아니야",
+   "quote2": "부우웅~~~!! 나의 풀 스로틀을 봐라~!",
+   "sprite": "assets/images/bdsptrainers/pokemonbreeder-m.png",
+   "sprite2": "assets/images/bdsptrainers/cyclist-m.png"
+  },
+  {
+   "name": "훈미",
+   "class": "아로마 아가씨",
+   "name2": "국호",
+   "class2": "Pokefan (F)",
+   "roster": "강철톤-2, 루주라-2, 파비코리-3, 우츠보트-2",
+   "species": "강철톤, 루주라, 파비코리, 우츠보트",
+   "teams": [
+    "강철톤-2, 루주라-2, 파비코리-3, 우츠보트-2"
+   ],
+   "late": "",
+   "quote": "나를 이기려면 말야 십 년은 걸릴 거라구!!",
+   "quote2": "아줌마가 이래 봬도 젊었을 때는 잘 나갔었단다",
+   "sprite": "assets/images/bdsptrainers/aromalady.png",
+   "sprite2": "assets/images/bdsptrainers/pokefan-f.png"
+  },
+  {
+   "name": "훈미",
+   "class": "아로마 아가씨",
+   "name2": "중주",
+   "class2": "신사",
+   "roster": "왕구리-2, 랜턴-2, 우츠보트-3, 라티오스-1",
+   "species": "왕구리, 랜턴, 우츠보트, 라티오스",
+   "teams": [
+    "왕구리-2, 랜턴-2, 우츠보트-3, 라티오스-1"
+   ],
+   "late": "",
+   "quote": "나를 이기려면 말야 십 년은 걸릴 거라구!!",
+   "quote2": "하하하하!! 잘 싸워 나가고 있구나!",
+   "sprite": "assets/images/bdsptrainers/aromalady.png",
+   "sprite2": "assets/images/bdsptrainers/gentleman.png"
+  },
+  {
+   "name": "문사",
+   "class": "엘리트 트레이너",
+   "name2": "아그네스",
+   "class2": "엘리트 트레이너",
+   "roster": "왕구리-4, 썬더-7, 킹드라-4, 핫삼-5, 라프라스-3",
+   "species": "왕구리, 썬더, 킹드라, 핫삼, 라프라스",
+   "teams": [
+    "왕구리-4, 썬더-7, 킹드라-4, 핫삼-5",
+    "왕구리-4, 라프라스-3, 킹드라-4, 핫삼-5"
+   ],
+   "late": "",
+   "quote": "아무것도 생각하지 않아도 괜찮잖아! 즐겁기만 하면 되잖아!",
+   "quote2": "나는 모든 승부에 전력을 다해 도전한다!",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
+  },
+  {
+   "name": "세피로",
+   "class": "드래곤 조련사",
+   "name2": "원오",
+   "class2": "기타리스트",
+   "roster": "하마돈-2, 버섯모-3, 글레이시아-2, 라이코-3",
+   "species": "하마돈, 버섯모, 글레이시아, 라이코",
+   "teams": [
+    "하마돈-2, 버섯모-3, 글레이시아-2, 라이코-3"
+   ],
+   "late": "",
+   "quote": "가거라~! 단련을 마친 나의 포켓몬이여~!",
+   "quote2": "나와 내 포켓몬들의 코러스를 들어 주세요",
+   "sprite": "assets/images/bdsptrainers/dragontamer.png",
+   "sprite2": "assets/images/bdsptrainers/guitarist.png"
+  },
+  {
+   "name": "세피로",
+   "class": "드래곤 조련사",
+   "name2": "이케르",
+   "class2": "웨이터",
+   "roster": "썬더볼트-2, 라티아스-3, 마기라스-2, 쏘콘-3",
+   "species": "썬더볼트, 라티아스, 마기라스, 쏘콘",
+   "teams": [
+    "썬더볼트-2, 라티아스-3, 마기라스-2, 쏘콘-3"
+   ],
+   "late": "",
+   "quote": "가거라~! 단련을 마친 나의 포켓몬이여~!",
+   "quote2": "어서 오세요~!!",
+   "sprite": "assets/images/bdsptrainers/dragontamer.png",
+   "sprite2": "assets/images/bdsptrainers/waiter.png"
+  },
+  {
+   "name": "파나르",
+   "class": "엘리트 트레이너",
+   "name2": "선영",
+   "class2": "포켓몬 레인저",
+   "roster": "플라이곤-2, 니드킹-2, 그랑블루-3, 프리져-3",
+   "species": "플라이곤, 니드킹, 그랑블루, 프리져",
+   "teams": [
+    "플라이곤-2, 니드킹-2, 그랑블루-3, 프리져-3"
+   ],
+   "late": "",
+   "quote": "이젠 놓치지 않아 포기해",
+   "quote2": "자연의 힘을 보여 줄게!",
+   "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
+   "sprite2": "assets/images/bdsptrainers/pokemonranger-f.png"
+  },
+  {
+   "name": "파나르",
+   "class": "엘리트 트레이너",
+   "name2": "호령",
+   "class2": "웨이트리스",
+   "roster": "마그마번-2, 썬더볼트-2, 글라이온-2, 레지기가스-2",
+   "species": "마그마번, 썬더볼트, 글라이온, 레지기가스",
+   "teams": [
+    "마그마번-2, 썬더볼트-2, 글라이온-2, 레지기가스-2"
+   ],
+   "late": "",
+   "quote": "이젠 놓치지 않아 포기해",
+   "quote2": "어서 오세요!",
+   "sprite": "assets/images/bdsptrainers/acetrainer-f.png",
+   "sprite2": "assets/images/bdsptrainers/waitress.png"
+  },
+  {
+   "name": "조만",
+   "class": "아가씨",
+   "name2": "호령",
+   "class2": "웨이트리스",
+   "roster": "라티아스-2, 스이쿤-3, 헬가-3, 라이코-4",
+   "species": "라티아스, 스이쿤, 헬가, 라이코",
+   "teams": [
+    "라티아스-2, 스이쿤-3, 헬가-3, 라이코-4"
+   ],
+   "late": "",
+   "quote": "어머... 희귀한 포켓몬이네...",
+   "quote2": "어서 오세요!",
+   "sprite": "assets/images/bdsptrainers/beauty.png",
+   "sprite2": "assets/images/bdsptrainers/waitress.png"
+  },
+  {
+   "name": "조만",
+   "class": "아가씨",
+   "name2": "밥",
+   "class2": "목장아저씨",
+   "roster": "히드런-4, 코리갑-3, 리피아-2, 레지스틸-3",
+   "species": "히드런, 코리갑, 리피아, 레지스틸",
+   "teams": [
+    "히드런-4, 코리갑-3, 리피아-2, 레지스틸-3"
+   ],
+   "late": "",
+   "quote": "어머... 희귀한 포켓몬이네...",
+   "quote2": "힘내거라! 사랑하는 아이들아!",
+   "sprite": "assets/images/bdsptrainers/beauty.png",
+   "sprite2": "assets/images/bdsptrainers/rancher.png"
+  },
+  {
+   "name": "선레이",
+   "class": "웨이트리스",
+   "name2": "염평",
+   "class2": "유적마니아",
+   "roster": "폭음룡-3, 날쌩마-3, 마임맨-3, 히드런-5",
+   "species": "폭음룡, 날쌩마, 마임맨, 히드런",
+   "teams": [
+    "폭음룡-3, 날쌩마-3, 마임맨-3, 히드런-5"
+   ],
+   "late": "",
+   "quote": "귀여운 손님! 서비스 많이 줄게!",
+   "quote2": "기합을 넣어라",
+   "sprite": "assets/images/bdsptrainers/waitress.png",
+   "sprite2": "assets/images/bdsptrainers/ruinmaniac.png"
+  },
+  {
+   "name": "오송",
+   "class": "엘리트 트레이너",
+   "name2": "다유우",
+   "class2": "리포터",
+   "roster": "썬더볼트-3, 코뿌리-2, 토대부기-3, 장크로다일-3, 앤테이-1, 라이코-2, 쥬레곤-3, 블래키-2",
+   "species": "썬더볼트, 코뿌리, 토대부기, 장크로다일, 앤테이, 라이코, 쥬레곤, 블래키",
+   "teams": [
+    "썬더볼트-3, 코뿌리-2, 토대부기-3, 장크로다일-3",
+    "앤테이-1, 라이코-2, 쥬레곤-3, 블래키-2"
+   ],
+   "late": "",
+   "quote": "전력투구다!",
+   "quote2": "제가 포켓몬 승부의 참맛을 보여 드리죠!",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/reporter.png"
+  },
+  {
+   "name": "염평",
+   "class": "유적마니아",
+   "name2": "빌리",
+   "class2": "포켓몬 레인저",
+   "roster": "한카리아스-2, 보스로라-2, 눈설왕-2, 플로젤-2",
+   "species": "한카리아스, 보스로라, 눈설왕, 플로젤",
+   "teams": [
+    "한카리아스-2, 보스로라-2, 눈설왕-2, 플로젤-2"
+   ],
+   "late": "",
+   "quote": "기합을 넣어라",
+   "quote2": "아하하! 안됐군! 상대는 나야!",
+   "sprite": "assets/images/bdsptrainers/ruinmaniac.png",
+   "sprite2": "assets/images/bdsptrainers/pokemonranger-m.png"
+  },
+  {
+   "name": "네모",
+   "class": "신사",
+   "name2": "바바르",
+   "class2": "새 조련사",
+   "roster": "레지아이스-1, 히드런-3, 플로젤-3, 루주라-2",
+   "species": "레지아이스, 히드런, 플로젤, 루주라",
+   "teams": [
+    "레지아이스-1, 히드런-3, 플로젤-3, 루주라-2"
+   ],
+   "late": "",
+   "quote": "동심으로 돌아가서 승부를 해 볼까요!",
+   "quote2": "인생에는 생각대로 되지 않는 것도 많지!",
+   "sprite": "assets/images/bdsptrainers/gentleman.png",
+   "sprite2": "assets/images/bdsptrainers/birdkeeper.png"
+  },
+  {
+   "name": "네모",
+   "class": "신사",
+   "name2": "작장",
+   "class2": "갬블러",
+   "roster": "에브이-2, 누오-3, 스이쿤-2, 전룡-3",
+   "species": "에브이, 누오, 스이쿤, 전룡",
+   "teams": [
+    "에브이-2, 누오-3, 스이쿤-2, 전룡-3"
+   ],
+   "late": "",
+   "quote": "동심으로 돌아가서 승부를 해 볼까요!",
+   "quote2": "너는 뭘 걸 거야? 나는 모든 것을 걸 거야!",
+   "sprite": "assets/images/bdsptrainers/gentleman.png",
+   "sprite2": "assets/images/bdsptrainers/pi.png"
+  },
+  {
+   "name": "수사",
+   "class": "카메라맨",
+   "name2": "벨가",
+   "class2": "엘리트 트레이너",
+   "roster": "이어롭-2, 버섯모-3, 보만다-2, 엘레이드-2",
+   "species": "이어롭, 버섯모, 보만다, 엘레이드",
+   "teams": [
+    "이어롭-2, 버섯모-3, 보만다-2, 엘레이드-2"
+   ],
+   "late": "",
+   "quote": "너 같은 트레이너를 계속 기다리고 있었어",
+   "quote2": "이야이야! 즐겁게 놀아 보자!",
+   "sprite": "assets/images/bdsptrainers/cameraman.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
+  },
+  {
+   "name": "수사",
+   "class": "카메라맨",
+   "name2": "황하",
+   "class2": "포켓몬 브리더",
+   "roster": "메깅-2, 샤미드-2, 썬더볼트-2, 렌트라-2",
+   "species": "메깅, 샤미드, 썬더볼트, 렌트라",
+   "teams": [
+    "메깅-2, 샤미드-2, 썬더볼트-2, 렌트라-2"
+   ],
+   "late": "",
+   "quote": "너 같은 트레이너를 계속 기다리고 있었어",
+   "quote2": "엄해도 안 돼... 응석을 받아 줘도 안 돼...",
+   "sprite": "assets/images/bdsptrainers/cameraman.png",
+   "sprite2": "assets/images/bdsptrainers/pokemonbreeder-f.png"
+  },
+  {
+   "name": "자넷",
+   "class": "리포터",
+   "name2": "에드록",
+   "class2": "포켓몬 브리더",
+   "roster": "맘모꾸리-2, 켄타로스-3, 팬텀-3, 레지락-3",
+   "species": "맘모꾸리, 켄타로스, 팬텀, 레지락",
+   "teams": [
+    "맘모꾸리-2, 켄타로스-3, 팬텀-3, 레지락-3"
+   ],
+   "late": "",
+   "quote": "자, 어떻게 공격할까?",
+   "quote2": "소개합니다! 저의 소중한 파트너!",
+   "sprite": "assets/images/bdsptrainers/reporter.png",
+   "sprite2": "assets/images/bdsptrainers/pokemonbreeder-m.png"
+  },
+  {
+   "name": "자넷",
+   "class": "리포터",
+   "name2": "노르",
+   "class2": "초능력자",
+   "roster": "링곰-3, 코뿌리-3, 나시-2, 초염몽-3",
+   "species": "링곰, 코뿌리, 나시, 초염몽",
+   "teams": [
+    "링곰-3, 코뿌리-3, 나시-2, 초염몽-3"
+   ],
+   "late": "",
+   "quote": "자, 어떻게 공격할까?",
+   "quote2": "보여 주지~! 초능력의 신비한 파워를!",
+   "sprite": "assets/images/bdsptrainers/reporter.png",
+   "sprite2": "assets/images/bdsptrainers/psychic-m.png"
+  },
+  {
+   "name": "자넷",
+   "class": "리포터",
+   "name2": "파오",
+   "class2": "아이돌",
+   "roster": "레지아이스-3, 다탱구-2, 헬가-3, 마임맨-3",
+   "species": "레지아이스, 다탱구, 헬가, 마임맨",
+   "teams": [
+    "레지아이스-3, 다탱구-2, 헬가-3, 마임맨-3"
+   ],
+   "late": "",
+   "quote": "자, 어떻게 공격할까?",
+   "quote2": "너, 괜찮겠어? 난 엄청 대단하다구!",
+   "sprite": "assets/images/bdsptrainers/reporter.png",
+   "sprite2": "assets/images/bdsptrainers/idol.png"
+  },
+  {
+   "name": "다유우",
+   "class": "리포터",
+   "name2": "노노",
+   "class2": "초능력자",
+   "roster": "로즈레이드-2, 레지기가스-5, 질뻐기-2, 슬리퍼-2",
+   "species": "로즈레이드, 레지기가스, 질뻐기, 슬리퍼",
+   "teams": [
+    "로즈레이드-2, 레지기가스-5, 질뻐기-2, 슬리퍼-2"
+   ],
+   "late": "",
+   "quote": "제가 포켓몬 승부의 참맛을 보여 드리죠!",
+   "quote2": "빙글 빙글 빙글...",
+   "sprite": "assets/images/bdsptrainers/reporter.png",
+   "sprite2": "assets/images/bdsptrainers/psychic-f.png"
+  },
+  {
+   "name": "쾨니히",
+   "class": "포켓몬 레인저",
+   "name2": "규혜",
+   "class2": "아이돌",
+   "roster": "하리뭉-2, 돈크로우-2, 레지스틸-1, 라티아스-3",
+   "species": "하리뭉, 돈크로우, 레지스틸, 라티아스",
+   "teams": [
+    "하리뭉-2, 돈크로우-2, 레지스틸-1, 라티아스-3"
+   ],
+   "late": "",
+   "quote": "나랑 승부하자고? 난 몰라!",
+   "quote2": "승부만이 내 삶의 보람 승리만이 나의 소망",
+   "sprite": "assets/images/bdsptrainers/pokemonranger-f.png",
+   "sprite2": "assets/images/bdsptrainers/idol.png"
+  },
+  {
+   "name": "주피터",
+   "class": "갤럭시단",
+   "name2": "새턴",
+   "class2": "갤럭시단",
+   "roster": "니드킹-5, 스컹탱크-4, 앱솔-4, 깜까미-4, 팬텀-8, 독개굴-4, 샤크니아-2, 크로뱃-3, 마기라스-10",
+   "species": "니드킹, 스컹탱크, 앱솔, 깜까미, 팬텀, 독개굴, 샤크니아, 크로뱃, 마기라스",
+   "teams": [
+    "니드킹-5, 스컹탱크-4, 앱솔-4, 깜까미-4",
+    "팬텀-8, 독개굴-4, 스컹탱크-4, 샤크니아-2",
+    "크로뱃-3, 독개굴-4, 샤크니아-2, 마기라스-10"
+   ],
+   "late": "",
+   "quote": "여기엔 무슨 볼일이지? 뭐, 물어볼 필요도 없나?",
+   "quote2": "뭐야, 너인가... 내 직책은 잠깐 접어 두고 상대해 주지",
+   "sprite": "assets/images/bdsptrainers/jupiter.png",
+   "sprite2": "assets/images/bdsptrainers/saturn.png"
+  },
+  {
+   "name": "호령",
+   "class": "웨이트리스",
+   "name2": "얀",
+   "class2": "Socialite",
+   "roster": "라이코-3, 레지아이스-1, 썬더-2, 램펄드-2",
+   "species": "라이코, 레지아이스, 썬더, 램펄드",
+   "teams": [
+    "라이코-3, 레지아이스-1, 썬더-2, 램펄드-2"
+   ],
+   "late": "",
+   "quote": "어서 오세요!",
+   "quote2": "아직 어린애잖아",
+   "sprite": "assets/images/bdsptrainers/waitress.png",
+   "sprite2": "assets/images/bdsptrainers/madame.png"
+  },
+  {
+   "name": "테프코",
+   "class": "Socialite",
+   "name2": "조만",
+   "class2": "아가씨",
+   "roster": "썬더-3, 또도가스-2, 메깅-2, 파비코리-2",
+   "species": "썬더, 또도가스, 메깅, 파비코리",
+   "teams": [
+    "썬더-3, 또도가스-2, 메깅-2, 파비코리-2"
+   ],
+   "late": "",
+   "quote": "우리 아이는 강하고 훌륭한 트레이너가 되게 할 거야",
+   "quote2": "어머... 희귀한 포켓몬이네...",
+   "sprite": "assets/images/bdsptrainers/madame.png",
+   "sprite2": "assets/images/bdsptrainers/beauty.png"
+  },
+  {
+   "name": "테프코",
+   "class": "Socialite",
+   "name2": "루우",
+   "class2": "파라솔 아가씨",
+   "roster": "라티오스-1, 켄타로스-2, 헤라크로스-2, 라티아스-1",
+   "species": "라티오스, 켄타로스, 헤라크로스, 라티아스",
+   "teams": [
+    "라티오스-1, 켄타로스-2, 헤라크로스-2, 라티아스-1"
+   ],
+   "late": "",
+   "quote": "우리 아이는 강하고 훌륭한 트레이너가 되게 할 거야",
+   "quote2": "이거 양산이야",
+   "sprite": "assets/images/bdsptrainers/madame.png",
+   "sprite2": "assets/images/bdsptrainers/parasollady.png"
+  },
+  {
+   "name": "라지칸트",
+   "class": "선원",
+   "name2": "길림",
+   "class2": "아가씨",
+   "roster": "찌르호크-2, 라이코-3, 토게키스-2, 무우마직-3",
+   "species": "찌르호크, 라이코, 토게키스, 무우마직",
+   "teams": [
+    "찌르호크-2, 라이코-3, 토게키스-2, 무우마직-3"
+   ],
+   "late": "",
+   "quote": "어어? 네가 상대야? 왠지 불안한걸...",
+   "quote2": "괜찮을까?",
+   "sprite": "assets/images/bdsptrainers/sailor.png",
+   "sprite2": "assets/images/bdsptrainers/beauty.png"
+  },
+  {
+   "name": "안토니오",
+   "class": "웨이터",
+   "name2": "유장",
+   "class2": "갬블러",
+   "roster": "게을킹-2, 번치코-3, 다탱구-2, 라이코-1",
+   "species": "게을킹, 번치코, 다탱구, 라이코",
+   "teams": [
+    "게을킹-2, 번치코-3, 다탱구-2, 라이코-1"
+   ],
+   "late": "",
+   "quote": "오~! 너 강해 보이는걸~! 재미있겠다 재미있겠어!",
+   "quote2": "승부란 말야 좀스럽게 계산하는 게 아냐~!",
+   "sprite": "assets/images/bdsptrainers/waiter.png",
+   "sprite2": "assets/images/bdsptrainers/pi.png"
+  },
+  {
+   "name": "안토니오",
+   "class": "웨이터",
+   "name2": "훈미",
+   "class2": "아로마 아가씨",
+   "roster": "파이어-1, 코리갑-2, 맘모꾸리-2, 니드퀸-2",
+   "species": "파이어, 코리갑, 맘모꾸리, 니드퀸",
+   "teams": [
+    "파이어-1, 코리갑-2, 맘모꾸리-2, 니드퀸-2"
+   ],
+   "late": "",
+   "quote": "오~! 너 강해 보이는걸~! 재미있겠다 재미있겠어!",
+   "quote2": "나를 이기려면 말야 십 년은 걸릴 거라구!!",
+   "sprite": "assets/images/bdsptrainers/waiter.png",
+   "sprite2": "assets/images/bdsptrainers/aromalady.png"
+  },
+  {
+   "name": "밥",
+   "class": "목장아저씨",
+   "name2": "신부",
+   "class2": "베테랑 트레이너",
+   "roster": "둥실라이드-2, 고래왕-3, 질뻐기-3, 라이츄-2",
+   "species": "둥실라이드, 고래왕, 질뻐기, 라이츄",
+   "teams": [
+    "둥실라이드-2, 고래왕-3, 질뻐기-3, 라이츄-2"
+   ],
+   "late": "",
+   "quote": "힘내거라! 사랑하는 아이들아!",
+   "quote2": "벌써 몇 년을 여기에 있지만 정말 질리지 않아",
+   "sprite": "assets/images/bdsptrainers/rancher.png",
+   "sprite2": "assets/images/bdsptrainers/veteran.png"
+  },
+  {
+   "name": "묵크",
+   "class": "포켓몬 컬렉터",
+   "name2": "어치",
+   "class2": "새 조련사",
+   "roster": "리피아-2, 릴리요-3, 히드런-5, 앱솔-2",
+   "species": "리피아, 릴리요, 히드런, 앱솔",
+   "teams": [
+    "리피아-2, 릴리요-3, 히드런-5, 앱솔-2"
+   ],
+   "late": "",
+   "quote": "잠깐 기다려 봐 메일을 쓰고 있었어",
+   "quote2": "이젠 도망갈 곳이 없어!",
+   "sprite": "assets/images/bdsptrainers/collector.png",
+   "sprite2": "assets/images/bdsptrainers/birdkeeper.png"
+  },
+  {
+   "name": "묵크",
+   "class": "포켓몬 컬렉터",
+   "name2": "쾨니히",
+   "class2": "포켓몬 레인저",
+   "roster": "무장조-2, 야도란-3, 레지아이스-1, 마임맨-2",
+   "species": "무장조, 야도란, 레지아이스, 마임맨",
+   "teams": [
+    "무장조-2, 야도란-3, 레지아이스-1, 마임맨-2"
+   ],
+   "late": "",
+   "quote": "잠깐 기다려 봐 메일을 쓰고 있었어",
+   "quote2": "나랑 승부하자고? 난 몰라!",
+   "sprite": "assets/images/bdsptrainers/collector.png",
+   "sprite2": "assets/images/bdsptrainers/pokemonranger-f.png"
+  },
+  {
+   "name": "펠",
+   "class": "피에로",
+   "name2": "선레이",
+   "class2": "웨이트리스",
+   "roster": "파이어-4, 레지기가스-5, 전룡-2, 바리톱스-2",
+   "species": "파이어, 레지기가스, 전룡, 바리톱스",
+   "teams": [
+    "파이어-4, 레지기가스-5, 전룡-2, 바리톱스-2"
+   ],
+   "late": "",
+   "quote": "포켓몬 승부라고 하는 건 말야 모래 위에 쓴 러브레터와 같은 거야",
+   "quote2": "귀여운 손님! 서비스 많이 줄게!",
+   "sprite": "assets/images/bdsptrainers/clown.png",
+   "sprite2": "assets/images/bdsptrainers/waitress.png"
+  },
+  {
+   "name": "중주",
+   "class": "신사",
+   "name2": "리포맨",
+   "class2": "연구원",
+   "roster": "무장조-3, 얼음귀신-3, 독개굴-2, 요가램-2",
+   "species": "무장조, 얼음귀신, 독개굴, 요가램",
+   "teams": [
+    "무장조-3, 얼음귀신-3, 독개굴-2, 요가램-2"
+   ],
+   "late": "",
+   "quote": "하하하하!! 잘 싸워 나가고 있구나!",
+   "quote2": "과학의 힘이에요!",
+   "sprite": "assets/images/bdsptrainers/gentleman.png",
+   "sprite2": "assets/images/bdsptrainers/scientist.png"
+  },
+  {
+   "name": "중주",
+   "class": "신사",
+   "name2": "주혜",
+   "class2": "조깅",
+   "roster": "무장조-3, 루주라-3, 독개굴-2, 단단지-2",
+   "species": "무장조, 루주라, 독개굴, 단단지",
+   "teams": [
+    "무장조-3, 루주라-3, 독개굴-2, 단단지-2"
+   ],
+   "late": "",
+   "quote": "하하하하!! 잘 싸워 나가고 있구나!",
+   "quote2": "자~ 시작!",
+   "sprite": "assets/images/bdsptrainers/gentleman.png",
+   "sprite2": "assets/images/bdsptrainers/jogger.png"
+  },
+  {
+   "name": "스텐리",
+   "class": "Policeman",
+   "name2": "희주",
+   "class2": "초능력자",
+   "roster": "초염몽-3, 토게키스-2, 나무킹-3, 야느와르몽-2",
+   "species": "초염몽, 토게키스, 나무킹, 야느와르몽",
+   "teams": [
+    "초염몽-3, 토게키스-2, 나무킹-3, 야느와르몽-2"
+   ],
+   "late": "",
+   "quote": "어이 너~ 거기 너~ 잠깐 기다려 봐~아!",
+   "quote2": "오빠가 가르쳐 줬어! 눈이다! 눈을 노려라 하고 말야!",
+   "sprite": "assets/images/bdsptrainers/policeofficer.png",
+   "sprite2": "assets/images/bdsptrainers/psychic-f.png"
+  },
+  {
+   "name": "스텐리",
+   "class": "Policeman",
+   "name2": "조만",
+   "class2": "아가씨",
+   "roster": "히드런-3, 망나뇽-3, 릴리요-3, 레지기가스-4",
+   "species": "히드런, 망나뇽, 릴리요, 레지기가스",
+   "teams": [
+    "히드런-3, 망나뇽-3, 릴리요-3, 레지기가스-4"
+   ],
+   "late": "",
+   "quote": "어이 너~ 거기 너~ 잠깐 기다려 봐~아!",
+   "quote2": "어머... 희귀한 포켓몬이네...",
+   "sprite": "assets/images/bdsptrainers/policeofficer.png",
+   "sprite2": "assets/images/bdsptrainers/beauty.png"
+  },
+  {
+   "name": "이케르",
+   "class": "웨이터",
+   "name2": "국호",
+   "class2": "Pokefan (F)",
+   "roster": "다탱구-3, 라티오스-3, 릴리요-3, 나인테일-2",
+   "species": "다탱구, 라티오스, 릴리요, 나인테일",
+   "teams": [
+    "다탱구-3, 라티오스-3, 릴리요-3, 나인테일-2"
+   ],
+   "late": "",
+   "quote": "어서 오세요~!!",
+   "quote2": "아줌마가 이래 봬도 젊었을 때는 잘 나갔었단다",
+   "sprite": "assets/images/bdsptrainers/waiter.png",
+   "sprite2": "assets/images/bdsptrainers/pokefan-f.png"
+  },
+  {
+   "name": "에이미",
+   "class": "사이클링",
+   "name2": "페드로",
+   "class2": "베테랑 트레이너",
+   "roster": "토대부기-3, 폭음룡-3, 팬텀-2, 트리토돈-3",
+   "species": "토대부기, 폭음룡, 팬텀, 트리토돈",
+   "teams": [
+    "토대부기-3, 폭음룡-3, 팬텀-2, 트리토돈-3"
+   ],
+   "late": "",
+   "quote": "따르릉 따르릉",
+   "quote2": "처음부터 말해 두지... 넌 나를 이길 수 없어",
+   "sprite": "assets/images/bdsptrainers/cyclist-f.png",
+   "sprite2": "assets/images/bdsptrainers/veteran.png"
+  },
+  {
+   "name": "조조",
+   "class": "배틀걸",
+   "name2": "앵클",
+   "class2": "아로마 아가씨",
+   "roster": "썬더-2, 앱솔-2, 해피너스-2, 바리톱스-3",
+   "species": "썬더, 앱솔, 해피너스, 바리톱스",
+   "teams": [
+    "썬더-2, 앱솔-2, 해피너스-2, 바리톱스-3"
+   ],
+   "late": "",
+   "quote": "얍~!",
+   "quote2": "좋은 향기를 맡고 있으면 졸려서 큰일이야...",
+   "sprite": "assets/images/bdsptrainers/battlegirl.png",
+   "sprite2": "assets/images/bdsptrainers/aromalady.png"
+  },
+  {
+   "name": "동상",
+   "class": "작업원",
+   "name2": "닉",
+   "class2": "선원",
+   "roster": "딱구리-3, 왕구리-2, 쁘사이저-3, 랜턴-3",
+   "species": "딱구리, 왕구리, 쁘사이저, 랜턴",
+   "teams": [
+    "딱구리-3, 왕구리-2, 쁘사이저-3, 랜턴-3"
+   ],
+   "late": "",
+   "quote": "오! 괜찮은걸! 잘하는구나!",
+   "quote2": "커다란 배를 타고 왔어요오오~!",
+   "sprite": "assets/images/bdsptrainers/worker.png",
+   "sprite2": "assets/images/bdsptrainers/sailor.png"
+  },
+  {
+   "name": "동상",
+   "class": "작업원",
+   "name2": "길림",
+   "class2": "아가씨",
+   "roster": "괴력몬-2, 메가자리-2, 크레세리아-5, 후딘-2, 고래왕-2, 캥카-2",
+   "species": "괴력몬, 메가자리, 크레세리아, 후딘, 고래왕, 캥카",
+   "teams": [
+    "괴력몬-2, 메가자리-2, 크레세리아-5, 후딘-2",
+    "고래왕-2, 메가자리-2, 크레세리아-5, 캥카-2"
+   ],
+   "late": "",
+   "quote": "오! 괜찮은걸! 잘하는구나!",
+   "quote2": "괜찮을까?",
+   "sprite": "assets/images/bdsptrainers/worker.png",
+   "sprite2": "assets/images/bdsptrainers/beauty.png"
+  },
+  {
+   "name": "나유타",
+   "class": "엘리트 트레이너",
+   "name2": "벨가",
+   "class2": "엘리트 트레이너",
+   "roster": "아르코-2, 라프라스-3, 코터스-2, 크레세리아-6, 거대코뿌리-4",
+   "species": "아르코, 라프라스, 코터스, 크레세리아, 거대코뿌리",
+   "teams": [
+    "아르코-2, 라프라스-3, 코터스-2, 크레세리아-6",
+    "아르코-2, 거대코뿌리-4, 코터스-2, 크레세리아-6"
+   ],
+   "late": "",
+   "quote": "으~핫! 으~핫! 이길 수 있다고 생각하는가~!",
+   "quote2": "이야이야! 즐겁게 놀아 보자!",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
+  },
+  {
+   "name": "나유타",
+   "class": "엘리트 트레이너",
+   "name2": "소피",
+   "class2": "사이클링",
+   "roster": "아말도-3, 거대코뿌리-3, 이상해꽃-3, 내룸벨트-2",
+   "species": "아말도, 거대코뿌리, 이상해꽃, 내룸벨트",
+   "teams": [
+    "아말도-3, 거대코뿌리-3, 이상해꽃-3, 내룸벨트-2"
+   ],
+   "late": "",
+   "quote": "으~핫! 으~핫! 이길 수 있다고 생각하는가~!",
+   "quote2": "남자 친구랑 자전거 타고 데이트하는 게 꿈이야",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/cyclist-f.png"
+  },
+  {
+   "name": "나유타",
+   "class": "엘리트 트레이너",
+   "name2": "박사",
+   "class2": "기타리스트",
+   "roster": "앤테이-2, 크레세리아-5, 후딘-3, 팬텀-2",
+   "species": "앤테이, 크레세리아, 후딘, 팬텀",
+   "teams": [
+    "앤테이-2, 크레세리아-5, 후딘-3, 팬텀-2"
+   ],
+   "late": "",
+   "quote": "으~핫! 으~핫! 이길 수 있다고 생각하는가~!",
+   "quote2": "호오~ 너, 괜찮잖아",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/guitarist.png"
+  },
+  {
+   "name": "제롬",
+   "class": "사이클링",
+   "name2": "어치",
+   "class2": "새 조련사",
+   "roster": "버섯모-2, 둥실라이드-3, 망나뇽-3, 나인테일-2",
+   "species": "버섯모, 둥실라이드, 망나뇽, 나인테일",
+   "teams": [
+    "버섯모-2, 둥실라이드-3, 망나뇽-3, 나인테일-2"
+   ],
+   "late": "",
+   "quote": "부우웅~~~!! 나의 풀 스로틀을 봐라~!",
+   "quote2": "이젠 도망갈 곳이 없어!",
+   "sprite": "assets/images/bdsptrainers/cyclist-m.png",
+   "sprite2": "assets/images/bdsptrainers/birdkeeper.png"
+  },
+  {
+   "name": "루우",
+   "class": "파라솔 아가씨",
+   "name2": "다유우",
+   "class2": "리포터",
+   "roster": "보스로라-2, 누오-3, 겟핸보숭-3, 딱구리-2",
+   "species": "보스로라, 누오, 겟핸보숭, 딱구리",
+   "teams": [
+    "보스로라-2, 누오-3, 겟핸보숭-3, 딱구리-2"
+   ],
+   "late": "",
+   "quote": "이거 양산이야",
+   "quote2": "제가 포켓몬 승부의 참맛을 보여 드리죠!",
+   "sprite": "assets/images/bdsptrainers/parasollady.png",
+   "sprite2": "assets/images/bdsptrainers/reporter.png"
+  },
+  {
+   "name": "루우",
+   "class": "파라솔 아가씨",
+   "name2": "공주",
+   "class2": "배틀걸",
+   "roster": "핫삼-2, 캥카-3, 슬리퍼-2, 비퀸-2",
+   "species": "핫삼, 캥카, 슬리퍼, 비퀸",
+   "teams": [
+    "핫삼-2, 캥카-3, 슬리퍼-2, 비퀸-2"
+   ],
+   "late": "",
+   "quote": "이거 양산이야",
+   "quote2": "난 강하다 그뿐이야",
+   "sprite": "assets/images/bdsptrainers/parasollady.png",
+   "sprite2": "assets/images/bdsptrainers/battlegirl.png"
+  },
+  {
+   "name": "루우",
+   "class": "파라솔 아가씨",
+   "name2": "단중",
+   "class2": "Policeman",
+   "roster": "레지스틸-2, 코뿌리-3, 강챙이-3, 글라이온-2",
+   "species": "레지스틸, 코뿌리, 강챙이, 글라이온",
+   "teams": [
+    "레지스틸-2, 코뿌리-3, 강챙이-3, 글라이온-2"
+   ],
+   "late": "",
+   "quote": "이거 양산이야",
+   "quote2": "드르렁... 드르렁...",
+   "sprite": "assets/images/bdsptrainers/parasollady.png",
+   "sprite2": "assets/images/bdsptrainers/policeofficer.png"
+  },
+  {
+   "name": "고려",
+   "class": "카우걸",
+   "name2": "금성",
+   "class2": "파라솔 아가씨",
+   "roster": "보만다-2, 니드퀸-2, 파이어-3, 헤라크로스-2",
+   "species": "보만다, 니드퀸, 파이어, 헤라크로스",
+   "teams": [
+    "보만다-2, 니드퀸-2, 파이어-3, 헤라크로스-2"
+   ],
+   "late": "",
+   "quote": "끝을 내 주지",
+   "quote2": "비가 오나 눈이 오나 여기서 강한 트레이너를 찾는 나",
+   "sprite": "assets/images/bdsptrainers/cowgirl.png",
+   "sprite2": "assets/images/bdsptrainers/parasollady.png"
+  },
+  {
+   "name": "고려",
+   "class": "카우걸",
+   "name2": "성웅",
+   "class2": "Fisherman",
+   "roster": "트리토돈-2, 앤테이-1, 리자몽-3, 쏘콘-2",
+   "species": "트리토돈, 앤테이, 리자몽, 쏘콘",
+   "teams": [
+    "트리토돈-2, 앤테이-1, 리자몽-3, 쏘콘-2"
+   ],
+   "late": "",
+   "quote": "끝을 내 주지",
+   "quote2": "신오에서 제일가는 낚시 테크닉! 보여 주도록 하지!",
+   "sprite": "assets/images/bdsptrainers/cowgirl.png",
+   "sprite2": "assets/images/bdsptrainers/fisher.png"
+  },
+  {
+   "name": "소피",
+   "class": "사이클링",
+   "name2": "남고",
+   "class2": "연구원",
+   "roster": "드래피온-2, 그랑블루-2, 프리져-1, 마그마번-2",
+   "species": "드래피온, 그랑블루, 프리져, 마그마번",
+   "teams": [
+    "드래피온-2, 그랑블루-2, 프리져-1, 마그마번-2"
+   ],
+   "late": "",
+   "quote": "남자 친구랑 자전거 타고 데이트하는 게 꿈이야",
+   "quote2": "돌격하라! 나의 포켓몬! 실험의 성과를 보여 다오!",
+   "sprite": "assets/images/bdsptrainers/cyclist-f.png",
+   "sprite2": "assets/images/bdsptrainers/scientist.png"
+  },
+  {
+   "name": "소피",
+   "class": "사이클링",
+   "name2": "오송",
+   "class2": "엘리트 트레이너",
+   "roster": "왕구리-3, 또도가스-3, 요가램-3, 앤테이-3",
+   "species": "왕구리, 또도가스, 요가램, 앤테이",
+   "teams": [
+    "왕구리-3, 또도가스-3, 요가램-3, 앤테이-3"
+   ],
+   "late": "",
+   "quote": "남자 친구랑 자전거 타고 데이트하는 게 꿈이야",
+   "quote2": "전력투구다!",
+   "sprite": "assets/images/bdsptrainers/cyclist-f.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-m.png"
+  },
+  {
+   "name": "마스",
+   "class": "갤럭시단",
+   "name2": "태홍",
+   "class2": "갤럭시단",
+   "roster": "라이츄-4, 동탁군-5, 갸라도스-6, 보만다-8, 에브이-4, 토게키스-8, 포푸니라-5, 앤테이-6, 크로뱃-3, 몬냥이-2, 로토무-히트-2, 갸라도스-7",
+   "species": "라이츄, 동탁군, 갸라도스, 보만다, 에브이, 토게키스, 포푸니라, 앤테이, 크로뱃, 몬냥이, 로토무-히트",
+   "teams": [
+    "라이츄-4, 동탁군-5, 갸라도스-6, 보만다-8",
+    "에브이-4, 토게키스-8, 포푸니라-5, 앤테이-6",
+    "크로뱃-3, 몬냥이-2, 로토무-히트-2, 갸라도스-7"
+   ],
+   "late": "",
+   "quote": "너만큼은 절대 용서 못 해! 용서 못 해!! 용서 못 해!!!",
+   "quote2": "인가 너와는 정말 질긴 인연이군 악연이라고 해도 좋을 정도야... 그 연을 여기서 끊어내겠다!",
+   "sprite": "assets/images/bdsptrainers/mars.png",
+   "sprite2": "assets/images/bdsptrainers/cyrus.png"
+  },
+  {
+   "name": "자두",
+   "class": "체육관 관장",
+   "name2": "무청",
+   "class2": "체육관 관장",
+   "roster": "카포에라-4, 루카리오-6, 눈설왕-7, 눈여아-5, 카포에라-5, 프리져-6, 번치코-7, 포푸니라-4",
+   "species": "카포에라, 루카리오, 눈설왕, 눈여아, 프리져, 번치코, 포푸니라",
+   "teams": [
+    "카포에라-4, 루카리오-6, 눈설왕-7, 눈여아-5",
+    "카포에라-5, 루카리오-6, 눈설왕-7, 프리져-6",
+    "카포에라-4, 번치코-7, 포푸니라-4, 눈설왕-7"
+   ],
+   "late": "",
+   "quote": "배고프다... 아, 아무것도 아니에요!",
+   "quote2": "나와 자두의 집중력은 굉장하다고!",
+   "sprite": "assets/images/bdsptrainers/maylene.png",
+   "sprite2": "assets/images/bdsptrainers/candice.png"
+  },
+  {
+   "name": "신부",
+   "class": "베테랑 트레이너",
+   "name2": "제롬",
+   "class2": "사이클링",
+   "roster": "찌르호크-3, 코뿌리-2, 토대부기-3, 거북왕-3",
+   "species": "찌르호크, 코뿌리, 토대부기, 거북왕",
+   "teams": [
+    "찌르호크-3, 코뿌리-2, 토대부기-3, 거북왕-3"
+   ],
+   "late": "",
+   "quote": "벌써 몇 년을 여기에 있지만 정말 질리지 않아",
+   "quote2": "부우웅~~~!! 나의 풀 스로틀을 봐라~!",
+   "sprite": "assets/images/bdsptrainers/veteran.png",
+   "sprite2": "assets/images/bdsptrainers/cyclist-m.png"
+  },
+  {
+   "name": "미루",
+   "class": "포켓몬 트레이너",
+   "name2": "모미",
+   "class2": "포켓몬 트레이너",
+   "roster": "후딘-6, 팬텀-6, 블래키-4, 해피너스-4, 썬더-9, 후딘-7, 해피너스-5, 폴리곤Z-4, 가디안-6, 썬더-10, 라티오스-7, 폴리곤Z-5",
+   "species": "후딘, 팬텀, 블래키, 해피너스, 썬더, 폴리곤Z, 가디안, 라티오스",
+   "teams": [
+    "후딘-6, 팬텀-6, 블래키-4, 해피너스-4",
+    "썬더-9, 후딘-7, 해피너스-5, 폴리곤Z-4",
+    "가디안-6, 썬더-10, 라티오스-7, 폴리곤Z-5"
+   ],
+   "late": "",
+   "quote": "앗!! 여기서 길을 잃었는데 모미님이랑 만난 거 있지!",
+   "quote2": "오랜만이야, 여행은 함께하는 거라고 했었지? 그래서 지금은 미루와 함께야!",
+   "sprite": "assets/images/bdsptrainers/mira.png",
+   "sprite2": "assets/images/bdsptrainers/cheryl.png"
+  },
+  {
+   "name": "멜바",
+   "class": "엘리트 트레이너",
+   "name2": "포포",
+   "class2": "엘리트 트레이너",
+   "roster": "나인테일-5, 리자몽-4, 이상해꽃-5, 한카리아스-5, 거대코뿌리-4",
+   "species": "나인테일, 리자몽, 이상해꽃, 한카리아스, 거대코뿌리",
+   "teams": [
+    "나인테일-5, 리자몽-4, 이상해꽃-5, 한카리아스-5",
+    "나인테일-5, 리자몽-4, 이상해꽃-5, 거대코뿌리-4"
+   ],
+   "late": "",
+   "quote": "연습시켜 주마",
+   "quote2": "우리 엄마도 아빠도 강한 트레이너란다!",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
+  },
+  {
+   "name": "멜바",
+   "class": "엘리트 트레이너",
+   "name2": "아그네스",
+   "class2": "엘리트 트레이너",
+   "roster": "스이쿤-5, 토게키스-4, 한카리아스-7, 마기라스-4",
+   "species": "스이쿤, 토게키스, 한카리아스, 마기라스",
+   "teams": [
+    "스이쿤-5, 토게키스-4, 한카리아스-7, 마기라스-4"
+   ],
+   "late": "",
+   "quote": "연습시켜 주마",
+   "quote2": "나는 모든 승부에 전력을 다해 도전한다!",
+   "sprite": "assets/images/bdsptrainers/acetrainer-m.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
+  },
+  {
+   "name": "앵클",
+   "class": "아로마 아가씨",
+   "name2": "원오",
+   "class2": "기타리스트",
+   "roster": "팬텀-3, 밀로틱-3, 크로뱃-2, 쁘사이저-3",
+   "species": "팬텀, 밀로틱, 크로뱃, 쁘사이저",
+   "teams": [
+    "팬텀-3, 밀로틱-3, 크로뱃-2, 쁘사이저-3"
+   ],
+   "late": "",
+   "quote": "좋은 향기를 맡고 있으면 졸려서 큰일이야...",
+   "quote2": "나와 내 포켓몬들의 코러스를 들어 주세요",
+   "sprite": "assets/images/bdsptrainers/aromalady.png",
+   "sprite2": "assets/images/bdsptrainers/guitarist.png"
+  },
+  {
+   "name": "앵클",
+   "class": "아로마 아가씨",
+   "name2": "성웅",
+   "class2": "Fisherman",
+   "roster": "고래왕-2, 덩쿠림보-2, 독파리-2, 다탱구-3",
+   "species": "고래왕, 덩쿠림보, 독파리, 다탱구",
+   "teams": [
+    "고래왕-2, 덩쿠림보-2, 독파리-2, 다탱구-3"
+   ],
+   "late": "",
+   "quote": "좋은 향기를 맡고 있으면 졸려서 큰일이야...",
+   "quote2": "신오에서 제일가는 낚시 테크닉! 보여 주도록 하지!",
+   "sprite": "assets/images/bdsptrainers/aromalady.png",
+   "sprite2": "assets/images/bdsptrainers/fisher.png"
+  },
+  {
+   "name": "길림",
+   "class": "아가씨",
+   "name2": "호령",
+   "class2": "웨이트리스",
+   "roster": "비퀸-3, 앱솔-3, 엠페르트-3, 레지기가스-3",
+   "species": "비퀸, 앱솔, 엠페르트, 레지기가스",
+   "teams": [
+    "비퀸-3, 앱솔-3, 엠페르트-3, 레지기가스-3"
+   ],
+   "late": "",
+   "quote": "괜찮을까?",
+   "quote2": "어서 오세요!",
+   "sprite": "assets/images/bdsptrainers/beauty.png",
+   "sprite2": "assets/images/bdsptrainers/waitress.png"
+  },
+  {
+   "name": "현이",
+   "class": "포켓몬 트레이너",
+   "name2": "미정",
+   "class2": "포켓몬 트레이너",
+   "roster": "윈디-5, 프테라-3, 보만다-6, 루카리오-8, 윈디-6, 아쿠스타-4, 보만다-7, 메타그로스-8, 윈디-7, 한카리아스-9",
+   "species": "윈디, 프테라, 보만다, 루카리오, 아쿠스타, 메타그로스, 한카리아스",
+   "teams": [
+    "윈디-5, 프테라-3, 보만다-6, 루카리오-8",
+    "윈디-6, 아쿠스타-4, 보만다-7, 메타그로스-8",
+    "윈디-7, 프테라-3, 루카리오-8, 한카리아스-9"
+   ],
+   "late": "",
+   "quote": "영양 균형은 아주 중요하지! 너는 제대로 챙기고 있니?",
+   "quote2": "...식사는 생명의 근원이야",
+   "sprite": "assets/images/bdsptrainers/riley.png",
+   "sprite2": "assets/images/bdsptrainers/marley.png"
+  },
+  {
+   "name": "옥진",
+   "class": "피에로",
+   "name2": "밥히크",
+   "class2": "목장아저씨",
+   "roster": "아쿠스타-2, 파이어-1, 눈설왕-3, 야도란-2",
+   "species": "아쿠스타, 파이어, 눈설왕, 야도란",
+   "teams": [
+    "아쿠스타-2, 파이어-1, 눈설왕-3, 야도란-2"
+   ],
+   "late": "",
+   "quote": "최선을 다하겠습니다 잘 부탁합니다!",
+   "quote2": "도련님? 아기씨? 상관없으니까 간다!",
+   "sprite": "assets/images/bdsptrainers/clown.png",
+   "sprite2": "assets/images/bdsptrainers/rancher.png"
+  },
+  {
+   "name": "강석",
+   "class": "체육관 관장",
+   "name2": "동관",
+   "class2": "체육관 관장",
+   "roster": "마기라스-8, 램펄드-6, 핫삼-5, 바리톱스-4, 램펄드-7, 마기라스-9, 동탁군-4, 바리톱스-5, 프테라-5, 마기라스-10, 메타그로스-5, 히드런-7",
+   "species": "마기라스, 램펄드, 핫삼, 바리톱스, 동탁군, 프테라, 메타그로스, 히드런",
+   "teams": [
+    "마기라스-8, 램펄드-6, 핫삼-5, 바리톱스-4",
+    "램펄드-7, 마기라스-9, 동탁군-4, 바리톱스-5",
+    "프테라-5, 마기라스-10, 메타그로스-5, 히드런-7"
+   ],
+   "late": "",
+   "quote": "아버지와 연계하는 거라면 나도 자신 있다고!",
+   "quote2": "으하하! 너무 방심하진 말거라, 강석!",
+   "sprite": "assets/images/bdsptrainers/roark.png",
+   "sprite2": "assets/images/bdsptrainers/byron.png"
+  },
+  {
+   "name": "토우비엔",
+   "class": "포켓몬 레인저",
+   "name2": "관진",
+   "class2": "아이돌",
+   "roster": "바리톱스-2, 헤라크로스-3, 스이쿤-4, 비퀸-2",
+   "species": "바리톱스, 헤라크로스, 스이쿤, 비퀸",
+   "teams": [
+    "바리톱스-2, 헤라크로스-3, 스이쿤-4, 비퀸-2"
+   ],
+   "late": "",
+   "quote": "긴장되냐? 나만 믿으라고!",
+   "quote2": "노래하고 춤춰서 너를 꼼짝 못 하게 만들어 줘야지!",
+   "sprite": "assets/images/bdsptrainers/pokemonranger-m.png",
+   "sprite2": "assets/images/bdsptrainers/idol.png"
+  },
+  {
+   "name": "토우비엔",
+   "class": "포켓몬 레인저",
+   "name2": "남고",
+   "class2": "연구원",
+   "roster": "켄타로스-2, 누오-2, 야도킹-3, 파이어-2",
+   "species": "켄타로스, 누오, 야도킹, 파이어",
+   "teams": [
+    "켄타로스-2, 누오-2, 야도킹-3, 파이어-2"
+   ],
+   "late": "",
+   "quote": "긴장되냐? 나만 믿으라고!",
+   "quote2": "돌격하라! 나의 포켓몬! 실험의 성과를 보여 다오!",
+   "sprite": "assets/images/bdsptrainers/pokemonranger-m.png",
+   "sprite2": "assets/images/bdsptrainers/scientist.png"
+  },
+  {
+   "name": "토우비엔",
+   "class": "포켓몬 레인저",
+   "name2": "단중",
+   "class2": "Policeman",
+   "roster": "파이어-3, 에레키블-2, 버섯모-3, 라티아스-4",
+   "species": "파이어, 에레키블, 버섯모, 라티아스",
+   "teams": [
+    "파이어-3, 에레키블-2, 버섯모-3, 라티아스-4"
+   ],
+   "late": "",
+   "quote": "긴장되냐? 나만 믿으라고!",
+   "quote2": "드르렁... 드르렁...",
+   "sprite": "assets/images/bdsptrainers/pokemonranger-m.png",
+   "sprite2": "assets/images/bdsptrainers/policeofficer.png"
+  },
+  {
+   "name": "도태랑",
+   "class": "조깅",
+   "name2": "밥히크",
+   "class2": "목장아저씨",
+   "roster": "가디안-3, 앤테이-3, 니드퀸-3, 야도란-2",
+   "species": "가디안, 앤테이, 니드퀸, 야도란",
+   "teams": [
+    "가디안-3, 앤테이-3, 니드퀸-3, 야도란-2"
+   ],
+   "late": "",
+   "quote": "내가 왜 여기에 있는 거야...",
+   "quote2": "도련님? 아기씨? 상관없으니까 간다!",
+   "sprite": "assets/images/bdsptrainers/jogger.png",
+   "sprite2": "assets/images/bdsptrainers/rancher.png"
+  },
+  {
+   "name": "도태랑",
+   "class": "조깅",
+   "name2": "단중",
+   "class2": "Policeman",
+   "roster": "전룡-2, 강챙이-2, 캥카-2, 동탁군-2",
+   "species": "전룡, 강챙이, 캥카, 동탁군",
+   "teams": [
+    "전룡-2, 강챙이-2, 캥카-2, 동탁군-2"
+   ],
+   "late": "",
+   "quote": "내가 왜 여기에 있는 거야...",
+   "quote2": "드르렁... 드르렁...",
+   "sprite": "assets/images/bdsptrainers/jogger.png",
+   "sprite2": "assets/images/bdsptrainers/policeofficer.png"
+  },
+  {
+   "name": "주혜",
+   "class": "조깅",
+   "name2": "페드로",
+   "class2": "베테랑 트레이너",
+   "roster": "하리뭉-2, 파이어-4, 레지락-2, 라티오스-3",
+   "species": "하리뭉, 파이어, 레지락, 라티오스",
+   "teams": [
+    "하리뭉-2, 파이어-4, 레지락-2, 라티오스-3"
+   ],
+   "late": "",
+   "quote": "자~ 시작!",
+   "quote2": "처음부터 말해 두지... 넌 나를 이길 수 없어",
+   "sprite": "assets/images/bdsptrainers/jogger.png",
+   "sprite2": "assets/images/bdsptrainers/veteran.png"
+  },
+  {
+   "name": "주혜",
+   "class": "조깅",
+   "name2": "얀",
+   "class2": "Socialite",
+   "roster": "가디안-3, 니드킹-3, 한카리아스-2, 릴리요-2",
+   "species": "가디안, 니드킹, 한카리아스, 릴리요",
+   "teams": [
+    "가디안-3, 니드킹-3, 한카리아스-2, 릴리요-2"
+   ],
+   "late": "",
+   "quote": "자~ 시작!",
+   "quote2": "아직 어린애잖아",
+   "sprite": "assets/images/bdsptrainers/jogger.png",
+   "sprite2": "assets/images/bdsptrainers/madame.png"
+  },
+  {
+   "name": "주혜",
+   "class": "조깅",
+   "name2": "도태랑",
+   "class2": "조깅",
+   "roster": "스컹탱크-2, 질뻐기-2, 우츠보트-3, 마임맨-2",
+   "species": "스컹탱크, 질뻐기, 우츠보트, 마임맨",
+   "teams": [
+    "스컹탱크-2, 질뻐기-2, 우츠보트-3, 마임맨-2"
+   ],
+   "late": "",
+   "quote": "자~ 시작!",
+   "quote2": "내가 왜 여기에 있는 거야...",
+   "sprite": "assets/images/bdsptrainers/jogger.png",
+   "sprite2": "assets/images/bdsptrainers/jogger.png"
+  },
+  {
+   "name": "피핀",
+   "class": "아이돌",
+   "name2": "바바르",
+   "class2": "새 조련사",
+   "roster": "프리져-4, 찌르호크-2, 램펄드-2, 잠만보-2",
+   "species": "프리져, 찌르호크, 램펄드, 잠만보",
+   "teams": [
+    "프리져-4, 찌르호크-2, 램펄드-2, 잠만보-2"
+   ],
+   "late": "",
+   "quote": "정말 할 거야? 나랑?",
+   "quote2": "인생에는 생각대로 되지 않는 것도 많지!",
+   "sprite": "assets/images/bdsptrainers/idol.png",
+   "sprite2": "assets/images/bdsptrainers/birdkeeper.png"
+  },
+  {
+   "name": "피핀",
+   "class": "아이돌",
+   "name2": "닉",
+   "class2": "선원",
+   "roster": "링곰-3, 나무킹-3, 로즈레이드-2, 다탱구-3",
+   "species": "링곰, 나무킹, 로즈레이드, 다탱구",
+   "teams": [
+    "링곰-3, 나무킹-3, 로즈레이드-2, 다탱구-3"
+   ],
+   "late": "",
+   "quote": "정말 할 거야? 나랑?",
+   "quote2": "커다란 배를 타고 왔어요오오~!",
+   "sprite": "assets/images/bdsptrainers/idol.png",
+   "sprite2": "assets/images/bdsptrainers/sailor.png"
+  },
+  {
+   "name": "헬",
+   "class": "갬블러",
+   "name2": "피핀",
+   "class2": "아이돌",
+   "roster": "쥬피썬더-2, 나시-2, 나무킹-3, 헤라크로스-2",
+   "species": "쥬피썬더, 나시, 나무킹, 헤라크로스",
+   "teams": [
+    "쥬피썬더-2, 나시-2, 나무킹-3, 헤라크로스-2"
+   ],
+   "late": "",
+   "quote": "함께하지 않겠나! 우리의 화려한 내기를!",
+   "quote2": "정말 할 거야? 나랑?",
+   "sprite": "assets/images/bdsptrainers/pi.png",
+   "sprite2": "assets/images/bdsptrainers/idol.png"
+  },
+  {
+   "name": "텍사스",
+   "class": "카우걸",
+   "name2": "파나르",
+   "class2": "엘리트 트레이너",
+   "roster": "레지락-4, 해피너스-2, 라티오스-4, 라프라스-2",
+   "species": "레지락, 해피너스, 라티오스, 라프라스",
+   "teams": [
+    "레지락-4, 해피너스-2, 라티오스-4, 라프라스-2"
+   ],
+   "late": "",
+   "quote": "열심히 하는 거야~! 와우 와우 와~!",
+   "quote2": "이젠 놓치지 않아 포기해",
+   "sprite": "assets/images/bdsptrainers/cowgirl.png",
+   "sprite2": "assets/images/bdsptrainers/acetrainer-f.png"
+  },
+  {
+   "name": "텍사스",
+   "class": "카우걸",
+   "name2": "이케르",
+   "class2": "웨이터",
+   "roster": "라플레시아-3, 날쌩마-2, 포푸니라-2, 비퀸-3",
+   "species": "라플레시아, 날쌩마, 포푸니라, 비퀸",
+   "teams": [
+    "라플레시아-3, 날쌩마-2, 포푸니라-2, 비퀸-3"
+   ],
+   "late": "",
+   "quote": "열심히 하는 거야~! 와우 와우 와~!",
+   "quote2": "어서 오세요~!!",
+   "sprite": "assets/images/bdsptrainers/cowgirl.png",
+   "sprite2": "assets/images/bdsptrainers/waiter.png"
+  },
+  {
+   "name": "공주",
+   "class": "배틀걸",
+   "name2": "원오",
+   "class2": "기타리스트",
+   "roster": "괴력몬-2, 라이코-1, 또도가스-2, 레지락-3",
+   "species": "괴력몬, 라이코, 또도가스, 레지락",
+   "teams": [
+    "괴력몬-2, 라이코-1, 또도가스-2, 레지락-3"
+   ],
+   "late": "",
+   "quote": "난 강하다 그뿐이야",
+   "quote2": "나와 내 포켓몬들의 코러스를 들어 주세요",
+   "sprite": "assets/images/bdsptrainers/battlegirl.png",
+   "sprite2": "assets/images/bdsptrainers/guitarist.png"
+  },
+  {
+   "name": "공주",
+   "class": "배틀걸",
+   "name2": "제롬",
+   "class2": "사이클링",
+   "roster": "앱솔-3, 레지기가스-3, 레지스틸-1, 딱구리-3",
+   "species": "앱솔, 레지기가스, 레지스틸, 딱구리",
+   "teams": [
+    "앱솔-3, 레지기가스-3, 레지스틸-1, 딱구리-3"
+   ],
+   "late": "",
+   "quote": "난 강하다 그뿐이야",
+   "quote2": "부우웅~~~!! 나의 풀 스로틀을 봐라~!",
+   "sprite": "assets/images/bdsptrainers/battlegirl.png",
+   "sprite2": "assets/images/bdsptrainers/cyclist-m.png"
+  },
+  {
+   "name": "규혜",
+   "class": "아이돌",
+   "name2": "존닥",
+   "class2": "등산가",
+   "roster": "샤미드-2, 후딘-2, 갸라도스-2, 내룸벨트-2",
+   "species": "샤미드, 후딘, 갸라도스, 내룸벨트",
+   "teams": [
+    "샤미드-2, 후딘-2, 갸라도스-2, 내룸벨트-2"
+   ],
+   "late": "",
+   "quote": "승부만이 내 삶의 보람 승리만이 나의 소망",
+   "quote2": "영차! 영차!",
+   "sprite": "assets/images/bdsptrainers/idol.png",
+   "sprite2": "assets/images/bdsptrainers/hiker.png"
+  },
+  {
+   "name": "규혜",
+   "class": "아이돌",
+   "name2": "선영",
+   "class2": "포켓몬 레인저",
+   "roster": "니드킹-2, 닥트리오-3, 드래피온-2, 그랑블루-2, 쁘사이저-2, 버섯모-2",
+   "species": "니드킹, 닥트리오, 드래피온, 그랑블루, 쁘사이저, 버섯모",
+   "teams": [
+    "니드킹-2, 닥트리오-3, 드래피온-2, 그랑블루-2",
+    "쁘사이저-2, 닥트리오-3, 드래피온-2, 버섯모-2"
+   ],
+   "late": "",
+   "quote": "승부만이 내 삶의 보람 승리만이 나의 소망",
+   "quote2": "자연의 힘을 보여 줄게!",
+   "sprite": "assets/images/bdsptrainers/idol.png",
+   "sprite2": "assets/images/bdsptrainers/pokemonranger-f.png"
+  },
+  {
+   "name": "단중",
+   "class": "Policeman",
+   "name2": "태사",
+   "class2": "포켓몬 브리더",
+   "roster": "로파파-2, 라프라스-2, 핫삼-2, 글라이온-2",
+   "species": "로파파, 라프라스, 핫삼, 글라이온",
+   "teams": [
+    "로파파-2, 라프라스-2, 핫삼-2, 글라이온-2"
+   ],
+   "late": "",
+   "quote": "드르렁... 드르렁...",
+   "quote2": "이기고 지는 것만이 승부가 아니야",
+   "sprite": "assets/images/bdsptrainers/policeofficer.png",
+   "sprite2": "assets/images/bdsptrainers/pokemonbreeder-m.png"
+  },
+  {
+   "name": "영혜",
+   "class": "포켓몬 브리더",
+   "name2": "호미",
+   "class2": "카메라맨",
+   "roster": "블레이범-3, 히드런-4, 붐볼-3, 로파파-3",
+   "species": "블레이범, 히드런, 붐볼, 로파파",
+   "teams": [
+    "블레이범-3, 히드런-4, 붐볼-3, 로파파-3"
+   ],
+   "late": "",
+   "quote": "포켓몬을 어떻게 키웠나 확인해 줄게",
+   "quote2": "물끄러미...",
+   "sprite": "assets/images/bdsptrainers/pokemonbreeder-f.png",
+   "sprite2": "assets/images/bdsptrainers/cameraman.png"
+  },
+  {
+   "name": "영혜",
+   "class": "포켓몬 브리더",
+   "name2": "스텐리",
+   "class2": "Policeman",
+   "roster": "루카리오-2, 우츠보트-3, 이어롭-2, 윈디-2",
+   "species": "루카리오, 우츠보트, 이어롭, 윈디",
+   "teams": [
+    "루카리오-2, 우츠보트-3, 이어롭-2, 윈디-2"
+   ],
+   "late": "",
+   "quote": "포켓몬을 어떻게 키웠나 확인해 줄게",
+   "quote2": "어이 너~ 거기 너~ 잠깐 기다려 봐~아!",
+   "sprite": "assets/images/bdsptrainers/pokemonbreeder-f.png",
+   "sprite2": "assets/images/bdsptrainers/policeofficer.png"
+  },
+  {
+   "name": "안암",
+   "class": "유적마니아",
+   "name2": "고신",
+   "class2": "포켓몬 컬렉터",
+   "roster": "레지기가스-4, 크레세리아-3, 프리져-1, 우츠보트-2",
+   "species": "레지기가스, 크레세리아, 프리져, 우츠보트",
+   "teams": [
+    "레지기가스-4, 크레세리아-3, 프리져-1, 우츠보트-2"
+   ],
+   "late": "",
+   "quote": "포켓몬 승부의 참맛은 최후의 일격에 있다!",
+   "quote2": "인터넷 친구들이 알려 준 정보를 바탕으로 키웠단다!",
+   "sprite": "assets/images/bdsptrainers/ruinmaniac.png",
+   "sprite2": "assets/images/bdsptrainers/collector.png"
+  },
+  {
+   "name": "안암",
+   "class": "유적마니아",
+   "name2": "도태랑",
+   "class2": "조깅",
+   "roster": "히드런-5, 날쌩마-3, 썬더-4, 엘레이드-2",
+   "species": "히드런, 날쌩마, 썬더, 엘레이드",
+   "teams": [
+    "히드런-5, 날쌩마-3, 썬더-4, 엘레이드-2"
+   ],
+   "late": "",
+   "quote": "포켓몬 승부의 참맛은 최후의 일격에 있다!",
+   "quote2": "내가 왜 여기에 있는 거야...",
+   "sprite": "assets/images/bdsptrainers/ruinmaniac.png",
+   "sprite2": "assets/images/bdsptrainers/jogger.png"
+  },
+  {
+   "name": "박사",
+   "class": "기타리스트",
+   "name2": "조조",
+   "class2": "배틀걸",
+   "roster": "메타그로스-2, 씨카이저-2, 하리뭉-3, 무장조-2",
+   "species": "메타그로스, 씨카이저, 하리뭉, 무장조",
+   "teams": [
+    "메타그로스-2, 씨카이저-2, 하리뭉-3, 무장조-2"
+   ],
+   "late": "",
+   "quote": "호오~ 너, 괜찮잖아",
+   "quote2": "얍~!",
+   "sprite": "assets/images/bdsptrainers/guitarist.png",
+   "sprite2": "assets/images/bdsptrainers/battlegirl.png"
+  },
+  {
+   "name": "박사",
+   "class": "기타리스트",
+   "name2": "얀",
+   "class2": "Socialite",
+   "roster": "밀탱크-2, 버섯모-2, 파비코리-2, 독파리-2",
+   "species": "밀탱크, 버섯모, 파비코리, 독파리",
+   "teams": [
+    "밀탱크-2, 버섯모-2, 파비코리-2, 독파리-2"
+   ],
+   "late": "",
+   "quote": "호오~ 너, 괜찮잖아",
+   "quote2": "아직 어린애잖아",
+   "sprite": "assets/images/bdsptrainers/guitarist.png",
+   "sprite2": "assets/images/bdsptrainers/madame.png"
+  },
+  {
+   "name": "박사",
+   "class": "기타리스트",
+   "name2": "신부",
+   "class2": "베테랑 트레이너",
+   "roster": "메가니움-3, 씨카이저-2, 또도가스-3, 무장조-2",
+   "species": "메가니움, 씨카이저, 또도가스, 무장조",
+   "teams": [
+    "메가니움-3, 씨카이저-2, 또도가스-3, 무장조-2"
+   ],
+   "late": "",
+   "quote": "호오~ 너, 괜찮잖아",
+   "quote2": "벌써 몇 년을 여기에 있지만 정말 질리지 않아",
+   "sprite": "assets/images/bdsptrainers/guitarist.png",
+   "sprite2": "assets/images/bdsptrainers/veteran.png"
+  },
+  {
+   "name": "파오",
+   "class": "아이돌",
+   "name2": "황하",
+   "class2": "포켓몬 브리더",
+   "roster": "플라이곤-2, 썬더-3, 라이코-4, 요가램-3",
+   "species": "플라이곤, 썬더, 라이코, 요가램",
+   "teams": [
+    "플라이곤-2, 썬더-3, 라이코-4, 요가램-3"
+   ],
+   "late": "",
+   "quote": "너, 괜찮겠어? 난 엄청 대단하다구!",
+   "quote2": "엄해도 안 돼... 응석을 받아 줘도 안 돼...",
+   "sprite": "assets/images/bdsptrainers/idol.png",
+   "sprite2": "assets/images/bdsptrainers/pokemonbreeder-f.png"
+  },
+  {
+   "name": "파오",
+   "class": "아이돌",
+   "name2": "펠",
+   "class2": "피에로",
+   "roster": "야도킹-2, 랜턴-3, 메깅-2, 하마돈-2",
+   "species": "야도킹, 랜턴, 메깅, 하마돈",
+   "teams": [
+    "야도킹-2, 랜턴-3, 메깅-2, 하마돈-2"
+   ],
+   "late": "",
+   "quote": "너, 괜찮겠어? 난 엄청 대단하다구!",
+   "quote2": "포켓몬 승부라고 하는 건 말야 모래 위에 쓴 러브레터와 같은 거야",
+   "sprite": "assets/images/bdsptrainers/idol.png",
+   "sprite2": "assets/images/bdsptrainers/clown.png"
+  },
+  {
+   "name": "파오",
+   "class": "아이돌",
+   "name2": "성웅",
+   "class2": "Fisherman",
+   "roster": "레지기가스-5, 골덕-3, 프테라-2, 레지락-1",
+   "species": "레지기가스, 골덕, 프테라, 레지락",
+   "teams": [
+    "레지기가스-5, 골덕-3, 프테라-2, 레지락-1"
+   ],
+   "late": "",
+   "quote": "너, 괜찮겠어? 난 엄청 대단하다구!",
+   "quote2": "신오에서 제일가는 낚시 테크닉! 보여 주도록 하지!",
+   "sprite": "assets/images/bdsptrainers/idol.png",
+   "sprite2": "assets/images/bdsptrainers/fisher.png"
+  }
+ ]
 }
