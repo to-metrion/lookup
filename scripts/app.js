@@ -1520,15 +1520,15 @@ function onNotesFileChosen(input) {
 function applyNotesText(text) {
     const parsed = parseNotes(text);
     pendingNotesImport = parsed;
-    if (!parsed.trainers) {
+    if (!parsed.entries) {
         showNotesImportSummary(
             t('notesNothing', 'No notes were found in that file (check the # / ## headers).'),
             null);
         pendingNotesImport = null;
         return;
     }
-    const summary = t('notesFound', 'Found notes for {t} trainer(s) across {f} facility(ies).')
-        .replace('{t}', parsed.trainers).replace('{f}', parsed.facilities)
+    const summary = t('notesFound', 'Found {t} note(s) across {f} facility(ies).')
+        .replace('{t}', parsed.entries).replace('{f}', parsed.facilities)
         + (parsed.skipped ? ' ' + t('notesSkipped', '{s} unrecognized facility heading(s) skipped.')
             .replace('{s}', parsed.skipped) : '');
     showNotesImportSummary(summary, true);
@@ -1542,7 +1542,7 @@ function showNotesImportSummary(message, showActions) {
 }
 
 function finishNotesImport(mode) {
-    if (pendingNotesImport && pendingNotesImport.trainers) importNotes(pendingNotesImport, mode);
+    if (pendingNotesImport && pendingNotesImport.entries) importNotes(pendingNotesImport, mode);
     pendingNotesImport = null;
     document.getElementById('notes-import-confirm').style.display = 'none';
     updateNotesControls();      // refresh the download-enabled state

@@ -396,6 +396,15 @@ body {
     padding: 0;
 }
 
+/* The fixed reset + reverse-lookup buttons sit at the bottom-right on desktop only (on
+   mobile reset is hidden and reverse moves into the header). Pad the page bottom so content
+   can scroll clear of them — EXCEPT when the notes field is open (`body.notes-open`), since
+   it already stretches to the viewport bottom and provides that room; padding would then be
+   dead scroll under the notes. The notes still sit right under the sets (no gap). */
+@media (min-width: 769px) {
+    body:not(.notes-open) { padding-bottom: 165px; }
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -2330,6 +2339,14 @@ button:focus {
     min-width: 64px;
     padding: 0 16px;
     line-height: 1;
+}
+
+/* Themed monochrome icons on the ⚠️ / 📝 buttons (currentColor follows the button's
+   color: muted normally, --on-accent when the notes toggle is active). */
+.settings-toggle-btn svg {
+    width: 20px;
+    height: 20px;
+    display: block;
 }
 
 .hall-info {

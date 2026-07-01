@@ -169,8 +169,16 @@
                  feature directly; ⓘ tooltip; 💾 download + 📂 import icons show only
                  when notes are enabled). -->
             <div id="warnings-row">
-                <button id="open-warnings" class="settings-toggle-btn" title="Warning settings">⚠️</button>
-                <button id="open-notes" class="settings-toggle-btn" title="Enable trainer notes">📝</button>
+                <button id="open-warnings" class="settings-toggle-btn" title="Warning settings" aria-label="Warning settings">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M12 3.5 21 19H3z"/><path d="M12 9.5v4.5"/><circle cx="12" cy="16.8" r="0.5" fill="currentColor" stroke="none"/>
+                    </svg>
+                </button>
+                <button id="open-notes" class="settings-toggle-btn" title="Enable note-taking" aria-label="Enable note-taking">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M6 3h8l5 5v12a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z"/><path d="M14 3v5h5"/><path d="M8.5 13h6"/><path d="M8.5 16.5h6"/>
+                    </svg>
+                </button>
                 <!-- notes helper controls: 💾/📂 stacked vertically (together the same
                      height as the 📝 button), shown only when notes are enabled, with the
                      ⓘ tooltip to their right. When disabled the icons collapse and ⓘ sits

@@ -766,15 +766,15 @@
     "cht": "訓練家筆記"
   },
   "notesEnableLabel": {
-    "en": "Enable trainer notes",
-    "fr": "Activer les notes de dresseur",
-    "it": "Attiva le note allenatore",
-    "de": "Trainer-Notizen aktivieren",
-    "es": "Activar notas de entrenador",
-    "jp": "トレーナーメモを有効化",
-    "ko": "트레이너 메모 활성화",
-    "chs": "启用训练家笔记",
-    "cht": "啟用訓練家筆記"
+    "en": "Enable note-taking",
+    "fr": "Activer la prise de notes",
+    "it": "Attiva la presa di note",
+    "de": "Notizen aktivieren",
+    "es": "Activar la toma de notas",
+    "jp": "メモ機能を有効化",
+    "ko": "메모 기능 활성화",
+    "chs": "启用记笔记",
+    "cht": "啟用記筆記"
   },
   "notesTeam": {
     "en": "Team",
@@ -797,6 +797,17 @@
     "ko": "이 트레이너의 메모…",
     "chs": "此训练家的笔记…",
     "cht": "此訓練家的筆記…"
+  },
+  "notesSetPlaceholder": {
+    "en": "Notes for this set…",
+    "fr": "Notes pour ce set…",
+    "it": "Note per questo set…",
+    "de": "Notizen zu diesem Set…",
+    "es": "Notas para este set…",
+    "jp": "このセットのメモ…",
+    "ko": "이 세트의 메모…",
+    "chs": "此配置的笔记…",
+    "cht": "此配置的筆記…"
   },
   "notesDownload": {
     "en": "Download",
@@ -854,26 +865,26 @@
     "cht": "取消"
   },
   "notesInfo": {
-    "en": "Your personal notes are saved locally. Lines starting with \"# \" delimit facilities, while \"## \" delimits trainers.",
-    "fr": "Vos notes personnelles sont enregistrées localement. Les lignes commençant par « # » délimitent les zones, tandis que « ## » délimite les dresseurs.",
-    "it": "Le tue note personali sono salvate localmente. Le righe che iniziano con \"# \" delimitano le strutture, mentre \"## \" delimita gli allenatori.",
-    "de": "Deine persönlichen Notizen werden lokal gespeichert. Zeilen, die mit \"# \" beginnen, trennen Anlagen, während \"## \" Trainer trennt.",
-    "es": "Tus notas personales se guardan localmente. Las líneas que empiezan por \"# \" delimitan instalaciones, mientras que \"## \" delimita entrenadores.",
-    "jp": "あなたの個人的なメモは端末内に保存されます。「# 」で始まる行は施設を、「## 」はトレーナーを区切ります。",
-    "ko": "개인 메모는 기기에 로컬로 저장됩니다. \"# \"로 시작하는 줄은 시설을, \"## \"는 트레이너를 구분합니다.",
-    "chs": "你的个人笔记保存在本地。以「# 」开头的行用于分隔设施，而「## 」用于分隔训练家。",
-    "cht": "你的個人筆記儲存在本機。以「# 」開頭的行用於分隔設施，而「## 」用於分隔訓練家。"
+    "en": "Your personal notes are saved locally. Lines starting with \"# \" delimit facilities, while \"## \" delimits trainers and sets.",
+    "fr": "Vos notes personnelles sont enregistrées localement. Les lignes commençant par « # » délimitent les zones, tandis que « ## » délimite les dresseurs et les sets.",
+    "it": "Le tue note personali sono salvate localmente. Le righe che iniziano con \"# \" delimitano le strutture, mentre \"## \" delimita allenatori e set.",
+    "de": "Deine persönlichen Notizen werden lokal gespeichert. Zeilen, die mit \"# \" beginnen, trennen Anlagen, während \"## \" Trainer und Sets trennt.",
+    "es": "Tus notas personales se guardan localmente. Las líneas que empiezan por \"# \" delimitan instalaciones, mientras que \"## \" delimita entrenadores y sets.",
+    "jp": "あなたの個人的なメモは端末内に保存されます。「# 」で始まる行は施設を、「## 」はトレーナーやセットを区切ります。",
+    "ko": "개인 메모는 기기에 로컬로 저장됩니다. \"# \"로 시작하는 줄은 시설을, \"## \"는 트레이너와 세트를 구분합니다.",
+    "chs": "你的个人笔记保存在本地。以「# 」开头的行用于分隔设施，而「## 」用于分隔训练家和配置。",
+    "cht": "你的個人筆記儲存在本機。以「# 」開頭的行用於分隔設施，而「## 」用於分隔訓練家和配置。"
   },
   "notesFound": {
-    "en": "Found notes for {t} trainer(s) across {f} facility(ies).",
-    "fr": "Notes trouvées pour {t} dresseur(s) dans {f} zone(s).",
-    "it": "Trovate note per {t} allenatore/i in {f} struttura/e.",
-    "de": "Notizen für {t} Trainer in {f} Anlage(n) gefunden.",
-    "es": "Notas encontradas para {t} entrenador(es) en {f} instalación(es).",
-    "jp": "{f} 施設・{t} 人のトレーナーのメモが見つかりました。",
-    "ko": "{f}개 시설, {t}명 트레이너의 메모를 찾았습니다.",
-    "chs": "在 {f} 个设施中找到 {t} 位训练家的笔记。",
-    "cht": "在 {f} 個設施中找到 {t} 位訓練家的筆記。"
+    "en": "Found {t} note(s) across {f} facility(ies).",
+    "fr": "{t} note(s) trouvée(s) dans {f} zone(s).",
+    "it": "Trovate {t} nota/e in {f} struttura/e.",
+    "de": "{t} Notiz(en) in {f} Anlage(n) gefunden.",
+    "es": "Se encontraron {t} nota(s) en {f} instalación(es).",
+    "jp": "{f} 施設で {t} 件のメモが見つかりました。",
+    "ko": "{f}개 시설에서 메모 {t}개를 찾았습니다.",
+    "chs": "在 {f} 个设施中找到 {t} 条笔记。",
+    "cht": "在 {f} 個設施中找到 {t} 條筆記。"
   },
   "notesSkipped": {
     "en": "{s} unrecognized facility heading(s) skipped.",

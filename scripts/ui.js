@@ -801,6 +801,7 @@ function ivForSlot(slot) {
 export function showPokemonSets(slot, species) {
     const container = document.getElementById(`pokemon-sets-${slot}`);
     container.innerHTML = '';
+    state.activeSets[slot] = null;   // new species view: no open set until auto/click
 
     // With a trainer, show only the sets on their roster; without one (browse
     // mode), show every set the species has in this facility.
@@ -852,6 +853,7 @@ export function showPokemonSets(slot, species) {
                 showSetDetails(slot, set);
             }
             updateHighlightedRows();
+            renderTrainerNotes();   // set notes (non-BDSP singles) follow the open set
         };
 
         list.appendChild(row);
@@ -874,6 +876,7 @@ export function showPokemonSets(slot, species) {
         container._movesObserver = new ResizeObserver(() => fitMoveGrids(container));
         container._movesObserver.observe(container);
     }
+    renderTrainerNotes();   // set notes (non-BDSP singles) follow the open set
 }
 
 // Move grids default to one 1×4 line; if ANY name in the slot would be
@@ -2465,13 +2468,20 @@ function notesPseudoVariant() {
     return v.hall || v.factory || v.factory3 || v.orderedTrainers;
 }
 
-// The trainer(s) a note field should show for, as [{ key, label }]. Empty when the
-// feature is off, nothing is selected, or the facility has no real trainers. For BDSP
-// (teamView) a trainer/duo with SEVERAL teams keys the note per TEAM (the biggest use
-// case), so the note is tied to the currently-picked team (state.bdspTeam).
-function noteTargets() {
-    if (notesPseudoVariant()) return [];
+// A set's note key: ENGLISH species + set number ("Gliscor-1"), language-independent so a
+// note follows the set in any UI language.
+function setNoteKey(set) {
+    const en = enCounterpart(set);
+    const sp = (en && en.species) || set.species;
+    return (sp != null && set.setNumber != null) ? `${sp}-${set.setNumber}` : null;
+}
 
+// The note field(s) to show, as [{ kind, key, label }]. Empty when the feature is off or
+// nothing is selected. BDSP (teamView) = trainer/team notes (a multi-team trainer keys per
+// team, via state.bdspTeam). Non-BDSP SINGLES = a SET note tied to the open set (works even
+// in trainerless facilities like Hall/Factory/Crystal). Non-BDSP doubles/multis/triples =
+// trainer notes (excluded on pseudo-trainer facilities).
+function noteTargets() {
     if (state.variant.teamView) {
         let base, teams;
         if (isDuoDoubles()) {
@@ -2486,21 +2496,30 @@ function noteTargets() {
             teams = trainerTeams(tr);
         }
         // Single team → one note, no label (the trainer is already named in the big menu).
-        if (teams.length <= 1) return [{ key: base, label: '' }];
+        if (teams.length <= 1) return [{ kind: 'trainers', key: base, label: '' }];
         if (state.bdspTeam == null) return [];          // multi-team: wait for a team pick
         const n = state.bdspTeam + 1;
-        // The KEY carries the trainer + team (storage/export); the visible LABEL is just the
-        // team number (the trainer name is redundant).
-        return [{ key: `${base} — Team ${n}`, label: `${t('notesTeam', 'Team')} ${n}` }];
+        // The KEY carries the trainer + team; the visible LABEL is just the team number.
+        return [{ kind: 'trainers', key: `${base} — Team ${n}`, label: `${t('notesTeam', 'Team')} ${n}` }];
     }
 
+    // Non-BDSP singles: the note is tied to the open set.
+    if (state.mode === 'singles') {
+        const set = state.activeSets[1];
+        if (!set) return [];
+        const key = setNoteKey(set);
+        // No label: the set name is already shown large in the open set detail above.
+        return key ? [{ kind: 'sets', key, label: '' }] : [];
+    }
+
+    // Non-BDSP doubles/multis/triples: trainer notes (not on pseudo-trainer facilities).
+    if (notesPseudoVariant()) return [];
     const out = [];
     for (const side of [1, 2]) {
         const tr = state.trainers[side];
-        if (tr && !tr.wild) { const k = noteKeyFor(tr); out.push({ key: k, label: k }); }
+        if (tr && !tr.wild) { const k = noteKeyFor(tr); out.push({ kind: 'trainers', key: k, label: k }); }
     }
-    // Single trainer → no label (redundant with the trainer menu). Multis keeps the names
-    // so the two stacked fields are distinguishable.
+    // Single trainer → no label (redundant with the trainer menu); multis keeps the names.
     if (out.length === 1) out[0].label = '';
     return out;
 }
@@ -2518,9 +2537,11 @@ export function renderTrainerNotes(force = false) {
         host.style.display = 'none';
         host.dataset.sig = '';
         host.innerHTML = '';
+        document.body.classList.remove('notes-open');   // restore the page bottom padding
         return;
     }
-    const sig = facility + ' ' + targets.map(t => t.key).join('');
+    document.body.classList.add('notes-open');           // notes provide their own clearance
+    const sig = facility + ' ' + targets.map(t => t.kind + ':' + t.key).join('');
     if (!force && host.dataset.sig === sig) { host.style.display = ''; sizeNotes(); return; }
     host.dataset.sig = sig;
     host.innerHTML = '';
@@ -2535,10 +2556,12 @@ export function renderTrainerNotes(force = false) {
         }
         const ta = document.createElement('textarea');
         ta.className = 'trainer-note-input';
-        ta.value = getNote(facility, target.key);     // imported text is inert here
-        ta.placeholder = t('notesPlaceholder', 'Notes for this trainer…');
+        ta.value = getNote(facility, target.kind, target.key);   // imported text is inert here
+        ta.placeholder = target.kind === 'sets'
+            ? t('notesSetPlaceholder', 'Notes for this set…')
+            : t('notesPlaceholder', 'Notes for this trainer…');
         ta.setAttribute('data-key', target.key);
-        ta.addEventListener('input', () => setNote(facility, target.key, ta.value));
+        ta.addEventListener('input', () => setNote(facility, target.kind, target.key, ta.value));
         block.appendChild(ta);
         host.appendChild(block);
     }
